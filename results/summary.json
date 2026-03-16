@@ -1,0 +1,130 @@
+{
+  "escalation_table": [
+    {
+      "dataset": "UNESCO ancient",
+      "sites": 871,
+      "z_25km": 1.22,
+      "z_50km": 1.92,
+      "z_100km": 0.22,
+      "z_200km": 2.74
+    },
+    {
+      "dataset": "Portal only",
+      "sites": 61870,
+      "z_25km": 23.22,
+      "z_50km": 23.71,
+      "z_100km": 19.88,
+      "z_200km": 18.54
+    },
+    {
+      "dataset": "Merged",
+      "sites": 61913,
+      "z_25km": 24.59,
+      "z_50km": 25.85,
+      "z_100km": 23.28,
+      "z_200km": 21.29
+    },
+    {
+      "dataset": "Pleiades all",
+      "sites": 34470,
+      "z_25km": 3.84,
+      "z_50km": 0.19,
+      "z_100km": 2.89,
+      "z_200km": 8.61
+    },
+    {
+      "dataset": "Pleiades pre-2000 BCE",
+      "sites": 778,
+      "z_25km": 10.68,
+      "z_50km": 6.45,
+      "z_100km": 4.02,
+      "z_200km": 5.27
+    }
+  ],
+  "temporal": {
+    "prehistoric_z": 20.86,
+    "later_z": 8.3,
+    "ratio": 2.51
+  },
+  "clusters": [
+    {
+      "start": 4,
+      "end": 7,
+      "max_density": 36,
+      "total_sites": 73,
+      "span_degrees": 4
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "max_density": 59,
+      "total_sites": 59,
+      "span_degrees": 1
+    },
+    {
+      "start": 120,
+      "end": 120,
+      "max_density": 25,
+      "total_sites": 25,
+      "span_degrees": 1
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "max_density": 18,
+      "total_sites": 19,
+      "span_degrees": 2
+    },
+    {
+      "start": 154,
+      "end": 154,
+      "max_density": 15,
+      "total_sites": 15,
+      "span_degrees": 1
+    },
+    {
+      "start": 350,
+      "end": 351,
+      "max_density": 9,
+      "total_sites": 10,
+      "span_degrees": 2
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "max_density": 5,
+      "total_sites": 6,
+      "span_degrees": 2
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "max_density": 4,
+      "total_sites": 4,
+      "span_degrees": 1
+    },
+    {
+      "start": 334,
+      "end": 334,
+      "max_density": 2,
+      "total_sites": 2,
+      "span_degrees": 1
+    },
+    {
+      "start": 1,
+      "end": 1,
+      "max_density": 1,
+      "total_sites": 1,
+      "span_degrees": 1
+    }
+  ],
+  "settlement_baseline": {
+    "monumental_ancient_z": 11.83,
+    "monumental_ancient_enrichment": 5.05,
+    "settlements_ancient_z": -0.95,
+    "settlements_ancient_enrichment": 0.78,
+    "verdict": "MONUMENTAL_ENRICHED — geographic coincidence ruled out"
+  },
+  "108_verdict": "FALSIFIED",
+  "great_circle_verdict": "CONFIRMED"
+}

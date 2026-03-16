@@ -1,0 +1,86 @@
+{
+  "monumental": {
+    "n_sites": 4598,
+    "within_50km": 83,
+    "expected": 47.0,
+    "z_score": 5.12,
+    "enrichment": 1.77
+  },
+  "settlements": {
+    "n_sites": 18037,
+    "within_50km": 118,
+    "expected": 144.7,
+    "z_score": -2.24,
+    "enrichment": 0.82
+  },
+  "monumental_ancient": {
+    "n_sites": 185,
+    "within_50km": 39,
+    "expected": 7.7,
+    "z_score": 11.83,
+    "enrichment": 5.05
+  },
+  "settlements_ancient": {
+    "n_sites": 414,
+    "within_50km": 14,
+    "expected": 17.9,
+    "z_score": -0.95,
+    "enrichment": 0.78
+  },
+  "z_difference_all": 7.36,
+  "z_difference_ancient": 12.78,
+  "verdict": "MONUMENTAL ENRICHED",
+  "verdict_detail": "STRONGEST: Monumental enrichment holds across all periods",
+  "methodology": {
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "threshold_km": 50,
+    "monte_carlo_trials": 200,
+    "jitter_degrees": 2.0,
+    "data_source": "Pleiades Gazetteer (pleiades-places-latest.csv)",
+    "monumental_types": [
+      "acropolis",
+      "amphitheatre",
+      "aqueduct",
+      "arch",
+      "architecturalcomplex",
+      "basilica",
+      "church",
+      "church-2",
+      "dam",
+      "hippodrome",
+      "lighthouse",
+      "monument",
+      "nuraghe",
+      "pyramid",
+      "sanctuary",
+      "shrine",
+      "temple",
+      "temple-2",
+      "theatre",
+      "tomb",
+      "tumulus"
+    ],
+    "settlement_types": [
+      "bath",
+      "bridge",
+      "cistern",
+      "farmstead",
+      "findspot",
+      "fortified-settlement",
+      "mine",
+      "mine-2",
+      "port",
+      "production",
+      "quarry",
+      "settlement",
+      "settlement-modern",
+      "station",
+      "townhouse",
+      "villa",
+      "village"
+    ]
+  }
+}

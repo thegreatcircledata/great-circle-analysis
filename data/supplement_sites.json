@@ -1,0 +1,1085 @@
+{
+  "meta": {
+    "name": "Complete Supplementary Sites - Global Coverage Gaps",
+    "description": "Major archaeological sites worldwide not in the Megalithic Portal database. For merging with the 61,870-site dataset and re-running the Great Circle test.",
+    "total_sites": 114,
+    "within_50km": 20,
+    "within_100km": 27,
+    "within_200km": 33,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087
+    },
+    "regions_covered": [
+      "Cambodia",
+      "Algeria",
+      "Palestine",
+      "Louisiana",
+      "Chile",
+      "Korea",
+      "China",
+      "Ohio",
+      "Laos",
+      "Turkey",
+      "Thailand",
+      "Pakistan",
+      "Vietnam",
+      "Illinois",
+      "Brazil",
+      "Zimbabwe",
+      "Colombia",
+      "Guatemala",
+      "Peru",
+      "India",
+      "Micronesia",
+      "Myanmar",
+      "Indonesia",
+      "Honduras",
+      "Ecuador",
+      "Iran",
+      "Iraq",
+      "Lebanon",
+      "Mexico",
+      "Tonga",
+      "Egypt",
+      "Russia",
+      "Gambia",
+      "Israel",
+      "Argentina",
+      "Jordan",
+      "Ethiopia",
+      "Sri Lanka",
+      "Sudan",
+      "Bolivia"
+    ],
+    "instructions": "Merge these sites with the 61,870 Megalithic Portal sites (dedup within 1km radius), then re-run: (1) Great Circle proximity test at 25/50/100/200km with 200-trial distribution-matched baselines, (2) Temporal analysis (prehistoric vs later), (3) Compare Z-scores to original results to quantify how much the database gaps were suppressing the signal."
+  },
+  "sites": [
+    {
+      "name": "Sukhothai",
+      "lat": 17.019,
+      "lon": 99.703,
+      "date": "13th c CE",
+      "type": "temple",
+      "region": "Thailand",
+      "distance_km": 3.5
+    },
+    {
+      "name": "Palpa Lines",
+      "lat": -14.694,
+      "lon": -75.183,
+      "date": "500 BCE-500 CE",
+      "type": "geoglyph",
+      "region": "Peru",
+      "distance_km": 4.7
+    },
+    {
+      "name": "Tall-e Bakun",
+      "lat": 29.875,
+      "lon": 52.833,
+      "date": "5000 BCE",
+      "type": "settlement",
+      "region": "Iran",
+      "distance_km": 7.0
+    },
+    {
+      "name": "Choquequirao",
+      "lat": -13.393,
+      "lon": -72.877,
+      "date": "1445-1532 CE",
+      "type": "citadel",
+      "region": "Peru",
+      "distance_km": 10.6
+    },
+    {
+      "name": "Persepolis",
+      "lat": 29.935,
+      "lon": 52.891,
+      "date": "518 BCE",
+      "type": "palace",
+      "region": "Iran",
+      "distance_km": 14.2
+    },
+    {
+      "name": "Petra",
+      "lat": 30.329,
+      "lon": 35.444,
+      "date": "312 BCE",
+      "type": "rock_cut_city",
+      "region": "Jordan",
+      "distance_km": 16.4
+    },
+    {
+      "name": "Siwa Oasis Temple of Amun",
+      "lat": 29.203,
+      "lon": 25.517,
+      "date": "6th c BCE",
+      "type": "temple",
+      "region": "Egypt",
+      "distance_km": 16.9
+    },
+    {
+      "name": "Moray terraces",
+      "lat": -13.329,
+      "lon": -72.197,
+      "date": "1400-1532 CE",
+      "type": "terraces",
+      "region": "Peru",
+      "distance_km": 17.0
+    },
+    {
+      "name": "Cahuachi (Nazca capital)",
+      "lat": -14.817,
+      "lon": -75.12,
+      "date": "1-500 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 20.0
+    },
+    {
+      "name": "Estaqueria",
+      "lat": -14.834,
+      "lon": -75.125,
+      "date": "200-600 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 21.4
+    },
+    {
+      "name": "Paredones",
+      "lat": -14.831,
+      "lon": -75.105,
+      "date": "500-1532 CE",
+      "type": "settlement",
+      "region": "Peru",
+      "distance_km": 22.1
+    },
+    {
+      "name": "Cantalloc Aqueducts",
+      "lat": -14.838,
+      "lon": -75.088,
+      "date": "200-600 CE",
+      "type": "aqueducts",
+      "region": "Peru",
+      "distance_km": 23.6
+    },
+    {
+      "name": "Mohenjo-daro",
+      "lat": 27.329,
+      "lon": 68.137,
+      "date": "2500 BCE",
+      "type": "city",
+      "region": "Pakistan",
+      "distance_km": 25.2
+    },
+    {
+      "name": "Preah Vihear",
+      "lat": 14.392,
+      "lon": 104.68,
+      "date": "9th c CE",
+      "type": "temple",
+      "region": "Cambodia",
+      "distance_km": 31.0
+    },
+    {
+      "name": "Vilcashuaman",
+      "lat": -13.643,
+      "lon": -73.942,
+      "date": "1438-1532 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 38.7
+    },
+    {
+      "name": "Pisac",
+      "lat": -13.411,
+      "lon": -71.847,
+      "date": "1440-1532 CE",
+      "type": "citadel",
+      "region": "Peru",
+      "distance_km": 42.7
+    },
+    {
+      "name": "Tambomachay",
+      "lat": -13.479,
+      "lon": -71.961,
+      "date": "1400-1532 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 43.7
+    },
+    {
+      "name": "Puca Pucara",
+      "lat": -13.482,
+      "lon": -71.96,
+      "date": "1400-1532 CE",
+      "type": "fortress",
+      "region": "Peru",
+      "distance_km": 44.0
+    },
+    {
+      "name": "Qenqo",
+      "lat": -13.499,
+      "lon": -71.966,
+      "date": "900-1532 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 45.4
+    },
+    {
+      "name": "Pasargadae",
+      "lat": 30.194,
+      "lon": 53.178,
+      "date": "550 BCE",
+      "type": "palace",
+      "region": "Iran",
+      "distance_km": 45.7
+    },
+    {
+      "name": "Tipon water temple",
+      "lat": -13.58,
+      "lon": -71.79,
+      "date": "1400-1532 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 62.2
+    },
+    {
+      "name": "Eridu oldest Sumerian city",
+      "lat": 30.817,
+      "lon": 45.996,
+      "date": "5400 BCE",
+      "type": "temple",
+      "region": "Iraq",
+      "distance_km": 65.0
+    },
+    {
+      "name": "Jiroft Konar Sandal",
+      "lat": 28.68,
+      "lon": 57.773,
+      "date": "3000 BCE",
+      "type": "city",
+      "region": "Iran",
+      "distance_km": 66.6
+    },
+    {
+      "name": "Geoglyphs of Acre",
+      "lat": -10.15,
+      "lon": -67.767,
+      "date": "200 BCE-1300 CE",
+      "type": "geoglyph",
+      "region": "Brazil",
+      "distance_km": 68.2
+    },
+    {
+      "name": "Pikillacta (Wari)",
+      "lat": -13.613,
+      "lon": -71.718,
+      "date": "600-1000 CE",
+      "type": "city",
+      "region": "Peru",
+      "distance_km": 69.0
+    },
+    {
+      "name": "Ur Ziggurat",
+      "lat": 30.963,
+      "lon": 46.103,
+      "date": "2100 BCE",
+      "type": "ziggurat",
+      "region": "Iraq",
+      "distance_km": 81.7
+    },
+    {
+      "name": "Tassili nAjjer rock art",
+      "lat": 25.5,
+      "lon": 9.0,
+      "date": "6000 BCE",
+      "type": "rock_art",
+      "region": "Algeria",
+      "distance_km": 84.0
+    },
+    {
+      "name": "Wari capital",
+      "lat": -13.063,
+      "lon": -74.177,
+      "date": "600-1000 CE",
+      "type": "city",
+      "region": "Peru",
+      "distance_km": 107.7
+    },
+    {
+      "name": "Raqchi Temple of Wiracocha",
+      "lat": -14.175,
+      "lon": -71.375,
+      "date": "1400-1532 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 141.6
+    },
+    {
+      "name": "Angkor Wat",
+      "lat": 13.412,
+      "lon": 103.867,
+      "date": "12th c CE",
+      "type": "temple",
+      "region": "Cambodia",
+      "distance_km": 167.8
+    },
+    {
+      "name": "Jericho Tell es-Sultan",
+      "lat": 31.871,
+      "lon": 35.444,
+      "date": "9000 BCE",
+      "type": "city",
+      "region": "Palestine",
+      "distance_km": 187.7
+    },
+    {
+      "name": "Mehrgarh",
+      "lat": 29.4,
+      "lon": 67.617,
+      "date": "7000 BCE",
+      "type": "settlement",
+      "region": "Pakistan",
+      "distance_km": 187.7
+    },
+    {
+      "name": "Shahr-e Sukhteh",
+      "lat": 30.6,
+      "lon": 61.333,
+      "date": "3200 BCE",
+      "type": "city",
+      "region": "Iran",
+      "distance_km": 198.5
+    },
+    {
+      "name": "Bagan temples",
+      "lat": 21.172,
+      "lon": 94.858,
+      "date": "9th c CE",
+      "type": "temple",
+      "region": "Myanmar",
+      "distance_km": 203.1
+    },
+    {
+      "name": "My Son sanctuary",
+      "lat": 15.764,
+      "lon": 108.128,
+      "date": "4th c CE",
+      "type": "temple",
+      "region": "Vietnam",
+      "distance_km": 274.1
+    },
+    {
+      "name": "Atlit Yam submerged",
+      "lat": 32.711,
+      "lon": 34.939,
+      "date": "7000 BCE",
+      "type": "settlement",
+      "region": "Israel",
+      "distance_km": 283.5
+    },
+    {
+      "name": "Pachacamac",
+      "lat": -12.262,
+      "lon": -76.898,
+      "date": "200-1533 CE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 320.1
+    },
+    {
+      "name": "Rego Grande stone circle",
+      "lat": 2.05,
+      "lon": -51.083,
+      "date": "500-2000 CE",
+      "type": "stone_circle",
+      "region": "Brazil",
+      "distance_km": 334.0
+    },
+    {
+      "name": "Huaca Pucllana",
+      "lat": -12.111,
+      "lon": -77.034,
+      "date": "400-500 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 341.8
+    },
+    {
+      "name": "Dholavira",
+      "lat": 23.886,
+      "lon": 70.209,
+      "date": "3000 BCE",
+      "type": "city",
+      "region": "India",
+      "distance_km": 348.3
+    },
+    {
+      "name": "Sillustani towers",
+      "lat": -15.726,
+      "lon": -70.155,
+      "date": "1200-1450 CE",
+      "type": "tower",
+      "region": "Peru",
+      "distance_km": 355.3
+    },
+    {
+      "name": "El Paraiso",
+      "lat": -11.879,
+      "lon": -77.117,
+      "date": "2000-1500 BCE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 368.9
+    },
+    {
+      "name": "Plain of Jars",
+      "lat": 19.43,
+      "lon": 103.153,
+      "date": "500 BCE",
+      "type": "jar_burial",
+      "region": "Laos",
+      "distance_km": 397.0
+    },
+    {
+      "name": "Senegambian stone circles",
+      "lat": 13.691,
+      "lon": -15.526,
+      "date": "300 BCE",
+      "type": "stone_circle",
+      "region": "Gambia",
+      "distance_km": 405.4
+    },
+    {
+      "name": "Abydos",
+      "lat": 26.185,
+      "lon": 31.919,
+      "date": "3100 BCE",
+      "type": "temple",
+      "region": "Egypt",
+      "distance_km": 420.0
+    },
+    {
+      "name": "Baalbek trilithon",
+      "lat": 34.007,
+      "lon": 36.204,
+      "date": "1st c BCE",
+      "type": "temple",
+      "region": "Lebanon",
+      "distance_km": 421.5
+    },
+    {
+      "name": "Haamonga trilithon",
+      "lat": -21.142,
+      "lon": -175.039,
+      "date": "1200 CE",
+      "type": "trilithon",
+      "region": "Tonga",
+      "distance_km": 431.7
+    },
+    {
+      "name": "Isla del Sol",
+      "lat": -16.02,
+      "lon": -69.176,
+      "date": "2200 BCE-1532 CE",
+      "type": "shrine",
+      "region": "Bolivia",
+      "distance_km": 433.6
+    },
+    {
+      "name": "Byblos",
+      "lat": 34.121,
+      "lon": 35.648,
+      "date": "5000 BCE",
+      "type": "city",
+      "region": "Lebanon",
+      "distance_km": 436.6
+    },
+    {
+      "name": "Lothal",
+      "lat": 22.522,
+      "lon": 72.25,
+      "date": "3700 BCE",
+      "type": "city",
+      "region": "India",
+      "distance_km": 442.5
+    },
+    {
+      "name": "Harappa",
+      "lat": 30.631,
+      "lon": 72.868,
+      "date": "3300 BCE",
+      "type": "city",
+      "region": "Pakistan",
+      "distance_km": 443.8
+    },
+    {
+      "name": "Tepe Sialk",
+      "lat": 33.966,
+      "lon": 51.419,
+      "date": "5500 BCE",
+      "type": "settlement",
+      "region": "Iran",
+      "distance_km": 447.3
+    },
+    {
+      "name": "Bandurria",
+      "lat": -11.167,
+      "lon": -77.567,
+      "date": "3200-1800 BCE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 461.6
+    },
+    {
+      "name": "Karnak Temple complex",
+      "lat": 25.719,
+      "lon": 32.657,
+      "date": "2000 BCE",
+      "type": "temple",
+      "region": "Egypt",
+      "distance_km": 477.5
+    },
+    {
+      "name": "Caral-Supe",
+      "lat": -10.893,
+      "lon": -77.52,
+      "date": "3000-1800 BCE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 486.6
+    },
+    {
+      "name": "Aspero",
+      "lat": -10.803,
+      "lon": -77.639,
+      "date": "3000-1800 BCE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 501.4
+    },
+    {
+      "name": "Tiwanaku",
+      "lat": -16.556,
+      "lon": -68.674,
+      "date": "1500 BCE-1000 CE",
+      "type": "temple",
+      "region": "Bolivia",
+      "distance_km": 511.5
+    },
+    {
+      "name": "Pumapunku",
+      "lat": -16.562,
+      "lon": -68.68,
+      "date": "536-600 CE",
+      "type": "temple",
+      "region": "Bolivia",
+      "distance_km": 511.8
+    },
+    {
+      "name": "Kotosh Temple of Crossed Hands",
+      "lat": -9.934,
+      "lon": -76.266,
+      "date": "3000-300 BCE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 520.9
+    },
+    {
+      "name": "Chavin de Huantar",
+      "lat": -9.593,
+      "lon": -77.177,
+      "date": "1200-400 BCE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 599.4
+    },
+    {
+      "name": "Chankillo Observatory",
+      "lat": -9.558,
+      "lon": -78.229,
+      "date": "400-200 BCE",
+      "type": "observatory",
+      "region": "Peru",
+      "distance_km": 654.1
+    },
+    {
+      "name": "Sechin Bajo",
+      "lat": -9.475,
+      "lon": -78.267,
+      "date": "3500-1500 BCE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 664.2
+    },
+    {
+      "name": "Cerro Sechin",
+      "lat": -9.468,
+      "lon": -78.265,
+      "date": "1600 BCE",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 664.8
+    },
+    {
+      "name": "Gobekli Tepe",
+      "lat": 37.223,
+      "lon": 38.922,
+      "date": "9600 BCE",
+      "type": "temple",
+      "region": "Turkey",
+      "distance_km": 770.6
+    },
+    {
+      "name": "Karahan Tepe",
+      "lat": 37.258,
+      "lon": 39.259,
+      "date": "9400 BCE",
+      "type": "temple",
+      "region": "Turkey",
+      "distance_km": 773.9
+    },
+    {
+      "name": "Atacama geoglyphs",
+      "lat": -19.948,
+      "lon": -69.633,
+      "date": "600-1500 CE",
+      "type": "geoglyph",
+      "region": "Chile",
+      "distance_km": 795.2
+    },
+    {
+      "name": "Nabta Playa stone circle",
+      "lat": 22.517,
+      "lon": 30.717,
+      "date": "5000 BCE",
+      "type": "stone_circle",
+      "region": "Egypt",
+      "distance_km": 815.5
+    },
+    {
+      "name": "Huaca de la Luna",
+      "lat": -8.128,
+      "lon": -78.985,
+      "date": "100-600 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 833.4
+    },
+    {
+      "name": "Huaca del Sol",
+      "lat": -8.127,
+      "lon": -78.993,
+      "date": "100-600 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 833.9
+    },
+    {
+      "name": "Chan Chan",
+      "lat": -8.108,
+      "lon": -79.075,
+      "date": "850-1470 CE",
+      "type": "city",
+      "region": "Peru",
+      "distance_km": 839.8
+    },
+    {
+      "name": "Abu Simbel",
+      "lat": 22.337,
+      "lon": 31.626,
+      "date": "1264 BCE",
+      "type": "temple",
+      "region": "Egypt",
+      "distance_km": 843.8
+    },
+    {
+      "name": "Catalhoyuk",
+      "lat": 37.666,
+      "lon": 32.828,
+      "date": "7500 BCE",
+      "type": "city",
+      "region": "Turkey",
+      "distance_km": 845.9
+    },
+    {
+      "name": "Burzahom megaliths",
+      "lat": 34.169,
+      "lon": 74.878,
+      "date": "3000 BCE",
+      "type": "megalith",
+      "region": "India",
+      "distance_km": 873.7
+    },
+    {
+      "name": "Samaipata El Fuerte",
+      "lat": -18.174,
+      "lon": -63.814,
+      "date": "1400 BCE-1532 CE",
+      "type": "rock",
+      "region": "Bolivia",
+      "distance_km": 918.6
+    },
+    {
+      "name": "Kuelap fortress",
+      "lat": -6.417,
+      "lon": -77.924,
+      "date": "500-1570 CE",
+      "type": "fortress",
+      "region": "Peru",
+      "distance_km": 952.3
+    },
+    {
+      "name": "Sipan",
+      "lat": -6.812,
+      "lon": -79.587,
+      "date": "100-700 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 994.0
+    },
+    {
+      "name": "Tucume pyramids",
+      "lat": -6.514,
+      "lon": -79.846,
+      "date": "1000-1532 CE",
+      "type": "pyramid",
+      "region": "Peru",
+      "distance_km": 1036.3
+    },
+    {
+      "name": "Brahmagiri megalithic",
+      "lat": 15.043,
+      "lon": 76.362,
+      "date": "3000 BCE",
+      "type": "megalith",
+      "region": "India",
+      "distance_km": 1121.8
+    },
+    {
+      "name": "Serra da Capivara rock art",
+      "lat": -8.833,
+      "lon": -42.55,
+      "date": "25000 BCE",
+      "type": "rock_art",
+      "region": "Brazil",
+      "distance_km": 1188.4
+    },
+    {
+      "name": "Ingapirca",
+      "lat": -2.545,
+      "lon": -78.879,
+      "date": "1470-1532 CE",
+      "type": "temple",
+      "region": "Ecuador",
+      "distance_km": 1384.9
+    },
+    {
+      "name": "Meroe pyramids",
+      "lat": 16.938,
+      "lon": 33.749,
+      "date": "800 BCE",
+      "type": "pyramid",
+      "region": "Sudan",
+      "distance_km": 1459.5
+    },
+    {
+      "name": "Caucasus dolmens Sochi",
+      "lat": 43.585,
+      "lon": 39.723,
+      "date": "3000 BCE",
+      "type": "dolmen",
+      "region": "Russia",
+      "distance_km": 1476.7
+    },
+    {
+      "name": "Marayur dolmens",
+      "lat": 10.277,
+      "lon": 77.159,
+      "date": "2000 BCE",
+      "type": "dolmen",
+      "region": "India",
+      "distance_km": 1601.6
+    },
+    {
+      "name": "Quilmes city",
+      "lat": -26.467,
+      "lon": -66.033,
+      "date": "850-1667 CE",
+      "type": "city",
+      "region": "Argentina",
+      "distance_km": 1607.4
+    },
+    {
+      "name": "Cochasqui pyramids",
+      "lat": 0.074,
+      "lon": -78.317,
+      "date": "900-1550 CE",
+      "type": "pyramid",
+      "region": "Ecuador",
+      "distance_km": 1616.9
+    },
+    {
+      "name": "San Agustin megaliths",
+      "lat": 1.889,
+      "lon": -76.296,
+      "date": "1-900 CE",
+      "type": "megalith",
+      "region": "Colombia",
+      "distance_km": 1693.3
+    },
+    {
+      "name": "Sigiriya",
+      "lat": 7.957,
+      "lon": 80.76,
+      "date": "5th c CE",
+      "type": "fortress",
+      "region": "Sri Lanka",
+      "distance_km": 1720.1
+    },
+    {
+      "name": "Tierradentro tombs",
+      "lat": 2.59,
+      "lon": -76.03,
+      "date": "600-900 CE",
+      "type": "tomb",
+      "region": "Colombia",
+      "distance_km": 1748.6
+    },
+    {
+      "name": "Adichanallur burial urns",
+      "lat": 8.719,
+      "lon": 77.643,
+      "date": "1000 BCE",
+      "type": "burial",
+      "region": "India",
+      "distance_km": 1750.1
+    },
+    {
+      "name": "Axum obelisks",
+      "lat": 14.131,
+      "lon": 38.719,
+      "date": "4th c CE",
+      "type": "stela",
+      "region": "Ethiopia",
+      "distance_km": 1796.0
+    },
+    {
+      "name": "Borobudur",
+      "lat": -7.608,
+      "lon": 110.204,
+      "date": "8th c CE",
+      "type": "temple",
+      "region": "Indonesia",
+      "distance_km": 1906.2
+    },
+    {
+      "name": "Gunung Padang",
+      "lat": -6.995,
+      "lon": 107.056,
+      "date": "debated",
+      "type": "pyramid",
+      "region": "Indonesia",
+      "distance_km": 2016.3
+    },
+    {
+      "name": "Lalibela rock churches",
+      "lat": 12.032,
+      "lon": 39.043,
+      "date": "12th c CE",
+      "type": "rock_cut",
+      "region": "Ethiopia",
+      "distance_km": 2030.1
+    },
+    {
+      "name": "Nan Madol",
+      "lat": 6.844,
+      "lon": 158.334,
+      "date": "1100 CE",
+      "type": "megalith",
+      "region": "Micronesia",
+      "distance_km": 2144.8
+    },
+    {
+      "name": "Lelu ruins Kosrae",
+      "lat": 5.333,
+      "lon": 163.017,
+      "date": "1400 CE",
+      "type": "megalith",
+      "region": "Micronesia",
+      "distance_km": 2238.2
+    },
+    {
+      "name": "Tiya stelae",
+      "lat": 8.438,
+      "lon": 38.617,
+      "date": "12th c CE",
+      "type": "stela",
+      "region": "Ethiopia",
+      "distance_km": 2428.6
+    },
+    {
+      "name": "Ciudad Perdida",
+      "lat": 11.038,
+      "lon": -73.925,
+      "date": "800 CE",
+      "type": "city",
+      "region": "Colombia",
+      "distance_km": 2462.2
+    },
+    {
+      "name": "Hwasun dolmens UNESCO",
+      "lat": 34.978,
+      "lon": 126.932,
+      "date": "1000 BCE",
+      "type": "dolmen",
+      "region": "Korea",
+      "distance_km": 3067.1
+    },
+    {
+      "name": "Gochang dolmens UNESCO",
+      "lat": 35.435,
+      "lon": 126.604,
+      "date": "1000 BCE",
+      "type": "dolmen",
+      "region": "Korea",
+      "distance_km": 3092.0
+    },
+    {
+      "name": "Ganghwa dolmens UNESCO",
+      "lat": 37.747,
+      "lon": 126.412,
+      "date": "1000 BCE",
+      "type": "dolmen",
+      "region": "Korea",
+      "distance_km": 3292.8
+    },
+    {
+      "name": "Cueva de las Manos",
+      "lat": -47.153,
+      "lon": -70.666,
+      "date": "9300 BCE",
+      "type": "rock_art",
+      "region": "Argentina",
+      "distance_km": 3366.3
+    },
+    {
+      "name": "Copan",
+      "lat": 14.84,
+      "lon": -89.141,
+      "date": "426 CE",
+      "type": "pyramid",
+      "region": "Honduras",
+      "distance_km": 3619.3
+    },
+    {
+      "name": "Jilin dolmens China",
+      "lat": 42.896,
+      "lon": 126.56,
+      "date": "500 BCE",
+      "type": "dolmen",
+      "region": "China",
+      "distance_km": 3761.7
+    },
+    {
+      "name": "Tikal",
+      "lat": 17.222,
+      "lon": -89.624,
+      "date": "400 BCE",
+      "type": "pyramid",
+      "region": "Guatemala",
+      "distance_km": 3878.2
+    },
+    {
+      "name": "Chichen Itza",
+      "lat": 20.683,
+      "lon": -88.569,
+      "date": "600 CE",
+      "type": "pyramid",
+      "region": "Mexico",
+      "distance_km": 4163.9
+    },
+    {
+      "name": "La Venta Olmec",
+      "lat": 18.103,
+      "lon": -94.04,
+      "date": "1200 BCE",
+      "type": "pyramid",
+      "region": "Mexico",
+      "distance_km": 4178.9
+    },
+    {
+      "name": "Monte Alban",
+      "lat": 17.044,
+      "lon": -96.768,
+      "date": "500 BCE",
+      "type": "pyramid",
+      "region": "Mexico",
+      "distance_km": 4199.3
+    },
+    {
+      "name": "Cholula Great Pyramid",
+      "lat": 19.058,
+      "lon": -98.301,
+      "date": "300 BCE",
+      "type": "pyramid",
+      "region": "Mexico",
+      "distance_km": 4471.0
+    },
+    {
+      "name": "Teotihuacan",
+      "lat": 19.692,
+      "lon": -98.844,
+      "date": "100 BCE",
+      "type": "pyramid",
+      "region": "Mexico",
+      "distance_km": 4559.1
+    },
+    {
+      "name": "Poverty Point",
+      "lat": 32.637,
+      "lon": -91.408,
+      "date": "1700 BCE",
+      "type": "earthwork",
+      "region": "Louisiana",
+      "distance_km": 5443.8
+    },
+    {
+      "name": "Watson Brake",
+      "lat": 32.506,
+      "lon": -91.87,
+      "date": "3500 BCE",
+      "type": "mound",
+      "region": "Louisiana",
+      "distance_km": 5456.1
+    },
+    {
+      "name": "Great Zimbabwe",
+      "lat": -20.267,
+      "lon": 30.933,
+      "date": "11th c CE",
+      "type": "city",
+      "region": "Zimbabwe",
+      "distance_km": 5546.5
+    },
+    {
+      "name": "Serpent Mound",
+      "lat": 39.025,
+      "lon": -83.431,
+      "date": "321 BCE",
+      "type": "earthwork",
+      "region": "Ohio",
+      "distance_km": 5572.4
+    },
+    {
+      "name": "Cahokia Monks Mound",
+      "lat": 38.655,
+      "lon": -90.062,
+      "date": "600 CE",
+      "type": "mound",
+      "region": "Illinois",
+      "distance_km": 5908.0
+    }
+  ]
+}

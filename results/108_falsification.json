@@ -1,0 +1,14 @@
+{
+  "test": "108\u00b0 Angular Separation",
+  "dataset": "UNESCO Cultural Heritage",
+  "n_sites": 871,
+  "target_angle": 108.0,
+  "tolerance": 0.5,
+  "observed_pairs": 1209,
+  "baseline_mean": 1347.9,
+  "baseline_std": 100.6,
+  "z_score": -1.38,
+  "p_value": 0.91,
+  "n_trials": 100,
+  "verdict": "FALSIFIED"
+}

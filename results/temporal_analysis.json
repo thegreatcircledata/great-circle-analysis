@@ -1,0 +1,78 @@
+{
+  "prehistoric": {
+    "n_sites": 35324,
+    "results": {
+      "25": {
+        "observed": 163,
+        "baseline_mean": 31.2,
+        "baseline_std": 6.1,
+        "z_score": 21.52,
+        "enrichment": 5.22,
+        "p_value": 0.0
+      },
+      "50": {
+        "observed": 236,
+        "baseline_mean": 62.3,
+        "baseline_std": 8.3,
+        "z_score": 20.86,
+        "enrichment": 3.79,
+        "p_value": 0.0
+      },
+      "100": {
+        "observed": 335,
+        "baseline_mean": 126.4,
+        "baseline_std": 11.6,
+        "z_score": 17.95,
+        "enrichment": 2.65,
+        "p_value": 0.0
+      },
+      "200": {
+        "observed": 591,
+        "baseline_mean": 256.3,
+        "baseline_std": 15.8,
+        "z_score": 21.14,
+        "enrichment": 2.31,
+        "p_value": 0.0
+      }
+    }
+  },
+  "later": {
+    "n_sites": 25851,
+    "results": {
+      "25": {
+        "observed": 38,
+        "baseline_mean": 12.6,
+        "baseline_std": 3.1,
+        "z_score": 8.1,
+        "enrichment": 3.02,
+        "p_value": 0.0
+      },
+      "50": {
+        "observed": 67,
+        "baseline_mean": 25.8,
+        "baseline_std": 5.0,
+        "z_score": 8.3,
+        "enrichment": 2.6,
+        "p_value": 0.0
+      },
+      "100": {
+        "observed": 83,
+        "baseline_mean": 51.8,
+        "baseline_std": 6.8,
+        "z_score": 4.57,
+        "enrichment": 1.6,
+        "p_value": 0.0
+      },
+      "200": {
+        "observed": 126,
+        "baseline_mean": 103.5,
+        "baseline_std": 10.2,
+        "z_score": 2.21,
+        "enrichment": 1.22,
+        "p_value": 0.02
+      }
+    }
+  },
+  "unclassified_count": 738,
+  "ratio_50km": 2.51
+}

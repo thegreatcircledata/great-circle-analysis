@@ -1,0 +1,359 @@
+{
+  "types_analyzed": 59,
+  "enrichment": [
+    {
+      "type": "Hill Figure or Geoglyph",
+      "total": 45,
+      "within_50km": 11,
+      "percentage": 24.44
+    },
+    {
+      "type": "Pyramid  Mastaba",
+      "total": 195,
+      "within_50km": 32,
+      "percentage": 16.41
+    },
+    {
+      "type": "Ancient Temple",
+      "total": 894,
+      "within_50km": 55,
+      "percentage": 6.15
+    },
+    {
+      "type": "Ancient Mine, Quarry or other Industry",
+      "total": 288,
+      "within_50km": 14,
+      "percentage": 4.86
+    },
+    {
+      "type": "Ancient Palace",
+      "total": 70,
+      "within_50km": 2,
+      "percentage": 2.86
+    },
+    {
+      "type": "Carving",
+      "total": 438,
+      "within_50km": 12,
+      "percentage": 2.74
+    },
+    {
+      "type": "Misc Earthwork",
+      "total": 644,
+      "within_50km": 16,
+      "percentage": 2.48
+    },
+    {
+      "type": "Sculptured Stone",
+      "total": 479,
+      "within_50km": 11,
+      "percentage": 2.3
+    },
+    {
+      "type": "Standing Stones",
+      "total": 1066,
+      "within_50km": 23,
+      "percentage": 2.16
+    },
+    {
+      "type": "Ancient Village or Settlement",
+      "total": 4698,
+      "within_50km": 80,
+      "percentage": 1.7
+    },
+    {
+      "type": "Causewayed Enclosure",
+      "total": 89,
+      "within_50km": 1,
+      "percentage": 1.12
+    },
+    {
+      "type": "Chambered Cairn",
+      "total": 686,
+      "within_50km": 7,
+      "percentage": 1.02
+    },
+    {
+      "type": "Rock Cut Tomb",
+      "total": 366,
+      "within_50km": 3,
+      "percentage": 0.82
+    },
+    {
+      "type": "Ancient Trackway",
+      "total": 164,
+      "within_50km": 1,
+      "percentage": 0.61
+    },
+    {
+      "type": "Museum",
+      "total": 1182,
+      "within_50km": 7,
+      "percentage": 0.59
+    },
+    {
+      "type": "Stone Fort or Dun",
+      "total": 385,
+      "within_50km": 2,
+      "percentage": 0.52
+    },
+    {
+      "type": "Hillfort",
+      "total": 2197,
+      "within_50km": 5,
+      "percentage": 0.23
+    },
+    {
+      "type": "Rock Art",
+      "total": 3324,
+      "within_50km": 7,
+      "percentage": 0.21
+    },
+    {
+      "type": "Barrow Cemetery",
+      "total": 2190,
+      "within_50km": 4,
+      "percentage": 0.18
+    },
+    {
+      "type": "Natural Stone  Erratic  Other Natural Feature",
+      "total": 1328,
+      "within_50km": 2,
+      "percentage": 0.15
+    },
+    {
+      "type": "Standing Stone (Menhir)",
+      "total": 5553,
+      "within_50km": 7,
+      "percentage": 0.13
+    },
+    {
+      "type": "Stone Row  Alignment",
+      "total": 758,
+      "within_50km": 1,
+      "percentage": 0.13
+    },
+    {
+      "type": "Chambered Tomb",
+      "total": 1682,
+      "within_50km": 2,
+      "percentage": 0.12
+    },
+    {
+      "type": "Holy Well or Sacred Spring",
+      "total": 1854,
+      "within_50km": 2,
+      "percentage": 0.11
+    },
+    {
+      "type": "Cave or Rock Shelter",
+      "total": 1260,
+      "within_50km": 1,
+      "percentage": 0.08
+    },
+    {
+      "type": "Burial Chamber or Dolmen",
+      "total": 7932,
+      "within_50km": 2,
+      "percentage": 0.03
+    },
+    {
+      "type": "Round Barrow(s)",
+      "total": 5117,
+      "within_50km": 1,
+      "percentage": 0.02
+    },
+    {
+      "type": "Ancient Cross",
+      "total": 1010,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Artificial Mound",
+      "total": 845,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Broch or Nuraghe",
+      "total": 1444,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Cairn",
+      "total": 2274,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Castro or Chafurd\u00e3o",
+      "total": 1121,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Cist",
+      "total": 548,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Class III Pictish Cross Slab",
+      "total": 24,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Class II Pictish Symbol Stone",
+      "total": 29,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Class I Pictish Symbol Stone",
+      "total": 113,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Court Tomb",
+      "total": 71,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Crannog",
+      "total": 95,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Cursus",
+      "total": 304,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Early Christian Sculptured Stone",
+      "total": 276,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Henge",
+      "total": 190,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Holed Stone",
+      "total": 65,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Long Barrow",
+      "total": 1648,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Marker Stone",
+      "total": 354,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Modern Stone Circle etc",
+      "total": 1092,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Multiple Stone Rows  Avenue",
+      "total": 140,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Not Known (by us)",
+      "total": 94,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Passage Grave",
+      "total": 1312,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Polissoir",
+      "total": 140,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Portal Tomb",
+      "total": 71,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Promontory Fort  Cliff Castle",
+      "total": 225,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Ring Cairn",
+      "total": 388,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Rock Outcrop",
+      "total": 266,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Round Cairn",
+      "total": 280,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Souterrain (Fogou, Earth House)",
+      "total": 77,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Stone Circle",
+      "total": 2217,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Timber Circle",
+      "total": 79,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Turf Maze",
+      "total": 40,
+      "within_50km": 0,
+      "percentage": 0.0
+    },
+    {
+      "type": "Wedge Tomb",
+      "total": 121,
+      "within_50km": 0,
+      "percentage": 0.0
+    }
+  ]
+}

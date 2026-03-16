@@ -1,0 +1,17 @@
+{
+  "on_line": {
+    "count": 295,
+    "mean_age": -2325,
+    "median_age": -3000
+  },
+  "off_line": {
+    "count": 60931,
+    "mean_age": -2207,
+    "median_age": -3000
+  },
+  "comparison": {
+    "mean_difference": -117,
+    "median_difference": 0,
+    "on_line_older": true
+  }
+}

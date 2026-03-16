@@ -1,0 +1,88 @@
+{
+  "n_sites": 43,
+  "results": {
+    "25": {
+      "observed": 7,
+      "baseline_mean": 0.6,
+      "baseline_std": 0.7,
+      "z_score": 8.79,
+      "enrichment": 11.76,
+      "p_value": 0.0
+    },
+    "50": {
+      "observed": 8,
+      "baseline_mean": 1.0,
+      "baseline_std": 1.0,
+      "z_score": 7.28,
+      "enrichment": 7.84,
+      "p_value": 0.0
+    },
+    "100": {
+      "observed": 12,
+      "baseline_mean": 1.9,
+      "baseline_std": 1.4,
+      "z_score": 7.19,
+      "enrichment": 6.25,
+      "p_value": 0.0
+    },
+    "200": {
+      "observed": 16,
+      "baseline_mean": 3.8,
+      "baseline_std": 1.9,
+      "z_score": 6.39,
+      "enrichment": 4.2,
+      "p_value": 0.0
+    }
+  },
+  "sites_within_50km": [
+    {
+      "name": "Sukhothai",
+      "type": "temple",
+      "region": "Thailand",
+      "distance_km": 4.0
+    },
+    {
+      "name": "Palpa Lines",
+      "type": "geoglyph",
+      "region": "Peru",
+      "distance_km": 5.2
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "settlement",
+      "region": "Iran",
+      "distance_km": 6.5
+    },
+    {
+      "name": "Siwa Oasis Temple of Amun",
+      "type": "temple",
+      "region": "Egypt",
+      "distance_km": 17.4
+    },
+    {
+      "name": "Estaqueria",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 21.9
+    },
+    {
+      "name": "Paredones",
+      "type": "settlement",
+      "region": "Peru",
+      "distance_km": 22.6
+    },
+    {
+      "name": "Cantalloc Aqueducts",
+      "type": "aqueducts",
+      "region": "Peru",
+      "distance_km": 24.1
+    },
+    {
+      "name": "Vilcashuaman",
+      "type": "temple",
+      "region": "Peru",
+      "distance_km": 38.2
+    }
+  ],
+  "interpretation": "These 114 sites were hand-selected as major world archaeological sites missing from the Megalithic Portal. A high Z-score could reflect genuine alignment OR selection bias toward famous sites near the circle."
+}

@@ -1,0 +1,2 @@
+# No external dependencies required — uses Python 3.7+ stdlib only.
+# (csv, json, math, random, xml.etree, gzip, urllib)
