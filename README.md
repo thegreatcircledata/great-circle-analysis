@@ -145,8 +145,9 @@ The script uses `random.seed(42)` for reproducibility. Results should match with
 If you use this analysis or code, please cite:
 
 ```
-Allan, E. (2026). Deep Time Atlas: Statistical Analysis of the Great Circle Hypothesis.
-https://github.com/[repo]
+[Anonymous]. (2026). Statistical Analysis of Ancient Monumental Site Distribution 
+Along a Proposed Great Circle Alignment. The Great Circle Project.
+https://doi.org/10.5281/zenodo.19046176
 ```
 
 ## Acknowledgments
