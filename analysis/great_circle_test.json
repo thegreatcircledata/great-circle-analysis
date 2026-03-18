@@ -1,0 +1,116 @@
+{
+  "unesco": {
+    "dataset": "UNESCO ancient",
+    "n_sites": 871,
+    "results": {
+      "25": {
+        "observed": 6,
+        "baseline_mean": 3.6,
+        "baseline_std": 2.0,
+        "z_score": 1.22,
+        "enrichment": 1.67,
+        "p_value": 0.165
+      },
+      "50": {
+        "observed": 12,
+        "baseline_mean": 7.0,
+        "baseline_std": 2.6,
+        "z_score": 1.92,
+        "enrichment": 1.72,
+        "p_value": 0.055
+      },
+      "100": {
+        "observed": 15,
+        "baseline_mean": 14.1,
+        "baseline_std": 4.0,
+        "z_score": 0.22,
+        "enrichment": 1.06,
+        "p_value": 0.435
+      },
+      "200": {
+        "observed": 43,
+        "baseline_mean": 29.0,
+        "baseline_std": 5.1,
+        "z_score": 2.74,
+        "enrichment": 1.48,
+        "p_value": 0.01
+      }
+    }
+  },
+  "portal": {
+    "dataset": "Megalithic Portal only",
+    "n_sites": 61870,
+    "results": {
+      "25": {
+        "observed": 200,
+        "baseline_mean": 43.9,
+        "baseline_std": 6.7,
+        "z_score": 23.22,
+        "enrichment": 4.55,
+        "p_value": 0.0
+      },
+      "50": {
+        "observed": 311,
+        "baseline_mean": 88.4,
+        "baseline_std": 9.4,
+        "z_score": 23.71,
+        "enrichment": 3.52,
+        "p_value": 0.0
+      },
+      "100": {
+        "observed": 442,
+        "baseline_mean": 178.4,
+        "baseline_std": 13.3,
+        "z_score": 19.88,
+        "enrichment": 2.48,
+        "p_value": 0.0
+      },
+      "200": {
+        "observed": 745,
+        "baseline_mean": 360.8,
+        "baseline_std": 20.7,
+        "z_score": 18.54,
+        "enrichment": 2.06,
+        "p_value": 0.0
+      }
+    }
+  },
+  "merged": {
+    "dataset": "Merged (Portal + Supplement)",
+    "n_sites": 61913,
+    "results": {
+      "25": {
+        "observed": 207,
+        "baseline_mean": 43.9,
+        "baseline_std": 6.6,
+        "z_score": 24.59,
+        "enrichment": 4.71,
+        "p_value": 0.0
+      },
+      "50": {
+        "observed": 319,
+        "baseline_mean": 87.7,
+        "baseline_std": 8.9,
+        "z_score": 25.85,
+        "enrichment": 3.64,
+        "p_value": 0.0
+      },
+      "100": {
+        "observed": 454,
+        "baseline_mean": 177.0,
+        "baseline_std": 11.9,
+        "z_score": 23.28,
+        "enrichment": 2.56,
+        "p_value": 0.0
+      },
+      "200": {
+        "observed": 761,
+        "baseline_mean": 358.8,
+        "baseline_std": 18.9,
+        "z_score": 21.29,
+        "enrichment": 2.12,
+        "p_value": 0.0
+      }
+    }
+  }
+}
