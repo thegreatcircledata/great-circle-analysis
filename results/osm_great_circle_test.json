@@ -1,0 +1,46 @@
+{
+  "dataset": "OpenStreetMap",
+  "total_sites": 350319,
+  "thresholds": {
+    "25": {
+      "real_count": 5334,
+      "real_pct": 1.5226,
+      "mc_mean": 1789.41,
+      "mc_std": 41.31,
+      "z_score": 85.8119,
+      "p_value": 0.0,
+      "mc_max": 1903,
+      "mc_min": 1665
+    },
+    "50": {
+      "real_count": 9700,
+      "real_pct": 2.7689,
+      "mc_mean": 3580.05,
+      "mc_std": 55.46,
+      "z_score": 110.3527,
+      "p_value": 0.0,
+      "mc_max": 3731,
+      "mc_min": 3450
+    },
+    "100": {
+      "real_count": 19185,
+      "real_pct": 5.4764,
+      "mc_mean": 7143.78,
+      "mc_std": 74.04,
+      "z_score": 162.6295,
+      "p_value": 0.0,
+      "mc_max": 7369,
+      "mc_min": 6969
+    },
+    "200": {
+      "real_count": 34052,
+      "real_pct": 9.7203,
+      "mc_mean": 14129.56,
+      "mc_std": 96.25,
+      "z_score": 206.9933,
+      "p_value": 0.0,
+      "mc_max": 14380,
+      "mc_min": 13857
+    }
+  }
+}

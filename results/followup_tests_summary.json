@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "name": "Deep Time Atlas \u2014 Follow-Up Tests",
+    "date": "2026-03-15",
+    "total_sites": 61870,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087
+    },
+    "original_z_score_50km": 24.09
+  },
+  "test1_multiple_circles": {
+    "verdict": "SPECIAL",
+    "alison_z": 21.59,
+    "max_random_z": 65.79,
+    "alison_raw_percentile": 78.0,
+    "alison_z_percentile": 96.0,
+    "random_circles_above_z20": 4
+  },
+  "test2_temporal": {
+    "verdict": "AGE-DEPENDENT",
+    "ancient_z": 21.76,
+    "ancient_enrichment": 3.69,
+    "later_z": 8.38,
+    "later_enrichment": 2.55
+  },
+  "test3_density": {
+    "distribution": "CLUSTERED",
+    "top_region": "Egypt/Levant",
+    "top_region_sites": 208,
+    "n_peak_segments": 4,
+    "land_degrees": 204,
+    "ocean_degrees": 156
+  }
+}

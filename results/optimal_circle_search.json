@@ -1,0 +1,444 @@
+{
+  "methodology": {
+    "description": "10,000 random great circles tested for monument vs settlement enrichment differential",
+    "n_random_circles": 10000,
+    "threshold_km": 50.0,
+    "mc_trials_for_detailed": 100,
+    "jitter_degrees": 2.0,
+    "data_source": "Pleiades Gazetteer",
+    "n_monumental_sites": 4598,
+    "n_settlement_sites": 18037,
+    "random_seed": 42,
+    "runtime_seconds": 7.2
+  },
+  "random_circle_baseline": {
+    "monument_counts": {
+      "mean": 34.89,
+      "std": 81.81
+    },
+    "settlement_counts": {
+      "mean": 135.63,
+      "std": 252.59
+    },
+    "differential_distribution": {
+      "mean": 0.0,
+      "std": 0.47,
+      "p95": 0.24,
+      "p99": 1.17,
+      "max": 5.06
+    }
+  },
+  "alison_circle": {
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "monument_count": 83,
+    "settlement_count": 118,
+    "monument_z_random_baseline": 0.59,
+    "settlement_z_random_baseline": -0.07,
+    "differential_random_baseline": 0.66,
+    "mc_detail": {
+      "monument": {
+        "observed": 83,
+        "expected": 60.7,
+        "std": 7.7,
+        "z_score": 2.89,
+        "enrichment": 1.37
+      },
+      "settlement": {
+        "observed": 118,
+        "expected": 201.3,
+        "std": 14.3,
+        "z_score": -5.81,
+        "enrichment": 0.59
+      },
+      "mc_z_differential": 8.69
+    },
+    "percentile_among_random": 98.0,
+    "n_random_with_higher_differential": 200
+  },
+  "best_random_circle": {
+    "pole": {
+      "lat": -43.062034,
+      "lon": -20.502428
+    },
+    "monument_count": 1063,
+    "settlement_count": 2031,
+    "monument_z_random_baseline": 12.57,
+    "settlement_z_random_baseline": 7.5,
+    "differential_random_baseline": 5.06,
+    "mc_detail": {
+      "monument": {
+        "observed": 1063,
+        "expected": 387.6,
+        "std": 19.7,
+        "z_score": 34.36,
+        "enrichment": 2.74
+      },
+      "settlement": {
+        "observed": 2031,
+        "expected": 1056.5,
+        "std": 32.6,
+        "z_score": 29.89,
+        "enrichment": 1.92
+      },
+      "mc_z_differential": 4.47
+    }
+  },
+  "top10_random_by_differential": [
+    {
+      "rank": 1,
+      "pole_lat": -43.062034,
+      "pole_lon": -20.502428,
+      "monument_count": 1063,
+      "settlement_count": 2031,
+      "monument_z": 12.57,
+      "settlement_z": 7.5,
+      "differential": 5.06
+    },
+    {
+      "rank": 2,
+      "pole_lat": 35.681583,
+      "pole_lon": -117.923615,
+      "monument_count": 640,
+      "settlement_count": 751,
+      "monument_z": 7.4,
+      "settlement_z": 2.44,
+      "differential": 4.96
+    },
+    {
+      "rank": 3,
+      "pole_lat": 42.715682,
+      "pole_lon": 159.766143,
+      "monument_count": 1036,
+      "settlement_count": 1992,
+      "monument_z": 12.24,
+      "settlement_z": 7.35,
+      "differential": 4.89
+    },
+    {
+      "rank": 4,
+      "pole_lat": 35.759371,
+      "pole_lon": -117.449767,
+      "monument_count": 609,
+      "settlement_count": 754,
+      "monument_z": 7.02,
+      "settlement_z": 2.45,
+      "differential": 4.57
+    },
+    {
+      "rank": 5,
+      "pole_lat": -37.138121,
+      "pole_lon": 59.910998,
+      "monument_count": 622,
+      "settlement_count": 804,
+      "monument_z": 7.18,
+      "settlement_z": 2.65,
+      "differential": 4.53
+    },
+    {
+      "rank": 6,
+      "pole_lat": -41.634074,
+      "pole_lon": -24.325998,
+      "monument_count": 917,
+      "settlement_count": 1716,
+      "monument_z": 10.78,
+      "settlement_z": 6.26,
+      "differential": 4.53
+    },
+    {
+      "rank": 7,
+      "pole_lat": -33.965795,
+      "pole_lon": -39.857234,
+      "monument_count": 827,
+      "settlement_count": 1444,
+      "monument_z": 9.68,
+      "settlement_z": 5.18,
+      "differential": 4.5
+    },
+    {
+      "rank": 8,
+      "pole_lat": -39.916622,
+      "pole_lon": -28.691903,
+      "monument_count": 936,
+      "settlement_count": 1785,
+      "monument_z": 11.01,
+      "settlement_z": 6.53,
+      "differential": 4.48
+    },
+    {
+      "rank": 9,
+      "pole_lat": -43.072848,
+      "pole_lon": 46.108263,
+      "monument_count": 596,
+      "settlement_count": 746,
+      "monument_z": 6.86,
+      "settlement_z": 2.42,
+      "differential": 4.44
+    },
+    {
+      "rank": 10,
+      "pole_lat": -37.381361,
+      "pole_lon": 58.796067,
+      "monument_count": 621,
+      "settlement_count": 833,
+      "monument_z": 7.16,
+      "settlement_z": 2.76,
+      "differential": 4.4
+    }
+  ],
+  "differential_histogram": [
+    {
+      "bin_start": -3.19,
+      "bin_end": -3.02,
+      "count": 1
+    },
+    {
+      "bin_start": -3.02,
+      "bin_end": -2.86,
+      "count": 1
+    },
+    {
+      "bin_start": -2.86,
+      "bin_end": -2.69,
+      "count": 2
+    },
+    {
+      "bin_start": -2.69,
+      "bin_end": -2.53,
+      "count": 2
+    },
+    {
+      "bin_start": -2.53,
+      "bin_end": -2.36,
+      "count": 3
+    },
+    {
+      "bin_start": -2.36,
+      "bin_end": -2.2,
+      "count": 7
+    },
+    {
+      "bin_start": -2.2,
+      "bin_end": -2.03,
+      "count": 9
+    },
+    {
+      "bin_start": -2.03,
+      "bin_end": -1.87,
+      "count": 20
+    },
+    {
+      "bin_start": -1.87,
+      "bin_end": -1.7,
+      "count": 25
+    },
+    {
+      "bin_start": -1.7,
+      "bin_end": -1.54,
+      "count": 32
+    },
+    {
+      "bin_start": -1.54,
+      "bin_end": -1.37,
+      "count": 36
+    },
+    {
+      "bin_start": -1.37,
+      "bin_end": -1.21,
+      "count": 42
+    },
+    {
+      "bin_start": -1.21,
+      "bin_end": -1.04,
+      "count": 81
+    },
+    {
+      "bin_start": -1.04,
+      "bin_end": -0.88,
+      "count": 128
+    },
+    {
+      "bin_start": -0.88,
+      "bin_end": -0.71,
+      "count": 166
+    },
+    {
+      "bin_start": -0.71,
+      "bin_end": -0.55,
+      "count": 246
+    },
+    {
+      "bin_start": -0.55,
+      "bin_end": -0.38,
+      "count": 361
+    },
+    {
+      "bin_start": -0.38,
+      "bin_end": -0.22,
+      "count": 503
+    },
+    {
+      "bin_start": -0.22,
+      "bin_end": -0.05,
+      "count": 627
+    },
+    {
+      "bin_start": -0.05,
+      "bin_end": 0.11,
+      "count": 6379
+    },
+    {
+      "bin_start": 0.11,
+      "bin_end": 0.28,
+      "count": 911
+    },
+    {
+      "bin_start": 0.28,
+      "bin_end": 0.44,
+      "count": 142
+    },
+    {
+      "bin_start": 0.44,
+      "bin_end": 0.61,
+      "count": 63
+    },
+    {
+      "bin_start": 0.61,
+      "bin_end": 0.77,
+      "count": 48
+    },
+    {
+      "bin_start": 0.77,
+      "bin_end": 0.94,
+      "count": 39
+    },
+    {
+      "bin_start": 0.94,
+      "bin_end": 1.1,
+      "count": 20
+    },
+    {
+      "bin_start": 1.1,
+      "bin_end": 1.27,
+      "count": 13
+    },
+    {
+      "bin_start": 1.27,
+      "bin_end": 1.43,
+      "count": 9
+    },
+    {
+      "bin_start": 1.43,
+      "bin_end": 1.6,
+      "count": 6
+    },
+    {
+      "bin_start": 1.6,
+      "bin_end": 1.76,
+      "count": 1
+    },
+    {
+      "bin_start": 1.76,
+      "bin_end": 1.93,
+      "count": 0
+    },
+    {
+      "bin_start": 1.93,
+      "bin_end": 2.09,
+      "count": 2
+    },
+    {
+      "bin_start": 2.09,
+      "bin_end": 2.26,
+      "count": 2
+    },
+    {
+      "bin_start": 2.26,
+      "bin_end": 2.42,
+      "count": 4
+    },
+    {
+      "bin_start": 2.42,
+      "bin_end": 2.59,
+      "count": 8
+    },
+    {
+      "bin_start": 2.59,
+      "bin_end": 2.75,
+      "count": 8
+    },
+    {
+      "bin_start": 2.75,
+      "bin_end": 2.92,
+      "count": 3
+    },
+    {
+      "bin_start": 2.92,
+      "bin_end": 3.08,
+      "count": 4
+    },
+    {
+      "bin_start": 3.08,
+      "bin_end": 3.25,
+      "count": 4
+    },
+    {
+      "bin_start": 3.25,
+      "bin_end": 3.41,
+      "count": 3
+    },
+    {
+      "bin_start": 3.41,
+      "bin_end": 3.58,
+      "count": 6
+    },
+    {
+      "bin_start": 3.58,
+      "bin_end": 3.74,
+      "count": 7
+    },
+    {
+      "bin_start": 3.74,
+      "bin_end": 3.91,
+      "count": 7
+    },
+    {
+      "bin_start": 3.91,
+      "bin_end": 4.07,
+      "count": 0
+    },
+    {
+      "bin_start": 4.07,
+      "bin_end": 4.24,
+      "count": 7
+    },
+    {
+      "bin_start": 4.24,
+      "bin_end": 4.4,
+      "count": 3
+    },
+    {
+      "bin_start": 4.4,
+      "bin_end": 4.57,
+      "count": 5
+    },
+    {
+      "bin_start": 4.57,
+      "bin_end": 4.73,
+      "count": 1
+    },
+    {
+      "bin_start": 4.73,
+      "bin_end": 4.9,
+      "count": 1
+    },
+    {
+      "bin_start": 4.9,
+      "bin_end": 5.06,
+      "count": 2
+    }
+  ],
+  "verdict": "STRONG RESULT: Alison's circle in top 2.0% of differentials"
+}

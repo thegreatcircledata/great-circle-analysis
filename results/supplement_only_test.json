@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "name": "Supplement-Only Great Circle Test",
+    "date": "2026-03-16",
+    "n_sites": 43,
+    "description": "Testing just the 114 hand-curated world archaeological sites against the Great Circle",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087
+    },
+    "random_trials": 200
+  },
+  "distribution_matched_results": {
+    "25": {
+      "observed": 7,
+      "random_mean": 0.5,
+      "random_std": 0.7,
+      "enrichment": 12.84,
+      "z_score": 9.34
+    },
+    "50": {
+      "observed": 8,
+      "random_mean": 1.0,
+      "random_std": 1.0,
+      "enrichment": 7.8,
+      "z_score": 6.83
+    },
+    "100": {
+      "observed": 12,
+      "random_mean": 2.0,
+      "random_std": 1.4,
+      "enrichment": 6.0,
+      "z_score": 6.98
+    },
+    "200": {
+      "observed": 16,
+      "random_mean": 3.9,
+      "random_std": 2.0,
+      "enrichment": 4.15,
+      "z_score": 6.08
+    }
+  },
+  "uniform_baseline_results": {
+    "25": {
+      "observed": 7,
+      "random_mean": 0.2,
+      "random_std": 0.5,
+      "enrichment": 37.84,
+      "z_score": 14.84
+    },
+    "50": {
+      "observed": 8,
+      "random_mean": 0.4,
+      "random_std": 0.7,
+      "enrichment": 19.51,
+      "z_score": 11.17
+    },
+    "100": {
+      "observed": 12,
+      "random_mean": 0.8,
+      "random_std": 0.9,
+      "enrichment": 15.38,
+      "z_score": 12.45
+    },
+    "200": {
+      "observed": 16,
+      "random_mean": 1.6,
+      "random_std": 1.3,
+      "enrichment": 9.88,
+      "z_score": 11.14
+    }
+  },
+  "sites_within_50km": [
+    {
+      "name": "Sukhothai",
+      "type": "temple",
+      "distance_km": 4.0,
+      "lat": 17.019,
+      "lon": 99.703,
+      "date": "13th c CE",
+      "region": "Thailand"
+    },
+    {
+      "name": "Palpa Lines",
+      "type": "geoglyph",
+      "distance_km": 5.2,
+      "lat": -14.694,
+      "lon": -75.183,
+      "date": "500 BCE-500 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "settlement",
+      "distance_km": 6.5,
+      "lat": 29.875,
+      "lon": 52.833,
+      "date": "5000 BCE",
+      "region": "Iran"
+    },
+    {
+      "name": "Siwa Oasis Temple of Amun",
+      "type": "temple",
+      "distance_km": 17.4,
+      "lat": 29.203,
+      "lon": 25.517,
+      "date": "6th c BCE",
+      "region": "Egypt"
+    },
+    {
+      "name": "Estaqueria",
+      "type": "temple",
+      "distance_km": 21.9,
+      "lat": -14.834,
+      "lon": -75.125,
+      "date": "200-600 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Paredones",
+      "type": "settlement",
+      "distance_km": 22.6,
+      "lat": -14.831,
+      "lon": -75.105,
+      "date": "500-1532 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Cantalloc Aqueducts",
+      "type": "aqueducts",
+      "distance_km": 24.1,
+      "lat": -14.838,
+      "lon": -75.088,
+      "date": "200-600 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Vilcashuaman",
+      "type": "temple",
+      "distance_km": 38.2,
+      "lat": -13.643,
+      "lon": -73.942,
+      "date": "1438-1532 CE",
+      "region": "Peru"
+    }
+  ],
+  "sites_within_200km": [
+    {
+      "name": "Sukhothai",
+      "type": "temple",
+      "distance_km": 4.0,
+      "lat": 17.019,
+      "lon": 99.703,
+      "date": "13th c CE",
+      "region": "Thailand"
+    },
+    {
+      "name": "Palpa Lines",
+      "type": "geoglyph",
+      "distance_km": 5.2,
+      "lat": -14.694,
+      "lon": -75.183,
+      "date": "500 BCE-500 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "settlement",
+      "distance_km": 6.5,
+      "lat": 29.875,
+      "lon": 52.833,
+      "date": "5000 BCE",
+      "region": "Iran"
+    },
+    {
+      "name": "Siwa Oasis Temple of Amun",
+      "type": "temple",
+      "distance_km": 17.4,
+      "lat": 29.203,
+      "lon": 25.517,
+      "date": "6th c BCE",
+      "region": "Egypt"
+    },
+    {
+      "name": "Estaqueria",
+      "type": "temple",
+      "distance_km": 21.9,
+      "lat": -14.834,
+      "lon": -75.125,
+      "date": "200-600 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Paredones",
+      "type": "settlement",
+      "distance_km": 22.6,
+      "lat": -14.831,
+      "lon": -75.105,
+      "date": "500-1532 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Cantalloc Aqueducts",
+      "type": "aqueducts",
+      "distance_km": 24.1,
+      "lat": -14.838,
+      "lon": -75.088,
+      "date": "200-600 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Vilcashuaman",
+      "type": "temple",
+      "distance_km": 38.2,
+      "lat": -13.643,
+      "lon": -73.942,
+      "date": "1438-1532 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Tipon water temple",
+      "type": "temple",
+      "distance_km": 62.6,
+      "lat": -13.58,
+      "lon": -71.79,
+      "date": "1400-1532 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Jiroft Konar Sandal",
+      "type": "city",
+      "distance_km": 67.0,
+      "lat": 28.68,
+      "lon": 57.773,
+      "date": "3000 BCE",
+      "region": "Iran"
+    },
+    {
+      "name": "Geoglyphs of Acre",
+      "type": "geoglyph",
+      "distance_km": 67.8,
+      "lat": -10.15,
+      "lon": -67.767,
+      "date": "200 BCE-1300 CE",
+      "region": "Brazil"
+    },
+    {
+      "name": "Tassili nAjjer rock art",
+      "type": "rock_art",
+      "distance_km": 84.5,
+      "lat": 25.5,
+      "lon": 9.0,
+      "date": "6000 BCE",
+      "region": "Algeria"
+    },
+    {
+      "name": "Wari capital",
+      "type": "city",
+      "distance_km": 107.2,
+      "lat": -13.063,
+      "lon": -74.177,
+      "date": "600-1000 CE",
+      "region": "Peru"
+    },
+    {
+      "name": "Mehrgarh",
+      "type": "settlement",
+      "distance_km": 187.2,
+      "lat": 29.4,
+      "lon": 67.617,
+      "date": "7000 BCE",
+      "region": "Pakistan"
+    },
+    {
+      "name": "Jericho Tell es-Sultan",
+      "type": "city",
+      "distance_km": 187.2,
+      "lat": 31.871,
+      "lon": 35.444,
+      "date": "9000 BCE",
+      "region": "Palestine"
+    },
+    {
+      "name": "Shahr-e Sukhteh",
+      "type": "city",
+      "distance_km": 198.0,
+      "lat": 30.6,
+      "lon": 61.333,
+      "date": "3200 BCE",
+      "region": "Iran"
+    }
+  ],
+  "regions_represented": [
+    "Korea",
+    "Egypt",
+    "Laos",
+    "Peru",
+    "Israel",
+    "India",
+    "Colombia",
+    "Ecuador",
+    "Micronesia",
+    "Palestine",
+    "Brazil",
+    "Pakistan",
+    "China",
+    "Bolivia",
+    "Algeria",
+    "Vietnam",
+    "Tonga",
+    "Ethiopia",
+    "Louisiana",
+    "Iran",
+    "Thailand",
+    "Turkey"
+  ],
+  "interpretation": {
+    "note": "These 114 sites were hand-selected as major world archaeological sites missing from the Megalithic Portal. A high Z-score here could reflect either genuine Great Circle alignment OR selection bias toward famous sites in regions the circle happens to pass through. Compare with the merged-dataset Z to assess this."
+  }
+}

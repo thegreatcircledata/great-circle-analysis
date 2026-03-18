@@ -1,0 +1,259 @@
+{
+  "description": "OSM type split on ex-Sahara dataset",
+  "total_non_saharan_sites": 308609,
+  "type_counts": {
+    "archaeological_site": 133340,
+    "ruins": 116218,
+    "monument": 59051
+  },
+  "sahara_excluded": {
+    "lat": [
+      15.0,
+      35.0
+    ],
+    "lon": [
+      -15.0,
+      38.0
+    ]
+  },
+  "monte_carlo_trials": 200,
+  "jitter_std_deg": 2.0,
+  "all_types_combined": {
+    "dataset": "All types combined (ex-Sahara)",
+    "total_sites": 308609,
+    "thresholds": {
+      "25": {
+        "real_count": 1334,
+        "real_pct": 0.4323,
+        "mc_mean": 479.3,
+        "mc_std": 21.08,
+        "z_score": 40.5463,
+        "p_value": 0.0,
+        "mc_max": 541,
+        "mc_min": 426
+      },
+      "50": {
+        "real_count": 1824,
+        "real_pct": 0.591,
+        "mc_mean": 961.78,
+        "mc_std": 28.37,
+        "z_score": 30.3925,
+        "p_value": 0.0,
+        "mc_max": 1038,
+        "mc_min": 880
+      },
+      "100": {
+        "real_count": 2655,
+        "real_pct": 0.8603,
+        "mc_mean": 1924.98,
+        "mc_std": 39.73,
+        "z_score": 18.3759,
+        "p_value": 0.0,
+        "mc_max": 2021,
+        "mc_min": 1802
+      },
+      "200": {
+        "real_count": 4366,
+        "real_pct": 1.4147,
+        "mc_mean": 3878.63,
+        "mc_std": 57.08,
+        "z_score": 8.5378,
+        "p_value": 0.0,
+        "mc_max": 4022,
+        "mc_min": 3741
+      }
+    }
+  },
+  "by_type": {
+    "archaeological_site": {
+      "dataset": "Ex-Sahara: archaeological_site",
+      "total_sites": 133340,
+      "thresholds": {
+        "25": {
+          "real_count": 957,
+          "real_pct": 0.7177,
+          "mc_mean": 107.68,
+          "mc_std": 10.96,
+          "z_score": 77.4811,
+          "p_value": 0.0,
+          "mc_max": 135,
+          "mc_min": 84
+        },
+        "50": {
+          "real_count": 1180,
+          "real_pct": 0.885,
+          "mc_mean": 214.16,
+          "mc_std": 14.02,
+          "z_score": 68.8955,
+          "p_value": 0.0,
+          "mc_max": 251,
+          "mc_min": 180
+        },
+        "100": {
+          "real_count": 1471,
+          "real_pct": 1.1032,
+          "mc_mean": 428.32,
+          "mc_std": 18.8,
+          "z_score": 55.4685,
+          "p_value": 0.0,
+          "mc_max": 470,
+          "mc_min": 373
+        },
+        "200": {
+          "real_count": 1894,
+          "real_pct": 1.4204,
+          "mc_mean": 862.97,
+          "mc_std": 25.42,
+          "z_score": 40.5647,
+          "p_value": 0.0,
+          "mc_max": 941,
+          "mc_min": 790
+        }
+      }
+    },
+    "monument": {
+      "dataset": "Ex-Sahara: monument",
+      "total_sites": 59051,
+      "thresholds": {
+        "25": {
+          "real_count": 164,
+          "real_pct": 0.2777,
+          "mc_mean": 156.37,
+          "mc_std": 12.64,
+          "z_score": 0.6041,
+          "p_value": 0.285,
+          "mc_max": 199,
+          "mc_min": 122
+        },
+        "50": {
+          "real_count": 260,
+          "real_pct": 0.4403,
+          "mc_mean": 314.24,
+          "mc_std": 17.3,
+          "z_score": -3.1349,
+          "p_value": 1.0,
+          "mc_max": 369,
+          "mc_min": 269
+        },
+        "100": {
+          "real_count": 549,
+          "real_pct": 0.9297,
+          "mc_mean": 627.25,
+          "mc_std": 23.11,
+          "z_score": -3.3867,
+          "p_value": 1.0,
+          "mc_max": 698,
+          "mc_min": 563
+        },
+        "200": {
+          "real_count": 1192,
+          "real_pct": 2.0186,
+          "mc_mean": 1265.49,
+          "mc_std": 32.12,
+          "z_score": -2.2879,
+          "p_value": 1.0,
+          "mc_max": 1344,
+          "mc_min": 1198
+        }
+      }
+    },
+    "ruins": {
+      "dataset": "Ex-Sahara: ruins",
+      "total_sites": 116218,
+      "thresholds": {
+        "25": {
+          "real_count": 213,
+          "real_pct": 0.1833,
+          "mc_mean": 202.13,
+          "mc_std": 14.37,
+          "z_score": 0.7562,
+          "p_value": 0.22,
+          "mc_max": 239,
+          "mc_min": 153
+        },
+        "50": {
+          "real_count": 384,
+          "real_pct": 0.3304,
+          "mc_mean": 405.62,
+          "mc_std": 19.91,
+          "z_score": -1.086,
+          "p_value": 0.87,
+          "mc_max": 460,
+          "mc_min": 340
+        },
+        "100": {
+          "real_count": 635,
+          "real_pct": 0.5464,
+          "mc_mean": 811.38,
+          "mc_std": 29.59,
+          "z_score": -5.9613,
+          "p_value": 1.0,
+          "mc_max": 909,
+          "mc_min": 740
+        },
+        "200": {
+          "real_count": 1280,
+          "real_pct": 1.1014,
+          "mc_mean": 1628.18,
+          "mc_std": 39.08,
+          "z_score": -8.9093,
+          "p_value": 1.0,
+          "mc_max": 1719,
+          "mc_min": 1504
+        }
+      }
+    }
+  },
+  "non_archaeological_combined": {
+    "dataset": "Ex-Sahara: non-archaeological (ruins+monument)",
+    "total_sites": 175269,
+    "thresholds": {
+      "25": {
+        "real_count": 377,
+        "real_pct": 0.2151,
+        "mc_mean": 366.07,
+        "mc_std": 20.15,
+        "z_score": 0.5423,
+        "p_value": 0.325,
+        "mc_max": 423,
+        "mc_min": 311
+      },
+      "50": {
+        "real_count": 644,
+        "real_pct": 0.3674,
+        "mc_mean": 734.76,
+        "mc_std": 27.21,
+        "z_score": -3.3361,
+        "p_value": 1.0,
+        "mc_max": 799,
+        "mc_min": 665
+      },
+      "100": {
+        "real_count": 1184,
+        "real_pct": 0.6755,
+        "mc_mean": 1465.78,
+        "mc_std": 39.0,
+        "z_score": -7.2245,
+        "p_value": 1.0,
+        "mc_max": 1563,
+        "mc_min": 1361
+      },
+      "200": {
+        "real_count": 2472,
+        "real_pct": 1.4104,
+        "mc_mean": 2946.82,
+        "mc_std": 52.21,
+        "z_score": -9.0937,
+        "p_value": 1.0,
+        "mc_max": 3078,
+        "mc_min": 2815
+      }
+    }
+  },
+  "z_difference": {
+    "z_archaeological_site_50km": 68.8955,
+    "z_non_archaeological_50km": -3.3361,
+    "z_difference": 72.2316,
+    "interpretation": "Archaeological sites show Z=68.90 while non-archaeological (ruins+monuments) show Z=-3.34. Difference = 72.23."
+  }
+}

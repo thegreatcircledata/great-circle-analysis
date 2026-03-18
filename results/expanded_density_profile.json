@@ -1,0 +1,3943 @@
+{
+  "meta": {
+    "name": "Expanded Density Profile \u2014 Merged Dataset",
+    "date": "2026-03-16",
+    "total_sites_within_50km": 319,
+    "total_merged_sites": 61913,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087
+    }
+  },
+  "original_clusters": [
+    {
+      "name": "Egypt/Levant",
+      "degrees": "74-91",
+      "sites": 208,
+      "share_pct": 67.0
+    },
+    {
+      "name": "Peru/Andes",
+      "degrees": "328-341",
+      "sites": 69,
+      "share_pct": 22.0
+    },
+    {
+      "name": "Easter Island",
+      "degrees": "294-298",
+      "sites": 15,
+      "share_pct": 5.0
+    },
+    {
+      "name": "Iran",
+      "degrees": "97-102",
+      "sites": 11,
+      "share_pct": 4.0
+    }
+  ],
+  "supplemented_clusters": [
+    {
+      "name": "Egypt/Nile Valley",
+      "degrees": "75-90",
+      "sites": 209,
+      "share_pct": 65.5,
+      "span_degrees": 16,
+      "center_lat": 29.99,
+      "center_lon": 32.11,
+      "kml_sites": 208,
+      "supplement_sites": 1,
+      "oldest_site": {
+        "name": "Siwa Oasis Temple of Amun",
+        "date": "6th c BCE",
+        "approx_year": -550
+      },
+      "site_list": [
+        {
+          "name": "East Upper Wadi Paran Matseboth",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 0.1,
+          "source": "kml"
+        },
+        {
+          "name": "Petroglyphs near Jebel al Samra Um al Hidha",
+          "type": "Carving",
+          "date": "",
+          "gc_dist_km": 0.5,
+          "source": "kml"
+        },
+        {
+          "name": "Khaba's Pyramid",
+          "type": "Pyramid  Mastaba",
+          "date": "",
+          "gc_dist_km": 1.1,
+          "source": "kml"
+        },
+        {
+          "name": "Lower Wadi Hayun Massebah",
+          "type": "Standing Stone (Menhir)",
+          "date": "",
+          "gc_dist_km": 1.6,
+          "source": "kml"
+        },
+        {
+          "name": "Niuserra's Pyramid",
+          "type": "Pyramid  Mastaba",
+          "date": "",
+          "gc_dist_km": 2.3,
+          "source": "kml"
+        },
+        {
+          "name": "Tsichor Cliff",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 2.7,
+          "source": "kml"
+        },
+        {
+          "name": "Jibal al-Khashabiyeh",
+          "type": "Carving",
+          "date": "",
+          "gc_dist_km": 2.9,
+          "source": "kml"
+        },
+        {
+          "name": "Sahure's Pyramid",
+          "type": "Pyramid  Mastaba",
+          "date": "",
+          "gc_dist_km": 3.1,
+          "source": "kml"
+        },
+        {
+          "name": "Niuserra Sun Temple",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 3.1,
+          "source": "kml"
+        },
+        {
+          "name": "Ptah Shepses Mastaba",
+          "type": "Chambered Cairn",
+          "date": "",
+          "gc_dist_km": 3.2,
+          "source": "kml"
+        },
+        {
+          "name": "Neferirkare's Pyramid",
+          "type": "Pyramid  Mastaba",
+          "date": "",
+          "gc_dist_km": 3.4,
+          "source": "kml"
+        },
+        {
+          "name": "Neferefra Sun Temple",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 3.4,
+          "source": "kml"
+        },
+        {
+          "name": "Big Wadi's Masseboth (2)",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 3.8,
+          "source": "kml"
+        },
+        {
+          "name": "Tsenifim Hayun crossing",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 3.9,
+          "source": "kml"
+        },
+        {
+          "name": "Beer-Menucha",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 4.5,
+          "source": "kml"
+        },
+        {
+          "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 4.6,
+          "source": "kml"
+        },
+        {
+          "name": "Wadi Tzichor Matseboth",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 5.5,
+          "source": "kml"
+        },
+        {
+          "name": "South of Lower Wadi Hayun Masseboth",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 5.5,
+          "source": "kml"
+        },
+        {
+          "name": "Kagemni Mastaba",
+          "type": "Chambered Cairn",
+          "date": "",
+          "gc_dist_km": 5.7,
+          "source": "kml"
+        },
+        {
+          "name": "Mereruka Mastaba",
+          "type": "Chambered Cairn",
+          "date": "",
+          "gc_dist_km": 5.7,
+          "source": "kml"
+        }
+      ]
+    },
+    {
+      "name": "Nazca/Peru",
+      "degrees": "329-340",
+      "sites": 74,
+      "share_pct": 23.2,
+      "span_degrees": 12,
+      "center_lat": -12.78,
+      "center_lon": -71.48,
+      "kml_sites": 69,
+      "supplement_sites": 5,
+      "oldest_site": {
+        "name": "Palpa Lines",
+        "date": "500 BCE-500 CE",
+        "approx_year": -500
+      },
+      "site_list": [
+        {
+          "name": "Salapunku",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 2.8,
+          "source": "kml"
+        },
+        {
+          "name": "Mina Primavera",
+          "type": "Ancient Mine, Quarry or other Industry",
+          "date": "",
+          "gc_dist_km": 3.0,
+          "source": "kml"
+        },
+        {
+          "name": "Llactapata",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 3.0,
+          "source": "kml"
+        },
+        {
+          "name": "Palpa Lines",
+          "type": "geoglyph",
+          "date": "500 BCE-500 CE",
+          "gc_dist_km": 5.2,
+          "source": "supplement"
+        },
+        {
+          "name": "Petroglifos de Llipata",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 5.7,
+          "source": "kml"
+        },
+        {
+          "name": "Museo Maria Reiche",
+          "type": "Museum",
+          "date": "",
+          "gc_dist_km": 6.3,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Trapezoids",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 6.3,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 6.4,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Hummingbird",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 6.6,
+          "source": "kml"
+        },
+        {
+          "name": "Ollantaytambo",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 7.2,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Small Spiral",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 7.5,
+          "source": "kml"
+        },
+        {
+          "name": "Runkurakay",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 7.7,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Spider",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 8.1,
+          "source": "kml"
+        },
+        {
+          "name": "Sayacmarca",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 8.4,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Hands and Tree",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 8.5,
+          "source": "kml"
+        },
+        {
+          "name": "Suntur",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 8.5,
+          "source": "kml"
+        },
+        {
+          "name": "Nazca Lines - Monkey",
+          "type": "Hill Figure or Geoglyph",
+          "date": "",
+          "gc_dist_km": 8.6,
+          "source": "kml"
+        },
+        {
+          "name": "Saihuite Stone",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 8.8,
+          "source": "kml"
+        },
+        {
+          "name": "Choquequirao",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 10.0,
+          "source": "kml"
+        },
+        {
+          "name": "Phuyupatamarca",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 11.3,
+          "source": "kml"
+        }
+      ]
+    },
+    {
+      "name": "Easter Island",
+      "degrees": "295-297",
+      "sites": 15,
+      "share_pct": 4.7,
+      "span_degrees": 3,
+      "center_lat": -26.98,
+      "center_lon": -109.18,
+      "kml_sites": 15,
+      "supplement_sites": 0,
+      "site_list": [
+        {
+          "name": "Ahu Nau Nau Anakena",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 6.7,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Ature Huke",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 7.1,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Te Pito Kura",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 8.2,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Akivi",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 9.4,
+          "source": "kml"
+        },
+        {
+          "name": "Easter Island",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 9.5,
+          "source": "kml"
+        },
+        {
+          "name": "Tahai Kote Riku",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 10.9,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Ko Te Riku",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 11.0,
+          "source": "kml"
+        },
+        {
+          "name": "Ana Kai Tangata",
+          "type": "Rock Art",
+          "date": "",
+          "gc_dist_km": 11.9,
+          "source": "kml"
+        },
+        {
+          "name": "Puna Pau",
+          "type": "Ancient Mine, Quarry or other Industry",
+          "date": "",
+          "gc_dist_km": 12.4,
+          "source": "kml"
+        },
+        {
+          "name": "Rano Raraku",
+          "type": "Ancient Mine, Quarry or other Industry",
+          "date": "",
+          "gc_dist_km": 12.7,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Huri A Urenga",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 13.2,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Tongariki",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 14.0,
+          "source": "kml"
+        },
+        {
+          "name": "Ahu Vinapu",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 15.4,
+          "source": "kml"
+        },
+        {
+          "name": "Rano Kau",
+          "type": "Holy Well or Sacred Spring",
+          "date": "",
+          "gc_dist_km": 15.8,
+          "source": "kml"
+        },
+        {
+          "name": "Orongo",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 15.9,
+          "source": "kml"
+        }
+      ]
+    },
+    {
+      "name": "Iran/Persia",
+      "degrees": "98-101",
+      "sites": 12,
+      "share_pct": 3.8,
+      "span_degrees": 4,
+      "center_lat": 29.91,
+      "center_lon": 51.75,
+      "kml_sites": 11,
+      "supplement_sites": 1,
+      "oldest_site": {
+        "name": "Tall-e Bakun",
+        "date": "5000 BCE",
+        "approx_year": -5000
+      },
+      "site_list": [
+        {
+          "name": "Gondashlu Stone Quarry",
+          "type": "Ancient Mine, Quarry or other Industry",
+          "date": "",
+          "gc_dist_km": 4.0,
+          "source": "kml"
+        },
+        {
+          "name": "Tall-e Bakun",
+          "type": "settlement",
+          "date": "5000 BCE",
+          "gc_dist_km": 6.5,
+          "source": "supplement"
+        },
+        {
+          "name": "Mianroud Mound",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 7.2,
+          "source": "kml"
+        },
+        {
+          "name": "Tall-e Bakun",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 11.3,
+          "source": "kml"
+        },
+        {
+          "name": "Persepolis",
+          "type": "Ancient Palace",
+          "date": "",
+          "gc_dist_km": 13.6,
+          "source": "kml"
+        },
+        {
+          "name": "Bishapur",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 15.5,
+          "source": "kml"
+        },
+        {
+          "name": "Naqsh-e Rajab",
+          "type": "Rock Art",
+          "date": "",
+          "gc_dist_km": 17.2,
+          "source": "kml"
+        },
+        {
+          "name": "Estakhr",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 19.0,
+          "source": "kml"
+        },
+        {
+          "name": "Naghsh-e-Rostam",
+          "type": "Rock Cut Tomb",
+          "date": "",
+          "gc_dist_km": 19.6,
+          "source": "kml"
+        },
+        {
+          "name": "Tomb of Cyrus",
+          "type": "Chambered Tomb",
+          "date": "",
+          "gc_dist_km": 45.1,
+          "source": "kml"
+        },
+        {
+          "name": "Pasargadae",
+          "type": "Ancient Palace",
+          "date": "",
+          "gc_dist_km": 45.8,
+          "source": "kml"
+        },
+        {
+          "name": "Tall-e Takht",
+          "type": "Hillfort",
+          "date": "",
+          "gc_dist_km": 46.8,
+          "source": "kml"
+        }
+      ]
+    },
+    {
+      "name": "Indus Valley",
+      "degrees": "113-122",
+      "sites": 4,
+      "share_pct": 1.3,
+      "span_degrees": 10,
+      "center_lat": 26.73,
+      "center_lon": 71.91,
+      "kml_sites": 4,
+      "supplement_sites": 0,
+      "site_list": [
+        {
+          "name": "Jaisalmer Hero Stones",
+          "type": "Standing Stones",
+          "date": "",
+          "gc_dist_km": 5.3,
+          "source": "kml"
+        },
+        {
+          "name": "Jaisalmer area",
+          "type": "Sculptured Stone",
+          "date": "",
+          "gc_dist_km": 5.7,
+          "source": "kml"
+        },
+        {
+          "name": "Mohenjo-daro",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 25.6,
+          "source": "kml"
+        },
+        {
+          "name": "Bundi",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 36.9,
+          "source": "kml"
+        }
+      ]
+    },
+    {
+      "name": "Southeast Asia",
+      "degrees": "143-151",
+      "sites": 3,
+      "share_pct": 0.9,
+      "span_degrees": 9,
+      "center_lat": 15.96,
+      "center_lon": 102.08,
+      "kml_sites": 2,
+      "supplement_sites": 1,
+      "oldest_site": {
+        "name": "Sukhothai",
+        "date": "13th c CE",
+        "approx_year": 1250
+      },
+      "site_list": [
+        {
+          "name": "Sukhothai",
+          "type": "temple",
+          "date": "13th c CE",
+          "gc_dist_km": 4.0,
+          "source": "supplement"
+        },
+        {
+          "name": "Sukothai",
+          "type": "Ancient Village or Settlement",
+          "date": "",
+          "gc_dist_km": 13.8,
+          "source": "kml"
+        },
+        {
+          "name": "Prasat Preah Vihear",
+          "type": "Ancient Temple",
+          "date": "",
+          "gc_dist_km": 30.9,
+          "source": "kml"
+        }
+      ]
+    }
+  ],
+  "total_clusters_original": 4,
+  "total_clusters_supplemented": 6,
+  "new_clusters_found": [
+    "Indus Valley",
+    "Southeast Asia"
+  ],
+  "cluster_anchor_dates": [
+    {
+      "cluster": "Iran/Persia",
+      "oldest_site": "Tall-e Bakun",
+      "oldest_date": "5000 BCE",
+      "approx_year": -5000,
+      "degrees_on_circle": "98-101"
+    },
+    {
+      "cluster": "Egypt/Nile Valley",
+      "oldest_site": "Siwa Oasis Temple of Amun",
+      "oldest_date": "6th c BCE",
+      "approx_year": -550,
+      "degrees_on_circle": "75-90"
+    },
+    {
+      "cluster": "Nazca/Peru",
+      "oldest_site": "Palpa Lines",
+      "oldest_date": "500 BCE-500 CE",
+      "approx_year": -500,
+      "degrees_on_circle": "329-340"
+    },
+    {
+      "cluster": "Southeast Asia",
+      "oldest_site": "Sukhothai",
+      "oldest_date": "13th c CE",
+      "approx_year": 1250,
+      "degrees_on_circle": "143-151"
+    }
+  ],
+  "degree_density": [
+    {
+      "degree": 0,
+      "lat": 0.0,
+      "lon": -48.65,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 1,
+      "lat": 0.5,
+      "lon": -47.78,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 2,
+      "lat": 1.01,
+      "lon": -46.92,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 3,
+      "lat": 1.51,
+      "lon": -46.06,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 4,
+      "lat": 2.02,
+      "lon": -45.19,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 5,
+      "lat": 2.52,
+      "lon": -44.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 6,
+      "lat": 3.02,
+      "lon": -43.46,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 7,
+      "lat": 3.53,
+      "lon": -42.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 8,
+      "lat": 4.03,
+      "lon": -41.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 9,
+      "lat": 4.53,
+      "lon": -40.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 10,
+      "lat": 5.03,
+      "lon": -39.99,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(5\u00b0, -40\u00b0)"
+    },
+    {
+      "degree": 11,
+      "lat": 5.53,
+      "lon": -39.12,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(6\u00b0, -39\u00b0)"
+    },
+    {
+      "degree": 12,
+      "lat": 6.02,
+      "lon": -38.25,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(6\u00b0, -38\u00b0)"
+    },
+    {
+      "degree": 13,
+      "lat": 6.52,
+      "lon": -37.38,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(7\u00b0, -37\u00b0)"
+    },
+    {
+      "degree": 14,
+      "lat": 7.01,
+      "lon": -36.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(7\u00b0, -36\u00b0)"
+    },
+    {
+      "degree": 15,
+      "lat": 7.51,
+      "lon": -35.62,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, -36\u00b0)"
+    },
+    {
+      "degree": 16,
+      "lat": 8.0,
+      "lon": -34.74,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, -35\u00b0)"
+    },
+    {
+      "degree": 17,
+      "lat": 8.49,
+      "lon": -33.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, -34\u00b0)"
+    },
+    {
+      "degree": 18,
+      "lat": 8.97,
+      "lon": -32.98,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(9\u00b0, -33\u00b0)"
+    },
+    {
+      "degree": 19,
+      "lat": 9.46,
+      "lon": -32.09,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(9\u00b0, -32\u00b0)"
+    },
+    {
+      "degree": 20,
+      "lat": 9.94,
+      "lon": -31.2,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(10\u00b0, -31\u00b0)"
+    },
+    {
+      "degree": 21,
+      "lat": 10.42,
+      "lon": -30.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(10\u00b0, -30\u00b0)"
+    },
+    {
+      "degree": 22,
+      "lat": 10.9,
+      "lon": -29.42,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(11\u00b0, -29\u00b0)"
+    },
+    {
+      "degree": 23,
+      "lat": 11.38,
+      "lon": -28.52,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(11\u00b0, -29\u00b0)"
+    },
+    {
+      "degree": 24,
+      "lat": 11.85,
+      "lon": -27.62,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(12\u00b0, -28\u00b0)"
+    },
+    {
+      "degree": 25,
+      "lat": 12.32,
+      "lon": -26.72,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(12\u00b0, -27\u00b0)"
+    },
+    {
+      "degree": 26,
+      "lat": 12.78,
+      "lon": -25.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(13\u00b0, -26\u00b0)"
+    },
+    {
+      "degree": 27,
+      "lat": 13.25,
+      "lon": -24.9,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(13\u00b0, -25\u00b0)"
+    },
+    {
+      "degree": 28,
+      "lat": 13.71,
+      "lon": -23.99,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(14\u00b0, -24\u00b0)"
+    },
+    {
+      "degree": 29,
+      "lat": 14.17,
+      "lon": -23.07,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(14\u00b0, -23\u00b0)"
+    },
+    {
+      "degree": 30,
+      "lat": 14.62,
+      "lon": -22.15,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(15\u00b0, -22\u00b0)"
+    },
+    {
+      "degree": 31,
+      "lat": 15.07,
+      "lon": -21.23,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(15\u00b0, -21\u00b0)"
+    },
+    {
+      "degree": 32,
+      "lat": 15.52,
+      "lon": -20.3,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(16\u00b0, -20\u00b0)"
+    },
+    {
+      "degree": 33,
+      "lat": 15.96,
+      "lon": -19.37,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(16\u00b0, -19\u00b0)"
+    },
+    {
+      "degree": 34,
+      "lat": 16.4,
+      "lon": -18.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(16\u00b0, -18\u00b0)"
+    },
+    {
+      "degree": 35,
+      "lat": 16.83,
+      "lon": -17.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(17\u00b0, -17\u00b0)"
+    },
+    {
+      "degree": 36,
+      "lat": 17.26,
+      "lon": -16.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(17\u00b0, -17\u00b0)"
+    },
+    {
+      "degree": 37,
+      "lat": 17.69,
+      "lon": -15.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(18\u00b0, -16\u00b0)"
+    },
+    {
+      "degree": 38,
+      "lat": 18.11,
+      "lon": -14.65,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(18\u00b0, -15\u00b0)"
+    },
+    {
+      "degree": 39,
+      "lat": 18.52,
+      "lon": -13.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(19\u00b0, -14\u00b0)"
+    },
+    {
+      "degree": 40,
+      "lat": 18.93,
+      "lon": -12.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(19\u00b0, -13\u00b0)"
+    },
+    {
+      "degree": 41,
+      "lat": 19.34,
+      "lon": -11.76,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(19\u00b0, -12\u00b0)"
+    },
+    {
+      "degree": 42,
+      "lat": 19.74,
+      "lon": -10.79,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(20\u00b0, -11\u00b0)"
+    },
+    {
+      "degree": 43,
+      "lat": 20.14,
+      "lon": -9.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(20\u00b0, -10\u00b0)"
+    },
+    {
+      "degree": 44,
+      "lat": 20.53,
+      "lon": -8.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(21\u00b0, -9\u00b0)"
+    },
+    {
+      "degree": 45,
+      "lat": 20.91,
+      "lon": -7.84,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(21\u00b0, -8\u00b0)"
+    },
+    {
+      "degree": 46,
+      "lat": 21.29,
+      "lon": -6.85,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(21\u00b0, -7\u00b0)"
+    },
+    {
+      "degree": 47,
+      "lat": 21.67,
+      "lon": -5.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, -6\u00b0)"
+    },
+    {
+      "degree": 48,
+      "lat": 22.03,
+      "lon": -4.85,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, -5\u00b0)"
+    },
+    {
+      "degree": 49,
+      "lat": 22.39,
+      "lon": -3.85,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, -4\u00b0)"
+    },
+    {
+      "degree": 50,
+      "lat": 22.75,
+      "lon": -2.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(23\u00b0, -3\u00b0)"
+    },
+    {
+      "degree": 51,
+      "lat": 23.1,
+      "lon": -1.82,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(23\u00b0, -2\u00b0)"
+    },
+    {
+      "degree": 52,
+      "lat": 23.44,
+      "lon": -0.79,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(23\u00b0, -1\u00b0)"
+    },
+    {
+      "degree": 53,
+      "lat": 23.78,
+      "lon": 0.23,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 0\u00b0)"
+    },
+    {
+      "degree": 54,
+      "lat": 24.1,
+      "lon": 1.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 1\u00b0)"
+    },
+    {
+      "degree": 55,
+      "lat": 24.43,
+      "lon": 2.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 2\u00b0)"
+    },
+    {
+      "degree": 56,
+      "lat": 24.74,
+      "lon": 3.35,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(25\u00b0, 3\u00b0)"
+    },
+    {
+      "degree": 57,
+      "lat": 25.05,
+      "lon": 4.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(25\u00b0, 4\u00b0)"
+    },
+    {
+      "degree": 58,
+      "lat": 25.35,
+      "lon": 5.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(25\u00b0, 5\u00b0)"
+    },
+    {
+      "degree": 59,
+      "lat": 25.64,
+      "lon": 6.51,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(26\u00b0, 7\u00b0)"
+    },
+    {
+      "degree": 60,
+      "lat": 25.92,
+      "lon": 7.58,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(26\u00b0, 8\u00b0)"
+    },
+    {
+      "degree": 61,
+      "lat": 26.2,
+      "lon": 8.65,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(26\u00b0, 9\u00b0)"
+    },
+    {
+      "degree": 62,
+      "lat": 26.47,
+      "lon": 9.72,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(26\u00b0, 10\u00b0)"
+    },
+    {
+      "degree": 63,
+      "lat": 26.73,
+      "lon": 10.8,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(27\u00b0, 11\u00b0)"
+    },
+    {
+      "degree": 64,
+      "lat": 26.98,
+      "lon": 11.89,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(27\u00b0, 12\u00b0)"
+    },
+    {
+      "degree": 65,
+      "lat": 27.23,
+      "lon": 12.98,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(27\u00b0, 13\u00b0)"
+    },
+    {
+      "degree": 66,
+      "lat": 27.46,
+      "lon": 14.07,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(27\u00b0, 14\u00b0)"
+    },
+    {
+      "degree": 67,
+      "lat": 27.69,
+      "lon": 15.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(28\u00b0, 15\u00b0)"
+    },
+    {
+      "degree": 68,
+      "lat": 27.91,
+      "lon": 16.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(28\u00b0, 16\u00b0)"
+    },
+    {
+      "degree": 69,
+      "lat": 28.12,
+      "lon": 17.38,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(28\u00b0, 17\u00b0)"
+    },
+    {
+      "degree": 70,
+      "lat": 28.32,
+      "lon": 18.49,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(28\u00b0, 18\u00b0)"
+    },
+    {
+      "degree": 71,
+      "lat": 28.51,
+      "lon": 19.61,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(29\u00b0, 20\u00b0)"
+    },
+    {
+      "degree": 72,
+      "lat": 28.69,
+      "lon": 20.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(29\u00b0, 21\u00b0)"
+    },
+    {
+      "degree": 73,
+      "lat": 28.86,
+      "lon": 21.85,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(29\u00b0, 22\u00b0)"
+    },
+    {
+      "degree": 74,
+      "lat": 29.03,
+      "lon": 22.98,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(29\u00b0, 23\u00b0)"
+    },
+    {
+      "degree": 75,
+      "lat": 29.18,
+      "lon": 24.11,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 76,
+      "lat": 29.33,
+      "lon": 25.24,
+      "merged_count": 4,
+      "kml_count": 3,
+      "supplement_count": 1,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 77,
+      "lat": 29.46,
+      "lon": 26.38,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 78,
+      "lat": 29.59,
+      "lon": 27.52,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 79,
+      "lat": 29.7,
+      "lon": 28.66,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 80,
+      "lat": 29.81,
+      "lon": 29.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 81,
+      "lat": 29.91,
+      "lon": 30.96,
+      "merged_count": 61,
+      "kml_count": 61,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 82,
+      "lat": 29.99,
+      "lon": 32.11,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 83,
+      "lat": 30.07,
+      "lon": 33.26,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 84,
+      "lat": 30.13,
+      "lon": 34.41,
+      "merged_count": 83,
+      "kml_count": 83,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 85,
+      "lat": 30.19,
+      "lon": 35.57,
+      "merged_count": 58,
+      "kml_count": 58,
+      "supplement_count": 0,
+      "region": "Egypt/Levant"
+    },
+    {
+      "degree": 86,
+      "lat": 30.24,
+      "lon": 36.72,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Levant/Jordan"
+    },
+    {
+      "degree": 87,
+      "lat": 30.27,
+      "lon": 37.88,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Levant/Jordan"
+    },
+    {
+      "degree": 88,
+      "lat": 30.3,
+      "lon": 39.04,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Levant/Jordan"
+    },
+    {
+      "degree": 89,
+      "lat": 30.31,
+      "lon": 40.2,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Levant/Jordan"
+    },
+    {
+      "degree": 90,
+      "lat": 30.32,
+      "lon": 41.35,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Levant/Jordan"
+    },
+    {
+      "degree": 91,
+      "lat": 30.31,
+      "lon": 42.51,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 92,
+      "lat": 30.3,
+      "lon": 43.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 93,
+      "lat": 30.27,
+      "lon": 44.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 94,
+      "lat": 30.24,
+      "lon": 45.99,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 95,
+      "lat": 30.19,
+      "lon": 47.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 96,
+      "lat": 30.13,
+      "lon": 48.3,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 97,
+      "lat": 30.07,
+      "lon": 49.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 98,
+      "lat": 29.99,
+      "lon": 50.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 99,
+      "lat": 29.91,
+      "lon": 51.75,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 100,
+      "lat": 29.81,
+      "lon": 52.9,
+      "merged_count": 11,
+      "kml_count": 10,
+      "supplement_count": 1,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 101,
+      "lat": 29.7,
+      "lon": 54.04,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 102,
+      "lat": 29.59,
+      "lon": 55.19,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 103,
+      "lat": 29.46,
+      "lon": 56.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 104,
+      "lat": 29.33,
+      "lon": 57.46,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 105,
+      "lat": 29.18,
+      "lon": 58.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 106,
+      "lat": 29.03,
+      "lon": 59.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Mesopotamia/Iran"
+    },
+    {
+      "degree": 107,
+      "lat": 28.86,
+      "lon": 60.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 108,
+      "lat": 28.69,
+      "lon": 61.98,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 109,
+      "lat": 28.51,
+      "lon": 63.1,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 110,
+      "lat": 28.32,
+      "lon": 64.22,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 111,
+      "lat": 28.12,
+      "lon": 65.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 112,
+      "lat": 27.91,
+      "lon": 66.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 113,
+      "lat": 27.69,
+      "lon": 67.54,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 114,
+      "lat": 27.46,
+      "lon": 68.64,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 115,
+      "lat": 27.23,
+      "lon": 69.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 116,
+      "lat": 26.98,
+      "lon": 70.82,
+      "merged_count": 2,
+      "kml_count": 2,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 117,
+      "lat": 26.73,
+      "lon": 71.91,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 118,
+      "lat": 26.47,
+      "lon": 72.98,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 119,
+      "lat": 26.2,
+      "lon": 74.06,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 120,
+      "lat": 25.92,
+      "lon": 75.13,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 121,
+      "lat": 25.64,
+      "lon": 76.19,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 122,
+      "lat": 25.35,
+      "lon": 77.25,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 123,
+      "lat": 25.05,
+      "lon": 78.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Indus Valley/Pakistan"
+    },
+    {
+      "degree": 124,
+      "lat": 24.74,
+      "lon": 79.36,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(25\u00b0, 79\u00b0)"
+    },
+    {
+      "degree": 125,
+      "lat": 24.43,
+      "lon": 80.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 80\u00b0)"
+    },
+    {
+      "degree": 126,
+      "lat": 24.1,
+      "lon": 81.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 81\u00b0)"
+    },
+    {
+      "degree": 127,
+      "lat": 23.78,
+      "lon": 82.47,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(24\u00b0, 82\u00b0)"
+    },
+    {
+      "degree": 128,
+      "lat": 23.44,
+      "lon": 83.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(23\u00b0, 84\u00b0)"
+    },
+    {
+      "degree": 129,
+      "lat": 23.1,
+      "lon": 84.52,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(23\u00b0, 85\u00b0)"
+    },
+    {
+      "degree": 130,
+      "lat": 22.75,
+      "lon": 85.54,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "(23\u00b0, 86\u00b0)"
+    },
+    {
+      "degree": 131,
+      "lat": 22.39,
+      "lon": 86.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, 87\u00b0)"
+    },
+    {
+      "degree": 132,
+      "lat": 22.03,
+      "lon": 87.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, 88\u00b0)"
+    },
+    {
+      "degree": 133,
+      "lat": 21.67,
+      "lon": 88.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(22\u00b0, 89\u00b0)"
+    },
+    {
+      "degree": 134,
+      "lat": 21.29,
+      "lon": 89.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(21\u00b0, 90\u00b0)"
+    },
+    {
+      "degree": 135,
+      "lat": 20.91,
+      "lon": 90.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 136,
+      "lat": 20.53,
+      "lon": 91.54,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 137,
+      "lat": 20.14,
+      "lon": 92.52,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 138,
+      "lat": 19.74,
+      "lon": 93.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 139,
+      "lat": 19.34,
+      "lon": 94.47,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 140,
+      "lat": 18.93,
+      "lon": 95.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 141,
+      "lat": 18.52,
+      "lon": 96.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 142,
+      "lat": 18.11,
+      "lon": 97.36,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 143,
+      "lat": 17.69,
+      "lon": 98.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 144,
+      "lat": 17.26,
+      "lon": 99.26,
+      "merged_count": 2,
+      "kml_count": 1,
+      "supplement_count": 1,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 145,
+      "lat": 16.83,
+      "lon": 100.2,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 146,
+      "lat": 16.4,
+      "lon": 101.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 147,
+      "lat": 15.96,
+      "lon": 102.08,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 148,
+      "lat": 15.52,
+      "lon": 103.01,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 149,
+      "lat": 15.07,
+      "lon": 103.94,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 150,
+      "lat": 14.62,
+      "lon": 104.86,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 151,
+      "lat": 14.17,
+      "lon": 105.78,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 152,
+      "lat": 13.71,
+      "lon": 106.7,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 153,
+      "lat": 13.25,
+      "lon": 107.61,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 154,
+      "lat": 12.78,
+      "lon": 108.52,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 155,
+      "lat": 12.32,
+      "lon": 109.43,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Southeast Asia"
+    },
+    {
+      "degree": 156,
+      "lat": 11.85,
+      "lon": 110.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(12\u00b0, 110\u00b0)"
+    },
+    {
+      "degree": 157,
+      "lat": 11.38,
+      "lon": 111.23,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(11\u00b0, 111\u00b0)"
+    },
+    {
+      "degree": 158,
+      "lat": 10.9,
+      "lon": 112.13,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(11\u00b0, 112\u00b0)"
+    },
+    {
+      "degree": 159,
+      "lat": 10.42,
+      "lon": 113.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(10\u00b0, 113\u00b0)"
+    },
+    {
+      "degree": 160,
+      "lat": 9.94,
+      "lon": 113.91,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(10\u00b0, 114\u00b0)"
+    },
+    {
+      "degree": 161,
+      "lat": 9.46,
+      "lon": 114.8,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(9\u00b0, 115\u00b0)"
+    },
+    {
+      "degree": 162,
+      "lat": 8.97,
+      "lon": 115.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(9\u00b0, 116\u00b0)"
+    },
+    {
+      "degree": 163,
+      "lat": 8.49,
+      "lon": 116.57,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, 117\u00b0)"
+    },
+    {
+      "degree": 164,
+      "lat": 8.0,
+      "lon": 117.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, 117\u00b0)"
+    },
+    {
+      "degree": 165,
+      "lat": 7.51,
+      "lon": 118.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(8\u00b0, 118\u00b0)"
+    },
+    {
+      "degree": 166,
+      "lat": 7.01,
+      "lon": 119.21,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(7\u00b0, 119\u00b0)"
+    },
+    {
+      "degree": 167,
+      "lat": 6.52,
+      "lon": 120.08,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(7\u00b0, 120\u00b0)"
+    },
+    {
+      "degree": 168,
+      "lat": 6.02,
+      "lon": 120.96,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(6\u00b0, 121\u00b0)"
+    },
+    {
+      "degree": 169,
+      "lat": 5.53,
+      "lon": 121.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(6\u00b0, 122\u00b0)"
+    },
+    {
+      "degree": 170,
+      "lat": 5.03,
+      "lon": 122.7,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(5\u00b0, 123\u00b0)"
+    },
+    {
+      "degree": 171,
+      "lat": 4.53,
+      "lon": 123.57,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(5\u00b0, 124\u00b0)"
+    },
+    {
+      "degree": 172,
+      "lat": 4.03,
+      "lon": 124.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(4\u00b0, 124\u00b0)"
+    },
+    {
+      "degree": 173,
+      "lat": 3.53,
+      "lon": 125.3,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(4\u00b0, 125\u00b0)"
+    },
+    {
+      "degree": 174,
+      "lat": 3.02,
+      "lon": 126.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(3\u00b0, 126\u00b0)"
+    },
+    {
+      "degree": 175,
+      "lat": 2.52,
+      "lon": 127.03,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(3\u00b0, 127\u00b0)"
+    },
+    {
+      "degree": 176,
+      "lat": 2.02,
+      "lon": 127.9,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(2\u00b0, 128\u00b0)"
+    },
+    {
+      "degree": 177,
+      "lat": 1.51,
+      "lon": 128.76,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(2\u00b0, 129\u00b0)"
+    },
+    {
+      "degree": 178,
+      "lat": 1.01,
+      "lon": 129.63,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(1\u00b0, 130\u00b0)"
+    },
+    {
+      "degree": 179,
+      "lat": 0.5,
+      "lon": 130.49,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(1\u00b0, 130\u00b0)"
+    },
+    {
+      "degree": 180,
+      "lat": 0.0,
+      "lon": 131.35,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(0\u00b0, 131\u00b0)"
+    },
+    {
+      "degree": 181,
+      "lat": -0.5,
+      "lon": 132.22,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-1\u00b0, 132\u00b0)"
+    },
+    {
+      "degree": 182,
+      "lat": -1.01,
+      "lon": 133.08,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-1\u00b0, 133\u00b0)"
+    },
+    {
+      "degree": 183,
+      "lat": -1.51,
+      "lon": 133.94,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-2\u00b0, 134\u00b0)"
+    },
+    {
+      "degree": 184,
+      "lat": -2.02,
+      "lon": 134.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-2\u00b0, 135\u00b0)"
+    },
+    {
+      "degree": 185,
+      "lat": -2.52,
+      "lon": 135.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-3\u00b0, 136\u00b0)"
+    },
+    {
+      "degree": 186,
+      "lat": -3.02,
+      "lon": 136.54,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-3\u00b0, 137\u00b0)"
+    },
+    {
+      "degree": 187,
+      "lat": -3.53,
+      "lon": 137.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-4\u00b0, 137\u00b0)"
+    },
+    {
+      "degree": 188,
+      "lat": -4.03,
+      "lon": 138.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-4\u00b0, 138\u00b0)"
+    },
+    {
+      "degree": 189,
+      "lat": -4.53,
+      "lon": 139.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-5\u00b0, 139\u00b0)"
+    },
+    {
+      "degree": 190,
+      "lat": -5.03,
+      "lon": 140.01,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-5\u00b0, 140\u00b0)"
+    },
+    {
+      "degree": 191,
+      "lat": -5.53,
+      "lon": 140.88,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-6\u00b0, 141\u00b0)"
+    },
+    {
+      "degree": 192,
+      "lat": -6.02,
+      "lon": 141.75,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-6\u00b0, 142\u00b0)"
+    },
+    {
+      "degree": 193,
+      "lat": -6.52,
+      "lon": 142.62,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-7\u00b0, 143\u00b0)"
+    },
+    {
+      "degree": 194,
+      "lat": -7.01,
+      "lon": 143.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-7\u00b0, 144\u00b0)"
+    },
+    {
+      "degree": 195,
+      "lat": -7.51,
+      "lon": 144.38,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-8\u00b0, 144\u00b0)"
+    },
+    {
+      "degree": 196,
+      "lat": -8.0,
+      "lon": 145.26,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-8\u00b0, 145\u00b0)"
+    },
+    {
+      "degree": 197,
+      "lat": -8.49,
+      "lon": 146.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-8\u00b0, 146\u00b0)"
+    },
+    {
+      "degree": 198,
+      "lat": -8.97,
+      "lon": 147.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-9\u00b0, 147\u00b0)"
+    },
+    {
+      "degree": 199,
+      "lat": -9.46,
+      "lon": 147.91,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-9\u00b0, 148\u00b0)"
+    },
+    {
+      "degree": 200,
+      "lat": -9.94,
+      "lon": 148.8,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-10\u00b0, 149\u00b0)"
+    },
+    {
+      "degree": 201,
+      "lat": -10.42,
+      "lon": 149.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-10\u00b0, 150\u00b0)"
+    },
+    {
+      "degree": 202,
+      "lat": -10.9,
+      "lon": 150.58,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-11\u00b0, 151\u00b0)"
+    },
+    {
+      "degree": 203,
+      "lat": -11.38,
+      "lon": 151.48,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-11\u00b0, 151\u00b0)"
+    },
+    {
+      "degree": 204,
+      "lat": -11.85,
+      "lon": 152.38,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-12\u00b0, 152\u00b0)"
+    },
+    {
+      "degree": 205,
+      "lat": -12.32,
+      "lon": 153.28,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-12\u00b0, 153\u00b0)"
+    },
+    {
+      "degree": 206,
+      "lat": -12.78,
+      "lon": 154.19,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-13\u00b0, 154\u00b0)"
+    },
+    {
+      "degree": 207,
+      "lat": -13.25,
+      "lon": 155.1,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-13\u00b0, 155\u00b0)"
+    },
+    {
+      "degree": 208,
+      "lat": -13.71,
+      "lon": 156.01,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-14\u00b0, 156\u00b0)"
+    },
+    {
+      "degree": 209,
+      "lat": -14.17,
+      "lon": 156.93,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-14\u00b0, 157\u00b0)"
+    },
+    {
+      "degree": 210,
+      "lat": -14.62,
+      "lon": 157.85,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-15\u00b0, 158\u00b0)"
+    },
+    {
+      "degree": 211,
+      "lat": -15.07,
+      "lon": 158.77,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-15\u00b0, 159\u00b0)"
+    },
+    {
+      "degree": 212,
+      "lat": -15.52,
+      "lon": 159.7,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-16\u00b0, 160\u00b0)"
+    },
+    {
+      "degree": 213,
+      "lat": -15.96,
+      "lon": 160.63,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-16\u00b0, 161\u00b0)"
+    },
+    {
+      "degree": 214,
+      "lat": -16.4,
+      "lon": 161.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-16\u00b0, 162\u00b0)"
+    },
+    {
+      "degree": 215,
+      "lat": -16.83,
+      "lon": 162.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-17\u00b0, 163\u00b0)"
+    },
+    {
+      "degree": 216,
+      "lat": -17.26,
+      "lon": 163.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-17\u00b0, 163\u00b0)"
+    },
+    {
+      "degree": 217,
+      "lat": -17.69,
+      "lon": 164.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-18\u00b0, 164\u00b0)"
+    },
+    {
+      "degree": 218,
+      "lat": -18.11,
+      "lon": 165.35,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-18\u00b0, 165\u00b0)"
+    },
+    {
+      "degree": 219,
+      "lat": -18.52,
+      "lon": 166.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-19\u00b0, 166\u00b0)"
+    },
+    {
+      "degree": 220,
+      "lat": -18.93,
+      "lon": 167.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-19\u00b0, 167\u00b0)"
+    },
+    {
+      "degree": 221,
+      "lat": -19.34,
+      "lon": 168.24,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-19\u00b0, 168\u00b0)"
+    },
+    {
+      "degree": 222,
+      "lat": -19.74,
+      "lon": 169.21,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-20\u00b0, 169\u00b0)"
+    },
+    {
+      "degree": 223,
+      "lat": -20.14,
+      "lon": 170.19,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "(-20\u00b0, 170\u00b0)"
+    },
+    {
+      "degree": 224,
+      "lat": -20.53,
+      "lon": 171.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, 171\u00b0)"
+    },
+    {
+      "degree": 225,
+      "lat": -20.91,
+      "lon": 172.16,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, 172\u00b0)"
+    },
+    {
+      "degree": 226,
+      "lat": -21.29,
+      "lon": 173.15,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, 173\u00b0)"
+    },
+    {
+      "degree": 227,
+      "lat": -21.67,
+      "lon": 174.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, 174\u00b0)"
+    },
+    {
+      "degree": 228,
+      "lat": -22.03,
+      "lon": 175.15,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, 175\u00b0)"
+    },
+    {
+      "degree": 229,
+      "lat": -22.39,
+      "lon": 176.15,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, 176\u00b0)"
+    },
+    {
+      "degree": 230,
+      "lat": -22.75,
+      "lon": 177.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, 177\u00b0)"
+    },
+    {
+      "degree": 231,
+      "lat": -23.1,
+      "lon": 178.18,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, 178\u00b0)"
+    },
+    {
+      "degree": 232,
+      "lat": -23.44,
+      "lon": 179.21,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, 179\u00b0)"
+    },
+    {
+      "degree": 233,
+      "lat": -23.78,
+      "lon": -179.77,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -180\u00b0)"
+    },
+    {
+      "degree": 234,
+      "lat": -24.1,
+      "lon": -178.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -179\u00b0)"
+    },
+    {
+      "degree": 235,
+      "lat": -24.43,
+      "lon": -177.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -178\u00b0)"
+    },
+    {
+      "degree": 236,
+      "lat": -24.74,
+      "lon": -176.65,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-25\u00b0, -177\u00b0)"
+    },
+    {
+      "degree": 237,
+      "lat": -25.05,
+      "lon": -175.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-25\u00b0, -176\u00b0)"
+    },
+    {
+      "degree": 238,
+      "lat": -25.35,
+      "lon": -174.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-25\u00b0, -175\u00b0)"
+    },
+    {
+      "degree": 239,
+      "lat": -25.64,
+      "lon": -173.49,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-26\u00b0, -173\u00b0)"
+    },
+    {
+      "degree": 240,
+      "lat": -25.92,
+      "lon": -172.42,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-26\u00b0, -172\u00b0)"
+    },
+    {
+      "degree": 241,
+      "lat": -26.2,
+      "lon": -171.35,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-26\u00b0, -171\u00b0)"
+    },
+    {
+      "degree": 242,
+      "lat": -26.47,
+      "lon": -170.28,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-26\u00b0, -170\u00b0)"
+    },
+    {
+      "degree": 243,
+      "lat": -26.73,
+      "lon": -169.2,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-27\u00b0, -169\u00b0)"
+    },
+    {
+      "degree": 244,
+      "lat": -26.98,
+      "lon": -168.11,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-27\u00b0, -168\u00b0)"
+    },
+    {
+      "degree": 245,
+      "lat": -27.23,
+      "lon": -167.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-27\u00b0, -167\u00b0)"
+    },
+    {
+      "degree": 246,
+      "lat": -27.46,
+      "lon": -165.93,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-27\u00b0, -166\u00b0)"
+    },
+    {
+      "degree": 247,
+      "lat": -27.69,
+      "lon": -164.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-28\u00b0, -165\u00b0)"
+    },
+    {
+      "degree": 248,
+      "lat": -27.91,
+      "lon": -163.73,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-28\u00b0, -164\u00b0)"
+    },
+    {
+      "degree": 249,
+      "lat": -28.12,
+      "lon": -162.62,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-28\u00b0, -163\u00b0)"
+    },
+    {
+      "degree": 250,
+      "lat": -28.32,
+      "lon": -161.51,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-28\u00b0, -162\u00b0)"
+    },
+    {
+      "degree": 251,
+      "lat": -28.51,
+      "lon": -160.39,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -160\u00b0)"
+    },
+    {
+      "degree": 252,
+      "lat": -28.69,
+      "lon": -159.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -159\u00b0)"
+    },
+    {
+      "degree": 253,
+      "lat": -28.86,
+      "lon": -158.15,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -158\u00b0)"
+    },
+    {
+      "degree": 254,
+      "lat": -29.03,
+      "lon": -157.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -157\u00b0)"
+    },
+    {
+      "degree": 255,
+      "lat": -29.18,
+      "lon": -155.89,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -156\u00b0)"
+    },
+    {
+      "degree": 256,
+      "lat": -29.33,
+      "lon": -154.76,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -155\u00b0)"
+    },
+    {
+      "degree": 257,
+      "lat": -29.46,
+      "lon": -153.62,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -154\u00b0)"
+    },
+    {
+      "degree": 258,
+      "lat": -29.59,
+      "lon": -152.48,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -152\u00b0)"
+    },
+    {
+      "degree": 259,
+      "lat": -29.7,
+      "lon": -151.34,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -151\u00b0)"
+    },
+    {
+      "degree": 260,
+      "lat": -29.81,
+      "lon": -150.19,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -150\u00b0)"
+    },
+    {
+      "degree": 261,
+      "lat": -29.91,
+      "lon": -149.04,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -149\u00b0)"
+    },
+    {
+      "degree": 262,
+      "lat": -29.99,
+      "lon": -147.89,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -148\u00b0)"
+    },
+    {
+      "degree": 263,
+      "lat": -30.07,
+      "lon": -146.74,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -147\u00b0)"
+    },
+    {
+      "degree": 264,
+      "lat": -30.13,
+      "lon": -145.59,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -146\u00b0)"
+    },
+    {
+      "degree": 265,
+      "lat": -30.19,
+      "lon": -144.43,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -144\u00b0)"
+    },
+    {
+      "degree": 266,
+      "lat": -30.24,
+      "lon": -143.28,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -143\u00b0)"
+    },
+    {
+      "degree": 267,
+      "lat": -30.27,
+      "lon": -142.12,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -142\u00b0)"
+    },
+    {
+      "degree": 268,
+      "lat": -30.3,
+      "lon": -140.96,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -141\u00b0)"
+    },
+    {
+      "degree": 269,
+      "lat": -30.31,
+      "lon": -139.8,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -140\u00b0)"
+    },
+    {
+      "degree": 270,
+      "lat": -30.32,
+      "lon": -138.65,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -139\u00b0)"
+    },
+    {
+      "degree": 271,
+      "lat": -30.31,
+      "lon": -137.49,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -137\u00b0)"
+    },
+    {
+      "degree": 272,
+      "lat": -30.3,
+      "lon": -136.33,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -136\u00b0)"
+    },
+    {
+      "degree": 273,
+      "lat": -30.27,
+      "lon": -135.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -135\u00b0)"
+    },
+    {
+      "degree": 274,
+      "lat": -30.24,
+      "lon": -134.01,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -134\u00b0)"
+    },
+    {
+      "degree": 275,
+      "lat": -30.19,
+      "lon": -132.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -133\u00b0)"
+    },
+    {
+      "degree": 276,
+      "lat": -30.13,
+      "lon": -131.7,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -132\u00b0)"
+    },
+    {
+      "degree": 277,
+      "lat": -30.07,
+      "lon": -130.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -131\u00b0)"
+    },
+    {
+      "degree": 278,
+      "lat": -29.99,
+      "lon": -129.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -129\u00b0)"
+    },
+    {
+      "degree": 279,
+      "lat": -29.91,
+      "lon": -128.25,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -128\u00b0)"
+    },
+    {
+      "degree": 280,
+      "lat": -29.81,
+      "lon": -127.1,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -127\u00b0)"
+    },
+    {
+      "degree": 281,
+      "lat": -29.7,
+      "lon": -125.96,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -126\u00b0)"
+    },
+    {
+      "degree": 282,
+      "lat": -29.59,
+      "lon": -124.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-30\u00b0, -125\u00b0)"
+    },
+    {
+      "degree": 283,
+      "lat": -29.46,
+      "lon": -123.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -124\u00b0)"
+    },
+    {
+      "degree": 284,
+      "lat": -29.33,
+      "lon": -122.54,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -123\u00b0)"
+    },
+    {
+      "degree": 285,
+      "lat": -29.18,
+      "lon": -121.4,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -121\u00b0)"
+    },
+    {
+      "degree": 286,
+      "lat": -29.03,
+      "lon": -120.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -120\u00b0)"
+    },
+    {
+      "degree": 287,
+      "lat": -28.86,
+      "lon": -119.14,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -119\u00b0)"
+    },
+    {
+      "degree": 288,
+      "lat": -28.69,
+      "lon": -118.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -118\u00b0)"
+    },
+    {
+      "degree": 289,
+      "lat": -28.51,
+      "lon": -116.9,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-29\u00b0, -117\u00b0)"
+    },
+    {
+      "degree": 290,
+      "lat": -28.32,
+      "lon": -115.78,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-28\u00b0, -116\u00b0)"
+    },
+    {
+      "degree": 291,
+      "lat": -28.12,
+      "lon": -114.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 292,
+      "lat": -27.91,
+      "lon": -113.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 293,
+      "lat": -27.69,
+      "lon": -112.46,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 294,
+      "lat": -27.46,
+      "lon": -111.36,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 295,
+      "lat": -27.23,
+      "lon": -110.27,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 296,
+      "lat": -26.98,
+      "lon": -109.18,
+      "merged_count": 15,
+      "kml_count": 15,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 297,
+      "lat": -26.73,
+      "lon": -108.09,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 298,
+      "lat": -26.47,
+      "lon": -107.02,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 299,
+      "lat": -26.2,
+      "lon": -105.94,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 300,
+      "lat": -25.92,
+      "lon": -104.87,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 301,
+      "lat": -25.64,
+      "lon": -103.81,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 302,
+      "lat": -25.35,
+      "lon": -102.75,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 303,
+      "lat": -25.05,
+      "lon": -101.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 304,
+      "lat": -24.74,
+      "lon": -100.64,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Easter Island region"
+    },
+    {
+      "degree": 305,
+      "lat": -24.43,
+      "lon": -99.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -100\u00b0)"
+    },
+    {
+      "degree": 306,
+      "lat": -24.1,
+      "lon": -98.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -99\u00b0)"
+    },
+    {
+      "degree": 307,
+      "lat": -23.78,
+      "lon": -97.53,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-24\u00b0, -98\u00b0)"
+    },
+    {
+      "degree": 308,
+      "lat": -23.44,
+      "lon": -96.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, -96\u00b0)"
+    },
+    {
+      "degree": 309,
+      "lat": -23.1,
+      "lon": -95.48,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, -95\u00b0)"
+    },
+    {
+      "degree": 310,
+      "lat": -22.75,
+      "lon": -94.46,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-23\u00b0, -94\u00b0)"
+    },
+    {
+      "degree": 311,
+      "lat": -22.39,
+      "lon": -93.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, -93\u00b0)"
+    },
+    {
+      "degree": 312,
+      "lat": -22.03,
+      "lon": -92.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, -92\u00b0)"
+    },
+    {
+      "degree": 313,
+      "lat": -21.67,
+      "lon": -91.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-22\u00b0, -91\u00b0)"
+    },
+    {
+      "degree": 314,
+      "lat": -21.29,
+      "lon": -90.44,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, -90\u00b0)"
+    },
+    {
+      "degree": 315,
+      "lat": -20.91,
+      "lon": -89.45,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, -89\u00b0)"
+    },
+    {
+      "degree": 316,
+      "lat": -20.53,
+      "lon": -88.46,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-21\u00b0, -88\u00b0)"
+    },
+    {
+      "degree": 317,
+      "lat": -20.14,
+      "lon": -87.48,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-20\u00b0, -87\u00b0)"
+    },
+    {
+      "degree": 318,
+      "lat": -19.74,
+      "lon": -86.5,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-20\u00b0, -87\u00b0)"
+    },
+    {
+      "degree": 319,
+      "lat": -19.34,
+      "lon": -85.53,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "(-19\u00b0, -86\u00b0)"
+    },
+    {
+      "degree": 320,
+      "lat": -18.93,
+      "lon": -84.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 321,
+      "lat": -18.52,
+      "lon": -83.6,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 322,
+      "lat": -18.11,
+      "lon": -82.64,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 323,
+      "lat": -17.69,
+      "lon": -81.69,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 324,
+      "lat": -17.26,
+      "lon": -80.74,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 325,
+      "lat": -16.83,
+      "lon": -79.8,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 326,
+      "lat": -16.4,
+      "lon": -78.86,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 327,
+      "lat": -15.96,
+      "lon": -77.92,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 328,
+      "lat": -15.52,
+      "lon": -76.99,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 329,
+      "lat": -15.07,
+      "lon": -76.06,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 330,
+      "lat": -14.62,
+      "lon": -75.14,
+      "merged_count": 25,
+      "kml_count": 21,
+      "supplement_count": 4,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 331,
+      "lat": -14.17,
+      "lon": -74.22,
+      "merged_count": 2,
+      "kml_count": 1,
+      "supplement_count": 1,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 332,
+      "lat": -13.71,
+      "lon": -73.3,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 333,
+      "lat": -13.25,
+      "lon": -72.39,
+      "merged_count": 35,
+      "kml_count": 35,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 334,
+      "lat": -12.78,
+      "lon": -71.48,
+      "merged_count": 1,
+      "kml_count": 1,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 335,
+      "lat": -12.32,
+      "lon": -70.57,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 336,
+      "lat": -11.85,
+      "lon": -69.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 337,
+      "lat": -11.38,
+      "lon": -68.77,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 338,
+      "lat": -10.9,
+      "lon": -67.87,
+      "merged_count": 5,
+      "kml_count": 5,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 339,
+      "lat": -10.42,
+      "lon": -66.98,
+      "merged_count": 5,
+      "kml_count": 5,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 340,
+      "lat": -9.94,
+      "lon": -66.09,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 341,
+      "lat": -9.46,
+      "lon": -65.2,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 342,
+      "lat": -8.97,
+      "lon": -64.31,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 343,
+      "lat": -8.49,
+      "lon": -63.43,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 344,
+      "lat": -8.0,
+      "lon": -62.55,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 345,
+      "lat": -7.51,
+      "lon": -61.67,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 346,
+      "lat": -7.01,
+      "lon": -60.79,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Peru/Andes"
+    },
+    {
+      "degree": 347,
+      "lat": -6.52,
+      "lon": -59.92,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 348,
+      "lat": -6.02,
+      "lon": -59.04,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 349,
+      "lat": -5.53,
+      "lon": -58.17,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 350,
+      "lat": -5.03,
+      "lon": -57.3,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 351,
+      "lat": -4.53,
+      "lon": -56.43,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 352,
+      "lat": -4.03,
+      "lon": -55.56,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 353,
+      "lat": -3.53,
+      "lon": -54.7,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 354,
+      "lat": -3.02,
+      "lon": -53.83,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 355,
+      "lat": -2.52,
+      "lon": -52.97,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 356,
+      "lat": -2.02,
+      "lon": -52.1,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 357,
+      "lat": -1.51,
+      "lon": -51.24,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 358,
+      "lat": -1.01,
+      "lon": -50.37,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    },
+    {
+      "degree": 359,
+      "lat": -0.5,
+      "lon": -49.51,
+      "merged_count": 0,
+      "kml_count": 0,
+      "supplement_count": 0,
+      "region": "Brazil/Amazon"
+    }
+  ],
+  "summary": {
+    "clusters_before": 4,
+    "clusters_after": 6,
+    "new_cluster_names": [
+      "Indus Valley",
+      "Southeast Asia"
+    ],
+    "interpretation": "The supplemented dataset reveals 6 distinct clusters along the Great Circle, up from the original 4. New clusters include: Indus Valley, Southeast Asia. Each represents an independent civilization center threaded by the same great circle."
+  }
+}

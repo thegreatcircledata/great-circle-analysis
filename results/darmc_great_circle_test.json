@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "name": "D12: DARMC Great Circle Test",
+    "date": "2026-03-16",
+    "total_sites": 4231,
+    "datasets": {
+      "ancient_ports": 3172,
+      "shipwrecks": 724,
+      "carolingian_hoards": 251,
+      "anglo_saxon": 84
+    },
+    "source": "Digital Atlas of Roman and Medieval Civilizations (DARMC) \u2014 Harvard Dataverse",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "overlap_analysis": {
+    "total_darmc": 4231,
+    "overlapping_with_pleiades": 671,
+    "non_overlapping": 3560,
+    "overlap_percentage": 15.9,
+    "threshold_meters": 500
+  },
+  "full_results": {
+    "25": {
+      "observed": 5,
+      "expected": 11.7,
+      "std": 3.8,
+      "enrichment": 0.43,
+      "z_score": -1.77
+    },
+    "50": {
+      "observed": 10,
+      "expected": 23.9,
+      "std": 5.1,
+      "enrichment": 0.42,
+      "z_score": -2.7
+    },
+    "100": {
+      "observed": 18,
+      "expected": 47.7,
+      "std": 6.2,
+      "enrichment": 0.38,
+      "z_score": -4.75
+    },
+    "200": {
+      "observed": 82,
+      "expected": 97.9,
+      "std": 9.5,
+      "enrichment": 0.84,
+      "z_score": -1.68
+    }
+  },
+  "non_overlapping_results": {
+    "25": {
+      "observed": 5,
+      "expected": 10.1,
+      "std": 3.0,
+      "enrichment": 0.49,
+      "z_score": -1.69
+    },
+    "50": {
+      "observed": 10,
+      "expected": 21.3,
+      "std": 4.5,
+      "enrichment": 0.47,
+      "z_score": -2.53
+    },
+    "100": {
+      "observed": 17,
+      "expected": 44.0,
+      "std": 6.5,
+      "enrichment": 0.39,
+      "z_score": -4.17
+    },
+    "200": {
+      "observed": 71,
+      "expected": 87.9,
+      "std": 8.8,
+      "enrichment": 0.81,
+      "z_score": -1.92
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "name": "English Circles Settlement Test",
+    "n_circles": 50,
+    "monumental_group": "Scheduled Monuments + Grade I + Grade II* Listed Buildings",
+    "general_group": "Grade II Listed Buildings (subsampled)"
+  },
+  "all_circles": [
+    {
+      "pole_lat": 21.2183,
+      "pole_lon": 116.7404,
+      "monumental_count": 8641,
+      "general_count": 24423,
+      "monumental_rate_per_10k": 1737.02,
+      "general_rate_per_10k": 1636.51,
+      "ratio": 1.061
+    },
+    {
+      "pole_lat": -32.8816,
+      "pole_lon": 27.95,
+      "monumental_count": 6224,
+      "general_count": 19042,
+      "monumental_rate_per_10k": 1251.16,
+      "general_rate_per_10k": 1275.95,
+      "ratio": 0.981
+    },
+    {
+      "pole_lat": -29.9434,
+      "pole_lon": 44.0026,
+      "monumental_count": 10449,
+      "general_count": 37799,
+      "monumental_rate_per_10k": 2100.47,
+      "general_rate_per_10k": 2532.8,
+      "ratio": 0.829
+    },
+    {
+      "pole_lat": 37.138,
+      "pole_lon": -160.6507,
+      "monumental_count": 18283,
+      "general_count": 54791,
+      "monumental_rate_per_10k": 3675.27,
+      "general_rate_per_10k": 3671.38,
+      "ratio": 1.001
+    },
+    {
+      "pole_lat": 36.7861,
+      "pole_lon": 157.112,
+      "monumental_count": 11027,
+      "general_count": 35770,
+      "monumental_rate_per_10k": 2216.66,
+      "general_rate_per_10k": 2396.84,
+      "ratio": 0.925
+    },
+    {
+      "pole_lat": -19.8128,
+      "pole_lon": 62.1446,
+      "monumental_count": 14056,
+      "general_count": 42411,
+      "monumental_rate_per_10k": 2825.55,
+      "general_rate_per_10k": 2841.84,
+      "ratio": 0.994
+    },
+    {
+      "pole_lat": 22.6645,
+      "pole_lon": -125.7927,
+      "monumental_count": 11384,
+      "general_count": 31299,
+      "monumental_rate_per_10k": 2288.43,
+      "general_rate_per_10k": 2097.25,
+      "ratio": 1.091
+    },
+    {
+      "pole_lat": 3.4112,
+      "pole_lon": 95.0156,
+      "monumental_count": 8350,
+      "general_count": 28602,
+      "monumental_rate_per_10k": 1678.53,
+      "general_rate_per_10k": 1916.54,
+      "ratio": 0.876
+    },
+    {
+      "pole_lat": 37.6813,
+      "pole_lon": -179.1872,
+      "monumental_count": 11186,
+      "general_count": 37116,
+      "monumental_rate_per_10k": 2248.62,
+      "general_rate_per_10k": 2487.03,
+      "ratio": 0.904
+    },
+    {
+      "pole_lat": 18.1828,
+      "pole_lon": -117.798,
+      "monumental_count": 15762,
+      "general_count": 43553,
+      "monumental_rate_per_10k": 3168.5,
+      "general_rate_per_10k": 2918.36,
+      "ratio": 1.086
+    },
+    {
+      "pole_lat": 28.9179,
+      "pole_lon": 130.543,
+      "monumental_count": 6611,
+      "general_count": 17319,
+      "monumental_rate_per_10k": 1328.95,
+      "general_rate_per_10k": 1160.5,
+      "ratio": 1.145
+    },
+    {
+      "pole_lat": 11.87,
+      "pole_lon": 106.4515,
+      "monumental_count": 10774,
+      "general_count": 29306,
+      "monumental_rate_per_10k": 2165.8,
+      "general_rate_per_10k": 1963.71,
+      "ratio": 1.103
+    },
+    {
+      "pole_lat": 32.9389,
+      "pole_lon": -144.3472,
+      "monumental_count": 13976,
+      "general_count": 46787,
+      "monumental_rate_per_10k": 2809.47,
+      "general_rate_per_10k": 3135.06,
+      "ratio": 0.896
+    },
+    {
+      "pole_lat": -1.0492,
+      "pole_lon": 88.6555,
+      "monumental_count": 12000,
+      "general_count": 38722,
+      "monumental_rate_per_10k": 2412.25,
+      "general_rate_per_10k": 2594.65,
+      "ratio": 0.93
+    },
+    {
+      "pole_lat": 36.191,
+      "pole_lon": -176.4506,
+      "monumental_count": 5356,
+      "general_count": 17179,
+      "monumental_rate_per_10k": 1076.67,
+      "general_rate_per_10k": 1151.11,
+      "ratio": 0.935
+    },
+    {
+      "pole_lat": 28.9351,
+      "pole_lon": 137.3494,
+      "monumental_count": 9443,
+      "general_count": 27583,
+      "monumental_rate_per_10k": 1898.24,
+      "general_rate_per_10k": 1848.26,
+      "ratio": 1.027
+    },
+    {
+      "pole_lat": 33.8716,
+      "pole_lon": 149.3341,
+      "monumental_count": 10973,
+      "general_count": 39045,
+      "monumental_rate_per_10k": 2205.81,
+      "general_rate_per_10k": 2616.29,
+      "ratio": 0.843
+    },
+    {
+      "pole_lat": -30.1315,
+      "pole_lon": -44.8597,
+      "monumental_count": 10838,
+      "general_count": 36100,
+      "monumental_rate_per_10k": 2178.67,
+      "general_rate_per_10k": 2418.95,
+      "ratio": 0.901
+    },
+    {
+      "pole_lat": -36.9638,
+      "pole_lon": 14.2048,
+      "monumental_count": 12664,
+      "general_count": 44769,
+      "monumental_rate_per_10k": 2545.73,
+      "general_rate_per_10k": 2999.84,
+      "ratio": 0.849
+    },
+    {
+      "pole_lat": -3.2325,
+      "pole_lon": 82.5419,
+      "monumental_count": 9649,
+      "general_count": 24673,
+      "monumental_rate_per_10k": 1939.65,
+      "general_rate_per_10k": 1653.27,
+      "ratio": 1.173
+    },
+    {
+      "pole_lat": 17.0316,
+      "pole_lon": -112.6078,
+      "monumental_count": 11528,
+      "general_count": 40221,
+      "monumental_rate_per_10k": 2317.37,
+      "general_rate_per_10k": 2695.09,
+      "ratio": 0.86
+    },
+    {
+      "pole_lat": 37.3928,
+      "pole_lon": 176.576,
+      "monumental_count": 9708,
+      "general_count": 29274,
+      "monumental_rate_per_10k": 1951.51,
+      "general_rate_per_10k": 1961.56,
+      "ratio": 0.995
+    },
+    {
+      "pole_lat": 39.3887,
+      "pole_lon": -171.5171,
+      "monumental_count": 1445,
+      "general_count": 4079,
+      "monumental_rate_per_10k": 290.48,
+      "general_rate_per_10k": 273.32,
+      "ratio": 1.063
+    },
+    {
+      "pole_lat": 38.2486,
+      "pole_lon": 170.0638,
+      "monumental_count": 14162,
+      "general_count": 48166,
+      "monumental_rate_per_10k": 2846.86,
+      "general_rate_per_10k": 3227.46,
+      "ratio": 0.882
+    },
+    {
+      "pole_lat": 30.062,
+      "pole_lon": 132.7148,
+      "monumental_count": 5312,
+      "general_count": 14357,
+      "monumental_rate_per_10k": 1067.82,
+      "general_rate_per_10k": 962.02,
+      "ratio": 1.11
+    },
+    {
+      "pole_lat": -37.504,
+      "pole_lon": 14.0118,
+      "monumental_count": 17469,
+      "general_count": 57393,
+      "monumental_rate_per_10k": 3511.64,
+      "general_rate_per_10k": 3845.74,
+      "ratio": 0.913
+    },
+    {
+      "pole_lat": -37.6379,
+      "pole_lon": -5.5346,
+      "monumental_count": 11050,
+      "general_count": 38334,
+      "monumental_rate_per_10k": 2221.28,
+      "general_rate_per_10k": 2568.65,
+      "ratio": 0.865
+    },
+    {
+      "pole_lat": 18.2832,
+      "pole_lon": 112.6155,
+      "monumental_count": 10737,
+      "general_count": 34017,
+      "monumental_rate_per_10k": 2158.36,
+      "general_rate_per_10k": 2279.38,
+      "ratio": 0.947
+    },
+    {
+      "pole_lat": 17.6213,
+      "pole_lon": 112.9804,
+      "monumental_count": 15744,
+      "general_count": 56806,
+      "monumental_rate_per_10k": 3164.88,
+      "general_rate_per_10k": 3806.4,
+      "ratio": 0.831
+    },
+    {
+      "pole_lat": 6.3336,
+      "pole_lon": 95.2899,
+      "monumental_count": 9523,
+      "general_count": 29465,
+      "monumental_rate_per_10k": 1914.32,
+      "general_rate_per_10k": 1974.36,
+      "ratio": 0.97
+    },
+    {
+      "pole_lat": -32.2076,
+      "pole_lon": 33.939,
+      "monumental_count": 10493,
+      "general_count": 32551,
+      "monumental_rate_per_10k": 2109.32,
+      "general_rate_per_10k": 2181.15,
+      "ratio": 0.967
+    },
+    {
+      "pole_lat": 34.8174,
+      "pole_lon": 151.5496,
+      "monumental_count": 13596,
+      "general_count": 50483,
+      "monumental_rate_per_10k": 2733.08,
+      "general_rate_per_10k": 3382.72,
+      "ratio": 0.808
+    },
+    {
+      "pole_lat": -16.4348,
+      "pole_lon": -67.4114,
+      "monumental_count": 15538,
+      "general_count": 46908,
+      "monumental_rate_per_10k": 3123.47,
+      "general_rate_per_10k": 3143.17,
+      "ratio": 0.994
+    },
+    {
+      "pole_lat": 24.9194,
+      "pole_lon": 125.0393,
+      "monumental_count": 13291,
+      "general_count": 48376,
+      "monumental_rate_per_10k": 2671.77,
+      "general_rate_per_10k": 3241.53,
+      "ratio": 0.824
+    },
+    {
+      "pole_lat": 15.7534,
+      "pole_lon": -111.9798,
+      "monumental_count": 12708,
+      "general_count": 36550,
+      "monumental_rate_per_10k": 2554.58,
+      "general_rate_per_10k": 2449.11,
+      "ratio": 1.043
+    },
+    {
+      "pole_lat": -14.0553,
+      "pole_lon": 72.7568,
+      "monumental_count": 5008,
+      "general_count": 18487,
+      "monumental_rate_per_10k": 1006.71,
+      "general_rate_per_10k": 1238.76,
+      "ratio": 0.813
+    },
+    {
+      "pole_lat": -34.298,
+      "pole_lon": 25.6351,
+      "monumental_count": 7984,
+      "general_count": 23804,
+      "monumental_rate_per_10k": 1604.95,
+      "general_rate_per_10k": 1595.04,
+      "ratio": 1.006
+    },
+    {
+      "pole_lat": -13.5331,
+      "pole_lon": 71.5739,
+      "monumental_count": 12388,
+      "general_count": 39717,
+      "monumental_rate_per_10k": 2490.25,
+      "general_rate_per_10k": 2661.32,
+      "ratio": 0.936
+    },
+    {
+      "pole_lat": -1.215,
+      "pole_lon": -89.8831,
+      "monumental_count": 17916,
+      "general_count": 53840,
+      "monumental_rate_per_10k": 3601.5,
+      "general_rate_per_10k": 3607.66,
+      "ratio": 0.998
+    },
+    {
+      "pole_lat": -36.8863,
+      "pole_lon": -13.1677,
+      "monumental_count": 10384,
+      "general_count": 33550,
+      "monumental_rate_per_10k": 2087.4,
+      "general_rate_per_10k": 2248.09,
+      "ratio": 0.929
+    },
+    {
+      "pole_lat": -26.4875,
+      "pole_lon": -54.8748,
+      "monumental_count": 5104,
+      "general_count": 13679,
+      "monumental_rate_per_10k": 1026.01,
+      "general_rate_per_10k": 916.59,
+      "ratio": 1.119
+    },
+    {
+      "pole_lat": 2.3149,
+      "pole_lon": 89.3415,
+      "monumental_count": 4879,
+      "general_count": 12311,
+      "monumental_rate_per_10k": 980.78,
+      "general_rate_per_10k": 824.92,
+      "ratio": 1.189
+    },
+    {
+      "pole_lat": 5.4387,
+      "pole_lon": -96.3465,
+      "monumental_count": 9611,
+      "general_count": 33043,
+      "monumental_rate_per_10k": 1932.01,
+      "general_rate_per_10k": 2214.11,
+      "ratio": 0.873
+    },
+    {
+      "pole_lat": 1.5061,
+      "pole_lon": 88.9169,
+      "monumental_count": 9503,
+      "general_count": 28978,
+      "monumental_rate_per_10k": 1910.3,
+      "general_rate_per_10k": 1941.73,
+      "ratio": 0.984
+    },
+    {
+      "pole_lat": -38.8552,
+      "pole_lon": -8.1611,
+      "monumental_count": 12707,
+      "general_count": 37715,
+      "monumental_rate_per_10k": 2554.38,
+      "general_rate_per_10k": 2527.17,
+      "ratio": 1.011
+    },
+    {
+      "pole_lat": 37.264,
+      "pole_lon": 162.4995,
+      "monumental_count": 13132,
+      "general_count": 49465,
+      "monumental_rate_per_10k": 2639.81,
+      "general_rate_per_10k": 3314.5,
+      "ratio": 0.796
+    },
+    {
+      "pole_lat": 10.1884,
+      "pole_lon": 103.5599,
+      "monumental_count": 15919,
+      "general_count": 46569,
+      "monumental_rate_per_10k": 3200.06,
+      "general_rate_per_10k": 3120.45,
+      "ratio": 1.026
+    },
+    {
+      "pole_lat": -36.4552,
+      "pole_lon": -0.1615,
+      "monumental_count": 5486,
+      "general_count": 17823,
+      "monumental_rate_per_10k": 1102.8,
+      "general_rate_per_10k": 1194.27,
+      "ratio": 0.923
+    },
+    {
+      "pole_lat": -23.0556,
+      "pole_lon": 54.0978,
+      "monumental_count": 13725,
+      "general_count": 34855,
+      "monumental_rate_per_10k": 2759.02,
+      "general_rate_per_10k": 2335.53,
+      "ratio": 1.181
+    },
+    {
+      "pole_lat": -2.4278,
+      "pole_lon": -89.6384,
+      "monumental_count": 11722,
+      "general_count": 36139,
+      "monumental_rate_per_10k": 2356.37,
+      "general_rate_per_10k": 2421.57,
+      "ratio": 0.973
+    }
+  ],
+  "summary": {
+    "mean_ratio": 0.968,
+    "n_enriched_gt_1_5": 0,
+    "n_depleted_lt_0_67": 0,
+    "verdict": "CONFIRMED: Random circles through England show NO monument-specific enrichment"
+  }
+}

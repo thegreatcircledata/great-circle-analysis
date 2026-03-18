@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "n_sites": 61913,
+    "n_random_circles": 1000,
+    "threshold_km": 50.0,
+    "random_seed": 42,
+    "date": "2026-03-16"
+  },
+  "random_stats": {
+    "mean": 550.76,
+    "std": 1271.02,
+    "min": 0,
+    "max": 8396,
+    "median": 55.0
+  },
+  "top10_random": [
+    {
+      "rank": 1,
+      "pole_lat": 3.306947,
+      "pole_lon": -97.971069,
+      "count": 8396,
+      "z_score": 6.17,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 2,
+      "pole_lat": 7.050047,
+      "pole_lon": 94.586979,
+      "count": 7857,
+      "z_score": 5.75,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 9.7,
+        "Oceania": 5.6,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 3,
+      "pole_lat": -1.924576,
+      "pole_lon": 85.394053,
+      "count": 7842,
+      "z_score": 5.74,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 4,
+      "pole_lat": -0.644343,
+      "pole_lon": 87.834398,
+      "count": 7724,
+      "z_score": 5.64,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 5,
+      "pole_lat": 6.403904,
+      "pole_lon": -101.373021,
+      "count": 7711,
+      "z_score": 5.63,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 6,
+      "pole_lat": -15.865361,
+      "pole_lon": -71.605449,
+      "count": 7617,
+      "z_score": 5.56,
+      "region_profile": {
+        "UK/France": 2.8,
+        "Mediterranean": 4.2,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 18.1,
+        "Oceania": 0.0,
+        "Ocean/Other": 56.9
+      }
+    },
+    {
+      "rank": 7,
+      "pole_lat": -9.6978,
+      "pole_lon": 74.46038,
+      "count": 7502,
+      "z_score": 5.47,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 13.9,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 63.9
+      }
+    },
+    {
+      "rank": 8,
+      "pole_lat": -6.642871,
+      "pole_lon": 76.932504,
+      "count": 7069,
+      "z_score": 5.13,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 2.8,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 0.0,
+        "Oceania": 15.3,
+        "Ocean/Other": 59.7
+      }
+    },
+    {
+      "rank": 9,
+      "pole_lat": -15.199317,
+      "pole_lon": -70.681779,
+      "count": 6544,
+      "z_score": 4.72,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 4.2,
+        "Middle East": 0.0,
+        "South Asia": 0.0,
+        "East Asia": 0.0,
+        "Sub-Saharan Africa": 18.1,
+        "South America": 0.0,
+        "North America": 18.1,
+        "Oceania": 0.0,
+        "Ocean/Other": 55.6
+      }
+    },
+    {
+      "rank": 10,
+      "pole_lat": 35.558602,
+      "pole_lon": -155.59876,
+      "count": 6526,
+      "z_score": 4.7,
+      "region_profile": {
+        "UK/France": 4.2,
+        "Mediterranean": 0.0,
+        "Middle East": 0.0,
+        "South Asia": 5.6,
+        "East Asia": 6.9,
+        "Sub-Saharan Africa": 0.0,
+        "South America": 13.9,
+        "North America": 2.8,
+        "Oceania": 19.4,
+        "Ocean/Other": 47.2
+      }
+    }
+  ],
+  "alison_circle": {
+    "pole_lat": 59.682122,
+    "pole_lon": -138.646087,
+    "count": 319,
+    "z_score": -0.18,
+    "region_profile": {
+      "UK/France": 0.0,
+      "Mediterranean": 0.0,
+      "Middle East": 12.5,
+      "South Asia": 6.9,
+      "East Asia": 11.1,
+      "Sub-Saharan Africa": 6.9,
+      "South America": 16.7,
+      "North America": 0.0,
+      "Oceania": 13.9,
+      "Ocean/Other": 31.9
+    }
+  },
+  "alison_percentile": 78.3,
+  "analysis_summary": {
+    "top10_avg_europe_pct": 6.9,
+    "top10_n_with_europe": 10,
+    "alison_europe_pct": 0.0,
+    "non_european_randoms_total": 839,
+    "non_european_randoms_beating_alison": 77
+  }
+}

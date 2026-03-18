@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "name": "Directive 2: Settlement Classification \u2014 Megalithic Portal",
+    "date": "2026-03-16",
+    "description": "Replicates the Pleiades settlement baseline using Megalithic Portal type classifications",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "threshold_km": 50,
+    "monte_carlo_trials": 200,
+    "jitter_degrees": 2.0
+  },
+  "all_sites": {
+    "monumental": {
+      "n_sites": 28167,
+      "within_50km": 147,
+      "expected": 42.6,
+      "std": 6.1,
+      "z_score": 17.15,
+      "enrichment": 3.45
+    },
+    "settlement": {
+      "n_sites": 5315,
+      "within_50km": 97,
+      "expected": 19.7,
+      "std": 4.2,
+      "z_score": 18.43,
+      "enrichment": 4.93
+    },
+    "z_difference": -1.28
+  },
+  "non_european": {
+    "monumental": {
+      "n_sites": 2328,
+      "within_50km": 147,
+      "expected": 26.6,
+      "std": 5.0,
+      "z_score": 23.96,
+      "enrichment": 5.53
+    },
+    "settlement": {
+      "n_sites": 1199,
+      "within_50km": 97,
+      "expected": 18.4,
+      "std": 4.1,
+      "z_score": 19.2,
+      "enrichment": 5.27
+    },
+    "z_difference": 4.76
+  },
+  "verdict": "EQUAL",
+  "verdict_detail": "Monumental Z=17.15, Settlement Z=18.43, diff=-1.28. Non-EU: Monumental Z=23.96, Settlement Z=19.2, diff=4.76.",
+  "monumental_types_used": [
+    "Ancient Temple",
+    "Burial Chamber or Dolmen",
+    "Chambered Cairn",
+    "Chambered Tomb",
+    "Court Tomb",
+    "Cursus",
+    "Henge",
+    "Hill Figure or Geoglyph",
+    "Long Barrow",
+    "Multiple Stone Rows  Avenue",
+    "Passage Grave",
+    "Portal Tomb",
+    "Pyramid  Mastaba",
+    "Rock Art",
+    "Standing Stone (Menhir)",
+    "Standing Stones",
+    "Stone Circle",
+    "Stone Row  Alignment",
+    "Timber Circle"
+  ],
+  "settlement_types_used": [
+    "Ancient Mine, Quarry or other Industry",
+    "Ancient Palace",
+    "Ancient Trackway",
+    "Ancient Village or Settlement",
+    "Crannog"
+  ],
+  "elapsed_seconds": 30.1
+}

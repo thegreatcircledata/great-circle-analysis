@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "name": "D12: DARE Great Circle Test",
+    "date": "2026-03-16",
+    "total_sites": 26936,
+    "source": "Digital Atlas of the Roman Empire (DARE)",
+    "api": "imperium.ahlfeldt.se/api/geojson.php",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "full_results": {
+    "25": {
+      "observed": 104,
+      "expected": 77.7,
+      "std": 8.5,
+      "enrichment": 1.34,
+      "z_score": 3.11
+    },
+    "50": {
+      "observed": 154,
+      "expected": 156.6,
+      "std": 12.7,
+      "enrichment": 0.98,
+      "z_score": -0.21
+    },
+    "100": {
+      "observed": 385,
+      "expected": 320.0,
+      "std": 17.3,
+      "enrichment": 1.2,
+      "z_score": 3.76
+    },
+    "200": {
+      "observed": 849,
+      "expected": 649.4,
+      "std": 23.9,
+      "enrichment": 1.31,
+      "z_score": 8.35
+    }
+  },
+  "non_overlapping_results": {
+    "25": {
+      "observed": 38,
+      "expected": 28.0,
+      "std": 5.6,
+      "enrichment": 1.36,
+      "z_score": 1.81
+    },
+    "50": {
+      "observed": 54,
+      "expected": 55.7,
+      "std": 6.9,
+      "enrichment": 0.97,
+      "z_score": -0.25
+    },
+    "100": {
+      "observed": 145,
+      "expected": 108.8,
+      "std": 11.0,
+      "enrichment": 1.33,
+      "z_score": 3.28
+    },
+    "200": {
+      "observed": 313,
+      "expected": 217.6,
+      "std": 14.0,
+      "enrichment": 1.44,
+      "z_score": 6.83
+    }
+  },
+  "overlap_analysis": {
+    "total_dare_sites": 26936,
+    "overlapping_with_pleiades": 15596,
+    "non_overlapping": 11340,
+    "overlap_percentage": 57.9
+  },
+  "site_type_counts": {
+    "fort": 1731,
+    "town": 8381,
+    "villa": 4889,
+    "mountain": 389,
+    "city": 1450,
+    "tumulus": 196,
+    "mine/quarry": 631,
+    "bath": 77,
+    "settlement": 1097,
+    "island": 385,
+    "production": 68,
+    "aqueduct/dam/cistern/spring": 132,
+    "temple": 1203,
+    "bridge": 501,
+    "station": 1363,
+    "Iron-Age oppidum": 1375,
+    "cape": 293,
+    "Late-Roman oppidum": 356,
+    "fortlet/tower": 514,
+    "church": 243,
+    "necropolis": 468,
+    "archaeological site": 14,
+    "road/milestone": 93,
+    "camp": 339,
+    "lighthouse": 8,
+    "civitas": 87,
+    "pass": 84,
+    "river": 248,
+    "amphitheater": 1,
+    "building": 2,
+    "monastery": 119,
+    "monument": 29,
+    "": 79,
+    "theatre": 18,
+    "fortress": 37,
+    "oasis": 17,
+    "wall": 5,
+    "circus": 1,
+    "lake": 1,
+    "well": 10,
+    "rapid": 2
+  }
+}

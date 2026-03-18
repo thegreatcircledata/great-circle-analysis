@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "date": "2026-03-16",
+    "directive": "D7: KDE-Based Null Model",
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "n_trials": 200,
+    "thresholds_km": [
+      25,
+      50,
+      100,
+      200
+    ],
+    "bandwidth_factors": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "methodology": "2D KDE fitted to all site coordinates with cos(lat) correction. Null points sampled from KDE surface, preserving joint spatial clustering. Bandwidth = Silverman's rule \u00d7 factor. Three bandwidth factors tested: 0.5\u00d7, 1.0\u00d7, 2.0\u00d7."
+  },
+  "datasets": {
+    "megalithic_portal": {
+      "n_sites": 61913,
+      "observed": {
+        "25": 207,
+        "50": 319,
+        "100": 454,
+        "200": 761
+      },
+      "old_baseline": {
+        "25": {
+          "observed": 207,
+          "expected_mean": 45.28,
+          "expected_std": 6.58,
+          "z_score": 24.57,
+          "enrichment": 4.57
+        },
+        "50": {
+          "observed": 319,
+          "expected_mean": 89.77,
+          "expected_std": 9.35,
+          "z_score": 24.5,
+          "enrichment": 3.55
+        },
+        "100": {
+          "observed": 454,
+          "expected_mean": 179.84,
+          "expected_std": 12.5,
+          "z_score": 21.93,
+          "enrichment": 2.52
+        },
+        "200": {
+          "observed": 761,
+          "expected_mean": 362.87,
+          "expected_std": 17.74,
+          "z_score": 22.44,
+          "enrichment": 2.1
+        }
+      },
+      "kde_baselines": {
+        "0.5x": {
+          "bandwidth_factor": 0.5,
+          "silverman_bandwidth": 0.15899,
+          "actual_bandwidth": 0.079495,
+          "cos_correction": 0.67096,
+          "results": {
+            "25": {
+              "observed": 207,
+              "expected_mean": 99.3,
+              "expected_std": 9.05,
+              "z_score": 11.9,
+              "enrichment": 2.08
+            },
+            "50": {
+              "observed": 319,
+              "expected_mean": 196.25,
+              "expected_std": 12.92,
+              "z_score": 9.5,
+              "enrichment": 1.63
+            },
+            "100": {
+              "observed": 454,
+              "expected_mean": 376.34,
+              "expected_std": 18.25,
+              "z_score": 4.26,
+              "enrichment": 1.21
+            },
+            "200": {
+              "observed": 761,
+              "expected_mean": 664.94,
+              "expected_std": 24.24,
+              "z_score": 3.96,
+              "enrichment": 1.14
+            }
+          }
+        },
+        "1.0x": {
+          "bandwidth_factor": 1.0,
+          "silverman_bandwidth": 0.15899,
+          "actual_bandwidth": 0.15899,
+          "cos_correction": 0.67096,
+          "results": {
+            "25": {
+              "observed": 207,
+              "expected_mean": 73.27,
+              "expected_std": 7.77,
+              "z_score": 17.2,
+              "enrichment": 2.83
+            },
+            "50": {
+              "observed": 319,
+              "expected_mean": 146.43,
+              "expected_std": 11.81,
+              "z_score": 14.61,
+              "enrichment": 2.18
+            },
+            "100": {
+              "observed": 454,
+              "expected_mean": 292.02,
+              "expected_std": 15.65,
+              "z_score": 10.35,
+              "enrichment": 1.55
+            },
+            "200": {
+              "observed": 761,
+              "expected_mean": 565.03,
+              "expected_std": 22.27,
+              "z_score": 8.8,
+              "enrichment": 1.35
+            }
+          }
+        },
+        "2.0x": {
+          "bandwidth_factor": 2.0,
+          "silverman_bandwidth": 0.15899,
+          "actual_bandwidth": 0.31798,
+          "cos_correction": 0.67096,
+          "results": {
+            "25": {
+              "observed": 207,
+              "expected_mean": 61.73,
+              "expected_std": 7.41,
+              "z_score": 19.61,
+              "enrichment": 3.35
+            },
+            "50": {
+              "observed": 319,
+              "expected_mean": 123.63,
+              "expected_std": 10.86,
+              "z_score": 17.99,
+              "enrichment": 2.58
+            },
+            "100": {
+              "observed": 454,
+              "expected_mean": 248.03,
+              "expected_std": 15.38,
+              "z_score": 13.39,
+              "enrichment": 1.83
+            },
+            "200": {
+              "observed": 761,
+              "expected_mean": 496.05,
+              "expected_std": 22.97,
+              "z_score": 11.53,
+              "enrichment": 1.53
+            }
+          }
+        }
+      }
+    },
+    "pleiades_all": {
+      "n_sites": 34470,
+      "observed": {
+        "25": 200,
+        "50": 302,
+        "100": 671,
+        "200": 1516
+      },
+      "old_baseline": {
+        "25": {
+          "observed": 200,
+          "expected_mean": 147.3,
+          "expected_std": 12.43,
+          "z_score": 4.24,
+          "enrichment": 1.36
+        },
+        "50": {
+          "observed": 302,
+          "expected_mean": 297.6,
+          "expected_std": 18.37,
+          "z_score": 0.24,
+          "enrichment": 1.01
+        },
+        "100": {
+          "observed": 671,
+          "expected_mean": 599.14,
+          "expected_std": 24.08,
+          "z_score": 2.98,
+          "enrichment": 1.12
+        },
+        "200": {
+          "observed": 1516,
+          "expected_mean": 1232.19,
+          "expected_std": 33.61,
+          "z_score": 8.44,
+          "enrichment": 1.23
+        }
+      },
+      "kde_baselines": {
+        "0.5x": {
+          "bandwidth_factor": 0.5,
+          "silverman_bandwidth": 0.175291,
+          "actual_bandwidth": 0.087646,
+          "cos_correction": 0.773153,
+          "results": {
+            "25": {
+              "observed": 200,
+              "expected_mean": 171.22,
+              "expected_std": 12.85,
+              "z_score": 2.24,
+              "enrichment": 1.17
+            },
+            "50": {
+              "observed": 302,
+              "expected_mean": 345.95,
+              "expected_std": 17.77,
+              "z_score": -2.47,
+              "enrichment": 0.87
+            },
+            "100": {
+              "observed": 671,
+              "expected_mean": 708.81,
+              "expected_std": 24.07,
+              "z_score": -1.57,
+              "enrichment": 0.95
+            },
+            "200": {
+              "observed": 1516,
+              "expected_mean": 1531.59,
+              "expected_std": 39.64,
+              "z_score": -0.39,
+              "enrichment": 0.99
+            }
+          }
+        },
+        "1.0x": {
+          "bandwidth_factor": 1.0,
+          "silverman_bandwidth": 0.175291,
+          "actual_bandwidth": 0.175291,
+          "cos_correction": 0.773153,
+          "results": {
+            "25": {
+              "observed": 200,
+              "expected_mean": 188.04,
+              "expected_std": 13.04,
+              "z_score": 0.92,
+              "enrichment": 1.06
+            },
+            "50": {
+              "observed": 302,
+              "expected_mean": 378.44,
+              "expected_std": 18.15,
+              "z_score": -4.21,
+              "enrichment": 0.8
+            },
+            "100": {
+              "observed": 671,
+              "expected_mean": 761.31,
+              "expected_std": 27.0,
+              "z_score": -3.35,
+              "enrichment": 0.88
+            },
+            "200": {
+              "observed": 1516,
+              "expected_mean": 1563.12,
+              "expected_std": 39.12,
+              "z_score": -1.2,
+              "enrichment": 0.97
+            }
+          }
+        },
+        "2.0x": {
+          "bandwidth_factor": 2.0,
+          "silverman_bandwidth": 0.175291,
+          "actual_bandwidth": 0.350582,
+          "cos_correction": 0.773153,
+          "results": {
+            "25": {
+              "observed": 200,
+              "expected_mean": 207.93,
+              "expected_std": 15.14,
+              "z_score": -0.52,
+              "enrichment": 0.96
+            },
+            "50": {
+              "observed": 302,
+              "expected_mean": 414.06,
+              "expected_std": 22.35,
+              "z_score": -5.01,
+              "enrichment": 0.73
+            },
+            "100": {
+              "observed": 671,
+              "expected_mean": 833.65,
+              "expected_std": 29.4,
+              "z_score": -5.53,
+              "enrichment": 0.8
+            },
+            "200": {
+              "observed": 1516,
+              "expected_mean": 1691.47,
+              "expected_std": 38.71,
+              "z_score": -4.53,
+              "enrichment": 0.9
+            }
+          }
+        }
+      }
+    },
+    "pleiades_pre2000bce": {
+      "n_sites": 778,
+      "observed": {
+        "25": 55,
+        "50": 64,
+        "100": 90,
+        "200": 174
+      },
+      "old_baseline": {
+        "25": {
+          "observed": 55,
+          "expected_mean": 15.45,
+          "expected_std": 4.04,
+          "z_score": 9.78,
+          "enrichment": 3.56
+        },
+        "50": {
+          "observed": 64,
+          "expected_mean": 30.68,
+          "expected_std": 5.72,
+          "z_score": 5.82,
+          "enrichment": 2.09
+        },
+        "100": {
+          "observed": 90,
+          "expected_mean": 61.94,
+          "expected_std": 7.67,
+          "z_score": 3.66,
+          "enrichment": 1.45
+        },
+        "200": {
+          "observed": 174,
+          "expected_mean": 122.29,
+          "expected_std": 9.87,
+          "z_score": 5.24,
+          "enrichment": 1.42
+        }
+      },
+      "kde_baselines": {
+        "0.5x": {
+          "bandwidth_factor": 0.5,
+          "silverman_bandwidth": 0.329739,
+          "actual_bandwidth": 0.164869,
+          "cos_correction": 0.808265,
+          "results": {
+            "25": {
+              "observed": 55,
+              "expected_mean": 20.4,
+              "expected_std": 4.08,
+              "z_score": 8.48,
+              "enrichment": 2.7
+            },
+            "50": {
+              "observed": 64,
+              "expected_mean": 40.91,
+              "expected_std": 6.03,
+              "z_score": 3.83,
+              "enrichment": 1.56
+            },
+            "100": {
+              "observed": 90,
+              "expected_mean": 81.94,
+              "expected_std": 8.53,
+              "z_score": 0.94,
+              "enrichment": 1.1
+            },
+            "200": {
+              "observed": 174,
+              "expected_mean": 158.69,
+              "expected_std": 11.57,
+              "z_score": 1.32,
+              "enrichment": 1.1
+            }
+          }
+        },
+        "1.0x": {
+          "bandwidth_factor": 1.0,
+          "silverman_bandwidth": 0.329739,
+          "actual_bandwidth": 0.329739,
+          "cos_correction": 0.808265,
+          "results": {
+            "25": {
+              "observed": 55,
+              "expected_mean": 17.38,
+              "expected_std": 4.18,
+              "z_score": 9.0,
+              "enrichment": 3.16
+            },
+            "50": {
+              "observed": 64,
+              "expected_mean": 34.02,
+              "expected_std": 5.87,
+              "z_score": 5.1,
+              "enrichment": 1.88
+            },
+            "100": {
+              "observed": 90,
+              "expected_mean": 68.17,
+              "expected_std": 8.03,
+              "z_score": 2.72,
+              "enrichment": 1.32
+            },
+            "200": {
+              "observed": 174,
+              "expected_mean": 135.46,
+              "expected_std": 10.61,
+              "z_score": 3.63,
+              "enrichment": 1.28
+            }
+          }
+        },
+        "2.0x": {
+          "bandwidth_factor": 2.0,
+          "silverman_bandwidth": 0.329739,
+          "actual_bandwidth": 0.659478,
+          "cos_correction": 0.808265,
+          "results": {
+            "25": {
+              "observed": 55,
+              "expected_mean": 14.71,
+              "expected_std": 4.01,
+              "z_score": 10.04,
+              "enrichment": 3.74
+            },
+            "50": {
+              "observed": 64,
+              "expected_mean": 28.43,
+              "expected_std": 5.05,
+              "z_score": 7.04,
+              "enrichment": 2.25
+            },
+            "100": {
+              "observed": 90,
+              "expected_mean": 56.0,
+              "expected_std": 7.46,
+              "z_score": 4.56,
+              "enrichment": 1.61
+            },
+            "200": {
+              "observed": 174,
+              "expected_mean": 113.0,
+              "expected_std": 9.4,
+              "z_score": 6.49,
+              "enrichment": 1.54
+            }
+          }
+        }
+      }
+    }
+  }
+}

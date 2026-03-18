@@ -1,0 +1,2140 @@
+{
+  "description": "D8: Settlement test on 100 random great circles vs Alison's circle",
+  "parameters": {
+    "n_random_circles": 1000,
+    "n_top": 50,
+    "n_random_sample": 50,
+    "n_mc_trials": 200,
+    "bandwidth_km": 50.0,
+    "jitter_std_deg": 2.0,
+    "seed": 42
+  },
+  "alison_pole": {
+    "lat_deg": 59.682122,
+    "lon_deg": -138.646087,
+    "megp_count": 319
+  },
+  "summary": {
+    "all_periods": {
+      "alison_Z_difference": 7.36,
+      "mean_Z_difference": -1.2047,
+      "max_Z_difference": 18.4035,
+      "n_above_5": 8,
+      "n_above_10": 1,
+      "n_above_alison": 5,
+      "alison_percentile": 95.0
+    },
+    "ancient_pre2000bce": {
+      "alison_Z_difference": 12.78,
+      "mean_Z_difference": 0.8442,
+      "max_Z_difference": 10.7462,
+      "n_above_5": 7,
+      "n_above_10": 1,
+      "n_above_alison": 0,
+      "alison_percentile": 100.0
+    }
+  },
+  "circles": [
+    {
+      "circle_index": 302,
+      "group": "top50",
+      "pole_lat_deg": 4.136685392098978,
+      "pole_lon_deg": 91.9942352904338,
+      "megp_count": 9382,
+      "all_periods": {
+        "mon_observed": 67,
+        "set_observed": 245,
+        "Z_monumental": 1.1468,
+        "Z_settlement": -5.8798,
+        "Z_difference": 7.0265
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 15,
+        "set_observed": 0,
+        "Z_monumental": 3.8016,
+        "Z_settlement": -1.24,
+        "Z_difference": 5.0416
+      }
+    },
+    {
+      "circle_index": 771,
+      "group": "top50",
+      "pole_lat_deg": 7.9566660086299885,
+      "pole_lon_deg": 98.79019364495966,
+      "megp_count": 7669,
+      "all_periods": {
+        "mon_observed": 130,
+        "set_observed": 514,
+        "Z_monumental": 5.5711,
+        "Z_settlement": 7.4006,
+        "Z_difference": -1.8295
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 13,
+        "set_observed": 3,
+        "Z_monumental": 5.9699,
+        "Z_settlement": 2.2645,
+        "Z_difference": 3.7054
+      }
+    },
+    {
+      "circle_index": 549,
+      "group": "top50",
+      "pole_lat_deg": -7.6107258778482905,
+      "pole_lon_deg": -81.79044114749914,
+      "megp_count": 7571,
+      "all_periods": {
+        "mon_observed": 126,
+        "set_observed": 513,
+        "Z_monumental": 5.6073,
+        "Z_settlement": 7.1524,
+        "Z_difference": -1.5451
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 14,
+        "set_observed": 3,
+        "Z_monumental": 5.9501,
+        "Z_settlement": 2.3332,
+        "Z_difference": 3.6169
+      }
+    },
+    {
+      "circle_index": 782,
+      "group": "top50",
+      "pole_lat_deg": -5.226037429194295,
+      "pole_lon_deg": -86.14663871905992,
+      "megp_count": 7260,
+      "all_periods": {
+        "mon_observed": 65,
+        "set_observed": 339,
+        "Z_monumental": 0.1127,
+        "Z_settlement": -1.1693,
+        "Z_difference": 1.282
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 5,
+        "set_observed": 1,
+        "Z_monumental": -0.3149,
+        "Z_settlement": -0.0912,
+        "Z_difference": -0.2238
+      }
+    },
+    {
+      "circle_index": 787,
+      "group": "top50",
+      "pole_lat_deg": -21.296958036035992,
+      "pole_lon_deg": 66.97795302212407,
+      "megp_count": 6953,
+      "all_periods": {
+        "mon_observed": 94,
+        "set_observed": 566,
+        "Z_monumental": 5.292,
+        "Z_settlement": 15.6824,
+        "Z_difference": -10.3904
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 0,
+        "Z_monumental": -0.538,
+        "Z_settlement": -1.1841,
+        "Z_difference": 0.6461
+      }
+    },
+    {
+      "circle_index": 460,
+      "group": "top50",
+      "pole_lat_deg": 8.327220734012315,
+      "pole_lon_deg": 97.4783569195332,
+      "megp_count": 6752,
+      "all_periods": {
+        "mon_observed": 62,
+        "set_observed": 352,
+        "Z_monumental": -1.1507,
+        "Z_settlement": -1.0171,
+        "Z_difference": -0.1336
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 5,
+        "set_observed": 0,
+        "Z_monumental": 0.5932,
+        "Z_settlement": -1.0319,
+        "Z_difference": 1.6252
+      }
+    },
+    {
+      "circle_index": 674,
+      "group": "top50",
+      "pole_lat_deg": 10.977627480763779,
+      "pole_lon_deg": 101.10180762685725,
+      "megp_count": 6744,
+      "all_periods": {
+        "mon_observed": 120,
+        "set_observed": 458,
+        "Z_monumental": 4.6152,
+        "Z_settlement": 3.7681,
+        "Z_difference": 0.8471
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 10,
+        "set_observed": 2,
+        "Z_monumental": 4.2362,
+        "Z_settlement": 1.3396,
+        "Z_difference": 2.8966
+      }
+    },
+    {
+      "circle_index": 350,
+      "group": "top50",
+      "pole_lat_deg": 13.434369973283065,
+      "pole_lon_deg": 106.11020103032585,
+      "megp_count": 6621,
+      "all_periods": {
+        "mon_observed": 117,
+        "set_observed": 622,
+        "Z_monumental": 1.2636,
+        "Z_settlement": 7.8361,
+        "Z_difference": -6.5724
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 8,
+        "set_observed": 2,
+        "Z_monumental": 3.0846,
+        "Z_settlement": 0.3936,
+        "Z_difference": 2.691
+      }
+    },
+    {
+      "circle_index": 644,
+      "group": "top50",
+      "pole_lat_deg": 14.110665462293662,
+      "pole_lon_deg": -113.26490179110516,
+      "megp_count": 6410,
+      "all_periods": {
+        "mon_observed": 18,
+        "set_observed": 38,
+        "Z_monumental": 3.1748,
+        "Z_settlement": -3.7499,
+        "Z_difference": 6.9248
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 5,
+        "set_observed": 0,
+        "Z_monumental": 2.0064,
+        "Z_settlement": -0.4826,
+        "Z_difference": 2.4891
+      }
+    },
+    {
+      "circle_index": 185,
+      "group": "top50",
+      "pole_lat_deg": 18.863976689040644,
+      "pole_lon_deg": 116.3187442104839,
+      "megp_count": 6137,
+      "all_periods": {
+        "mon_observed": 157,
+        "set_observed": 672,
+        "Z_monumental": -2.0983,
+        "Z_settlement": 0.952,
+        "Z_difference": -3.0503
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 3,
+        "Z_monumental": 0.9687,
+        "Z_settlement": 2.0149,
+        "Z_difference": -1.0462
+      }
+    },
+    {
+      "circle_index": 138,
+      "group": "top50",
+      "pole_lat_deg": 34.43496688859352,
+      "pole_lon_deg": -161.48910435950543,
+      "megp_count": 5830,
+      "all_periods": {
+        "mon_observed": 15,
+        "set_observed": 68,
+        "Z_monumental": -0.5946,
+        "Z_settlement": -3.5789,
+        "Z_difference": 2.9843
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 5,
+        "set_observed": 1,
+        "Z_monumental": 1.2534,
+        "Z_settlement": -0.4752,
+        "Z_difference": 1.7285
+      }
+    },
+    {
+      "circle_index": 118,
+      "group": "top50",
+      "pole_lat_deg": -7.805687586994271,
+      "pole_lon_deg": -82.57242518249024,
+      "megp_count": 5757,
+      "all_periods": {
+        "mon_observed": 76,
+        "set_observed": 445,
+        "Z_monumental": 0.1752,
+        "Z_settlement": 3.9927,
+        "Z_difference": -3.8175
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 8,
+        "set_observed": 1,
+        "Z_monumental": 2.2839,
+        "Z_settlement": 0.0699,
+        "Z_difference": 2.2139
+      }
+    },
+    {
+      "circle_index": 255,
+      "group": "top50",
+      "pole_lat_deg": 29.47400039202661,
+      "pole_lon_deg": 126.85763445489586,
+      "megp_count": 5418,
+      "all_periods": {
+        "mon_observed": 176,
+        "set_observed": 447,
+        "Z_monumental": -0.0741,
+        "Z_settlement": -8.0041,
+        "Z_difference": 7.93
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 7,
+        "set_observed": 3,
+        "Z_monumental": 2.9522,
+        "Z_settlement": 1.399,
+        "Z_difference": 1.5532
+      }
+    },
+    {
+      "circle_index": 930,
+      "group": "top50",
+      "pole_lat_deg": -24.075135029539886,
+      "pole_lon_deg": 51.84338452195263,
+      "megp_count": 5253,
+      "all_periods": {
+        "mon_observed": 16,
+        "set_observed": 99,
+        "Z_monumental": 3.8715,
+        "Z_settlement": 8.3984,
+        "Z_difference": -4.5269
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 3,
+        "set_observed": 0,
+        "Z_monumental": 0.8699,
+        "Z_settlement": -0.3475,
+        "Z_difference": 1.2175
+      }
+    },
+    {
+      "circle_index": 416,
+      "group": "top50",
+      "pole_lat_deg": -45.55772521496601,
+      "pole_lon_deg": 16.443249869177194,
+      "megp_count": 5135,
+      "all_periods": {
+        "mon_observed": 131,
+        "set_observed": 909,
+        "Z_monumental": -5.0258,
+        "Z_settlement": 5.3279,
+        "Z_difference": -10.3538
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 3,
+        "Z_monumental": -0.9389,
+        "Z_settlement": -2.193,
+        "Z_difference": 1.2541
+      }
+    },
+    {
+      "circle_index": 982,
+      "group": "top50",
+      "pole_lat_deg": 28.89652370342958,
+      "pole_lon_deg": 126.61998579090671,
+      "megp_count": 5011,
+      "all_periods": {
+        "mon_observed": 192,
+        "set_observed": 478,
+        "Z_monumental": 0.8902,
+        "Z_settlement": -7.8261,
+        "Z_difference": 8.7163
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 7,
+        "set_observed": 4,
+        "Z_monumental": 2.8861,
+        "Z_settlement": 2.124,
+        "Z_difference": 0.7621
+      }
+    },
+    {
+      "circle_index": 312,
+      "group": "top50",
+      "pole_lat_deg": -32.334425522658364,
+      "pole_lon_deg": 28.43190891008732,
+      "megp_count": 4937,
+      "all_periods": {
+        "mon_observed": 9,
+        "set_observed": 66,
+        "Z_monumental": -0.1116,
+        "Z_settlement": 1.6536,
+        "Z_difference": -1.7652
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 0,
+        "Z_monumental": -0.1319,
+        "Z_settlement": -1.0006,
+        "Z_difference": 0.8686
+      }
+    },
+    {
+      "circle_index": 877,
+      "group": "top50",
+      "pole_lat_deg": -21.20678800651146,
+      "pole_lon_deg": -64.49397333581251,
+      "megp_count": 4930,
+      "all_periods": {
+        "mon_observed": 163,
+        "set_observed": 966,
+        "Z_monumental": 1.7881,
+        "Z_settlement": 16.6657,
+        "Z_difference": -14.8777
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 7,
+        "set_observed": 0,
+        "Z_monumental": 2.641,
+        "Z_settlement": -1.4686,
+        "Z_difference": 4.1096
+      }
+    },
+    {
+      "circle_index": 262,
+      "group": "top50",
+      "pole_lat_deg": -22.292227877787038,
+      "pole_lon_deg": -63.38279918245098,
+      "megp_count": 4836,
+      "all_periods": {
+        "mon_observed": 158,
+        "set_observed": 922,
+        "Z_monumental": 1.1422,
+        "Z_settlement": 14.9567,
+        "Z_difference": -13.8145
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 10,
+        "set_observed": 2,
+        "Z_monumental": 4.1221,
+        "Z_settlement": 0.3153,
+        "Z_difference": 3.8068
+      }
+    },
+    {
+      "circle_index": 473,
+      "group": "top50",
+      "pole_lat_deg": -47.0384137235004,
+      "pole_lon_deg": -0.8468271484636292,
+      "megp_count": 4818,
+      "all_periods": {
+        "mon_observed": 756,
+        "set_observed": 1818,
+        "Z_monumental": 33.041,
+        "Z_settlement": 28.5006,
+        "Z_difference": 4.5403
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 52,
+        "Z_monumental": -0.2754,
+        "Z_settlement": 5.2481,
+        "Z_difference": -5.5234
+      }
+    },
+    {
+      "circle_index": 104,
+      "group": "top50",
+      "pole_lat_deg": 33.88320657296177,
+      "pole_lon_deg": -130.20153475822227,
+      "megp_count": 4708,
+      "all_periods": {
+        "mon_observed": 69,
+        "set_observed": 479,
+        "Z_monumental": -0.4506,
+        "Z_settlement": 5.204,
+        "Z_difference": -5.6546
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 2,
+        "Z_monumental": 0.5049,
+        "Z_settlement": 0.4896,
+        "Z_difference": 0.0153
+      }
+    },
+    {
+      "circle_index": 947,
+      "group": "top50",
+      "pole_lat_deg": 44.64155647191163,
+      "pole_lon_deg": 154.6462496041998,
+      "megp_count": 4693,
+      "all_periods": {
+        "mon_observed": 170,
+        "set_observed": 484,
+        "Z_monumental": -3.1215,
+        "Z_settlement": -11.46,
+        "Z_difference": 8.3385
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 9,
+        "set_observed": 2,
+        "Z_monumental": 1.2545,
+        "Z_settlement": -2.6492,
+        "Z_difference": 3.9036
+      }
+    },
+    {
+      "circle_index": 742,
+      "group": "top50",
+      "pole_lat_deg": 46.512882812906625,
+      "pole_lon_deg": -170.2144319408694,
+      "megp_count": 4682,
+      "all_periods": {
+        "mon_observed": 166,
+        "set_observed": 1105,
+        "Z_monumental": -4.7702,
+        "Z_settlement": 8.1288,
+        "Z_difference": -12.899
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 14,
+        "Z_monumental": -0.5747,
+        "Z_settlement": -0.592,
+        "Z_difference": 0.0172
+      }
+    },
+    {
+      "circle_index": 755,
+      "group": "top50",
+      "pole_lat_deg": -32.92182582767476,
+      "pole_lon_deg": 28.299346852508776,
+      "megp_count": 4621,
+      "all_periods": {
+        "mon_observed": 12,
+        "set_observed": 83,
+        "Z_monumental": 0.1105,
+        "Z_settlement": 1.8347,
+        "Z_difference": -1.7241
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 2,
+        "Z_monumental": -0.2964,
+        "Z_settlement": 1.0794,
+        "Z_difference": -1.3757
+      }
+    },
+    {
+      "circle_index": 347,
+      "group": "top50",
+      "pole_lat_deg": -29.553318961578043,
+      "pole_lon_deg": -46.80562757500879,
+      "megp_count": 4600,
+      "all_periods": {
+        "mon_observed": 832,
+        "set_observed": 1500,
+        "Z_monumental": 54.8937,
+        "Z_settlement": 36.4901,
+        "Z_difference": 18.4035
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 12,
+        "set_observed": 3,
+        "Z_monumental": 5.1173,
+        "Z_settlement": -0.6319,
+        "Z_difference": 5.7493
+      }
+    },
+    {
+      "circle_index": 561,
+      "group": "top50",
+      "pole_lat_deg": -30.84151379607614,
+      "pole_lon_deg": 40.86593450273956,
+      "megp_count": 4475,
+      "all_periods": {
+        "mon_observed": 39,
+        "set_observed": 201,
+        "Z_monumental": 6.8145,
+        "Z_settlement": 14.4619,
+        "Z_difference": -7.6474
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 6,
+        "set_observed": 2,
+        "Z_monumental": 2.2928,
+        "Z_settlement": 1.5186,
+        "Z_difference": 0.7742
+      }
+    },
+    {
+      "circle_index": 665,
+      "group": "top50",
+      "pole_lat_deg": 25.803003559240143,
+      "pole_lon_deg": 126.35896321877918,
+      "megp_count": 4462,
+      "all_periods": {
+        "mon_observed": 143,
+        "set_observed": 579,
+        "Z_monumental": -3.0867,
+        "Z_settlement": -1.8709,
+        "Z_difference": -1.2158
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 9,
+        "set_observed": 2,
+        "Z_monumental": 4.1837,
+        "Z_settlement": 0.234,
+        "Z_difference": 3.9497
+      }
+    },
+    {
+      "circle_index": 896,
+      "group": "top50",
+      "pole_lat_deg": -26.34488065419223,
+      "pole_lon_deg": 56.114229953822615,
+      "megp_count": 4449,
+      "all_periods": {
+        "mon_observed": 37,
+        "set_observed": 253,
+        "Z_monumental": 1.1436,
+        "Z_settlement": 5.6467,
+        "Z_difference": -4.5031
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -1.401,
+        "Z_settlement": -0.7001,
+        "Z_difference": -0.701
+      }
+    },
+    {
+      "circle_index": 633,
+      "group": "top50",
+      "pole_lat_deg": -14.749607135933282,
+      "pole_lon_deg": 68.54470362558052,
+      "megp_count": 4416,
+      "all_periods": {
+        "mon_observed": 48,
+        "set_observed": 367,
+        "Z_monumental": 5.5375,
+        "Z_settlement": 18.8658,
+        "Z_difference": -13.3283
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 7,
+        "set_observed": 4,
+        "Z_monumental": 3.0722,
+        "Z_settlement": 5.1366,
+        "Z_difference": -2.0644
+      }
+    },
+    {
+      "circle_index": 750,
+      "group": "top50",
+      "pole_lat_deg": -28.639884069036867,
+      "pole_lon_deg": 50.55811635731087,
+      "megp_count": 4376,
+      "all_periods": {
+        "mon_observed": 35,
+        "set_observed": 138,
+        "Z_monumental": 2.2129,
+        "Z_settlement": -0.1753,
+        "Z_difference": 2.3882
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 10,
+        "set_observed": 0,
+        "Z_monumental": 5.6716,
+        "Z_settlement": -0.8785,
+        "Z_difference": 6.5501
+      }
+    },
+    {
+      "circle_index": 212,
+      "group": "top50",
+      "pole_lat_deg": -36.90203994188009,
+      "pole_lon_deg": 22.040304440415902,
+      "megp_count": 4308,
+      "all_periods": {
+        "mon_observed": 26,
+        "set_observed": 124,
+        "Z_monumental": -1.8624,
+        "Z_settlement": -5.6725,
+        "Z_difference": 3.8101
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 1,
+        "Z_monumental": -0.147,
+        "Z_settlement": -0.746,
+        "Z_difference": 0.599
+      }
+    },
+    {
+      "circle_index": 566,
+      "group": "top50",
+      "pole_lat_deg": 31.72252120398339,
+      "pole_lon_deg": -150.78455984739625,
+      "megp_count": 4263,
+      "all_periods": {
+        "mon_observed": 13,
+        "set_observed": 39,
+        "Z_monumental": 2.244,
+        "Z_settlement": -1.0188,
+        "Z_difference": 3.2629
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 1,
+        "Z_monumental": 1.5449,
+        "Z_settlement": 0.169,
+        "Z_difference": 1.3759
+      }
+    },
+    {
+      "circle_index": 458,
+      "group": "top50",
+      "pole_lat_deg": 34.62214842843854,
+      "pole_lon_deg": 160.4497146568104,
+      "megp_count": 4259,
+      "all_periods": {
+        "mon_observed": 99,
+        "set_observed": 496,
+        "Z_monumental": -2.7132,
+        "Z_settlement": 0.3351,
+        "Z_difference": -3.0484
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 18,
+        "set_observed": 49,
+        "Z_monumental": 6.7538,
+        "Z_settlement": 6.4314,
+        "Z_difference": 0.3223
+      }
+    },
+    {
+      "circle_index": 819,
+      "group": "top50",
+      "pole_lat_deg": -26.976538823878936,
+      "pole_lon_deg": 43.09898017667048,
+      "megp_count": 4235,
+      "all_periods": {
+        "mon_observed": 10,
+        "set_observed": 31,
+        "Z_monumental": 2.1916,
+        "Z_settlement": 0.7371,
+        "Z_difference": 1.4545
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 1,
+        "Z_monumental": 0.2449,
+        "Z_settlement": 1.7143,
+        "Z_difference": -1.4694
+      }
+    },
+    {
+      "circle_index": 969,
+      "group": "top50",
+      "pole_lat_deg": -35.772300034577356,
+      "pole_lon_deg": 3.538931780537764,
+      "megp_count": 4187,
+      "all_periods": {
+        "mon_observed": 11,
+        "set_observed": 69,
+        "Z_monumental": -4.3263,
+        "Z_settlement": -8.2121,
+        "Z_difference": 3.8858
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 4,
+        "Z_monumental": 0.1003,
+        "Z_settlement": 0.1257,
+        "Z_difference": -0.0254
+      }
+    },
+    {
+      "circle_index": 535,
+      "group": "top50",
+      "pole_lat_deg": -35.583210656004034,
+      "pole_lon_deg": -6.795683365266085,
+      "megp_count": 4177,
+      "all_periods": {
+        "mon_observed": 39,
+        "set_observed": 256,
+        "Z_monumental": -3.6541,
+        "Z_settlement": -2.3124,
+        "Z_difference": -1.3417
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 5,
+        "Z_monumental": -0.996,
+        "Z_settlement": -1.0073,
+        "Z_difference": 0.0113
+      }
+    },
+    {
+      "circle_index": 188,
+      "group": "top50",
+      "pole_lat_deg": 29.576106239207018,
+      "pole_lon_deg": -130.60394719537953,
+      "megp_count": 4143,
+      "all_periods": {
+        "mon_observed": 43,
+        "set_observed": 168,
+        "Z_monumental": 3.2526,
+        "Z_settlement": 1.3196,
+        "Z_difference": 1.933
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 9,
+        "set_observed": 1,
+        "Z_monumental": 4.7378,
+        "Z_settlement": 0.3723,
+        "Z_difference": 4.3655
+      }
+    },
+    {
+      "circle_index": 461,
+      "group": "top50",
+      "pole_lat_deg": -45.21372352601912,
+      "pole_lon_deg": 14.5716091814718,
+      "megp_count": 3840,
+      "all_periods": {
+        "mon_observed": 124,
+        "set_observed": 749,
+        "Z_monumental": -4.6517,
+        "Z_settlement": 0.5107,
+        "Z_difference": -5.1624
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 4,
+        "Z_monumental": -1.7404,
+        "Z_settlement": -1.7971,
+        "Z_difference": 0.0567
+      }
+    },
+    {
+      "circle_index": 283,
+      "group": "top50",
+      "pole_lat_deg": -30.081068453022514,
+      "pole_lon_deg": 47.93370557209538,
+      "megp_count": 3817,
+      "all_periods": {
+        "mon_observed": 36,
+        "set_observed": 138,
+        "Z_monumental": 2.1952,
+        "Z_settlement": -0.5671,
+        "Z_difference": 2.7623
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 10,
+        "set_observed": 0,
+        "Z_monumental": 5.7357,
+        "Z_settlement": -0.9107,
+        "Z_difference": 6.6464
+      }
+    },
+    {
+      "circle_index": 3,
+      "group": "top50",
+      "pole_lat_deg": 23.24951370139009,
+      "pole_lon_deg": -125.16238434327275,
+      "megp_count": 3811,
+      "all_periods": {
+        "mon_observed": 31,
+        "set_observed": 209,
+        "Z_monumental": 7.7868,
+        "Z_settlement": 17.2153,
+        "Z_difference": -9.4284
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 6,
+        "set_observed": 2,
+        "Z_monumental": 2.9447,
+        "Z_settlement": 5.1257,
+        "Z_difference": -2.181
+      }
+    },
+    {
+      "circle_index": 331,
+      "group": "top50",
+      "pole_lat_deg": -36.526235973626214,
+      "pole_lon_deg": -1.2274276153386232,
+      "megp_count": 3733,
+      "all_periods": {
+        "mon_observed": 47,
+        "set_observed": 157,
+        "Z_monumental": -1.6953,
+        "Z_settlement": -6.8549,
+        "Z_difference": 5.1596
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 8,
+        "set_observed": 6,
+        "Z_monumental": 2.2445,
+        "Z_settlement": 0.1683,
+        "Z_difference": 2.0762
+      }
+    },
+    {
+      "circle_index": 253,
+      "group": "top50",
+      "pole_lat_deg": -30.28628084466473,
+      "pole_lon_deg": 43.04493227171233,
+      "megp_count": 3728,
+      "all_periods": {
+        "mon_observed": 28,
+        "set_observed": 147,
+        "Z_monumental": 3.4111,
+        "Z_settlement": 7.0763,
+        "Z_difference": -3.6652
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 1,
+        "Z_monumental": -0.1536,
+        "Z_settlement": 0.2582,
+        "Z_difference": -0.4118
+      }
+    },
+    {
+      "circle_index": 333,
+      "group": "top50",
+      "pole_lat_deg": 46.173343657252836,
+      "pole_lon_deg": 167.54974325342477,
+      "megp_count": 3727,
+      "all_periods": {
+        "mon_observed": 542,
+        "set_observed": 1366,
+        "Z_monumental": 19.7492,
+        "Z_settlement": 17.1651,
+        "Z_difference": 2.584
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 7,
+        "set_observed": 32,
+        "Z_monumental": 0.8219,
+        "Z_settlement": 2.0093,
+        "Z_difference": -1.1874
+      }
+    },
+    {
+      "circle_index": 410,
+      "group": "top50",
+      "pole_lat_deg": 19.351917968109895,
+      "pole_lon_deg": 118.80690449725012,
+      "megp_count": 3704,
+      "all_periods": {
+        "mon_observed": 87,
+        "set_observed": 415,
+        "Z_monumental": -8.2215,
+        "Z_settlement": -9.1689,
+        "Z_difference": 0.9474
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 8,
+        "set_observed": 2,
+        "Z_monumental": 4.1759,
+        "Z_settlement": 1.1627,
+        "Z_difference": 3.0132
+      }
+    },
+    {
+      "circle_index": 862,
+      "group": "top50",
+      "pole_lat_deg": 34.46622023954656,
+      "pole_lon_deg": 176.50011135339162,
+      "megp_count": 3685,
+      "all_periods": {
+        "mon_observed": 16,
+        "set_observed": 109,
+        "Z_monumental": -4.6559,
+        "Z_settlement": -6.6159,
+        "Z_difference": 1.96
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 4,
+        "Z_monumental": -1.4945,
+        "Z_settlement": -0.5071,
+        "Z_difference": -0.9874
+      }
+    },
+    {
+      "circle_index": 463,
+      "group": "top50",
+      "pole_lat_deg": -23.41041656681862,
+      "pole_lon_deg": -64.53571717675742,
+      "megp_count": 3676,
+      "all_periods": {
+        "mon_observed": 95,
+        "set_observed": 616,
+        "Z_monumental": -2.2028,
+        "Z_settlement": 4.7414,
+        "Z_difference": -6.9442
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 13,
+        "set_observed": 0,
+        "Z_monumental": 6.7634,
+        "Z_settlement": -1.3149,
+        "Z_difference": 8.0783
+      }
+    },
+    {
+      "circle_index": 58,
+      "group": "top50",
+      "pole_lat_deg": -46.088011037465314,
+      "pole_lon_deg": 15.148452582258908,
+      "megp_count": 3604,
+      "all_periods": {
+        "mon_observed": 143,
+        "set_observed": 931,
+        "Z_monumental": -5.1414,
+        "Z_settlement": 3.861,
+        "Z_difference": -9.0024
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 7,
+        "Z_monumental": -1.0172,
+        "Z_settlement": -1.4064,
+        "Z_difference": 0.3892
+      }
+    },
+    {
+      "circle_index": 87,
+      "group": "top50",
+      "pole_lat_deg": -4.372791404019186,
+      "pole_lon_deg": 94.53243310655066,
+      "megp_count": 3599,
+      "all_periods": {
+        "mon_observed": 114,
+        "set_observed": 586,
+        "Z_monumental": -2.589,
+        "Z_settlement": -1.6474,
+        "Z_difference": -0.9416
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 4,
+        "set_observed": 3,
+        "Z_monumental": 2.0502,
+        "Z_settlement": 1.3437,
+        "Z_difference": 0.7065
+      }
+    },
+    {
+      "circle_index": 370,
+      "group": "top50",
+      "pole_lat_deg": 31.672571604079707,
+      "pole_lon_deg": -145.14834625021027,
+      "megp_count": 3554,
+      "all_periods": {
+        "mon_observed": 17,
+        "set_observed": 134,
+        "Z_monumental": 2.0476,
+        "Z_settlement": 9.211,
+        "Z_difference": -7.1634
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 3,
+        "set_observed": 0,
+        "Z_monumental": 0.3705,
+        "Z_settlement": -0.9529,
+        "Z_difference": 1.3235
+      }
+    },
+    {
+      "circle_index": 402,
+      "group": "top50",
+      "pole_lat_deg": 34.23496972426815,
+      "pole_lon_deg": 168.7508356901756,
+      "megp_count": 3532,
+      "all_periods": {
+        "mon_observed": 29,
+        "set_observed": 183,
+        "Z_monumental": -5.1794,
+        "Z_settlement": -7.5679,
+        "Z_difference": 2.3885
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 10,
+        "Z_monumental": -1.3848,
+        "Z_settlement": -0.0754,
+        "Z_difference": -1.3094
+      }
+    },
+    {
+      "circle_index": 237,
+      "group": "random50",
+      "pole_lat_deg": 34.71724153431392,
+      "pole_lon_deg": -27.815747662057593,
+      "megp_count": 4,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 8,
+        "Z_monumental": -1.0357,
+        "Z_settlement": 3.5571,
+        "Z_difference": -4.5928
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2744,
+        "Z_settlement": -0.3333,
+        "Z_difference": 0.059
+      }
+    },
+    {
+      "circle_index": 802,
+      "group": "random50",
+      "pole_lat_deg": 51.26413849077069,
+      "pole_lon_deg": -131.37127480169133,
+      "megp_count": 138,
+      "all_periods": {
+        "mon_observed": 87,
+        "set_observed": 672,
+        "Z_monumental": -8.1654,
+        "Z_settlement": -2.739,
+        "Z_difference": -5.4264
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 18,
+        "Z_monumental": -2.3201,
+        "Z_settlement": -1.6238,
+        "Z_difference": -0.6963
+      }
+    },
+    {
+      "circle_index": 134,
+      "group": "random50",
+      "pole_lat_deg": 10.476427581116917,
+      "pole_lon_deg": 171.5990681579721,
+      "megp_count": 146,
+      "all_periods": {
+        "mon_observed": 4,
+        "set_observed": 43,
+        "Z_monumental": 1.434,
+        "Z_settlement": 2.4126,
+        "Z_difference": -0.9786
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -0.2294,
+        "Z_settlement": 1.6682,
+        "Z_difference": -1.8976
+      }
+    },
+    {
+      "circle_index": 763,
+      "group": "random50",
+      "pole_lat_deg": -46.35161679829395,
+      "pole_lon_deg": -147.59949922376765,
+      "megp_count": 62,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 270,
+      "group": "random50",
+      "pole_lat_deg": -62.774040627625226,
+      "pole_lon_deg": 169.51850227646563,
+      "megp_count": 76,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.0709,
+        "Z_settlement": -0.2171,
+        "Z_difference": 0.1462
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 244,
+      "group": "random50",
+      "pole_lat_deg": 12.24143824805706,
+      "pole_lon_deg": -51.34693553926051,
+      "megp_count": 38,
+      "all_periods": {
+        "mon_observed": 25,
+        "set_observed": 53,
+        "Z_monumental": 1.9687,
+        "Z_settlement": -2.3115,
+        "Z_difference": 4.2802
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 6,
+        "set_observed": 15,
+        "Z_monumental": 2.798,
+        "Z_settlement": 1.2946,
+        "Z_difference": 1.5034
+      }
+    },
+    {
+      "circle_index": 127,
+      "group": "random50",
+      "pole_lat_deg": -45.31239476765165,
+      "pole_lon_deg": 67.01864962145414,
+      "megp_count": 173,
+      "all_periods": {
+        "mon_observed": 105,
+        "set_observed": 483,
+        "Z_monumental": -5.0517,
+        "Z_settlement": -4.8332,
+        "Z_difference": -0.2184
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 2,
+        "set_observed": 12,
+        "Z_monumental": -0.8134,
+        "Z_settlement": -0.7433,
+        "Z_difference": -0.0701
+      }
+    },
+    {
+      "circle_index": 273,
+      "group": "random50",
+      "pole_lat_deg": 10.503036354399704,
+      "pole_lon_deg": 30.51097300977719,
+      "megp_count": 76,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 106,
+      "group": "random50",
+      "pole_lat_deg": -5.812710304607363,
+      "pole_lon_deg": -138.3464997686054,
+      "megp_count": 258,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 622,
+      "group": "random50",
+      "pole_lat_deg": 76.18704934006536,
+      "pole_lon_deg": 111.57866512015343,
+      "megp_count": 3,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3256,
+        "Z_settlement": -1.172,
+        "Z_difference": 0.8464
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.378,
+        "Z_difference": 0.378
+      }
+    },
+    {
+      "circle_index": 338,
+      "group": "random50",
+      "pole_lat_deg": -56.20299656457628,
+      "pole_lon_deg": 136.13307287599346,
+      "megp_count": 237,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 7,
+        "Z_monumental": -0.5241,
+        "Z_settlement": 5.2622,
+        "Z_difference": -5.7864
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.1234,
+        "Z_settlement": -0.2526,
+        "Z_difference": 0.1292
+      }
+    },
+    {
+      "circle_index": 850,
+      "group": "random50",
+      "pole_lat_deg": -40.02460179434499,
+      "pole_lon_deg": -96.95551488197118,
+      "megp_count": 15,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.4477,
+        "Z_difference": 0.4477
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.0709,
+        "Z_difference": 0.0709
+      }
+    },
+    {
+      "circle_index": 421,
+      "group": "random50",
+      "pole_lat_deg": -68.07517800656618,
+      "pole_lon_deg": -6.142179790157791,
+      "megp_count": 17,
+      "all_periods": {
+        "mon_observed": 4,
+        "set_observed": 27,
+        "Z_monumental": -0.6998,
+        "Z_settlement": 0.1918,
+        "Z_difference": -0.8916
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.5507,
+        "Z_settlement": -0.6341,
+        "Z_difference": 0.0835
+      }
+    },
+    {
+      "circle_index": 532,
+      "group": "random50",
+      "pole_lat_deg": -12.962695618394738,
+      "pole_lon_deg": 18.08628908697274,
+      "megp_count": 49,
+      "all_periods": {
+        "mon_observed": 2,
+        "set_observed": 0,
+        "Z_monumental": 2.6558,
+        "Z_settlement": -0.7214,
+        "Z_difference": 3.3773
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.1005,
+        "Z_settlement": -0.1429,
+        "Z_difference": 0.0424
+      }
+    },
+    {
+      "circle_index": 109,
+      "group": "random50",
+      "pole_lat_deg": 53.63003794068024,
+      "pole_lon_deg": -110.66730363687248,
+      "megp_count": 179,
+      "all_periods": {
+        "mon_observed": 100,
+        "set_observed": 299,
+        "Z_monumental": 8.6494,
+        "Z_settlement": 8.3168,
+        "Z_difference": 0.3326
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 40,
+        "set_observed": 47,
+        "Z_monumental": 15.2053,
+        "Z_settlement": 4.4591,
+        "Z_difference": 10.7462
+      }
+    },
+    {
+      "circle_index": 202,
+      "group": "random50",
+      "pole_lat_deg": 0.08493371356106012,
+      "pole_lon_deg": 118.2768929419629,
+      "megp_count": 112,
+      "all_periods": {
+        "mon_observed": 74,
+        "set_observed": 322,
+        "Z_monumental": -2.2755,
+        "Z_settlement": -1.6986,
+        "Z_difference": -0.5769
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -2.518,
+        "Z_settlement": -2.4615,
+        "Z_difference": -0.0565
+      }
+    },
+    {
+      "circle_index": 412,
+      "group": "random50",
+      "pole_lat_deg": -54.99665392682505,
+      "pole_lon_deg": 123.17567598607387,
+      "megp_count": 412,
+      "all_periods": {
+        "mon_observed": 1,
+        "set_observed": 8,
+        "Z_monumental": 0.1363,
+        "Z_settlement": 2.0177,
+        "Z_difference": -1.8815
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2294,
+        "Z_settlement": -0.4129,
+        "Z_difference": 0.1835
+      }
+    },
+    {
+      "circle_index": 677,
+      "group": "random50",
+      "pole_lat_deg": -0.3533342960768419,
+      "pole_lon_deg": -21.159810546999086,
+      "megp_count": 43,
+      "all_periods": {
+        "mon_observed": 2,
+        "set_observed": 76,
+        "Z_monumental": -0.0451,
+        "Z_settlement": 2.7543,
+        "Z_difference": -2.7994
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.5542,
+        "Z_settlement": -1.1441,
+        "Z_difference": 0.5899
+      }
+    },
+    {
+      "circle_index": 44,
+      "group": "random50",
+      "pole_lat_deg": 41.64548117910407,
+      "pole_lon_deg": -172.88407967663102,
+      "megp_count": 2379,
+      "all_periods": {
+        "mon_observed": 72,
+        "set_observed": 455,
+        "Z_monumental": -3.0292,
+        "Z_settlement": -0.3949,
+        "Z_difference": -2.6343
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 10,
+        "set_observed": 6,
+        "Z_monumental": 4.7439,
+        "Z_settlement": -0.3128,
+        "Z_difference": 5.0567
+      }
+    },
+    {
+      "circle_index": 177,
+      "group": "random50",
+      "pole_lat_deg": 79.98133367438275,
+      "pole_lon_deg": -47.55443752014566,
+      "megp_count": 39,
+      "all_periods": {
+        "mon_observed": 2,
+        "set_observed": 9,
+        "Z_monumental": 20.0003,
+        "Z_settlement": 11.8729,
+        "Z_difference": 8.1273
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.2171,
+        "Z_difference": 0.2171
+      }
+    },
+    {
+      "circle_index": 456,
+      "group": "random50",
+      "pole_lat_deg": 73.75092238009493,
+      "pole_lon_deg": -98.66557514995831,
+      "megp_count": 46,
+      "all_periods": {
+        "mon_observed": 4,
+        "set_observed": 33,
+        "Z_monumental": 2.3615,
+        "Z_settlement": 9.0749,
+        "Z_difference": -6.7134
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.2744,
+        "Z_difference": 0.2744
+      }
+    },
+    {
+      "circle_index": 371,
+      "group": "random50",
+      "pole_lat_deg": -27.318091508158368,
+      "pole_lon_deg": 161.03512646265762,
+      "megp_count": 16,
+      "all_periods": {
+        "mon_observed": 3,
+        "set_observed": 27,
+        "Z_monumental": 2.4894,
+        "Z_settlement": 19.8536,
+        "Z_difference": -17.3642
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.1904,
+        "Z_settlement": -0.3866,
+        "Z_difference": 0.1961
+      }
+    },
+    {
+      "circle_index": 261,
+      "group": "random50",
+      "pole_lat_deg": 40.49098379341574,
+      "pole_lon_deg": -35.54461289299919,
+      "megp_count": 4,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 10,
+        "Z_monumental": -1.1853,
+        "Z_settlement": 3.1267,
+        "Z_difference": -4.3119
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2171,
+        "Z_settlement": -0.3866,
+        "Z_difference": 0.1695
+      }
+    },
+    {
+      "circle_index": 30,
+      "group": "random50",
+      "pole_lat_deg": 29.30932076662103,
+      "pole_lon_deg": 22.254814822679755,
+      "megp_count": 408,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 451,
+      "group": "random50",
+      "pole_lat_deg": 50.20070705184169,
+      "pole_lon_deg": 42.40400706200996,
+      "megp_count": 61,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 647,
+      "group": "random50",
+      "pole_lat_deg": 1.6766383988297027,
+      "pole_lon_deg": 106.58176114531354,
+      "megp_count": 1254,
+      "all_periods": {
+        "mon_observed": 106,
+        "set_observed": 456,
+        "Z_monumental": -4.6179,
+        "Z_settlement": -2.7059,
+        "Z_difference": -1.912
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -1.435,
+        "Z_settlement": -0.8792,
+        "Z_difference": -0.5559
+      }
+    },
+    {
+      "circle_index": 974,
+      "group": "random50",
+      "pole_lat_deg": -20.912022462085353,
+      "pole_lon_deg": -117.06934095611818,
+      "megp_count": 3,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 514,
+      "group": "random50",
+      "pole_lat_deg": -19.374415559321065,
+      "pole_lon_deg": 142.08763927241338,
+      "megp_count": 4,
+      "all_periods": {
+        "mon_observed": 1,
+        "set_observed": 85,
+        "Z_monumental": -0.817,
+        "Z_settlement": 7.0,
+        "Z_difference": -7.817
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3162,
+        "Z_settlement": -1.1221,
+        "Z_difference": 0.8059
+      }
+    },
+    {
+      "circle_index": 754,
+      "group": "random50",
+      "pole_lat_deg": 21.500953801785933,
+      "pole_lon_deg": -54.15709987726781,
+      "megp_count": 16,
+      "all_periods": {
+        "mon_observed": 12,
+        "set_observed": 25,
+        "Z_monumental": 0.9076,
+        "Z_settlement": -1.4481,
+        "Z_difference": 2.3557
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 3,
+        "Z_monumental": 0.0503,
+        "Z_settlement": -0.8613,
+        "Z_difference": 0.9116
+      }
+    },
+    {
+      "circle_index": 32,
+      "group": "random50",
+      "pole_lat_deg": -20.386383126695783,
+      "pole_lon_deg": 3.216294630487533,
+      "megp_count": 70,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 7,
+        "Z_monumental": -1.9158,
+        "Z_settlement": -4.3236,
+        "Z_difference": 2.4078
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3792,
+        "Z_settlement": -0.7286,
+        "Z_difference": 0.3495
+      }
+    },
+    {
+      "circle_index": 426,
+      "group": "random50",
+      "pole_lat_deg": -31.52660038257958,
+      "pole_lon_deg": -147.6888353095697,
+      "megp_count": 31,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 276,
+      "group": "random50",
+      "pole_lat_deg": -21.34714931142707,
+      "pole_lon_deg": -110.445003919753,
+      "megp_count": 5,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 475,
+      "group": "random50",
+      "pole_lat_deg": -22.991265226914923,
+      "pole_lon_deg": 2.949449320168127,
+      "megp_count": 50,
+      "all_periods": {
+        "mon_observed": 2,
+        "set_observed": 9,
+        "Z_monumental": -0.5957,
+        "Z_settlement": -4.3865,
+        "Z_difference": 3.7908
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -0.4628,
+        "Z_settlement": 1.218,
+        "Z_difference": -1.6808
+      }
+    },
+    {
+      "circle_index": 406,
+      "group": "random50",
+      "pole_lat_deg": -25.606186678374403,
+      "pole_lon_deg": 167.1743501609324,
+      "megp_count": 19,
+      "all_periods": {
+        "mon_observed": 2,
+        "set_observed": 12,
+        "Z_monumental": 1.1613,
+        "Z_settlement": 13.9233,
+        "Z_difference": -12.7619
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.2526,
+        "Z_difference": 0.2526
+      }
+    },
+    {
+      "circle_index": 663,
+      "group": "random50",
+      "pole_lat_deg": -56.137465749587825,
+      "pole_lon_deg": -104.06362014406334,
+      "megp_count": 62,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": -0.2847,
+        "Z_difference": 0.2847
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 432,
+      "group": "random50",
+      "pole_lat_deg": 23.343429997248446,
+      "pole_lon_deg": -167.3366464136089,
+      "megp_count": 59,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -1.7257,
+        "Z_settlement": -4.6233,
+        "Z_difference": 2.8976
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3749,
+        "Z_settlement": -0.4373,
+        "Z_difference": 0.0625
+      }
+    },
+    {
+      "circle_index": 335,
+      "group": "random50",
+      "pole_lat_deg": 13.224048217640975,
+      "pole_lon_deg": 128.03116381286526,
+      "megp_count": 424,
+      "all_periods": {
+        "mon_observed": 184,
+        "set_observed": 696,
+        "Z_monumental": 7.3124,
+        "Z_settlement": 16.5039,
+        "Z_difference": -9.1915
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 6,
+        "set_observed": 23,
+        "Z_monumental": -0.3471,
+        "Z_settlement": 4.1036,
+        "Z_difference": -4.4507
+      }
+    },
+    {
+      "circle_index": 324,
+      "group": "random50",
+      "pole_lat_deg": 44.1964735935042,
+      "pole_lon_deg": -60.94221597140204,
+      "megp_count": 43,
+      "all_periods": {
+        "mon_observed": 6,
+        "set_observed": 23,
+        "Z_monumental": 1.1475,
+        "Z_settlement": -1.949,
+        "Z_difference": 3.0964
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 1,
+        "Z_monumental": -0.3516,
+        "Z_settlement": -0.4939,
+        "Z_difference": 0.1424
+      }
+    },
+    {
+      "circle_index": 14,
+      "group": "random50",
+      "pole_lat_deg": -6.49817708421912,
+      "pole_lon_deg": -56.623088608215895,
+      "megp_count": 171,
+      "all_periods": {
+        "mon_observed": 86,
+        "set_observed": 332,
+        "Z_monumental": -1.5655,
+        "Z_settlement": -1.5364,
+        "Z_difference": -0.0292
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 1,
+        "set_observed": 6,
+        "Z_monumental": -2.2466,
+        "Z_settlement": -1.191,
+        "Z_difference": -1.0556
+      }
+    },
+    {
+      "circle_index": 909,
+      "group": "random50",
+      "pole_lat_deg": -24.233238232504675,
+      "pole_lon_deg": 141.49889451117093,
+      "megp_count": 14,
+      "all_periods": {
+        "mon_observed": 3,
+        "set_observed": 10,
+        "Z_monumental": 0.1357,
+        "Z_settlement": -4.2537,
+        "Z_difference": 4.3894
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3145,
+        "Z_settlement": -1.0758,
+        "Z_difference": 0.7613
+      }
+    },
+    {
+      "circle_index": 443,
+      "group": "random50",
+      "pole_lat_deg": -37.87327099019315,
+      "pole_lon_deg": -157.20174766707908,
+      "megp_count": 22,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 178,
+      "group": "random50",
+      "pole_lat_deg": 51.56874772250797,
+      "pole_lon_deg": -101.09188206769237,
+      "megp_count": 239,
+      "all_periods": {
+        "mon_observed": 50,
+        "set_observed": 294,
+        "Z_monumental": 2.4312,
+        "Z_settlement": 11.5832,
+        "Z_difference": -9.152
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 3,
+        "set_observed": 24,
+        "Z_monumental": -0.9579,
+        "Z_settlement": 0.6112,
+        "Z_difference": -1.5691
+      }
+    },
+    {
+      "circle_index": 528,
+      "group": "random50",
+      "pole_lat_deg": 32.97067947597847,
+      "pole_lon_deg": -126.9266567451891,
+      "megp_count": 2143,
+      "all_periods": {
+        "mon_observed": 94,
+        "set_observed": 574,
+        "Z_monumental": 1.4484,
+        "Z_settlement": 7.9642,
+        "Z_difference": -6.5158
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -1.7814,
+        "Z_settlement": 0.4331,
+        "Z_difference": -2.2145
+      }
+    },
+    {
+      "circle_index": 608,
+      "group": "random50",
+      "pole_lat_deg": 27.699026749696177,
+      "pole_lon_deg": -25.215462035982792,
+      "megp_count": 13,
+      "all_periods": {
+        "mon_observed": 7,
+        "set_observed": 10,
+        "Z_monumental": 5.9325,
+        "Z_settlement": 2.1991,
+        "Z_difference": 3.7334
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2294,
+        "Z_settlement": -0.3162,
+        "Z_difference": 0.0868
+      }
+    },
+    {
+      "circle_index": 146,
+      "group": "random50",
+      "pole_lat_deg": -19.68580536996121,
+      "pole_lon_deg": 89.57548068013973,
+      "megp_count": 184,
+      "all_periods": {
+        "mon_observed": 82,
+        "set_observed": 341,
+        "Z_monumental": -5.3546,
+        "Z_settlement": -7.5031,
+        "Z_difference": 2.1485
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 8,
+        "set_observed": 1,
+        "Z_monumental": 3.5626,
+        "Z_settlement": -0.5703,
+        "Z_difference": 4.1329
+      }
+    },
+    {
+      "circle_index": 299,
+      "group": "random50",
+      "pole_lat_deg": 16.556849249208017,
+      "pole_lon_deg": -39.925183852051184,
+      "megp_count": 5,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 10,
+        "Z_monumental": -1.4997,
+        "Z_settlement": -3.687,
+        "Z_difference": 2.1873
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 1,
+        "Z_monumental": -0.2718,
+        "Z_settlement": -0.7004,
+        "Z_difference": 0.4285
+      }
+    },
+    {
+      "circle_index": 300,
+      "group": "random50",
+      "pole_lat_deg": 33.91709356325069,
+      "pole_lon_deg": -102.76596987834829,
+      "megp_count": 164,
+      "all_periods": {
+        "mon_observed": 106,
+        "set_observed": 393,
+        "Z_monumental": -4.3938,
+        "Z_settlement": -7.4628,
+        "Z_difference": 3.0689
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 2,
+        "Z_monumental": -1.8098,
+        "Z_settlement": -0.8954,
+        "Z_difference": -0.9144
+      }
+    },
+    {
+      "circle_index": 678,
+      "group": "random50",
+      "pole_lat_deg": -46.992647117215384,
+      "pole_lon_deg": 135.60412995061304,
+      "megp_count": 30,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 6,
+        "Z_monumental": -1.0787,
+        "Z_settlement": 1.3987,
+        "Z_difference": -2.4773
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2526,
+        "Z_settlement": -0.3749,
+        "Z_difference": 0.1222
+      }
+    },
+    {
+      "circle_index": 667,
+      "group": "random50",
+      "pole_lat_deg": 85.93699526760368,
+      "pole_lon_deg": -98.04198715228291,
+      "megp_count": 7,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.2294,
+        "Z_settlement": -0.689,
+        "Z_difference": 0.4596
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": 0.0,
+        "Z_settlement": 0.0,
+        "Z_difference": 0.0
+      }
+    },
+    {
+      "circle_index": 259,
+      "group": "random50",
+      "pole_lat_deg": 10.886690110603512,
+      "pole_lon_deg": 178.80379614689522,
+      "megp_count": 57,
+      "all_periods": {
+        "mon_observed": 0,
+        "set_observed": 3,
+        "Z_monumental": -2.2171,
+        "Z_settlement": -4.2224,
+        "Z_difference": 2.0053
+      },
+      "ancient_pre2000bce": {
+        "mon_observed": 0,
+        "set_observed": 0,
+        "Z_monumental": -0.3516,
+        "Z_settlement": -0.5335,
+        "Z_difference": 0.1819
+      }
+    }
+  ],
+  "runtime_seconds": 40.0
+}

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "name": "D11: Historic England Negative Control",
+    "date": "2026-03-16",
+    "scheduled_monuments": 19998,
+    "listed_buildings_grade_i": 8896,
+    "listed_buildings_grade_ii_star": 20852,
+    "listed_buildings_grade_ii": 322252,
+    "monumental_group_size": 49746,
+    "general_group_size": 149238,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "methodology": "Distribution-matched Monte Carlo, BNG->WGS84 Helmert transform"
+  },
+  "step3_negative_control": {
+    "description": "Alison's Great Circle enrichment test on English Scheduled Monuments",
+    "expected_result": "Z \u2248 0 (circle doesn't pass through England)",
+    "results": {
+      "25": {
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "enrichment": Infinity,
+        "z_score": 0
+      },
+      "50": {
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "enrichment": Infinity,
+        "z_score": 0
+      },
+      "100": {
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "enrichment": Infinity,
+        "z_score": 0
+      },
+      "200": {
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "enrichment": Infinity,
+        "z_score": 0
+      }
+    },
+    "verdict": "PASS: Z=0.00 at 50km \u2014 no significant enrichment (as expected)"
+  },
+  "step4_english_circles": {
+    "n_circles": 50,
+    "sm_counts_within_50km": {
+      "mean": 3931.7,
+      "min": 896,
+      "max": 7753
+    }
+  },
+  "step5_settlement_split": {
+    "description": "Monument vs settlement enrichment on random English circles",
+    "expected_result": "No systematic monument-specific enrichment",
+    "mean_ratio": 0.968,
+    "n_monument_enriched": 0,
+    "n_monument_depleted": 0,
+    "verdict": "CONFIRMED: Random circles through England show NO monument-specific enrichment",
+    "circle_details": [
+      {
+        "pole_lat": 2.3149,
+        "pole_lon": 89.3415,
+        "monumental_count": 4879,
+        "general_count": 12311,
+        "monumental_rate_per_10k": 980.78,
+        "general_rate_per_10k": 824.92,
+        "ratio": 1.189
+      },
+      {
+        "pole_lat": -23.0556,
+        "pole_lon": 54.0978,
+        "monumental_count": 13725,
+        "general_count": 34855,
+        "monumental_rate_per_10k": 2759.02,
+        "general_rate_per_10k": 2335.53,
+        "ratio": 1.181
+      },
+      {
+        "pole_lat": -3.2325,
+        "pole_lon": 82.5419,
+        "monumental_count": 9649,
+        "general_count": 24673,
+        "monumental_rate_per_10k": 1939.65,
+        "general_rate_per_10k": 1653.27,
+        "ratio": 1.173
+      },
+      {
+        "pole_lat": 28.9179,
+        "pole_lon": 130.543,
+        "monumental_count": 6611,
+        "general_count": 17319,
+        "monumental_rate_per_10k": 1328.95,
+        "general_rate_per_10k": 1160.5,
+        "ratio": 1.145
+      },
+      {
+        "pole_lat": -26.4875,
+        "pole_lon": -54.8748,
+        "monumental_count": 5104,
+        "general_count": 13679,
+        "monumental_rate_per_10k": 1026.01,
+        "general_rate_per_10k": 916.59,
+        "ratio": 1.119
+      },
+      {
+        "pole_lat": 30.062,
+        "pole_lon": 132.7148,
+        "monumental_count": 5312,
+        "general_count": 14357,
+        "monumental_rate_per_10k": 1067.82,
+        "general_rate_per_10k": 962.02,
+        "ratio": 1.11
+      },
+      {
+        "pole_lat": 11.87,
+        "pole_lon": 106.4515,
+        "monumental_count": 10774,
+        "general_count": 29306,
+        "monumental_rate_per_10k": 2165.8,
+        "general_rate_per_10k": 1963.71,
+        "ratio": 1.103
+      },
+      {
+        "pole_lat": 22.6645,
+        "pole_lon": -125.7927,
+        "monumental_count": 11384,
+        "general_count": 31299,
+        "monumental_rate_per_10k": 2288.43,
+        "general_rate_per_10k": 2097.25,
+        "ratio": 1.091
+      },
+      {
+        "pole_lat": 18.1828,
+        "pole_lon": -117.798,
+        "monumental_count": 15762,
+        "general_count": 43553,
+        "monumental_rate_per_10k": 3168.5,
+        "general_rate_per_10k": 2918.36,
+        "ratio": 1.086
+      },
+      {
+        "pole_lat": 39.3887,
+        "pole_lon": -171.5171,
+        "monumental_count": 1445,
+        "general_count": 4079,
+        "monumental_rate_per_10k": 290.48,
+        "general_rate_per_10k": 273.32,
+        "ratio": 1.063
+      }
+    ]
+  }
+}

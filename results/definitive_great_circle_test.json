@@ -1,0 +1,5963 @@
+{
+  "meta": {
+    "name": "DEFINITIVE Great Circle Test \u2014 Full Megalithic Portal Database",
+    "date": "2026-03-15",
+    "total_sites": 61870,
+    "total_kml_files": 62,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087,
+      "location": "Southeastern Alaska"
+    },
+    "methodology": {
+      "distance_calculation": "abs(haversine(site, pole) - quarter_circumference)",
+      "quarter_circumference_km": 10007.5,
+      "random_trials": 200,
+      "distribution_matching": "Independent shuffle of real site lats/lons with \u00b12\u00b0 Gaussian jitter"
+    }
+  },
+  "uniform_baseline_results": {
+    "25": {
+      "observed": 200,
+      "random_mean": 291.5,
+      "random_std": 17.6,
+      "enrichment": 0.69,
+      "z_score": -5.19
+    },
+    "50": {
+      "observed": 311,
+      "random_mean": 581.6,
+      "random_std": 25.2,
+      "enrichment": 0.53,
+      "z_score": -10.75
+    },
+    "100": {
+      "observed": 442,
+      "random_mean": 1163.7,
+      "random_std": 34.5,
+      "enrichment": 0.38,
+      "z_score": -20.92
+    },
+    "200": {
+      "observed": 745,
+      "random_mean": 2332.6,
+      "random_std": 50.8,
+      "enrichment": 0.32,
+      "z_score": -31.27
+    },
+    "500": {
+      "observed": 1237,
+      "random_mean": 5880.8,
+      "random_std": 69.0,
+      "enrichment": 0.21,
+      "z_score": -67.34
+    }
+  },
+  "distribution_matched_results": {
+    "25": {
+      "observed": 200,
+      "random_mean": 43.7,
+      "random_std": 6.6,
+      "enrichment": 4.57,
+      "z_score": 23.64
+    },
+    "50": {
+      "observed": 311,
+      "random_mean": 88.4,
+      "random_std": 9.2,
+      "enrichment": 3.52,
+      "z_score": 24.09
+    },
+    "100": {
+      "observed": 442,
+      "random_mean": 177.8,
+      "random_std": 12.4,
+      "enrichment": 2.49,
+      "z_score": 21.26
+    },
+    "200": {
+      "observed": 745,
+      "random_mean": 357.5,
+      "random_std": 19.8,
+      "enrichment": 2.08,
+      "z_score": 19.52
+    },
+    "500": {
+      "observed": 1237,
+      "random_mean": 959.9,
+      "random_std": 29.7,
+      "enrichment": 1.29,
+      "z_score": 9.34
+    }
+  },
+  "sites_within_25km": [
+    {
+      "name": "East Upper Wadi Paran Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 0.1,
+      "lat": 30.1532,
+      "lon": 34.7932
+    },
+    {
+      "name": "Petroglyphs near Jebel al Samra Um al Hidha",
+      "type": "Carving",
+      "distance_km": 0.5,
+      "lat": 30.1821,
+      "lon": 35.2915
+    },
+    {
+      "name": "Khaba's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 1.1,
+      "lat": 29.9319,
+      "lon": 31.1621
+    },
+    {
+      "name": "Lower Wadi Hayun Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 1.6,
+      "lat": 30.1846,
+      "lon": 35.1144
+    },
+    {
+      "name": "Niuserra's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 2.3,
+      "lat": 29.9042,
+      "lon": 31.1936
+    },
+    {
+      "name": "Tsichor Cliff",
+      "type": "Ancient Temple",
+      "distance_km": 2.7,
+      "lat": 30.1821,
+      "lon": 34.8665
+    },
+    {
+      "name": "Salapunku",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 2.8,
+      "lat": -13.2294,
+      "lon": -72.407
+    },
+    {
+      "name": "Jibal al-Khashabiyeh",
+      "type": "Carving",
+      "distance_km": 2.9,
+      "lat": 30.22,
+      "lon": 37.022
+    },
+    {
+      "name": "Mina Primavera",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 3.0,
+      "lat": -14.643,
+      "lon": -75.123
+    },
+    {
+      "name": "Llactapata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 3.0,
+      "lat": -13.2354,
+      "lon": -72.4232
+    },
+    {
+      "name": "Sahure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.1,
+      "lat": 29.8977,
+      "lon": 31.2031
+    },
+    {
+      "name": "Niuserra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.1,
+      "lat": 29.8976,
+      "lon": 31.2043
+    },
+    {
+      "name": "Ptah Shepses Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 3.2,
+      "lat": 29.8967,
+      "lon": 31.2048
+    },
+    {
+      "name": "Neferirkare's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.4,
+      "lat": 29.8947,
+      "lon": 31.203
+    },
+    {
+      "name": "Neferefra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.4,
+      "lat": 29.8948,
+      "lon": 31.2042
+    },
+    {
+      "name": "Big Wadi's Masseboth (2)",
+      "type": "Standing Stones",
+      "distance_km": 3.8,
+      "lat": 30.1863,
+      "lon": 34.7605
+    },
+    {
+      "name": "Tsenifim Hayun crossing",
+      "type": "Ancient Temple",
+      "distance_km": 3.9,
+      "lat": 30.1984,
+      "lon": 34.9708
+    },
+    {
+      "name": "Gondashlu Stone Quarry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 4.0,
+      "lat": 29.87,
+      "lon": 52.63
+    },
+    {
+      "name": "Beer-Menucha",
+      "type": "Ancient Temple",
+      "distance_km": 4.5,
+      "lat": 30.2108,
+      "lon": 35.1243
+    },
+    {
+      "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 4.6,
+      "lat": 30.1944,
+      "lon": 34.775
+    },
+    {
+      "name": "Jaisalmer Hero Stones",
+      "type": "Standing Stones",
+      "distance_km": 5.3,
+      "lat": 26.9089,
+      "lon": 70.924
+    },
+    {
+      "name": "Wadi Tzichor Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "lat": 30.2099,
+      "lon": 34.919
+    },
+    {
+      "name": "South of Lower Wadi Hayun Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "lat": 30.2206,
+      "lon": 35.1356
+    },
+    {
+      "name": "Kagemni Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8759,
+      "lon": 31.2217
+    },
+    {
+      "name": "Mereruka Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8757,
+      "lon": 31.2212
+    },
+    {
+      "name": "Serapeum at Sakkara",
+      "type": "Ancient Temple",
+      "distance_km": 5.7,
+      "lat": 29.875,
+      "lon": 31.2122
+    },
+    {
+      "name": "Knuhmhotep and Niankhkhnum Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8753,
+      "lon": 31.2159
+    },
+    {
+      "name": "Petroglifos de Llipata",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 5.7,
+      "lat": -14.5933,
+      "lon": -75.2011
+    },
+    {
+      "name": "Jaisalmer area",
+      "type": "Sculptured Stone",
+      "distance_km": 5.7,
+      "lat": 26.9083,
+      "lon": 70.9104
+    },
+    {
+      "name": "Heit el-Ghurab",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 5.7,
+      "lat": 29.972,
+      "lon": 31.1375
+    },
+    {
+      "name": "Userkaf's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "lat": 29.874,
+      "lon": 31.2188
+    },
+    {
+      "name": "Ptah Hotep Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.8,
+      "lat": 29.8735,
+      "lon": 31.2134
+    },
+    {
+      "name": "Menkaure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "lat": 29.9725,
+      "lon": 31.128
+    },
+    {
+      "name": "North of Wadi Tzikhor camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.0,
+      "lat": 30.2142,
+      "lon": 34.9217
+    },
+    {
+      "name": "Giza Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.0,
+      "lat": 29.9749,
+      "lon": 31.1385
+    },
+    {
+      "name": "Great Sphinx",
+      "type": "Ancient Temple",
+      "distance_km": 6.1,
+      "lat": 29.9753,
+      "lon": 31.1375
+    },
+    {
+      "name": "Sakkara Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.1,
+      "lat": 29.8713,
+      "lon": 31.2164
+    },
+    {
+      "name": "Khafre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.2,
+      "lat": 29.9759,
+      "lon": 31.1303
+    },
+    {
+      "name": "Sakkara Temple of Heb-Sed",
+      "type": "Ancient Temple",
+      "distance_km": 6.3,
+      "lat": 29.8701,
+      "lon": 31.2177
+    },
+    {
+      "name": "Museo Maria Reiche",
+      "type": "Museum",
+      "distance_km": 6.3,
+      "lat": -14.6822,
+      "lon": -75.1358
+    },
+    {
+      "name": "Nazca Lines - Trapezoids",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.3,
+      "lat": -14.6918,
+      "lon": -75.1554
+    },
+    {
+      "name": "Sakkara Djoser Complex",
+      "type": "Ancient Temple",
+      "distance_km": 6.4,
+      "lat": 29.8691,
+      "lon": 31.2177
+    },
+    {
+      "name": "Nazca Lines",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.4,
+      "lat": -14.695,
+      "lon": -75.16
+    },
+    {
+      "name": "Kuntillet Ajrud",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.4,
+      "lat": 30.1928,
+      "lon": 34.4207
+    },
+    {
+      "name": "Unas Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.4,
+      "lat": 29.8683,
+      "lon": 31.2148
+    },
+    {
+      "name": "Irukaptah Tomb",
+      "type": "Chambered Tomb",
+      "distance_km": 6.5,
+      "lat": 29.8683,
+      "lon": 31.2176
+    },
+    {
+      "name": "Giza Mastaba Cemetery",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.5,
+      "lat": 29.979,
+      "lon": 31.131
+    },
+    {
+      "name": "Gisr el-Mudir",
+      "type": "Causewayed Enclosure",
+      "distance_km": 6.6,
+      "lat": 29.8665,
+      "lon": 31.2063
+    },
+    {
+      "name": "Seschemnofer III. Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.9799,
+      "lon": 31.1319
+    },
+    {
+      "name": "Sekhemkhet's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.8664,
+      "lon": 31.2137
+    },
+    {
+      "name": "Khufu's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.9801,
+      "lon": 31.1342
+    },
+    {
+      "name": "Nazca Lines - Hummingbird",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.6,
+      "lat": -14.6922,
+      "lon": -75.1489
+    },
+    {
+      "name": "Giza Plateau",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.7,
+      "lat": 29.98,
+      "lon": 31.13
+    },
+    {
+      "name": "Ahu Nau Nau Anakena",
+      "type": "Sculptured Stone",
+      "distance_km": 6.7,
+      "lat": -27.0769,
+      "lon": -109.3239
+    },
+    {
+      "name": "Senegemid Mastabas",
+      "type": "Chambered Cairn",
+      "distance_km": 6.7,
+      "lat": 29.9806,
+      "lon": 31.1327
+    },
+    {
+      "name": "Unas Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "lat": 29.8657,
+      "lon": 31.2226
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 2",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "lat": 30.2146,
+      "lon": 34.7751
+    },
+    {
+      "name": "Ahu Ature Huke",
+      "type": "Sculptured Stone",
+      "distance_km": 7.1,
+      "lat": -27.0801,
+      "lon": -109.3196
+    },
+    {
+      "name": "Mianroud Mound",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "lat": 29.8828,
+      "lon": 52.8099
+    },
+    {
+      "name": "Ollantaytambo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "lat": -13.258,
+      "lon": -72.263
+    },
+    {
+      "name": "Ts'hiha hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.3,
+      "lat": 30.229,
+      "lon": 34.9806
+    },
+    {
+      "name": "North of Tsikhor limestone bowls Industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 7.4,
+      "lat": 30.2282,
+      "lon": 34.9502
+    },
+    {
+      "name": "South Negev Highland rock engravings 3",
+      "type": "Carving",
+      "distance_km": 7.4,
+      "lat": 30.22,
+      "lon": 34.78
+    },
+    {
+      "name": "Nazca Lines - Small Spiral",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 7.5,
+      "lat": -14.6884,
+      "lon": -75.1231
+    },
+    {
+      "name": "Wadi Tzikhor Matseboth & Rock Art",
+      "type": "Standing Stones",
+      "distance_km": 7.7,
+      "lat": 30.2269,
+      "lon": 34.8693
+    },
+    {
+      "name": "Runkurakay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.7,
+      "lat": -13.2283,
+      "lon": -72.5016
+    },
+    {
+      "name": "Pepy I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.0,
+      "lat": 29.8542,
+      "lon": 31.2186
+    },
+    {
+      "name": "Nazca Lines - Spider",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.1,
+      "lat": -14.6941,
+      "lon": -75.1224
+    },
+    {
+      "name": "Ahu Te Pito Kura",
+      "type": "Standing Stones",
+      "distance_km": 8.2,
+      "lat": -27.0886,
+      "lon": -109.3122
+    },
+    {
+      "name": "Wadi Yahel",
+      "type": "Standing Stones",
+      "distance_km": 8.4,
+      "lat": 30.0952,
+      "lon": 35.132
+    },
+    {
+      "name": "Sayacmarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.4,
+      "lat": -13.2281,
+      "lon": -72.5158
+    },
+    {
+      "name": "Djedkare Izezi Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "lat": 29.8511,
+      "lon": 31.2209
+    },
+    {
+      "name": "Merenre Nemtyemzaf Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "lat": 29.8502,
+      "lon": 31.215
+    },
+    {
+      "name": "Nazca Lines - Hands and Tree",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.5,
+      "lat": -14.6939,
+      "lon": -75.1145
+    },
+    {
+      "name": "Suntur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "lat": -13.6067,
+      "lon": -73.2687
+    },
+    {
+      "name": "Wadi Paran ancient agriculture terraces, matseboth and Rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "lat": 30.2315,
+      "lon": 34.81
+    },
+    {
+      "name": "South Negev Highland rock engravings 2",
+      "type": "Carving",
+      "distance_km": 8.6,
+      "lat": 30.23,
+      "lon": 34.77
+    },
+    {
+      "name": "Chaibasa",
+      "type": "Standing Stones",
+      "distance_km": 8.6,
+      "lat": 22.57,
+      "lon": 85.82
+    },
+    {
+      "name": "Nazca Lines - Monkey",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.6,
+      "lat": -14.7069,
+      "lon": -75.1385
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 1",
+      "type": "Ancient Temple",
+      "distance_km": 8.6,
+      "lat": 30.2296,
+      "lon": 34.7473
+    },
+    {
+      "name": "Paran tributery Megalithic Open Air Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 8.7,
+      "lat": 30.2333,
+      "lon": 34.8074
+    },
+    {
+      "name": "Saihuite Stone",
+      "type": "Sculptured Stone",
+      "distance_km": 8.8,
+      "lat": -13.5472,
+      "lon": -72.803
+    },
+    {
+      "name": "Memphis Museum",
+      "type": "Museum",
+      "distance_km": 8.8,
+      "lat": 29.8497,
+      "lon": 31.2543
+    },
+    {
+      "name": "Grand Egyptian Museum",
+      "type": "Museum",
+      "distance_km": 8.8,
+      "lat": 29.9989,
+      "lon": 31.1193
+    },
+    {
+      "name": "Paran pair Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 9.3,
+      "lat": 30.2393,
+      "lon": 34.8162
+    },
+    {
+      "name": "Ibi I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.4,
+      "lat": 29.8419,
+      "lon": 31.2176
+    },
+    {
+      "name": "Ahu Akivi",
+      "type": "Sculptured Stone",
+      "distance_km": 9.4,
+      "lat": -27.1186,
+      "lon": -109.3955
+    },
+    {
+      "name": "Easter Island",
+      "type": "Sculptured Stone",
+      "distance_km": 9.5,
+      "lat": -27.0912,
+      "lon": -109.2712
+    },
+    {
+      "name": "Pepy II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.5,
+      "lat": 29.8401,
+      "lon": 31.2131
+    },
+    {
+      "name": "Shepseskaf's Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.7,
+      "lat": 29.839,
+      "lon": 31.2151
+    },
+    {
+      "name": "South Negev Highland rock engravings 1",
+      "type": "Carving",
+      "distance_km": 9.7,
+      "lat": 30.24,
+      "lon": 34.76
+    },
+    {
+      "name": "Wadi Yaziz (1)",
+      "type": "Chambered Cairn",
+      "distance_km": 9.9,
+      "lat": 30.2571,
+      "lon": 35.078
+    },
+    {
+      "name": "Choquequirao",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.0,
+      "lat": -13.3924,
+      "lon": -72.8737
+    },
+    {
+      "name": "Wadi Tsichor",
+      "type": "Rock Art",
+      "distance_km": 10.1,
+      "lat": 30.2538,
+      "lon": 34.9739
+    },
+    {
+      "name": "Tsuky (cliff ) Hidud",
+      "type": "Ancient Temple",
+      "distance_km": 10.4,
+      "lat": 30.2623,
+      "lon": 35.0852
+    },
+    {
+      "name": "Wadi Yaziz (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.5,
+      "lat": 30.2631,
+      "lon": 35.0801
+    },
+    {
+      "name": "Khendjer's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 10.7,
+      "lat": 29.8304,
+      "lon": 31.222
+    },
+    {
+      "name": "Wadi Masoudah - David Roberts Rock",
+      "type": "Rock Cut Tomb",
+      "distance_km": 10.7,
+      "lat": 30.276,
+      "lon": 35.3177
+    },
+    {
+      "name": "Tahai Kote Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 10.9,
+      "lat": -27.139,
+      "lon": -109.427
+    },
+    {
+      "name": "Ahu Ko Te Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 11.0,
+      "lat": -27.1405,
+      "lon": -109.4299
+    },
+    {
+      "name": "S' of wadi Ya'alon",
+      "type": "Ancient Temple",
+      "distance_km": 11.0,
+      "lat": 30.0703,
+      "lon": 35.0995
+    },
+    {
+      "name": "Wadi Yaziz (3)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.1,
+      "lat": 30.268,
+      "lon": 35.0729
+    },
+    {
+      "name": "South to Kibuts Yahel",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.2,
+      "lat": 30.0695,
+      "lon": 35.1185
+    },
+    {
+      "name": "South East of Mount Karkom Engravings",
+      "type": "Carving",
+      "distance_km": 11.2,
+      "lat": 30.2534,
+      "lon": 34.7605
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "lat": 29.9139,
+      "lon": 52.8856
+    },
+    {
+      "name": "Phuyupatamarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "lat": -13.2065,
+      "lon": -72.5324
+    },
+    {
+      "name": "M'aan district",
+      "type": "Carving",
+      "distance_km": 11.8,
+      "lat": 30.0849,
+      "lon": 35.5794
+    },
+    {
+      "name": "Ana Kai Tangata",
+      "type": "Rock Art",
+      "distance_km": 11.9,
+      "lat": -27.15,
+      "lon": -109.4333
+    },
+    {
+      "name": "\u00c3\u0091aupa Iglesia",
+      "type": "Ancient Temple",
+      "distance_km": 11.9,
+      "lat": -13.2891,
+      "lon": -72.23
+    },
+    {
+      "name": "Senusret III Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.0,
+      "lat": 29.819,
+      "lon": 31.226
+    },
+    {
+      "name": "Solar Watch",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 12.1,
+      "lat": -14.5245,
+      "lon": -75.1931
+    },
+    {
+      "name": "Mt. Shizzafon camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.2,
+      "lat": 30.056,
+      "lon": 35.0391
+    },
+    {
+      "name": "Raqaypata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.3,
+      "lat": -13.3092,
+      "lon": -72.2621
+    },
+    {
+      "name": "Puna Pau",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.4,
+      "lat": -27.1482,
+      "lon": -109.4039
+    },
+    {
+      "name": "Upper wadi Ya'alon Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.5,
+      "lat": 30.0541,
+      "lon": 35.0537
+    },
+    {
+      "name": "Sha'alav Plaza Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.7,
+      "lat": 30.0538,
+      "lon": 35.0799
+    },
+    {
+      "name": "Rano Raraku",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.7,
+      "lat": -27.1242,
+      "lon": -109.2859
+    },
+    {
+      "name": "Qtura Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.9,
+      "lat": 30.0515,
+      "lon": 35.0687
+    },
+    {
+      "name": "Red Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "lat": 29.8092,
+      "lon": 31.2064
+    },
+    {
+      "name": "Djedefre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "lat": 30.0321,
+      "lon": 31.0748
+    },
+    {
+      "name": "Winay Wayna",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.9,
+      "lat": -13.1921,
+      "lon": -72.536
+    },
+    {
+      "name": "Museum of Egyptian Antiquities",
+      "type": "Museum",
+      "distance_km": 13.1,
+      "lat": 30.0461,
+      "lon": 31.2335
+    },
+    {
+      "name": "Wadi Khalamish Camp site,Sanctuaries and Rock Art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.1,
+      "lat": 30.2729,
+      "lon": 34.8003
+    },
+    {
+      "name": "Ahu Huri A Urenga",
+      "type": "Sculptured Stone",
+      "distance_km": 13.2,
+      "lat": -27.1543,
+      "lon": -109.4001
+    },
+    {
+      "name": "Amenmenhat II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 13.2,
+      "lat": 29.8076,
+      "lon": 31.222
+    },
+    {
+      "name": "El Zadalek Island Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 13.3,
+      "lat": 30.0471,
+      "lon": 31.2278
+    },
+    {
+      "name": "Persepolis",
+      "type": "Ancient Palace",
+      "distance_km": 13.6,
+      "lat": 29.9333,
+      "lon": 52.9
+    },
+    {
+      "name": "Intipata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.7,
+      "lat": -13.1866,
+      "lon": -72.541
+    },
+    {
+      "name": "East of Qtura valley camp site and open air sanctuary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "lat": 30.0437,
+      "lon": 35.0753
+    },
+    {
+      "name": "Sukothai",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "lat": 17.026,
+      "lon": 99.4723
+    },
+    {
+      "name": "Siwa Mountain Of The Dead",
+      "type": "Rock Cut Tomb",
+      "distance_km": 13.9,
+      "lat": 29.2116,
+      "lon": 25.3245
+    },
+    {
+      "name": "Ahu Tongariki",
+      "type": "Sculptured Stone",
+      "distance_km": 14.0,
+      "lat": -27.134,
+      "lon": -109.2756
+    },
+    {
+      "name": "Dashour Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 14.6,
+      "lat": 29.795,
+      "lon": 31.2168
+    },
+    {
+      "name": "Mt. Qtura Roded type open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 14.7,
+      "lat": 30.0355,
+      "lon": 35.0728
+    },
+    {
+      "name": "Upper Wadi Qtura Flint Workshop",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 14.8,
+      "lat": 30.0337,
+      "lon": 35.0581
+    },
+    {
+      "name": "Sneferu's Bent Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.0,
+      "lat": 29.7903,
+      "lon": 31.2094
+    },
+    {
+      "name": "Amenemhat III Pyramid at Dashour.",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.1,
+      "lat": 29.7911,
+      "lon": 31.2239
+    },
+    {
+      "name": "Intipunku",
+      "type": "Ancient Temple",
+      "distance_km": 15.1,
+      "lat": -13.1702,
+      "lon": -72.5351
+    },
+    {
+      "name": "Aname petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 15.1,
+      "lat": -20.1403,
+      "lon": 169.8283
+    },
+    {
+      "name": "East of Mt. Kharoz camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.1,
+      "lat": 30.2913,
+      "lon": 34.8183
+    },
+    {
+      "name": "Queen Hetepheres Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.2,
+      "lat": 29.7887,
+      "lon": 31.2095
+    },
+    {
+      "name": "Big Circle J5",
+      "type": "Misc Earthwork",
+      "distance_km": 15.2,
+      "lat": 30.3285,
+      "lon": 35.586
+    },
+    {
+      "name": "wadi Dmama open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 15.2,
+      "lat": 30.3059,
+      "lon": 35.0905
+    },
+    {
+      "name": "Nazca Lines - \"The Astronaut\"",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 15.3,
+      "lat": -14.7452,
+      "lon": -75.0799
+    },
+    {
+      "name": "Ahu Vinapu",
+      "type": "Sculptured Stone",
+      "distance_km": 15.4,
+      "lat": -27.1764,
+      "lon": -109.4064
+    },
+    {
+      "name": "Upper Qtura Pass Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 15.4,
+      "lat": 30.0283,
+      "lon": 35.0657
+    },
+    {
+      "name": "Mount Karkom",
+      "type": "Rock Art",
+      "distance_km": 15.5,
+      "lat": 30.2912,
+      "lon": 34.7415
+    },
+    {
+      "name": "Bishapur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.5,
+      "lat": 29.7799,
+      "lon": 51.5762
+    },
+    {
+      "name": "Mt. Kharoz Plaza site",
+      "type": "Ancient Temple",
+      "distance_km": 15.6,
+      "lat": 30.295,
+      "lon": 34.7968
+    },
+    {
+      "name": "Upper Wadi Hayun",
+      "type": "Standing Stones",
+      "distance_km": 15.6,
+      "lat": 30.0222,
+      "lon": 34.9747
+    },
+    {
+      "name": "Ovil Heights Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.7,
+      "lat": 30.3031,
+      "lon": 34.9409
+    },
+    {
+      "name": "Big Circle J8",
+      "type": "Misc Earthwork",
+      "distance_km": 15.8,
+      "lat": 30.045,
+      "lon": 35.4863
+    },
+    {
+      "name": "Rano Kau",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 15.8,
+      "lat": -27.1866,
+      "lon": -109.4354
+    },
+    {
+      "name": "Orongo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.9,
+      "lat": -27.1893,
+      "lon": -109.4432
+    },
+    {
+      "name": "Pernil Alto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "lat": -14.494,
+      "lon": -75.21
+    },
+    {
+      "name": "Petra, Nabataean Town",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "lat": 30.3292,
+      "lon": 35.4419
+    },
+    {
+      "name": "Machu Picchu.",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.1,
+      "lat": -13.1647,
+      "lon": -72.545
+    },
+    {
+      "name": "Wadi Eshel Desert Kite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.2,
+      "lat": 30.3012,
+      "lon": 34.8257
+    },
+    {
+      "name": "Mt. Na'atsuts cluster of megalithic Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 16.2,
+      "lat": 30.0183,
+      "lon": 35.0021
+    },
+    {
+      "name": "Mt. 'Eshet",
+      "type": "Ancient Trackway",
+      "distance_km": 16.5,
+      "lat": 30.3162,
+      "lon": 35.0771
+    },
+    {
+      "name": "lower wadi Qtura",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.5,
+      "lat": 30.0192,
+      "lon": 35.0778
+    },
+    {
+      "name": "Las Salinas",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 16.8,
+      "lat": -13.3002,
+      "lon": -72.1553
+    },
+    {
+      "name": "Mt. 'Ai'it sites",
+      "type": "Ancient Temple",
+      "distance_km": 16.8,
+      "lat": 30.0159,
+      "lon": 35.0608
+    },
+    {
+      "name": "Naqsh-e Rajab",
+      "type": "Rock Art",
+      "distance_km": 17.2,
+      "lat": 29.9666,
+      "lon": 52.8872
+    },
+    {
+      "name": "Wadi Eshel stone circle, Matseboth",
+      "type": "Ancient Temple",
+      "distance_km": 17.2,
+      "lat": 30.3098,
+      "lon": 34.8075
+    },
+    {
+      "name": "Big Wadi's Masseboth (1)",
+      "type": "Standing Stones",
+      "distance_km": 17.3,
+      "lat": 29.9996,
+      "lon": 34.8197
+    },
+    {
+      "name": "Siwa Temple of Amun",
+      "type": "Ancient Temple",
+      "distance_km": 17.5,
+      "lat": 29.2056,
+      "lon": 25.5429
+    },
+    {
+      "name": "Jabal Fatouma Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 17.5,
+      "lat": 30.342,
+      "lon": 35.4292
+    },
+    {
+      "name": "Moray Terraces",
+      "type": "Misc Earthwork",
+      "distance_km": 17.6,
+      "lat": -13.3294,
+      "lon": -72.1956
+    },
+    {
+      "name": "South of wadi Eshel Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.6,
+      "lat": 30.3135,
+      "lon": 34.8061
+    },
+    {
+      "name": "Wadi Paran tributary camp site & Tumuli",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.7,
+      "lat": 30.3272,
+      "lon": 35.0736
+    },
+    {
+      "name": "Umm Ubayda Temple",
+      "type": "Ancient Temple",
+      "distance_km": 17.9,
+      "lat": 29.2016,
+      "lon": 25.5447
+    },
+    {
+      "name": "Inkaraqay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 18.1,
+      "lat": -13.146,
+      "lon": -72.5475
+    },
+    {
+      "name": "Mount Ayah",
+      "type": "Ancient Temple",
+      "distance_km": 18.1,
+      "lat": 30.0033,
+      "lon": 35.0455
+    },
+    {
+      "name": "Eshel Paran Megalithic cult site",
+      "type": "Ancient Temple",
+      "distance_km": 18.3,
+      "lat": 30.3234,
+      "lon": 34.8743
+    },
+    {
+      "name": "Estakhr",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.0,
+      "lat": 29.9814,
+      "lon": 52.908
+    },
+    {
+      "name": "Naghsh-e-Rostam",
+      "type": "Rock Cut Tomb",
+      "distance_km": 19.6,
+      "lat": 29.9891,
+      "lon": 52.8747
+    },
+    {
+      "name": "Grofit hights",
+      "type": "Ancient Temple",
+      "distance_km": 19.8,
+      "lat": 29.9885,
+      "lon": 35.0569
+    },
+    {
+      "name": "Kipat 'Eshet rock shelter",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.9,
+      "lat": 30.3512,
+      "lon": 35.1613
+    },
+    {
+      "name": "Mazghuna 1 Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 20.3,
+      "lat": 29.7435,
+      "lon": 31.2192
+    },
+    {
+      "name": "Cairo Airport Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 20.4,
+      "lat": 30.1246,
+      "lon": 31.4007
+    },
+    {
+      "name": "Big Circle J6",
+      "type": "Misc Earthwork",
+      "distance_km": 20.6,
+      "lat": 30.3772,
+      "lon": 35.6019
+    },
+    {
+      "name": "Beidha",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "lat": 30.3708,
+      "lon": 35.4478
+    },
+    {
+      "name": "Cahuachi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "lat": -14.8176,
+      "lon": -75.117
+    },
+    {
+      "name": "Wadi Shazar threshing floors, terraces and rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.7,
+      "lat": 30.341,
+      "lon": 34.7962
+    },
+    {
+      "name": "Siq al-Barid-Little Petra",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.1,
+      "lat": 30.3752,
+      "lon": 35.4518
+    },
+    {
+      "name": "Heliopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.7,
+      "lat": 30.1293,
+      "lon": 31.3075
+    },
+    {
+      "name": "Top Itro pass 7 Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 21.9,
+      "lat": 29.969,
+      "lon": 35.0327
+    },
+    {
+      "name": "Yakham hills Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 22.7,
+      "lat": 30.3699,
+      "lon": 35.0197
+    },
+    {
+      "name": "Itro pass Roded Figurines",
+      "type": "Ancient Temple",
+      "distance_km": 22.8,
+      "lat": 29.9599,
+      "lon": 35.0281
+    },
+    {
+      "name": "Leopards Open Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 23.0,
+      "lat": 29.9558,
+      "lon": 34.97
+    },
+    {
+      "name": "Qalat Al-Guindi",
+      "type": "Hillfort",
+      "distance_km": 23.2,
+      "lat": 29.851,
+      "lon": 33.13
+    },
+    {
+      "name": "East Uvda valley cult sites",
+      "type": "Ancient Temple",
+      "distance_km": 23.2,
+      "lat": 29.9534,
+      "lon": 34.9692
+    },
+    {
+      "name": "wadi Paran",
+      "type": "Ancient Temple",
+      "distance_km": 23.7,
+      "lat": 30.3702,
+      "lon": 34.8481
+    },
+    {
+      "name": "Rio Branco Geoglyph 22",
+      "type": "Misc Earthwork",
+      "distance_km": 23.9,
+      "lat": -10.3069,
+      "lon": -67.2202
+    },
+    {
+      "name": "Rio Branco Geoglyph 21",
+      "type": "Misc Earthwork",
+      "distance_km": 24.0,
+      "lat": -10.5262,
+      "lon": -67.6332
+    },
+    {
+      "name": "Uvda Valley habitation site No 18",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.2,
+      "lat": 29.9443,
+      "lon": 34.9642
+    },
+    {
+      "name": "Widan el-Faras",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 24.4,
+      "lat": 29.6586,
+      "lon": 30.6221
+    },
+    {
+      "name": "Uvda Valley habitation site No 9",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.5,
+      "lat": 29.942,
+      "lon": 34.9638
+    },
+    {
+      "name": "Wadi Ma'azer campsite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.7,
+      "lat": 30.3717,
+      "lon": 34.7038
+    }
+  ],
+  "sites_within_50km": [
+    {
+      "name": "East Upper Wadi Paran Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 0.1,
+      "lat": 30.1532,
+      "lon": 34.7932
+    },
+    {
+      "name": "Petroglyphs near Jebel al Samra Um al Hidha",
+      "type": "Carving",
+      "distance_km": 0.5,
+      "lat": 30.1821,
+      "lon": 35.2915
+    },
+    {
+      "name": "Khaba's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 1.1,
+      "lat": 29.9319,
+      "lon": 31.1621
+    },
+    {
+      "name": "Lower Wadi Hayun Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 1.6,
+      "lat": 30.1846,
+      "lon": 35.1144
+    },
+    {
+      "name": "Niuserra's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 2.3,
+      "lat": 29.9042,
+      "lon": 31.1936
+    },
+    {
+      "name": "Tsichor Cliff",
+      "type": "Ancient Temple",
+      "distance_km": 2.7,
+      "lat": 30.1821,
+      "lon": 34.8665
+    },
+    {
+      "name": "Salapunku",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 2.8,
+      "lat": -13.2294,
+      "lon": -72.407
+    },
+    {
+      "name": "Jibal al-Khashabiyeh",
+      "type": "Carving",
+      "distance_km": 2.9,
+      "lat": 30.22,
+      "lon": 37.022
+    },
+    {
+      "name": "Mina Primavera",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 3.0,
+      "lat": -14.643,
+      "lon": -75.123
+    },
+    {
+      "name": "Llactapata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 3.0,
+      "lat": -13.2354,
+      "lon": -72.4232
+    },
+    {
+      "name": "Sahure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.1,
+      "lat": 29.8977,
+      "lon": 31.2031
+    },
+    {
+      "name": "Niuserra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.1,
+      "lat": 29.8976,
+      "lon": 31.2043
+    },
+    {
+      "name": "Ptah Shepses Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 3.2,
+      "lat": 29.8967,
+      "lon": 31.2048
+    },
+    {
+      "name": "Neferirkare's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.4,
+      "lat": 29.8947,
+      "lon": 31.203
+    },
+    {
+      "name": "Neferefra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.4,
+      "lat": 29.8948,
+      "lon": 31.2042
+    },
+    {
+      "name": "Big Wadi's Masseboth (2)",
+      "type": "Standing Stones",
+      "distance_km": 3.8,
+      "lat": 30.1863,
+      "lon": 34.7605
+    },
+    {
+      "name": "Tsenifim Hayun crossing",
+      "type": "Ancient Temple",
+      "distance_km": 3.9,
+      "lat": 30.1984,
+      "lon": 34.9708
+    },
+    {
+      "name": "Gondashlu Stone Quarry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 4.0,
+      "lat": 29.87,
+      "lon": 52.63
+    },
+    {
+      "name": "Beer-Menucha",
+      "type": "Ancient Temple",
+      "distance_km": 4.5,
+      "lat": 30.2108,
+      "lon": 35.1243
+    },
+    {
+      "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 4.6,
+      "lat": 30.1944,
+      "lon": 34.775
+    },
+    {
+      "name": "Jaisalmer Hero Stones",
+      "type": "Standing Stones",
+      "distance_km": 5.3,
+      "lat": 26.9089,
+      "lon": 70.924
+    },
+    {
+      "name": "Wadi Tzichor Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "lat": 30.2099,
+      "lon": 34.919
+    },
+    {
+      "name": "South of Lower Wadi Hayun Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "lat": 30.2206,
+      "lon": 35.1356
+    },
+    {
+      "name": "Kagemni Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8759,
+      "lon": 31.2217
+    },
+    {
+      "name": "Mereruka Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8757,
+      "lon": 31.2212
+    },
+    {
+      "name": "Serapeum at Sakkara",
+      "type": "Ancient Temple",
+      "distance_km": 5.7,
+      "lat": 29.875,
+      "lon": 31.2122
+    },
+    {
+      "name": "Knuhmhotep and Niankhkhnum Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "lat": 29.8753,
+      "lon": 31.2159
+    },
+    {
+      "name": "Petroglifos de Llipata",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 5.7,
+      "lat": -14.5933,
+      "lon": -75.2011
+    },
+    {
+      "name": "Jaisalmer area",
+      "type": "Sculptured Stone",
+      "distance_km": 5.7,
+      "lat": 26.9083,
+      "lon": 70.9104
+    },
+    {
+      "name": "Heit el-Ghurab",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 5.7,
+      "lat": 29.972,
+      "lon": 31.1375
+    },
+    {
+      "name": "Userkaf's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "lat": 29.874,
+      "lon": 31.2188
+    },
+    {
+      "name": "Ptah Hotep Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.8,
+      "lat": 29.8735,
+      "lon": 31.2134
+    },
+    {
+      "name": "Menkaure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "lat": 29.9725,
+      "lon": 31.128
+    },
+    {
+      "name": "North of Wadi Tzikhor camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.0,
+      "lat": 30.2142,
+      "lon": 34.9217
+    },
+    {
+      "name": "Giza Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.0,
+      "lat": 29.9749,
+      "lon": 31.1385
+    },
+    {
+      "name": "Great Sphinx",
+      "type": "Ancient Temple",
+      "distance_km": 6.1,
+      "lat": 29.9753,
+      "lon": 31.1375
+    },
+    {
+      "name": "Sakkara Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.1,
+      "lat": 29.8713,
+      "lon": 31.2164
+    },
+    {
+      "name": "Khafre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.2,
+      "lat": 29.9759,
+      "lon": 31.1303
+    },
+    {
+      "name": "Sakkara Temple of Heb-Sed",
+      "type": "Ancient Temple",
+      "distance_km": 6.3,
+      "lat": 29.8701,
+      "lon": 31.2177
+    },
+    {
+      "name": "Museo Maria Reiche",
+      "type": "Museum",
+      "distance_km": 6.3,
+      "lat": -14.6822,
+      "lon": -75.1358
+    },
+    {
+      "name": "Nazca Lines - Trapezoids",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.3,
+      "lat": -14.6918,
+      "lon": -75.1554
+    },
+    {
+      "name": "Sakkara Djoser Complex",
+      "type": "Ancient Temple",
+      "distance_km": 6.4,
+      "lat": 29.8691,
+      "lon": 31.2177
+    },
+    {
+      "name": "Nazca Lines",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.4,
+      "lat": -14.695,
+      "lon": -75.16
+    },
+    {
+      "name": "Kuntillet Ajrud",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.4,
+      "lat": 30.1928,
+      "lon": 34.4207
+    },
+    {
+      "name": "Unas Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.4,
+      "lat": 29.8683,
+      "lon": 31.2148
+    },
+    {
+      "name": "Irukaptah Tomb",
+      "type": "Chambered Tomb",
+      "distance_km": 6.5,
+      "lat": 29.8683,
+      "lon": 31.2176
+    },
+    {
+      "name": "Giza Mastaba Cemetery",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.5,
+      "lat": 29.979,
+      "lon": 31.131
+    },
+    {
+      "name": "Gisr el-Mudir",
+      "type": "Causewayed Enclosure",
+      "distance_km": 6.6,
+      "lat": 29.8665,
+      "lon": 31.2063
+    },
+    {
+      "name": "Seschemnofer III. Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.9799,
+      "lon": 31.1319
+    },
+    {
+      "name": "Sekhemkhet's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.8664,
+      "lon": 31.2137
+    },
+    {
+      "name": "Khufu's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "lat": 29.9801,
+      "lon": 31.1342
+    },
+    {
+      "name": "Nazca Lines - Hummingbird",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.6,
+      "lat": -14.6922,
+      "lon": -75.1489
+    },
+    {
+      "name": "Giza Plateau",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.7,
+      "lat": 29.98,
+      "lon": 31.13
+    },
+    {
+      "name": "Ahu Nau Nau Anakena",
+      "type": "Sculptured Stone",
+      "distance_km": 6.7,
+      "lat": -27.0769,
+      "lon": -109.3239
+    },
+    {
+      "name": "Senegemid Mastabas",
+      "type": "Chambered Cairn",
+      "distance_km": 6.7,
+      "lat": 29.9806,
+      "lon": 31.1327
+    },
+    {
+      "name": "Unas Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "lat": 29.8657,
+      "lon": 31.2226
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 2",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "lat": 30.2146,
+      "lon": 34.7751
+    },
+    {
+      "name": "Ahu Ature Huke",
+      "type": "Sculptured Stone",
+      "distance_km": 7.1,
+      "lat": -27.0801,
+      "lon": -109.3196
+    },
+    {
+      "name": "Mianroud Mound",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "lat": 29.8828,
+      "lon": 52.8099
+    },
+    {
+      "name": "Ollantaytambo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "lat": -13.258,
+      "lon": -72.263
+    },
+    {
+      "name": "Ts'hiha hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.3,
+      "lat": 30.229,
+      "lon": 34.9806
+    },
+    {
+      "name": "North of Tsikhor limestone bowls Industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 7.4,
+      "lat": 30.2282,
+      "lon": 34.9502
+    },
+    {
+      "name": "South Negev Highland rock engravings 3",
+      "type": "Carving",
+      "distance_km": 7.4,
+      "lat": 30.22,
+      "lon": 34.78
+    },
+    {
+      "name": "Nazca Lines - Small Spiral",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 7.5,
+      "lat": -14.6884,
+      "lon": -75.1231
+    },
+    {
+      "name": "Wadi Tzikhor Matseboth & Rock Art",
+      "type": "Standing Stones",
+      "distance_km": 7.7,
+      "lat": 30.2269,
+      "lon": 34.8693
+    },
+    {
+      "name": "Runkurakay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.7,
+      "lat": -13.2283,
+      "lon": -72.5016
+    },
+    {
+      "name": "Pepy I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.0,
+      "lat": 29.8542,
+      "lon": 31.2186
+    },
+    {
+      "name": "Nazca Lines - Spider",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.1,
+      "lat": -14.6941,
+      "lon": -75.1224
+    },
+    {
+      "name": "Ahu Te Pito Kura",
+      "type": "Standing Stones",
+      "distance_km": 8.2,
+      "lat": -27.0886,
+      "lon": -109.3122
+    },
+    {
+      "name": "Wadi Yahel",
+      "type": "Standing Stones",
+      "distance_km": 8.4,
+      "lat": 30.0952,
+      "lon": 35.132
+    },
+    {
+      "name": "Sayacmarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.4,
+      "lat": -13.2281,
+      "lon": -72.5158
+    },
+    {
+      "name": "Djedkare Izezi Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "lat": 29.8511,
+      "lon": 31.2209
+    },
+    {
+      "name": "Merenre Nemtyemzaf Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "lat": 29.8502,
+      "lon": 31.215
+    },
+    {
+      "name": "Nazca Lines - Hands and Tree",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.5,
+      "lat": -14.6939,
+      "lon": -75.1145
+    },
+    {
+      "name": "Suntur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "lat": -13.6067,
+      "lon": -73.2687
+    },
+    {
+      "name": "Wadi Paran ancient agriculture terraces, matseboth and Rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "lat": 30.2315,
+      "lon": 34.81
+    },
+    {
+      "name": "South Negev Highland rock engravings 2",
+      "type": "Carving",
+      "distance_km": 8.6,
+      "lat": 30.23,
+      "lon": 34.77
+    },
+    {
+      "name": "Chaibasa",
+      "type": "Standing Stones",
+      "distance_km": 8.6,
+      "lat": 22.57,
+      "lon": 85.82
+    },
+    {
+      "name": "Nazca Lines - Monkey",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.6,
+      "lat": -14.7069,
+      "lon": -75.1385
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 1",
+      "type": "Ancient Temple",
+      "distance_km": 8.6,
+      "lat": 30.2296,
+      "lon": 34.7473
+    },
+    {
+      "name": "Paran tributery Megalithic Open Air Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 8.7,
+      "lat": 30.2333,
+      "lon": 34.8074
+    },
+    {
+      "name": "Saihuite Stone",
+      "type": "Sculptured Stone",
+      "distance_km": 8.8,
+      "lat": -13.5472,
+      "lon": -72.803
+    },
+    {
+      "name": "Memphis Museum",
+      "type": "Museum",
+      "distance_km": 8.8,
+      "lat": 29.8497,
+      "lon": 31.2543
+    },
+    {
+      "name": "Grand Egyptian Museum",
+      "type": "Museum",
+      "distance_km": 8.8,
+      "lat": 29.9989,
+      "lon": 31.1193
+    },
+    {
+      "name": "Paran pair Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 9.3,
+      "lat": 30.2393,
+      "lon": 34.8162
+    },
+    {
+      "name": "Ibi I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.4,
+      "lat": 29.8419,
+      "lon": 31.2176
+    },
+    {
+      "name": "Ahu Akivi",
+      "type": "Sculptured Stone",
+      "distance_km": 9.4,
+      "lat": -27.1186,
+      "lon": -109.3955
+    },
+    {
+      "name": "Easter Island",
+      "type": "Sculptured Stone",
+      "distance_km": 9.5,
+      "lat": -27.0912,
+      "lon": -109.2712
+    },
+    {
+      "name": "Pepy II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.5,
+      "lat": 29.8401,
+      "lon": 31.2131
+    },
+    {
+      "name": "Shepseskaf's Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.7,
+      "lat": 29.839,
+      "lon": 31.2151
+    },
+    {
+      "name": "South Negev Highland rock engravings 1",
+      "type": "Carving",
+      "distance_km": 9.7,
+      "lat": 30.24,
+      "lon": 34.76
+    },
+    {
+      "name": "Wadi Yaziz (1)",
+      "type": "Chambered Cairn",
+      "distance_km": 9.9,
+      "lat": 30.2571,
+      "lon": 35.078
+    },
+    {
+      "name": "Choquequirao",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.0,
+      "lat": -13.3924,
+      "lon": -72.8737
+    },
+    {
+      "name": "Wadi Tsichor",
+      "type": "Rock Art",
+      "distance_km": 10.1,
+      "lat": 30.2538,
+      "lon": 34.9739
+    },
+    {
+      "name": "Tsuky (cliff ) Hidud",
+      "type": "Ancient Temple",
+      "distance_km": 10.4,
+      "lat": 30.2623,
+      "lon": 35.0852
+    },
+    {
+      "name": "Wadi Yaziz (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.5,
+      "lat": 30.2631,
+      "lon": 35.0801
+    },
+    {
+      "name": "Khendjer's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 10.7,
+      "lat": 29.8304,
+      "lon": 31.222
+    },
+    {
+      "name": "Wadi Masoudah - David Roberts Rock",
+      "type": "Rock Cut Tomb",
+      "distance_km": 10.7,
+      "lat": 30.276,
+      "lon": 35.3177
+    },
+    {
+      "name": "Tahai Kote Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 10.9,
+      "lat": -27.139,
+      "lon": -109.427
+    },
+    {
+      "name": "Ahu Ko Te Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 11.0,
+      "lat": -27.1405,
+      "lon": -109.4299
+    },
+    {
+      "name": "S' of wadi Ya'alon",
+      "type": "Ancient Temple",
+      "distance_km": 11.0,
+      "lat": 30.0703,
+      "lon": 35.0995
+    },
+    {
+      "name": "Wadi Yaziz (3)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.1,
+      "lat": 30.268,
+      "lon": 35.0729
+    },
+    {
+      "name": "South to Kibuts Yahel",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.2,
+      "lat": 30.0695,
+      "lon": 35.1185
+    },
+    {
+      "name": "South East of Mount Karkom Engravings",
+      "type": "Carving",
+      "distance_km": 11.2,
+      "lat": 30.2534,
+      "lon": 34.7605
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "lat": 29.9139,
+      "lon": 52.8856
+    },
+    {
+      "name": "Phuyupatamarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "lat": -13.2065,
+      "lon": -72.5324
+    },
+    {
+      "name": "M'aan district",
+      "type": "Carving",
+      "distance_km": 11.8,
+      "lat": 30.0849,
+      "lon": 35.5794
+    },
+    {
+      "name": "Ana Kai Tangata",
+      "type": "Rock Art",
+      "distance_km": 11.9,
+      "lat": -27.15,
+      "lon": -109.4333
+    },
+    {
+      "name": "\u00c3\u0091aupa Iglesia",
+      "type": "Ancient Temple",
+      "distance_km": 11.9,
+      "lat": -13.2891,
+      "lon": -72.23
+    },
+    {
+      "name": "Senusret III Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.0,
+      "lat": 29.819,
+      "lon": 31.226
+    },
+    {
+      "name": "Solar Watch",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 12.1,
+      "lat": -14.5245,
+      "lon": -75.1931
+    },
+    {
+      "name": "Mt. Shizzafon camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.2,
+      "lat": 30.056,
+      "lon": 35.0391
+    },
+    {
+      "name": "Raqaypata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.3,
+      "lat": -13.3092,
+      "lon": -72.2621
+    },
+    {
+      "name": "Puna Pau",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.4,
+      "lat": -27.1482,
+      "lon": -109.4039
+    },
+    {
+      "name": "Upper wadi Ya'alon Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.5,
+      "lat": 30.0541,
+      "lon": 35.0537
+    },
+    {
+      "name": "Sha'alav Plaza Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.7,
+      "lat": 30.0538,
+      "lon": 35.0799
+    },
+    {
+      "name": "Rano Raraku",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.7,
+      "lat": -27.1242,
+      "lon": -109.2859
+    },
+    {
+      "name": "Qtura Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.9,
+      "lat": 30.0515,
+      "lon": 35.0687
+    },
+    {
+      "name": "Red Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "lat": 29.8092,
+      "lon": 31.2064
+    },
+    {
+      "name": "Djedefre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "lat": 30.0321,
+      "lon": 31.0748
+    },
+    {
+      "name": "Winay Wayna",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.9,
+      "lat": -13.1921,
+      "lon": -72.536
+    },
+    {
+      "name": "Museum of Egyptian Antiquities",
+      "type": "Museum",
+      "distance_km": 13.1,
+      "lat": 30.0461,
+      "lon": 31.2335
+    },
+    {
+      "name": "Wadi Khalamish Camp site,Sanctuaries and Rock Art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.1,
+      "lat": 30.2729,
+      "lon": 34.8003
+    },
+    {
+      "name": "Ahu Huri A Urenga",
+      "type": "Sculptured Stone",
+      "distance_km": 13.2,
+      "lat": -27.1543,
+      "lon": -109.4001
+    },
+    {
+      "name": "Amenmenhat II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 13.2,
+      "lat": 29.8076,
+      "lon": 31.222
+    },
+    {
+      "name": "El Zadalek Island Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 13.3,
+      "lat": 30.0471,
+      "lon": 31.2278
+    },
+    {
+      "name": "Persepolis",
+      "type": "Ancient Palace",
+      "distance_km": 13.6,
+      "lat": 29.9333,
+      "lon": 52.9
+    },
+    {
+      "name": "Intipata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.7,
+      "lat": -13.1866,
+      "lon": -72.541
+    },
+    {
+      "name": "East of Qtura valley camp site and open air sanctuary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "lat": 30.0437,
+      "lon": 35.0753
+    },
+    {
+      "name": "Sukothai",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "lat": 17.026,
+      "lon": 99.4723
+    },
+    {
+      "name": "Siwa Mountain Of The Dead",
+      "type": "Rock Cut Tomb",
+      "distance_km": 13.9,
+      "lat": 29.2116,
+      "lon": 25.3245
+    },
+    {
+      "name": "Ahu Tongariki",
+      "type": "Sculptured Stone",
+      "distance_km": 14.0,
+      "lat": -27.134,
+      "lon": -109.2756
+    },
+    {
+      "name": "Dashour Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 14.6,
+      "lat": 29.795,
+      "lon": 31.2168
+    },
+    {
+      "name": "Mt. Qtura Roded type open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 14.7,
+      "lat": 30.0355,
+      "lon": 35.0728
+    },
+    {
+      "name": "Upper Wadi Qtura Flint Workshop",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 14.8,
+      "lat": 30.0337,
+      "lon": 35.0581
+    },
+    {
+      "name": "Sneferu's Bent Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.0,
+      "lat": 29.7903,
+      "lon": 31.2094
+    },
+    {
+      "name": "Amenemhat III Pyramid at Dashour.",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.1,
+      "lat": 29.7911,
+      "lon": 31.2239
+    },
+    {
+      "name": "Intipunku",
+      "type": "Ancient Temple",
+      "distance_km": 15.1,
+      "lat": -13.1702,
+      "lon": -72.5351
+    },
+    {
+      "name": "Aname petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 15.1,
+      "lat": -20.1403,
+      "lon": 169.8283
+    },
+    {
+      "name": "East of Mt. Kharoz camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.1,
+      "lat": 30.2913,
+      "lon": 34.8183
+    },
+    {
+      "name": "Queen Hetepheres Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.2,
+      "lat": 29.7887,
+      "lon": 31.2095
+    },
+    {
+      "name": "Big Circle J5",
+      "type": "Misc Earthwork",
+      "distance_km": 15.2,
+      "lat": 30.3285,
+      "lon": 35.586
+    },
+    {
+      "name": "wadi Dmama open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 15.2,
+      "lat": 30.3059,
+      "lon": 35.0905
+    },
+    {
+      "name": "Nazca Lines - \"The Astronaut\"",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 15.3,
+      "lat": -14.7452,
+      "lon": -75.0799
+    },
+    {
+      "name": "Ahu Vinapu",
+      "type": "Sculptured Stone",
+      "distance_km": 15.4,
+      "lat": -27.1764,
+      "lon": -109.4064
+    },
+    {
+      "name": "Upper Qtura Pass Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 15.4,
+      "lat": 30.0283,
+      "lon": 35.0657
+    },
+    {
+      "name": "Mount Karkom",
+      "type": "Rock Art",
+      "distance_km": 15.5,
+      "lat": 30.2912,
+      "lon": 34.7415
+    },
+    {
+      "name": "Bishapur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.5,
+      "lat": 29.7799,
+      "lon": 51.5762
+    },
+    {
+      "name": "Mt. Kharoz Plaza site",
+      "type": "Ancient Temple",
+      "distance_km": 15.6,
+      "lat": 30.295,
+      "lon": 34.7968
+    },
+    {
+      "name": "Upper Wadi Hayun",
+      "type": "Standing Stones",
+      "distance_km": 15.6,
+      "lat": 30.0222,
+      "lon": 34.9747
+    },
+    {
+      "name": "Ovil Heights Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.7,
+      "lat": 30.3031,
+      "lon": 34.9409
+    },
+    {
+      "name": "Big Circle J8",
+      "type": "Misc Earthwork",
+      "distance_km": 15.8,
+      "lat": 30.045,
+      "lon": 35.4863
+    },
+    {
+      "name": "Rano Kau",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 15.8,
+      "lat": -27.1866,
+      "lon": -109.4354
+    },
+    {
+      "name": "Orongo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.9,
+      "lat": -27.1893,
+      "lon": -109.4432
+    },
+    {
+      "name": "Pernil Alto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "lat": -14.494,
+      "lon": -75.21
+    },
+    {
+      "name": "Petra, Nabataean Town",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "lat": 30.3292,
+      "lon": 35.4419
+    },
+    {
+      "name": "Machu Picchu.",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.1,
+      "lat": -13.1647,
+      "lon": -72.545
+    },
+    {
+      "name": "Wadi Eshel Desert Kite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.2,
+      "lat": 30.3012,
+      "lon": 34.8257
+    },
+    {
+      "name": "Mt. Na'atsuts cluster of megalithic Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 16.2,
+      "lat": 30.0183,
+      "lon": 35.0021
+    },
+    {
+      "name": "Mt. 'Eshet",
+      "type": "Ancient Trackway",
+      "distance_km": 16.5,
+      "lat": 30.3162,
+      "lon": 35.0771
+    },
+    {
+      "name": "lower wadi Qtura",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.5,
+      "lat": 30.0192,
+      "lon": 35.0778
+    },
+    {
+      "name": "Las Salinas",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 16.8,
+      "lat": -13.3002,
+      "lon": -72.1553
+    },
+    {
+      "name": "Mt. 'Ai'it sites",
+      "type": "Ancient Temple",
+      "distance_km": 16.8,
+      "lat": 30.0159,
+      "lon": 35.0608
+    },
+    {
+      "name": "Naqsh-e Rajab",
+      "type": "Rock Art",
+      "distance_km": 17.2,
+      "lat": 29.9666,
+      "lon": 52.8872
+    },
+    {
+      "name": "Wadi Eshel stone circle, Matseboth",
+      "type": "Ancient Temple",
+      "distance_km": 17.2,
+      "lat": 30.3098,
+      "lon": 34.8075
+    },
+    {
+      "name": "Big Wadi's Masseboth (1)",
+      "type": "Standing Stones",
+      "distance_km": 17.3,
+      "lat": 29.9996,
+      "lon": 34.8197
+    },
+    {
+      "name": "Siwa Temple of Amun",
+      "type": "Ancient Temple",
+      "distance_km": 17.5,
+      "lat": 29.2056,
+      "lon": 25.5429
+    },
+    {
+      "name": "Jabal Fatouma Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 17.5,
+      "lat": 30.342,
+      "lon": 35.4292
+    },
+    {
+      "name": "Moray Terraces",
+      "type": "Misc Earthwork",
+      "distance_km": 17.6,
+      "lat": -13.3294,
+      "lon": -72.1956
+    },
+    {
+      "name": "South of wadi Eshel Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.6,
+      "lat": 30.3135,
+      "lon": 34.8061
+    },
+    {
+      "name": "Wadi Paran tributary camp site & Tumuli",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.7,
+      "lat": 30.3272,
+      "lon": 35.0736
+    },
+    {
+      "name": "Umm Ubayda Temple",
+      "type": "Ancient Temple",
+      "distance_km": 17.9,
+      "lat": 29.2016,
+      "lon": 25.5447
+    },
+    {
+      "name": "Inkaraqay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 18.1,
+      "lat": -13.146,
+      "lon": -72.5475
+    },
+    {
+      "name": "Mount Ayah",
+      "type": "Ancient Temple",
+      "distance_km": 18.1,
+      "lat": 30.0033,
+      "lon": 35.0455
+    },
+    {
+      "name": "Eshel Paran Megalithic cult site",
+      "type": "Ancient Temple",
+      "distance_km": 18.3,
+      "lat": 30.3234,
+      "lon": 34.8743
+    },
+    {
+      "name": "Estakhr",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.0,
+      "lat": 29.9814,
+      "lon": 52.908
+    },
+    {
+      "name": "Naghsh-e-Rostam",
+      "type": "Rock Cut Tomb",
+      "distance_km": 19.6,
+      "lat": 29.9891,
+      "lon": 52.8747
+    },
+    {
+      "name": "Grofit hights",
+      "type": "Ancient Temple",
+      "distance_km": 19.8,
+      "lat": 29.9885,
+      "lon": 35.0569
+    },
+    {
+      "name": "Kipat 'Eshet rock shelter",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.9,
+      "lat": 30.3512,
+      "lon": 35.1613
+    },
+    {
+      "name": "Mazghuna 1 Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 20.3,
+      "lat": 29.7435,
+      "lon": 31.2192
+    },
+    {
+      "name": "Cairo Airport Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 20.4,
+      "lat": 30.1246,
+      "lon": 31.4007
+    },
+    {
+      "name": "Big Circle J6",
+      "type": "Misc Earthwork",
+      "distance_km": 20.6,
+      "lat": 30.3772,
+      "lon": 35.6019
+    },
+    {
+      "name": "Beidha",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "lat": 30.3708,
+      "lon": 35.4478
+    },
+    {
+      "name": "Cahuachi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "lat": -14.8176,
+      "lon": -75.117
+    },
+    {
+      "name": "Wadi Shazar threshing floors, terraces and rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.7,
+      "lat": 30.341,
+      "lon": 34.7962
+    },
+    {
+      "name": "Siq al-Barid-Little Petra",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.1,
+      "lat": 30.3752,
+      "lon": 35.4518
+    },
+    {
+      "name": "Heliopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.7,
+      "lat": 30.1293,
+      "lon": 31.3075
+    },
+    {
+      "name": "Top Itro pass 7 Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 21.9,
+      "lat": 29.969,
+      "lon": 35.0327
+    },
+    {
+      "name": "Yakham hills Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 22.7,
+      "lat": 30.3699,
+      "lon": 35.0197
+    },
+    {
+      "name": "Itro pass Roded Figurines",
+      "type": "Ancient Temple",
+      "distance_km": 22.8,
+      "lat": 29.9599,
+      "lon": 35.0281
+    },
+    {
+      "name": "Leopards Open Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 23.0,
+      "lat": 29.9558,
+      "lon": 34.97
+    },
+    {
+      "name": "Qalat Al-Guindi",
+      "type": "Hillfort",
+      "distance_km": 23.2,
+      "lat": 29.851,
+      "lon": 33.13
+    },
+    {
+      "name": "East Uvda valley cult sites",
+      "type": "Ancient Temple",
+      "distance_km": 23.2,
+      "lat": 29.9534,
+      "lon": 34.9692
+    },
+    {
+      "name": "wadi Paran",
+      "type": "Ancient Temple",
+      "distance_km": 23.7,
+      "lat": 30.3702,
+      "lon": 34.8481
+    },
+    {
+      "name": "Rio Branco Geoglyph 22",
+      "type": "Misc Earthwork",
+      "distance_km": 23.9,
+      "lat": -10.3069,
+      "lon": -67.2202
+    },
+    {
+      "name": "Rio Branco Geoglyph 21",
+      "type": "Misc Earthwork",
+      "distance_km": 24.0,
+      "lat": -10.5262,
+      "lon": -67.6332
+    },
+    {
+      "name": "Uvda Valley habitation site No 18",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.2,
+      "lat": 29.9443,
+      "lon": 34.9642
+    },
+    {
+      "name": "Widan el-Faras",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 24.4,
+      "lat": 29.6586,
+      "lon": 30.6221
+    },
+    {
+      "name": "Uvda Valley habitation site No 9",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.5,
+      "lat": 29.942,
+      "lon": 34.9638
+    },
+    {
+      "name": "Wadi Ma'azer campsite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.7,
+      "lat": 30.3717,
+      "lon": 34.7038
+    },
+    {
+      "name": "Southern Itro pass ",
+      "type": "Stone Row  Alignment",
+      "distance_km": 25.2,
+      "lat": 29.9388,
+      "lon": 35.0222
+    },
+    {
+      "name": "Humeima",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.3,
+      "lat": 29.9529,
+      "lon": 35.3482
+    },
+    {
+      "name": "Mohenjo-daro",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.6,
+      "lat": 27.3292,
+      "lon": 68.1388
+    },
+    {
+      "name": "Harakbut Face",
+      "type": "Natural Stone  Erratic  Other Natural Feature",
+      "distance_km": 25.7,
+      "lat": -12.7775,
+      "lon": -70.9554
+    },
+    {
+      "name": "Mount Shacharut",
+      "type": "Ancient Temple",
+      "distance_km": 26.1,
+      "lat": 29.9299,
+      "lon": 35.009
+    },
+    {
+      "name": "Rio Branco Geoglyph 23",
+      "type": "Misc Earthwork",
+      "distance_km": 26.3,
+      "lat": -10.2303,
+      "lon": -67.1241
+    },
+    {
+      "name": "Nazca Lines - Whale",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 26.5,
+      "lat": -14.8166,
+      "lon": -74.9948
+    },
+    {
+      "name": "Ramat Tsofar early Islamic settlement",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 26.6,
+      "lat": 30.4102,
+      "lon": 35.1257
+    },
+    {
+      "name": "South 'Uvda Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 27.7,
+      "lat": 29.909,
+      "lon": 34.8796
+    },
+    {
+      "name": "S' of Shacharut pass Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 28.3,
+      "lat": 29.9103,
+      "lon": 35.0126
+    },
+    {
+      "name": "Rio Branco Geoglyph 24",
+      "type": "Misc Earthwork",
+      "distance_km": 29.3,
+      "lat": -10.2181,
+      "lon": -67.1584
+    },
+    {
+      "name": "Zugan Pass Cult Site",
+      "type": "Ancient Temple",
+      "distance_km": 29.5,
+      "lat": 29.8995,
+      "lon": 35.0242
+    },
+    {
+      "name": "Wadi 'Isaron",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 29.8,
+      "lat": 29.8945,
+      "lon": 34.9743
+    },
+    {
+      "name": "Wadi Hagdera-'Uvda camp & cult site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.1,
+      "lat": 29.8891,
+      "lon": 34.9173
+    },
+    {
+      "name": "North wadi Tse'ela open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 30.4,
+      "lat": 29.8897,
+      "lon": 34.9775
+    },
+    {
+      "name": "Rio Branco Geoglyph 26",
+      "type": "Misc Earthwork",
+      "distance_km": 30.4,
+      "lat": -10.2166,
+      "lon": -67.1773
+    },
+    {
+      "name": "La Tiza",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.5,
+      "lat": -14.8091,
+      "lon": -74.8978
+    },
+    {
+      "name": "Museo Antonini",
+      "type": "Museum",
+      "distance_km": 30.5,
+      "lat": -14.8253,
+      "lon": -74.9291
+    },
+    {
+      "name": "El Trigal",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.6,
+      "lat": -14.8017,
+      "lon": -74.8802
+    },
+    {
+      "name": "Wadi Tse'ela Habitation site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.8,
+      "lat": 29.8857,
+      "lon": 34.9761
+    },
+    {
+      "name": "Prasat Preah Vihear",
+      "type": "Ancient Temple",
+      "distance_km": 30.9,
+      "lat": 14.3961,
+      "lon": 104.6822
+    },
+    {
+      "name": "Chinchero",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.0,
+      "lat": -13.3895,
+      "lon": -72.0457
+    },
+    {
+      "name": "Puma Temple",
+      "type": "Ancient Temple",
+      "distance_km": 31.1,
+      "lat": -13.3891,
+      "lon": -72.0446
+    },
+    {
+      "name": "Rio Branco Geoglyph 25",
+      "type": "Misc Earthwork",
+      "distance_km": 31.4,
+      "lat": -10.2037,
+      "lon": -67.1718
+    },
+    {
+      "name": "Cantalloc Aqueduct",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 31.6,
+      "lat": -14.8266,
+      "lon": -74.91
+    },
+    {
+      "name": "Paredones",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.9,
+      "lat": -14.8417,
+      "lon": -74.9353
+    },
+    {
+      "name": "Qasr el- Sagha",
+      "type": "Ancient Temple",
+      "distance_km": 32.0,
+      "lat": 29.5951,
+      "lon": 30.6779
+    },
+    {
+      "name": "North Sayarim Valley Rock Carving",
+      "type": "Rock Art",
+      "distance_km": 33.5,
+      "lat": 29.8568,
+      "lon": 34.8866
+    },
+    {
+      "name": "Huchuy Qosqo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 33.8,
+      "lat": -13.3664,
+      "lon": -71.945
+    },
+    {
+      "name": "Sayarim Valley E'",
+      "type": "Standing Stones",
+      "distance_km": 34.8,
+      "lat": 29.8451,
+      "lon": 34.876
+    },
+    {
+      "name": "North Sayarim Valley Tumulus",
+      "type": "Barrow Cemetery",
+      "distance_km": 34.8,
+      "lat": 29.846,
+      "lon": 34.8997
+    },
+    {
+      "name": "Meshar-Hadav Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 34.8,
+      "lat": 30.4764,
+      "lon": 34.9634
+    },
+    {
+      "name": "wadi 'Arod tributary (1)",
+      "type": "Ancient Temple",
+      "distance_km": 35.1,
+      "lat": 30.4679,
+      "lon": 34.7417
+    },
+    {
+      "name": "wadi 'Arod tributary Crenellation Line",
+      "type": "Ancient Temple",
+      "distance_km": 35.1,
+      "lat": 30.4686,
+      "lon": 34.7511
+    },
+    {
+      "name": "Wadi Milhan Ancient Farm",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.2,
+      "lat": 29.8426,
+      "lon": 34.9121
+    },
+    {
+      "name": "wadi 'Arod tributary (5)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.3,
+      "lat": 30.4703,
+      "lon": 34.7519
+    },
+    {
+      "name": "wadi 'Arod tributary (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.4,
+      "lat": 30.4703,
+      "lon": 34.743
+    },
+    {
+      "name": "wadi 'Arod tributary (4)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.5,
+      "lat": 30.4716,
+      "lon": 34.7477
+    },
+    {
+      "name": "wadi 'Arod tributary (3)",
+      "type": "Ancient Temple",
+      "distance_km": 35.5,
+      "lat": 30.4718,
+      "lon": 34.7467
+    },
+    {
+      "name": "Rio Branco Geoglyph 20",
+      "type": "Misc Earthwork",
+      "distance_km": 35.5,
+      "lat": -10.4658,
+      "lon": -67.7403
+    },
+    {
+      "name": "Al-Shobak Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 36.1,
+      "lat": 30.5149,
+      "lon": 35.5498
+    },
+    {
+      "name": "lower wadi 'Ashosh",
+      "type": "Ancient Temple",
+      "distance_km": 36.5,
+      "lat": 30.5001,
+      "lon": 35.1586
+    },
+    {
+      "name": "Bundi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 36.9,
+      "lat": 25.4411,
+      "lon": 75.6424
+    },
+    {
+      "name": "Possible Pyramids near Kafr Al Masallat",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 37.4,
+      "lat": 29.5438,
+      "lon": 30.6465
+    },
+    {
+      "name": "wadi 'Ashosh tributary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.5,
+      "lat": 30.506,
+      "lon": 35.0867
+    },
+    {
+      "name": "Shobak Castle",
+      "type": "Hillfort",
+      "distance_km": 37.9,
+      "lat": 30.5314,
+      "lon": 35.5608
+    },
+    {
+      "name": "Vilcashuam\u00c3\u00a1n",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.9,
+      "lat": -13.6527,
+      "lon": -73.9554
+    },
+    {
+      "name": "Sayarim Valley South Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 38.0,
+      "lat": 29.8148,
+      "lon": 34.8565
+    },
+    {
+      "name": "Al Rajajil",
+      "type": "Standing Stones",
+      "distance_km": 38.1,
+      "lat": 29.9703,
+      "lon": 40.2086
+    },
+    {
+      "name": "Timn'a cliffs Roded type open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 38.1,
+      "lat": 29.8183,
+      "lon": 34.9413
+    },
+    {
+      "name": "Dimeh Al-Siba",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.4,
+      "lat": 29.5358,
+      "lon": 30.6686
+    },
+    {
+      "name": "North of Wadi Botem Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 38.7,
+      "lat": 29.8102,
+      "lon": 34.8884
+    },
+    {
+      "name": "Leontopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.9,
+      "lat": 30.2889,
+      "lon": 31.3606
+    },
+    {
+      "name": "Amenemhat I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 39.0,
+      "lat": 29.5747,
+      "lon": 31.225
+    },
+    {
+      "name": "Ancient Copper Strip-mine north of Mt. Michrot",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.3,
+      "lat": 29.8101,
+      "lon": 34.9922
+    },
+    {
+      "name": "N' W' Timna  valley ancient copper industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.5,
+      "lat": 29.8079,
+      "lon": 34.9794
+    },
+    {
+      "name": "Wadi Malaqa Petroglyphs",
+      "type": "Carving",
+      "distance_km": 39.7,
+      "lat": 30.5434,
+      "lon": 35.4545
+    },
+    {
+      "name": "Mount. Michrot",
+      "type": "Ancient Temple",
+      "distance_km": 39.9,
+      "lat": 29.804,
+      "lon": 34.9821
+    },
+    {
+      "name": "wadi 'Oded",
+      "type": "Cave or Rock Shelter",
+      "distance_km": 40.0,
+      "lat": 30.5129,
+      "lon": 34.7655
+    },
+    {
+      "name": "Wadi Betamim Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 40.1,
+      "lat": 29.7956,
+      "lon": 34.8488
+    },
+    {
+      "name": "Wadi Botem Predator's Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3,
+      "lat": 29.7953,
+      "lon": 34.8753
+    },
+    {
+      "name": "Wadi Botem Sites",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3,
+      "lat": 29.7949,
+      "lon": 34.8721
+    },
+    {
+      "name": "Small Wadi Malaqa Petroglyph",
+      "type": "Carving",
+      "distance_km": 40.4,
+      "lat": 30.5496,
+      "lon": 35.4568
+    },
+    {
+      "name": "East of Dana Nature Reserve",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.4,
+      "lat": 30.5577,
+      "lon": 35.6414
+    },
+    {
+      "name": "Senusret I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 40.6,
+      "lat": 29.56,
+      "lon": 31.2209
+    },
+    {
+      "name": "Timna Valley Copper Mines",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 40.9,
+      "lat": 29.7923,
+      "lon": 34.9326
+    },
+    {
+      "name": "\u00c3\u0091usta Hispana",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 41.2,
+      "lat": -13.1084,
+      "lon": -72.9374
+    },
+    {
+      "name": "Sasgon valley",
+      "type": "Standing Stones",
+      "distance_km": 41.6,
+      "lat": 29.7888,
+      "lon": 34.9883
+    },
+    {
+      "name": "Timna Valley Mushroom Site",
+      "type": "Natural Stone  Erratic  Other Natural Feature",
+      "distance_km": 41.8,
+      "lat": 29.7849,
+      "lon": 34.9488
+    },
+    {
+      "name": "Jabal Al-Aswad",
+      "type": "Hillfort",
+      "distance_km": 42.1,
+      "lat": 30.5758,
+      "lon": 35.7096
+    },
+    {
+      "name": "Karanis Aushim Temple",
+      "type": "Ancient Temple",
+      "distance_km": 42.4,
+      "lat": 29.519,
+      "lon": 30.9028
+    },
+    {
+      "name": "Wadi Anaka Habitation site & Predators Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.0,
+      "lat": 30.5452,
+      "lon": 34.8702
+    },
+    {
+      "name": "Timna Valley Slave Hill Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 43.2,
+      "lat": 29.7725,
+      "lon": 34.9461
+    },
+    {
+      "name": "Timna Valley Slave Hill Smelting Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.4,
+      "lat": 29.771,
+      "lon": 34.9481
+    },
+    {
+      "name": "Wadi Anaka camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.5,
+      "lat": 30.5503,
+      "lon": 34.8824
+    },
+    {
+      "name": "Pisac Ruins",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.6,
+      "lat": -13.4144,
+      "lon": -71.8443
+    },
+    {
+      "name": "Timna Valley Temple of Hathor",
+      "type": "Ancient Temple",
+      "distance_km": 43.7,
+      "lat": 29.7681,
+      "lon": 34.9564
+    },
+    {
+      "name": "Lower wadi Anaka Open air sanctuary and camp site",
+      "type": "Ancient Temple",
+      "distance_km": 43.8,
+      "lat": 30.5537,
+      "lon": 34.9033
+    },
+    {
+      "name": "Tambomachay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.8,
+      "lat": -13.4792,
+      "lon": -71.9674
+    },
+    {
+      "name": "Rio Branco Geoglyph 18",
+      "type": "Misc Earthwork",
+      "distance_km": 44.3,
+      "lat": -10.367,
+      "lon": -67.7234
+    },
+    {
+      "name": "Rio Branco Geoglyph 19",
+      "type": "Misc Earthwork",
+      "distance_km": 44.4,
+      "lat": -10.3658,
+      "lon": -67.7222
+    },
+    {
+      "name": "Puca Pucara",
+      "type": "Stone Fort or Dun",
+      "distance_km": 44.5,
+      "lat": -13.4833,
+      "lon": -71.9622
+    },
+    {
+      "name": "Tomb of Cyrus",
+      "type": "Chambered Tomb",
+      "distance_km": 45.1,
+      "lat": 30.1939,
+      "lon": 53.1672
+    },
+    {
+      "name": "Lanlakuyok",
+      "type": "Carving",
+      "distance_km": 45.2,
+      "lat": -13.4969,
+      "lon": -71.9736
+    },
+    {
+      "name": "Pasargadae",
+      "type": "Ancient Palace",
+      "distance_km": 45.8,
+      "lat": 30.1996,
+      "lon": 53.178
+    },
+    {
+      "name": "Upper Wadi Eteq Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 46.0,
+      "lat": 29.744,
+      "lon": 34.8746
+    },
+    {
+      "name": "Sacsayhuaman",
+      "type": "Hillfort",
+      "distance_km": 46.0,
+      "lat": -13.5091,
+      "lon": -71.9822
+    },
+    {
+      "name": "Chauchilla Necropolis",
+      "type": "Barrow Cemetery",
+      "distance_km": 46.1,
+      "lat": -14.982,
+      "lon": -74.9278
+    },
+    {
+      "name": "Lacco",
+      "type": "Carving",
+      "distance_km": 46.6,
+      "lat": -13.5056,
+      "lon": -71.9643
+    },
+    {
+      "name": "Qenko",
+      "type": "Ancient Temple",
+      "distance_km": 46.6,
+      "lat": -13.509,
+      "lon": -71.9706
+    },
+    {
+      "name": "Kusilluchayoc",
+      "type": "Carving",
+      "distance_km": 46.8,
+      "lat": -13.5083,
+      "lon": -71.9656
+    },
+    {
+      "name": "Tall-e Takht",
+      "type": "Hillfort",
+      "distance_km": 46.8,
+      "lat": 30.2079,
+      "lon": 53.1851
+    },
+    {
+      "name": "Museo de Arte Precolombino",
+      "type": "Museum",
+      "distance_km": 46.8,
+      "lat": -13.5149,
+      "lon": -71.9774
+    },
+    {
+      "name": "Inkil Tambo",
+      "type": "Ancient Temple",
+      "distance_km": 46.9,
+      "lat": -13.5028,
+      "lon": -71.9528
+    },
+    {
+      "name": "Khirbat Dabur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 46.9,
+      "lat": 30.6186,
+      "lon": 35.6908
+    },
+    {
+      "name": "Cusco",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 47.0,
+      "lat": -13.517,
+      "lon": -71.979
+    },
+    {
+      "name": "The Cusco Machu Picchu Museum",
+      "type": "Museum",
+      "distance_km": 47.1,
+      "lat": -13.517,
+      "lon": -71.977
+    },
+    {
+      "name": "Cusco - Qorikancha",
+      "type": "Ancient Temple",
+      "distance_km": 47.4,
+      "lat": -13.52,
+      "lon": -71.976
+    },
+    {
+      "name": "Wadi Rum Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 47.5,
+      "lat": 29.7592,
+      "lon": 35.4963
+    },
+    {
+      "name": "Qhataqasapatallaqta",
+      "type": "Barrow Cemetery",
+      "distance_km": 47.6,
+      "lat": -13.5253,
+      "lon": -71.9834
+    },
+    {
+      "name": "Wadi Gvanim Tumulus and Matsebah",
+      "type": "Round Barrow(s)",
+      "distance_km": 48.0,
+      "lat": 30.5925,
+      "lon": 34.9098
+    },
+    {
+      "name": "Wadi Gvanim Ancient Bedouin cemetery",
+      "type": "Barrow Cemetery",
+      "distance_km": 48.2,
+      "lat": 30.5938,
+      "lon": 34.9131
+    },
+    {
+      "name": "S' of wadi Gadna'a",
+      "type": "Ancient Temple",
+      "distance_km": 48.2,
+      "lat": 29.7266,
+      "lon": 34.9353
+    },
+    {
+      "name": "Wadi Feinan",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 48.9,
+      "lat": 30.6278,
+      "lon": 35.4915
+    },
+    {
+      "name": "Wadi 'Eteq tributary cult & Goat pen site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 49.1,
+      "lat": 29.7156,
+      "lon": 34.863
+    },
+    {
+      "name": "North Se'ipim Valley Predator Trap",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 49.1,
+      "lat": 29.7165,
+      "lon": 34.8828
+    },
+    {
+      "name": "Ein Saharonim",
+      "type": "Stone Fort or Dun",
+      "distance_km": 49.2,
+      "lat": 30.6041,
+      "lon": 34.9386
+    },
+    {
+      "name": "Rio Branco Geoglyph 16",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2,
+      "lat": -10.302,
+      "lon": -67.6948
+    },
+    {
+      "name": "Se'ipim Valley North Predators Trap",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2,
+      "lat": 29.7153,
+      "lon": 34.8804
+    },
+    {
+      "name": "Ramon crater open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 49.4,
+      "lat": 30.6025,
+      "lon": 34.8528
+    },
+    {
+      "name": "Big Circle J4",
+      "type": "Misc Earthwork",
+      "distance_km": 49.9,
+      "lat": 30.6515,
+      "lon": 35.8355
+    }
+  ],
+  "sites_within_100km": [
+    {
+      "name": "East Upper Wadi Paran Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 0.1
+    },
+    {
+      "name": "Petroglyphs near Jebel al Samra Um al Hidha",
+      "type": "Carving",
+      "distance_km": 0.5
+    },
+    {
+      "name": "Khaba's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 1.1
+    },
+    {
+      "name": "Lower Wadi Hayun Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 1.6
+    },
+    {
+      "name": "Niuserra's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 2.3
+    },
+    {
+      "name": "Tsichor Cliff",
+      "type": "Ancient Temple",
+      "distance_km": 2.7
+    },
+    {
+      "name": "Salapunku",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 2.8
+    },
+    {
+      "name": "Jibal al-Khashabiyeh",
+      "type": "Carving",
+      "distance_km": 2.9
+    },
+    {
+      "name": "Mina Primavera",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 3.0
+    },
+    {
+      "name": "Llactapata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 3.0
+    },
+    {
+      "name": "Sahure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.1
+    },
+    {
+      "name": "Niuserra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.1
+    },
+    {
+      "name": "Ptah Shepses Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 3.2
+    },
+    {
+      "name": "Neferirkare's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.4
+    },
+    {
+      "name": "Neferefra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.4
+    },
+    {
+      "name": "Big Wadi's Masseboth (2)",
+      "type": "Standing Stones",
+      "distance_km": 3.8
+    },
+    {
+      "name": "Tsenifim Hayun crossing",
+      "type": "Ancient Temple",
+      "distance_km": 3.9
+    },
+    {
+      "name": "Gondashlu Stone Quarry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 4.0
+    },
+    {
+      "name": "Beer-Menucha",
+      "type": "Ancient Temple",
+      "distance_km": 4.5
+    },
+    {
+      "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 4.6
+    },
+    {
+      "name": "Jaisalmer Hero Stones",
+      "type": "Standing Stones",
+      "distance_km": 5.3
+    },
+    {
+      "name": "Wadi Tzichor Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5
+    },
+    {
+      "name": "South of Lower Wadi Hayun Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5
+    },
+    {
+      "name": "Kagemni Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Mereruka Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Serapeum at Sakkara",
+      "type": "Ancient Temple",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Knuhmhotep and Niankhkhnum Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Petroglifos de Llipata",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Jaisalmer area",
+      "type": "Sculptured Stone",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Heit el-Ghurab",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 5.7
+    },
+    {
+      "name": "Userkaf's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8
+    },
+    {
+      "name": "Ptah Hotep Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.8
+    },
+    {
+      "name": "Menkaure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8
+    },
+    {
+      "name": "North of Wadi Tzikhor camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.0
+    },
+    {
+      "name": "Giza Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.0
+    },
+    {
+      "name": "Great Sphinx",
+      "type": "Ancient Temple",
+      "distance_km": 6.1
+    },
+    {
+      "name": "Sakkara Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.1
+    },
+    {
+      "name": "Khafre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.2
+    },
+    {
+      "name": "Sakkara Temple of Heb-Sed",
+      "type": "Ancient Temple",
+      "distance_km": 6.3
+    },
+    {
+      "name": "Museo Maria Reiche",
+      "type": "Museum",
+      "distance_km": 6.3
+    },
+    {
+      "name": "Nazca Lines - Trapezoids",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.3
+    },
+    {
+      "name": "Sakkara Djoser Complex",
+      "type": "Ancient Temple",
+      "distance_km": 6.4
+    },
+    {
+      "name": "Nazca Lines",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.4
+    },
+    {
+      "name": "Kuntillet Ajrud",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.4
+    },
+    {
+      "name": "Unas Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.4
+    },
+    {
+      "name": "Irukaptah Tomb",
+      "type": "Chambered Tomb",
+      "distance_km": 6.5
+    },
+    {
+      "name": "Giza Mastaba Cemetery",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.5
+    },
+    {
+      "name": "Gisr el-Mudir",
+      "type": "Causewayed Enclosure",
+      "distance_km": 6.6
+    },
+    {
+      "name": "Seschemnofer III. Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6
+    },
+    {
+      "name": "Sekhemkhet's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6
+    },
+    {
+      "name": "Khufu's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6
+    },
+    {
+      "name": "Nazca Lines - Hummingbird",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.6
+    },
+    {
+      "name": "Giza Plateau",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.7
+    },
+    {
+      "name": "Ahu Nau Nau Anakena",
+      "type": "Sculptured Stone",
+      "distance_km": 6.7
+    },
+    {
+      "name": "Senegemid Mastabas",
+      "type": "Chambered Cairn",
+      "distance_km": 6.7
+    },
+    {
+      "name": "Unas Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.8
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 2",
+      "type": "Ancient Temple",
+      "distance_km": 6.8
+    },
+    {
+      "name": "Ahu Ature Huke",
+      "type": "Sculptured Stone",
+      "distance_km": 7.1
+    },
+    {
+      "name": "Mianroud Mound",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2
+    },
+    {
+      "name": "Ollantaytambo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2
+    },
+    {
+      "name": "Ts'hiha hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.3
+    },
+    {
+      "name": "North of Tsikhor limestone bowls Industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 7.4
+    },
+    {
+      "name": "South Negev Highland rock engravings 3",
+      "type": "Carving",
+      "distance_km": 7.4
+    },
+    {
+      "name": "Nazca Lines - Small Spiral",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 7.5
+    },
+    {
+      "name": "Wadi Tzikhor Matseboth & Rock Art",
+      "type": "Standing Stones",
+      "distance_km": 7.7
+    },
+    {
+      "name": "Runkurakay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.7
+    },
+    {
+      "name": "Pepy I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.0
+    },
+    {
+      "name": "Nazca Lines - Spider",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.1
+    },
+    {
+      "name": "Ahu Te Pito Kura",
+      "type": "Standing Stones",
+      "distance_km": 8.2
+    },
+    {
+      "name": "Wadi Yahel",
+      "type": "Standing Stones",
+      "distance_km": 8.4
+    },
+    {
+      "name": "Sayacmarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.4
+    },
+    {
+      "name": "Djedkare Izezi Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4
+    },
+    {
+      "name": "Merenre Nemtyemzaf Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4
+    },
+    {
+      "name": "Nazca Lines - Hands and Tree",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.5
+    },
+    {
+      "name": "Suntur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5
+    },
+    {
+      "name": "Wadi Paran ancient agriculture terraces, matseboth and Rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5
+    },
+    {
+      "name": "South Negev Highland rock engravings 2",
+      "type": "Carving",
+      "distance_km": 8.6
+    },
+    {
+      "name": "Chaibasa",
+      "type": "Standing Stones",
+      "distance_km": 8.6
+    },
+    {
+      "name": "Nazca Lines - Monkey",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.6
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 1",
+      "type": "Ancient Temple",
+      "distance_km": 8.6
+    },
+    {
+      "name": "Paran tributery Megalithic Open Air Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 8.7
+    },
+    {
+      "name": "Saihuite Stone",
+      "type": "Sculptured Stone",
+      "distance_km": 8.8
+    },
+    {
+      "name": "Memphis Museum",
+      "type": "Museum",
+      "distance_km": 8.8
+    },
+    {
+      "name": "Grand Egyptian Museum",
+      "type": "Museum",
+      "distance_km": 8.8
+    },
+    {
+      "name": "Paran pair Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 9.3
+    },
+    {
+      "name": "Ibi I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.4
+    },
+    {
+      "name": "Ahu Akivi",
+      "type": "Sculptured Stone",
+      "distance_km": 9.4
+    },
+    {
+      "name": "Easter Island",
+      "type": "Sculptured Stone",
+      "distance_km": 9.5
+    },
+    {
+      "name": "Pepy II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.5
+    },
+    {
+      "name": "Shepseskaf's Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.7
+    },
+    {
+      "name": "South Negev Highland rock engravings 1",
+      "type": "Carving",
+      "distance_km": 9.7
+    },
+    {
+      "name": "Wadi Yaziz (1)",
+      "type": "Chambered Cairn",
+      "distance_km": 9.9
+    },
+    {
+      "name": "Choquequirao",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.0
+    },
+    {
+      "name": "Wadi Tsichor",
+      "type": "Rock Art",
+      "distance_km": 10.1
+    },
+    {
+      "name": "Tsuky (cliff ) Hidud",
+      "type": "Ancient Temple",
+      "distance_km": 10.4
+    },
+    {
+      "name": "Wadi Yaziz (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.5
+    },
+    {
+      "name": "Khendjer's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 10.7
+    },
+    {
+      "name": "Wadi Masoudah - David Roberts Rock",
+      "type": "Rock Cut Tomb",
+      "distance_km": 10.7
+    },
+    {
+      "name": "Tahai Kote Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 10.9
+    },
+    {
+      "name": "Ahu Ko Te Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 11.0
+    },
+    {
+      "name": "S' of wadi Ya'alon",
+      "type": "Ancient Temple",
+      "distance_km": 11.0
+    },
+    {
+      "name": "Wadi Yaziz (3)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.1
+    },
+    {
+      "name": "South to Kibuts Yahel",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.2
+    },
+    {
+      "name": "South East of Mount Karkom Engravings",
+      "type": "Carving",
+      "distance_km": 11.2
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3
+    },
+    {
+      "name": "Phuyupatamarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3
+    },
+    {
+      "name": "M'aan district",
+      "type": "Carving",
+      "distance_km": 11.8
+    },
+    {
+      "name": "Ana Kai Tangata",
+      "type": "Rock Art",
+      "distance_km": 11.9
+    },
+    {
+      "name": "\u00c3\u0091aupa Iglesia",
+      "type": "Ancient Temple",
+      "distance_km": 11.9
+    },
+    {
+      "name": "Senusret III Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.0
+    },
+    {
+      "name": "Solar Watch",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 12.1
+    },
+    {
+      "name": "Mt. Shizzafon camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.2
+    },
+    {
+      "name": "Raqaypata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.3
+    },
+    {
+      "name": "Puna Pau",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.4
+    },
+    {
+      "name": "Upper wadi Ya'alon Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.5
+    },
+    {
+      "name": "Sha'alav Plaza Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.7
+    },
+    {
+      "name": "Rano Raraku",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.7
+    },
+    {
+      "name": "Qtura Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.9
+    },
+    {
+      "name": "Red Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9
+    },
+    {
+      "name": "Djedefre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9
+    },
+    {
+      "name": "Winay Wayna",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.9
+    },
+    {
+      "name": "Museum of Egyptian Antiquities",
+      "type": "Museum",
+      "distance_km": 13.1
+    },
+    {
+      "name": "Wadi Khalamish Camp site,Sanctuaries and Rock Art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.1
+    },
+    {
+      "name": "Ahu Huri A Urenga",
+      "type": "Sculptured Stone",
+      "distance_km": 13.2
+    },
+    {
+      "name": "Amenmenhat II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 13.2
+    },
+    {
+      "name": "El Zadalek Island Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 13.3
+    },
+    {
+      "name": "Persepolis",
+      "type": "Ancient Palace",
+      "distance_km": 13.6
+    },
+    {
+      "name": "Intipata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.7
+    },
+    {
+      "name": "East of Qtura valley camp site and open air sanctuary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8
+    },
+    {
+      "name": "Sukothai",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8
+    },
+    {
+      "name": "Siwa Mountain Of The Dead",
+      "type": "Rock Cut Tomb",
+      "distance_km": 13.9
+    },
+    {
+      "name": "Ahu Tongariki",
+      "type": "Sculptured Stone",
+      "distance_km": 14.0
+    },
+    {
+      "name": "Dashour Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 14.6
+    },
+    {
+      "name": "Mt. Qtura Roded type open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 14.7
+    },
+    {
+      "name": "Upper Wadi Qtura Flint Workshop",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 14.8
+    },
+    {
+      "name": "Sneferu's Bent Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.0
+    },
+    {
+      "name": "Amenemhat III Pyramid at Dashour.",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.1
+    },
+    {
+      "name": "Intipunku",
+      "type": "Ancient Temple",
+      "distance_km": 15.1
+    },
+    {
+      "name": "Aname petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 15.1
+    },
+    {
+      "name": "East of Mt. Kharoz camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.1
+    },
+    {
+      "name": "Queen Hetepheres Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.2
+    },
+    {
+      "name": "Big Circle J5",
+      "type": "Misc Earthwork",
+      "distance_km": 15.2
+    },
+    {
+      "name": "wadi Dmama open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 15.2
+    },
+    {
+      "name": "Nazca Lines - \"The Astronaut\"",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 15.3
+    },
+    {
+      "name": "Ahu Vinapu",
+      "type": "Sculptured Stone",
+      "distance_km": 15.4
+    },
+    {
+      "name": "Upper Qtura Pass Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 15.4
+    },
+    {
+      "name": "Mount Karkom",
+      "type": "Rock Art",
+      "distance_km": 15.5
+    },
+    {
+      "name": "Bishapur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.5
+    },
+    {
+      "name": "Mt. Kharoz Plaza site",
+      "type": "Ancient Temple",
+      "distance_km": 15.6
+    },
+    {
+      "name": "Upper Wadi Hayun",
+      "type": "Standing Stones",
+      "distance_km": 15.6
+    },
+    {
+      "name": "Ovil Heights Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.7
+    },
+    {
+      "name": "Big Circle J8",
+      "type": "Misc Earthwork",
+      "distance_km": 15.8
+    },
+    {
+      "name": "Rano Kau",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 15.8
+    },
+    {
+      "name": "Orongo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.9
+    },
+    {
+      "name": "Pernil Alto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0
+    },
+    {
+      "name": "Petra, Nabataean Town",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0
+    },
+    {
+      "name": "Machu Picchu.",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.1
+    },
+    {
+      "name": "Wadi Eshel Desert Kite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.2
+    },
+    {
+      "name": "Mt. Na'atsuts cluster of megalithic Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 16.2
+    },
+    {
+      "name": "Mt. 'Eshet",
+      "type": "Ancient Trackway",
+      "distance_km": 16.5
+    },
+    {
+      "name": "lower wadi Qtura",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.5
+    },
+    {
+      "name": "Las Salinas",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 16.8
+    },
+    {
+      "name": "Mt. 'Ai'it sites",
+      "type": "Ancient Temple",
+      "distance_km": 16.8
+    },
+    {
+      "name": "Naqsh-e Rajab",
+      "type": "Rock Art",
+      "distance_km": 17.2
+    },
+    {
+      "name": "Wadi Eshel stone circle, Matseboth",
+      "type": "Ancient Temple",
+      "distance_km": 17.2
+    },
+    {
+      "name": "Big Wadi's Masseboth (1)",
+      "type": "Standing Stones",
+      "distance_km": 17.3
+    },
+    {
+      "name": "Siwa Temple of Amun",
+      "type": "Ancient Temple",
+      "distance_km": 17.5
+    },
+    {
+      "name": "Jabal Fatouma Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 17.5
+    },
+    {
+      "name": "Moray Terraces",
+      "type": "Misc Earthwork",
+      "distance_km": 17.6
+    },
+    {
+      "name": "South of wadi Eshel Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.6
+    },
+    {
+      "name": "Wadi Paran tributary camp site & Tumuli",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.7
+    },
+    {
+      "name": "Umm Ubayda Temple",
+      "type": "Ancient Temple",
+      "distance_km": 17.9
+    },
+    {
+      "name": "Inkaraqay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 18.1
+    },
+    {
+      "name": "Mount Ayah",
+      "type": "Ancient Temple",
+      "distance_km": 18.1
+    },
+    {
+      "name": "Eshel Paran Megalithic cult site",
+      "type": "Ancient Temple",
+      "distance_km": 18.3
+    },
+    {
+      "name": "Estakhr",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.0
+    },
+    {
+      "name": "Naghsh-e-Rostam",
+      "type": "Rock Cut Tomb",
+      "distance_km": 19.6
+    },
+    {
+      "name": "Grofit hights",
+      "type": "Ancient Temple",
+      "distance_km": 19.8
+    },
+    {
+      "name": "Kipat 'Eshet rock shelter",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.9
+    },
+    {
+      "name": "Mazghuna 1 Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 20.3
+    },
+    {
+      "name": "Cairo Airport Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 20.4
+    },
+    {
+      "name": "Big Circle J6",
+      "type": "Misc Earthwork",
+      "distance_km": 20.6
+    },
+    {
+      "name": "Beidha",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6
+    },
+    {
+      "name": "Cahuachi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6
+    },
+    {
+      "name": "Wadi Shazar threshing floors, terraces and rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.7
+    },
+    {
+      "name": "Siq al-Barid-Little Petra",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.1
+    },
+    {
+      "name": "Heliopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.7
+    },
+    {
+      "name": "Top Itro pass 7 Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 21.9
+    },
+    {
+      "name": "Yakham hills Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 22.7
+    },
+    {
+      "name": "Itro pass Roded Figurines",
+      "type": "Ancient Temple",
+      "distance_km": 22.8
+    },
+    {
+      "name": "Leopards Open Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 23.0
+    },
+    {
+      "name": "Qalat Al-Guindi",
+      "type": "Hillfort",
+      "distance_km": 23.2
+    },
+    {
+      "name": "East Uvda valley cult sites",
+      "type": "Ancient Temple",
+      "distance_km": 23.2
+    },
+    {
+      "name": "wadi Paran",
+      "type": "Ancient Temple",
+      "distance_km": 23.7
+    },
+    {
+      "name": "Rio Branco Geoglyph 22",
+      "type": "Misc Earthwork",
+      "distance_km": 23.9
+    },
+    {
+      "name": "Rio Branco Geoglyph 21",
+      "type": "Misc Earthwork",
+      "distance_km": 24.0
+    },
+    {
+      "name": "Uvda Valley habitation site No 18",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.2
+    },
+    {
+      "name": "Widan el-Faras",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 24.4
+    },
+    {
+      "name": "Uvda Valley habitation site No 9",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.5
+    },
+    {
+      "name": "Wadi Ma'azer campsite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.7
+    },
+    {
+      "name": "Southern Itro pass ",
+      "type": "Stone Row  Alignment",
+      "distance_km": 25.2
+    },
+    {
+      "name": "Humeima",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.3
+    },
+    {
+      "name": "Mohenjo-daro",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.6
+    },
+    {
+      "name": "Harakbut Face",
+      "type": "Natural Stone  Erratic  Other Natural Feature",
+      "distance_km": 25.7
+    },
+    {
+      "name": "Mount Shacharut",
+      "type": "Ancient Temple",
+      "distance_km": 26.1
+    },
+    {
+      "name": "Rio Branco Geoglyph 23",
+      "type": "Misc Earthwork",
+      "distance_km": 26.3
+    },
+    {
+      "name": "Nazca Lines - Whale",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 26.5
+    },
+    {
+      "name": "Ramat Tsofar early Islamic settlement",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 26.6
+    },
+    {
+      "name": "South 'Uvda Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 27.7
+    },
+    {
+      "name": "S' of Shacharut pass Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 28.3
+    },
+    {
+      "name": "Rio Branco Geoglyph 24",
+      "type": "Misc Earthwork",
+      "distance_km": 29.3
+    },
+    {
+      "name": "Zugan Pass Cult Site",
+      "type": "Ancient Temple",
+      "distance_km": 29.5
+    },
+    {
+      "name": "Wadi 'Isaron",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 29.8
+    },
+    {
+      "name": "Wadi Hagdera-'Uvda camp & cult site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.1
+    },
+    {
+      "name": "North wadi Tse'ela open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 30.4
+    },
+    {
+      "name": "Rio Branco Geoglyph 26",
+      "type": "Misc Earthwork",
+      "distance_km": 30.4
+    },
+    {
+      "name": "La Tiza",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.5
+    },
+    {
+      "name": "Museo Antonini",
+      "type": "Museum",
+      "distance_km": 30.5
+    },
+    {
+      "name": "El Trigal",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.6
+    },
+    {
+      "name": "Wadi Tse'ela Habitation site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.8
+    },
+    {
+      "name": "Prasat Preah Vihear",
+      "type": "Ancient Temple",
+      "distance_km": 30.9
+    },
+    {
+      "name": "Chinchero",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.0
+    },
+    {
+      "name": "Puma Temple",
+      "type": "Ancient Temple",
+      "distance_km": 31.1
+    },
+    {
+      "name": "Rio Branco Geoglyph 25",
+      "type": "Misc Earthwork",
+      "distance_km": 31.4
+    },
+    {
+      "name": "Cantalloc Aqueduct",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 31.6
+    },
+    {
+      "name": "Paredones",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.9
+    },
+    {
+      "name": "Qasr el- Sagha",
+      "type": "Ancient Temple",
+      "distance_km": 32.0
+    },
+    {
+      "name": "North Sayarim Valley Rock Carving",
+      "type": "Rock Art",
+      "distance_km": 33.5
+    },
+    {
+      "name": "Huchuy Qosqo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 33.8
+    },
+    {
+      "name": "Sayarim Valley E'",
+      "type": "Standing Stones",
+      "distance_km": 34.8
+    },
+    {
+      "name": "North Sayarim Valley Tumulus",
+      "type": "Barrow Cemetery",
+      "distance_km": 34.8
+    },
+    {
+      "name": "Meshar-Hadav Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 34.8
+    },
+    {
+      "name": "wadi 'Arod tributary (1)",
+      "type": "Ancient Temple",
+      "distance_km": 35.1
+    },
+    {
+      "name": "wadi 'Arod tributary Crenellation Line",
+      "type": "Ancient Temple",
+      "distance_km": 35.1
+    },
+    {
+      "name": "Wadi Milhan Ancient Farm",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.2
+    },
+    {
+      "name": "wadi 'Arod tributary (5)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.3
+    },
+    {
+      "name": "wadi 'Arod tributary (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.4
+    },
+    {
+      "name": "wadi 'Arod tributary (4)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.5
+    },
+    {
+      "name": "wadi 'Arod tributary (3)",
+      "type": "Ancient Temple",
+      "distance_km": 35.5
+    },
+    {
+      "name": "Rio Branco Geoglyph 20",
+      "type": "Misc Earthwork",
+      "distance_km": 35.5
+    },
+    {
+      "name": "Al-Shobak Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 36.1
+    },
+    {
+      "name": "lower wadi 'Ashosh",
+      "type": "Ancient Temple",
+      "distance_km": 36.5
+    },
+    {
+      "name": "Bundi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 36.9
+    },
+    {
+      "name": "Possible Pyramids near Kafr Al Masallat",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 37.4
+    },
+    {
+      "name": "wadi 'Ashosh tributary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.5
+    },
+    {
+      "name": "Shobak Castle",
+      "type": "Hillfort",
+      "distance_km": 37.9
+    },
+    {
+      "name": "Vilcashuam\u00c3\u00a1n",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.9
+    },
+    {
+      "name": "Sayarim Valley South Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 38.0
+    },
+    {
+      "name": "Al Rajajil",
+      "type": "Standing Stones",
+      "distance_km": 38.1
+    },
+    {
+      "name": "Timn'a cliffs Roded type open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 38.1
+    },
+    {
+      "name": "Dimeh Al-Siba",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.4
+    },
+    {
+      "name": "North of Wadi Botem Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 38.7
+    },
+    {
+      "name": "Leontopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.9
+    },
+    {
+      "name": "Amenemhat I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 39.0
+    },
+    {
+      "name": "Ancient Copper Strip-mine north of Mt. Michrot",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.3
+    },
+    {
+      "name": "N' W' Timna  valley ancient copper industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.5
+    },
+    {
+      "name": "Wadi Malaqa Petroglyphs",
+      "type": "Carving",
+      "distance_km": 39.7
+    },
+    {
+      "name": "Mount. Michrot",
+      "type": "Ancient Temple",
+      "distance_km": 39.9
+    },
+    {
+      "name": "wadi 'Oded",
+      "type": "Cave or Rock Shelter",
+      "distance_km": 40.0
+    },
+    {
+      "name": "Wadi Betamim Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 40.1
+    },
+    {
+      "name": "Wadi Botem Predator's Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3
+    },
+    {
+      "name": "Wadi Botem Sites",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3
+    },
+    {
+      "name": "Small Wadi Malaqa Petroglyph",
+      "type": "Carving",
+      "distance_km": 40.4
+    },
+    {
+      "name": "East of Dana Nature Reserve",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.4
+    },
+    {
+      "name": "Senusret I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 40.6
+    },
+    {
+      "name": "Timna Valley Copper Mines",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 40.9
+    },
+    {
+      "name": "\u00c3\u0091usta Hispana",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 41.2
+    },
+    {
+      "name": "Sasgon valley",
+      "type": "Standing Stones",
+      "distance_km": 41.6
+    },
+    {
+      "name": "Timna Valley Mushroom Site",
+      "type": "Natural Stone  Erratic  Other Natural Feature",
+      "distance_km": 41.8
+    },
+    {
+      "name": "Jabal Al-Aswad",
+      "type": "Hillfort",
+      "distance_km": 42.1
+    },
+    {
+      "name": "Karanis Aushim Temple",
+      "type": "Ancient Temple",
+      "distance_km": 42.4
+    },
+    {
+      "name": "Wadi Anaka Habitation site & Predators Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.0
+    },
+    {
+      "name": "Timna Valley Slave Hill Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 43.2
+    },
+    {
+      "name": "Timna Valley Slave Hill Smelting Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.4
+    },
+    {
+      "name": "Wadi Anaka camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.5
+    },
+    {
+      "name": "Pisac Ruins",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.6
+    },
+    {
+      "name": "Timna Valley Temple of Hathor",
+      "type": "Ancient Temple",
+      "distance_km": 43.7
+    },
+    {
+      "name": "Lower wadi Anaka Open air sanctuary and camp site",
+      "type": "Ancient Temple",
+      "distance_km": 43.8
+    },
+    {
+      "name": "Tambomachay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.8
+    },
+    {
+      "name": "Rio Branco Geoglyph 18",
+      "type": "Misc Earthwork",
+      "distance_km": 44.3
+    },
+    {
+      "name": "Rio Branco Geoglyph 19",
+      "type": "Misc Earthwork",
+      "distance_km": 44.4
+    },
+    {
+      "name": "Puca Pucara",
+      "type": "Stone Fort or Dun",
+      "distance_km": 44.5
+    },
+    {
+      "name": "Tomb of Cyrus",
+      "type": "Chambered Tomb",
+      "distance_km": 45.1
+    },
+    {
+      "name": "Lanlakuyok",
+      "type": "Carving",
+      "distance_km": 45.2
+    },
+    {
+      "name": "Pasargadae",
+      "type": "Ancient Palace",
+      "distance_km": 45.8
+    },
+    {
+      "name": "Upper Wadi Eteq Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 46.0
+    },
+    {
+      "name": "Sacsayhuaman",
+      "type": "Hillfort",
+      "distance_km": 46.0
+    },
+    {
+      "name": "Chauchilla Necropolis",
+      "type": "Barrow Cemetery",
+      "distance_km": 46.1
+    },
+    {
+      "name": "Lacco",
+      "type": "Carving",
+      "distance_km": 46.6
+    },
+    {
+      "name": "Qenko",
+      "type": "Ancient Temple",
+      "distance_km": 46.6
+    },
+    {
+      "name": "Kusilluchayoc",
+      "type": "Carving",
+      "distance_km": 46.8
+    },
+    {
+      "name": "Tall-e Takht",
+      "type": "Hillfort",
+      "distance_km": 46.8
+    },
+    {
+      "name": "Museo de Arte Precolombino",
+      "type": "Museum",
+      "distance_km": 46.8
+    },
+    {
+      "name": "Inkil Tambo",
+      "type": "Ancient Temple",
+      "distance_km": 46.9
+    },
+    {
+      "name": "Khirbat Dabur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 46.9
+    },
+    {
+      "name": "Cusco",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 47.0
+    },
+    {
+      "name": "The Cusco Machu Picchu Museum",
+      "type": "Museum",
+      "distance_km": 47.1
+    },
+    {
+      "name": "Cusco - Qorikancha",
+      "type": "Ancient Temple",
+      "distance_km": 47.4
+    },
+    {
+      "name": "Wadi Rum Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 47.5
+    },
+    {
+      "name": "Qhataqasapatallaqta",
+      "type": "Barrow Cemetery",
+      "distance_km": 47.6
+    },
+    {
+      "name": "Wadi Gvanim Tumulus and Matsebah",
+      "type": "Round Barrow(s)",
+      "distance_km": 48.0
+    },
+    {
+      "name": "Wadi Gvanim Ancient Bedouin cemetery",
+      "type": "Barrow Cemetery",
+      "distance_km": 48.2
+    },
+    {
+      "name": "S' of wadi Gadna'a",
+      "type": "Ancient Temple",
+      "distance_km": 48.2
+    },
+    {
+      "name": "Wadi Feinan",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 48.9
+    },
+    {
+      "name": "Wadi 'Eteq tributary cult & Goat pen site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 49.1
+    },
+    {
+      "name": "North Se'ipim Valley Predator Trap",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 49.1
+    },
+    {
+      "name": "Ein Saharonim",
+      "type": "Stone Fort or Dun",
+      "distance_km": 49.2
+    },
+    {
+      "name": "Rio Branco Geoglyph 16",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2
+    },
+    {
+      "name": "Se'ipim Valley North Predators Trap",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2
+    },
+    {
+      "name": "Ramon crater open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 49.4
+    },
+    {
+      "name": "Big Circle J4",
+      "type": "Misc Earthwork",
+      "distance_km": 49.9
+    },
+    {
+      "name": "Beer-Ora N",
+      "type": "Ancient Temple",
+      "distance_km": 50.1
+    },
+    {
+      "name": "Big Circle J3",
+      "type": "Misc Earthwork",
+      "distance_km": 50.2
+    },
+    {
+      "name": "W' Se'ipim valley",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 50.2
+    },
+    {
+      "name": "E' of wadi Racham ",
+      "type": "Ancient Temple",
+      "distance_km": 50.4
+    },
+    {
+      "name": "Wadi Kabir cistern",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 50.5
+    },
+    {
+      "name": "E' Se'ipim valley",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 50.7
+    },
+    {
+      "name": "Wadi Kabir Matseboth",
+      "type": "Ancient Temple",
+      "distance_km": 51.0
+    },
+    {
+      "name": "Ramat Saharonim",
+      "type": "Ancient Temple",
+      "distance_km": 51.0
+    },
+    {
+      "name": "Wadi 'Eteq Villas",
+      "type": "Ancient Temple",
+      "distance_km": 51.4
+    },
+    {
+      "name": "SE' Se'ipim valley",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 51.7
+    },
+    {
+      "name": "Flint workshop west of wadi Racham",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 51.9
+    },
+    {
+      "name": "S' of wadi 'Eteq",
+      "type": "Ancient Temple",
+      "distance_km": 51.9
+    },
+    {
+      "name": "Ninamarca",
+      "type": "Chambered Tomb",
+      "distance_km": 52.6
+    },
+    {
+      "name": "Gerzeh cemetery",
+      "type": "Barrow Cemetery",
+      "distance_km": 52.6
+    },
+    {
+      "name": "Rio Branco Geoglyph 15",
+      "type": "Misc Earthwork",
+      "distance_km": 52.7
+    },
+    {
+      "name": "Rio Branco Geoglyph 14",
+      "type": "Misc Earthwork",
+      "distance_km": 52.7
+    },
+    {
+      "name": "Gebel Khashm el Tarif",
+      "type": "Ancient Temple",
+      "distance_km": 52.8
+    },
+    {
+      "name": "Rio Branco Geoglyph 13",
+      "type": "Misc Earthwork",
+      "distance_km": 52.9
+    },
+    {
+      "name": "North of Wadi Shani Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 53.0
+    },
+    {
+      "name": "Wadi Racham Matsebah",
+      "type": "Standing Stones",
+      "distance_km": 53.6
+    },
+    {
+      "name": "Nitsots hill open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 53.6
+    },
+    {
+      "name": "Rio Branco Geoglyph 12",
+      "type": "Misc Earthwork",
+      "distance_km": 54.2
+    },
+    {
+      "name": "Khirbat en-Nahas",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 55.1
+    },
+    {
+      "name": "Rio Branco Geoglyph 11",
+      "type": "Misc Earthwork",
+      "distance_km": 55.2
+    },
+    {
+      "name": "Upper Wadi Racham Camp",
+      "type": "Standing Stones",
+      "distance_km": 55.4
+    },
+    {
+      "name": "Mount Uzia West Predators Trap",
+      "type": "Misc Earthwork",
+      "distance_km": 56.0
+    },
+    {
+      "name": "Kadesh-Barnea",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 56.2
+    },
+    {
+      "name": "Wadi Marzeba Crenellation Line",
+      "type": "Ancient Temple",
+      "distance_km": 56.6
+    },
+    {
+      "name": "Mt. 'Amram Tumulus",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 56.8
+    },
+    {
+      "name": "Rio Branco Geoglyph 17",
+      "type": "Misc Earthwork",
+      "distance_km": 57.0
+    },
+    {
+      "name": "Chokahatu",
+      "type": "Barrow Cemetery",
+      "distance_km": 57.8
+    },
+    {
+      "name": "Wat Phou",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 57.9
+    },
+    {
+      "name": "Watoqto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 58.7
+    },
+    {
+      "name": "Rahotep Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 58.8
+    },
+    {
+      "name": "Seila Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 58.8
+    },
+    {
+      "name": "Meidum Broken Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 59.0
+    },
+    {
+      "name": "Ban Non Wat",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 59.3
+    },
+    {
+      "name": "Wadi 'Akrav Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 60.5
+    },
+    {
+      "name": "Shchoret habitation site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 60.8
+    },
+    {
+      "name": "Shchoret hills Open Air Mosque",
+      "type": "Ancient Temple",
+      "distance_km": 61.1
+    },
+    {
+      "name": "Yedidyah pass Roded type cult site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 61.4
+    },
+    {
+      "name": "Shehoret Hills Desert Kite",
+      "type": "Misc Earthwork",
+      "distance_km": 61.4
+    },
+    {
+      "name": "Amazonian Geoglyphs",
+      "type": "Misc Earthwork",
+      "distance_km": 61.4
+    },
+    {
+      "name": "Botzrah",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 61.5
+    },
+    {
+      "name": "North of Netafim spring",
+      "type": "Ancient Temple",
+      "distance_km": 61.8
+    },
+    {
+      "name": "Arround Shchoret hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 61.9
+    },
+    {
+      "name": "Wadi Roded Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 62.0
+    },
+    {
+      "name": "Tipon",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 62.0
+    },
+    {
+      "name": "Roded cult sites",
+      "type": "Ancient Temple",
+      "distance_km": 62.2
+    },
+    {
+      "name": "Netafim Neolithic sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 62.7
+    },
+    {
+      "name": "Wadi Tawahin",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 63.0
+    },
+    {
+      "name": "Shahmon Desert Kite",
+      "type": "Misc Earthwork",
+      "distance_km": 64.1
+    },
+    {
+      "name": "Egypt's Earliest Farm Settlement Discovered",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 64.2
+    },
+    {
+      "name": "Eridu",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 64.5
+    },
+    {
+      "name": "Sel'a",
+      "type": "Hillfort",
+      "distance_km": 65.7
+    },
+    {
+      "name": "Maucallacta",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 66.0
+    },
+    {
+      "name": "Rio Branco Geoglyph 7",
+      "type": "Misc Earthwork",
+      "distance_km": 67.3
+    },
+    {
+      "name": "Kisiga",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 67.7
+    },
+    {
+      "name": "Garama",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 67.9
+    },
+    {
+      "name": "Chokepukio",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 68.2
+    },
+    {
+      "name": "Jiroft Ancient Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 68.6
+    },
+    {
+      "name": "Ramat Yotam 'roded' type site",
+      "type": "Ancient Temple",
+      "distance_km": 68.7
+    },
+    {
+      "name": "Rio Branco Geoglyph 9",
+      "type": "Misc Earthwork",
+      "distance_km": 68.9
+    },
+    {
+      "name": "Bubastis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 69.0
+    },
+    {
+      "name": "Wadi Rum Ritual Structures",
+      "type": "Ancient Temple",
+      "distance_km": 69.0
+    },
+    {
+      "name": "Wadi Rum Chambered Tomb",
+      "type": "Chambered Tomb",
+      "distance_km": 69.3
+    },
+    {
+      "name": "Wadi Rum Massebah (1)",
+      "type": "Cairn",
+      "distance_km": 69.4
+    },
+    {
+      "name": "Hawwara Necropolis",
+      "type": "Barrow Cemetery",
+      "distance_km": 69.5
+    },
+    {
+      "name": "Amenmenhat III Pyramid at Hawwara",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 69.5
+    },
+    {
+      "name": "Pikillaqta",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 69.6
+    },
+    {
+      "name": "Be'er Resisim",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 69.7
+    },
+    {
+      "name": "Wadi Rum Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 70.3
+    },
+    {
+      "name": "Ein Hatseva fortress",
+      "type": "Hillfort",
+      "distance_km": 70.3
+    },
+    {
+      "name": "Wadi Rum Massebah (2)",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 70.4
+    },
+    {
+      "name": "Rumiqullqa",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 70.9
+    },
+    {
+      "name": "Tel 'Avdat",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 71.2
+    },
+    {
+      "name": "Al Hatiyah Pyramids",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 71.3
+    },
+    {
+      "name": "Rio Branco Geoglyph 8",
+      "type": "Misc Earthwork",
+      "distance_km": 72.9
+    },
+    {
+      "name": "Big Circle J2",
+      "type": "Misc Earthwork",
+      "distance_km": 73.3
+    },
+    {
+      "name": "Har Mihya",
+      "type": "Rock Art",
+      "distance_km": 73.9
+    },
+    {
+      "name": "Wadi Tweiba",
+      "type": "Rock Art",
+      "distance_km": 73.9
+    },
+    {
+      "name": "Al Lahoun Mastabas",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 74.2
+    },
+    {
+      "name": "Wadi Kahkashea",
+      "type": "Carving",
+      "distance_km": 74.3
+    },
+    {
+      "name": "Senusret II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 74.3
+    },
+    {
+      "name": "Vilcabamba",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 74.6
+    },
+    {
+      "name": "Medinet Maadi temple of Renenutet",
+      "type": "Ancient Temple",
+      "distance_km": 76.1
+    },
+    {
+      "name": "Wadi Irahar Rock Art",
+      "type": "Rock Art",
+      "distance_km": 76.4
+    },
+    {
+      "name": "Incapirca Waminan",
+      "type": "Ancient Temple",
+      "distance_km": 76.8
+    },
+    {
+      "name": "Rio Branco Geoglyph 5",
+      "type": "Misc Earthwork",
+      "distance_km": 77.6
+    },
+    {
+      "name": "Dilmun Temple Failaka",
+      "type": "Ancient Temple",
+      "distance_km": 78.1
+    },
+    {
+      "name": "Wadi Dhaika Engravings",
+      "type": "Carving",
+      "distance_km": 78.4
+    },
+    {
+      "name": "Wadi Issanghaten Rock Art",
+      "type": "Rock Art",
+      "distance_km": 78.5
+    },
+    {
+      "name": "Big Circle J1",
+      "type": "Misc Earthwork",
+      "distance_km": 78.9
+    },
+    {
+      "name": "Khirbat Al-Dharieh",
+      "type": "Ancient Temple",
+      "distance_km": 79.0
+    },
+    {
+      "name": "Rio Branco Geoglyph 3",
+      "type": "Misc Earthwork",
+      "distance_km": 79.3
+    },
+    {
+      "name": "Wadi I-n-Eihedh Rock Art 2",
+      "type": "Rock Art",
+      "distance_km": 79.5
+    },
+    {
+      "name": "Rio Branco Geoglyph 4",
+      "type": "Misc Earthwork",
+      "distance_km": 79.6
+    },
+    {
+      "name": "Potnangai cave Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 79.7
+    },
+    {
+      "name": "Wadi Rum Engravings",
+      "type": "Carving",
+      "distance_km": 80.3
+    },
+    {
+      "name": "The Lost City",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 80.8
+    },
+    {
+      "name": "Acre 'Geoglyphs' - Ranch Parana",
+      "type": "Misc Earthwork",
+      "distance_km": 81.0
+    },
+    {
+      "name": "Ur of the Chaldees",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 81.1
+    },
+    {
+      "name": "Wadi Tekniewen Rock Art 5",
+      "type": "Rock Art",
+      "distance_km": 81.6
+    },
+    {
+      "name": "Shivta National Park",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 81.6
+    },
+    {
+      "name": "Ma'ale-Akrabbim",
+      "type": "Ancient Trackway",
+      "distance_km": 81.9
+    },
+    {
+      "name": "Tel Nitzana",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 82.2
+    },
+    {
+      "name": "Kharg Island",
+      "type": "Rock Art",
+      "distance_km": 84.4
+    },
+    {
+      "name": "Wadi Tekniewen Rock Art 4",
+      "type": "Rock Art",
+      "distance_km": 85.2
+    },
+    {
+      "name": "Tell Khaiber",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 85.7
+    },
+    {
+      "name": "Khirbet Al-Tannur",
+      "type": "Ancient Temple",
+      "distance_km": 85.8
+    },
+    {
+      "name": "Khirbet Rizqeh",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 88.7
+    },
+    {
+      "name": "Wadi I-n-Eihedh Rock Art 1",
+      "type": "Rock Art",
+      "distance_km": 88.8
+    },
+    {
+      "name": "Dhat Ras",
+      "type": "Ancient Temple",
+      "distance_km": 89.0
+    },
+    {
+      "name": "Wadi Alamas Rock Art 7",
+      "type": "Rock Art",
+      "distance_km": 89.7
+    },
+    {
+      "name": "Har Rakhama",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 89.9
+    },
+    {
+      "name": "Avaris",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 90.4
+    },
+    {
+      "name": "Wadi Isser Rock Art 4",
+      "type": "Rock Art",
+      "distance_km": 90.5
+    },
+    {
+      "name": "Obra standing stones",
+      "type": "Standing Stones",
+      "distance_km": 90.7
+    },
+    {
+      "name": "Ezbet Rushdi Temple",
+      "type": "Ancient Temple",
+      "distance_km": 91.1
+    },
+    {
+      "name": "Wadi Bedis Rock Art 5",
+      "type": "Rock Art",
+      "distance_km": 91.6
+    },
+    {
+      "name": "Wadi Tekniewen Rock Art 3",
+      "type": "Rock Art",
+      "distance_km": 92.0
+    },
+    {
+      "name": "Pi-Ramesse",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 92.2
+    },
+    {
+      "name": "Wadi Bedis Rock Art 4",
+      "type": "Rock Art",
+      "distance_km": 93.7
+    },
+    {
+      "name": "Velemendi cave",
+      "type": "Rock Art",
+      "distance_km": 94.0
+    },
+    {
+      "name": "Ramat Negev stone wine press",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 94.4
+    },
+    {
+      "name": "Wadi Alamas Rock Art 6",
+      "type": "Rock Art",
+      "distance_km": 95.2
+    },
+    {
+      "name": "Mamshit",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 95.3
+    },
+    {
+      "name": "Wadi Tekniewen Rock Art 2",
+      "type": "Rock Art",
+      "distance_km": 96.4
+    },
+    {
+      "name": "Wadi Adroh Rock Art 2",
+      "type": "Rock Art",
+      "distance_km": 98.6
+    },
+    {
+      "name": "Wadi Ti-n-Einessnis Rock Art 6",
+      "type": "Rock Art",
+      "distance_km": 98.8
+    },
+    {
+      "name": "Koh Ker",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 99.0
+    }
+  ],
+  "geographic_distribution": {
+    "UK/Ireland": 22668,
+    "France": 14163,
+    "Scandinavia": 7157,
+    "Iberia/Med": 5535,
+    "Rest of Europe": 6623,
+    "Middle East/N.Africa": 1004,
+    "Sub-Saharan Africa": 95,
+    "South/Central Asia": 506,
+    "East/SE Asia": 1646,
+    "Americas": 1890,
+    "Oceania": 583
+  },
+  "site_type_counts": {
+    "Ancient Cross": 1022,
+    "Ancient Mine, Quarry or other Industry": 288,
+    "Ancient Palace": 71,
+    "Ancient Temple": 918,
+    "Ancient Trackway": 166,
+    "Ancient Village or Settlement": 4747,
+    "Artificial Mound": 870,
+    "Barrow Cemetery": 2199,
+    "Broch or Nuraghe": 1455,
+    "Burial Chamber or Dolmen": 8356,
+    "Cairn": 2347,
+    "Carving": 487,
+    "Castro or Chafurd\u00e3o": 1128,
+    "Causewayed Enclosure": 89,
+    "Cave or Rock Shelter": 1294,
+    "Chambered Cairn": 699,
+    "Chambered Tomb": 1784,
+    "Cist": 578,
+    "Class III Pictish Cross Slab": 25,
+    "Class II Pictish Symbol Stone": 30,
+    "Class I Pictish Symbol Stone": 121,
+    "Class I  Class II Hybrid Pictish Symbol Stone": 4,
+    "Clava Cairn": 13,
+    "Court Tomb": 71,
+    "Crannog": 95,
+    "Cursus": 314,
+    "Early Christian Sculptured Stone": 279,
+    "Henge": 193,
+    "Hill Figure or Geoglyph": 45,
+    "Hillfort": 2211,
+    "Holed Stone": 68,
+    "Holy Well or Sacred Spring": 1884,
+    "Long Barrow": 1740,
+    "Marker Stone": 357,
+    "Misc Earthwork": 656,
+    "Modern Stone Circle etc": 1107,
+    "Multiple Stone Rows  Avenue": 158,
+    "Museum": 1215,
+    "Natural Stone  Erratic  Other Natural Feature": 1353,
+    "Not Known (by us)": 96,
+    "Passage Grave": 1361,
+    "Polissoir": 156,
+    "Portal Tomb": 73,
+    "Promontory Fort  Cliff Castle": 226,
+    "Pyramid  Mastaba": 207,
+    "Ring Cairn": 407,
+    "Rock Art": 4400,
+    "Rock Cut Tomb": 392,
+    "Rock Outcrop": 282,
+    "Round Barrow(s)": 5406,
+    "Round Cairn": 296,
+    "Sculptured Stone": 539,
+    "Souterrain (Fogou, Earth House)": 79,
+    "Standing Stone (Menhir)": 5828,
+    "Standing Stones": 1115,
+    "Stone Circle": 2511,
+    "Stone Fort or Dun": 395,
+    "Stone Row  Alignment": 836,
+    "Timber Circle": 90,
+    "Turf Maze": 41,
+    "Vitrified Fort": 16,
+    "Wedge Tomb": 126
+  }
+}

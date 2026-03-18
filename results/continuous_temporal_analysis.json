@@ -1,0 +1,156 @@
+{
+  "bins": [
+    {
+      "label": "pre-5000 BCE",
+      "min_year": null,
+      "max_year": -5000,
+      "n_sites": 241,
+      "result": {
+        "n_sites": 241,
+        "observed": 8,
+        "mc_mean": 8.3,
+        "mc_std": 2.7,
+        "z_score": -0.1,
+        "enrichment": 0.969
+      }
+    },
+    {
+      "label": "5000-3000 BCE",
+      "min_year": -5000,
+      "max_year": -3000,
+      "n_sites": 215,
+      "result": {
+        "n_sites": 215,
+        "observed": 4,
+        "mc_mean": 7.1,
+        "mc_std": 2.5,
+        "z_score": -1.24,
+        "enrichment": 0.565
+      }
+    },
+    {
+      "label": "3000-2000 BCE",
+      "min_year": -3000,
+      "max_year": -2000,
+      "n_sites": 308,
+      "result": {
+        "n_sites": 308,
+        "observed": 51,
+        "mc_mean": 15.7,
+        "mc_std": 3.3,
+        "z_score": 10.81,
+        "enrichment": 3.245
+      }
+    },
+    {
+      "label": "2000-1000 BCE",
+      "min_year": -2000,
+      "max_year": -1000,
+      "n_sites": 747,
+      "result": {
+        "n_sites": 747,
+        "observed": 9,
+        "mc_mean": 14.0,
+        "mc_std": 3.6,
+        "z_score": -1.41,
+        "enrichment": 0.643
+      }
+    },
+    {
+      "label": "1000-500 BCE",
+      "min_year": -1000,
+      "max_year": -500,
+      "n_sites": 6019,
+      "result": {
+        "n_sites": 6019,
+        "observed": 56,
+        "mc_mean": 42.5,
+        "mc_std": 6.0,
+        "z_score": 2.25,
+        "enrichment": 1.318
+      }
+    },
+    {
+      "label": "500 BCE - 0",
+      "min_year": -500,
+      "max_year": 0,
+      "n_sites": 20804,
+      "result": {
+        "n_sites": 20804,
+        "observed": 143,
+        "mc_mean": 157.5,
+        "mc_std": 11.6,
+        "z_score": -1.25,
+        "enrichment": 0.908
+      }
+    },
+    {
+      "label": "0-500 CE",
+      "min_year": 0,
+      "max_year": 500,
+      "n_sites": 2595,
+      "result": {
+        "n_sites": 2595,
+        "observed": 8,
+        "mc_mean": 29.8,
+        "mc_std": 5.2,
+        "z_score": -4.17,
+        "enrichment": 0.269
+      }
+    },
+    {
+      "label": "500-1000 CE",
+      "min_year": 500,
+      "max_year": 1000,
+      "n_sites": 313,
+      "result": {
+        "n_sites": 313,
+        "observed": 2,
+        "mc_mean": 0.7,
+        "mc_std": 0.8,
+        "z_score": 1.69,
+        "enrichment": 2.941
+      }
+    },
+    {
+      "label": "1000-1500 CE",
+      "min_year": 1000,
+      "max_year": 1500,
+      "n_sites": 87,
+      "result": {
+        "n_sites": 87,
+        "observed": 0,
+        "mc_mean": 0.3,
+        "mc_std": 0.6,
+        "z_score": -0.62,
+        "enrichment": 0.0
+      }
+    },
+    {
+      "label": "1500+ CE",
+      "min_year": 1500,
+      "max_year": null,
+      "n_sites": 1467,
+      "result": {
+        "n_sites": 1467,
+        "observed": 11,
+        "mc_mean": 12.2,
+        "mc_std": 3.3,
+        "z_score": -0.35,
+        "enrichment": 0.904
+      }
+    }
+  ],
+  "peak_bin": "3000-2000 BCE",
+  "peak_z": 10.81,
+  "crossover_bin": "2000-1000 BCE",
+  "metadata": {
+    "threshold_km": 50.0,
+    "monte_carlo_trials": 200,
+    "jitter_std_deg": 2.0,
+    "data_source": "Pleiades Gazetteer",
+    "total_dated_sites": 32810,
+    "undated_sites_excluded": 1660,
+    "compute_time_seconds": 1.0
+  }
+}

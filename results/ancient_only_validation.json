@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "Ancient-Only UNESCO Validation",
+    "description": "Great Circle and 108\u00b0 tests on UNESCO Cultural Heritage sites filtered to ancient/archaeological only",
+    "total_sites_tested": 214,
+    "date": "2026-03-15"
+  },
+  "great_circle_results": {
+    "50": {
+      "observed": 8,
+      "random_mean": 2.0,
+      "random_std": 1.4,
+      "z": 4.23,
+      "enrichment": 3.9
+    },
+    "100": {
+      "observed": 11,
+      "random_mean": 4.3,
+      "random_std": 2.1,
+      "z": 3.22,
+      "enrichment": 2.6
+    },
+    "200": {
+      "observed": 20,
+      "random_mean": 8.5,
+      "random_std": 2.9,
+      "z": 3.94,
+      "enrichment": 2.4
+    },
+    "500": {
+      "observed": 43,
+      "random_mean": 20.7,
+      "random_std": 4.5,
+      "z": 4.95,
+      "enrichment": 2.1
+    }
+  },
+  "angular_108_result": {
+    "observed": 91,
+    "random_mean": 168.1,
+    "random_std": 13.6,
+    "z_score": -5.69
+  }
+}

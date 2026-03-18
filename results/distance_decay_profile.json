@@ -1,0 +1,1044 @@
+{
+  "meta": {
+    "name": "P2-M: Distance-Decay Profile",
+    "date": "2026-03-16",
+    "band_width_km": 10,
+    "max_distance_km": 500,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "pleiades": {
+    "description": "Monuments vs Settlements from Pleiades Gazetteer",
+    "total_classified_within_500km": 2768,
+    "bands": [
+      {
+        "band_km": "0-10",
+        "band_start": 0,
+        "band_end": 10,
+        "monuments": 33,
+        "settlements": 25,
+        "total_classified": 58,
+        "monument_to_settlement_ratio": 1.32,
+        "monument_pct": 56.9
+      },
+      {
+        "band_km": "10-20",
+        "band_start": 10,
+        "band_end": 20,
+        "monuments": 31,
+        "settlements": 41,
+        "total_classified": 72,
+        "monument_to_settlement_ratio": 0.756,
+        "monument_pct": 43.06
+      },
+      {
+        "band_km": "20-30",
+        "band_start": 20,
+        "band_end": 30,
+        "monuments": 4,
+        "settlements": 18,
+        "total_classified": 22,
+        "monument_to_settlement_ratio": 0.222,
+        "monument_pct": 18.18
+      },
+      {
+        "band_km": "30-40",
+        "band_start": 30,
+        "band_end": 40,
+        "monuments": 7,
+        "settlements": 18,
+        "total_classified": 25,
+        "monument_to_settlement_ratio": 0.389,
+        "monument_pct": 28.0
+      },
+      {
+        "band_km": "40-50",
+        "band_start": 40,
+        "band_end": 50,
+        "monuments": 8,
+        "settlements": 20,
+        "total_classified": 28,
+        "monument_to_settlement_ratio": 0.4,
+        "monument_pct": 28.57
+      },
+      {
+        "band_km": "50-60",
+        "band_start": 50,
+        "band_end": 60,
+        "monuments": 8,
+        "settlements": 37,
+        "total_classified": 45,
+        "monument_to_settlement_ratio": 0.216,
+        "monument_pct": 17.78
+      },
+      {
+        "band_km": "60-70",
+        "band_start": 60,
+        "band_end": 70,
+        "monuments": 8,
+        "settlements": 35,
+        "total_classified": 43,
+        "monument_to_settlement_ratio": 0.229,
+        "monument_pct": 18.6
+      },
+      {
+        "band_km": "70-80",
+        "band_start": 70,
+        "band_end": 80,
+        "monuments": 14,
+        "settlements": 40,
+        "total_classified": 54,
+        "monument_to_settlement_ratio": 0.35,
+        "monument_pct": 25.93
+      },
+      {
+        "band_km": "80-90",
+        "band_start": 80,
+        "band_end": 90,
+        "monuments": 16,
+        "settlements": 33,
+        "total_classified": 49,
+        "monument_to_settlement_ratio": 0.485,
+        "monument_pct": 32.65
+      },
+      {
+        "band_km": "90-100",
+        "band_start": 90,
+        "band_end": 100,
+        "monuments": 2,
+        "settlements": 29,
+        "total_classified": 31,
+        "monument_to_settlement_ratio": 0.069,
+        "monument_pct": 6.45
+      },
+      {
+        "band_km": "100-110",
+        "band_start": 100,
+        "band_end": 110,
+        "monuments": 6,
+        "settlements": 31,
+        "total_classified": 37,
+        "monument_to_settlement_ratio": 0.194,
+        "monument_pct": 16.22
+      },
+      {
+        "band_km": "110-120",
+        "band_start": 110,
+        "band_end": 120,
+        "monuments": 15,
+        "settlements": 47,
+        "total_classified": 62,
+        "monument_to_settlement_ratio": 0.319,
+        "monument_pct": 24.19
+      },
+      {
+        "band_km": "120-130",
+        "band_start": 120,
+        "band_end": 130,
+        "monuments": 5,
+        "settlements": 31,
+        "total_classified": 36,
+        "monument_to_settlement_ratio": 0.161,
+        "monument_pct": 13.89
+      },
+      {
+        "band_km": "130-140",
+        "band_start": 130,
+        "band_end": 140,
+        "monuments": 3,
+        "settlements": 56,
+        "total_classified": 59,
+        "monument_to_settlement_ratio": 0.054,
+        "monument_pct": 5.08
+      },
+      {
+        "band_km": "140-150",
+        "band_start": 140,
+        "band_end": 150,
+        "monuments": 4,
+        "settlements": 53,
+        "total_classified": 57,
+        "monument_to_settlement_ratio": 0.075,
+        "monument_pct": 7.02
+      },
+      {
+        "band_km": "150-160",
+        "band_start": 150,
+        "band_end": 160,
+        "monuments": 19,
+        "settlements": 57,
+        "total_classified": 76,
+        "monument_to_settlement_ratio": 0.333,
+        "monument_pct": 25.0
+      },
+      {
+        "band_km": "160-170",
+        "band_start": 160,
+        "band_end": 170,
+        "monuments": 16,
+        "settlements": 40,
+        "total_classified": 56,
+        "monument_to_settlement_ratio": 0.4,
+        "monument_pct": 28.57
+      },
+      {
+        "band_km": "170-180",
+        "band_start": 170,
+        "band_end": 180,
+        "monuments": 30,
+        "settlements": 45,
+        "total_classified": 75,
+        "monument_to_settlement_ratio": 0.667,
+        "monument_pct": 40.0
+      },
+      {
+        "band_km": "180-190",
+        "band_start": 180,
+        "band_end": 190,
+        "monuments": 5,
+        "settlements": 47,
+        "total_classified": 52,
+        "monument_to_settlement_ratio": 0.106,
+        "monument_pct": 9.62
+      },
+      {
+        "band_km": "190-200",
+        "band_start": 190,
+        "band_end": 200,
+        "monuments": 12,
+        "settlements": 53,
+        "total_classified": 65,
+        "monument_to_settlement_ratio": 0.226,
+        "monument_pct": 18.46
+      },
+      {
+        "band_km": "200-210",
+        "band_start": 200,
+        "band_end": 210,
+        "monuments": 9,
+        "settlements": 54,
+        "total_classified": 63,
+        "monument_to_settlement_ratio": 0.167,
+        "monument_pct": 14.29
+      },
+      {
+        "band_km": "210-220",
+        "band_start": 210,
+        "band_end": 220,
+        "monuments": 6,
+        "settlements": 48,
+        "total_classified": 54,
+        "monument_to_settlement_ratio": 0.125,
+        "monument_pct": 11.11
+      },
+      {
+        "band_km": "220-230",
+        "band_start": 220,
+        "band_end": 230,
+        "monuments": 8,
+        "settlements": 49,
+        "total_classified": 57,
+        "monument_to_settlement_ratio": 0.163,
+        "monument_pct": 14.04
+      },
+      {
+        "band_km": "230-240",
+        "band_start": 230,
+        "band_end": 240,
+        "monuments": 13,
+        "settlements": 52,
+        "total_classified": 65,
+        "monument_to_settlement_ratio": 0.25,
+        "monument_pct": 20.0
+      },
+      {
+        "band_km": "240-250",
+        "band_start": 240,
+        "band_end": 250,
+        "monuments": 8,
+        "settlements": 59,
+        "total_classified": 67,
+        "monument_to_settlement_ratio": 0.136,
+        "monument_pct": 11.94
+      },
+      {
+        "band_km": "250-260",
+        "band_start": 250,
+        "band_end": 260,
+        "monuments": 37,
+        "settlements": 48,
+        "total_classified": 85,
+        "monument_to_settlement_ratio": 0.771,
+        "monument_pct": 43.53
+      },
+      {
+        "band_km": "260-270",
+        "band_start": 260,
+        "band_end": 270,
+        "monuments": 5,
+        "settlements": 48,
+        "total_classified": 53,
+        "monument_to_settlement_ratio": 0.104,
+        "monument_pct": 9.43
+      },
+      {
+        "band_km": "270-280",
+        "band_start": 270,
+        "band_end": 280,
+        "monuments": 2,
+        "settlements": 41,
+        "total_classified": 43,
+        "monument_to_settlement_ratio": 0.049,
+        "monument_pct": 4.65
+      },
+      {
+        "band_km": "280-290",
+        "band_start": 280,
+        "band_end": 290,
+        "monuments": 17,
+        "settlements": 53,
+        "total_classified": 70,
+        "monument_to_settlement_ratio": 0.321,
+        "monument_pct": 24.29
+      },
+      {
+        "band_km": "290-300",
+        "band_start": 290,
+        "band_end": 300,
+        "monuments": 2,
+        "settlements": 47,
+        "total_classified": 49,
+        "monument_to_settlement_ratio": 0.043,
+        "monument_pct": 4.08
+      },
+      {
+        "band_km": "300-310",
+        "band_start": 300,
+        "band_end": 310,
+        "monuments": 11,
+        "settlements": 46,
+        "total_classified": 57,
+        "monument_to_settlement_ratio": 0.239,
+        "monument_pct": 19.3
+      },
+      {
+        "band_km": "310-320",
+        "band_start": 310,
+        "band_end": 320,
+        "monuments": 8,
+        "settlements": 55,
+        "total_classified": 63,
+        "monument_to_settlement_ratio": 0.145,
+        "monument_pct": 12.7
+      },
+      {
+        "band_km": "320-330",
+        "band_start": 320,
+        "band_end": 330,
+        "monuments": 3,
+        "settlements": 46,
+        "total_classified": 49,
+        "monument_to_settlement_ratio": 0.065,
+        "monument_pct": 6.12
+      },
+      {
+        "band_km": "330-340",
+        "band_start": 330,
+        "band_end": 340,
+        "monuments": 12,
+        "settlements": 38,
+        "total_classified": 50,
+        "monument_to_settlement_ratio": 0.316,
+        "monument_pct": 24.0
+      },
+      {
+        "band_km": "340-350",
+        "band_start": 340,
+        "band_end": 350,
+        "monuments": 8,
+        "settlements": 47,
+        "total_classified": 55,
+        "monument_to_settlement_ratio": 0.17,
+        "monument_pct": 14.55
+      },
+      {
+        "band_km": "350-360",
+        "band_start": 350,
+        "band_end": 360,
+        "monuments": 4,
+        "settlements": 38,
+        "total_classified": 42,
+        "monument_to_settlement_ratio": 0.105,
+        "monument_pct": 9.52
+      },
+      {
+        "band_km": "360-370",
+        "band_start": 360,
+        "band_end": 370,
+        "monuments": 6,
+        "settlements": 34,
+        "total_classified": 40,
+        "monument_to_settlement_ratio": 0.176,
+        "monument_pct": 15.0
+      },
+      {
+        "band_km": "370-380",
+        "band_start": 370,
+        "band_end": 380,
+        "monuments": 14,
+        "settlements": 36,
+        "total_classified": 50,
+        "monument_to_settlement_ratio": 0.389,
+        "monument_pct": 28.0
+      },
+      {
+        "band_km": "380-390",
+        "band_start": 380,
+        "band_end": 390,
+        "monuments": 9,
+        "settlements": 35,
+        "total_classified": 44,
+        "monument_to_settlement_ratio": 0.257,
+        "monument_pct": 20.45
+      },
+      {
+        "band_km": "390-400",
+        "band_start": 390,
+        "band_end": 400,
+        "monuments": 6,
+        "settlements": 36,
+        "total_classified": 42,
+        "monument_to_settlement_ratio": 0.167,
+        "monument_pct": 14.29
+      },
+      {
+        "band_km": "400-410",
+        "band_start": 400,
+        "band_end": 410,
+        "monuments": 8,
+        "settlements": 59,
+        "total_classified": 67,
+        "monument_to_settlement_ratio": 0.136,
+        "monument_pct": 11.94
+      },
+      {
+        "band_km": "410-420",
+        "band_start": 410,
+        "band_end": 420,
+        "monuments": 14,
+        "settlements": 60,
+        "total_classified": 74,
+        "monument_to_settlement_ratio": 0.233,
+        "monument_pct": 18.92
+      },
+      {
+        "band_km": "420-430",
+        "band_start": 420,
+        "band_end": 430,
+        "monuments": 31,
+        "settlements": 62,
+        "total_classified": 93,
+        "monument_to_settlement_ratio": 0.5,
+        "monument_pct": 33.33
+      },
+      {
+        "band_km": "430-440",
+        "band_start": 430,
+        "band_end": 440,
+        "monuments": 29,
+        "settlements": 49,
+        "total_classified": 78,
+        "monument_to_settlement_ratio": 0.592,
+        "monument_pct": 37.18
+      },
+      {
+        "band_km": "440-450",
+        "band_start": 440,
+        "band_end": 450,
+        "monuments": 20,
+        "settlements": 44,
+        "total_classified": 64,
+        "monument_to_settlement_ratio": 0.455,
+        "monument_pct": 31.25
+      },
+      {
+        "band_km": "450-460",
+        "band_start": 450,
+        "band_end": 460,
+        "monuments": 8,
+        "settlements": 43,
+        "total_classified": 51,
+        "monument_to_settlement_ratio": 0.186,
+        "monument_pct": 15.69
+      },
+      {
+        "band_km": "460-470",
+        "band_start": 460,
+        "band_end": 470,
+        "monuments": 14,
+        "settlements": 47,
+        "total_classified": 61,
+        "monument_to_settlement_ratio": 0.298,
+        "monument_pct": 22.95
+      },
+      {
+        "band_km": "470-480",
+        "band_start": 470,
+        "band_end": 480,
+        "monuments": 68,
+        "settlements": 41,
+        "total_classified": 109,
+        "monument_to_settlement_ratio": 1.659,
+        "monument_pct": 62.39
+      },
+      {
+        "band_km": "480-490",
+        "band_start": 480,
+        "band_end": 490,
+        "monuments": 7,
+        "settlements": 36,
+        "total_classified": 43,
+        "monument_to_settlement_ratio": 0.194,
+        "monument_pct": 16.28
+      },
+      {
+        "band_km": "490-500",
+        "band_start": 490,
+        "band_end": 500,
+        "monuments": 31,
+        "settlements": 42,
+        "total_classified": 73,
+        "monument_to_settlement_ratio": 0.738,
+        "monument_pct": 42.47
+      }
+    ],
+    "baseline_monument_pct_200_500km": 23.5,
+    "excess_disappears_at_km": 20,
+    "trend": {
+      "slope": 0.000778,
+      "r_value": 0.0087,
+      "p_value": 0.95207483,
+      "significant_decay": false
+    }
+  },
+  "megalithic_portal": {
+    "description": "Prehistoric vs Later types from Megalithic Portal KML data",
+    "total_within_500km": 1237,
+    "n_prehistoric": 475,
+    "n_later": 762,
+    "bands": [
+      {
+        "band_km": "0-10",
+        "band_start": 0,
+        "band_end": 10,
+        "prehistoric": 53,
+        "later": 39,
+        "total": 92,
+        "prehistoric_to_later_ratio": 1.359,
+        "prehistoric_pct": 57.61
+      },
+      {
+        "band_km": "10-20",
+        "band_start": 10,
+        "band_end": 20,
+        "prehistoric": 32,
+        "later": 55,
+        "total": 87,
+        "prehistoric_to_later_ratio": 0.582,
+        "prehistoric_pct": 36.78
+      },
+      {
+        "band_km": "20-30",
+        "band_start": 20,
+        "band_end": 30,
+        "prehistoric": 12,
+        "later": 22,
+        "total": 34,
+        "prehistoric_to_later_ratio": 0.545,
+        "prehistoric_pct": 35.29
+      },
+      {
+        "band_km": "30-40",
+        "band_start": 30,
+        "band_end": 40,
+        "prehistoric": 15,
+        "later": 31,
+        "total": 46,
+        "prehistoric_to_later_ratio": 0.484,
+        "prehistoric_pct": 32.61
+      },
+      {
+        "band_km": "40-50",
+        "band_start": 40,
+        "band_end": 50,
+        "prehistoric": 22,
+        "later": 30,
+        "total": 52,
+        "prehistoric_to_later_ratio": 0.733,
+        "prehistoric_pct": 42.31
+      },
+      {
+        "band_km": "50-60",
+        "band_start": 50,
+        "band_end": 60,
+        "prehistoric": 18,
+        "later": 19,
+        "total": 37,
+        "prehistoric_to_later_ratio": 0.947,
+        "prehistoric_pct": 48.65
+      },
+      {
+        "band_km": "60-70",
+        "band_start": 60,
+        "band_end": 70,
+        "prehistoric": 10,
+        "later": 24,
+        "total": 34,
+        "prehistoric_to_later_ratio": 0.417,
+        "prehistoric_pct": 29.41
+      },
+      {
+        "band_km": "70-80",
+        "band_start": 70,
+        "band_end": 80,
+        "prehistoric": 19,
+        "later": 8,
+        "total": 27,
+        "prehistoric_to_later_ratio": 2.375,
+        "prehistoric_pct": 70.37
+      },
+      {
+        "band_km": "80-90",
+        "band_start": 80,
+        "band_end": 90,
+        "prehistoric": 8,
+        "later": 9,
+        "total": 17,
+        "prehistoric_to_later_ratio": 0.889,
+        "prehistoric_pct": 47.06
+      },
+      {
+        "band_km": "90-100",
+        "band_start": 90,
+        "band_end": 100,
+        "prehistoric": 10,
+        "later": 6,
+        "total": 16,
+        "prehistoric_to_later_ratio": 1.667,
+        "prehistoric_pct": 62.5
+      },
+      {
+        "band_km": "100-110",
+        "band_start": 100,
+        "band_end": 110,
+        "prehistoric": 16,
+        "later": 8,
+        "total": 24,
+        "prehistoric_to_later_ratio": 2.0,
+        "prehistoric_pct": 66.67
+      },
+      {
+        "band_km": "110-120",
+        "band_start": 110,
+        "band_end": 120,
+        "prehistoric": 11,
+        "later": 13,
+        "total": 24,
+        "prehistoric_to_later_ratio": 0.846,
+        "prehistoric_pct": 45.83
+      },
+      {
+        "band_km": "120-130",
+        "band_start": 120,
+        "band_end": 130,
+        "prehistoric": 11,
+        "later": 12,
+        "total": 23,
+        "prehistoric_to_later_ratio": 0.917,
+        "prehistoric_pct": 47.83
+      },
+      {
+        "band_km": "130-140",
+        "band_start": 130,
+        "band_end": 140,
+        "prehistoric": 8,
+        "later": 15,
+        "total": 23,
+        "prehistoric_to_later_ratio": 0.533,
+        "prehistoric_pct": 34.78
+      },
+      {
+        "band_km": "140-150",
+        "band_start": 140,
+        "band_end": 150,
+        "prehistoric": 13,
+        "later": 10,
+        "total": 23,
+        "prehistoric_to_later_ratio": 1.3,
+        "prehistoric_pct": 56.52
+      },
+      {
+        "band_km": "150-160",
+        "band_start": 150,
+        "band_end": 160,
+        "prehistoric": 14,
+        "later": 12,
+        "total": 26,
+        "prehistoric_to_later_ratio": 1.167,
+        "prehistoric_pct": 53.85
+      },
+      {
+        "band_km": "160-170",
+        "band_start": 160,
+        "band_end": 170,
+        "prehistoric": 13,
+        "later": 62,
+        "total": 75,
+        "prehistoric_to_later_ratio": 0.21,
+        "prehistoric_pct": 17.33
+      },
+      {
+        "band_km": "170-180",
+        "band_start": 170,
+        "band_end": 180,
+        "prehistoric": 12,
+        "later": 33,
+        "total": 45,
+        "prehistoric_to_later_ratio": 0.364,
+        "prehistoric_pct": 26.67
+      },
+      {
+        "band_km": "180-190",
+        "band_start": 180,
+        "band_end": 190,
+        "prehistoric": 9,
+        "later": 15,
+        "total": 24,
+        "prehistoric_to_later_ratio": 0.6,
+        "prehistoric_pct": 37.5
+      },
+      {
+        "band_km": "190-200",
+        "band_start": 190,
+        "band_end": 200,
+        "prehistoric": 7,
+        "later": 9,
+        "total": 16,
+        "prehistoric_to_later_ratio": 0.778,
+        "prehistoric_pct": 43.75
+      },
+      {
+        "band_km": "200-210",
+        "band_start": 200,
+        "band_end": 210,
+        "prehistoric": 5,
+        "later": 9,
+        "total": 14,
+        "prehistoric_to_later_ratio": 0.556,
+        "prehistoric_pct": 35.71
+      },
+      {
+        "band_km": "210-220",
+        "band_start": 210,
+        "band_end": 220,
+        "prehistoric": 8,
+        "later": 7,
+        "total": 15,
+        "prehistoric_to_later_ratio": 1.143,
+        "prehistoric_pct": 53.33
+      },
+      {
+        "band_km": "220-230",
+        "band_start": 220,
+        "band_end": 230,
+        "prehistoric": 3,
+        "later": 7,
+        "total": 10,
+        "prehistoric_to_later_ratio": 0.429,
+        "prehistoric_pct": 30.0
+      },
+      {
+        "band_km": "230-240",
+        "band_start": 230,
+        "band_end": 240,
+        "prehistoric": 0,
+        "later": 9,
+        "total": 9,
+        "prehistoric_to_later_ratio": 0.0,
+        "prehistoric_pct": 0.0
+      },
+      {
+        "band_km": "240-250",
+        "band_start": 240,
+        "band_end": 250,
+        "prehistoric": 2,
+        "later": 13,
+        "total": 15,
+        "prehistoric_to_later_ratio": 0.154,
+        "prehistoric_pct": 13.33
+      },
+      {
+        "band_km": "250-260",
+        "band_start": 250,
+        "band_end": 260,
+        "prehistoric": 5,
+        "later": 13,
+        "total": 18,
+        "prehistoric_to_later_ratio": 0.385,
+        "prehistoric_pct": 27.78
+      },
+      {
+        "band_km": "260-270",
+        "band_start": 260,
+        "band_end": 270,
+        "prehistoric": 8,
+        "later": 7,
+        "total": 15,
+        "prehistoric_to_later_ratio": 1.143,
+        "prehistoric_pct": 53.33
+      },
+      {
+        "band_km": "270-280",
+        "band_start": 270,
+        "band_end": 280,
+        "prehistoric": 7,
+        "later": 11,
+        "total": 18,
+        "prehistoric_to_later_ratio": 0.636,
+        "prehistoric_pct": 38.89
+      },
+      {
+        "band_km": "280-290",
+        "band_start": 280,
+        "band_end": 290,
+        "prehistoric": 4,
+        "later": 11,
+        "total": 15,
+        "prehistoric_to_later_ratio": 0.364,
+        "prehistoric_pct": 26.67
+      },
+      {
+        "band_km": "290-300",
+        "band_start": 290,
+        "band_end": 300,
+        "prehistoric": 2,
+        "later": 8,
+        "total": 10,
+        "prehistoric_to_later_ratio": 0.25,
+        "prehistoric_pct": 20.0
+      },
+      {
+        "band_km": "300-310",
+        "band_start": 300,
+        "band_end": 310,
+        "prehistoric": 6,
+        "later": 11,
+        "total": 17,
+        "prehistoric_to_later_ratio": 0.545,
+        "prehistoric_pct": 35.29
+      },
+      {
+        "band_km": "310-320",
+        "band_start": 310,
+        "band_end": 320,
+        "prehistoric": 5,
+        "later": 10,
+        "total": 15,
+        "prehistoric_to_later_ratio": 0.5,
+        "prehistoric_pct": 33.33
+      },
+      {
+        "band_km": "320-330",
+        "band_start": 320,
+        "band_end": 330,
+        "prehistoric": 3,
+        "later": 6,
+        "total": 9,
+        "prehistoric_to_later_ratio": 0.5,
+        "prehistoric_pct": 33.33
+      },
+      {
+        "band_km": "330-340",
+        "band_start": 330,
+        "band_end": 340,
+        "prehistoric": 6,
+        "later": 6,
+        "total": 12,
+        "prehistoric_to_later_ratio": 1.0,
+        "prehistoric_pct": 50.0
+      },
+      {
+        "band_km": "340-350",
+        "band_start": 340,
+        "band_end": 350,
+        "prehistoric": 5,
+        "later": 9,
+        "total": 14,
+        "prehistoric_to_later_ratio": 0.556,
+        "prehistoric_pct": 35.71
+      },
+      {
+        "band_km": "350-360",
+        "band_start": 350,
+        "band_end": 360,
+        "prehistoric": 2,
+        "later": 4,
+        "total": 6,
+        "prehistoric_to_later_ratio": 0.5,
+        "prehistoric_pct": 33.33
+      },
+      {
+        "band_km": "360-370",
+        "band_start": 360,
+        "band_end": 370,
+        "prehistoric": 3,
+        "later": 10,
+        "total": 13,
+        "prehistoric_to_later_ratio": 0.3,
+        "prehistoric_pct": 23.08
+      },
+      {
+        "band_km": "370-380",
+        "band_start": 370,
+        "band_end": 380,
+        "prehistoric": 2,
+        "later": 7,
+        "total": 9,
+        "prehistoric_to_later_ratio": 0.286,
+        "prehistoric_pct": 22.22
+      },
+      {
+        "band_km": "380-390",
+        "band_start": 380,
+        "band_end": 390,
+        "prehistoric": 2,
+        "later": 13,
+        "total": 15,
+        "prehistoric_to_later_ratio": 0.154,
+        "prehistoric_pct": 13.33
+      },
+      {
+        "band_km": "390-400",
+        "band_start": 390,
+        "band_end": 400,
+        "prehistoric": 2,
+        "later": 5,
+        "total": 7,
+        "prehistoric_to_later_ratio": 0.4,
+        "prehistoric_pct": 28.57
+      },
+      {
+        "band_km": "400-410",
+        "band_start": 400,
+        "band_end": 410,
+        "prehistoric": 10,
+        "later": 5,
+        "total": 15,
+        "prehistoric_to_later_ratio": 2.0,
+        "prehistoric_pct": 66.67
+      },
+      {
+        "band_km": "410-420",
+        "band_start": 410,
+        "band_end": 420,
+        "prehistoric": 10,
+        "later": 11,
+        "total": 21,
+        "prehistoric_to_later_ratio": 0.909,
+        "prehistoric_pct": 47.62
+      },
+      {
+        "band_km": "420-430",
+        "band_start": 420,
+        "band_end": 430,
+        "prehistoric": 15,
+        "later": 12,
+        "total": 27,
+        "prehistoric_to_later_ratio": 1.25,
+        "prehistoric_pct": 55.56
+      },
+      {
+        "band_km": "430-440",
+        "band_start": 430,
+        "band_end": 440,
+        "prehistoric": 10,
+        "later": 21,
+        "total": 31,
+        "prehistoric_to_later_ratio": 0.476,
+        "prehistoric_pct": 32.26
+      },
+      {
+        "band_km": "440-450",
+        "band_start": 440,
+        "band_end": 450,
+        "prehistoric": 5,
+        "later": 13,
+        "total": 18,
+        "prehistoric_to_later_ratio": 0.385,
+        "prehistoric_pct": 27.78
+      },
+      {
+        "band_km": "450-460",
+        "band_start": 450,
+        "band_end": 460,
+        "prehistoric": 2,
+        "later": 8,
+        "total": 10,
+        "prehistoric_to_later_ratio": 0.25,
+        "prehistoric_pct": 20.0
+      },
+      {
+        "band_km": "460-470",
+        "band_start": 460,
+        "band_end": 470,
+        "prehistoric": 3,
+        "later": 6,
+        "total": 9,
+        "prehistoric_to_later_ratio": 0.5,
+        "prehistoric_pct": 33.33
+      },
+      {
+        "band_km": "470-480",
+        "band_start": 470,
+        "band_end": 480,
+        "prehistoric": 16,
+        "later": 49,
+        "total": 65,
+        "prehistoric_to_later_ratio": 0.327,
+        "prehistoric_pct": 24.62
+      },
+      {
+        "band_km": "480-490",
+        "band_start": 480,
+        "band_end": 490,
+        "prehistoric": 8,
+        "later": 22,
+        "total": 30,
+        "prehistoric_to_later_ratio": 0.364,
+        "prehistoric_pct": 26.67
+      },
+      {
+        "band_km": "490-500",
+        "band_start": 490,
+        "band_end": 500,
+        "prehistoric": 3,
+        "later": 7,
+        "total": 10,
+        "prehistoric_to_later_ratio": 0.429,
+        "prehistoric_pct": 30.0
+      }
+    ],
+    "trend": {
+      "slope": -0.036473,
+      "r_value": -0.3529,
+      "p_value": 0.01195919,
+      "significant_decay": true
+    }
+  },
+  "summary": {
+    "pleiades_verdict": "Monument proportion increases with distance from the circle (slope=0.0008, r=0.009, p=0.9521). Baseline (200-500km) = 23.5%. Monument excess disappears at ~20km.",
+    "megp_verdict": "Prehistoric proportion decreases with distance (slope=-0.0365, r=-0.353, p=0.0120)."
+  }
+}

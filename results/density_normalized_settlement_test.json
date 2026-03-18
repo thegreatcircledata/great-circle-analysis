@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "name": "P2-J: Site Density Normalization",
+    "date": "2026-03-16",
+    "dataset": "Pleiades Gazetteer",
+    "n_sites": 34470,
+    "n_monumental": 4598,
+    "n_settlements": 18488,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "kernel_radius_km": 100
+  },
+  "band_analysis": [
+    {
+      "band": "0-50km",
+      "distance_range_km": [
+        0,
+        50
+      ],
+      "total_sites": 302,
+      "monuments": 83,
+      "settlements": 122,
+      "classified_total": 205,
+      "monument_proportion": 40.49,
+      "settlement_proportion": 59.51
+    },
+    {
+      "band": "50-100km",
+      "distance_range_km": [
+        50,
+        100
+      ],
+      "total_sites": 369,
+      "monuments": 48,
+      "settlements": 174,
+      "classified_total": 222,
+      "monument_proportion": 21.62,
+      "settlement_proportion": 78.38
+    },
+    {
+      "band": "100-200km",
+      "distance_range_km": [
+        100,
+        200
+      ],
+      "total_sites": 845,
+      "monuments": 115,
+      "settlements": 460,
+      "classified_total": 575,
+      "monument_proportion": 20.0,
+      "settlement_proportion": 80.0
+    },
+    {
+      "band": "200-500km",
+      "distance_range_km": [
+        200,
+        500
+      ],
+      "total_sites": 2790,
+      "monuments": 418,
+      "settlements": 1393,
+      "classified_total": 1811,
+      "monument_proportion": 23.08,
+      "settlement_proportion": 76.92
+    },
+    {
+      "band": "500+km",
+      "distance_range_km": [
+        500,
+        "inf"
+      ],
+      "total_sites": 30164,
+      "monuments": 3934,
+      "settlements": 16339,
+      "classified_total": 20273,
+      "monument_proportion": 19.41,
+      "settlement_proportion": 80.59
+    }
+  ],
+  "chi_squared_near_vs_mid": {
+    "description": "Chi-squared test comparing monument proportion 0-50km vs 50-200km from circle",
+    "near_0_50km": {
+      "monuments": 83,
+      "settlements": 122,
+      "monument_pct": 40.49
+    },
+    "mid_50_200km": {
+      "monuments": 163,
+      "settlements": 634,
+      "monument_pct": 20.45
+    },
+    "chi_squared": 34.2653,
+    "p_value": 0.0,
+    "significant_at_005": true
+  },
+  "fisher_exact_near_vs_mid": {
+    "odds_ratio": 2.6462,
+    "p_value": 1e-08,
+    "significant_at_005": true
+  },
+  "chi_squared_near_vs_far": {
+    "description": "Chi-squared test comparing monument proportion 0-50km vs 200-500km",
+    "near_monument_pct": 40.49,
+    "far_monument_pct": 23.08,
+    "chi_squared": 28.9526,
+    "p_value": 7e-08,
+    "significant_at_005": true
+  },
+  "local_density_analysis": {
+    "description": "Local monument proportion within 100km kernel for sampled sites near the circle",
+    "n_near_samples": 88,
+    "n_mid_samples": 370,
+    "mean_local_mon_prop_near": 0.359,
+    "mean_local_mon_prop_mid": 0.2233,
+    "mann_whitney_u": 25962.0,
+    "mann_whitney_p": 0.0,
+    "significant_at_005": true
+  },
+  "summary": {
+    "monument_proportion_near_circle": 40.49,
+    "monument_proportion_mid_range": 20.45,
+    "monument_proportion_far": 23.08,
+    "verdict": "Monument proportion is HIGHER near the circle (40.5% vs 20.5% at 50-200km). Chi-squared p=0.000000. This is statistically significant."
+  }
+}

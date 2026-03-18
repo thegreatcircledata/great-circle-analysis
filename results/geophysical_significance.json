@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "research_date": "2026-03-16",
+    "topic": "Geophysical significance of Alison Great Circle",
+    "methodology": "Web research synthesizing mainstream geological and geophysical sources",
+    "great_circle_pole": {"lat": 59.682122, "lon": -138.646087}
+  },
+  "pole_location": {
+    "coordinates": {"lat": 59.682122, "lon": -138.646087},
+    "location_description": "Southeastern Alaska, Saint Elias Mountains, near Alaska-Yukon border",
+    "geological_features": [
+      "Heart of the Saint Elias orogen — one of Earth's most tectonically active regions",
+      "World's highest coastal mountain range (peaks >5000m)",
+      "Yakutat microplate collision zone",
+      "Fairweather Fault transforms to Chugach-St. Elias thrust fault here",
+      "St. Elias syntaxis — transition from transform to convergent plate boundary"
+    ],
+    "yakutat_microplate": {
+      "description": "Wedge-shaped oceanic plateau colliding with North America at 43-50 mm/yr",
+      "crustal_thickness": "15-30km (thickening from NW to SE)",
+      "significance": "Modern-day example of terrane accretion — analogous to India-Asia collision that built the Himalayas",
+      "flat_slab_subduction": true,
+      "origin": "Originated at least 30° of latitude south of current position (near Washington/Oregon/California)"
+    },
+    "is_geologically_significant": true,
+    "assessment": "The pole location is at one of the most tectonically significant collision zones on Earth. However, this is coincidental — the pole is defined by the circle, not the other way around. Any great circle must have a pole somewhere, and Earth's surface has many tectonically active regions."
+  },
+  "hapgood_hypothesis": {
+    "proposed_pole_positions": [
+      {"position": 1, "name": "Yukon Pole", "lat": 63.0, "lon": -135.0, "date_bp": "80,000-75,000"},
+      {"position": 2, "name": "Greenland Sea Pole", "lat": 72.0, "lon": 10.0, "date_bp": "55,000-50,000"},
+      {"position": 3, "name": "Hudson Bay Pole", "lat": 60.0, "lon": -73.0, "date_bp": "17,000-12,000"},
+      {"position": 4, "name": "Current Pole", "lat": 90.0, "lon": 0.0, "date_bp": "present"}
+    ],
+    "distance_from_our_pole_to_hapgood_yukon_km": 444,
+    "distance_calculation": "haversine(59.68, -138.65, 63.0, -135.0) ≈ 444 km",
+    "proximity_assessment": "Hapgood's Yukon pole at 63°N, 135°W is approximately 444km from our circle's pole at 59.68°N, 138.65°W. Close but not coincident. The ~3.3° latitude difference and ~3.7° longitude difference is substantial.",
+    "scientific_status": "Hapgood's crustal displacement hypothesis is considered pseudoscientific by mainstream geology. True polar wander data shows rates of ~1° per million years, not the rapid shifts (1° per thousand years) Hapgood proposed. Einstein wrote a foreword to Hapgood's 1958 book expressing interest in the mechanism but not endorsing the conclusions. In his later work, Hapgood himself conceded that polar ice mass was insufficient to cause displacement.",
+    "relevance_to_project": "The proximity of Hapgood's Yukon pole to our circle's pole will certainly be noticed by the Hancock/Carlson community. However: (1) 444km is not very close, (2) Hapgood's hypothesis is rejected by mainstream science, and (3) invoking it would undermine our statistical credibility. Best approach: acknowledge it transparently, note the ~444km distance, and state that our analysis neither supports nor requires crustal displacement."
+  },
+  "true_polar_wander": {
+    "mainstream_science": {
+      "definition": "Solid-body rotation of Earth with respect to its spin axis, caused by rearrangement of mantle mass",
+      "established_rates": "≤1° per million years during Phanerozoic (last 539 Ma). ~3 cm/year.",
+      "total_wander_200ma": "~30° over last 200 million years",
+      "recent_rapid_events": "Possible rapid TPW (~5°/Ma) between 832-821 Ma ago (Neoproterozoic)",
+      "no_recent_rapid_shifts": "No evidence for rapid geographic pole shifts in the last 130 million years (≤5° total deviation)"
+    },
+    "relevance": "Mainstream TPW data does not place any past pole near 59.68°N, 138.65°W in geologically recent times. The pole has been within ~5° of its current position for at least 130 Ma. This is NOT evidence for the circle's significance.",
+    "key_distinction": "True polar wander is real but extremely slow. It does not support Hapgood-style rapid displacement."
+  },
+  "circle_tilt": {
+    "tilt_from_equator_degrees": 30.3,
+    "tropic_of_cancer": 23.4,
+    "assessment": "The circle's ~30° tilt does not correspond to any known geophysical feature. The Tropic of Cancer is at 23.4°. The 30° angle has no special significance in Earth science. Some crystal lattice angles involve 30° but this is not relevant at planetary scale.",
+    "is_significant": false
+  },
+  "equator_crossings": {
+    "crossing_1": {
+      "approximate_longitude": -48.7,
+      "geography": "Near the mouth of the Amazon River, between Marajó Island and the coast of Amapá/French Guiana, Brazil",
+      "geological_features": "Amazon River mouth — world's largest river by discharge. Continental shelf extends significantly during LGM. No major tectonic boundary at this specific point.",
+      "tectonic_context": "South American plate interior, not near any plate boundary"
+    },
+    "crossing_2": {
+      "approximate_longitude": 131.3,
+      "geography": "Near the northwest coast of New Guinea (West Papua, Indonesia) / Raja Ampat area",
+      "geological_features": "Complex tectonic zone — convergence of Pacific, Indo-Australian, and Philippine Sea plates. Multiple microplates.",
+      "tectonic_context": "Near the Bird's Head plate / West Papua seismic zone. Tectonically active region."
+    },
+    "assessment": "Crossing 2 (New Guinea) is near a tectonically complex zone. Crossing 1 (Amazon) is not tectonically significant. Neither crossing point has special geological status that would explain the circle's path."
+  },
+  "antipodal_pole": {
+    "coordinates": {"lat": -59.68, "lon": 41.35},
+    "location": "Southern Ocean, approximately 1,400km SE of the Prince Edward Islands (which are at 46.9°S, 37.8°E)",
+    "geological_features": "Open ocean on the Antarctic Plate, south of the Southwest Indian Ocean Ridge. The Prince Edward Islands are volcanic islands on a hotspot near the mid-ocean ridge, but they are >1000km away from the antipodal point.",
+    "is_significant": false,
+    "assessment": "The antipodal pole falls in open Southern Ocean with no significant geological features. Not near any known hotspot, ridge, or anomaly."
+  },
+  "tectonic_correlations": {
+    "features_circle_crosses_near": [
+      "Nazca-South American plate boundary (Andes subduction zone) — circle passes through Peru/Bolivia",
+      "East African Rift system — circle passes near East Africa",
+      "Red Sea Rift — circle passes through Egypt/Sudan region",
+      "Indo-Australian plate boundary — circle passes near Indonesia/New Guinea",
+      "Alpine-Mediterranean belt — circle passes through North Africa near this belt"
+    ],
+    "features_circle_avoids": [
+      "Mid-Atlantic Ridge (mostly)",
+      "Cascadia/Pacific Ring of Fire northern section",
+      "Himalayan collision zone (passes south of it)"
+    ],
+    "assessment": "The circle crosses several major tectonic features, but any great circle spanning 40,000km will inevitably cross multiple plate boundaries. This is not diagnostic of anything special."
+  },
+  "geophysical_anomalies": {
+    "geoid_anomalies": "No known correlation between the circle's path and major geoid anomalies. The major geoid low is in the Indian Ocean (~-106m near Sri Lanka), and the major geoid high is near New Guinea (~+85m). The circle does pass near the New Guinea geoid high, but this appears coincidental.",
+    "gravity_anomalies": "No systematic correlation identified",
+    "mantle_plumes": "The circle passes near some proposed mantle plume locations (East African superplume region) but avoids others. No systematic correlation.",
+    "is_significant": false
+  },
+  "summary": "The circle's pole is at a genuinely significant tectonic location (Yakutat microplate collision zone), and it is ~444km from Hapgood's proposed 'Yukon pole.' However, mainstream geology rejects Hapgood's hypothesis, and the pole's tectonic significance appears coincidental — any point on the Pacific Ring of Fire would be 'tectonically significant.' The circle itself does not systematically follow any geophysical feature. The ~30° tilt has no known geophysical meaning. The equator crossings are not geologically special (one is at the Amazon mouth, one is near a complex tectonic zone in New Guinea). The antipodal pole is in featureless Southern Ocean. BOTTOM LINE: There is no mainstream geophysical reason why this particular great circle should be special. The Hapgood proximity will excite the alternative community but should be handled with transparency and caution."
+}

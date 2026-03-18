@@ -1,0 +1,18 @@
+{
+  "dare_pleiades_overlap": {
+    "dare_total": 26936,
+    "pleiades_total": 34470,
+    "overlapping": 15596,
+    "dare_non_overlapping": 11340,
+    "overlap_percentage": 57.9,
+    "threshold_meters": 500
+  },
+  "darmc_pleiades_overlap": {
+    "darmc_total": 4231,
+    "pleiades_total": 34470,
+    "overlapping": 671,
+    "darmc_non_overlapping": 3560,
+    "overlap_percentage": 15.9,
+    "threshold_meters": 500
+  }
+}

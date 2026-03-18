@@ -1,0 +1,2567 @@
+{
+  "meta": {
+    "name": "P2-L: Quantitative Geological Correlation",
+    "date": "2026-03-16",
+    "earthquake_source": "USGS FDSNWS API (M5.0+, 1900-2025)",
+    "n_earthquakes": 69539,
+    "n_circle_points": 360,
+    "earthquake_radius_km": 100,
+    "n_random_circles": 200,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "earthquake_density_along_circle": {
+    "total_earthquakes_within_100km": 3981,
+    "mean_per_degree_point": 11.058,
+    "max_at_single_point": 368,
+    "points_with_zero_earthquakes": 245
+  },
+  "random_circle_comparison": {
+    "alison_total": 3981,
+    "random_mean": 1663.43,
+    "random_std": 1107.01,
+    "z_score": 2.09,
+    "percentile": 96.5,
+    "interpretation": "Alison's circle has 3981 earthquakes within 100km, vs random mean of 1663.4 (Z=2.09). The circle shows significant tectonic correlation."
+  },
+  "correlation_analysis": {
+    "pearson_r": -0.0215,
+    "pearson_p": 0.68495056,
+    "spearman_rho": 0.0458,
+    "spearman_p": 0.38612778,
+    "interpretation": "Pearson r=-0.021 (p=0.6850), Spearman rho=0.046 (p=0.3861). Sites and earthquakes are uncorrelated along the circle."
+  },
+  "tectonic_overlap": {
+    "circle_points_near_earthquakes": 115,
+    "circle_points_near_sites": 28,
+    "sites_that_are_also_near_earthquakes": 12,
+    "pct_sites_near_earthquakes": 42.86,
+    "pct_circle_on_tectonic": 31.94
+  },
+  "degree_by_degree": [
+    {
+      "degree": 0,
+      "lat": 0.0,
+      "lon": -48.65,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 1,
+      "lat": 0.5,
+      "lon": -47.78,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 2,
+      "lat": 1.01,
+      "lon": -46.92,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 3,
+      "lat": 1.51,
+      "lon": -46.06,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 4,
+      "lat": 2.02,
+      "lon": -45.19,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 5,
+      "lat": 2.52,
+      "lon": -44.33,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 6,
+      "lat": 3.02,
+      "lon": -43.46,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 7,
+      "lat": 3.53,
+      "lon": -42.6,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 8,
+      "lat": 4.03,
+      "lon": -41.73,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 9,
+      "lat": 4.53,
+      "lon": -40.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 10,
+      "lat": 5.03,
+      "lon": -39.99,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 11,
+      "lat": 5.53,
+      "lon": -39.12,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 12,
+      "lat": 6.02,
+      "lon": -38.25,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 13,
+      "lat": 6.52,
+      "lon": -37.38,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 14,
+      "lat": 7.01,
+      "lon": -36.5,
+      "earthquakes_within_100km": 29,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 15,
+      "lat": 7.51,
+      "lon": -35.62,
+      "earthquakes_within_100km": 23,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 16,
+      "lat": 8.0,
+      "lon": -34.74,
+      "earthquakes_within_100km": 13,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 17,
+      "lat": 8.49,
+      "lon": -33.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 18,
+      "lat": 8.97,
+      "lon": -32.98,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 19,
+      "lat": 9.46,
+      "lon": -32.09,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 20,
+      "lat": 9.94,
+      "lon": -31.2,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 21,
+      "lat": 10.42,
+      "lon": -30.31,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 22,
+      "lat": 10.9,
+      "lon": -29.42,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 23,
+      "lat": 11.38,
+      "lon": -28.52,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 24,
+      "lat": 11.85,
+      "lon": -27.62,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 25,
+      "lat": 12.32,
+      "lon": -26.72,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 26,
+      "lat": 12.78,
+      "lon": -25.81,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 27,
+      "lat": 13.25,
+      "lon": -24.9,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 28,
+      "lat": 13.71,
+      "lon": -23.99,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 29,
+      "lat": 14.17,
+      "lon": -23.07,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 30,
+      "lat": 14.62,
+      "lon": -22.15,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 31,
+      "lat": 15.07,
+      "lon": -21.23,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 32,
+      "lat": 15.52,
+      "lon": -20.3,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 33,
+      "lat": 15.96,
+      "lon": -19.37,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 34,
+      "lat": 16.4,
+      "lon": -18.44,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 35,
+      "lat": 16.83,
+      "lon": -17.5,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 36,
+      "lat": 17.26,
+      "lon": -16.55,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 37,
+      "lat": 17.69,
+      "lon": -15.6,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 38,
+      "lat": 18.11,
+      "lon": -14.65,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 39,
+      "lat": 18.52,
+      "lon": -13.69,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 40,
+      "lat": 18.93,
+      "lon": -12.73,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 41,
+      "lat": 19.34,
+      "lon": -11.76,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 42,
+      "lat": 19.74,
+      "lon": -10.79,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 43,
+      "lat": 20.14,
+      "lon": -9.81,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 44,
+      "lat": 20.53,
+      "lon": -8.83,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 45,
+      "lat": 20.91,
+      "lon": -7.84,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 46,
+      "lat": 21.29,
+      "lon": -6.85,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 47,
+      "lat": 21.67,
+      "lon": -5.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 48,
+      "lat": 22.03,
+      "lon": -4.85,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 49,
+      "lat": 22.39,
+      "lon": -3.85,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 50,
+      "lat": 22.75,
+      "lon": -2.83,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 51,
+      "lat": 23.1,
+      "lon": -1.82,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 52,
+      "lat": 23.44,
+      "lon": -0.79,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 53,
+      "lat": 23.78,
+      "lon": 0.23,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 54,
+      "lat": 24.1,
+      "lon": 1.27,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 55,
+      "lat": 24.43,
+      "lon": 2.31,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 56,
+      "lat": 24.74,
+      "lon": 3.35,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 57,
+      "lat": 25.05,
+      "lon": 4.4,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 58,
+      "lat": 25.35,
+      "lon": 5.45,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 59,
+      "lat": 25.64,
+      "lon": 6.51,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 60,
+      "lat": 25.92,
+      "lon": 7.58,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 61,
+      "lat": 26.2,
+      "lon": 8.65,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 62,
+      "lat": 26.47,
+      "lon": 9.72,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 63,
+      "lat": 26.73,
+      "lon": 10.8,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 64,
+      "lat": 26.98,
+      "lon": 11.89,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 65,
+      "lat": 27.23,
+      "lon": 12.98,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 66,
+      "lat": 27.46,
+      "lon": 14.07,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 67,
+      "lat": 27.69,
+      "lon": 15.17,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 68,
+      "lat": 27.91,
+      "lon": 16.27,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 69,
+      "lat": 28.12,
+      "lon": 17.38,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 70,
+      "lat": 28.32,
+      "lon": 18.49,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 71,
+      "lat": 28.51,
+      "lon": 19.61,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 72,
+      "lat": 28.69,
+      "lon": 20.73,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 73,
+      "lat": 28.86,
+      "lon": 21.85,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 74,
+      "lat": 29.03,
+      "lon": 22.98,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 75,
+      "lat": 29.18,
+      "lon": 24.11,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 76,
+      "lat": 29.33,
+      "lon": 25.24,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 19
+    },
+    {
+      "degree": 77,
+      "lat": 29.46,
+      "lon": 26.38,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 78,
+      "lat": 29.59,
+      "lon": 27.52,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 79,
+      "lat": 29.7,
+      "lon": 28.66,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 80,
+      "lat": 29.81,
+      "lon": 29.81,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 81,
+      "lat": 29.91,
+      "lon": 30.96,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 87
+    },
+    {
+      "degree": 82,
+      "lat": 29.99,
+      "lon": 32.11,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 5
+    },
+    {
+      "degree": 83,
+      "lat": 30.07,
+      "lon": 33.26,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 3
+    },
+    {
+      "degree": 84,
+      "lat": 30.13,
+      "lon": 34.41,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 3
+    },
+    {
+      "degree": 85,
+      "lat": 30.19,
+      "lon": 35.57,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 57
+    },
+    {
+      "degree": 86,
+      "lat": 30.24,
+      "lon": 36.72,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 87,
+      "lat": 30.27,
+      "lon": 37.88,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 88,
+      "lat": 30.3,
+      "lon": 39.04,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 89,
+      "lat": 30.31,
+      "lon": 40.2,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 90,
+      "lat": 30.32,
+      "lon": 41.35,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 91,
+      "lat": 30.31,
+      "lon": 42.51,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 92,
+      "lat": 30.3,
+      "lon": 43.67,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 93,
+      "lat": 30.27,
+      "lon": 44.83,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 94,
+      "lat": 30.24,
+      "lon": 45.99,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 95,
+      "lat": 30.19,
+      "lon": 47.14,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 96,
+      "lat": 30.13,
+      "lon": 48.3,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 97,
+      "lat": 30.07,
+      "lon": 49.45,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 98,
+      "lat": 29.99,
+      "lon": 50.6,
+      "earthquakes_within_100km": 44,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 99,
+      "lat": 29.91,
+      "lon": 51.75,
+      "earthquakes_within_100km": 54,
+      "sites_within_50km": 9
+    },
+    {
+      "degree": 100,
+      "lat": 29.81,
+      "lon": 52.9,
+      "earthquakes_within_100km": 7,
+      "sites_within_50km": 38
+    },
+    {
+      "degree": 101,
+      "lat": 29.7,
+      "lon": 54.04,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 102,
+      "lat": 29.59,
+      "lon": 55.19,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 103,
+      "lat": 29.46,
+      "lon": 56.33,
+      "earthquakes_within_100km": 5,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 104,
+      "lat": 29.33,
+      "lon": 57.46,
+      "earthquakes_within_100km": 20,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 105,
+      "lat": 29.18,
+      "lon": 58.6,
+      "earthquakes_within_100km": 5,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 106,
+      "lat": 29.03,
+      "lon": 59.73,
+      "earthquakes_within_100km": 9,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 107,
+      "lat": 28.86,
+      "lon": 60.86,
+      "earthquakes_within_100km": 5,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 108,
+      "lat": 28.69,
+      "lon": 61.98,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 109,
+      "lat": 28.51,
+      "lon": 63.1,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 110,
+      "lat": 28.32,
+      "lon": 64.22,
+      "earthquakes_within_100km": 6,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 111,
+      "lat": 28.12,
+      "lon": 65.33,
+      "earthquakes_within_100km": 17,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 112,
+      "lat": 27.91,
+      "lon": 66.44,
+      "earthquakes_within_100km": 23,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 113,
+      "lat": 27.69,
+      "lon": 67.54,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 114,
+      "lat": 27.46,
+      "lon": 68.64,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 3
+    },
+    {
+      "degree": 115,
+      "lat": 27.23,
+      "lon": 69.73,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 116,
+      "lat": 26.98,
+      "lon": 70.82,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 117,
+      "lat": 26.73,
+      "lon": 71.91,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 118,
+      "lat": 26.47,
+      "lon": 72.98,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 119,
+      "lat": 26.2,
+      "lon": 74.06,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 120,
+      "lat": 25.92,
+      "lon": 75.13,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 121,
+      "lat": 25.64,
+      "lon": 76.19,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 122,
+      "lat": 25.35,
+      "lon": 77.25,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 123,
+      "lat": 25.05,
+      "lon": 78.31,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 124,
+      "lat": 24.74,
+      "lon": 79.36,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 125,
+      "lat": 24.43,
+      "lon": 80.4,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 126,
+      "lat": 24.1,
+      "lon": 81.44,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 127,
+      "lat": 23.78,
+      "lon": 82.47,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 128,
+      "lat": 23.44,
+      "lon": 83.5,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 129,
+      "lat": 23.1,
+      "lon": 84.52,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 130,
+      "lat": 22.75,
+      "lon": 85.54,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 131,
+      "lat": 22.39,
+      "lon": 86.55,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 2
+    },
+    {
+      "degree": 132,
+      "lat": 22.03,
+      "lon": 87.56,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 133,
+      "lat": 21.67,
+      "lon": 88.56,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 134,
+      "lat": 21.29,
+      "lon": 89.56,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 135,
+      "lat": 20.91,
+      "lon": 90.55,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 136,
+      "lat": 20.53,
+      "lon": 91.54,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 137,
+      "lat": 20.14,
+      "lon": 92.52,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 138,
+      "lat": 19.74,
+      "lon": 93.5,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 1
+    },
+    {
+      "degree": 139,
+      "lat": 19.34,
+      "lon": 94.47,
+      "earthquakes_within_100km": 6,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 140,
+      "lat": 18.93,
+      "lon": 95.44,
+      "earthquakes_within_100km": 13,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 141,
+      "lat": 18.52,
+      "lon": 96.4,
+      "earthquakes_within_100km": 14,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 142,
+      "lat": 18.11,
+      "lon": 97.36,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 143,
+      "lat": 17.69,
+      "lon": 98.31,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 144,
+      "lat": 17.26,
+      "lon": 99.26,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 145,
+      "lat": 16.83,
+      "lon": 100.2,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 146,
+      "lat": 16.4,
+      "lon": 101.14,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 147,
+      "lat": 15.96,
+      "lon": 102.08,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 148,
+      "lat": 15.52,
+      "lon": 103.01,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 149,
+      "lat": 15.07,
+      "lon": 103.94,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 150,
+      "lat": 14.62,
+      "lon": 104.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 151,
+      "lat": 14.17,
+      "lon": 105.78,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 152,
+      "lat": 13.71,
+      "lon": 106.7,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 153,
+      "lat": 13.25,
+      "lon": 107.61,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 154,
+      "lat": 12.78,
+      "lon": 108.52,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 155,
+      "lat": 12.32,
+      "lon": 109.43,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 156,
+      "lat": 11.85,
+      "lon": 110.33,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 157,
+      "lat": 11.38,
+      "lon": 111.23,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 158,
+      "lat": 10.9,
+      "lon": 112.13,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 159,
+      "lat": 10.42,
+      "lon": 113.02,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 160,
+      "lat": 9.94,
+      "lon": 113.91,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 161,
+      "lat": 9.46,
+      "lon": 114.8,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 162,
+      "lat": 8.97,
+      "lon": 115.69,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 163,
+      "lat": 8.49,
+      "lon": 116.57,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 164,
+      "lat": 8.0,
+      "lon": 117.45,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 165,
+      "lat": 7.51,
+      "lon": 118.33,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 166,
+      "lat": 7.01,
+      "lon": 119.21,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 167,
+      "lat": 6.52,
+      "lon": 120.08,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 168,
+      "lat": 6.02,
+      "lon": 120.96,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 169,
+      "lat": 5.53,
+      "lon": 121.83,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 170,
+      "lat": 5.03,
+      "lon": 122.7,
+      "earthquakes_within_100km": 22,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 171,
+      "lat": 4.53,
+      "lon": 123.57,
+      "earthquakes_within_100km": 19,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 172,
+      "lat": 4.03,
+      "lon": 124.44,
+      "earthquakes_within_100km": 27,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 173,
+      "lat": 3.53,
+      "lon": 125.3,
+      "earthquakes_within_100km": 53,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 174,
+      "lat": 3.02,
+      "lon": 126.17,
+      "earthquakes_within_100km": 225,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 175,
+      "lat": 2.52,
+      "lon": 127.03,
+      "earthquakes_within_100km": 352,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 176,
+      "lat": 2.02,
+      "lon": 127.9,
+      "earthquakes_within_100km": 230,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 177,
+      "lat": 1.51,
+      "lon": 128.76,
+      "earthquakes_within_100km": 85,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 178,
+      "lat": 1.01,
+      "lon": 129.63,
+      "earthquakes_within_100km": 13,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 179,
+      "lat": 0.5,
+      "lon": 130.49,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 180,
+      "lat": 0.0,
+      "lon": 131.35,
+      "earthquakes_within_100km": 14,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 181,
+      "lat": -0.5,
+      "lon": 132.22,
+      "earthquakes_within_100km": 59,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 182,
+      "lat": -1.01,
+      "lon": 133.08,
+      "earthquakes_within_100km": 78,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 183,
+      "lat": -1.51,
+      "lon": 133.94,
+      "earthquakes_within_100km": 60,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 184,
+      "lat": -2.02,
+      "lon": 134.81,
+      "earthquakes_within_100km": 51,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 185,
+      "lat": -2.52,
+      "lon": 135.67,
+      "earthquakes_within_100km": 48,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 186,
+      "lat": -3.02,
+      "lon": 136.54,
+      "earthquakes_within_100km": 52,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 187,
+      "lat": -3.53,
+      "lon": 137.4,
+      "earthquakes_within_100km": 23,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 188,
+      "lat": -4.03,
+      "lon": 138.27,
+      "earthquakes_within_100km": 22,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 189,
+      "lat": -4.53,
+      "lon": 139.14,
+      "earthquakes_within_100km": 34,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 190,
+      "lat": -5.03,
+      "lon": 140.01,
+      "earthquakes_within_100km": 35,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 191,
+      "lat": -5.53,
+      "lon": 140.88,
+      "earthquakes_within_100km": 5,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 192,
+      "lat": -6.02,
+      "lon": 141.75,
+      "earthquakes_within_100km": 24,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 193,
+      "lat": -6.52,
+      "lon": 142.62,
+      "earthquakes_within_100km": 53,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 194,
+      "lat": -7.01,
+      "lon": 143.5,
+      "earthquakes_within_100km": 28,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 195,
+      "lat": -7.51,
+      "lon": 144.38,
+      "earthquakes_within_100km": 16,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 196,
+      "lat": -8.0,
+      "lon": 145.26,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 197,
+      "lat": -8.49,
+      "lon": 146.14,
+      "earthquakes_within_100km": 8,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 198,
+      "lat": -8.97,
+      "lon": 147.02,
+      "earthquakes_within_100km": 7,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 199,
+      "lat": -9.46,
+      "lon": 147.91,
+      "earthquakes_within_100km": 12,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 200,
+      "lat": -9.94,
+      "lon": 148.8,
+      "earthquakes_within_100km": 14,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 201,
+      "lat": -10.42,
+      "lon": 149.69,
+      "earthquakes_within_100km": 7,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 202,
+      "lat": -10.9,
+      "lon": 150.58,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 203,
+      "lat": -11.38,
+      "lon": 151.48,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 204,
+      "lat": -11.85,
+      "lon": 152.38,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 205,
+      "lat": -12.32,
+      "lon": 153.28,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 206,
+      "lat": -12.78,
+      "lon": 154.19,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 207,
+      "lat": -13.25,
+      "lon": 155.1,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 208,
+      "lat": -13.71,
+      "lon": 156.01,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 209,
+      "lat": -14.17,
+      "lon": 156.93,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 210,
+      "lat": -14.62,
+      "lon": 157.85,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 211,
+      "lat": -15.07,
+      "lon": 158.77,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 212,
+      "lat": -15.52,
+      "lon": 159.7,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 213,
+      "lat": -15.96,
+      "lon": 160.63,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 214,
+      "lat": -16.4,
+      "lon": 161.56,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 215,
+      "lat": -16.83,
+      "lon": 162.5,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 216,
+      "lat": -17.26,
+      "lon": 163.45,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 217,
+      "lat": -17.69,
+      "lon": 164.4,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 218,
+      "lat": -18.11,
+      "lon": 165.35,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 219,
+      "lat": -18.52,
+      "lon": 166.31,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 220,
+      "lat": -18.93,
+      "lon": 167.27,
+      "earthquakes_within_100km": 72,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 221,
+      "lat": -19.34,
+      "lon": 168.24,
+      "earthquakes_within_100km": 241,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 222,
+      "lat": -19.74,
+      "lon": 169.21,
+      "earthquakes_within_100km": 368,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 223,
+      "lat": -20.14,
+      "lon": 170.19,
+      "earthquakes_within_100km": 114,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 224,
+      "lat": -20.53,
+      "lon": 171.17,
+      "earthquakes_within_100km": 10,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 225,
+      "lat": -20.91,
+      "lon": 172.16,
+      "earthquakes_within_100km": 22,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 226,
+      "lat": -21.29,
+      "lon": 173.15,
+      "earthquakes_within_100km": 55,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 227,
+      "lat": -21.67,
+      "lon": 174.14,
+      "earthquakes_within_100km": 69,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 228,
+      "lat": -22.03,
+      "lon": 175.15,
+      "earthquakes_within_100km": 32,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 229,
+      "lat": -22.39,
+      "lon": 176.15,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 230,
+      "lat": -22.75,
+      "lon": 177.17,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 231,
+      "lat": -23.1,
+      "lon": 178.18,
+      "earthquakes_within_100km": 24,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 232,
+      "lat": -23.44,
+      "lon": 179.21,
+      "earthquakes_within_100km": 160,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 233,
+      "lat": -23.78,
+      "lon": -179.77,
+      "earthquakes_within_100km": 164,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 234,
+      "lat": -24.1,
+      "lon": -178.73,
+      "earthquakes_within_100km": 21,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 235,
+      "lat": -24.43,
+      "lon": -177.69,
+      "earthquakes_within_100km": 62,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 236,
+      "lat": -24.74,
+      "lon": -176.65,
+      "earthquakes_within_100km": 141,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 237,
+      "lat": -25.05,
+      "lon": -175.6,
+      "earthquakes_within_100km": 125,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 238,
+      "lat": -25.35,
+      "lon": -174.55,
+      "earthquakes_within_100km": 6,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 239,
+      "lat": -25.64,
+      "lon": -173.49,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 240,
+      "lat": -25.92,
+      "lon": -172.42,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 241,
+      "lat": -26.2,
+      "lon": -171.35,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 242,
+      "lat": -26.47,
+      "lon": -170.28,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 243,
+      "lat": -26.73,
+      "lon": -169.2,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 244,
+      "lat": -26.98,
+      "lon": -168.11,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 245,
+      "lat": -27.23,
+      "lon": -167.02,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 246,
+      "lat": -27.46,
+      "lon": -165.93,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 247,
+      "lat": -27.69,
+      "lon": -164.83,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 248,
+      "lat": -27.91,
+      "lon": -163.73,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 249,
+      "lat": -28.12,
+      "lon": -162.62,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 250,
+      "lat": -28.32,
+      "lon": -161.51,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 251,
+      "lat": -28.51,
+      "lon": -160.39,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 252,
+      "lat": -28.69,
+      "lon": -159.27,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 253,
+      "lat": -28.86,
+      "lon": -158.15,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 254,
+      "lat": -29.03,
+      "lon": -157.02,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 255,
+      "lat": -29.18,
+      "lon": -155.89,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 256,
+      "lat": -29.33,
+      "lon": -154.76,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 257,
+      "lat": -29.46,
+      "lon": -153.62,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 258,
+      "lat": -29.59,
+      "lon": -152.48,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 259,
+      "lat": -29.7,
+      "lon": -151.34,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 260,
+      "lat": -29.81,
+      "lon": -150.19,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 261,
+      "lat": -29.91,
+      "lon": -149.04,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 262,
+      "lat": -29.99,
+      "lon": -147.89,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 263,
+      "lat": -30.07,
+      "lon": -146.74,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 264,
+      "lat": -30.13,
+      "lon": -145.59,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 265,
+      "lat": -30.19,
+      "lon": -144.43,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 266,
+      "lat": -30.24,
+      "lon": -143.28,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 267,
+      "lat": -30.27,
+      "lon": -142.12,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 268,
+      "lat": -30.3,
+      "lon": -140.96,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 269,
+      "lat": -30.31,
+      "lon": -139.8,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 270,
+      "lat": -30.32,
+      "lon": -138.65,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 271,
+      "lat": -30.31,
+      "lon": -137.49,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 272,
+      "lat": -30.3,
+      "lon": -136.33,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 273,
+      "lat": -30.27,
+      "lon": -135.17,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 274,
+      "lat": -30.24,
+      "lon": -134.01,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 275,
+      "lat": -30.19,
+      "lon": -132.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 276,
+      "lat": -30.13,
+      "lon": -131.7,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 277,
+      "lat": -30.07,
+      "lon": -130.55,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 278,
+      "lat": -29.99,
+      "lon": -129.4,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 279,
+      "lat": -29.91,
+      "lon": -128.25,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 280,
+      "lat": -29.81,
+      "lon": -127.1,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 281,
+      "lat": -29.7,
+      "lon": -125.96,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 282,
+      "lat": -29.59,
+      "lon": -124.81,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 283,
+      "lat": -29.46,
+      "lon": -123.67,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 284,
+      "lat": -29.33,
+      "lon": -122.54,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 285,
+      "lat": -29.18,
+      "lon": -121.4,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 286,
+      "lat": -29.03,
+      "lon": -120.27,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 287,
+      "lat": -28.86,
+      "lon": -119.14,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 288,
+      "lat": -28.69,
+      "lon": -118.02,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 289,
+      "lat": -28.51,
+      "lon": -116.9,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 290,
+      "lat": -28.32,
+      "lon": -115.78,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 291,
+      "lat": -28.12,
+      "lon": -114.67,
+      "earthquakes_within_100km": 1,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 292,
+      "lat": -27.91,
+      "lon": -113.56,
+      "earthquakes_within_100km": 14,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 293,
+      "lat": -27.69,
+      "lon": -112.46,
+      "earthquakes_within_100km": 11,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 294,
+      "lat": -27.46,
+      "lon": -111.36,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 295,
+      "lat": -27.23,
+      "lon": -110.27,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 296,
+      "lat": -26.98,
+      "lon": -109.18,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 297,
+      "lat": -26.73,
+      "lon": -108.09,
+      "earthquakes_within_100km": 4,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 298,
+      "lat": -26.47,
+      "lon": -107.02,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 299,
+      "lat": -26.2,
+      "lon": -105.94,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 300,
+      "lat": -25.92,
+      "lon": -104.87,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 301,
+      "lat": -25.64,
+      "lon": -103.81,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 302,
+      "lat": -25.35,
+      "lon": -102.75,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 303,
+      "lat": -25.05,
+      "lon": -101.69,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 304,
+      "lat": -24.74,
+      "lon": -100.64,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 305,
+      "lat": -24.43,
+      "lon": -99.6,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 306,
+      "lat": -24.1,
+      "lon": -98.56,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 307,
+      "lat": -23.78,
+      "lon": -97.53,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 308,
+      "lat": -23.44,
+      "lon": -96.5,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 309,
+      "lat": -23.1,
+      "lon": -95.48,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 310,
+      "lat": -22.75,
+      "lon": -94.46,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 311,
+      "lat": -22.39,
+      "lon": -93.45,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 312,
+      "lat": -22.03,
+      "lon": -92.44,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 313,
+      "lat": -21.67,
+      "lon": -91.44,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 314,
+      "lat": -21.29,
+      "lon": -90.44,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 315,
+      "lat": -20.91,
+      "lon": -89.45,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 316,
+      "lat": -20.53,
+      "lon": -88.46,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 317,
+      "lat": -20.14,
+      "lon": -87.48,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 318,
+      "lat": -19.74,
+      "lon": -86.5,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 319,
+      "lat": -19.34,
+      "lon": -85.53,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 320,
+      "lat": -18.93,
+      "lon": -84.56,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 321,
+      "lat": -18.52,
+      "lon": -83.6,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 322,
+      "lat": -18.11,
+      "lon": -82.64,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 323,
+      "lat": -17.69,
+      "lon": -81.69,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 324,
+      "lat": -17.26,
+      "lon": -80.74,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 325,
+      "lat": -16.83,
+      "lon": -79.8,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 326,
+      "lat": -16.4,
+      "lon": -78.86,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 327,
+      "lat": -15.96,
+      "lon": -77.92,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 328,
+      "lat": -15.52,
+      "lon": -76.99,
+      "earthquakes_within_100km": 2,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 329,
+      "lat": -15.07,
+      "lon": -76.06,
+      "earthquakes_within_100km": 88,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 330,
+      "lat": -14.62,
+      "lon": -75.14,
+      "earthquakes_within_100km": 81,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 331,
+      "lat": -14.17,
+      "lon": -74.22,
+      "earthquakes_within_100km": 20,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 332,
+      "lat": -13.71,
+      "lon": -73.3,
+      "earthquakes_within_100km": 18,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 333,
+      "lat": -13.25,
+      "lon": -72.39,
+      "earthquakes_within_100km": 7,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 334,
+      "lat": -12.78,
+      "lon": -71.48,
+      "earthquakes_within_100km": 5,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 335,
+      "lat": -12.32,
+      "lon": -70.57,
+      "earthquakes_within_100km": 3,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 336,
+      "lat": -11.85,
+      "lon": -69.67,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 337,
+      "lat": -11.38,
+      "lon": -68.77,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 338,
+      "lat": -10.9,
+      "lon": -67.87,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 339,
+      "lat": -10.42,
+      "lon": -66.98,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 340,
+      "lat": -9.94,
+      "lon": -66.09,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 341,
+      "lat": -9.46,
+      "lon": -65.2,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 342,
+      "lat": -8.97,
+      "lon": -64.31,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 343,
+      "lat": -8.49,
+      "lon": -63.43,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 344,
+      "lat": -8.0,
+      "lon": -62.55,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 345,
+      "lat": -7.51,
+      "lon": -61.67,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 346,
+      "lat": -7.01,
+      "lon": -60.79,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 347,
+      "lat": -6.52,
+      "lon": -59.92,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 348,
+      "lat": -6.02,
+      "lon": -59.04,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 349,
+      "lat": -5.53,
+      "lon": -58.17,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 350,
+      "lat": -5.03,
+      "lon": -57.3,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 351,
+      "lat": -4.53,
+      "lon": -56.43,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 352,
+      "lat": -4.03,
+      "lon": -55.56,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 353,
+      "lat": -3.53,
+      "lon": -54.7,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 354,
+      "lat": -3.02,
+      "lon": -53.83,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 355,
+      "lat": -2.52,
+      "lon": -52.97,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 356,
+      "lat": -2.02,
+      "lon": -52.1,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 357,
+      "lat": -1.51,
+      "lon": -51.24,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 358,
+      "lat": -1.01,
+      "lon": -50.37,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    },
+    {
+      "degree": 359,
+      "lat": -0.5,
+      "lon": -49.51,
+      "earthquakes_within_100km": 0,
+      "sites_within_50km": 0
+    }
+  ],
+  "verdict": "NO geological correlation: earthquake density and site density along the circle are uncorrelated",
+  "summary": "The circle does follow geological features. Earthquake density along the circle (Z=2.09 vs random) and correlation between sites and earthquakes (r=-0.021) suggest the site alignment is NOT explained by plate tectonics."
+}

@@ -1,0 +1,197 @@
+{
+  "directive": "D10",
+  "description": "Third and Fourth Independent Databases (OSM and Wikidata)",
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "quarter_circumference_km": 10007.54,
+  "monte_carlo_trials": 200,
+  "jitter_std_deg": 2.0,
+  "osm": {
+    "dataset": "OpenStreetMap",
+    "total_sites": 350319,
+    "thresholds": {
+      "25": {
+        "real_count": 5334,
+        "real_pct": 1.5226,
+        "mc_mean": 1789.41,
+        "mc_std": 41.31,
+        "z_score": 85.8119,
+        "p_value": 0.0,
+        "mc_max": 1903,
+        "mc_min": 1665
+      },
+      "50": {
+        "real_count": 9700,
+        "real_pct": 2.7689,
+        "mc_mean": 3580.05,
+        "mc_std": 55.46,
+        "z_score": 110.3527,
+        "p_value": 0.0,
+        "mc_max": 3731,
+        "mc_min": 3450
+      },
+      "100": {
+        "real_count": 19185,
+        "real_pct": 5.4764,
+        "mc_mean": 7143.78,
+        "mc_std": 74.04,
+        "z_score": 162.6295,
+        "p_value": 0.0,
+        "mc_max": 7369,
+        "mc_min": 6969
+      },
+      "200": {
+        "real_count": 34052,
+        "real_pct": 9.7203,
+        "mc_mean": 14129.56,
+        "mc_std": 96.25,
+        "z_score": 206.9933,
+        "p_value": 0.0,
+        "mc_max": 14380,
+        "mc_min": 13857
+      }
+    }
+  },
+  "wikidata": {
+    "dataset": "Wikidata",
+    "total_sites": 106443,
+    "thresholds": {
+      "25": {
+        "real_count": 344,
+        "real_pct": 0.3232,
+        "mc_mean": 141.9,
+        "mc_std": 12.09,
+        "z_score": 16.7202,
+        "p_value": 0.0,
+        "mc_max": 173,
+        "mc_min": 113
+      },
+      "50": {
+        "real_count": 528,
+        "real_pct": 0.496,
+        "mc_mean": 283.87,
+        "mc_std": 17.37,
+        "z_score": 14.0561,
+        "p_value": 0.0,
+        "mc_max": 342,
+        "mc_min": 240
+      },
+      "100": {
+        "real_count": 1062,
+        "real_pct": 0.9977,
+        "mc_mean": 572.05,
+        "mc_std": 21.89,
+        "z_score": 22.3849,
+        "p_value": 0.0,
+        "mc_max": 633,
+        "mc_min": 507
+      },
+      "200": {
+        "real_count": 1878,
+        "real_pct": 1.7643,
+        "mc_mean": 1162.51,
+        "mc_std": 31.5,
+        "z_score": 22.7151,
+        "p_value": 0.0,
+        "mc_max": 1253,
+        "mc_min": 1084
+      }
+    }
+  },
+  "osm_type_split": {
+    "archaeological_site": {
+      "dataset": "OSM archaeological_site",
+      "total_sites": 170831,
+      "thresholds": {
+        "25": {
+          "real_count": 4792,
+          "real_pct": 2.8051,
+          "mc_mean": 1563.59,
+          "mc_std": 37.79,
+          "z_score": 85.4217,
+          "p_value": 0.0,
+          "mc_max": 1656,
+          "mc_min": 1476
+        },
+        "50": {
+          "real_count": 8853,
+          "real_pct": 5.1823,
+          "mc_mean": 3123.84,
+          "mc_std": 56.75,
+          "z_score": 100.9468,
+          "p_value": 0.0,
+          "mc_max": 3289,
+          "mc_min": 2963
+        },
+        "100": {
+          "real_count": 17648,
+          "real_pct": 10.3307,
+          "mc_mean": 6210.27,
+          "mc_std": 70.07,
+          "z_score": 163.2324,
+          "p_value": 0.0,
+          "mc_max": 6419,
+          "mc_min": 6040
+        },
+        "200": {
+          "real_count": 30157,
+          "real_pct": 17.6531,
+          "mc_mean": 12125.0,
+          "mc_std": 83.86,
+          "z_score": 215.0295,
+          "p_value": 0.0,
+          "mc_max": 12355,
+          "mc_min": 11912
+        }
+      }
+    },
+    "ruins_monument_castle_tomb": {
+      "dataset": "OSM ruins/monument/castle/tomb",
+      "total_sites": 179488,
+      "thresholds": {
+        "25": {
+          "real_count": 542,
+          "real_pct": 0.302,
+          "mc_mean": 431.06,
+          "mc_std": 21.97,
+          "z_score": 5.0488,
+          "p_value": 0.0,
+          "mc_max": 485,
+          "mc_min": 378
+        },
+        "50": {
+          "real_count": 847,
+          "real_pct": 0.4719,
+          "mc_mean": 864.97,
+          "mc_std": 31.01,
+          "z_score": -0.5795,
+          "p_value": 0.705,
+          "mc_max": 939,
+          "mc_min": 764
+        },
+        "100": {
+          "real_count": 1537,
+          "real_pct": 0.8563,
+          "mc_mean": 1733.63,
+          "mc_std": 42.73,
+          "z_score": -4.6017,
+          "p_value": 1.0,
+          "mc_max": 1863,
+          "mc_min": 1616
+        },
+        "200": {
+          "real_count": 3895,
+          "real_pct": 2.1701,
+          "mc_mean": 3480.82,
+          "mc_std": 54.15,
+          "z_score": 7.6487,
+          "p_value": 0.0,
+          "mc_max": 3620,
+          "mc_min": 3344
+        }
+      }
+    }
+  }
+}

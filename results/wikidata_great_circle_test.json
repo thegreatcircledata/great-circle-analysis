@@ -1,0 +1,46 @@
+{
+  "dataset": "Wikidata",
+  "total_sites": 106443,
+  "thresholds": {
+    "25": {
+      "real_count": 344,
+      "real_pct": 0.3232,
+      "mc_mean": 141.9,
+      "mc_std": 12.09,
+      "z_score": 16.7202,
+      "p_value": 0.0,
+      "mc_max": 173,
+      "mc_min": 113
+    },
+    "50": {
+      "real_count": 528,
+      "real_pct": 0.496,
+      "mc_mean": 283.87,
+      "mc_std": 17.37,
+      "z_score": 14.0561,
+      "p_value": 0.0,
+      "mc_max": 342,
+      "mc_min": 240
+    },
+    "100": {
+      "real_count": 1062,
+      "real_pct": 0.9977,
+      "mc_mean": 572.05,
+      "mc_std": 21.89,
+      "z_score": 22.3849,
+      "p_value": 0.0,
+      "mc_max": 633,
+      "mc_min": 507
+    },
+    "200": {
+      "real_count": 1878,
+      "real_pct": 1.7643,
+      "mc_mean": 1162.51,
+      "mc_std": 31.5,
+      "z_score": 22.7151,
+      "p_value": 0.0,
+      "mc_max": 1253,
+      "mc_min": 1084
+    }
+  }
+}

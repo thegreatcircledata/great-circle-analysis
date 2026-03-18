@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "research_date": "2026-03-16",
+    "topic": "Archaeological significance of Great Circle equator crossing points",
+    "great_circle_pole": {"lat": 59.682122, "lon": -138.646087}
+  },
+  "amazon_crossing": {
+    "coordinates": {"lat": 0, "lon": -48.7},
+    "geography": "The crossing point at ~48.7°W falls in the Amazon River mouth region, between the eastern coast of Marajó Island and the mainland coast of Amapá state, Brazil. This is near the Pará River channel that separates Marajó from the mainland.",
+    "archaeological_sites": [
+      {
+        "name": "Marajó Island (Marajoara culture)",
+        "coordinates": {"lat": -0.99, "lon": -49.59},
+        "distance_from_crossing_km": 140,
+        "distance_from_great_circle_km": 42,
+        "date_range": "1000 BCE - 1500 CE (Marajoara phase: 400-1200 CE)",
+        "description": "Second-largest island in South America. The Marajoara culture built earthen mounds (tesos) up to 20m high over natural elevations. Population estimated 100,000+ at peak. Sophisticated polychrome pottery with female iconography. Fishpond systems, possible matrilineal chiefdom. Shell mounds with maize/squash evidence dating to ~4000 BP.",
+        "significance": "Major pre-Columbian civilization at the Amazon mouth. The island center is just 42km from the Great Circle — effectively ON the line."
+      },
+      {
+        "name": "Rego Grande / Calçoene Stone Circle (Parque Arqueológico do Solstício)",
+        "coordinates": {"lat": 2.4978, "lon": -50.9489},
+        "distance_from_crossing_km": 360,
+        "distance_from_great_circle_km": 369,
+        "date_range": "~1000 CE (approximately 500 years before European contact)",
+        "description": "127 granite blocks up to 4m tall arranged in a 30m-diameter circle. Aligned with winter solstice — a slim monolith tracks the sun's path on December 21-22. Burial pits with cremated remains and triangular urn formations found beneath stone slabs. First reported by naturalist Emilio Goeldi in the late 19th century, excavations began 2005.",
+        "significance": "The 'Stonehenge of the Amazon' is ~369km from the Great Circle — NOT on the line. Located at 2.5°N, it's north of the equator crossing. Despite the evocative name, it does not support the alignment."
+      },
+      {
+        "name": "Amazon Geoglyphs (Geoglyphs of Acre)",
+        "approximate_coordinates": {"lat": -10.0, "lon": -68.0},
+        "distance_from_crossing_km": 2200,
+        "description": "Hundreds of geometric earthworks in western Brazil (Acre state), dating to 2000-700 BP. Revealed by deforestation. Squares, circles, and other shapes.",
+        "significance": "Very far from the equator crossing (>2000km west). Not relevant to this crossing point."
+      }
+    ],
+    "lgm_context": "During the Last Glacial Maximum (~20,000 years ago), sea levels were ~120m lower. The continental shelf off the Amazon mouth extended significantly. The Amazon's freshwater discharge would have carved a deep submarine canyon. Habitable land area near this crossing would have been substantially larger, with the coastline 100-200km further east.",
+    "assessment": "The Amazon equator crossing passes through one of the most archaeologically rich regions in South America. Marajó Island (42km from GC) is a genuine hit. The Rego Grande stone circle, while fascinating, is 369km away and does not support the alignment. The LGM context is interesting but speculative — no submerged sites have been documented."
+  },
+  "new_guinea_crossing": {
+    "coordinates": {"lat": 0, "lon": 131.3},
+    "geography": "The crossing at ~131.3°E falls near the northwest tip of New Guinea, in the vicinity of the Bird's Head Peninsula (Vogelkop) of West Papua, Indonesia. This is near the Raja Ampat archipelago and the Cenderawasih Bay.",
+    "archaeological_sites": [
+      {
+        "name": "General West Papua / Bird's Head region",
+        "description": "Limited archaeological survey in this remote region. New Guinea was one of the earliest places outside Africa settled by modern humans (~50,000 years ago via the Sahul land bridge). Evidence of early settlement comes primarily from rock shelters and cave sites.",
+        "significance": "The equator crossing is in a poorly surveyed region. Absence of known sites reflects lack of research, not necessarily absence of occupation."
+      },
+      {
+        "name": "Kuk Swamp (Kuk Early Agricultural Site)",
+        "coordinates": {"lat": -5.7836, "lon": 144.3257},
+        "distance_from_crossing_km": 1500,
+        "date_range": "7000-9000 BCE (drainage systems), with evidence of plant management back to 10,000 years",
+        "description": "One of the earliest independent origins of agriculture. UNESCO World Heritage Site in the highlands of Papua New Guinea at 1,550m elevation. Drainage ditches, banana/taro/yam cultivation. Archaeological evidence spanning 10,000 years of continuous wetland agriculture.",
+        "significance": "Very far from the equator crossing (~1500km east and 6° south). Not relevant to this specific crossing point."
+      }
+    ],
+    "early_settlement": "New Guinea was first settled ~50,000 years ago as part of the initial human migration to Sahul (the connected Australia-New Guinea landmass). The earliest evidence comes from sites like Bobongara in the Huon Peninsula (~40,000 BP) and Ivane Valley (~49,000 BP), but these are in eastern Papua New Guinea, far from the 131.3°E crossing.",
+    "lgm_context": "During the LGM, New Guinea was connected to Australia via a land bridge (Sahul continent). Sea levels ~120m lower exposed the Arafura Sea floor. The Bird's Head Peninsula would have been connected to smaller islands. The 131.3°E crossing would have been well inland of the coast. The Torres Strait and Arafura Plain were habitable savanna.",
+    "megalithic_sites_west_papua": "There are limited reports of megalithic traditions in West Papua. Some standing stone traditions exist among highland peoples, but these are poorly documented compared to the extensive megalithic record of Island Southeast Asia (Nias, Sumba, etc.).",
+    "assessment": "The New Guinea equator crossing is in a poorly surveyed region. While New Guinea has extraordinary deep-time human occupation (50,000+ years), the specific crossing point at 131.3°E has no documented major archaeological sites. This is NOT evidence against the alignment — it's an archaeological blind spot."
+  },
+  "broader_significance": {
+    "jim_alison_notes": "Jim Alison noted that the Great Circle's equator crossings correspond to 'the mouth of the Amazon' and 'near New Guinea.' He observed these as places where the circle encounters land near the equator, and noted archaeological features in both regions.",
+    "lgm_coincidence": "Both crossing points are near regions with significant LGM land exposure — the Amazon continental shelf and the Sahul shelf. However, this may simply reflect the fact that the circle crosses the equator at continental margins (which is where you'd expect to find both people and shelf exposure).",
+    "selection_bias_note": "There is a risk of post-hoc significance attribution. The circle has two equator crossings. Finding something interesting near at least one of them is not surprising, given that the Amazon mouth is one of the most archaeologically rich equatorial regions on Earth."
+  },
+  "summary": "The Amazon crossing (~48.7°W) passes through an archaeologically significant region — Marajó Island (42km from GC) with its mound-building Marajoara culture is a genuine hit. The Rego Grande stone circle (369km) is NOT on the line. The New Guinea crossing (~131.3°E) is in a poorly surveyed region of West Papua with no documented major sites, though the area has deep-time human occupation. Both crossings are near LGM-exposed continental shelves. The Amazon crossing is the stronger finding; the New Guinea crossing is an archaeological blind spot that neither supports nor undermines the alignment."
+}

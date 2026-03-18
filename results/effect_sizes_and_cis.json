@@ -1,0 +1,94 @@
+{
+  "primary_portal_50km": {
+    "observed": 311,
+    "mc_mean": 87.9,
+    "mc_std": 9.2,
+    "z_score": 24.3,
+    "enrichment": 3.539,
+    "bootstrap_z": {
+      "z_mean": 24.47,
+      "z_ci_lower": 21.97,
+      "z_ci_upper": 27.29
+    },
+    "bootstrap_enrichment": {
+      "enrichment_mean": 3.539,
+      "enrichment_ci_lower": 3.488,
+      "enrichment_ci_upper": 3.59
+    }
+  },
+  "settlement_test": {
+    "monumental_z": 5.22,
+    "settlement_z": -2.41,
+    "z_difference": 7.64,
+    "cohens_d_distances": -0.0843,
+    "mann_whitney_U": 39396906.0,
+    "mann_whitney_p": 8.297483607383171e-08,
+    "n_monumental": 4598,
+    "n_settlements": 18037
+  },
+  "ancient_comparison": {
+    "monumental_ancient_z": 11.61,
+    "settlement_ancient_z": -1.09,
+    "z_difference": 12.71,
+    "cohens_d_distances": 0.5656,
+    "n_monumental_ancient": 185,
+    "n_settlements_ancient": 414
+  },
+  "enrichment_cis": {
+    "monumental": {
+      "enrichment_mean": 1.8,
+      "enrichment_ci_lower": 1.762,
+      "enrichment_ci_upper": 1.838
+    },
+    "settlements": {
+      "enrichment_mean": 0.81,
+      "enrichment_ci_lower": 0.801,
+      "enrichment_ci_upper": 0.819
+    }
+  },
+  "bonferroni_correction": {
+    "total_hypothesis_tests": 40,
+    "nominal_alpha": 0.05,
+    "corrected_alpha": 0.00125,
+    "corrected_z_threshold": 3.23,
+    "primary_z_exceeds_bonferroni": true
+  },
+  "methods_table": [
+    {
+      "test": "Primary (Portal, 50km)",
+      "observed": 311,
+      "expected": 87.9,
+      "z": 24.3,
+      "z_95ci": "[21.97, 27.29]",
+      "enrichment": 3.539,
+      "enrichment_95ci": "[3.488, 3.59]",
+      "passes_bonferroni": true
+    },
+    {
+      "test": "Monumental (Pleiades)",
+      "z": 5.22,
+      "enrichment": 1.8,
+      "enrichment_95ci": "[1.762, 1.838]",
+      "passes_bonferroni": true
+    },
+    {
+      "test": "Settlements (Pleiades)",
+      "z": -2.41,
+      "enrichment": 0.81,
+      "enrichment_95ci": "[0.801, 0.819]",
+      "passes_bonferroni": false
+    },
+    {
+      "test": "Mon-Set divergence",
+      "cohens_d": -0.0843,
+      "mann_whitney_p": 8.297483607383171e-08
+    }
+  ],
+  "metadata": {
+    "threshold_km": 50.0,
+    "monte_carlo_trials": 200,
+    "bootstrap_resamples": 10000,
+    "jitter_std_deg": 2.0,
+    "compute_time_seconds": 3.5
+  }
+}

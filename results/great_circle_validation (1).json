@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "name": "Deep Time Atlas \u2014 Great Circle Validation Analysis",
+    "description": "Test of Alison's Cyclopean Great Circle against 871 UNESCO Cultural World Heritage sites with random baseline.",
+    "date": "2026-03-15",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087,
+      "location": "Southeastern Alaska"
+    },
+    "dataset": "871 UNESCO Cultural World Heritage sites",
+    "random_trials": 200
+  },
+  "headline": "The Great Circle shows a mild enrichment of UNESCO sites but NOT at statistically significant levels for the tight 50km threshold",
+  "results": {
+    "50km": {
+      "unesco": 12,
+      "random_mean": 8.0,
+      "random_std": 2.7,
+      "enrichment": "1.5x",
+      "z_score": 1.45,
+      "significant": false
+    },
+    "100km": {
+      "unesco": 15,
+      "random_mean": 16.1,
+      "random_std": 3.8,
+      "enrichment": "0.9x",
+      "z_score": -0.29,
+      "significant": false
+    },
+    "200km": {
+      "unesco": 43,
+      "random_mean": 32.3,
+      "random_std": 5.7,
+      "enrichment": "1.3x",
+      "z_score": 1.89,
+      "significant": false
+    },
+    "500km": {
+      "unesco": 105,
+      "random_mean": 82.9,
+      "random_std": 9.5,
+      "enrichment": "1.3x",
+      "z_score": 2.33,
+      "significant": false
+    }
+  },
+  "notable_sites_on_circle": [
+    {
+      "name": "Sukhothai",
+      "distance_km": 1.2
+    },
+    {
+      "name": "Rapa Nui (Easter Island)",
+      "distance_km": 5.4
+    },
+    {
+      "name": "Nazca Lines",
+      "distance_km": 10.0
+    },
+    {
+      "name": "Persepolis",
+      "distance_km": 13.7
+    },
+    {
+      "name": "Petra",
+      "distance_km": 16.2
+    },
+    {
+      "name": "Mohenjo-Daro",
+      "distance_km": 25.6
+    },
+    {
+      "name": "Khajuraho",
+      "distance_km": 29.7
+    },
+    {
+      "name": "Preah Vihear",
+      "distance_km": 31.5
+    },
+    {
+      "name": "Cusco",
+      "distance_km": 46.9
+    }
+  ],
+  "interpretation": {
+    "summary": "When tested against the full UNESCO Cultural Heritage dataset, the Great Circle shows 12 sites within 50km (vs 8.0 \u00b1 2.7 random). This is a 1.5x enrichment with Z=1.45 \u2014 suggestive but NOT statistically significant (needs Z>2 at minimum, Z>3 ideally).",
+    "at_500km": "At the widest 500km threshold, 105 UNESCO sites fall near the circle vs 82.9 random (Z=2.33). This approaches significance but the wide threshold makes it less meaningful.",
+    "key_insight": "The Great Circle IS enriched for famous ancient sites \u2014 Nazca, Easter Island, Persepolis, Petra, Mohenjo-Daro, Cusco, Khajuraho, Preah Vihear all genuinely cluster near it. But the enrichment over random is modest (1.3-1.5x) rather than the dramatic 29x seen in the original 20-site analysis.",
+    "why_different": "The original 29x finding compared 20 hand-picked sites to random points. UNESCO's 871 sites include medieval churches, Roman villas, industrial heritage, etc. \u2014 sites chosen for cultural value, not ancient mystery. A fairer test would use ONLY sites older than 3000 BCE.",
+    "recommendation": "The Great Circle finding is the most interesting remaining signal. A proper test needs: (1) A dataset filtered to only pre-Bronze Age sites (>3000 BCE), (2) The full Megalithic Portal database of 25,000-50,000 sites, (3) Testing multiple candidate great circles, not just Alison's"
+  }
+}

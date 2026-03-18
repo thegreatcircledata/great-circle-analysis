@@ -1,0 +1,384 @@
+{
+  "monumental_all_periods": {
+    "10": {
+      "observed": 33,
+      "mc_mean": 9.3,
+      "mc_std": 2.9,
+      "z_score": 8.07,
+      "enrichment": 3.564
+    },
+    "25": {
+      "observed": 66,
+      "mc_mean": 23.3,
+      "mc_std": 4.9,
+      "z_score": 8.62,
+      "enrichment": 2.827
+    },
+    "50": {
+      "observed": 83,
+      "mc_mean": 46.1,
+      "mc_std": 7.1,
+      "z_score": 5.22,
+      "enrichment": 1.8
+    },
+    "75": {
+      "observed": 106,
+      "mc_mean": 69.0,
+      "mc_std": 8.2,
+      "z_score": 4.49,
+      "enrichment": 1.536
+    },
+    "100": {
+      "observed": 131,
+      "mc_mean": 92.7,
+      "mc_std": 9.5,
+      "z_score": 4.03,
+      "enrichment": 1.413
+    },
+    "150": {
+      "observed": 164,
+      "mc_mean": 140.1,
+      "mc_std": 11.2,
+      "z_score": 2.13,
+      "enrichment": 1.17
+    },
+    "200": {
+      "observed": 246,
+      "mc_mean": 188.9,
+      "mc_std": 11.7,
+      "z_score": 4.88,
+      "enrichment": 1.302
+    },
+    "300": {
+      "observed": 353,
+      "mc_mean": 293.0,
+      "mc_std": 13.9,
+      "z_score": 4.31,
+      "enrichment": 1.205
+    },
+    "500": {
+      "observed": 664,
+      "mc_mean": 542.1,
+      "mc_std": 15.2,
+      "z_score": 8.01,
+      "enrichment": 1.225
+    }
+  },
+  "settlements_all_periods": {
+    "10": {
+      "observed": 24,
+      "mc_mean": 29.6,
+      "mc_std": 4.9,
+      "z_score": -1.14,
+      "enrichment": 0.811
+    },
+    "25": {
+      "observed": 72,
+      "mc_mean": 72.3,
+      "mc_std": 7.9,
+      "z_score": -0.04,
+      "enrichment": 0.996
+    },
+    "50": {
+      "observed": 118,
+      "mc_mean": 144.7,
+      "mc_std": 11.0,
+      "z_score": -2.43,
+      "enrichment": 0.816
+    },
+    "75": {
+      "observed": 210,
+      "mc_mean": 218.6,
+      "mc_std": 14.3,
+      "z_score": -0.6,
+      "enrichment": 0.961
+    },
+    "100": {
+      "observed": 288,
+      "mc_mean": 293.3,
+      "mc_std": 16.2,
+      "z_score": -0.33,
+      "enrichment": 0.982
+    },
+    "150": {
+      "observed": 503,
+      "mc_mean": 442.7,
+      "mc_std": 18.6,
+      "z_score": 3.24,
+      "enrichment": 1.136
+    },
+    "200": {
+      "observed": 743,
+      "mc_mean": 601.4,
+      "mc_std": 22.1,
+      "z_score": 6.41,
+      "enrichment": 1.236
+    },
+    "300": {
+      "observed": 1234,
+      "mc_mean": 947.6,
+      "mc_std": 23.6,
+      "z_score": 12.13,
+      "enrichment": 1.302
+    },
+    "500": {
+      "observed": 2104,
+      "mc_mean": 1833.4,
+      "mc_std": 29.9,
+      "z_score": 9.04,
+      "enrichment": 1.148
+    }
+  },
+  "monumental_ancient": {
+    "10": {
+      "observed": 26,
+      "mc_mean": 1.5,
+      "mc_std": 1.2,
+      "z_score": 19.99,
+      "enrichment": 17.162
+    },
+    "25": {
+      "observed": 36,
+      "mc_mean": 3.8,
+      "mc_std": 1.8,
+      "z_score": 17.58,
+      "enrichment": 9.511
+    },
+    "50": {
+      "observed": 39,
+      "mc_mean": 7.5,
+      "mc_std": 2.6,
+      "z_score": 12.25,
+      "enrichment": 5.2
+    },
+    "75": {
+      "observed": 44,
+      "mc_mean": 11.2,
+      "mc_std": 3.0,
+      "z_score": 10.9,
+      "enrichment": 3.927
+    },
+    "100": {
+      "observed": 48,
+      "mc_mean": 14.8,
+      "mc_std": 3.3,
+      "z_score": 9.93,
+      "enrichment": 3.242
+    },
+    "150": {
+      "observed": 52,
+      "mc_mean": 21.7,
+      "mc_std": 3.9,
+      "z_score": 7.81,
+      "enrichment": 2.399
+    },
+    "200": {
+      "observed": 57,
+      "mc_mean": 28.1,
+      "mc_std": 3.9,
+      "z_score": 7.34,
+      "enrichment": 2.026
+    },
+    "300": {
+      "observed": 61,
+      "mc_mean": 39.9,
+      "mc_std": 4.4,
+      "z_score": 4.76,
+      "enrichment": 1.528
+    },
+    "500": {
+      "observed": 82,
+      "mc_mean": 60.3,
+      "mc_std": 4.2,
+      "z_score": 5.21,
+      "enrichment": 1.36
+    }
+  },
+  "settlements_ancient": {
+    "10": {
+      "observed": 6,
+      "mc_mean": 3.8,
+      "mc_std": 1.8,
+      "z_score": 1.24,
+      "enrichment": 1.587
+    },
+    "25": {
+      "observed": 10,
+      "mc_mean": 9.3,
+      "mc_std": 3.1,
+      "z_score": 0.22,
+      "enrichment": 1.074
+    },
+    "50": {
+      "observed": 14,
+      "mc_mean": 18.5,
+      "mc_std": 4.4,
+      "z_score": -1.03,
+      "enrichment": 0.756
+    },
+    "75": {
+      "observed": 22,
+      "mc_mean": 27.7,
+      "mc_std": 5.0,
+      "z_score": -1.15,
+      "enrichment": 0.795
+    },
+    "100": {
+      "observed": 27,
+      "mc_mean": 36.5,
+      "mc_std": 5.2,
+      "z_score": -1.83,
+      "enrichment": 0.739
+    },
+    "150": {
+      "observed": 60,
+      "mc_mean": 54.6,
+      "mc_std": 6.2,
+      "z_score": 0.87,
+      "enrichment": 1.099
+    },
+    "200": {
+      "observed": 87,
+      "mc_mean": 72.1,
+      "mc_std": 6.5,
+      "z_score": 2.3,
+      "enrichment": 1.206
+    },
+    "300": {
+      "observed": 137,
+      "mc_mean": 106.9,
+      "mc_std": 6.2,
+      "z_score": 4.81,
+      "enrichment": 1.281
+    },
+    "500": {
+      "observed": 177,
+      "mc_mean": 172.2,
+      "mc_std": 6.8,
+      "z_score": 0.72,
+      "enrichment": 1.028
+    }
+  },
+  "comparison_table": [
+    {
+      "threshold_km": 10,
+      "monument_z": 8.07,
+      "settlement_z": -1.14,
+      "z_difference": 9.21,
+      "monument_enrichment": 3.564,
+      "settlement_enrichment": 0.811,
+      "ancient_monument_z": 19.99,
+      "ancient_settlement_z": 1.24,
+      "ancient_z_difference": 18.75
+    },
+    {
+      "threshold_km": 25,
+      "monument_z": 8.62,
+      "settlement_z": -0.04,
+      "z_difference": 8.66,
+      "monument_enrichment": 2.827,
+      "settlement_enrichment": 0.996,
+      "ancient_monument_z": 17.58,
+      "ancient_settlement_z": 0.22,
+      "ancient_z_difference": 17.36
+    },
+    {
+      "threshold_km": 50,
+      "monument_z": 5.22,
+      "settlement_z": -2.43,
+      "z_difference": 7.65,
+      "monument_enrichment": 1.8,
+      "settlement_enrichment": 0.816,
+      "ancient_monument_z": 12.25,
+      "ancient_settlement_z": -1.03,
+      "ancient_z_difference": 13.28
+    },
+    {
+      "threshold_km": 75,
+      "monument_z": 4.49,
+      "settlement_z": -0.6,
+      "z_difference": 5.09,
+      "monument_enrichment": 1.536,
+      "settlement_enrichment": 0.961,
+      "ancient_monument_z": 10.9,
+      "ancient_settlement_z": -1.15,
+      "ancient_z_difference": 12.05
+    },
+    {
+      "threshold_km": 100,
+      "monument_z": 4.03,
+      "settlement_z": -0.33,
+      "z_difference": 4.36,
+      "monument_enrichment": 1.413,
+      "settlement_enrichment": 0.982,
+      "ancient_monument_z": 9.93,
+      "ancient_settlement_z": -1.83,
+      "ancient_z_difference": 11.76
+    },
+    {
+      "threshold_km": 150,
+      "monument_z": 2.13,
+      "settlement_z": 3.24,
+      "z_difference": -1.11,
+      "monument_enrichment": 1.17,
+      "settlement_enrichment": 1.136,
+      "ancient_monument_z": 7.81,
+      "ancient_settlement_z": 0.87,
+      "ancient_z_difference": 6.94
+    },
+    {
+      "threshold_km": 200,
+      "monument_z": 4.88,
+      "settlement_z": 6.41,
+      "z_difference": -1.53,
+      "monument_enrichment": 1.302,
+      "settlement_enrichment": 1.236,
+      "ancient_monument_z": 7.34,
+      "ancient_settlement_z": 2.3,
+      "ancient_z_difference": 5.04
+    },
+    {
+      "threshold_km": 300,
+      "monument_z": 4.31,
+      "settlement_z": 12.13,
+      "z_difference": -7.82,
+      "monument_enrichment": 1.205,
+      "settlement_enrichment": 1.302,
+      "ancient_monument_z": 4.76,
+      "ancient_settlement_z": 4.81,
+      "ancient_z_difference": -0.05
+    },
+    {
+      "threshold_km": 500,
+      "monument_z": 8.01,
+      "settlement_z": 9.04,
+      "z_difference": -1.03,
+      "monument_enrichment": 1.225,
+      "settlement_enrichment": 1.148,
+      "ancient_monument_z": 5.21,
+      "ancient_settlement_z": 0.72,
+      "ancient_z_difference": 4.49
+    }
+  ],
+  "metadata": {
+    "n_monumental": 4598,
+    "n_settlements": 18037,
+    "n_monumental_ancient": 185,
+    "n_settlements_ancient": 414,
+    "thresholds_km": [
+      10,
+      25,
+      50,
+      75,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "monte_carlo_trials": 200,
+    "jitter_std_deg": 2.0,
+    "data_source": "Pleiades Gazetteer",
+    "compute_time_seconds": 0.9
+  }
+}

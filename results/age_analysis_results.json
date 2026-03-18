@@ -1,0 +1,3841 @@
+{
+  "meta": {
+    "analysis": "Type-Based Age Estimation \u2014 Great Circle On-line vs Off-line",
+    "date": "2026-03-16",
+    "methodology": "Each site assigned estimated founding midpoint based on its Megalithic Portal type classification and published archaeological date ranges. On-line = within 50km of Alison's Great Circle.",
+    "total_sites": 61870,
+    "on_line_sites": 311,
+    "off_line_sites": 61559,
+    "dateable_on_line": 302,
+    "dateable_off_line": 62067,
+    "caveats": [
+      "Type-based dating assigns the SAME midpoint to all sites of the same type, regardless of individual dating evidence",
+      "On-line sites are overwhelmingly non-European while the database is ~90% European, creating geographic confound",
+      "Midpoints flatten the actual date ranges, which can span thousands of years",
+      "The Megalithic Portal type system sometimes misclassifies sites (e.g., Egyptian mastabas as 'Chambered Cairn')"
+    ]
+  },
+  "type_age_comparison": {
+    "on_line_mean_year": -2850,
+    "on_line_median_year": -2750,
+    "off_line_mean_year": -2718,
+    "off_line_median_year": -3000,
+    "difference_median_years": -250,
+    "difference_mean_years": 132,
+    "on_line_older_by_median": false,
+    "interpretation": "By type-based estimation, on-line sites are 250 years YOUNGER than off-line sites by median. This reflects the fact that on-line sites include many 'Ancient Temple', 'Ancient Village', and 'Sculptured Stone' types which have broad date ranges with relatively recent midpoints, while the off-line European database is dominated by Neolithic-Bronze Age types with older midpoints."
+  },
+  "geographic_control": {
+    "european_sites_in_database": 56146,
+    "european_percentage": 90.7,
+    "non_european_off_line_mean": -3729,
+    "non_european_off_line_median": -3250,
+    "on_line_mean": -2850,
+    "on_line_median": -2750,
+    "controlled_difference_median": -500
+  },
+  "age_category_distribution": {
+    "deep_antiquity": {
+      "on_line_count": 130,
+      "on_line_pct": 41.8,
+      "off_line_count": 31897,
+      "off_line_pct": 51.8
+    },
+    "mature_prehistoric": {
+      "on_line_count": 141,
+      "on_line_pct": 45.3,
+      "off_line_count": 19142,
+      "off_line_pct": 31.1
+    },
+    "late_prehistoric": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 357,
+      "off_line_pct": 0.6
+    },
+    "protohistoric": {
+      "on_line_count": 20,
+      "on_line_pct": 6.4,
+      "off_line_count": 7514,
+      "off_line_pct": 12.2
+    },
+    "historic_or_modern": {
+      "on_line_count": 11,
+      "on_line_pct": 3.5,
+      "off_line_count": 3157,
+      "off_line_pct": 5.1
+    },
+    "undateable": {
+      "on_line_count": 9,
+      "on_line_pct": 2.9,
+      "off_line_count": 2937,
+      "off_line_pct": 4.8
+    }
+  },
+  "type_distribution": {
+    "Round Barrow(s)": {
+      "on_line_count": 1,
+      "on_line_pct": 0.32,
+      "off_line_count": 5405,
+      "off_line_pct": 8.78,
+      "enrichment_ratio": 0.04,
+      "estimated_midpoint_year": -1600.0
+    },
+    "Standing Stone (Menhir)": {
+      "on_line_count": 7,
+      "on_line_pct": 2.25,
+      "off_line_count": 5821,
+      "off_line_pct": 9.46,
+      "enrichment_ratio": 0.24,
+      "estimated_midpoint_year": -3250.0
+    },
+    "Class III Pictish Cross Slab": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 25,
+      "off_line_pct": 0.04,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 700.0
+    },
+    "Marker Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 357,
+      "off_line_pct": 0.58,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1250.0
+    },
+    "Cave or Rock Shelter": {
+      "on_line_count": 1,
+      "on_line_pct": 0.32,
+      "off_line_count": 1293,
+      "off_line_pct": 2.1,
+      "enrichment_ratio": 0.15,
+      "estimated_midpoint_year": -20500.0
+    },
+    "Rock Art": {
+      "on_line_count": 7,
+      "on_line_pct": 2.25,
+      "off_line_count": 4393,
+      "off_line_pct": 7.14,
+      "enrichment_ratio": 0.32,
+      "estimated_midpoint_year": -4500.0
+    },
+    "Vitrified Fort": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 16,
+      "off_line_pct": 0.03,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 0.0
+    },
+    "Round Cairn": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 296,
+      "off_line_pct": 0.48,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Wedge Tomb": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 126,
+      "off_line_pct": 0.2,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2000.0
+    },
+    "Stone Circle": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 2511,
+      "off_line_pct": 4.08,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2400.0
+    },
+    "Portal Tomb": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 73,
+      "off_line_pct": 0.12,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3500.0
+    },
+    "Turf Maze": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 41,
+      "off_line_pct": 0.07,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 1000.0
+    },
+    "Crannog": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 95,
+      "off_line_pct": 0.15,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 400.0
+    },
+    "Causewayed Enclosure": {
+      "on_line_count": 1,
+      "on_line_pct": 0.32,
+      "off_line_count": 88,
+      "off_line_pct": 0.14,
+      "enrichment_ratio": 2.29,
+      "estimated_midpoint_year": -3450.0
+    },
+    "Hillfort": {
+      "on_line_count": 5,
+      "on_line_pct": 1.61,
+      "off_line_count": 2206,
+      "off_line_pct": 3.58,
+      "enrichment_ratio": 0.45,
+      "estimated_midpoint_year": -250.0
+    },
+    "Stone Row  Alignment": {
+      "on_line_count": 1,
+      "on_line_pct": 0.32,
+      "off_line_count": 835,
+      "off_line_pct": 1.36,
+      "enrichment_ratio": 0.24,
+      "estimated_midpoint_year": -2250.0
+    },
+    "Holed Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 68,
+      "off_line_pct": 0.11,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2250.0
+    },
+    "Long Barrow": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1740,
+      "off_line_pct": 2.83,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3500.0
+    },
+    "Passage Grave": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1361,
+      "off_line_pct": 2.21,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3000.0
+    },
+    "Not Known (by us)": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 96,
+      "off_line_pct": 0.16,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": null
+    },
+    "Hill Figure or Geoglyph": {
+      "on_line_count": 11,
+      "on_line_pct": 3.54,
+      "off_line_count": 34,
+      "off_line_pct": 0.06,
+      "enrichment_ratio": 59.0,
+      "estimated_midpoint_year": 0.0
+    },
+    "Artificial Mound": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 870,
+      "off_line_pct": 1.41,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Sculptured Stone": {
+      "on_line_count": 11,
+      "on_line_pct": 3.54,
+      "off_line_count": 528,
+      "off_line_pct": 0.86,
+      "enrichment_ratio": 4.12,
+      "estimated_midpoint_year": 850.0
+    },
+    "Court Tomb": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 71,
+      "off_line_pct": 0.12,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3500.0
+    },
+    "Chambered Tomb": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 1782,
+      "off_line_pct": 2.89,
+      "enrichment_ratio": 0.22,
+      "estimated_midpoint_year": -3250.0
+    },
+    "Castro or Chafurd\u00e3o": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1128,
+      "off_line_pct": 1.83,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 0.0
+    },
+    "Standing Stones": {
+      "on_line_count": 23,
+      "on_line_pct": 7.4,
+      "off_line_count": 1092,
+      "off_line_pct": 1.77,
+      "enrichment_ratio": 4.18,
+      "estimated_midpoint_year": -3250.0
+    },
+    "Ancient Palace": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 69,
+      "off_line_pct": 0.11,
+      "enrichment_ratio": 5.82,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Clava Cairn": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 13,
+      "off_line_pct": 0.02,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Henge": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 193,
+      "off_line_pct": 0.31,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2500.0
+    },
+    "Timber Circle": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 90,
+      "off_line_pct": 0.15,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2250.0
+    },
+    "Cursus": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 314,
+      "off_line_pct": 0.51,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3050.0
+    },
+    "Cist": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 578,
+      "off_line_pct": 0.94,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Rock Outcrop": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 282,
+      "off_line_pct": 0.46,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": null
+    },
+    "Souterrain (Fogou, Earth House)": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 79,
+      "off_line_pct": 0.13,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 0.0
+    },
+    "Class II Pictish Symbol Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 30,
+      "off_line_pct": 0.05,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 700.0
+    },
+    "Ancient Trackway": {
+      "on_line_count": 1,
+      "on_line_pct": 0.32,
+      "off_line_count": 165,
+      "off_line_pct": 0.27,
+      "enrichment_ratio": 1.19,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Stone Fort or Dun": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 393,
+      "off_line_pct": 0.64,
+      "enrichment_ratio": 1.0,
+      "estimated_midpoint_year": 250.0
+    },
+    "Ancient Cross": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1022,
+      "off_line_pct": 1.66,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 1000.0
+    },
+    "Carving": {
+      "on_line_count": 12,
+      "on_line_pct": 3.86,
+      "off_line_count": 475,
+      "off_line_pct": 0.77,
+      "enrichment_ratio": 5.01,
+      "estimated_midpoint_year": -2750.0
+    },
+    "Natural Stone  Erratic  Other Natural Feature": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 1351,
+      "off_line_pct": 2.19,
+      "enrichment_ratio": 0.29,
+      "estimated_midpoint_year": null
+    },
+    "Pyramid  Mastaba": {
+      "on_line_count": 32,
+      "on_line_pct": 10.29,
+      "off_line_count": 175,
+      "off_line_pct": 0.28,
+      "enrichment_ratio": 36.75,
+      "estimated_midpoint_year": -2250.0
+    },
+    "Multiple Stone Rows  Avenue": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 158,
+      "off_line_pct": 0.26,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2250.0
+    },
+    "Class I Pictish Symbol Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 121,
+      "off_line_pct": 0.2,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 700.0
+    },
+    "Burial Chamber or Dolmen": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 8354,
+      "off_line_pct": 13.57,
+      "enrichment_ratio": 0.05,
+      "estimated_midpoint_year": -3250.0
+    },
+    "Ring Cairn": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 407,
+      "off_line_pct": 0.66,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -2000.0
+    },
+    "Rock Cut Tomb": {
+      "on_line_count": 3,
+      "on_line_pct": 0.96,
+      "off_line_count": 389,
+      "off_line_pct": 0.63,
+      "enrichment_ratio": 1.52,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Broch or Nuraghe": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1455,
+      "off_line_pct": 2.36,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -150.0
+    },
+    "Holy Well or Sacred Spring": {
+      "on_line_count": 2,
+      "on_line_pct": 0.64,
+      "off_line_count": 1882,
+      "off_line_pct": 3.06,
+      "enrichment_ratio": 0.21,
+      "estimated_midpoint_year": 500.0
+    },
+    "Chambered Cairn": {
+      "on_line_count": 7,
+      "on_line_pct": 2.25,
+      "off_line_count": 692,
+      "off_line_pct": 1.12,
+      "enrichment_ratio": 2.01,
+      "estimated_midpoint_year": -3000.0
+    },
+    "Polissoir": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 156,
+      "off_line_pct": 0.25,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -3000.0
+    },
+    "Ancient Mine, Quarry or other Industry": {
+      "on_line_count": 14,
+      "on_line_pct": 4.5,
+      "off_line_count": 274,
+      "off_line_pct": 0.45,
+      "enrichment_ratio": 10.0,
+      "estimated_midpoint_year": -2750.0
+    },
+    "Class I  Class II Hybrid Pictish Symbol Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 4,
+      "off_line_pct": 0.01,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 700.0
+    },
+    "Promontory Fort  Cliff Castle": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 226,
+      "off_line_pct": 0.37,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 0.0
+    },
+    "Modern Stone Circle etc": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 1107,
+      "off_line_pct": 1.8,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 1910.0
+    },
+    "Barrow Cemetery": {
+      "on_line_count": 4,
+      "on_line_pct": 1.29,
+      "off_line_count": 2195,
+      "off_line_pct": 3.57,
+      "enrichment_ratio": 0.36,
+      "estimated_midpoint_year": -1600.0
+    },
+    "Cairn": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 2347,
+      "off_line_pct": 3.81,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Ancient Village or Settlement": {
+      "on_line_count": 80,
+      "on_line_pct": 25.72,
+      "off_line_count": 4667,
+      "off_line_pct": 7.58,
+      "enrichment_ratio": 3.39,
+      "estimated_midpoint_year": -4250.0
+    },
+    "Museum": {
+      "on_line_count": 7,
+      "on_line_pct": 2.25,
+      "off_line_count": 1208,
+      "off_line_pct": 1.96,
+      "enrichment_ratio": 1.15,
+      "estimated_midpoint_year": null
+    },
+    "Misc Earthwork": {
+      "on_line_count": 16,
+      "on_line_pct": 5.14,
+      "off_line_count": 640,
+      "off_line_pct": 1.04,
+      "enrichment_ratio": 4.94,
+      "estimated_midpoint_year": -1750.0
+    },
+    "Ancient Temple": {
+      "on_line_count": 55,
+      "on_line_pct": 17.68,
+      "off_line_count": 863,
+      "off_line_pct": 1.4,
+      "enrichment_ratio": 12.63,
+      "estimated_midpoint_year": -2750.0
+    },
+    "Early Christian Sculptured Stone": {
+      "on_line_count": 0,
+      "on_line_pct": 0.0,
+      "off_line_count": 279,
+      "off_line_pct": 0.45,
+      "enrichment_ratio": 0.0,
+      "estimated_midpoint_year": 850.0
+    }
+  },
+  "oldest_sites_on_line": [
+    {
+      "name": "wadi 'Oded",
+      "type": "Cave or Rock Shelter",
+      "distance_km": 40.0,
+      "estimated_founding_midpoint_bce": 20500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -20500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Tsichor",
+      "type": "Rock Art",
+      "distance_km": 10.1,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ana Kai Tangata",
+      "type": "Rock Art",
+      "distance_km": 11.9,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Aname petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mount Karkom",
+      "type": "Rock Art",
+      "distance_km": 15.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Naqsh-e Rajab",
+      "type": "Rock Art",
+      "distance_km": 17.2,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "North Sayarim Valley Rock Carving",
+      "type": "Rock Art",
+      "distance_km": 33.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Rum Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 47.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Salapunku",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 2.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Llactapata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 3.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 4.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Heit el-Ghurab",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "North of Wadi Tzikhor camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Kuntillet Ajrud",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mianroud Mound",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ollantaytambo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ts'hiha hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Runkurakay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sayacmarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Suntur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Paran ancient agriculture terraces, matseboth and Rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Choquequirao",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yaziz (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yaziz (3)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South to Kibuts Yahel",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Phuyupatamarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mt. Shizzafon camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Raqaypata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sha'alav Plaza Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Winay Wayna",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Khalamish Camp site,Sanctuaries and Rock Art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Intipata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East of Qtura valley camp site and open air sanctuary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sukothai",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East of Mt. Kharoz camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Bishapur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ovil Heights Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Orongo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Pernil Alto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Petra, Nabataean Town",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Machu Picchu.",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Eshel Desert Kite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "lower wadi Qtura",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South of wadi Eshel Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Paran tributary camp site & Tumuli",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Inkaraqay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 18.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Estakhr",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Kipat 'Eshet rock shelter",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Beidha",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    }
+  ],
+  "all_on_line_sites_ranked_by_age": [
+    {
+      "name": "wadi 'Oded",
+      "type": "Cave or Rock Shelter",
+      "distance_km": 40.0,
+      "estimated_founding_midpoint_bce": 20500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -20500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Tsichor",
+      "type": "Rock Art",
+      "distance_km": 10.1,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ana Kai Tangata",
+      "type": "Rock Art",
+      "distance_km": 11.9,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Aname petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mount Karkom",
+      "type": "Rock Art",
+      "distance_km": 15.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Naqsh-e Rajab",
+      "type": "Rock Art",
+      "distance_km": 17.2,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "North Sayarim Valley Rock Carving",
+      "type": "Rock Art",
+      "distance_km": 33.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Rum Petroglyphs",
+      "type": "Rock Art",
+      "distance_km": 47.5,
+      "estimated_founding_midpoint_bce": 4500,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4500,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Salapunku",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 2.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Llactapata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 3.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Paran Sagi habitations , Matsebot ,and Flint workshop",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 4.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Heit el-Ghurab",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "North of Wadi Tzikhor camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Kuntillet Ajrud",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 6.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mianroud Mound",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ollantaytambo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ts'hiha hills",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Runkurakay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 7.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sayacmarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Suntur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Paran ancient agriculture terraces, matseboth and Rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 8.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Choquequirao",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yaziz (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 10.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yaziz (3)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South to Kibuts Yahel",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Tall-e Bakun",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Phuyupatamarca",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 11.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mt. Shizzafon camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Raqaypata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sha'alav Plaza Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Winay Wayna",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 12.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Khalamish Camp site,Sanctuaries and Rock Art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Intipata",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East of Qtura valley camp site and open air sanctuary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sukothai",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 13.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East of Mt. Kharoz camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Bishapur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ovil Heights Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Orongo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 15.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Pernil Alto",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Petra, Nabataean Town",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Machu Picchu.",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Eshel Desert Kite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "lower wadi Qtura",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 16.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South of wadi Eshel Plaza site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Paran tributary camp site & Tumuli",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 17.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Inkaraqay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 18.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Estakhr",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Kipat 'Eshet rock shelter",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 19.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Beidha",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Cahuachi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Shazar threshing floors, terraces and rock art",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 20.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Siq al-Barid-Little Petra",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Heliopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 21.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Uvda Valley habitation site No 18",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Uvda Valley habitation site No 9",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Ma'azer campsite",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 24.7,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Humeima",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mohenjo-daro",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 25.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ramat Tsofar early Islamic settlement",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 26.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi 'Isaron",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 29.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Hagdera-'Uvda camp & cult site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "La Tiza",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "El Trigal",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Tse'ela Habitation site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 30.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Chinchero",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Paredones",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 31.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Huchuy Qosqo",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 33.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Milhan Ancient Farm",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.2,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "wadi 'Arod tributary (5)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "wadi 'Arod tributary (2)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "wadi 'Arod tributary (4)",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 35.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Bundi",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 36.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "wadi 'Ashosh tributary",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Vilcashuam\u00c3\u00a1n",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 37.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Dimeh Al-Siba",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Leontopolis",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 38.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Botem Predator's Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Botem Sites",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.3,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East of Dana Nature Reserve",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 40.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Anaka Habitation site & Predators Trap",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Timna Valley Slave Hill Smelting Site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.4,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Anaka camp site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.5,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Pisac Ruins",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.6,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Tambomachay",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 43.8,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Khirbat Dabur",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 46.9,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Cusco",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 47.0,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi 'Eteq tributary cult & Goat pen site",
+      "type": "Ancient Village or Settlement",
+      "distance_km": 49.1,
+      "estimated_founding_midpoint_bce": 4250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -4250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Gisr el-Mudir",
+      "type": "Causewayed Enclosure",
+      "distance_km": 6.6,
+      "estimated_founding_midpoint_bce": 3450,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3450,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "East Upper Wadi Paran Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 0.1,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Lower Wadi Hayun Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 1.6,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Big Wadi's Masseboth (2)",
+      "type": "Standing Stones",
+      "distance_km": 3.8,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Jaisalmer Hero Stones",
+      "type": "Standing Stones",
+      "distance_km": 5.3,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Tzichor Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South of Lower Wadi Hayun Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 5.5,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Irukaptah Tomb",
+      "type": "Chambered Tomb",
+      "distance_km": 6.5,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Tzikhor Matseboth & Rock Art",
+      "type": "Standing Stones",
+      "distance_km": 7.7,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ahu Te Pito Kura",
+      "type": "Standing Stones",
+      "distance_km": 8.2,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yahel",
+      "type": "Standing Stones",
+      "distance_km": 8.4,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Chaibasa",
+      "type": "Standing Stones",
+      "distance_km": 8.6,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Paran pair Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 9.3,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Upper wadi Ya'alon Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.5,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Qtura Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 12.9,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "El Zadalek Island Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 13.3,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Upper Qtura Pass Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 15.4,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Upper Wadi Hayun",
+      "type": "Standing Stones",
+      "distance_km": 15.6,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mt. Na'atsuts cluster of megalithic Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 16.2,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Big Wadi's Masseboth (1)",
+      "type": "Standing Stones",
+      "distance_km": 17.3,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Jabal Fatouma Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 17.5,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Cairo Airport Obelisk",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 20.4,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Top Itro pass 7 Matseboth",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 21.9,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "South 'Uvda Valley Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 27.7,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sayarim Valley E'",
+      "type": "Standing Stones",
+      "distance_km": 34.8,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Meshar-Hadav Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 34.8,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Al-Shobak Dolmen",
+      "type": "Burial Chamber or Dolmen",
+      "distance_km": 36.1,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sayarim Valley South Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 38.0,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Al Rajajil",
+      "type": "Standing Stones",
+      "distance_km": 38.1,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "North of Wadi Botem Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 38.7,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Betamim Matseboth",
+      "type": "Standing Stones",
+      "distance_km": 40.1,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Sasgon valley",
+      "type": "Standing Stones",
+      "distance_km": 41.6,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Timna Valley Slave Hill Massebah",
+      "type": "Standing Stone (Menhir)",
+      "distance_km": 43.2,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Tomb of Cyrus",
+      "type": "Chambered Tomb",
+      "distance_km": 45.1,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Upper Wadi Eteq Masseboth",
+      "type": "Standing Stones",
+      "distance_km": 46.0,
+      "estimated_founding_midpoint_bce": 3250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3250,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ptah Shepses Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 3.2,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Kagemni Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Mereruka Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Knuhmhotep and Niankhkhnum Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Ptah Hotep Mastaba",
+      "type": "Chambered Cairn",
+      "distance_km": 5.8,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Senegemid Mastabas",
+      "type": "Chambered Cairn",
+      "distance_km": 6.7,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Wadi Yaziz (1)",
+      "type": "Chambered Cairn",
+      "distance_km": 9.9,
+      "estimated_founding_midpoint_bce": 3000,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -3000,
+      "age_category": "deep_antiquity"
+    },
+    {
+      "name": "Petroglyphs near Jebel al Samra Um al Hidha",
+      "type": "Carving",
+      "distance_km": 0.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Tsichor Cliff",
+      "type": "Ancient Temple",
+      "distance_km": 2.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Jibal al-Khashabiyeh",
+      "type": "Carving",
+      "distance_km": 2.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mina Primavera",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 3.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Niuserra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Neferefra Sun Temple",
+      "type": "Ancient Temple",
+      "distance_km": 3.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Tsenifim Hayun crossing",
+      "type": "Ancient Temple",
+      "distance_km": 3.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Gondashlu Stone Quarry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 4.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Beer-Menucha",
+      "type": "Ancient Temple",
+      "distance_km": 4.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Serapeum at Sakkara",
+      "type": "Ancient Temple",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Giza Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Great Sphinx",
+      "type": "Ancient Temple",
+      "distance_km": 6.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sakkara Temple of Heb-Sed",
+      "type": "Ancient Temple",
+      "distance_km": 6.3,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sakkara Djoser Complex",
+      "type": "Ancient Temple",
+      "distance_km": 6.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Unas Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 2",
+      "type": "Ancient Temple",
+      "distance_km": 6.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "North of Tsikhor limestone bowls Industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 7.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "South Negev Highland rock engravings 3",
+      "type": "Carving",
+      "distance_km": 7.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "South Negev Highland rock engravings 2",
+      "type": "Carving",
+      "distance_km": 8.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi 'Orkan Plaza 1",
+      "type": "Ancient Temple",
+      "distance_km": 8.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Paran tributery Megalithic Open Air Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 8.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "South Negev Highland rock engravings 1",
+      "type": "Carving",
+      "distance_km": 9.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Tsuky (cliff ) Hidud",
+      "type": "Ancient Temple",
+      "distance_km": 10.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "S' of wadi Ya'alon",
+      "type": "Ancient Temple",
+      "distance_km": 11.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "South East of Mount Karkom Engravings",
+      "type": "Carving",
+      "distance_km": 11.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "M'aan district",
+      "type": "Carving",
+      "distance_km": 11.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "\u00c3\u0091aupa Iglesia",
+      "type": "Ancient Temple",
+      "distance_km": 11.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Puna Pau",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rano Raraku",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 12.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Dashour Valley Temple",
+      "type": "Ancient Temple",
+      "distance_km": 14.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mt. Qtura Roded type open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 14.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Upper Wadi Qtura Flint Workshop",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 14.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Intipunku",
+      "type": "Ancient Temple",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "wadi Dmama open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 15.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mt. Kharoz Plaza site",
+      "type": "Ancient Temple",
+      "distance_km": 15.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Las Salinas",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 16.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mt. 'Ai'it sites",
+      "type": "Ancient Temple",
+      "distance_km": 16.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Eshel stone circle, Matseboth",
+      "type": "Ancient Temple",
+      "distance_km": 17.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Siwa Temple of Amun",
+      "type": "Ancient Temple",
+      "distance_km": 17.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Umm Ubayda Temple",
+      "type": "Ancient Temple",
+      "distance_km": 17.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mount Ayah",
+      "type": "Ancient Temple",
+      "distance_km": 18.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Eshel Paran Megalithic cult site",
+      "type": "Ancient Temple",
+      "distance_km": 18.3,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Grofit hights",
+      "type": "Ancient Temple",
+      "distance_km": 19.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Yakham hills Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 22.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Itro pass Roded Figurines",
+      "type": "Ancient Temple",
+      "distance_km": 22.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Leopards Open Sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 23.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "East Uvda valley cult sites",
+      "type": "Ancient Temple",
+      "distance_km": 23.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "wadi Paran",
+      "type": "Ancient Temple",
+      "distance_km": 23.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Widan el-Faras",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 24.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mount Shacharut",
+      "type": "Ancient Temple",
+      "distance_km": 26.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "S' of Shacharut pass Open Air Sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 28.3,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Zugan Pass Cult Site",
+      "type": "Ancient Temple",
+      "distance_km": 29.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "North wadi Tse'ela open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 30.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Prasat Preah Vihear",
+      "type": "Ancient Temple",
+      "distance_km": 30.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Puma Temple",
+      "type": "Ancient Temple",
+      "distance_km": 31.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Cantalloc Aqueduct",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 31.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Qasr el- Sagha",
+      "type": "Ancient Temple",
+      "distance_km": 32.0,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "wadi 'Arod tributary (1)",
+      "type": "Ancient Temple",
+      "distance_km": 35.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "wadi 'Arod tributary Crenellation Line",
+      "type": "Ancient Temple",
+      "distance_km": 35.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "wadi 'Arod tributary (3)",
+      "type": "Ancient Temple",
+      "distance_km": 35.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "lower wadi 'Ashosh",
+      "type": "Ancient Temple",
+      "distance_km": 36.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Timn'a cliffs Roded type open air sanctuaries",
+      "type": "Ancient Temple",
+      "distance_km": 38.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Ancient Copper Strip-mine north of Mt. Michrot",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.3,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "N' W' Timna  valley ancient copper industry",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 39.5,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Malaqa Petroglyphs",
+      "type": "Carving",
+      "distance_km": 39.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mount. Michrot",
+      "type": "Ancient Temple",
+      "distance_km": 39.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Small Wadi Malaqa Petroglyph",
+      "type": "Carving",
+      "distance_km": 40.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Timna Valley Copper Mines",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 40.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Karanis Aushim Temple",
+      "type": "Ancient Temple",
+      "distance_km": 42.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Timna Valley Temple of Hathor",
+      "type": "Ancient Temple",
+      "distance_km": 43.7,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Lower wadi Anaka Open air sanctuary and camp site",
+      "type": "Ancient Temple",
+      "distance_km": 43.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Lanlakuyok",
+      "type": "Carving",
+      "distance_km": 45.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Lacco",
+      "type": "Carving",
+      "distance_km": 46.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Qenko",
+      "type": "Ancient Temple",
+      "distance_km": 46.6,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Kusilluchayoc",
+      "type": "Carving",
+      "distance_km": 46.8,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Inkil Tambo",
+      "type": "Ancient Temple",
+      "distance_km": 46.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Cusco - Qorikancha",
+      "type": "Ancient Temple",
+      "distance_km": 47.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "S' of wadi Gadna'a",
+      "type": "Ancient Temple",
+      "distance_km": 48.2,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Feinan",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 48.9,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "North Se'ipim Valley Predator Trap",
+      "type": "Ancient Mine, Quarry or other Industry",
+      "distance_km": 49.1,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Ramon crater open air sanctuary",
+      "type": "Ancient Temple",
+      "distance_km": 49.4,
+      "estimated_founding_midpoint_bce": 2750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Khaba's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 1.1,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Niuserra's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 2.3,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sahure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.1,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Neferirkare's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 3.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Userkaf's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Menkaure's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 5.8,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sakkara Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.1,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Khafre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.2,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Unas Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Giza Mastaba Cemetery",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.5,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Seschemnofer III. Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sekhemkhet's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Khufu's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.6,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Giza Plateau",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 6.7,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Pepy I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.0,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Djedkare Izezi Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Merenre Nemtyemzaf Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 8.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Ibi I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Pepy II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.5,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Shepseskaf's Mastaba",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 9.7,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Khendjer's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 10.7,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Senusret III Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.0,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Red Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Djedefre's Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 12.9,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Amenmenhat II Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 13.2,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Sneferu's Bent Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.0,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Amenemhat III Pyramid at Dashour.",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.1,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Queen Hetepheres Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 15.2,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mazghuna 1 Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 20.3,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Southern Itro pass ",
+      "type": "Stone Row  Alignment",
+      "distance_km": 25.2,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Possible Pyramids near Kafr Al Masallat",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 37.4,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Amenemhat I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 39.0,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Senusret I Pyramid",
+      "type": "Pyramid  Mastaba",
+      "distance_km": 40.6,
+      "estimated_founding_midpoint_bce": 2250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -2250,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Masoudah - David Roberts Rock",
+      "type": "Rock Cut Tomb",
+      "distance_km": 10.7,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Persepolis",
+      "type": "Ancient Palace",
+      "distance_km": 13.6,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Siwa Mountain Of The Dead",
+      "type": "Rock Cut Tomb",
+      "distance_km": 13.9,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Big Circle J5",
+      "type": "Misc Earthwork",
+      "distance_km": 15.2,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Big Circle J8",
+      "type": "Misc Earthwork",
+      "distance_km": 15.8,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Mt. 'Eshet",
+      "type": "Ancient Trackway",
+      "distance_km": 16.5,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Moray Terraces",
+      "type": "Misc Earthwork",
+      "distance_km": 17.6,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Naghsh-e-Rostam",
+      "type": "Rock Cut Tomb",
+      "distance_km": 19.6,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Big Circle J6",
+      "type": "Misc Earthwork",
+      "distance_km": 20.6,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 22",
+      "type": "Misc Earthwork",
+      "distance_km": 23.9,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 21",
+      "type": "Misc Earthwork",
+      "distance_km": 24.0,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 23",
+      "type": "Misc Earthwork",
+      "distance_km": 26.3,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 24",
+      "type": "Misc Earthwork",
+      "distance_km": 29.3,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 26",
+      "type": "Misc Earthwork",
+      "distance_km": 30.4,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 25",
+      "type": "Misc Earthwork",
+      "distance_km": 31.4,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 20",
+      "type": "Misc Earthwork",
+      "distance_km": 35.5,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 18",
+      "type": "Misc Earthwork",
+      "distance_km": 44.3,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 19",
+      "type": "Misc Earthwork",
+      "distance_km": 44.4,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Pasargadae",
+      "type": "Ancient Palace",
+      "distance_km": 45.8,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Rio Branco Geoglyph 16",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Se'ipim Valley North Predators Trap",
+      "type": "Misc Earthwork",
+      "distance_km": 49.2,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Big Circle J4",
+      "type": "Misc Earthwork",
+      "distance_km": 49.9,
+      "estimated_founding_midpoint_bce": 1750,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1750,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "North Sayarim Valley Tumulus",
+      "type": "Barrow Cemetery",
+      "distance_km": 34.8,
+      "estimated_founding_midpoint_bce": 1600,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1600,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Chauchilla Necropolis",
+      "type": "Barrow Cemetery",
+      "distance_km": 46.1,
+      "estimated_founding_midpoint_bce": 1600,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1600,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Qhataqasapatallaqta",
+      "type": "Barrow Cemetery",
+      "distance_km": 47.6,
+      "estimated_founding_midpoint_bce": 1600,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1600,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Gvanim Tumulus and Matsebah",
+      "type": "Round Barrow(s)",
+      "distance_km": 48.0,
+      "estimated_founding_midpoint_bce": 1600,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1600,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Wadi Gvanim Ancient Bedouin cemetery",
+      "type": "Barrow Cemetery",
+      "distance_km": 48.2,
+      "estimated_founding_midpoint_bce": 1600,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -1600,
+      "age_category": "mature_prehistoric"
+    },
+    {
+      "name": "Qalat Al-Guindi",
+      "type": "Hillfort",
+      "distance_km": 23.2,
+      "estimated_founding_midpoint_bce": 250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Shobak Castle",
+      "type": "Hillfort",
+      "distance_km": 37.9,
+      "estimated_founding_midpoint_bce": 250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Jabal Al-Aswad",
+      "type": "Hillfort",
+      "distance_km": 42.1,
+      "estimated_founding_midpoint_bce": 250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Sacsayhuaman",
+      "type": "Hillfort",
+      "distance_km": 46.0,
+      "estimated_founding_midpoint_bce": 250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Tall-e Takht",
+      "type": "Hillfort",
+      "distance_km": 46.8,
+      "estimated_founding_midpoint_bce": 250,
+      "estimated_founding_midpoint_ce": null,
+      "midpoint_year": -250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Petroglifos de Llipata",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Trapezoids",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.3,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.4,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Hummingbird",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.6,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Small Spiral",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 7.5,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Spider",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.1,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Hands and Tree",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.5,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Monkey",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.6,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Solar Watch",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 12.1,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - \"The Astronaut\"",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 15.3,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Nazca Lines - Whale",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 26.5,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 0,
+      "midpoint_year": 0,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Puca Pucara",
+      "type": "Stone Fort or Dun",
+      "distance_km": 44.5,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 250,
+      "midpoint_year": 250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Ein Saharonim",
+      "type": "Stone Fort or Dun",
+      "distance_km": 49.2,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 250,
+      "midpoint_year": 250,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Rano Kau",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 15.8,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 500,
+      "midpoint_year": 500,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "\u00c3\u0091usta Hispana",
+      "type": "Holy Well or Sacred Spring",
+      "distance_km": 41.2,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 500,
+      "midpoint_year": 500,
+      "age_category": "protohistoric"
+    },
+    {
+      "name": "Jaisalmer area",
+      "type": "Sculptured Stone",
+      "distance_km": 5.7,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Nau Nau Anakena",
+      "type": "Sculptured Stone",
+      "distance_km": 6.7,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Ature Huke",
+      "type": "Sculptured Stone",
+      "distance_km": 7.1,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Saihuite Stone",
+      "type": "Sculptured Stone",
+      "distance_km": 8.8,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Akivi",
+      "type": "Sculptured Stone",
+      "distance_km": 9.4,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Easter Island",
+      "type": "Sculptured Stone",
+      "distance_km": 9.5,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Tahai Kote Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 10.9,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Ko Te Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 11.0,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Huri A Urenga",
+      "type": "Sculptured Stone",
+      "distance_km": 13.2,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Tongariki",
+      "type": "Sculptured Stone",
+      "distance_km": 14.0,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    },
+    {
+      "name": "Ahu Vinapu",
+      "type": "Sculptured Stone",
+      "distance_km": 15.4,
+      "estimated_founding_midpoint_bce": null,
+      "estimated_founding_midpoint_ce": 850,
+      "midpoint_year": 850,
+      "age_category": "historic_or_modern"
+    }
+  ],
+  "pre_construction_evidence": [
+    {
+      "site": "Giza Plateau (Great Pyramid, Sphinx)",
+      "distance_km": 6.6,
+      "visible_construction_date": "c. 2560-2500 BCE (4th Dynasty)",
+      "earliest_radiocarbon": "Mortar samples from Great Pyramid: 2871-2604 BCE (Bonani et al. 1995, Lehner/Wenke); older charcoal may be 'old wood effect'",
+      "pre_construction_occupation": "Maadi culture settlement nearby (c. 3900-3500 BCE). Heit el-Ghurab workers' village shows occupation from ~2600 BCE. The Sphinx enclosure shows evidence of water erosion that geologist Robert Schoch argues dates to periods of heavy rainfall (pre-3000 BCE), though this is disputed by most Egyptologists.",
+      "controversial_older_dates": "Robert Schoch (1991/2012): water weathering on Sphinx enclosure suggests 5000-7000 BCE or older. Robert Bauval/Adrian Gilbert (1994): shaft alignments to ~10,500 BCE precession position. John Anthony West: argued for pre-dynastic construction. These are rejected by mainstream Egyptology.",
+      "earlier_structures_underneath": "The Sphinx sits on bedrock; no earlier structure beneath it. However, the Giza plateau shows evidence of an earlier mastaba cemetery (Tomb of Heminu) and the site was clearly chosen for its geological properties. The Great Pyramid's hill contains a natural rocky knoll incorporated into the structure."
+    },
+    {
+      "site": "Saqqara (Step Pyramid of Djoser)",
+      "distance_km": 6.1,
+      "visible_construction_date": "c. 2670-2650 BCE (3rd Dynasty)",
+      "earliest_radiocarbon": "Radiocarbon dates from mortars: range 2800-2500 BCE (consistent with 3rd Dynasty). Wood samples from Djoser complex: 2650\u00b1100 BCE",
+      "pre_construction_occupation": "2nd Dynasty royal tombs (Hotepsekhemwy, Raneb, Nynetjer) found at Saqqara, dating to c. 2890-2686 BCE. 1st Dynasty tombs also present. The site has continuous use from at least Early Dynastic Period (c. 3100 BCE). Archaic mastaba cemetery predates Djoser.",
+      "controversial_older_dates": "None significantly. The site's early dynastic use is well-documented and uncontroversial.",
+      "earlier_structures_underneath": "YES. Djoser's Step Pyramid was built over/near earlier mastaba structures. The subterranean galleries beneath contain 40,000+ stone vessels, many from 1st-2nd Dynasty, clearly pre-dating the pyramid. Some archaeologists believe the step pyramid began as a mastaba that was expanded."
+    },
+    {
+      "site": "Abusir",
+      "distance_km": 2.3,
+      "visible_construction_date": "c. 2494-2345 BCE (5th Dynasty)",
+      "earliest_radiocarbon": "Limited direct dating. Pyramid construction assigned by king-lists and stratigraphy to 5th Dynasty.",
+      "pre_construction_occupation": "The site was used for elite burials from at least the 4th Dynasty. Lepsius Pyramid XXIV may date to late 4th Dynasty. Sun temples at Abu Ghurob nearby are early 5th Dynasty. No evidence of pre-Old Kingdom use at this specific site.",
+      "controversial_older_dates": "None significant for Abusir specifically.",
+      "earlier_structures_underneath": "Some 5th Dynasty pyramids were built near or over earlier tombs, but no dramatically older construction beneath the visible monuments."
+    },
+    {
+      "site": "Negev Matsevot (Standing Stones)",
+      "distance_km": 0.1,
+      "visible_construction_date": "Various periods, primarily Pre-Pottery Neolithic B to Chalcolithic (7500-3500 BCE), with some Early Bronze Age additions",
+      "earliest_radiocarbon": "Avner (1984, 2001): standing stones in the Uvda Valley dated to PPNB, ~7000-6000 BCE by associated material. Some Negev desert cult sites yield dates as early as 8th millennium BCE from associated hearths/floors.",
+      "pre_construction_occupation": "The Negev has continuous human presence from the Natufian period (c. 12,000 BCE). Many standing stone sites are associated with campsites dating to the PPNB (8th-7th millennium BCE). The matsevot tradition appears to begin in the PPNB and continue through the Chalcolithic.",
+      "controversial_older_dates": "Some researchers argue for Epi-Paleolithic origins of the standing stone tradition (pre-10,000 BCE) based on association with Natufian sites, but direct dating of the stones themselves is impossible \u2014 only associated materials can be dated.",
+      "earlier_structures_underneath": "Many matsevot sites show multiple phases of erection and re-erection, with older stones sometimes incorporated into later arrangements. The tradition is remarkably continuous over thousands of years."
+    },
+    {
+      "site": "Nazca Lines",
+      "distance_km": 6.4,
+      "visible_construction_date": "c. 500 BCE - 500 CE (Nasca culture)",
+      "earliest_radiocarbon": "Wooden stakes marking line endpoints: 525 BCE \u00b1 80 (Clarkson & Dorn 1999). Most lines date to 200 BCE - 600 CE. OSL dating of cleared surfaces: some lines 400 BCE.",
+      "pre_construction_occupation": "The Nasca drainage was occupied from at least the Initial Period (~1800 BCE). Paracas culture (800-100 BCE) created earlier geoglyphs in the same region (Palpa lines). Cahuachi ceremonial center nearby dates from ~400 BCE. Pernil Alto settlement: ~3800 BCE.",
+      "controversial_older_dates": "Some Palpa geoglyphs may date to Paracas period (800-200 BCE), making them older than the Nasca lines proper. Recent German-Peruvian research has found geoglyphs pre-dating the Nasca culture by centuries.",
+      "earlier_structures_underneath": "The lines are surface features (removal of dark rocks to expose light ground). Earlier Paracas-era geoglyphs exist in the broader Nazca-Palpa region, suggesting a continuous tradition. The Nazca pampa shows no built structures underneath the lines."
+    },
+    {
+      "site": "Easter Island (Rapa Nui) \u2014 Ahu platforms",
+      "distance_km": 6.7,
+      "visible_construction_date": "c. 1000-1600 CE (moai period)",
+      "earliest_radiocarbon": "Earliest reliable settlement dates: c. 1200 CE (Hunt & Lipo 2006, revised from earlier estimates). Anakena beach settlement: 1200-1250 CE. Ahu construction peaks 1400-1600 CE.",
+      "pre_construction_occupation": "Revised chronology (Hunt & Lipo 2006, 2011): initial colonization ~1200 CE, not the earlier ~400-800 CE as previously claimed. There is no reliable evidence of pre-Polynesian occupation. Earlier dates (Heyerdahl: pre-400 CE) are now attributed to old carbon in soils.",
+      "controversial_older_dates": "Thor Heyerdahl proposed South American contact and earlier dates. Some contested charcoal dates suggest ~400 CE occupation. The oral tradition of 'Long Ears' and 'Short Ears' has been interpreted as evidence of multiple colonization waves, but this is not supported by genetic or archaeological evidence.",
+      "earlier_structures_underneath": "Some ahu show rebuilding phases. Ahu Vinapu's fitted stonework has been compared to Inca masonry, leading to speculation about South American contact, but mainstream archaeology attributes this to independent development. No pre-Polynesian structures have been identified."
+    },
+    {
+      "site": "Persepolis",
+      "distance_km": 13.6,
+      "visible_construction_date": "c. 518-330 BCE (Achaemenid Empire, Darius I through Artaxerxes III)",
+      "earliest_radiocarbon": "Construction well-dated by royal inscriptions. Darius I's foundation tablets: 518 BCE. Limited C14 dating needed given rich textual record.",
+      "pre_construction_occupation": "Tall-e Bakun nearby: continuous occupation from c. 5000-3000 BCE (one of the longest-occupied sites in Iran). The Marvdasht Plain surrounding Persepolis has evidence of occupation from at least the 6th millennium BCE. Anshan (Tall-e Malyan), the Elamite capital, is nearby.",
+      "controversial_older_dates": "None for Persepolis itself \u2014 the construction date is well-established. However, the broader Marvdasht Plain has extremely deep prehistoric roots (Bakun, Mushki, Jari cultures from 7th-5th millennia BCE).",
+      "earlier_structures_underneath": "Some evidence of pre-Achaemenid settlement on the Persepolis terrace, but the massive platform construction of Darius largely obliterated earlier remains. Excavations have found some pre-Achaemenid pottery beneath terrace fill."
+    },
+    {
+      "site": "Jaisalmer (Hero Stones and megaliths)",
+      "distance_km": 5.3,
+      "visible_construction_date": "Hero stones: primarily 7th-17th century CE. The Jaisalmer fort: 1156 CE.",
+      "earliest_radiocarbon": "Limited radiocarbon data for the hero stones specifically. The Thar Desert region shows human occupation from Lower Paleolithic. Megalithic traditions in Rajasthan broadly date to Iron Age (c. 1000 BCE - 500 CE).",
+      "pre_construction_occupation": "The Thar Desert has evidence of human settlement from at least 100,000 years ago (Acheulean tools). Kalibangan (Indus Valley Civilization), ~200km away, dates to c. 3500-1750 BCE. The broader region has Ahar-Banas culture sites from 3rd millennium BCE.",
+      "controversial_older_dates": "Some researchers propose much older dates for megaliths in the Thar region, but these are not well-supported by systematic dating campaigns.",
+      "earlier_structures_underneath": "The hero stone tradition is a surface/standing monument tradition. No evidence of dramatically older structures beneath the visible stones."
+    }
+  ],
+  "deep_antiquity_summary": {
+    "on_line_deep_count": 130,
+    "on_line_dateable_total": 302,
+    "on_line_deep_pct": 43.0,
+    "types_qualifying_as_deep_antiquity": [
+      "Standing Stone (Menhir)",
+      "Standing Stones",
+      "Burial Chamber or Dolmen",
+      "Chambered Tomb",
+      "Passage Grave",
+      "Long Barrow",
+      "Chambered Cairn",
+      "Cursus",
+      "Court Tomb",
+      "Portal Tomb",
+      "Causewayed Enclosure",
+      "Rock Art",
+      "Cave or Rock Shelter",
+      "Ancient Village or Settlement",
+      "Polissoir"
+    ]
+  }
+}

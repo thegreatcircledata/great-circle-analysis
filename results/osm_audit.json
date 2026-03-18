@@ -1,0 +1,573 @@
+{
+  "audit_name": "OSM Data Quality Audit for Great Circle Research",
+  "original_d10_z_score_50km": 110.35,
+  "total_sites_audited": 350319,
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "quarter_circumference_km": 10007.54,
+  "full_dataset_pollution": {
+    "type_breakdown": {
+      "archaeological_site": 170831,
+      "ruins": 119648,
+      "monument": 59840
+    },
+    "tourism_name_count": 386,
+    "tourism_by_type": {
+      "archaeological_site": 99,
+      "ruins": 203,
+      "monument": 84
+    }
+  },
+  "online_site_counts": {
+    "25": 5334,
+    "50": 9700,
+    "100": 19185,
+    "200": 34052
+  },
+  "tag_pollution_check": {
+    "total_online_50km": 9700,
+    "name_flagged_count": 0,
+    "type_flagged_count": 303,
+    "unique_flagged_count": 303,
+    "pollution_pct": 3.12,
+    "genuine_ancient_count": 8853,
+    "genuine_ancient_pct": 91.27,
+    "ruins_count": 544,
+    "modern_type_count": 303,
+    "flagged_examples": [
+      {
+        "name": "\u0628\u0631\u0637\u0633",
+        "type": "monument",
+        "lat": 30.1475585,
+        "lon": 31.134657,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Owers Corner",
+        "type": "monument",
+        "lat": -9.3620646,
+        "lon": 147.487938,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": 30.3215772,
+        "lon": 35.498804,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Lakshmi-Narayan Temple",
+        "type": "monument",
+        "lat": 25.3527943,
+        "lon": 78.6308031,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ram-Raja",
+        "type": "monument",
+        "lat": 25.3508385,
+        "lon": 78.6397977,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Chhatris",
+        "type": "monument",
+        "lat": 25.3437497,
+        "lon": 78.6377245,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Chaterbuja",
+        "type": "monument",
+        "lat": 24.8251743,
+        "lon": 79.9309969,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Matangeshwar Temple",
+        "type": "monument",
+        "lat": 24.8520155,
+        "lon": 79.9216142,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": -13.1266986,
+        "lon": -72.5933826,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Te Pito Kura",
+        "type": "monument",
+        "lat": -27.0853031,
+        "lon": -109.3015756,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Tautira",
+        "type": "monument",
+        "lat": -27.1474275,
+        "lon": -109.4306337,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": -13.6542983,
+        "lon": -73.3854484,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Monumento de Anccohuayllo",
+        "type": "monument",
+        "lat": -13.6513952,
+        "lon": -73.3655375,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Oroi",
+        "type": "monument",
+        "lat": -27.1406342,
+        "lon": -109.3269551,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Ha\u014ba Te Te\u014ba",
+        "type": "monument",
+        "lat": -27.1349819,
+        "lon": -109.3152822,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Vai Tara Kai Ua (moai)",
+        "type": "monument",
+        "lat": -27.0727883,
+        "lon": -109.3324483,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Ature Huke (moai)",
+        "type": "monument",
+        "lat": -27.0692727,
+        "lon": -109.3480695,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Ahu Tau A Ure",
+        "type": "monument",
+        "lat": -27.088807,
+        "lon": -109.2946561,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": 18.1559171,
+        "lon": 97.9451597,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "\u0110\u00e0i T\u01b0\u1edfng ni\u1ec7m Li\u1ec7t s\u0129 t\u1ec9nh",
+        "type": "monument",
+        "lat": 12.6728088,
+        "lon": 108.0419784,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Bia t\u01b0\u1edfng ni\u1ec7m Li\u1ec7t s\u0129 M\u1eadu Th\u00e2n 1968",
+        "type": "monument",
+        "lat": 12.6882179,
+        "lon": 108.1037138,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": 12.2525762,
+        "lon": 109.1900312,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "Buddha's place",
+        "type": "monument",
+        "lat": 13.7357618,
+        "lon": 106.9691601,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "\u0e1e\u0e23\u0e30\u0e1a\u0e23\u0e21\u0e23\u0e32\u0e0a\u0e32\u0e19\u0e38\u0e2a\u0e32\u0e27\u0e23\u0e35\u0e22\u0e4c\u0e1e\u0e23\u0e30\u0e1a\u0e32\u0e17\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e1e\u0e38\u0e17\u0e18\u0e22\u0e2d\u0e14\u0e1f\u0e49\u0e32\u0e08\u0e38\u0e2c\u0e32\u0e42\u0e25\u0e01\u0e21\u0e2b\u0e32\u0e23\u0e32\u0e0a",
+        "type": "monument",
+        "lat": 14.9866994,
+        "lon": 103.1046357,
+        "reason": "potentially modern type: monument"
+      },
+      {
+        "name": "",
+        "type": "monument",
+        "lat": 16.379675,
+        "lon": 102.0431192,
+        "reason": "potentially modern type: monument"
+      }
+    ]
+  },
+  "duplicate_check": {
+    "coordinate_duplicates_100m": 0,
+    "name_duplicates_10km": 555,
+    "sites_flagged_duplicate": 0
+  },
+  "regional_breakdown": {
+    "North Africa (Sahara)": {
+      "count": 7503,
+      "pct": 77.35,
+      "type_breakdown": {
+        "archaeological_site": 7496,
+        "ruins": 4,
+        "monument": 3
+      }
+    },
+    "Peru/Andes": {
+      "count": 1051,
+      "pct": 10.84,
+      "type_breakdown": {
+        "archaeological_site": 930,
+        "ruins": 93,
+        "monument": 28
+      }
+    },
+    "Egypt/Levant": {
+      "count": 425,
+      "pct": 4.38,
+      "type_breakdown": {
+        "archaeological_site": 177,
+        "ruins": 207,
+        "monument": 41
+      }
+    },
+    "SE Asia": {
+      "count": 266,
+      "pct": 2.74,
+      "type_breakdown": {
+        "archaeological_site": 24,
+        "ruins": 174,
+        "monument": 68
+      }
+    },
+    "Easter Island": {
+      "count": 243,
+      "pct": 2.51,
+      "type_breakdown": {
+        "archaeological_site": 175,
+        "ruins": 1,
+        "monument": 67
+      }
+    },
+    "Iran": {
+      "count": 102,
+      "pct": 1.05,
+      "type_breakdown": {
+        "archaeological_site": 38,
+        "ruins": 36,
+        "monument": 28
+      }
+    },
+    "India/South Asia": {
+      "count": 93,
+      "pct": 0.96,
+      "type_breakdown": {
+        "archaeological_site": 13,
+        "ruins": 26,
+        "monument": 54
+      }
+    },
+    "Other": {
+      "count": 17,
+      "pct": 0.18,
+      "type_breakdown": {
+        "ruins": 3,
+        "monument": 14
+      }
+    }
+  },
+  "osm_vs_portal_crosscheck": {
+    "portal_online_50km": 363,
+    "osm_online_50km": 9700,
+    "osm_matched_to_portal_1km": 479,
+    "match_pct": 4.94,
+    "osm_unique_count": 9221,
+    "osm_unique_type_breakdown": {
+      "archaeological_site": 8563,
+      "ruins": 393,
+      "monument": 265
+    },
+    "matched_type_breakdown": {
+      "archaeological_site": 290,
+      "ruins": 151,
+      "monument": 38
+    }
+  },
+  "cleaned_data_rerun": {
+    "original_count": 350319,
+    "removed_by_type": 59840,
+    "removed_by_tourism_name": 342,
+    "removed_as_duplicates": 485,
+    "clean_count": 289652,
+    "reduction_pct": 17.32,
+    "clean_type_breakdown": {
+      "archaeological_site": 170473,
+      "ruins": 119179
+    },
+    "clean_enrichment_test": {
+      "dataset": "OSM Cleaned (ancient types only)",
+      "total_sites": 289652,
+      "thresholds": {
+        "25": {
+          "real_count": 5135,
+          "real_pct": 1.7728,
+          "mc_mean": 1688.38,
+          "mc_std": 36.8,
+          "z_score": 93.6647,
+          "p_value": 0.0,
+          "mc_max": 1803,
+          "mc_min": 1591
+        },
+        "50": {
+          "real_count": 9397,
+          "real_pct": 3.2442,
+          "mc_mean": 3374.93,
+          "mc_std": 57.69,
+          "z_score": 104.3864,
+          "p_value": 0.0,
+          "mc_max": 3513,
+          "mc_min": 3240
+        },
+        "100": {
+          "real_count": 18575,
+          "real_pct": 6.4129,
+          "mc_mean": 6728.52,
+          "mc_std": 78.3,
+          "z_score": 151.3033,
+          "p_value": 0.0,
+          "mc_max": 6966,
+          "mc_min": 6522
+        },
+        "200": {
+          "real_count": 32626,
+          "real_pct": 11.2639,
+          "mc_mean": 13284.86,
+          "mc_std": 98.47,
+          "z_score": 196.4085,
+          "p_value": 0.0,
+          "mc_max": 13617,
+          "mc_min": 13048
+        }
+      }
+    },
+    "clean_type_split": {
+      "archaeological_site": {
+        "dataset": "Clean: archaeological_site",
+        "total_sites": 170473,
+        "thresholds": {
+          "25": {
+            "real_count": 4792,
+            "real_pct": 2.811,
+            "mc_mean": 1566.97,
+            "mc_std": 39.58,
+            "z_score": 81.4838,
+            "p_value": 0.0,
+            "mc_max": 1671,
+            "mc_min": 1479
+          },
+          "50": {
+            "real_count": 8853,
+            "real_pct": 5.1932,
+            "mc_mean": 3133.74,
+            "mc_std": 52.86,
+            "z_score": 108.1895,
+            "p_value": 0.0,
+            "mc_max": 3291,
+            "mc_min": 2975
+          },
+          "100": {
+            "real_count": 17648,
+            "real_pct": 10.3524,
+            "mc_mean": 6213.32,
+            "mc_std": 73.49,
+            "z_score": 155.6016,
+            "p_value": 0.0,
+            "mc_max": 6420,
+            "mc_min": 6022
+          },
+          "200": {
+            "real_count": 30157,
+            "real_pct": 17.6902,
+            "mc_mean": 12118.78,
+            "mc_std": 82.93,
+            "z_score": 217.5088,
+            "p_value": 0.0,
+            "mc_max": 12327,
+            "mc_min": 11915
+          }
+        }
+      },
+      "ruins": {
+        "dataset": "Clean: ruins",
+        "total_sites": 119179,
+        "thresholds": {
+          "25": {
+            "real_count": 343,
+            "real_pct": 0.2878,
+            "mc_mean": 260.71,
+            "mc_std": 15.45,
+            "z_score": 5.3267,
+            "p_value": 0.0,
+            "mc_max": 299,
+            "mc_min": 227
+          },
+          "50": {
+            "real_count": 544,
+            "real_pct": 0.4565,
+            "mc_mean": 522.75,
+            "mc_std": 21.43,
+            "z_score": 0.9918,
+            "p_value": 0.155,
+            "mc_max": 583,
+            "mc_min": 464
+          },
+          "100": {
+            "real_count": 927,
+            "real_pct": 0.7778,
+            "mc_mean": 1046.47,
+            "mc_std": 31.22,
+            "z_score": -3.827,
+            "p_value": 1.0,
+            "mc_max": 1146,
+            "mc_min": 973
+          },
+          "200": {
+            "real_count": 2469,
+            "real_pct": 2.0717,
+            "mc_mean": 2098.09,
+            "mc_std": 40.3,
+            "z_score": 9.2028,
+            "p_value": 0.0,
+            "mc_max": 2215,
+            "mc_min": 1997
+          }
+        }
+      }
+    }
+  },
+  "rmct_category_analysis": {
+    "total_rmct": 179488,
+    "type_breakdown": {
+      "ruins": 119648,
+      "monument": 59840
+    },
+    "individual_type_tests": {
+      "ruins": {
+        "dataset": "RMCT: ruins",
+        "total_sites": 119648,
+        "thresholds": {
+          "25": {
+            "real_count": 343,
+            "real_pct": 0.2867,
+            "mc_mean": 262.97,
+            "mc_std": 18.02,
+            "z_score": 4.4405,
+            "p_value": 0.0,
+            "mc_max": 328,
+            "mc_min": 214
+          },
+          "50": {
+            "real_count": 544,
+            "real_pct": 0.4547,
+            "mc_mean": 523.25,
+            "mc_std": 21.44,
+            "z_score": 0.968,
+            "p_value": 0.145,
+            "mc_max": 586,
+            "mc_min": 459
+          },
+          "100": {
+            "real_count": 927,
+            "real_pct": 0.7748,
+            "mc_mean": 1048.06,
+            "mc_std": 29.43,
+            "z_score": -4.1128,
+            "p_value": 1.0,
+            "mc_max": 1126,
+            "mc_min": 964
+          },
+          "200": {
+            "real_count": 2470,
+            "real_pct": 2.0644,
+            "mc_mean": 2102.81,
+            "mc_std": 41.68,
+            "z_score": 8.8103,
+            "p_value": 0.0,
+            "mc_max": 2188,
+            "mc_min": 1964
+          }
+        }
+      },
+      "monument": {
+        "dataset": "RMCT: monument",
+        "total_sites": 59840,
+        "thresholds": {
+          "25": {
+            "real_count": 199,
+            "real_pct": 0.3326,
+            "mc_mean": 165.09,
+            "mc_std": 12.27,
+            "z_score": 2.7626,
+            "p_value": 0.005,
+            "mc_max": 207,
+            "mc_min": 136
+          },
+          "50": {
+            "real_count": 303,
+            "real_pct": 0.5064,
+            "mc_mean": 331.82,
+            "mc_std": 18.48,
+            "z_score": -1.56,
+            "p_value": 0.96,
+            "mc_max": 395,
+            "mc_min": 274
+          },
+          "100": {
+            "real_count": 610,
+            "real_pct": 1.0194,
+            "mc_mean": 664.5,
+            "mc_std": 26.72,
+            "z_score": -2.0393,
+            "p_value": 0.98,
+            "mc_max": 742,
+            "mc_min": 601
+          },
+          "200": {
+            "real_count": 1425,
+            "real_pct": 2.3814,
+            "mc_mean": 1345.31,
+            "mc_std": 36.88,
+            "z_score": 2.161,
+            "p_value": 0.02,
+            "mc_max": 1453,
+            "mc_min": 1242
+          }
+        }
+      }
+    }
+  },
+  "summary": {
+    "original_z_50km": 110.35,
+    "cleaned_z_50km": 104.3864,
+    "original_total_sites": 350319,
+    "cleaned_total_sites": 289652,
+    "sites_removed_pct": 17.32,
+    "conclusion": "After aggressive cleaning (removing castles, monuments, tourism, duplicates), the Z-score at 50km dropped from 110.35 to 104.39. The signal remains highly significant even with cleaned data. The archaeological_site type alone drives most of the enrichment."
+  }
+}

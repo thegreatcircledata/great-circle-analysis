@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "research_date": "2026-03-16",
+    "great_circle_pole": {"lat": 59.682122, "lon": -138.646087},
+    "quarter_circumference_km": 10007.5,
+    "methodology": "Distance = abs(haversine(site, pole) - quarter_circumference)"
+  },
+  "sites": [
+    {
+      "name": "Angkor Wat",
+      "coordinates": {"lat": 13.4125, "lon": 103.867},
+      "distance_from_gc_km": 168.2,
+      "within_band": "200km",
+      "context": "Largest religious complex in the world. Hindu temple built 1113-1150 CE by Suryavarman II of the Khmer Empire. UNESCO World Heritage Site.",
+      "significance": "Near-miss at 168km. However, Preah Vihear — a related Khmer temple 90 miles NE — IS on the line at 31km. Both were part of the same Khmer civilization. The circle passes through the broader Khmer cultural sphere even if it misses Angkor proper."
+    },
+    {
+      "name": "Angkor Thom",
+      "coordinates": {"lat": 13.4412, "lon": 103.858},
+      "distance_from_gc_km": 165.8,
+      "within_band": "200km",
+      "context": "Walled city built by Jayavarman VII (late 12th century), the last great capital of the Khmer Empire. Contains the Bayon temple.",
+      "significance": "Same distance as Angkor Wat — both are ~166-168km from the circle. Same Khmer cultural region."
+    },
+    {
+      "name": "Preah Vihear",
+      "coordinates": {"lat": 14.392, "lon": 104.68},
+      "distance_from_gc_km": 31.4,
+      "within_band": "50km",
+      "context": "Khmer temple built 9th-12th century on a mountaintop on the Thai-Cambodian border. UNESCO World Heritage Site. Built by Suryavarman I, who also expanded the empire that built Angkor Wat.",
+      "significance": "ON the line at 31km. Demonstrates the circle passes through the Khmer civilization's territory, just not through its most famous monument."
+    },
+    {
+      "name": "Göbekli Tepe",
+      "coordinates": {"lat": 37.2232, "lon": 38.9223},
+      "distance_from_gc_km": 770.2,
+      "within_band": "further",
+      "context": "World's oldest known monumental construction, 9600-8000 BCE. Pre-Pottery Neolithic A. Located 12km NE of Şanlıurfa, Turkey.",
+      "significance": "Clear miss at 770km. The circle does not pass through Turkey or the Levant. Göbekli Tepe is NOT on the alignment, and claiming otherwise would be dishonest."
+    },
+    {
+      "name": "Karahan Tepe",
+      "coordinates": {"lat": 37.0915, "lon": 39.3023},
+      "distance_from_gc_km": 754.8,
+      "within_band": "further",
+      "context": "Sister site to Göbekli Tepe, 46km east. Possibly older (10,000-9500 BCE). Part of the Taş Tepeler group of ~12 related sites.",
+      "significance": "Also a clear miss at 755km, same region as Göbekli Tepe."
+    },
+    {
+      "name": "Machu Picchu",
+      "coordinates": {"lat": -13.1631, "lon": -72.546},
+      "distance_from_gc_km": 16.3,
+      "within_band": "50km",
+      "context": "15th-century Inca citadel at 2,430m elevation. Built c. 1450 CE by Pachacuti. UNESCO World Heritage Site.",
+      "significance": "ON the line at just 16km. One of the most famous ancient sites in the world, and it falls squarely on the Great Circle."
+    },
+    {
+      "name": "Cusco",
+      "coordinates": {"lat": -13.532, "lon": -71.9675},
+      "distance_from_gc_km": 49.0,
+      "within_band": "50km",
+      "context": "Capital of the Inca Empire. Qorikancha (Temple of the Sun) at the city center. Continuously occupied since at least 3000 BCE.",
+      "significance": "Right on the 50km boundary. The Sacred Valley / Cusco / Machu Picchu region is well-aligned with the circle."
+    },
+    {
+      "name": "Stonehenge",
+      "coordinates": {"lat": 51.1789, "lon": -1.8262},
+      "distance_from_gc_km": 2915.4,
+      "within_band": "further",
+      "context": "Neolithic/Bronze Age monument in Wiltshire, England. Constructed 3000-2000 BCE. UNESCO World Heritage Site.",
+      "significance": "Complete miss at 2,915km. The Great Circle does not pass through Europe at all. This is important transparency — the world's most famous megalithic monument is nowhere near this alignment."
+    },
+    {
+      "name": "Teotihuacan",
+      "coordinates": {"lat": 19.6925, "lon": -98.8438},
+      "distance_from_gc_km": 4558.7,
+      "within_band": "further",
+      "context": "Mesoamerican city NE of Mexico City. Pyramid of the Sun, Pyramid of the Moon, Temple of the Feathered Serpent. Peaked 100-450 CE.",
+      "significance": "Complete miss at 4,559km. The circle clips through southern Mexico/Central America at a much more southern latitude than Teotihuacan."
+    },
+    {
+      "name": "Baalbek",
+      "coordinates": {"lat": 34.0058, "lon": 36.2181},
+      "distance_from_gc_km": 420.8,
+      "within_band": "further",
+      "context": "Roman temple complex in the Beqaa Valley, Lebanon. Includes Temple of Jupiter with massive trilithon stones (800+ tonnes each). UNESCO World Heritage Site. Pre-Roman origins debated.",
+      "significance": "Miss at 421km. Like Göbekli Tepe, the circle doesn't pass through the Levant/eastern Mediterranean."
+    },
+    {
+      "name": "Gunung Padang",
+      "coordinates": {"lat": -6.8736, "lon": 107.0431},
+      "distance_from_gc_km": 2005.7,
+      "within_band": "further",
+      "context": "Megalithic site in West Java, Indonesia. Largest megalithic site in SE Asia. Controversial claims of 9000-27000 year age (paper retracted 2024). Mainstream dating: 2nd-5th century CE.",
+      "significance": "Complete miss at 2,006km. Located in Java, far south of the circle's path through mainland SE Asia."
+    },
+    {
+      "name": "Rego Grande / Calçoene Stone Circle",
+      "coordinates": {"lat": 2.4978, "lon": -50.9489},
+      "distance_from_gc_km": 369.0,
+      "within_band": "further",
+      "context": "127 granite blocks up to 4m tall in a 30m-diameter circle. 'Stonehenge of the Amazon' in Amapá, Brazil. ~1000 years old. Astronomical observatory aligned with winter solstice.",
+      "significance": "Miss at 369km. Despite being near the Amazon equator crossing (~48.7°W), Rego Grande is at 2.5°N and 50.9°W, putting it 369km from the circle. The circle's Amazon crossing is further east."
+    },
+    {
+      "name": "Kuk Swamp",
+      "coordinates": {"lat": -5.7836, "lon": 144.3257},
+      "distance_from_gc_km": 164.0,
+      "within_band": "200km",
+      "context": "One of the earliest independent origins of agriculture, dating to 7000-9000 BCE. UNESCO World Heritage Site in the highlands of Papua New Guinea.",
+      "significance": "Near-miss at 164km. The circle's New Guinea crossing at 131.3°E is in western New Guinea (West Papua), while Kuk Swamp is in the eastern highlands at 144°E."
+    },
+    {
+      "name": "Marajó Island",
+      "coordinates": {"lat": -0.99, "lon": -49.59},
+      "distance_from_gc_km": 42.1,
+      "within_band": "50km",
+      "context": "Second-largest island in South America at the Amazon mouth. Marajoara culture (400-1400 CE) built earthen mounds up to 20m high. Population estimated 100,000+. Sophisticated pottery, fishpond systems, possible matrilineal chiefdom.",
+      "significance": "ON the line at 42km! The circle's equator crossing passes directly through this major archaeological complex at the Amazon mouth."
+    }
+  ],
+  "summary_table": {
+    "on_the_line_50km": ["Preah Vihear (31km)", "Machu Picchu (16km)", "Cusco (49km)", "Marajó Island (42km)"],
+    "near_misses_50_200km": ["Angkor Wat (168km)", "Angkor Thom (166km)", "Kuk Swamp (164km)"],
+    "clear_misses_200km_plus": ["Rego Grande (369km)", "Baalbek (421km)", "Göbekli Tepe (770km)", "Karahan Tepe (755km)", "Gunung Padang (2006km)", "Stonehenge (2915km)", "Teotihuacan (4559km)"]
+  },
+  "narrative": "The Great Circle hits some famous sites (Machu Picchu at 16km, Preah Vihear at 31km) and completely misses others (Stonehenge at 2,915km, Teotihuacan at 4,559km, Göbekli Tepe at 770km). The circle does NOT pass through Europe, the Levant, or Mesoamerica north of Guatemala. The honest reporting of these misses is what gives the hits credibility. Key finding: Angkor Wat at 168km is a near-miss, but Preah Vihear (same Khmer civilization) IS on the line. Marajó Island — a major Amazonian archaeological complex — falls directly on the circle at the equator crossing."
+}

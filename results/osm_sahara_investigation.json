@@ -1,0 +1,663 @@
+{
+  "sample_50": [
+    {
+      "lat": 26.2641461,
+      "lon": 7.566348,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 30.9951309,
+      "lon": 29.6566185,
+      "type": "archaeological_site",
+      "name": "Mareia"
+    },
+    {
+      "lat": 25.0518744,
+      "lon": 8.9067471,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 32.6529912,
+      "lon": 35.4661497,
+      "type": "archaeological_site",
+      "name": "\u05ea\u05dc \u05e8\u05db\u05e9"
+    },
+    {
+      "lat": 24.8914189,
+      "lon": 9.5505223,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 31.45,
+      "lon": 35.9,
+      "type": "ruins",
+      "name": "\u0627\u0644\u0631\u0627\u0645\u0629"
+    },
+    {
+      "lat": 25.110139,
+      "lon": 8.9078859,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.8721165,
+      "lon": 8.1681874,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.5189001,
+      "lon": 7.2378793,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.0547733,
+      "lon": 4.5868215,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.4881544,
+      "lon": 8.9565048,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.0381059,
+      "lon": 8.4313224,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 28.7510419,
+      "lon": 34.3678618,
+      "type": "ruins",
+      "name": ""
+    },
+    {
+      "lat": 25.5757224,
+      "lon": 7.556507,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.6170546,
+      "lon": 8.8599431,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.8897699,
+      "lon": 9.5116482,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.3420165,
+      "lon": 9.4548967,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 30.7236959,
+      "lon": -5.9586185,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.8473592,
+      "lon": 5.7691661,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 23.7956479,
+      "lon": 7.5964183,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.2921718,
+      "lon": 8.0642143,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 30.5943474,
+      "lon": -5.4683322,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.6847366,
+      "lon": 4.1301191,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.3489188,
+      "lon": 8.0578443,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 30.5737666,
+      "lon": -5.4027709,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.7258869,
+      "lon": 7.4468851,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.5174231,
+      "lon": 7.4802185,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.7873263,
+      "lon": 9.6148798,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 23.9272757,
+      "lon": 6.7730445,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.5249417,
+      "lon": 7.7747684,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.8473874,
+      "lon": 9.0596478,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 29.3383082,
+      "lon": 0.3210692,
+      "type": "ruins",
+      "name": ""
+    },
+    {
+      "lat": 25.0913545,
+      "lon": 9.3289817,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.2459963,
+      "lon": 6.3364962,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.5580567,
+      "lon": 9.7460079,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 17.8263534,
+      "lon": 8.7310865,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.5206809,
+      "lon": 5.6788802,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.0353607,
+      "lon": 8.4347261,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.5585351,
+      "lon": 9.6993357,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.4548358,
+      "lon": 8.2383272,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.9324354,
+      "lon": 4.775134,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.4951828,
+      "lon": 8.9558315,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.551088,
+      "lon": 7.0973091,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.445117,
+      "lon": 4.7101682,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.0015899,
+      "lon": 9.6590593,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.2744366,
+      "lon": 10.0284952,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 25.8783766,
+      "lon": 7.7050933,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 26.3633322,
+      "lon": 8.131763,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 24.9508689,
+      "lon": 8.6209443,
+      "type": "archaeological_site",
+      "name": ""
+    },
+    {
+      "lat": 30.095009,
+      "lon": -3.6600983,
+      "type": "archaeological_site",
+      "name": ""
+    }
+  ],
+  "bulk_import_detection": {
+    "named_count": 4707,
+    "unnamed_count": 37003,
+    "unnamed_pct": 88.71,
+    "lat_regularity": {
+      "avg_decimal_places": 6.87,
+      "on_001_grid_count": 169,
+      "on_001_grid_pct": 0.41,
+      "on_01_grid_count": 126,
+      "on_01_grid_pct": 0.3
+    },
+    "lon_regularity": {
+      "avg_decimal_places": 6.89,
+      "on_001_grid_count": 169,
+      "on_001_grid_pct": 0.41,
+      "on_01_grid_count": 126,
+      "on_01_grid_pct": 0.3
+    },
+    "type_breakdown": {
+      "archaeological_site": 37491,
+      "ruins": 3430,
+      "monument": 789
+    },
+    "name_by_type": {
+      "archaeological_site": {
+        "total": 37491,
+        "named": 2205,
+        "unnamed": 35286,
+        "unnamed_pct": 94.1
+      },
+      "ruins": {
+        "total": 3430,
+        "named": 1906,
+        "unnamed": 1524,
+        "unnamed_pct": 44.4
+      },
+      "monument": {
+        "total": 789,
+        "named": 596,
+        "unnamed": 193,
+        "unnamed_pct": 24.5
+      }
+    },
+    "nn_distances": {
+      "sample_size": 2000,
+      "mean_km": 9.03,
+      "median_km": 2.48,
+      "std_km": 32.78,
+      "min_km": 0.1016,
+      "max_km": 613.96,
+      "cov": 3.632,
+      "histogram": {
+        "0-0.1km": 0,
+        "0.1-0.5km": 270,
+        "0.5-1km": 260,
+        "1-2km": 350,
+        "2-5km": 520,
+        "5-10km": 330,
+        "10-20km": 140,
+        "20-50km": 54,
+        "50-100km": 48,
+        "100-500km": 27
+      }
+    },
+    "bulk_import_likely": true
+  },
+  "z_score_comparison": {
+    "full_dataset": {
+      "dataset": "Full dataset (all sites)",
+      "total_sites": 350319,
+      "thresholds": {
+        "25": {
+          "real_count": 5334,
+          "real_pct": 1.5226,
+          "mc_mean": 1789.41,
+          "mc_std": 41.31,
+          "z_score": 85.8119,
+          "p_value": 0.0,
+          "mc_max": 1903,
+          "mc_min": 1665
+        },
+        "50": {
+          "real_count": 9700,
+          "real_pct": 2.7689,
+          "mc_mean": 3580.05,
+          "mc_std": 55.46,
+          "z_score": 110.3527,
+          "p_value": 0.0,
+          "mc_max": 3731,
+          "mc_min": 3450
+        },
+        "100": {
+          "real_count": 19185,
+          "real_pct": 5.4764,
+          "mc_mean": 7143.78,
+          "mc_std": 74.04,
+          "z_score": 162.6295,
+          "p_value": 0.0,
+          "mc_max": 7369,
+          "mc_min": 6969
+        },
+        "200": {
+          "real_count": 34052,
+          "real_pct": 9.7203,
+          "mc_mean": 14129.56,
+          "mc_std": 96.25,
+          "z_score": 206.9933,
+          "p_value": 0.0,
+          "mc_max": 14380,
+          "mc_min": 13857
+        }
+      }
+    },
+    "without_sahara": {
+      "dataset": "Without Saharan sites",
+      "total_sites": 308609,
+      "thresholds": {
+        "25": {
+          "real_count": 1334,
+          "real_pct": 0.4323,
+          "mc_mean": 479.3,
+          "mc_std": 21.08,
+          "z_score": 40.5463,
+          "p_value": 0.0,
+          "mc_max": 541,
+          "mc_min": 426
+        },
+        "50": {
+          "real_count": 1824,
+          "real_pct": 0.591,
+          "mc_mean": 961.78,
+          "mc_std": 28.37,
+          "z_score": 30.3925,
+          "p_value": 0.0,
+          "mc_max": 1038,
+          "mc_min": 880
+        },
+        "100": {
+          "real_count": 2655,
+          "real_pct": 0.8603,
+          "mc_mean": 1924.98,
+          "mc_std": 39.73,
+          "z_score": 18.3759,
+          "p_value": 0.0,
+          "mc_max": 2021,
+          "mc_min": 1802
+        },
+        "200": {
+          "real_count": 4366,
+          "real_pct": 1.4147,
+          "mc_mean": 3878.63,
+          "mc_std": 57.08,
+          "z_score": 8.5378,
+          "p_value": 0.0,
+          "mc_max": 4022,
+          "mc_min": 3741
+        }
+      }
+    },
+    "sahara_only": {
+      "dataset": "Saharan sites only",
+      "total_sites": 41710,
+      "thresholds": {
+        "25": {
+          "real_count": 4000,
+          "real_pct": 9.59,
+          "mc_mean": 2218.7,
+          "mc_std": 46.11,
+          "z_score": 38.6298,
+          "p_value": 0.0,
+          "mc_max": 2352,
+          "mc_min": 2084
+        },
+        "50": {
+          "real_count": 7876,
+          "real_pct": 18.8828,
+          "mc_mean": 4423.11,
+          "mc_std": 64.96,
+          "z_score": 53.1573,
+          "p_value": 0.0,
+          "mc_max": 4574,
+          "mc_min": 4210
+        },
+        "100": {
+          "real_count": 16530,
+          "real_pct": 39.6308,
+          "mc_mean": 8706.05,
+          "mc_std": 82.21,
+          "z_score": 95.1673,
+          "p_value": 0.0,
+          "mc_max": 8987,
+          "mc_min": 8494
+        },
+        "200": {
+          "real_count": 29686,
+          "real_pct": 71.1724,
+          "mc_mean": 16442.06,
+          "mc_std": 88.45,
+          "z_score": 149.73,
+          "p_value": 0.0,
+          "mc_max": 16717,
+          "mc_min": 16223
+        }
+      }
+    },
+    "n_total": 350319,
+    "n_saharan": 41710,
+    "n_non_saharan": 308609
+  },
+  "country_breakdown": {
+    "Algeria": {
+      "count": 32075,
+      "pct": 76.9,
+      "named": 673,
+      "unnamed_pct": 97.9,
+      "type_breakdown": {
+        "archaeological_site": 31297,
+        "ruins": 664,
+        "monument": 114
+      }
+    },
+    "Other": {
+      "count": 3571,
+      "pct": 8.56,
+      "named": 2818,
+      "unnamed_pct": 21.09,
+      "type_breakdown": {
+        "archaeological_site": 1440,
+        "ruins": 1687,
+        "monument": 444
+      }
+    },
+    "Libya": {
+      "count": 2785,
+      "pct": 6.68,
+      "named": 458,
+      "unnamed_pct": 83.55,
+      "type_breakdown": {
+        "archaeological_site": 2346,
+        "ruins": 342,
+        "monument": 97
+      }
+    },
+    "Chad": {
+      "count": 1561,
+      "pct": 3.74,
+      "named": 11,
+      "unnamed_pct": 99.3,
+      "type_breakdown": {
+        "archaeological_site": 1550,
+        "ruins": 8,
+        "monument": 3
+      }
+    },
+    "Egypt": {
+      "count": 1004,
+      "pct": 2.41,
+      "named": 517,
+      "unnamed_pct": 48.51,
+      "type_breakdown": {
+        "archaeological_site": 460,
+        "ruins": 461,
+        "monument": 83
+      }
+    },
+    "Niger": {
+      "count": 221,
+      "pct": 0.53,
+      "named": 11,
+      "unnamed_pct": 95.02,
+      "type_breakdown": {
+        "archaeological_site": 163,
+        "ruins": 51,
+        "monument": 7
+      }
+    },
+    "Mauritania": {
+      "count": 204,
+      "pct": 0.49,
+      "named": 77,
+      "unnamed_pct": 62.25,
+      "type_breakdown": {
+        "archaeological_site": 116,
+        "ruins": 81,
+        "monument": 7
+      }
+    },
+    "Sudan": {
+      "count": 169,
+      "pct": 0.41,
+      "named": 103,
+      "unnamed_pct": 39.05,
+      "type_breakdown": {
+        "archaeological_site": 116,
+        "ruins": 40,
+        "monument": 13
+      }
+    },
+    "Morocco": {
+      "count": 109,
+      "pct": 0.26,
+      "named": 34,
+      "unnamed_pct": 68.81,
+      "type_breakdown": {
+        "archaeological_site": 2,
+        "ruins": 90,
+        "monument": 17
+      }
+    },
+    "Mali": {
+      "count": 11,
+      "pct": 0.03,
+      "named": 5,
+      "unnamed_pct": 54.55,
+      "type_breakdown": {
+        "archaeological_site": 1,
+        "ruins": 6,
+        "monument": 4
+      }
+    }
+  },
+  "global_sahara_fraction": {
+    "total_global": 350319,
+    "total_saharan": 41710,
+    "saharan_pct_of_global": 11.91,
+    "sahara_land_pct": 6.1,
+    "over_representation_ratio": 1.95,
+    "type_fractions": {
+      "archaeological_site": {
+        "total": 170831,
+        "saharan": 37491,
+        "saharan_pct": 21.95
+      },
+      "ruins": {
+        "total": 119648,
+        "saharan": 3430,
+        "saharan_pct": 2.87
+      },
+      "monument": {
+        "total": 59840,
+        "saharan": 789,
+        "saharan_pct": 1.32
+      }
+    },
+    "online_50km_total": 9700,
+    "online_50km_saharan": 7876,
+    "online_50km_saharan_pct": 81.2
+  },
+  "summary": {
+    "saharan_site_count": 41710,
+    "saharan_pct_of_global": 11.91,
+    "unnamed_pct": 88.71,
+    "over_representation_ratio": 1.95,
+    "z_50km_full": 110.3527,
+    "z_50km_without_sahara": 30.3925,
+    "z_50km_sahara_only": 53.1573,
+    "bulk_import_likely": true,
+    "conclusion": "The 41710 Saharan sites show bulk import signatures: 89% unnamed, 1.9x overrepresented. Removing them changes Z(50km) from 110.3527 to 30.3925. The full-dataset Z-score should NOT be cited without acknowledging this bias."
+  }
+}

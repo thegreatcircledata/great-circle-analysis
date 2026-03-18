@@ -1,0 +1,144 @@
+{
+  "total_dates": 170150,
+  "south_america_dates": 6267,
+  "sa_countries": {
+    "Colombia": 170,
+    "Chile": 1595,
+    "Bolivia": 479,
+    "Argentina": 823,
+    "Uruguay": 64,
+    "Peru": 1505,
+    "Ecuador": 386,
+    "Brazil": 1126,
+    "Venezuela": 76,
+    "Guyana": 16,
+    "Panama": 14,
+    "French Guiana": 10,
+    "": 1,
+    "Suriname": 1,
+    "Paraguay": 1
+  },
+  "global_within_200km": 2330,
+  "unique_locations": {
+    "all": 22747,
+    "sa": 1463,
+    "pre2000bce": 11366
+  },
+  "sa_density_by_band": {
+    "0-50km": {
+      "count": 376,
+      "density_per_Mkm2": 47873.8
+    },
+    "50-100km": {
+      "count": 62,
+      "density_per_Mkm2": 2631.4
+    },
+    "100-200km": {
+      "count": 187,
+      "density_per_Mkm2": 1984.1
+    },
+    "200-500km": {
+      "count": 824,
+      "density_per_Mkm2": 1249.0
+    }
+  },
+  "temporal_binning_200km": {
+    "-7000 to -6000": 286,
+    "-3000 to -2000": 320,
+    "-1000 to 0": 319,
+    "-9000 to -8000": 119,
+    "-8000 to -7000": 146,
+    "-6000 to -5000": 127,
+    "-5000 to -4000": 129,
+    "-4000 to -3000": 255,
+    "pre-10000 BCE": 79,
+    "1000 to 2000": 244,
+    "0 to 1000": 64,
+    "-10000 to -9000": 10,
+    "-2000 to -1000": 232
+  },
+  "gc_test_all": {
+    "label": "p3k14c_all",
+    "n_sites": 22747,
+    "50km": {
+      "actual_count": 165,
+      "actual_pct": 0.73,
+      "baseline_mean": 215.73,
+      "baseline_std": 15.07,
+      "z_score": -3.37,
+      "p_empirical": 1.0
+    },
+    "100km": {
+      "actual_count": 241,
+      "actual_pct": 1.06,
+      "baseline_mean": 429.4,
+      "baseline_std": 21.61,
+      "z_score": -8.72,
+      "p_empirical": 1.0
+    },
+    "200km": {
+      "actual_count": 435,
+      "actual_pct": 1.91,
+      "baseline_mean": 857.47,
+      "baseline_std": 30.31,
+      "z_score": -13.94,
+      "p_empirical": 1.0
+    }
+  },
+  "gc_test_south_america": {
+    "label": "p3k14c_SA",
+    "n_sites": 1463,
+    "50km": {
+      "actual_count": 72,
+      "actual_pct": 4.92,
+      "baseline_mean": 22.36,
+      "baseline_std": 4.46,
+      "z_score": 11.12,
+      "p_empirical": 0.0
+    },
+    "100km": {
+      "actual_count": 88,
+      "actual_pct": 6.02,
+      "baseline_mean": 44.73,
+      "baseline_std": 6.01,
+      "z_score": 7.2,
+      "p_empirical": 0.0
+    },
+    "200km": {
+      "actual_count": 123,
+      "actual_pct": 8.41,
+      "baseline_mean": 89.6,
+      "baseline_std": 9.39,
+      "z_score": 3.56,
+      "p_empirical": 0.005
+    }
+  },
+  "gc_test_pre2000bce": {
+    "label": "p3k14c_pre2000BCE",
+    "n_sites": 11366,
+    "50km": {
+      "actual_count": 87,
+      "actual_pct": 0.77,
+      "baseline_mean": 107.08,
+      "baseline_std": 10.65,
+      "z_score": -1.89,
+      "p_empirical": 0.96
+    },
+    "100km": {
+      "actual_count": 134,
+      "actual_pct": 1.18,
+      "baseline_mean": 213.61,
+      "baseline_std": 14.4,
+      "z_score": -5.53,
+      "p_empirical": 1.0
+    },
+    "200km": {
+      "actual_count": 270,
+      "actual_pct": 2.38,
+      "baseline_mean": 429.12,
+      "baseline_std": 18.13,
+      "z_score": -8.78,
+      "p_empirical": 1.0
+    }
+  }
+}

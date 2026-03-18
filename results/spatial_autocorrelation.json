@@ -1,0 +1,164 @@
+{
+  "morans_i_portal_100km": {
+    "morans_I": 0.650985,
+    "expected_I": -0.001628,
+    "std_I": 0.032842,
+    "z_score": 19.87,
+    "p_value": 0.0,
+    "n_permutations": 999,
+    "interpretation": "positive spatial autocorrelation",
+    "n_sites": 442,
+    "attribute": "distance_from_great_circle_km",
+    "weight_type": "inverse_distance_200km_cap"
+  },
+  "morans_i_pleiades_monuments": {
+    "morans_I": 1.157029,
+    "expected_I": -0.020318,
+    "std_I": 0.19661,
+    "z_score": 5.99,
+    "p_value": 0.0,
+    "n_permutations": 999,
+    "interpretation": "positive spatial autocorrelation",
+    "n_sites": 131
+  },
+  "ripleys_k": {
+    "monuments_self": {
+      "10": {
+        "K": 440281.6,
+        "L": 374.4,
+        "L_minus_d": 364.4,
+        "cross_count": 1664
+      },
+      "25": {
+        "K": 745621.2,
+        "L": 487.2,
+        "L_minus_d": 462.2,
+        "cross_count": 2818
+      },
+      "50": {
+        "K": 1145684.8,
+        "L": 603.9,
+        "L_minus_d": 553.9,
+        "cross_count": 4330
+      },
+      "100": {
+        "K": 1891306.0,
+        "L": 775.9,
+        "L_minus_d": 675.9,
+        "cross_count": 7148
+      },
+      "200": {
+        "K": 2913690.7,
+        "L": 963.0,
+        "L_minus_d": 763.0,
+        "cross_count": 11012
+      },
+      "500": {
+        "K": 6738637.5,
+        "L": 1464.6,
+        "L_minus_d": 964.6,
+        "cross_count": 25468
+      }
+    },
+    "settlements_self": {
+      "10": {
+        "K": 81358.5,
+        "L": 160.9,
+        "L_minus_d": 150.9,
+        "cross_count": 2805
+      },
+      "25": {
+        "K": 267105.2,
+        "L": 291.6,
+        "L_minus_d": 266.6,
+        "cross_count": 9209
+      },
+      "50": {
+        "K": 681873.8,
+        "L": 465.9,
+        "L_minus_d": 415.9,
+        "cross_count": 23509
+      },
+      "100": {
+        "K": 1492035.8,
+        "L": 689.2,
+        "L_minus_d": 589.2,
+        "cross_count": 51441
+      },
+      "200": {
+        "K": 2749451.8,
+        "L": 935.5,
+        "L_minus_d": 735.5,
+        "cross_count": 94793
+      },
+      "500": {
+        "K": 6778044.1,
+        "L": 1468.8,
+        "L_minus_d": 968.8,
+        "cross_count": 233687
+      }
+    },
+    "cross_monument_settlement": {
+      "10": {
+        "K": 58256.6,
+        "L": 136.2,
+        "L_minus_d": 126.2,
+        "cross_count": 665
+      },
+      "25": {
+        "K": 197284.0,
+        "L": 250.6,
+        "L_minus_d": 225.6,
+        "cross_count": 2252
+      },
+      "50": {
+        "K": 542005.5,
+        "L": 415.4,
+        "L_minus_d": 365.4,
+        "cross_count": 6187
+      },
+      "100": {
+        "K": 1314496.8,
+        "L": 646.9,
+        "L_minus_d": 546.9,
+        "cross_count": 15005
+      },
+      "200": {
+        "K": 2720627.4,
+        "L": 930.6,
+        "L_minus_d": 730.6,
+        "cross_count": 31056
+      },
+      "500": {
+        "K": 6613658.0,
+        "L": 1450.9,
+        "L_minus_d": 950.9,
+        "cross_count": 75495
+      }
+    },
+    "study_area_km2": 16012069.0,
+    "n_monuments_200km": 246,
+    "n_settlements_200km": 743,
+    "distances_km": [
+      10,
+      25,
+      50,
+      100,
+      200,
+      500
+    ]
+  },
+  "ks_test_distances": {
+    "ks_statistic": 0.078054,
+    "p_value": 7.314222261295752e-20,
+    "n_monuments": 4598,
+    "n_settlements": 18037,
+    "monument_median_dist_km": 1175.9,
+    "settlement_median_dist_km": 1194.2,
+    "monument_mean_dist_km": 1273.8,
+    "settlement_mean_dist_km": 1331.9
+  },
+  "metadata": {
+    "compute_time_seconds": 2.0
+  }
+}

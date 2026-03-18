@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "name": "DEFINITIVE Great Circle Test \u2014 Megalithic Portal Database",
+    "description": "Great Circle proximity analysis on the full Megalithic Portal database with two baselines: uniform random land points and distribution-matched random (controlling for European geographic bias)",
+    "date": "2026-03-15",
+    "total_sites": 2873,
+    "total_files": 62,
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lng": -138.646087
+    },
+    "random_trials": 200
+  },
+  "distribution_matched_results": {
+    "25": {
+      "observed": 22,
+      "random_mean": 2.3,
+      "random_std": 1.4,
+      "enrichment": 9.67,
+      "z_score": 13.98
+    },
+    "50": {
+      "observed": 28,
+      "random_mean": 4.5,
+      "random_std": 1.9,
+      "enrichment": 6.19,
+      "z_score": 12.06
+    },
+    "100": {
+      "observed": 33,
+      "random_mean": 9.4,
+      "random_std": 2.8,
+      "enrichment": 3.51,
+      "z_score": 8.32
+    },
+    "200": {
+      "observed": 68,
+      "random_mean": 19.3,
+      "random_std": 4.2,
+      "enrichment": 3.52,
+      "z_score": 11.5
+    },
+    "500": {
+      "observed": 100,
+      "random_mean": 52.3,
+      "random_std": 7.0,
+      "enrichment": 1.91,
+      "z_score": 6.77
+    }
+  },
+  "sites_within_50km": [
+    {
+      "name": "Petroglifos de Llipata",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 5.7,
+      "lat": -14.59333,
+      "lon": -75.20111
+    },
+    {
+      "name": "Nazca Lines - Trapezoids",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.3,
+      "lat": -14.69181,
+      "lon": -75.155417
+    },
+    {
+      "name": "Nazca Lines",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.4,
+      "lat": -14.695,
+      "lon": -75.16
+    },
+    {
+      "name": "Gisr el-Mudir",
+      "type": "Causewayed Enclosure",
+      "distance_km": 6.6,
+      "lat": 29.8665,
+      "lon": 31.2063
+    },
+    {
+      "name": "Nazca Lines - Hummingbird",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 6.6,
+      "lat": -14.692161,
+      "lon": -75.148885
+    },
+    {
+      "name": "Ahu Nau Nau Anakena",
+      "type": "Sculptured Stone",
+      "distance_km": 6.7,
+      "lat": -27.07686,
+      "lon": -109.32392
+    },
+    {
+      "name": "Ahu Ature Huke",
+      "type": "Sculptured Stone",
+      "distance_km": 7.1,
+      "lat": -27.08007,
+      "lon": -109.31963
+    },
+    {
+      "name": "Nazca Lines - Small Spiral",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 7.5,
+      "lat": -14.68839,
+      "lon": -75.123056
+    },
+    {
+      "name": "Nazca Lines - Spider",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.1,
+      "lat": -14.694141,
+      "lon": -75.122385
+    },
+    {
+      "name": "Ahu Te Pito Kura",
+      "type": "Standing Stones",
+      "distance_km": 8.2,
+      "lat": -27.08861,
+      "lon": -109.3122
+    },
+    {
+      "name": "Nazca Lines - Hands and Tree",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.5,
+      "lat": -14.693884,
+      "lon": -75.114524
+    },
+    {
+      "name": "Nazca Lines - Monkey",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 8.6,
+      "lat": -14.706916,
+      "lon": -75.138543
+    },
+    {
+      "name": "Ahu Akivi",
+      "type": "Sculptured Stone",
+      "distance_km": 9.4,
+      "lat": -27.1186,
+      "lon": -109.3955
+    },
+    {
+      "name": "Ahu Ko Te Riku",
+      "type": "Sculptured Stone",
+      "distance_km": 11.0,
+      "lat": -27.1405,
+      "lon": -109.4299
+    },
+    {
+      "name": "Solar Watch",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 12.1,
+      "lat": -14.5245,
+      "lon": -75.1931
+    },
+    {
+      "name": "Ahu Huri A Urenga",
+      "type": "Sculptured Stone",
+      "distance_km": 13.2,
+      "lat": -27.1543,
+      "lon": -109.4001
+    },
+    {
+      "name": "Amenmenhat II Pyramid",
+      "type": "Pyramid   Mastaba",
+      "distance_km": 13.2,
+      "lat": 29.80765,
+      "lon": 31.22201
+    },
+    {
+      "name": "Persepolis",
+      "type": "Ancient Palace",
+      "distance_km": 13.6,
+      "lat": 29.9333,
+      "lon": 52.900003
+    },
+    {
+      "name": "Ahu Tongariki",
+      "type": "Sculptured Stone",
+      "distance_km": 14.0,
+      "lat": -27.134,
+      "lon": -109.2756
+    },
+    {
+      "name": "Amenemhat III Pyramid at Dashour.",
+      "type": "Pyramid   Mastaba",
+      "distance_km": 15.1,
+      "lat": 29.7911,
+      "lon": 31.22386
+    },
+    {
+      "name": "Nazca Lines - The Astronaut\"\"",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 15.3,
+      "lat": -14.745235,
+      "lon": -75.079877
+    },
+    {
+      "name": "Ahu Vinapu",
+      "type": "Sculptured Stone",
+      "distance_km": 15.4,
+      "lat": -27.17638,
+      "lon": -109.40636
+    },
+    {
+      "name": "Nazca Lines - Whale",
+      "type": "Hill Figure or Geoglyph",
+      "distance_km": 26.5,
+      "lat": -14.816591,
+      "lon": -74.994826
+    },
+    {
+      "name": "Cantalloc Aqueduct",
+      "type": "Ancient Mine  Quarry or other Industry",
+      "distance_km": 31.6,
+      "lat": -14.8266,
+      "lon": -74.91
+    },
+    {
+      "name": "Al Rajajil",
+      "type": "Standing Stones",
+      "distance_km": 38.1,
+      "lat": 29.9703,
+      "lon": 40.2086
+    },
+    {
+      "name": "Amenemhat I Pyramid",
+      "type": "Pyramid   Mastaba",
+      "distance_km": 39.0,
+      "lat": 29.574737,
+      "lon": 31.225047
+    },
+    {
+      "name": "Ancient Copper Strip-mine north of Mt. Michrot",
+      "type": "Ancient Mine  Quarry or other Industry",
+      "distance_km": 39.3,
+      "lat": 29.810062,
+      "lon": 34.992157
+    },
+    {
+      "name": "Pasargadae",
+      "type": "Ancient Palace",
+      "distance_km": 45.8,
+      "lat": 30.1996,
+      "lon": 53.17805
+    }
+  ]
+}
