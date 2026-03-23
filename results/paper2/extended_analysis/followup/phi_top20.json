@@ -1,0 +1,327 @@
+{
+  "description": "Top 20 \u03c6-ratio triplets from Alison's 17 sites",
+  "bonferroni_p": 0.6392,
+  "verdict": "DOES NOT SURVIVE \u2014 expected under multiple testing. Multiple triplets (7) match as well or better than Angkor-Giza-Nazca.",
+  "triplets": [
+    {
+      "sites": [
+        "Pyay",
+        "Khajuraho",
+        "Persepolis"
+      ],
+      "best_phi_error_frac": 0.0003277600829331358,
+      "best_phi_error_pct": 0.03277600829331358,
+      "best_ratio": 1.617504,
+      "distances_km": [
+        1679.5,
+        2719.7,
+        4399.1
+      ],
+      "p_value": 0.00094
+    },
+    {
+      "sites": [
+        "Giza",
+        "Nazca",
+        "Preah Vihear"
+      ],
+      "best_phi_error_frac": 0.0006644267364460679,
+      "best_phi_error_pct": 0.06644267364460679,
+      "best_ratio": 1.616959,
+      "distances_km": [
+        7645.5,
+        12362.4,
+        19973.4
+      ],
+      "p_value": 0.00183
+    },
+    {
+      "sites": [
+        "Khajuraho",
+        "Persepolis",
+        "Petra"
+      ],
+      "best_phi_error_frac": 0.0008487927727210763,
+      "best_phi_error_pct": 0.08487927727210763,
+      "best_ratio": 1.616661,
+      "distances_km": [
+        1677.2,
+        2719.7,
+        4396.8
+      ],
+      "p_value": 0.002275
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Tassili n'Ajjer",
+        "Petra"
+      ],
+      "best_phi_error_frac": 0.0010936368329729812,
+      "best_phi_error_pct": 0.10936368329729812,
+      "best_ratio": 1.616264,
+      "distances_km": [
+        967.5,
+        1569.2,
+        2536.2
+      ],
+      "p_value": 0.003235
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Paratoari",
+        "Pyay"
+      ],
+      "best_phi_error_frac": 0.001174250704888927,
+      "best_phi_error_pct": 0.1174250704888927,
+      "best_ratio": 1.619934,
+      "distances_km": [
+        7043.5,
+        11361.5,
+        18404.9
+      ],
+      "p_value": 0.003235
+    },
+    {
+      "sites": [
+        "Tassili n'Ajjer",
+        "Mohenjo Daro",
+        "Ur"
+      ],
+      "best_phi_error_frac": 0.0021390462830274833,
+      "best_phi_error_pct": 0.21390462830274834,
+      "best_ratio": 1.614573,
+      "distances_km": [
+        2188.7,
+        3555.8,
+        5741.2
+      ],
+      "p_value": 0.005835
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Ollantaytambo",
+        "Pyay"
+      ],
+      "best_phi_error_frac": 0.0023263293288688577,
+      "best_phi_error_pct": 0.23263293288688577,
+      "best_ratio": 1.61427,
+      "distances_km": [
+        7043.5,
+        11466.3,
+        18509.7
+      ],
+      "p_value": 0.00644
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Machu Picchu",
+        "Pyay"
+      ],
+      "best_phi_error_frac": 0.003108442034433836,
+      "best_phi_error_pct": 0.3108442034433836,
+      "best_ratio": 1.613004,
+      "distances_km": [
+        7043.5,
+        11489.0,
+        18531.8
+      ],
+      "p_value": 0.00872
+    },
+    {
+      "sites": [
+        "Nazca",
+        "Aneityum Island",
+        "Sukhothai"
+      ],
+      "best_phi_error_frac": 0.004859224334469745,
+      "best_phi_error_pct": 0.4859224334469745,
+      "best_ratio": 1.625896,
+      "distances_km": [
+        8694.6,
+        11933.2,
+        19402.2
+      ],
+      "p_value": 0.013885
+    },
+    {
+      "sites": [
+        "Machu Picchu",
+        "Aneityum Island",
+        "Preah Vihear"
+      ],
+      "best_phi_error_frac": 0.007374727614662691,
+      "best_phi_error_pct": 0.7374727614662691,
+      "best_ratio": 1.606101,
+      "distances_km": [
+        8089.1,
+        12256.2,
+        19684.8
+      ],
+      "p_value": 0.02103
+    },
+    {
+      "sites": [
+        "Tassili n'Ajjer",
+        "Easter Island",
+        "Pyay"
+      ],
+      "best_phi_error_frac": 0.007582633534967431,
+      "best_phi_error_pct": 0.7582633534967431,
+      "best_ratio": 1.630303,
+      "distances_km": [
+        8612.5,
+        14041.0,
+        17376.7
+      ],
+      "p_value": 0.020995
+    },
+    {
+      "sites": [
+        "Easter Island",
+        "Aneityum Island",
+        "Mohenjo Daro"
+      ],
+      "best_phi_error_frac": 0.009165606892799211,
+      "best_phi_error_pct": 0.9165606892799211,
+      "best_ratio": 1.632864,
+      "distances_km": [
+        8135.1,
+        12112.9,
+        19778.7
+      ],
+      "p_value": 0.02606
+    },
+    {
+      "sites": [
+        "Tassili n'Ajjer",
+        "Sukhothai",
+        "Ur"
+      ],
+      "best_phi_error_frac": 0.00999770641795676,
+      "best_phi_error_pct": 0.999770641795676,
+      "best_ratio": 1.634211,
+      "distances_km": [
+        3555.8,
+        5604.8,
+        9159.5
+      ],
+      "p_value": 0.02753
+    },
+    {
+      "sites": [
+        "Tassili n'Ajjer",
+        "Aneityum Island",
+        "Khajuraho"
+      ],
+      "best_phi_error_frac": 0.010372535485668292,
+      "best_phi_error_pct": 1.0372535485668293,
+      "best_ratio": 1.634817,
+      "distances_km": [
+        6933.1,
+        10921.1,
+        17854.0
+      ],
+      "p_value": 0.02896
+    },
+    {
+      "sites": [
+        "Ollantaytambo",
+        "Aneityum Island",
+        "Preah Vihear"
+      ],
+      "best_phi_error_frac": 0.010434244382686388,
+      "best_phi_error_pct": 1.0434244382686388,
+      "best_ratio": 1.601151,
+      "distances_km": [
+        8089.1,
+        12278.8,
+        19660.2
+      ],
+      "p_value": 0.028965
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Pyay",
+        "Persepolis"
+      ],
+      "best_phi_error_frac": 0.010460814010453005,
+      "best_phi_error_pct": 1.0460814010453006,
+      "best_ratio": 1.601108,
+      "distances_km": [
+        2644.4,
+        4399.1,
+        7043.5
+      ],
+      "p_value": 0.029225
+    },
+    {
+      "sites": [
+        "Giza",
+        "Machu Picchu",
+        "Preah Vihear"
+      ],
+      "best_phi_error_frac": 0.010503305548533747,
+      "best_phi_error_pct": 1.0503305548533748,
+      "best_ratio": 1.635029,
+      "distances_km": [
+        7645.5,
+        12039.4,
+        19684.8
+      ],
+      "p_value": 0.029315
+    },
+    {
+      "sites": [
+        "Giza",
+        "Ollantaytambo",
+        "Preah Vihear"
+      ],
+      "best_phi_error_frac": 0.011139999049681128,
+      "best_phi_error_pct": 1.1139999049681129,
+      "best_ratio": 1.636059,
+      "distances_km": [
+        7645.5,
+        12016.8,
+        19660.2
+      ],
+      "p_value": 0.03166
+    },
+    {
+      "sites": [
+        "Sukhothai",
+        "Mohenjo Daro",
+        "Ur"
+      ],
+      "best_phi_error_frac": 0.013305586114184477,
+      "best_phi_error_pct": 1.3305586114184478,
+      "best_ratio": 1.639563,
+      "distances_km": [
+        2188.7,
+        3418.5,
+        5604.8
+      ],
+      "p_value": 0.037745
+    },
+    {
+      "sites": [
+        "Siwa",
+        "Nazca",
+        "Pyay"
+      ],
+      "best_phi_error_frac": 0.013431567420976493,
+      "best_phi_error_pct": 1.3431567420976493,
+      "best_ratio": 1.596301,
+      "distances_km": [
+        7043.5,
+        11811.9,
+        18855.3
+      ],
+      "p_value": 0.037085
+    }
+  ]
+}

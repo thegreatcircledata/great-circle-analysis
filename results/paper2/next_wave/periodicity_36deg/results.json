@@ -1,0 +1,168 @@
+{
+  "study": "S6: 36-Degree Periodicity Validation on Data-Driven Clusters",
+  "date": "2026-03-22",
+  "verdict": "FALSIFIED",
+  "sites_total": 676,
+  "n_clusters": 6,
+  "cluster_centers_deg": [
+    21.1,
+    102.8,
+    109.3,
+    292.4,
+    342.2,
+    357.0
+  ],
+  "n_pairwise_distances": 15,
+  "phase2_36deg": {
+    "rayleigh_Z": 0.3866,
+    "p_value": 0.686501,
+    "R_bar": 0.1605,
+    "mean_direction_deg": 135.2
+  },
+  "phase3_multi_period": [
+    {
+      "period": 10,
+      "rayleigh_Z": 0.3361,
+      "p_value": 0.721269,
+      "R_bar": 0.1497,
+      "mean_dir": 282.7,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 12,
+      "rayleigh_Z": 0.7936,
+      "p_value": 0.459624,
+      "R_bar": 0.23,
+      "mean_dir": 103.8,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 15,
+      "rayleigh_Z": 0.3334,
+      "p_value": 0.723136,
+      "R_bar": 0.1491,
+      "mean_dir": 160.3,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 18,
+      "rayleigh_Z": 0.3477,
+      "p_value": 0.713092,
+      "R_bar": 0.1523,
+      "mean_dir": 287.5,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 20,
+      "rayleigh_Z": 1.048,
+      "p_value": 0.356704,
+      "R_bar": 0.2643,
+      "mean_dir": 122.5,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 22.5,
+      "rayleigh_Z": 1.1707,
+      "p_value": 0.315405,
+      "R_bar": 0.2794,
+      "mean_dir": 287.4,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 24,
+      "rayleigh_Z": 0.3006,
+      "p_value": 0.746679,
+      "R_bar": 0.1416,
+      "mean_dir": 180.4,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 30,
+      "rayleigh_Z": 0.449,
+      "p_value": 0.645767,
+      "R_bar": 0.173,
+      "mean_dir": 303.4,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 36,
+      "rayleigh_Z": 0.3866,
+      "p_value": 0.686501,
+      "R_bar": 0.1605,
+      "mean_dir": 135.2,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 40,
+      "rayleigh_Z": 1.1757,
+      "p_value": 0.313825,
+      "R_bar": 0.28,
+      "mean_dir": 76.5,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 45,
+      "rayleigh_Z": 0.4377,
+      "p_value": 0.65294,
+      "R_bar": 0.1708,
+      "mean_dir": 308.9,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 60,
+      "rayleigh_Z": 0.3026,
+      "p_value": 0.745218,
+      "R_bar": 0.142,
+      "mean_dir": 358.3,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 72,
+      "rayleigh_Z": 0.8941,
+      "p_value": 0.415956,
+      "R_bar": 0.2441,
+      "mean_dir": 142.0,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 90,
+      "rayleigh_Z": 1.1859,
+      "p_value": 0.310604,
+      "R_bar": 0.2812,
+      "mean_dir": 46.5,
+      "p_corrected": 0.800014,
+      "survives_bh": false
+    },
+    {
+      "period": 120,
+      "rayleigh_Z": 0.0481,
+      "p_value": 0.954525,
+      "R_bar": 0.0566,
+      "mean_dir": 14.9,
+      "p_corrected": 0.954525,
+      "survives_bh": false
+    }
+  ],
+  "phase3_surviving_bh": [],
+  "phase4_monte_carlo": {
+    "n_iterations": 1000,
+    "observed_Z": 0.3866,
+    "null_mean_Z": 0.9984,
+    "null_std_Z": 1.332,
+    "percentile_rank": 35.1,
+    "mc_p_value": 0.649
+  }
+}

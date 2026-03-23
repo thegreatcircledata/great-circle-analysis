@@ -1,0 +1,69 @@
+{
+  "test": "C1 \u2014 DARE Independent Type-Code Replication",
+  "dataset": "DARE places2.geojson",
+  "n_features": 29760,
+  "corridor_km": 50.0,
+  "mc_trials": 1000,
+  "seed": 42,
+  "on_corridor_total": 162,
+  "base_rate": 0.005444,
+  "categories": {
+    "mortuary": {
+      "n_sites": 726,
+      "observed_on": 16,
+      "shuffle_mean": 4.07,
+      "shuffle_std": 1.996,
+      "shuffle_z": 5.978,
+      "shuffle_p": 0.0,
+      "sample_mean": 3.91,
+      "sample_std": 1.958,
+      "sample_z": 6.175,
+      "sample_p": 0.0,
+      "pleiades_z": 7.584,
+      "sign_agrees": true
+    },
+    "ceremonial": {
+      "n_sites": 1925,
+      "observed_on": 22,
+      "shuffle_mean": 10.5,
+      "shuffle_std": 3.118,
+      "shuffle_z": 3.688,
+      "shuffle_p": 0.001,
+      "sample_mean": 10.48,
+      "sample_std": 3.124,
+      "sample_z": 3.687,
+      "sample_p": 0.001,
+      "pleiades_z": -2.287,
+      "sign_agrees": false
+    },
+    "settlement": {
+      "n_sites": 20427,
+      "observed_on": 97,
+      "shuffle_mean": 111.04,
+      "shuffle_std": 5.885,
+      "shuffle_z": -2.386,
+      "shuffle_p": 0.011,
+      "sample_mean": 111.18,
+      "sample_std": 5.859,
+      "sample_z": -2.42,
+      "sample_p": 0.008,
+      "pleiades_z": null,
+      "sign_agrees": null
+    },
+    "admin": {
+      "n_sites": 5061,
+      "observed_on": 25,
+      "shuffle_mean": 27.44,
+      "shuffle_std": 4.796,
+      "shuffle_z": -0.508,
+      "shuffle_p": 0.341,
+      "sample_mean": 27.43,
+      "sample_std": 4.837,
+      "sample_z": -0.503,
+      "sample_p": 0.352,
+      "pleiades_z": -4.345,
+      "sign_agrees": true
+    }
+  },
+  "elapsed_s": 2.4
+}

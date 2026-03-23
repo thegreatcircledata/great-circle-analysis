@@ -1,0 +1,43 @@
+pleiades_id,name,lat,lon,featureTypes,minDate,maxDate,dist_from_gc_km,region,category
+108282409,Pyramid of Sahure,29.89757,31.20481,"pyramid, architecturalcomplex, causeway",-2670.0,2099.0,3.11,Egypt/Nubia,mortuary
+309640805,Mastaba of Ptahshepses at Abusir,29.89654,31.20456,tomb,-2670.0,2100.0,3.22,Egypt/Nubia,mortuary
+195443086,Abu Sir,29.89612,31.20404,cemetery,-2670.0,2100.0,3.26,Egypt/Nubia,mortuary
+112501803,Pyramid of Neferirkare,29.89497,31.20243,pyramid,-2670.0,-2168.0,3.38,Egypt/Nubia,mortuary
+442642787,Abusir South,29.88323,31.20974,cemetery,-2670.0,-2168.0,4.74,Egypt/Nubia,mortuary
+616791789,Sacred Animal Necropolis (Ṣaqqārah),29.88174,31.2153,"settlement, cemetery",-4500.0,640.0,4.95,Egypt/Nubia,mortuary
+818039726,Helwan necropolis,29.88359,31.29544,cemetery,-2950.0,-2168.0,5.43,Egypt/Nubia,mortuary
+463431204,Tomb of Mereruka,29.87579,31.2212,tomb,-2670.0,2099.0,5.66,Egypt/Nubia,mortuary
+916778615,Mastaba of Kagemni,29.87577,31.22138,tomb,-2670.0,2099.0,5.67,Egypt/Nubia,mortuary
+451238645,Pyramid of Teti,29.87516,31.22176,pyramid,-2670.0,2099.0,5.74,Egypt/Nubia,mortuary
+674361719,Pyramids of Queens,29.97178,31.12812,pyramid,-2670.0,-2168.0,5.77,Egypt/Nubia,mortuary
+393558281,Pyramid of Userkaf,29.87378,31.21855,"tomb, pyramid",-2670.0,-2168.0,5.86,Egypt/Nubia,mortuary
+599695861,Pyramid of Menkaure,29.97288,31.1288,pyramid,-2670.0,2100.0,5.88,Egypt/Nubia,mortuary
+438874661,Pyramid of Khentkawes,29.97356,31.13568,pyramid,-2670.0,2100.0,5.9,Egypt/Nubia,mortuary
+979282842,The Giza Necropolis,29.97309,31.12975,"cemetery, archaeological-site",-2670.0,2100.0,5.9,Egypt/Nubia,mortuary
+782688268,Temple of Amenhotep II,29.9756,31.13811,"temple, temple-2",-2670.0,-1086.0,6.11,Egypt/Nubia,ceremonial
+922537087,Pyramid of Djoser,29.87077,31.21665,"pyramid, architecturalcomplex",-2670.0,2100.0,6.18,Egypt/Nubia,mortuary
+866839043,Pyramid of Khafre,29.97691,31.12969,pyramid,-2670.0,-2168.0,6.32,Egypt/Nubia,mortuary
+442962448,Giza,29.97777,31.13191,"sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex",-2670.0,2100.0,6.4,Egypt/Nubia,mortuary+ceremonial
+577587624,Pyramid of Unas,29.8682,31.21497,pyramid,-2670.0,2100.0,6.45,Egypt/Nubia,mortuary
+875774713,Tomb of Hetepheres I,29.97905,31.13599,tomb,-2670.0,-2168.0,6.51,Egypt/Nubia,mortuary
+704360201,The Great Pyramid,29.97916,31.13422,pyramid,-2670.0,2100.0,6.53,Egypt/Nubia,mortuary
+154462177,Pyramid of Sekhemkhet,29.86615,31.21363,pyramid,-2670.0,2100.0,6.66,Egypt/Nubia,mortuary
+302741925,Abu Bakr cemetery,29.98184,31.12716,cemetery,-2670.0,2099.0,6.89,Egypt/Nubia,mortuary
+796289136,Saqqarah,29.86238,31.21935,cemetery,-2950.0,2100.0,7.13,Egypt/Nubia,mortuary
+800113525,Pyramid of Pepi I at Saqqarah,29.85475,31.2186,"tomb, pyramid",-2670.0,-2168.0,7.97,Egypt/Nubia,mortuary
+509020499,Necropolis and Mortuary Complex of Pepi I,29.85421,31.21901,"pyramid, cemetery",-2670.0,-2168.0,8.03,Egypt/Nubia,mortuary
+108282408,Pyramid of Djedkare-Isesi,29.85096,31.22095,pyramid,-2670.0,-2168.0,8.41,Egypt/Nubia,mortuary
+945930914,Mastabet el-Fara'un,29.83516,31.21542,tomb,-2670.0,2100.0,10.11,Egypt/Nubia,mortuary
+945930913,Pyramid of Khendjer,29.8323,31.22392,"tomb, pyramid",-2010.0,2100.0,10.5,Egypt/Nubia,mortuary
+2367889,Pyramid-complex of Senusret III,29.81857,31.22571,"tomb, pyramid, temple-2",-2010.0,2099.0,12.04,Egypt/Nubia,mortuary
+412852520,Red Pyramid,29.80855,31.20624,pyramid,-2670.0,2100.0,12.98,Egypt/Nubia,mortuary
+520285929,Pyramid of Djedefre,30.03272,31.07425,tomb,-2670.0,-2168.0,12.98,Egypt/Nubia,mortuary
+243245493,Abu Rawash,30.0342,31.07945,cemetery,-2670.0,2100.0,13.1,Egypt/Nubia,mortuary
+853958465,White Pyramid,29.80585,31.22385,pyramid,-2010.0,2099.0,13.43,Egypt/Nubia,mortuary
+737063,Takyris,29.79986,31.2167,cemetery,-2670.0,2100.0,14.03,Egypt/Nubia,mortuary
+374122553,Black Pyramid,29.79174,31.22391,pyramid,-2010.0,2099.0,14.99,Egypt/Nubia,mortuary
+412852518,Bent Pyramid,29.79024,31.20947,"tomb, pyramid",-2670.0,2100.0,15.04,Egypt/Nubia,mortuary
+245762763,Pyramid of Ameny Qemau,29.78184,31.22163,pyramid,-2010.0,2099.0,16.07,Egypt/Nubia,mortuary
+166663104,El Qattah,30.21705,30.96684,cemetery,-2010.0,2100.0,34.33,Egypt/Nubia,mortuary
+203499429,Pyramid of Amenemhat I,29.57484,31.2253,pyramid,-2010.0,-1640.0,39.03,Egypt/Nubia,mortuary
+149451361,Pyramid of Senusret I,29.56018,31.22116,pyramid,-2010.0,-1640.0,40.62,Egypt/Nubia,mortuary

@@ -1,0 +1,16 @@
+{
+  "gc_mean_prominence_m": -2.3343918314757333,
+  "gc_n_land_points": 159,
+  "control_mean_prominence_m": -0.7269537577549509,
+  "control_n_points": 115,
+  "mann_whitney_stat": 8563.0,
+  "mann_whitney_p": 0.8148718430761377,
+  "gc_prominence_percentile_vs_random": 51.5,
+  "n_random_circles": 200,
+  "monument_mean_prominence_m": -43.87005900770712,
+  "settlement_mean_prominence_m": 0.6357958705846811,
+  "monument_n": 100,
+  "settlement_n": 235,
+  "mon_vs_set_mann_whitney_stat": 8671.5,
+  "mon_vs_set_mann_whitney_p": 0.9999263997841892
+}

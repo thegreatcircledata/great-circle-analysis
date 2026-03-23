@@ -1,0 +1,251 @@
+{
+  "test": "Necropolis Expansion Direction",
+  "n_pyramids": 26,
+  "n_bearings": 25,
+  "gc_bearing_deg": 80.0,
+  "nile_bearing_deg": 170.0,
+  "note_degeneracy": "GC bearing (~80\u00b0) is nearly identical to Nile-perpendicular; GC-perpendicular (~170\u00b0) is nearly identical to Nile axis. These cannot be distinguished.",
+  "pairwise_expansion": {
+    "mean_bearing_deg": 202.97,
+    "circular_std_deg": 97.86,
+    "mean_resultant_length": 0.2326,
+    "rayleigh_Z": 1.3524,
+    "rayleigh_p": 0.260957,
+    "is_non_uniform": false,
+    "angular_diffs": {
+      "Great Circle (~80\u00b0)": 122.97,
+      "GC perpendicular (~170\u00b0)": 32.97,
+      "Nile axis (~170\u00b0)": 32.97,
+      "Nile perpendicular (~80\u00b0)": 57.03
+    },
+    "best_alignment": "GC perpendicular (~170\u00b0)"
+  },
+  "overall_expansion_vector": {
+    "early_centroid": {
+      "lat": 29.8502,
+      "lon": 31.1666,
+      "n_pyramids": 9,
+      "period": "Dyn 3-4 (\u22652500 BCE)"
+    },
+    "late_centroid": {
+      "lat": 29.6465,
+      "lon": 31.1385,
+      "n_pyramids": 7,
+      "period": "Dyn 12 (\u22642000 BCE)"
+    },
+    "bearing_deg": 186.84,
+    "distance_km": 22.803,
+    "diff_from_gc_deg": 106.84,
+    "diff_from_nile_deg": 16.84,
+    "best_alignment": "GC perpendicular (~170\u00b0)",
+    "angular_diffs": {
+      "Great Circle (~80\u00b0)": 106.84,
+      "GC perpendicular (~170\u00b0)": 16.84,
+      "Nile axis (~170\u00b0)": 16.84,
+      "Nile perpendicular (~80\u00b0)": 73.16
+    }
+  },
+  "bearing_details": [
+    {
+      "from": "Step Pyramid of Djoser",
+      "to": "Sekhemkhet Pyramid",
+      "from_date_bce": 2630,
+      "to_date_bce": 2611,
+      "bearing_deg": 212.24,
+      "distance_km": 0.434
+    },
+    {
+      "from": "Sekhemkhet Pyramid",
+      "to": "Layer Pyramid (Zawiyet Umm el-Rakhm)",
+      "from_date_bce": 2611,
+      "to_date_bce": 2600,
+      "bearing_deg": 324.41,
+      "distance_km": 9.437
+    },
+    {
+      "from": "Layer Pyramid (Zawiyet Umm el-Rakhm)",
+      "to": "Meidum Pyramid",
+      "from_date_bce": 2600,
+      "to_date_bce": 2600,
+      "bearing_deg": 180.02,
+      "distance_km": 61.002
+    },
+    {
+      "from": "Meidum Pyramid",
+      "to": "Bent Pyramid",
+      "from_date_bce": 2600,
+      "to_date_bce": 2600,
+      "bearing_deg": 6.48,
+      "distance_km": 44.978
+    },
+    {
+      "from": "Bent Pyramid",
+      "to": "Red Pyramid",
+      "from_date_bce": 2600,
+      "to_date_bce": 2590,
+      "bearing_deg": 350.73,
+      "distance_km": 2.096
+    },
+    {
+      "from": "Red Pyramid",
+      "to": "Great Pyramid of Khufu",
+      "from_date_bce": 2590,
+      "to_date_bce": 2560,
+      "bearing_deg": 339.97,
+      "distance_km": 20.159
+    },
+    {
+      "from": "Great Pyramid of Khufu",
+      "to": "Pyramid of Djedefre",
+      "from_date_bce": 2560,
+      "to_date_bce": 2528,
+      "bearing_deg": 315.82,
+      "distance_km": 8.219
+    },
+    {
+      "from": "Pyramid of Djedefre",
+      "to": "Pyramid of Khafre",
+      "from_date_bce": 2528,
+      "to_date_bce": 2520,
+      "bearing_deg": 139.09,
+      "distance_km": 8.252
+    },
+    {
+      "from": "Pyramid of Khafre",
+      "to": "Pyramid of Userkaf",
+      "from_date_bce": 2520,
+      "to_date_bce": 2494,
+      "bearing_deg": 143.2,
+      "distance_km": 14.229
+    },
+    {
+      "from": "Pyramid of Userkaf",
+      "to": "Pyramid of Menkaure",
+      "from_date_bce": 2494,
+      "to_date_bce": 2490,
+      "bearing_deg": 321.42,
+      "distance_km": 14.072
+    },
+    {
+      "from": "Pyramid of Menkaure",
+      "to": "Pyramid of Sahure",
+      "from_date_bce": 2490,
+      "to_date_bce": 2487,
+      "bearing_deg": 139.72,
+      "distance_km": 10.929
+    },
+    {
+      "from": "Pyramid of Sahure",
+      "to": "Pyramid of Neferirkare",
+      "from_date_bce": 2487,
+      "to_date_bce": 2475,
+      "bearing_deg": 161.19,
+      "distance_km": 0.329
+    },
+    {
+      "from": "Pyramid of Neferirkare",
+      "to": "Pyramid of Nyuserre",
+      "from_date_bce": 2475,
+      "to_date_bce": 2445,
+      "bearing_deg": 278.94,
+      "distance_km": 0.215
+    },
+    {
+      "from": "Pyramid of Nyuserre",
+      "to": "Pyramid of Unas",
+      "from_date_bce": 2445,
+      "to_date_bce": 2375,
+      "bearing_deg": 153.75,
+      "distance_km": 3.335
+    },
+    {
+      "from": "Pyramid of Unas",
+      "to": "Pyramid of Teti",
+      "from_date_bce": 2375,
+      "to_date_bce": 2345,
+      "bearing_deg": 30.03,
+      "distance_km": 0.963
+    },
+    {
+      "from": "Pyramid of Teti",
+      "to": "Pyramid of Pepi I",
+      "from_date_bce": 2345,
+      "to_date_bce": 2332,
+      "bearing_deg": 191.4,
+      "distance_km": 2.586
+    },
+    {
+      "from": "Pyramid of Pepi I",
+      "to": "Pyramid of Merenre",
+      "from_date_bce": 2332,
+      "to_date_bce": 2283,
+      "bearing_deg": 203.98,
+      "distance_km": 0.475
+    },
+    {
+      "from": "Pyramid of Merenre",
+      "to": "Pyramid of Pepi II",
+      "from_date_bce": 2283,
+      "to_date_bce": 2278,
+      "bearing_deg": 181.99,
+      "distance_km": 0.556
+    },
+    {
+      "from": "Pyramid of Pepi II",
+      "to": "Pyramid of Amenemhat I",
+      "from_date_bce": 2278,
+      "to_date_bce": 1991,
+      "bearing_deg": 169.62,
+      "distance_km": 4.714
+    },
+    {
+      "from": "Pyramid of Amenemhat I",
+      "to": "Pyramid of Senusret I",
+      "from_date_bce": 1991,
+      "to_date_bce": 1971,
+      "bearing_deg": 6.37,
+      "distance_km": 0.783
+    },
+    {
+      "from": "Pyramid of Senusret I",
+      "to": "Pyramid of Amenemhat II",
+      "from_date_bce": 1971,
+      "to_date_bce": 1929,
+      "bearing_deg": 203.46,
+      "distance_km": 1.212
+    },
+    {
+      "from": "Pyramid of Amenemhat II",
+      "to": "Pyramid of Senusret II",
+      "from_date_bce": 1929,
+      "to_date_bce": 1880,
+      "bearing_deg": 201.01,
+      "distance_km": 66.854
+    },
+    {
+      "from": "Pyramid of Senusret II",
+      "to": "Pyramid of Senusret III",
+      "from_date_bce": 1880,
+      "to_date_bce": 1878,
+      "bearing_deg": 20.93,
+      "distance_km": 69.124
+    },
+    {
+      "from": "Pyramid of Senusret III",
+      "to": "Pyramid of Amenemhat III (Dahshur)",
+      "from_date_bce": 1878,
+      "to_date_bce": 1860,
+      "bearing_deg": 203.87,
+      "distance_km": 3.721
+    },
+    {
+      "from": "Pyramid of Amenemhat III (Dahshur)",
+      "to": "Pyramid of Amenemhat III (Hawara)",
+      "from_date_bce": 1860,
+      "to_date_bce": 1850,
+      "bearing_deg": 207.92,
+      "distance_km": 64.838
+    }
+  ],
+  "interpretation": "Pairwise expansion bearings are NOT significantly non-uniform (Rayleigh p=0.2610), mean direction 203.0\u00b0 but with high dispersion (R\u0304=0.233). Overall expansion vector (early\u2192late centroid): 186.8\u00b0 over 22.8 km. Mean pairwise bearing does not strongly align with either GC (123.0\u00b0 off) or Nile (33.0\u00b0 off). NOTE: GC bearing (~80\u00b0) \u2248 Nile-perpendicular, so alignment with one implies alignment with the other. This is a geometric degeneracy that prevents distinguishing GC-driven vs Nile-driven placement."
+}

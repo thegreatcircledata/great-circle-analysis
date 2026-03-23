@@ -1,0 +1,172 @@
+{
+  "carving_positions": {
+    "vulture": {
+      "x": 0.45,
+      "y": 0.65,
+      "claimed": "Sagittarius"
+    },
+    "scorpion": {
+      "x": 0.55,
+      "y": 0.25,
+      "claimed": "Scorpius"
+    },
+    "bird_above_scorp": {
+      "x": 0.5,
+      "y": 0.45,
+      "claimed": "Libra"
+    },
+    "circle_disk": {
+      "x": 0.48,
+      "y": 0.55,
+      "claimed": "Sun_solstice"
+    },
+    "fox": {
+      "x": 0.7,
+      "y": 0.5,
+      "claimed": null
+    },
+    "serpent": {
+      "x": 0.3,
+      "y": 0.4,
+      "claimed": null
+    },
+    "ibis_like_bird": {
+      "x": 0.35,
+      "y": 0.7,
+      "claimed": null
+    },
+    "headless_man": {
+      "x": 0.6,
+      "y": 0.35,
+      "claimed": null
+    }
+  },
+  "temporal_sweep": {
+    "epochs_tested": 101,
+    "best_epoch": -5000,
+    "best_distance": 0.981332,
+    "at_claimed_epoch": 0.9815,
+    "total_variation": 0.00028,
+    "variation_pct_of_mean": 0.03
+  },
+  "random_arrangement_test": {
+    "n_random": 10000,
+    "p_value_fixed_epoch": 0.9898,
+    "random_median": 0.6535
+  },
+  "random_sweep_test": {
+    "n_random": 1000,
+    "p_value_best_epoch": 0.988,
+    "random_best_median": 0.662839
+  },
+  "permutation_test": {
+    "n_permutations": 24,
+    "claimed_rank": 22,
+    "best_permutation": {
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mapping": {
+        "vulture": "Sagittarius",
+        "scorpion": "Sun_solstice",
+        "bird_above_scorp": "Libra",
+        "circle_disk": "Scorpius"
+      },
+      "distance": 0.06251974404854078
+    },
+    "claimed_permutation": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mapping": {
+        "vulture": "Sagittarius",
+        "scorpion": "Scorpius",
+        "bird_above_scorp": "Libra",
+        "circle_disk": "Sun_solstice"
+      },
+      "distance": 0.9814990276244889
+    }
+  },
+  "expanded_constellation_test": {
+    "total_assignments_tested": 6840,
+    "claimed_set_rank": 689,
+    "top_5": [
+      {
+        "constellations": [
+          "Sagittarius",
+          "Aquila",
+          "Cygnus"
+        ],
+        "mapping": {
+          "vulture": "Sagittarius",
+          "scorpion": "Cygnus",
+          "bird_above_scorp": "Aquila"
+        },
+        "distance": 0.0001739136934648616,
+        "is_claimed_set": false
+      },
+      {
+        "constellations": [
+          "Sagittarius",
+          "Aquila",
+          "Cygnus"
+        ],
+        "mapping": {
+          "vulture": "Cygnus",
+          "scorpion": "Sagittarius",
+          "bird_above_scorp": "Aquila"
+        },
+        "distance": 0.00017391369346486584,
+        "is_claimed_set": false
+      },
+      {
+        "constellations": [
+          "Virgo",
+          "Aquila",
+          "Aries"
+        ],
+        "mapping": {
+          "vulture": "Aries",
+          "scorpion": "Virgo",
+          "bird_above_scorp": "Aquila"
+        },
+        "distance": 0.00030964467363495617,
+        "is_claimed_set": false
+      },
+      {
+        "constellations": [
+          "Virgo",
+          "Aquila",
+          "Aries"
+        ],
+        "mapping": {
+          "vulture": "Virgo",
+          "scorpion": "Aries",
+          "bird_above_scorp": "Aquila"
+        },
+        "distance": 0.0003096446736349568,
+        "is_claimed_set": false
+      },
+      {
+        "constellations": [
+          "Libra",
+          "Aquila",
+          "Pisces"
+        ],
+        "mapping": {
+          "vulture": "Libra",
+          "scorpion": "Pisces",
+          "bird_above_scorp": "Aquila"
+        },
+        "distance": 0.0003524929471486052,
+        "is_claimed_set": false
+      }
+    ]
+  }
+}

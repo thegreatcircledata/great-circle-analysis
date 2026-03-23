@@ -1,0 +1,85 @@
+{
+  "anti_divergence_circle": {
+    "pole": {
+      "lat": 49.0,
+      "lon": -140.0
+    },
+    "regions": {
+      "Ocean/Other": {
+        "count": 187,
+        "fraction": 0.26
+      },
+      "South America": {
+        "count": 132,
+        "fraction": 0.183
+      },
+      "Asia (mainland)": {
+        "count": 127,
+        "fraction": 0.176
+      },
+      "Australia/Oceania": {
+        "count": 85,
+        "fraction": 0.118
+      },
+      "SE Asia / Indonesia": {
+        "count": 61,
+        "fraction": 0.085
+      },
+      "Africa": {
+        "count": 59,
+        "fraction": 0.082
+      },
+      "Europe": {
+        "count": 54,
+        "fraction": 0.075
+      },
+      "Middle East": {
+        "count": 15,
+        "fraction": 0.021
+      }
+    },
+    "latitude_range": [
+      -41.0,
+      41.0
+    ],
+    "settlement_monument_ratio": 6.15
+  },
+  "alison_circle": {
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "regions": {
+      "Ocean/Other": {
+        "count": 196,
+        "fraction": 0.272
+      },
+      "Africa": {
+        "count": 139,
+        "fraction": 0.193
+      },
+      "South America": {
+        "count": 123,
+        "fraction": 0.171
+      },
+      "Asia (mainland)": {
+        "count": 116,
+        "fraction": 0.161
+      },
+      "SE Asia / Indonesia": {
+        "count": 81,
+        "fraction": 0.113
+      },
+      "Australia/Oceania": {
+        "count": 65,
+        "fraction": 0.09
+      }
+    },
+    "latitude_range": [
+      -30.3,
+      30.3
+    ],
+    "settlement_monument_ratio": 1.42
+  },
+  "angular_separation": 10.7
+}

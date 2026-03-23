@@ -1,0 +1,200 @@
+{
+  "study": "S10 \u2014 Modern Infrastructure Echo Test",
+  "date": "2026-03-22",
+  "seed": 42,
+  "n_cities": 99,
+  "n_random_circles": 1000,
+  "alison_city_counts": {
+    "50": 1,
+    "100": 2,
+    "200": 4,
+    "500": 12
+  },
+  "alison_nearby_cities": {
+    "50": [
+      {
+        "name": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "pop_M": 21.3,
+        "dist_km": 12.9
+      }
+    ],
+    "100": [
+      {
+        "name": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "pop_M": 21.3,
+        "dist_km": 12.9
+      },
+      {
+        "name": "Kolkata",
+        "lat": 22.5726,
+        "lon": 88.3639,
+        "pop_M": 15.1,
+        "dist_km": 86.1
+      }
+    ],
+    "200": [
+      {
+        "name": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "pop_M": 21.3,
+        "dist_km": 12.9
+      },
+      {
+        "name": "Kolkata",
+        "lat": 22.5726,
+        "lon": 88.3639,
+        "pop_M": 15.1,
+        "dist_km": 86.1
+      },
+      {
+        "name": "Yangon",
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "pop_M": 5.3,
+        "dist_km": 176.7
+      },
+      {
+        "name": "Alexandria",
+        "lat": 31.2001,
+        "lon": 29.9187,
+        "pop_M": 5.3,
+        "dist_km": 152.7
+      }
+    ],
+    "500": [
+      {
+        "name": "Delhi",
+        "lat": 28.7041,
+        "lon": 77.1025,
+        "pop_M": 32.9,
+        "dist_km": 352.2
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "pop_M": 21.3,
+        "dist_km": 12.9
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "pop_M": 22.0,
+        "dist_km": 292.3
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.8607,
+        "lon": 67.0011,
+        "pop_M": 16.5,
+        "dist_km": 318.5
+      },
+      {
+        "name": "Kolkata",
+        "lat": 22.5726,
+        "lon": 88.3639,
+        "pop_M": 15.1,
+        "dist_km": 86.1
+      },
+      {
+        "name": "Lima",
+        "lat": -12.0464,
+        "lon": -77.0428,
+        "pop_M": 10.9,
+        "dist_km": 348.2
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.7563,
+        "lon": 100.5018,
+        "pop_M": 10.7,
+        "dist_km": 294.3
+      },
+      {
+        "name": "Ho Chi Minh City",
+        "lat": 10.8231,
+        "lon": 106.6297,
+        "pop_M": 9.3,
+        "dist_km": 288.6
+      },
+      {
+        "name": "Ahmedabad",
+        "lat": 23.0225,
+        "lon": 72.5714,
+        "pop_M": 8.4,
+        "dist_km": 380.7
+      },
+      {
+        "name": "Baghdad",
+        "lat": 33.3152,
+        "lon": 44.3661,
+        "pop_M": 7.5,
+        "dist_km": 337.0
+      },
+      {
+        "name": "Yangon",
+        "lat": 16.8661,
+        "lon": 96.1951,
+        "pop_M": 5.3,
+        "dist_km": 176.7
+      },
+      {
+        "name": "Alexandria",
+        "lat": 31.2001,
+        "lon": 29.9187,
+        "pop_M": 5.3,
+        "dist_km": 152.7
+      }
+    ]
+  },
+  "random_circle_stats": {
+    "50": {
+      "mean": 0.8,
+      "std": 0.99,
+      "median": 1.0,
+      "z_score": 0.2,
+      "percentile": 80.5
+    },
+    "100": {
+      "mean": 1.6,
+      "std": 1.5,
+      "median": 1.0,
+      "z_score": 0.27,
+      "percentile": 76.7
+    },
+    "200": {
+      "mean": 3.18,
+      "std": 2.43,
+      "median": 3.0,
+      "z_score": 0.34,
+      "percentile": 74.1
+    },
+    "500": {
+      "mean": 7.71,
+      "std": 4.82,
+      "median": 7.0,
+      "z_score": 0.89,
+      "percentile": 82.3
+    }
+  },
+  "ancient_modern_correlation": {
+    "pearson_r_full": -0.0276,
+    "p_value_full": 0.6010704,
+    "pearson_r_nonzero": -0.1767,
+    "p_value_nonzero": 0.05994531,
+    "n_nonzero_points": 114
+  },
+  "land_fraction": {
+    "alison": 0.1861,
+    "random_mean": 0.2536,
+    "random_std": 0.0929,
+    "z_score": -0.73,
+    "percentile": 24.9
+  }
+}

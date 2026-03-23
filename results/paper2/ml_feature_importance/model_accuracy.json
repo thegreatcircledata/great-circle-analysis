@@ -1,0 +1,45 @@
+{
+  "random_forest": {
+    "cv_auc": 0.8805005935271583,
+    "cv_std": 0.005836664257864476
+  },
+  "xgboost": {
+    "cv_auc": 0.8798552421958783,
+    "cv_std": 0.005979827236066514
+  },
+  "logistic_regression": {
+    "cv_auc": 0.824135841309813,
+    "cv_std": 0.005881391161189709
+  },
+  "shap_analysis": {
+    "mean_abs_shap": {
+      "dist_to_gc_km": 0.14294259250164032,
+      "dist_to_coast_km": 0.10099534690380096,
+      "dist_to_river_km": 0.18209068477153778,
+      "elevation_m": 0.25984758138656616,
+      "abs_latitude": 0.24808458983898163,
+      "longitude": 0.19382482767105103,
+      "nearest_site_km": 0.6665226817131042,
+      "cross_type_dist_km": 2.0688812732696533
+    },
+    "gc_dist_rank": 7,
+    "n_features": 8,
+    "interpretation": "WEAK: Great Circle distance is not a strong predictor after controlling for geographic features.",
+    "n_shap_samples": 2000
+  },
+  "corridor_analysis": {
+    "cv_auc": 0.8645083576633785,
+    "shap": {
+      "dist_to_gc_km": 0.32819226384162903,
+      "dist_to_coast_km": 0.16519631445407867,
+      "dist_to_river_km": 0.20405538380146027,
+      "elevation_m": 0.4884175658226013,
+      "abs_latitude": 0.16795381903648376,
+      "longitude": 0.2519926130771637,
+      "nearest_site_km": 0.6746481657028198,
+      "cross_type_dist_km": 2.1794421672821045
+    },
+    "gc_rank": 4,
+    "n_sites": 5249
+  }
+}

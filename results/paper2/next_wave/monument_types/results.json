@@ -1,0 +1,143 @@
+{
+  "study": "S4_monument_type_decomposition",
+  "mc_trials": 1000,
+  "threshold_km": 50,
+  "phase2_per_type": {
+    "monuments": {
+      "n": 4598,
+      "on_corridor": 83,
+      "fraction": 0.0181,
+      "z_score": 0.0,
+      "p_value": 1.0,
+      "mc_mean": 83.0,
+      "mc_std": 0.0,
+      "divergence_vs_settlement": 0.0
+    },
+    "settlements": {
+      "n": 18488,
+      "on_corridor": 122,
+      "fraction": 0.0066,
+      "z_score": 0.0,
+      "p_value": 1.0,
+      "mc_mean": 122.0,
+      "mc_std": 0.0
+    },
+    "mortuary": {
+      "n": 772,
+      "on_corridor": 40,
+      "fraction": 0.0518,
+      "z_score": 7.584,
+      "p_value": 0.0,
+      "mc_mean": 14.0,
+      "mc_std": 3.428,
+      "divergence_vs_settlement": 7.584
+    },
+    "ceremonial": {
+      "n": 2191,
+      "on_corridor": 29,
+      "fraction": 0.0132,
+      "z_score": -2.287,
+      "p_value": 0.993,
+      "mc_mean": 39.53,
+      "mc_std": 4.606,
+      "divergence_vs_settlement": -2.287
+    },
+    "administrative": {
+      "n": 993,
+      "on_corridor": 2,
+      "fraction": 0.002,
+      "z_score": -4.345,
+      "p_value": 1.0,
+      "mc_mean": 17.94,
+      "mc_std": 3.668,
+      "divergence_vs_settlement": -4.345
+    },
+    "other_monumental": {
+      "n": 741,
+      "on_corridor": 14,
+      "fraction": 0.0189,
+      "z_score": 0.241,
+      "p_value": 0.447,
+      "mc_mean": 13.19,
+      "mc_std": 3.341,
+      "divergence_vs_settlement": 0.241
+    }
+  },
+  "phase3_temporal": {
+    "mortuary": {
+      "pre_2000BCE": {
+        "n": 85,
+        "on_corridor": 31,
+        "fraction": 0.3647,
+        "z_score": 25.476,
+        "p_value": 0.0
+      },
+      "2000BCE_0CE": {
+        "n": 595,
+        "on_corridor": 8,
+        "fraction": 0.0134,
+        "z_score": -0.911,
+        "p_value": 0.869
+      },
+      "0CE_present": {
+        "n": 65,
+        "on_corridor": 0,
+        "fraction": 0.0,
+        "z_score": -1.137,
+        "p_value": 1.0
+      }
+    },
+    "ceremonial": {
+      "pre_2000BCE": {
+        "n": 69,
+        "on_corridor": 7,
+        "fraction": 0.1014,
+        "z_score": 5.101,
+        "p_value": 0.0
+      },
+      "2000BCE_0CE": {
+        "n": 1454,
+        "on_corridor": 19,
+        "fraction": 0.0131,
+        "z_score": -1.769,
+        "p_value": 0.981
+      },
+      "0CE_present": {
+        "n": 586,
+        "on_corridor": 2,
+        "fraction": 0.0034,
+        "z_score": -2.95,
+        "p_value": 1.0
+      }
+    },
+    "administrative": {
+      "pre_2000BCE": {
+        "n": 1,
+        "skipped": true
+      },
+      "2000BCE_0CE": {
+        "n": 930,
+        "on_corridor": 2,
+        "fraction": 0.0022,
+        "z_score": -4.3,
+        "p_value": 1.0
+      },
+      "0CE_present": {
+        "n": 45,
+        "on_corridor": 0,
+        "fraction": 0.0,
+        "z_score": -0.952,
+        "p_value": 1.0
+      }
+    }
+  },
+  "phase4_egypt_segment": {
+    "monuments_in_box": 159,
+    "on_corridor": 58,
+    "mortuary_on_corridor": 34,
+    "ceremonial_on_corridor": 17,
+    "administrative_on_corridor": 2,
+    "other_on_corridor": 7,
+    "mortuary_fraction": 0.5862
+  }
+}

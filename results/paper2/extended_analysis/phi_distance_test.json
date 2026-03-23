@@ -1,0 +1,66 @@
+{
+  "directive": "Directive 1: Alison Golden Section (\u03c6) Distance Test",
+  "sites": {
+    "giza": {
+      "lat": 29.9792,
+      "lon": 31.1342
+    },
+    "nazca": {
+      "lat": -14.735,
+      "lon": -75.13
+    },
+    "angkor": {
+      "lat": 13.4125,
+      "lon": 103.867
+    }
+  },
+  "distances_km": {
+    "angkor_to_giza": 7620.2,
+    "giza_to_nazca": 12365.5,
+    "nazca_to_angkor": 19832.5,
+    "sum": 39818.2,
+    "earth_circumference": 40030.2
+  },
+  "distances_mi": {
+    "angkor_to_giza": 4735.0,
+    "giza_to_nazca": 7683.5,
+    "nazca_to_angkor": 12323.4
+  },
+  "circumference_fractions_pct": {
+    "angkor_to_giza": 19.0362,
+    "giza_to_nazca": 30.8904,
+    "nazca_to_angkor": 49.5439
+  },
+  "phi_ratio_test": {
+    "actual_ratio": 1.622718,
+    "phi": 1.618034,
+    "relative_error": 0.002895,
+    "relative_error_pct": "0.2895%"
+  },
+  "fibonacci_digits": {
+    "F137_first3": 191,
+    "F138_first3": 309,
+    "F139_first3": 500,
+    "arc_pcts_sorted": [
+      19.04,
+      30.89,
+      49.54
+    ]
+  },
+  "geometry_check": {
+    "arc_sum_vs_circumference": 0.9947,
+    "deficit_pct": 0.53,
+    "on_shared_great_circle": true
+  },
+  "monte_carlo": {
+    "n_trials": 200000,
+    "p_value_phi_ratio": 0.008295,
+    "p_value_fibonacci_digits": 0.0,
+    "tolerance_relative": 0.002895
+  },
+  "verdict": "POSSIBLY MEANINGFUL \u2014 \u03c6 ratio is statistically unusual and geometry is valid.",
+  "notes": [
+    "\u03c6 ratio holds to 0.29% \u2014 impressively close.",
+    "Monte Carlo p=0.0083: \u03c6 match is statistically unusual."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Egypt-Levant": {
+    "pleiades": 0.8159203980099502,
+    "p3k14c": 0.0,
+    "xronos": 0.23636363636363636,
+    "merged_sites": 0.7227586206896551
+  },
+  "Iran-Mesopotamia": {
+    "pleiades": 0.76,
+    "p3k14c": 0.0,
+    "xronos": 0.65,
+    "merged_sites": 0.6305418719211823
+  },
+  "South Asia": {
+    "pleiades": 0.16666666666666666,
+    "merged_sites": 0.9111111111111111,
+    "south_asia": 0.0
+  },
+  "SE Asia": {
+    "pleiades": 0.375,
+    "merged_sites": 0.9852670349907919,
+    "south_asia": 0.0
+  },
+  "Peru": {
+    "p3k14c": 0.0,
+    "xronos": 0.0,
+    "merged_sites": 0.9330417227456258,
+    "peru_ministry": 1.0
+  },
+  "Brazil": {
+    "p3k14c": 0.0,
+    "xronos": 0.0,
+    "merged_sites": 1.0
+  },
+  "North Africa/Sahara": {
+    "pleiades": 0.6666666666666666,
+    "p3k14c": 0.0,
+    "xronos": 0.0,
+    "merged_sites": 0.9991986109256044
+  },
+  "W Europe": {}
+}

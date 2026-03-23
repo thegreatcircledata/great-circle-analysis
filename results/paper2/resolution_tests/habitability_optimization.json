@@ -1,0 +1,233 @@
+{
+  "test": "Habitability Optimization",
+  "method": "Proxy habitability (land fraction, coast proximity, latitude suitability, elevation)",
+  "grid_resolution_deg": 2,
+  "n_poles_tested": 8280,
+  "gc_points_per_circle": 360,
+  "scoring": "mean_hab * land_fraction * (1 + log(river_crossings + 1))",
+  "optimal_pole": {
+    "lat": 4.0,
+    "lon": 24.0,
+    "final_score": 1.0692399360966272,
+    "mean_habitability": 0.40831705927848816,
+    "land_fraction": 0.5555555555555556,
+    "river_crossings": 40
+  },
+  "alison_pole": {
+    "pole_lat": 59.682,
+    "pole_lon": -138.646,
+    "mean_habitability": 0.17497500777244568,
+    "land_fraction": 0.19166666666666668,
+    "mean_hab_land_only": 0.9129131436347961,
+    "river_crossings": 18,
+    "final_score": 0.13228416286553726,
+    "score_pass1": 0.03353687648971876
+  },
+  "alison_percentile_pass1": 19.0,
+  "alison_rank_approx": 6191,
+  "angular_distance_deg": 114.86,
+  "angular_distance_km": 12772.1,
+  "verdict": "NOT EXPLAINED \u2014 Habitability doesn't explain it, something else is needed",
+  "top_20_poles": [
+    {
+      "pole_lat": 4.0,
+      "pole_lon": 24.0,
+      "mean_habitability": 0.40831705927848816,
+      "land_fraction": 0.5555555555555556,
+      "mean_hab_land_only": 0.7349706888198853,
+      "score_pass1": 0.2268428107102712,
+      "river_crossings": 40,
+      "final_score": 1.0692399360966272
+    },
+    {
+      "pole_lat": 4.0,
+      "pole_lon": 26.0,
+      "mean_habitability": 0.4162038266658783,
+      "land_fraction": 0.5666666666666667,
+      "mean_hab_land_only": 0.7344773411750793,
+      "score_pass1": 0.23584883511066437,
+      "river_crossings": 27,
+      "final_score": 1.0217453871859883
+    },
+    {
+      "pole_lat": 2.0,
+      "pole_lon": 24.0,
+      "mean_habitability": 0.40425413846969604,
+      "land_fraction": 0.5472222222222223,
+      "mean_hab_land_only": 0.7387385368347168,
+      "score_pass1": 0.22121684799591704,
+      "river_crossings": 34,
+      "final_score": 1.0077197396869988
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": 20.0,
+      "mean_habitability": 0.41383472084999084,
+      "land_fraction": 0.5611111111111111,
+      "mean_hab_land_only": 0.7375273704528809,
+      "score_pass1": 0.23220726003249487,
+      "river_crossings": 23,
+      "final_score": 0.9701744322133665
+    },
+    {
+      "pole_lat": 6.0,
+      "pole_lon": 24.0,
+      "mean_habitability": 0.405900776386261,
+      "land_fraction": 0.55,
+      "mean_hab_land_only": 0.7380014061927795,
+      "score_pass1": 0.22324542701244357,
+      "river_crossings": 27,
+      "final_score": 0.9671448457792974
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": -160.0,
+      "mean_habitability": 0.4143662452697754,
+      "land_fraction": 0.5611111111111111,
+      "mean_hab_land_only": 0.7384744882583618,
+      "score_pass1": 0.23250550429026287,
+      "river_crossings": 22,
+      "final_score": 0.9615251681640722
+    },
+    {
+      "pole_lat": 6.0,
+      "pole_lon": 26.0,
+      "mean_habitability": 0.41077059507369995,
+      "land_fraction": 0.5583333333333333,
+      "mean_hab_land_only": 0.7357085347175598,
+      "score_pass1": 0.2293469155828158,
+      "river_crossings": 22,
+      "final_score": 0.9484628428339258
+    },
+    {
+      "pole_lat": 2.0,
+      "pole_lon": -160.0,
+      "mean_habitability": 0.4077717959880829,
+      "land_fraction": 0.5472222222222223,
+      "mean_hab_land_only": 0.7451667785644531,
+      "score_pass1": 0.22314178836014537,
+      "river_crossings": 22,
+      "final_score": 0.9228015750954676
+    },
+    {
+      "pole_lat": 8.0,
+      "pole_lon": 24.0,
+      "mean_habitability": 0.39039120078086853,
+      "land_fraction": 0.525,
+      "mean_hab_land_only": 0.7436022162437439,
+      "score_pass1": 0.20495538040995598,
+      "river_crossings": 30,
+      "final_score": 0.9087695342281304
+    },
+    {
+      "pole_lat": 2.0,
+      "pole_lon": 26.0,
+      "mean_habitability": 0.39251768589019775,
+      "land_fraction": 0.5305555555555556,
+      "mean_hab_land_only": 0.7398238778114319,
+      "score_pass1": 0.20825243890285491,
+      "river_crossings": 26,
+      "final_score": 0.8946185044741983
+    },
+    {
+      "pole_lat": 4.0,
+      "pole_lon": 22.0,
+      "mean_habitability": 0.3928045630455017,
+      "land_fraction": 0.5333333333333333,
+      "mean_hab_land_only": 0.7365086078643799,
+      "score_pass1": 0.20949576695760092,
+      "river_crossings": 24,
+      "final_score": 0.883836626629645
+    },
+    {
+      "pole_lat": 6.0,
+      "pole_lon": 28.0,
+      "mean_habitability": 0.40074530243873596,
+      "land_fraction": 0.5444444444444444,
+      "mean_hab_land_only": 0.7360628247261047,
+      "score_pass1": 0.21818355354997845,
+      "river_crossings": 20,
+      "final_score": 0.8824482778751178
+    },
+    {
+      "pole_lat": 2.0,
+      "pole_lon": 22.0,
+      "mean_habitability": 0.3893786668777466,
+      "land_fraction": 0.5333333333333333,
+      "mean_hab_land_only": 0.7300850749015808,
+      "score_pass1": 0.2076686223347982,
+      "river_crossings": 24,
+      "final_score": 0.8761281303519646
+    },
+    {
+      "pole_lat": 8.0,
+      "pole_lon": 26.0,
+      "mean_habitability": 0.397135466337204,
+      "land_fraction": 0.5333333333333333,
+      "mean_hab_land_only": 0.7446290850639343,
+      "score_pass1": 0.2118055820465088,
+      "river_crossings": 22,
+      "final_score": 0.875920759454844
+    },
+    {
+      "pole_lat": 4.0,
+      "pole_lon": 28.0,
+      "mean_habitability": 0.4012686312198639,
+      "land_fraction": 0.55,
+      "mean_hab_land_only": 0.7295794486999512,
+      "score_pass1": 0.22069774717092516,
+      "river_crossings": 18,
+      "final_score": 0.8705287965552172
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": -154.0,
+      "mean_habitability": 0.38363754749298096,
+      "land_fraction": 0.5138888888888888,
+      "mean_hab_land_only": 0.7465379238128662,
+      "score_pass1": 0.1971470730172263,
+      "river_crossings": 27,
+      "final_score": 0.8540814388930681
+    },
+    {
+      "pole_lat": 2.0,
+      "pole_lon": -158.0,
+      "mean_habitability": 0.3856344521045685,
+      "land_fraction": 0.5194444444444445,
+      "mean_hab_land_only": 0.7423978447914124,
+      "score_pass1": 0.2003156737320953,
+      "river_crossings": 25,
+      "final_score": 0.8529634768300757
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": -158.0,
+      "mean_habitability": 0.3897731304168701,
+      "land_fraction": 0.525,
+      "mean_hab_land_only": 0.7424250245094299,
+      "score_pass1": 0.20463089346885682,
+      "river_crossings": 22,
+      "final_score": 0.8462498763408715
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": 26.0,
+      "mean_habitability": 0.383089542388916,
+      "land_fraction": 0.5138888888888888,
+      "mean_hab_land_only": 0.7454715371131897,
+      "score_pass1": 0.19686545928319293,
+      "river_crossings": 26,
+      "final_score": 0.8457018976316144
+    },
+    {
+      "pole_lat": 0.0,
+      "pole_lon": 22.0,
+      "mean_habitability": 0.38922980427742004,
+      "land_fraction": 0.525,
+      "mean_hab_land_only": 0.7413901686668396,
+      "score_pass1": 0.20434564724564552,
+      "river_crossings": 22,
+      "final_score": 0.8450702422346654
+    }
+  ]
+}

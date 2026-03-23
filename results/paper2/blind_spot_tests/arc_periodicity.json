@@ -1,0 +1,38 @@
+{
+  "top_peaks": [
+    {
+      "period_deg": 22.5,
+      "n_peaks_around_circle": 16.0,
+      "power": 2996.15,
+      "significance": "p<0.01"
+    },
+    {
+      "period_deg": 90.0,
+      "n_peaks_around_circle": 4.0,
+      "power": 2810.98,
+      "significance": "p<0.01"
+    },
+    {
+      "period_deg": 18.0,
+      "n_peaks_around_circle": 20.0,
+      "power": 2762.78,
+      "significance": "p<0.01"
+    },
+    {
+      "period_deg": 12.4,
+      "n_peaks_around_circle": 29.0,
+      "power": 2749.27,
+      "significance": "p<0.01"
+    },
+    {
+      "period_deg": 30.0,
+      "n_peaks_around_circle": 12.0,
+      "power": 2727.69,
+      "significance": "p<0.01"
+    }
+  ],
+  "significance_thresholds": {
+    "p05": 166.46184576418597,
+    "p01": 182.82702302224985
+  }
+}

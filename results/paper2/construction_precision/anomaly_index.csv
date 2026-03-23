@@ -1,0 +1,13 @@
+site,measurement_type,measured_value,unit,baseline_value,baseline_sigma,baseline_ref,CAI,interpretation,data_quality
+Great Pyramid — casing stones,surface_flatness,0.13,mm/m,2.0,0.5,Estimated: copper tools + stone rubbers on limestone,3.74,MORE precise than baseline,HIGH
+Great Pyramid — casing stones,joint_gap,0.5,mm,2.0,0.5,Estimated: copper-tool era achievable with trial fitting,3.0,MORE precise than baseline,HIGH
+Great Pyramid — casing stones,angular_accuracy,12.0,arc_sec,60.0,20.0,Estimated: ancient plumb/level/sight methods,2.4,MORE precise than baseline,HIGH
+Great Pyramid — descending passage (built section),surface_flatness,0.028,mm/m,2.0,0.5,Estimated: copper tools + stone rubbers on limestone,3.94,MORE precise than baseline,HIGH
+Great Pyramid — descending passage (built section),angular_accuracy,5.0,arc_sec,60.0,20.0,Estimated: ancient plumb/level/sight methods,2.75,MORE precise than baseline,HIGH
+Great Pyramid — King's Chamber walls,joint_gap,0.5,mm,2.0,0.5,Estimated: copper-tool era achievable with trial fitting,3.0,MORE precise than baseline,HIGH
+Great Pyramid — coffer,surface_flatness,0.53,mm/m,2.0,0.5,Estimated: copper tools + stone rubbers on limestone,2.94,MORE precise than baseline,HIGH
+Great Pyramid — base platform,surface_flatness,0.091,mm/m,2.0,0.5,Estimated: copper tools + stone rubbers on limestone,3.82,MORE precise than baseline,HIGH
+Great Pyramid — base platform,angular_accuracy,12.0,arc_sec,60.0,20.0,Estimated: ancient plumb/level/sight methods,2.4,MORE precise than baseline,HIGH
+Serapeum boxes,angular_accuracy,3960.0,arc_sec,60.0,20.0,Estimated: ancient plumb/level/sight methods,-195.0,LESS precise than baseline,LOW
+Serapeum boxes (Dunn claim),surface_flatness,0.0027,mm/m,2.0,0.5,Estimated: copper tools + stone rubbers on limestone,3.99,MORE precise than baseline,LOW
+Puma Punku H-blocks,surface_flatness,1.0,mm/m,3.0,1.0,Estimated: stone tool abrasion on limestone,2.0,MORE precise than baseline,MEDIUM

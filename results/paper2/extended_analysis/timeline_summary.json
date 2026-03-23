@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "analysis": "Timeline Visualization Data \u2014 Site Appearance Along the Great Circle",
+    "date": "2026-03-21",
+    "methodology": {
+      "threshold_km": 100,
+      "monte_carlo_trials": 200,
+      "great_circle_pole": {
+        "lat": 59.682122,
+        "lon": -138.646087
+      },
+      "sources": [
+        "p3k14c (C14 dates)",
+        "Pleiades (minDate field)"
+      ],
+      "dedup_method": "~1km grid, p3k14c priority",
+      "c14_calibration": "simplified IntCal20 piecewise linear approximation",
+      "note": "XRONOS sites excluded from temporal bins (no date in sites CSV)"
+    },
+    "total_sites": 780,
+    "periods": 9,
+    "optimized_for": "Mapbox GL / Cesium / Leaflet timeline plugin"
+  },
+  "periods": [
+    {
+      "label": "Pre-Younger Dryas (25,000\u201312,800 BP)",
+      "start_bp": 25000,
+      "end_bp": 12800,
+      "start_cal": -23050,
+      "end_cal": -10850,
+      "count": 10,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 10
+      },
+      "by_source": {
+        "p3k14c": 10,
+        "pleiades": 0
+      },
+      "enrichment": 0.01,
+      "z_score": -31.97,
+      "expected": 1009.95
+    },
+    {
+      "label": "Younger Dryas (12,800\u201311,600 BP)",
+      "start_bp": 12800,
+      "end_bp": 11600,
+      "start_cal": -10850,
+      "end_cal": -9650,
+      "count": 6,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 6
+      },
+      "by_source": {
+        "p3k14c": 5,
+        "pleiades": 1
+      },
+      "enrichment": 0.006,
+      "z_score": -33.3,
+      "expected": 1008.29
+    },
+    {
+      "label": "Early Holocene (11,600\u201310,000 BP)",
+      "start_bp": 11600,
+      "end_bp": 10000,
+      "start_cal": -9650,
+      "end_cal": -8050,
+      "count": 10,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 10
+      },
+      "by_source": {
+        "p3k14c": 10,
+        "pleiades": 0
+      },
+      "enrichment": 0.01,
+      "z_score": -29.7,
+      "expected": 1015.82
+    },
+    {
+      "label": "PPNB Era (10,000\u20138,000 BP)",
+      "start_bp": 10000,
+      "end_bp": 8000,
+      "start_cal": -8050,
+      "end_cal": -6050,
+      "count": 37,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 5,
+        "unknown": 32
+      },
+      "by_source": {
+        "p3k14c": 32,
+        "pleiades": 5
+      },
+      "enrichment": 0.037,
+      "z_score": -30.62,
+      "expected": 1010.6
+    },
+    {
+      "label": "Neolithic/Chalcolithic (8,000\u20135,000 BP)",
+      "start_bp": 8000,
+      "end_bp": 5000,
+      "start_cal": -6050,
+      "end_cal": -3050,
+      "count": 58,
+      "by_type": {
+        "monumental": 3,
+        "settlement": 8,
+        "unknown": 47
+      },
+      "by_source": {
+        "p3k14c": 48,
+        "pleiades": 10
+      },
+      "enrichment": 0.058,
+      "z_score": -30.22,
+      "expected": 1006.89
+    },
+    {
+      "label": "Bronze Age (5,000\u20133,000 BP)",
+      "start_bp": 5000,
+      "end_bp": 3000,
+      "start_cal": -3050,
+      "end_cal": -1050,
+      "count": 99,
+      "by_type": {
+        "monumental": 25,
+        "settlement": 19,
+        "unknown": 55
+      },
+      "by_source": {
+        "p3k14c": 57,
+        "pleiades": 42
+      },
+      "enrichment": 0.099,
+      "z_score": -29.07,
+      "expected": 1004.81
+    },
+    {
+      "label": "Iron Age (3,000\u20132,000 BP)",
+      "start_bp": 3000,
+      "end_bp": 2000,
+      "start_cal": -1050,
+      "end_cal": -50,
+      "count": 293,
+      "by_type": {
+        "monumental": 28,
+        "settlement": 143,
+        "unknown": 122
+      },
+      "by_source": {
+        "p3k14c": 29,
+        "pleiades": 264
+      },
+      "enrichment": 0.29,
+      "z_score": -23.04,
+      "expected": 1009.8
+    },
+    {
+      "label": "Classical/Medieval (2,000\u2013800 BP)",
+      "start_bp": 2000,
+      "end_bp": 800,
+      "start_cal": -50,
+      "end_cal": 1150,
+      "count": 209,
+      "by_type": {
+        "monumental": 29,
+        "settlement": 80,
+        "unknown": 100
+      },
+      "by_source": {
+        "p3k14c": 15,
+        "pleiades": 194
+      },
+      "enrichment": 0.207,
+      "z_score": -26.31,
+      "expected": 1008.34
+    },
+    {
+      "label": "Late (800\u2013300 BP)",
+      "start_bp": 800,
+      "end_bp": 300,
+      "start_cal": 1150,
+      "end_cal": 1650,
+      "count": 18,
+      "by_type": {
+        "monumental": 5,
+        "settlement": 2,
+        "unknown": 11
+      },
+      "by_source": {
+        "p3k14c": 17,
+        "pleiades": 1
+      },
+      "enrichment": 0.018,
+      "z_score": -31.99,
+      "expected": 1012.02
+    }
+  ],
+  "overall": {
+    "total_dated_sites_near_circle": 740,
+    "xronos_spatial_only": 464,
+    "peak_period": "Iron Age (3,000\u20132,000 BP)",
+    "highest_enrichment_period": "Iron Age (3,000\u20132,000 BP)"
+  }
+}

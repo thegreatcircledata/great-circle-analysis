@@ -1,0 +1,7669 @@
+{
+  "meta": {
+    "analysis": "Timeline Visualization Data \u2014 Site Appearance Along the Great Circle",
+    "date": "2026-03-21",
+    "methodology": {
+      "threshold_km": 100,
+      "monte_carlo_trials": 200,
+      "great_circle_pole": {
+        "lat": 59.682122,
+        "lon": -138.646087
+      },
+      "sources": [
+        "p3k14c (C14 dates)",
+        "Pleiades (minDate field)"
+      ],
+      "dedup_method": "~1km grid, p3k14c priority",
+      "c14_calibration": "simplified IntCal20 piecewise linear approximation",
+      "note": "XRONOS sites excluded from temporal bins (no date in sites CSV)"
+    },
+    "total_sites": 780,
+    "periods": 9,
+    "optimized_for": "Mapbox GL / Cesium / Leaflet timeline plugin"
+  },
+  "periods": [
+    {
+      "period_label": "Pre-Younger Dryas (25,000\u201312,800 BP)",
+      "start_bp": 25000,
+      "end_bp": 12800,
+      "start_cal": -23050,
+      "end_cal": -10850,
+      "sites": [
+        {
+          "lat": 29.83,
+          "lon": 35.48,
+          "name": "Judayid J 2",
+          "type": "unknown",
+          "arc_deg": 5.09,
+          "dist_km": 39.6,
+          "date_bp": 15002,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.93,
+          "lon": 35.3,
+          "name": "Tor Hamar",
+          "type": "unknown",
+          "arc_deg": 5.24,
+          "dist_km": 27.6,
+          "date_bp": 14882,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.03,
+          "lon": 35.36,
+          "name": "G. Mishraq J 504",
+          "type": "unknown",
+          "arc_deg": 5.19,
+          "dist_km": 16.8,
+          "date_bp": 13623,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.35,
+          "lon": 35.47,
+          "name": "Mdamagh",
+          "type": "unknown",
+          "arc_deg": 5.08,
+          "dist_km": 18.2,
+          "date_bp": 17895,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.5,
+          "lon": 34.58,
+          "name": "Rosh Horesha",
+          "type": "unknown",
+          "arc_deg": 5.83,
+          "dist_km": 39.6,
+          "date_bp": 15353,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.6608,
+          "lon": 35.4557,
+          "name": "Wadi Faynan 16",
+          "type": "unknown",
+          "arc_deg": 5.07,
+          "dist_km": 52.8,
+          "date_bp": 13450,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.82,
+          "lon": 34.82,
+          "name": "Ein Aqev (D31)",
+          "type": "unknown",
+          "arc_deg": 5.61,
+          "dist_km": 73.8,
+          "date_bp": 23277,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.84,
+          "lon": 34.78,
+          "name": "Zin D 5",
+          "type": "unknown",
+          "arc_deg": 5.64,
+          "dist_km": 76.2,
+          "date_bp": 21966,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.95,
+          "lon": 34.4,
+          "name": "Azariq 8",
+          "type": "unknown",
+          "arc_deg": 5.96,
+          "dist_km": 90.6,
+          "date_bp": 22955,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.95,
+          "lon": 34.58,
+          "name": "Shunera 21",
+          "type": "unknown",
+          "arc_deg": 5.81,
+          "dist_km": 89.5,
+          "date_bp": 14215,
+          "source": "p3k14c"
+        }
+      ],
+      "count": 10,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 10
+      },
+      "by_source": {
+        "p3k14c": 10,
+        "pleiades": 0
+      },
+      "enrichment": {
+        "observed": 10,
+        "expected": 1009.95,
+        "std": 31.28,
+        "enrichment": 0.01,
+        "z_score": -31.97,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Younger Dryas (12,800\u201311,600 BP)",
+      "start_bp": 12800,
+      "end_bp": 11600,
+      "start_cal": -10850,
+      "end_cal": -9650,
+      "sites": [
+        {
+          "lat": 30.37,
+          "lon": 35.45,
+          "name": "Beidha",
+          "type": "unknown",
+          "arc_deg": 5.09,
+          "dist_km": 20.5,
+          "date_bp": 12419,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.53,
+          "lon": 34.52,
+          "name": "Abu Salem G 12",
+          "type": "unknown",
+          "arc_deg": 5.88,
+          "dist_km": 43.3,
+          "date_bp": 12016,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.53,
+          "lon": 34.53,
+          "name": "Ramat Harif G 8",
+          "type": "unknown",
+          "arc_deg": 5.87,
+          "dist_km": 43.2,
+          "date_bp": 11960,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.56,
+          "lon": 34.68,
+          "name": "Maaleh Ramon East",
+          "type": "unknown",
+          "arc_deg": 5.74,
+          "dist_km": 45.7,
+          "date_bp": 11994,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.56,
+          "lon": 34.71,
+          "name": "Maaleh Ramon West",
+          "type": "unknown",
+          "arc_deg": 5.72,
+          "dist_km": 45.5,
+          "date_bp": 11848,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.32489,
+          "lon": 50.14261,
+          "name": "Chega Sofla",
+          "type": "unknown",
+          "arc_deg": 352.42,
+          "dist_km": 33.4,
+          "date_bp": 11950,
+          "source": "pleiades"
+        }
+      ],
+      "count": 6,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 6
+      },
+      "by_source": {
+        "p3k14c": 5,
+        "pleiades": 1
+      },
+      "enrichment": {
+        "observed": 6,
+        "expected": 1008.29,
+        "std": 30.1,
+        "enrichment": 0.006,
+        "z_score": -33.3,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Early Holocene (11,600\u201310,000 BP)",
+      "start_bp": 11600,
+      "end_bp": 10000,
+      "start_cal": -9650,
+      "end_cal": -8050,
+      "sites": [
+        {
+          "lat": -14.904,
+          "lon": -75.525,
+          "name": "El Abrigo",
+          "type": "unknown",
+          "arc_deg": 120.46,
+          "dist_km": 9.4,
+          "date_bp": 10095,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 19.0,
+          "lon": -12.83,
+          "name": "Oued Tidjikja",
+          "type": "unknown",
+          "arc_deg": 50.06,
+          "dist_km": 11.1,
+          "date_bp": 10986,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.65,
+          "lon": -4.02,
+          "name": "Agorgott",
+          "type": "unknown",
+          "arc_deg": 41.06,
+          "dist_km": 33.0,
+          "date_bp": 10414,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.67,
+          "lon": -3.68,
+          "name": "Telig MT30",
+          "type": "unknown",
+          "arc_deg": 40.76,
+          "dist_km": 22.5,
+          "date_bp": 10056,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.5,
+          "lon": 13.28,
+          "name": "Fezzan",
+          "type": "unknown",
+          "arc_deg": 24.91,
+          "dist_km": 85.6,
+          "date_bp": 10661,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5,
+          "lon": 25.08,
+          "name": "Shyiata",
+          "type": "unknown",
+          "arc_deg": 14.12,
+          "dist_km": 21.2,
+          "date_bp": 10075,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.83,
+          "lon": 26.17,
+          "name": "Siwa 7624",
+          "type": "unknown",
+          "arc_deg": 13.13,
+          "dist_km": 43.1,
+          "date_bp": 10414,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.91667,
+          "lon": 34.96667,
+          "name": "Issaron",
+          "type": "unknown",
+          "arc_deg": 5.53,
+          "dist_km": 27.3,
+          "date_bp": 10498,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.45,
+          "lon": 35.44,
+          "name": "Shkarat Msaied",
+          "type": "unknown",
+          "arc_deg": 5.1,
+          "dist_km": 29.4,
+          "date_bp": 10941,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.623,
+          "lon": 35.5061,
+          "name": "Ghwair",
+          "type": "unknown",
+          "arc_deg": 5.03,
+          "dist_km": 48.3,
+          "date_bp": 10006,
+          "source": "p3k14c"
+        }
+      ],
+      "count": 10,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 0,
+        "unknown": 10
+      },
+      "by_source": {
+        "p3k14c": 10,
+        "pleiades": 0
+      },
+      "enrichment": {
+        "observed": 10,
+        "expected": 1015.82,
+        "std": 33.87,
+        "enrichment": 0.01,
+        "z_score": -29.7,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "PPNB Era (10,000\u20138,000 BP)",
+      "start_bp": 10000,
+      "end_bp": 8000,
+      "start_cal": -8050,
+      "end_cal": -6050,
+      "sites": [
+        {
+          "lat": -8.86952,
+          "lon": -63.31322,
+          "name": "Cachoerinha-1 RO-PV-48",
+          "type": "unknown",
+          "arc_deg": 107.09,
+          "dist_km": 43.4,
+          "date_bp": 9418,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.85982,
+          "lon": -64.0259,
+          "name": "Vista Alegre I",
+          "type": "unknown",
+          "arc_deg": 107.7,
+          "dist_km": 4.3,
+          "date_bp": 9989,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.84357,
+          "lon": -63.97394,
+          "name": "Boa Vista",
+          "type": "unknown",
+          "arc_deg": 107.64,
+          "dist_km": 5.5,
+          "date_bp": 9294,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.80523,
+          "lon": -63.94863,
+          "name": "Ilha Santo Antonio",
+          "type": "unknown",
+          "arc_deg": 107.6,
+          "dist_km": 3.1,
+          "date_bp": 8481,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.6013,
+          "lon": -63.80669,
+          "name": "Garbin",
+          "type": "unknown",
+          "arc_deg": 107.38,
+          "dist_km": 9.1,
+          "date_bp": 8459,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 19.03,
+          "lon": -12.4,
+          "name": "Oued el Abid",
+          "type": "unknown",
+          "arc_deg": 49.68,
+          "dist_km": 4.3,
+          "date_bp": 9899,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 19.2,
+          "lon": -12.3,
+          "name": "Mermadha",
+          "type": "unknown",
+          "arc_deg": 49.52,
+          "dist_km": 8.6,
+          "date_bp": 8254,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.0,
+          "lon": -2.58,
+          "name": "Khnachich",
+          "type": "unknown",
+          "arc_deg": 40.04,
+          "dist_km": 87.2,
+          "date_bp": 9765,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.57,
+          "lon": -3.67,
+          "name": "Oued Haijad",
+          "type": "unknown",
+          "arc_deg": 40.79,
+          "dist_km": 11.8,
+          "date_bp": 9496,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.88,
+          "lon": -4.43,
+          "name": "Sbeita MT27",
+          "type": "unknown",
+          "arc_deg": 41.33,
+          "dist_km": 72.0,
+          "date_bp": 9944,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 23.0,
+          "lon": -4.5,
+          "name": "Oum el Assel",
+          "type": "unknown",
+          "arc_deg": 41.34,
+          "dist_km": 87.0,
+          "date_bp": 8308,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.45,
+          "lon": 23.05,
+          "name": "Cyrenaique",
+          "type": "unknown",
+          "arc_deg": 16.03,
+          "dist_km": 64.6,
+          "date_bp": 9922,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.83,
+          "lon": 26.17,
+          "name": "El Arag",
+          "type": "unknown",
+          "arc_deg": 13.27,
+          "dist_km": 67.1,
+          "date_bp": 8718,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.33,
+          "lon": 30.5,
+          "name": "Fayum FS2",
+          "type": "unknown",
+          "arc_deg": 9.45,
+          "dist_km": 59.7,
+          "date_bp": 9406,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.33,
+          "lon": 30.67,
+          "name": "Qasr el Sagha V",
+          "type": "unknown",
+          "arc_deg": 9.3,
+          "dist_km": 61.2,
+          "date_bp": 8459,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.42,
+          "lon": 25.83,
+          "name": "Hatiet Um El Hiyus",
+          "type": "unknown",
+          "arc_deg": 13.48,
+          "dist_km": 2.4,
+          "date_bp": 9798,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5,
+          "lon": 30.5,
+          "name": "Fayoum",
+          "type": "unknown",
+          "arc_deg": 9.43,
+          "dist_km": 40.9,
+          "date_bp": 9272,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5619,
+          "lon": 35.4053,
+          "name": "Ain Abu Nukhayla",
+          "type": "unknown",
+          "arc_deg": 5.17,
+          "dist_km": 69.0,
+          "date_bp": 9860,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.63,
+          "lon": 26.5,
+          "name": "Siwa 7530",
+          "type": "unknown",
+          "arc_deg": 12.88,
+          "dist_km": 16.9,
+          "date_bp": 8524,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.85451,
+          "lon": 52.93855,
+          "name": "Mushki",
+          "type": "unknown",
+          "arc_deg": 349.97,
+          "dist_km": 5.3,
+          "date_bp": 9877,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.95,
+          "lon": 34.67,
+          "name": "Uvda 9",
+          "type": "unknown",
+          "arc_deg": 5.79,
+          "dist_km": 22.0,
+          "date_bp": 8697,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.9628,
+          "lon": 34.9759,
+          "name": "Nahal Reu'el",
+          "type": "unknown",
+          "arc_deg": 5.52,
+          "dist_km": 22.2,
+          "date_bp": 9910,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.0203,
+          "lon": 35.4686,
+          "name": "'Ain Jammam",
+          "type": "unknown",
+          "arc_deg": 5.09,
+          "dist_km": 18.4,
+          "date_bp": 9742,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.10972,
+          "lon": 53.04722,
+          "name": "Rahmatabad",
+          "type": "unknown",
+          "arc_deg": 349.9,
+          "dist_km": 34.6,
+          "date_bp": 9462,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.2,
+          "lon": 53.1794,
+          "name": "Pasargades",
+          "type": "unknown",
+          "arc_deg": 349.8,
+          "dist_km": 45.9,
+          "date_bp": 8681,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.2275,
+          "lon": 35.5333,
+          "name": "Basta",
+          "type": "unknown",
+          "arc_deg": 5.03,
+          "dist_km": 4.3,
+          "date_bp": 9647,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.41,
+          "lon": 35.46,
+          "name": "Ba\u00b4ja",
+          "type": "unknown",
+          "arc_deg": 5.08,
+          "dist_km": 24.9,
+          "date_bp": 9272,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.5085,
+          "lon": 35.9714,
+          "name": "Wadi Abu Tulayha",
+          "type": "unknown",
+          "arc_deg": 4.64,
+          "dist_km": 33.4,
+          "date_bp": 9680,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.62,
+          "lon": 34.4,
+          "name": "Qadesh Barnea 3",
+          "type": "unknown",
+          "arc_deg": 5.98,
+          "dist_km": 54.0,
+          "date_bp": 8232,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.8572,
+          "lon": 32.0194,
+          "name": "Minshat Abu Omar",
+          "type": "unknown",
+          "arc_deg": 8.0,
+          "dist_km": 96.5,
+          "date_bp": 8540,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.93,
+          "lon": 35.32,
+          "name": "Mezad Mazal",
+          "type": "unknown",
+          "arc_deg": 5.17,
+          "dist_km": 83.3,
+          "date_bp": 9698,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.9842,
+          "lon": 35.6658,
+          "name": "Khirbet Hammam",
+          "type": "unknown",
+          "arc_deg": 4.87,
+          "dist_km": 87.7,
+          "date_bp": 9653,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.63635,
+          "lon": 47.95522,
+          "name": "Bahra 1",
+          "type": "settlement",
+          "arc_deg": 354.27,
+          "dist_km": 57.2,
+          "date_bp": 8450,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.78405,
+          "lon": 56.75898,
+          "name": "Tal-i-iblis",
+          "type": "settlement",
+          "arc_deg": 346.67,
+          "dist_km": 40.9,
+          "date_bp": 8150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.81999,
+          "lon": 45.99564,
+          "name": "Eridu",
+          "type": "settlement",
+          "arc_deg": 356.01,
+          "dist_km": 64.9,
+          "date_bp": 8450,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.86275,
+          "lon": 46.15753,
+          "name": "Tall Marjab",
+          "type": "settlement",
+          "arc_deg": 355.88,
+          "dist_km": 70.3,
+          "date_bp": 8450,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.96132,
+          "lon": 46.10542,
+          "name": "Ur(i)",
+          "type": "settlement",
+          "arc_deg": 355.93,
+          "dist_km": 81.0,
+          "date_bp": 8150,
+          "source": "pleiades"
+        }
+      ],
+      "count": 37,
+      "by_type": {
+        "monumental": 0,
+        "settlement": 5,
+        "unknown": 32
+      },
+      "by_source": {
+        "p3k14c": 32,
+        "pleiades": 5
+      },
+      "enrichment": {
+        "observed": 37,
+        "expected": 1010.6,
+        "std": 31.79,
+        "enrichment": 0.037,
+        "z_score": -30.62,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Neolithic/Chalcolithic (8,000\u20135,000 BP)",
+      "start_bp": 8000,
+      "end_bp": 5000,
+      "start_cal": -6050,
+      "end_cal": -3050,
+      "sites": [
+        {
+          "lat": -15.13,
+          "lon": -75.13,
+          "name": "San Nicolas Bahia",
+          "type": "unknown",
+          "arc_deg": 120.22,
+          "dist_km": 51.0,
+          "date_bp": 6105,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.867,
+          "lon": -75.567,
+          "name": "Boca Rio Ica/La Yerba",
+          "type": "unknown",
+          "arc_deg": 120.48,
+          "dist_km": 3.7,
+          "date_bp": 7023,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.49227,
+          "lon": -75.21591,
+          "name": "Pernil Alto PAP-266",
+          "type": "unknown",
+          "arc_deg": 120.01,
+          "dist_km": 16.4,
+          "date_bp": 5509,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.49,
+          "lon": -75.07,
+          "name": "Cahuachi CAH88",
+          "type": "monumental",
+          "arc_deg": 119.88,
+          "dist_km": 9.6,
+          "date_bp": 6099,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.93608,
+          "lon": -67.50418,
+          "name": "Jaco Sa",
+          "type": "unknown",
+          "arc_deg": 111.22,
+          "dist_km": 75.0,
+          "date_bp": 7643,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.87351,
+          "lon": -67.53408,
+          "name": "Fazenda Colorada",
+          "type": "unknown",
+          "arc_deg": 111.22,
+          "dist_km": 82.6,
+          "date_bp": 6321,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.83042,
+          "lon": -63.37477,
+          "name": "SitioNN_Fase_Jamari",
+          "type": "unknown",
+          "arc_deg": 107.12,
+          "dist_km": 36.3,
+          "date_bp": 5727,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -7.52344,
+          "lon": -60.68718,
+          "name": "Nova Olinda AM-NA-14",
+          "type": "unknown",
+          "arc_deg": 104.16,
+          "dist_km": 54.9,
+          "date_bp": 5263,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -4.59513,
+          "lon": -56.32805,
+          "name": "Sambaqui de Urua",
+          "type": "unknown",
+          "arc_deg": 98.94,
+          "dist_km": 12.1,
+          "date_bp": 6116,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -2.46911,
+          "lon": -54.28131,
+          "name": "Taperinha",
+          "type": "unknown",
+          "arc_deg": 96.11,
+          "dist_km": 78.6,
+          "date_bp": 7757,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 17.72,
+          "lon": -16.05,
+          "name": "Jioua",
+          "type": "unknown",
+          "arc_deg": 53.37,
+          "dist_km": 23.6,
+          "date_bp": 6537,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.03,
+          "lon": -15.93,
+          "name": "Nouakchott KN2",
+          "type": "unknown",
+          "arc_deg": 53.14,
+          "dist_km": 49.4,
+          "date_bp": 5932,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.3,
+          "lon": -15.67,
+          "name": "Hassee Gaboun",
+          "type": "unknown",
+          "arc_deg": 52.8,
+          "dist_km": 64.9,
+          "date_bp": 6742,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.5,
+          "lon": -15.58,
+          "name": "Areicht 24",
+          "type": "unknown",
+          "arc_deg": 52.64,
+          "dist_km": 81.1,
+          "date_bp": 5586,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.6,
+          "lon": -15.77,
+          "name": "Ndramcha",
+          "type": "unknown",
+          "arc_deg": 52.76,
+          "dist_km": 99.6,
+          "date_bp": 6580,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.6,
+          "lon": -4.75,
+          "name": "Teghazza",
+          "type": "unknown",
+          "arc_deg": 41.7,
+          "dist_km": 54.9,
+          "date_bp": 6634,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 23.13,
+          "lon": -2.21,
+          "name": "Knachich",
+          "type": "unknown",
+          "arc_deg": 39.33,
+          "dist_km": 17.3,
+          "date_bp": 7962,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 25.0,
+          "lon": 4.3,
+          "name": "Meniet",
+          "type": "unknown",
+          "arc_deg": 33.1,
+          "dist_km": 1.9,
+          "date_bp": 5943,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 25.32,
+          "lon": 6.83,
+          "name": "Erg Tihodaene",
+          "type": "unknown",
+          "arc_deg": 30.82,
+          "dist_km": 43.1,
+          "date_bp": 6591,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 25.37,
+          "lon": 6.85,
+          "name": "Tihodaene",
+          "type": "unknown",
+          "arc_deg": 30.79,
+          "dist_km": 38.3,
+          "date_bp": 7520,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 25.4,
+          "lon": 8.42,
+          "name": "Iherir",
+          "type": "unknown",
+          "arc_deg": 29.42,
+          "dist_km": 79.3,
+          "date_bp": 7800,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.5,
+          "lon": 8.5,
+          "name": "Bordj Tan Kena",
+          "type": "unknown",
+          "arc_deg": 29.05,
+          "dist_km": 36.1,
+          "date_bp": 6548,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 27.5,
+          "lon": 13.5,
+          "name": "Hatia",
+          "type": "unknown",
+          "arc_deg": 24.48,
+          "dist_km": 17.3,
+          "date_bp": 6040,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.0,
+          "lon": 15.33,
+          "name": "Serire lGattusa",
+          "type": "unknown",
+          "arc_deg": 22.79,
+          "dist_km": 30.2,
+          "date_bp": 6240,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.67,
+          "lon": 26.67,
+          "name": "Sitra",
+          "type": "unknown",
+          "arc_deg": 12.85,
+          "dist_km": 91.1,
+          "date_bp": 7401,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.0856,
+          "lon": 30.9344,
+          "name": "Unlabelled grave southwestern Fayum",
+          "type": "unknown",
+          "arc_deg": 9.09,
+          "dist_km": 90.7,
+          "date_bp": 5295,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.33,
+          "lon": 25.17,
+          "name": "Siwa",
+          "type": "unknown",
+          "arc_deg": 14.06,
+          "dist_km": 1.3,
+          "date_bp": 7413,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.3882,
+          "lon": 31.1569,
+          "name": "Meydum Sneferu Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.87,
+          "dist_km": 59.1,
+          "date_bp": 5097,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.55,
+          "lon": 34.95,
+          "name": "Eilat",
+          "type": "unknown",
+          "arc_deg": 5.57,
+          "dist_km": 67.9,
+          "date_bp": 6947,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.57,
+          "lon": 35.02,
+          "name": "Al-Magass",
+          "type": "unknown",
+          "arc_deg": 5.51,
+          "dist_km": 66.1,
+          "date_bp": 5937,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.57,
+          "lon": 35.03,
+          "name": "Hujayrat al-Ghuzlan",
+          "type": "unknown",
+          "arc_deg": 5.5,
+          "dist_km": 66.1,
+          "date_bp": 5959,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5923,
+          "lon": 30.8887,
+          "name": "Upper K",
+          "type": "unknown",
+          "arc_deg": 9.09,
+          "dist_km": 34.2,
+          "date_bp": 7002,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.72,
+          "lon": 52.92,
+          "name": "Gap A",
+          "type": "unknown",
+          "arc_deg": 349.97,
+          "dist_km": 9.8,
+          "date_bp": 6440,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.78,
+          "lon": 52.9,
+          "name": "Mushki",
+          "type": "unknown",
+          "arc_deg": 350.0,
+          "dist_km": 3.3,
+          "date_bp": 7444,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8401,
+          "lon": 52.94206,
+          "name": "Tall-i Jari B",
+          "type": "unknown",
+          "arc_deg": 349.97,
+          "dist_km": 3.7,
+          "date_bp": 7981,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8833,
+          "lon": 31.3333,
+          "name": "El Omari",
+          "type": "unknown",
+          "arc_deg": 8.68,
+          "dist_km": 5.8,
+          "date_bp": 5776,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.91306,
+          "lon": 52.8884,
+          "name": "Tall-i Bakun B",
+          "type": "unknown",
+          "arc_deg": 350.02,
+          "dist_km": 11.3,
+          "date_bp": 6846,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.92,
+          "lon": 34.92,
+          "name": "Uvda",
+          "type": "unknown",
+          "arc_deg": 5.57,
+          "dist_km": 26.7,
+          "date_bp": 5090,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.9732,
+          "lon": 31.1328,
+          "name": "Giza plateau",
+          "type": "unknown",
+          "arc_deg": 8.84,
+          "dist_km": 5.9,
+          "date_bp": 5038,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.0166,
+          "lon": 31.2166,
+          "name": "Giza",
+          "type": "unknown",
+          "arc_deg": 8.77,
+          "dist_km": 10.0,
+          "date_bp": 5522,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.08,
+          "lon": 52.59,
+          "name": "Tol-e Ba\u0161i",
+          "type": "unknown",
+          "arc_deg": 350.29,
+          "dist_km": 26.9,
+          "date_bp": 7966,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.1166,
+          "lon": 51.5,
+          "name": "Tol-e Nurabad",
+          "type": "unknown",
+          "arc_deg": 351.24,
+          "dist_km": 21.1,
+          "date_bp": 7635,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.16,
+          "lon": 56.84,
+          "name": "Iblis",
+          "type": "unknown",
+          "arc_deg": 346.65,
+          "dist_km": 83.4,
+          "date_bp": 6800,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.3011,
+          "lon": 30.8403,
+          "name": "Merimde Beni Salame",
+          "type": "unknown",
+          "arc_deg": 9.06,
+          "dist_km": 44.8,
+          "date_bp": 6672,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.33,
+          "lon": 53.16,
+          "name": "Tell-i-Nokodi",
+          "type": "unknown",
+          "arc_deg": 349.83,
+          "dist_km": 60.1,
+          "date_bp": 5554,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.5,
+          "lon": 34.54,
+          "name": "Har Harif 3",
+          "type": "unknown",
+          "arc_deg": 5.87,
+          "dist_km": 39.8,
+          "date_bp": 6537,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.62361,
+          "lon": 35.46458,
+          "name": "Tell Wadi Feinan",
+          "type": "unknown",
+          "arc_deg": 5.07,
+          "dist_km": 48.6,
+          "date_bp": 7023,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.93,
+          "lon": 34.43,
+          "name": "Shluhat Qeren 2",
+          "type": "unknown",
+          "arc_deg": 5.94,
+          "dist_km": 88.2,
+          "date_bp": 7379,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.93148,
+          "lon": 53.64265,
+          "name": "Tell-i Zohak/Pasa?/Bashiyan?",
+          "type": "settlement",
+          "arc_deg": 349.26,
+          "dist_km": 89.7,
+          "date_bp": 6950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.24298,
+          "lon": 50.3145,
+          "name": "Arakia (island)",
+          "type": "unknown",
+          "arc_deg": 352.19,
+          "dist_km": 85.3,
+          "date_bp": 5150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.9668,
+          "lon": 31.27622,
+          "name": "Maadi",
+          "type": "settlement",
+          "arc_deg": 8.72,
+          "dist_km": 3.9,
+          "date_bp": 6450,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.00322,
+          "lon": 52.41036,
+          "name": "Tal-i Malyan/[Anzan]",
+          "type": "settlement",
+          "arc_deg": 350.44,
+          "dist_km": 16.7,
+          "date_bp": 5950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.1294,
+          "lon": 31.30748,
+          "name": "Heliopolis",
+          "type": "monumental",
+          "arc_deg": 8.68,
+          "dist_km": 21.7,
+          "date_bp": 7950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.16128,
+          "lon": 35.494,
+          "name": "Zodacatha",
+          "type": "settlement",
+          "arc_deg": 5.06,
+          "dist_km": 2.9,
+          "date_bp": 5250,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.3163,
+          "lon": 30.8499,
+          "name": "Merimde",
+          "type": "settlement",
+          "arc_deg": 9.05,
+          "dist_km": 46.3,
+          "date_bp": 7950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.77115,
+          "lon": 34.57448,
+          "name": "Be'er Resisim",
+          "type": "settlement",
+          "arc_deg": 5.82,
+          "dist_km": 69.7,
+          "date_bp": 5250,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.85302,
+          "lon": 31.76558,
+          "name": "Tell el-Iswid",
+          "type": "settlement",
+          "arc_deg": 8.22,
+          "dist_km": 98.1,
+          "date_bp": 6450,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.97225,
+          "lon": 46.03051,
+          "name": "Tell al-Ubaid",
+          "type": "settlement",
+          "arc_deg": 355.99,
+          "dist_km": 81.9,
+          "date_bp": 5950,
+          "source": "pleiades"
+        }
+      ],
+      "count": 58,
+      "by_type": {
+        "monumental": 3,
+        "settlement": 8,
+        "unknown": 47
+      },
+      "by_source": {
+        "p3k14c": 48,
+        "pleiades": 10
+      },
+      "enrichment": {
+        "observed": 58,
+        "expected": 1006.89,
+        "std": 31.4,
+        "enrichment": 0.058,
+        "z_score": -30.22,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Bronze Age (5,000\u20133,000 BP)",
+      "start_bp": 5000,
+      "end_bp": 3000,
+      "start_cal": -3050,
+      "end_cal": -1050,
+      "sites": [
+        {
+          "lat": -14.27,
+          "lon": -75.4,
+          "name": "Erizo",
+          "type": "unknown",
+          "arc_deg": 120.07,
+          "dist_km": 47.4,
+          "date_bp": 4134,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.1,
+          "lon": -75.7,
+          "name": "Ica",
+          "type": "unknown",
+          "arc_deg": 120.25,
+          "dist_km": 78.9,
+          "date_bp": 3982,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.66174,
+          "lon": -73.38621,
+          "name": "Waywaka",
+          "type": "unknown",
+          "arc_deg": 118.05,
+          "dist_km": 8.9,
+          "date_bp": 3778,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.32,
+          "lon": -71.57,
+          "name": "Marcavalle",
+          "type": "unknown",
+          "arc_deg": 116.33,
+          "dist_km": 48.1,
+          "date_bp": 3112,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.3,
+          "lon": -74.15,
+          "name": "Pikimachay",
+          "type": "unknown",
+          "arc_deg": 118.55,
+          "dist_km": 82.4,
+          "date_bp": 4092,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.28,
+          "lon": -72.01,
+          "name": "Chanapata",
+          "type": "unknown",
+          "arc_deg": 116.69,
+          "dist_km": 22.0,
+          "date_bp": 3546,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -10.114,
+          "lon": -67.36,
+          "name": "Ramal do Capatar\u00e1",
+          "type": "unknown",
+          "arc_deg": 111.18,
+          "dist_km": 50.0,
+          "date_bp": 3526,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.549,
+          "lon": -67.256,
+          "name": "Severino Calazans",
+          "type": "unknown",
+          "arc_deg": 110.82,
+          "dist_km": 99.8,
+          "date_bp": 4240,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.86492,
+          "lon": -64.05996,
+          "name": "Teotonio RO-JP-1",
+          "type": "unknown",
+          "arc_deg": 107.73,
+          "dist_km": 2.9,
+          "date_bp": 3378,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -4.18972,
+          "lon": -55.46697,
+          "name": "Agua Azul",
+          "type": "unknown",
+          "arc_deg": 98.0,
+          "dist_km": 20.9,
+          "date_bp": 3074,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -2.83189,
+          "lon": -55.22942,
+          "name": "Lago do Jacare PA00795",
+          "type": "unknown",
+          "arc_deg": 97.11,
+          "dist_km": 96.6,
+          "date_bp": 4040,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -0.62692,
+          "lon": -49.53672,
+          "name": "PA-JO-26",
+          "type": "unknown",
+          "arc_deg": 91.09,
+          "dist_km": 10.2,
+          "date_bp": 3126,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 15.21214,
+          "lon": 102.27563,
+          "name": "Ban Lum Khao",
+          "type": "unknown",
+          "arc_deg": 302.5,
+          "dist_km": 65.2,
+          "date_bp": 3321,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 16.80942,
+          "lon": 102.32991,
+          "name": "Non Nok Tha",
+          "type": "unknown",
+          "arc_deg": 303.16,
+          "dist_km": 96.8,
+          "date_bp": 3262,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.08,
+          "lon": -15.67,
+          "name": "Aftout Targue",
+          "type": "unknown",
+          "arc_deg": 52.89,
+          "dist_km": 42.8,
+          "date_bp": 3620,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.57,
+          "lon": 12.65,
+          "name": "Wadi Trowan",
+          "type": "unknown",
+          "arc_deg": 25.44,
+          "dist_km": 63.0,
+          "date_bp": 4014,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.92,
+          "lon": 14.92,
+          "name": "Sebha ESE",
+          "type": "unknown",
+          "arc_deg": 23.39,
+          "dist_km": 77.8,
+          "date_bp": 4413,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 27.5,
+          "lon": 14.0,
+          "name": "Wadi Shati",
+          "type": "unknown",
+          "arc_deg": 24.05,
+          "dist_km": 5.8,
+          "date_bp": 4870,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 27.58,
+          "lon": 14.35,
+          "name": "Wadi Hmuda",
+          "type": "unknown",
+          "arc_deg": 23.73,
+          "dist_km": 6.5,
+          "date_bp": 4764,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.72,
+          "lon": 21.0,
+          "name": "Sirte Basin",
+          "type": "unknown",
+          "arc_deg": 17.76,
+          "dist_km": 1.6,
+          "date_bp": 4427,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.1333,
+          "lon": 30.9,
+          "name": "Sedment",
+          "type": "unknown",
+          "arc_deg": 9.12,
+          "dist_km": 85.1,
+          "date_bp": 4101,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.2,
+          "lon": 30.95,
+          "name": "Gurob tomb 23",
+          "type": "monumental",
+          "arc_deg": 9.07,
+          "dist_km": 78.1,
+          "date_bp": 3419,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.2074,
+          "lon": 30.978,
+          "name": "Illahun [2]",
+          "type": "monumental",
+          "arc_deg": 9.05,
+          "dist_km": 77.6,
+          "date_bp": 3894,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.2333,
+          "lon": 30.0666,
+          "name": "Karnak Tempe",
+          "type": "unknown",
+          "arc_deg": 9.83,
+          "dist_km": 66.3,
+          "date_bp": 4609,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.2361,
+          "lon": 30.9707,
+          "name": "Illahun [1]",
+          "type": "monumental",
+          "arc_deg": 9.05,
+          "dist_km": 74.3,
+          "date_bp": 3779,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.24,
+          "lon": 34.02,
+          "name": "Site 650",
+          "type": "unknown",
+          "arc_deg": 6.4,
+          "dist_km": 96.9,
+          "date_bp": 4698,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5083,
+          "lon": 31.2167,
+          "name": "Tarkhan tomb 2050",
+          "type": "monumental",
+          "arc_deg": 8.81,
+          "dist_km": 46.3,
+          "date_bp": 4657,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.51,
+          "lon": 31.2,
+          "name": "Kafr Ammar tomp 1060",
+          "type": "unknown",
+          "arc_deg": 8.83,
+          "dist_km": 46.0,
+          "date_bp": 4664,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5842,
+          "lon": 30.8344,
+          "name": "E29H1 [aka E29H1 (L Basin)]",
+          "type": "unknown",
+          "arc_deg": 9.14,
+          "dist_km": 34.6,
+          "date_bp": 3254,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.5925,
+          "lon": 30.6758,
+          "name": "Qasr El Sagha VIIC/80",
+          "type": "unknown",
+          "arc_deg": 9.27,
+          "dist_km": 32.2,
+          "date_bp": 4134,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.6666,
+          "lon": 31.2166,
+          "name": "Saqqara",
+          "type": "unknown",
+          "arc_deg": 8.8,
+          "dist_km": 28.8,
+          "date_bp": 4408,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.7738,
+          "lon": 31.2169,
+          "name": "Saqqara",
+          "type": "unknown",
+          "arc_deg": 8.79,
+          "dist_km": 16.9,
+          "date_bp": 4796,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.78778,
+          "lon": 34.98889,
+          "name": "Timma Mines Site F2",
+          "type": "settlement",
+          "arc_deg": 5.52,
+          "dist_km": 41.7,
+          "date_bp": 3121,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8083,
+          "lon": 31.2058,
+          "name": "Dahshur",
+          "type": "unknown",
+          "arc_deg": 8.79,
+          "dist_km": 13.0,
+          "date_bp": 3872,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8189,
+          "lon": 31.2254,
+          "name": "Dahshur Senusret III boat pit",
+          "type": "settlement",
+          "arc_deg": 8.78,
+          "dist_km": 12.0,
+          "date_bp": 3988,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8388,
+          "lon": 31.215,
+          "name": "Saqqara (South) Shepseskaf Mortuary Temple",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 9.7,
+          "date_bp": 4585,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.85,
+          "lon": 31.2167,
+          "name": "Saqqara [1]",
+          "type": "unknown",
+          "arc_deg": 8.78,
+          "dist_km": 8.5,
+          "date_bp": 4213,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.85,
+          "lon": 31.2333,
+          "name": "Saqqara",
+          "type": "unknown",
+          "arc_deg": 8.77,
+          "dist_km": 8.6,
+          "date_bp": 4324,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8661,
+          "lon": 31.217,
+          "name": "Saqqara Horemheb Tomb",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 6.7,
+          "date_bp": 4628,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8752,
+          "lon": 31.2218,
+          "name": "Saqqara Teti Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.77,
+          "dist_km": 5.7,
+          "date_bp": 4161,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8956,
+          "lon": 35.0601,
+          "name": "Yotvata Hill",
+          "type": "unknown",
+          "arc_deg": 5.45,
+          "dist_km": 30.2,
+          "date_bp": 4932,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8963,
+          "lon": 31.2226,
+          "name": "Abusir",
+          "type": "unknown",
+          "arc_deg": 8.77,
+          "dist_km": 3.4,
+          "date_bp": 4523,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.8966,
+          "lon": 31.2045,
+          "name": "Abusir Ptahshepses Mastaba",
+          "type": "unknown",
+          "arc_deg": 8.79,
+          "dist_km": 3.2,
+          "date_bp": 3504,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.94865,
+          "lon": 35.46375,
+          "name": "Tor Sabiha J8",
+          "type": "unknown",
+          "arc_deg": 5.1,
+          "dist_km": 26.3,
+          "date_bp": 4292,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.9757,
+          "lon": 31.1305,
+          "name": "Giza Khafre Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.84,
+          "dist_km": 6.2,
+          "date_bp": 4596,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.9791,
+          "lon": 31.149,
+          "name": "Tuna El Gebel",
+          "type": "unknown",
+          "arc_deg": 8.83,
+          "dist_km": 6.4,
+          "date_bp": 3578,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.0,
+          "lon": 31.0,
+          "name": "Undefined site southwest of Cairo",
+          "type": "unknown",
+          "arc_deg": 8.95,
+          "dist_km": 10.0,
+          "date_bp": 3526,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.01167,
+          "lon": 52.40778,
+          "name": "Tall-i-Malyan",
+          "type": "unknown",
+          "arc_deg": 350.44,
+          "dist_km": 17.6,
+          "date_bp": 4638,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.0321,
+          "lon": 31.0749,
+          "name": "Abu Roash Djedefre Pyramid Temple",
+          "type": "monumental",
+          "arc_deg": 8.89,
+          "dist_km": 12.9,
+          "date_bp": 4299,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.03789,
+          "lon": 31.24121,
+          "name": "Zagreb mummy",
+          "type": "unknown",
+          "arc_deg": 8.74,
+          "dist_km": 12.1,
+          "date_bp": 3210,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.53179,
+          "lon": 34.48771,
+          "name": "Horvat Haluqim",
+          "type": "unknown",
+          "arc_deg": 5.91,
+          "dist_km": 43.7,
+          "date_bp": 3452,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.61,
+          "lon": 33.38,
+          "name": "Mushabi 103",
+          "type": "unknown",
+          "arc_deg": 6.86,
+          "dist_km": 59.2,
+          "date_bp": 4040,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.64805,
+          "lon": 34.42261,
+          "name": "Tell el-Qudeirat",
+          "type": "unknown",
+          "arc_deg": 5.96,
+          "dist_km": 56.9,
+          "date_bp": 3126,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.68056,
+          "lon": 35.43611,
+          "name": "Khirbet en-Nahas",
+          "type": "unknown",
+          "arc_deg": 5.09,
+          "dist_km": 55.1,
+          "date_bp": 3116,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.78,
+          "lon": 33.5,
+          "name": "Ain Abu Rugum 1",
+          "type": "unknown",
+          "arc_deg": 6.74,
+          "dist_km": 77.3,
+          "date_bp": 4439,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.7861,
+          "lon": 31.8227,
+          "name": "Tell el Daba",
+          "type": "unknown",
+          "arc_deg": 8.18,
+          "dist_km": 90.2,
+          "date_bp": 3818,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.9625,
+          "lon": 46.1031,
+          "name": "Ur",
+          "type": "unknown",
+          "arc_deg": 355.93,
+          "dist_km": 81.1,
+          "date_bp": 4282,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 27.32541,
+          "lon": 68.13774,
+          "name": "Moenjodaro",
+          "type": "settlement",
+          "arc_deg": 336.4,
+          "dist_km": 26.1,
+          "date_bp": 4950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.45412,
+          "lon": 57.7788,
+          "name": "Kon\u0101r Sandal",
+          "type": "unknown",
+          "arc_deg": 345.6,
+          "dist_km": 91.8,
+          "date_bp": 4950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.1156,
+          "lon": 58.36895,
+          "name": "Bam",
+          "type": "settlement",
+          "arc_deg": 345.19,
+          "dist_km": 10.7,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23602,
+          "lon": 30.98329,
+          "name": "el-Lahun",
+          "type": "monumental",
+          "arc_deg": 9.04,
+          "dist_km": 74.4,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.37397,
+          "lon": 30.74327,
+          "name": "Fayyum (oasis)",
+          "type": "unknown",
+          "arc_deg": 9.23,
+          "dist_km": 57.0,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.38258,
+          "lon": 31.05352,
+          "name": "Seila Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.96,
+          "dist_km": 58.8,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.39257,
+          "lon": 31.04201,
+          "name": "Fag el-Gamous Cemetery",
+          "type": "unknown",
+          "arc_deg": 8.97,
+          "dist_km": 57.6,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.56018,
+          "lon": 31.22116,
+          "name": "Pyramid of Senusret I",
+          "type": "monumental",
+          "arc_deg": 8.8,
+          "dist_km": 40.6,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.57484,
+          "lon": 31.2253,
+          "name": "Pyramid of Amenemhat I",
+          "type": "monumental",
+          "arc_deg": 8.8,
+          "dist_km": 39.0,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.59048,
+          "lon": 52.57565,
+          "name": "Qasr-i Abu Nasr/Seraz/Tirazzish?/Shiraz(zish)?",
+          "type": "settlement",
+          "arc_deg": 350.26,
+          "dist_km": 27.4,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.59507,
+          "lon": 30.67789,
+          "name": "Qasr el-Sagha temple",
+          "type": "monumental",
+          "arc_deg": 9.27,
+          "dist_km": 32.0,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.76795,
+          "lon": 34.95638,
+          "name": "Hathor Temple, Timna Valley",
+          "type": "monumental",
+          "arc_deg": 5.55,
+          "dist_km": 43.8,
+          "date_bp": 3950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.78184,
+          "lon": 31.22163,
+          "name": "Pyramid of Ameny Qemau",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 16.1,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.79024,
+          "lon": 31.20947,
+          "name": "Bent Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.79,
+          "dist_km": 15.0,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.79986,
+          "lon": 31.2167,
+          "name": "Takyris",
+          "type": "unknown",
+          "arc_deg": 8.79,
+          "dist_km": 14.0,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.80585,
+          "lon": 31.22385,
+          "name": "White Pyramid",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 13.4,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.8323,
+          "lon": 31.22392,
+          "name": "Pyramid of Khendjer",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 10.5,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.84949,
+          "lon": 31.25506,
+          "name": "Memphis",
+          "type": "settlement",
+          "arc_deg": 8.75,
+          "dist_km": 8.9,
+          "date_bp": 4900,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.86238,
+          "lon": 31.21935,
+          "name": "Saqqarah",
+          "type": "unknown",
+          "arc_deg": 8.78,
+          "dist_km": 7.1,
+          "date_bp": 4900,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.86615,
+          "lon": 31.21363,
+          "name": "Pyramid of Sekhemkhet",
+          "type": "monumental",
+          "arc_deg": 8.78,
+          "dist_km": 6.7,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.88323,
+          "lon": 31.20974,
+          "name": "Abusir South",
+          "type": "unknown",
+          "arc_deg": 8.78,
+          "dist_km": 4.7,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.88359,
+          "lon": 31.29544,
+          "name": "Helwan necropolis",
+          "type": "monumental",
+          "arc_deg": 8.71,
+          "dist_km": 5.4,
+          "date_bp": 4900,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.90402,
+          "lon": 31.19411,
+          "name": "Sun Temple of Niuserre",
+          "type": "monumental",
+          "arc_deg": 8.8,
+          "dist_km": 2.3,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.97356,
+          "lon": 31.13568,
+          "name": "Pyramid of Khentkawes",
+          "type": "monumental",
+          "arc_deg": 8.84,
+          "dist_km": 5.9,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.97521,
+          "lon": 31.13821,
+          "name": "Sphinx Temple",
+          "type": "monumental",
+          "arc_deg": 8.84,
+          "dist_km": 6.1,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.00578,
+          "lon": 31.23011,
+          "name": "Babylon",
+          "type": "settlement",
+          "arc_deg": 8.76,
+          "dist_km": 8.7,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.0342,
+          "lon": 31.07945,
+          "name": "Abu Rawash",
+          "type": "unknown",
+          "arc_deg": 8.88,
+          "dist_km": 13.1,
+          "date_bp": 4620,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.19306,
+          "lon": 34.42111,
+          "name": "Kuntillat 'Ajrud",
+          "type": "monumental",
+          "arc_deg": 5.99,
+          "dist_km": 6.4,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.21705,
+          "lon": 30.96684,
+          "name": "El Qattah",
+          "type": "unknown",
+          "arc_deg": 8.96,
+          "dist_km": 34.3,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.27302,
+          "lon": 57.06858,
+          "name": "Veh Ardashir/[Bardasir]/[Govasir]",
+          "type": "settlement",
+          "arc_deg": 346.47,
+          "dist_km": 98.8,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.29247,
+          "lon": 31.33083,
+          "name": "Tell el-Yahudiya",
+          "type": "settlement",
+          "arc_deg": 8.64,
+          "dist_km": 39.6,
+          "date_bp": 3498,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.32794,
+          "lon": 35.43268,
+          "name": "Umm al-Biyara",
+          "type": "settlement",
+          "arc_deg": 5.11,
+          "dist_km": 15.9,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.33581,
+          "lon": 35.48151,
+          "name": "Tawilan",
+          "type": "settlement",
+          "arc_deg": 5.07,
+          "dist_km": 16.6,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.4707,
+          "lon": 31.18425,
+          "name": "Athribis (Lower Egypt)",
+          "type": "settlement",
+          "arc_deg": 8.75,
+          "dist_km": 60.5,
+          "date_bp": 3960,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 46.5,
+          "name": "Eridu Ur Survey",
+          "type": "settlement",
+          "arc_deg": 355.57,
+          "dist_km": 31.4,
+          "date_bp": 4285,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 48.5,
+          "name": "\u0100b\u0101d\u0101n",
+          "type": "settlement",
+          "arc_deg": 353.85,
+          "dist_km": 41.8,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.50322,
+          "lon": 47.82064,
+          "name": "[Basra]",
+          "type": "settlement",
+          "arc_deg": 354.43,
+          "dist_km": 38.2,
+          "date_bp": 3150,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.68299,
+          "lon": 31.35554,
+          "name": "Tell el-Moqdam",
+          "type": "settlement",
+          "arc_deg": 8.59,
+          "dist_km": 82.6,
+          "date_bp": 3498,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.7382,
+          "lon": 46.6926,
+          "name": "Tall Ab\u016b al-Dhahab",
+          "type": "unknown",
+          "arc_deg": 355.41,
+          "dist_km": 58.7,
+          "date_bp": 3950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.774,
+          "lon": 46.3659,
+          "name": "Tell al-Lahm",
+          "type": "settlement",
+          "arc_deg": 355.69,
+          "dist_km": 61.3,
+          "date_bp": 4950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.80076,
+          "lon": 31.83477,
+          "name": "Pi-Ramesses",
+          "type": "settlement",
+          "arc_deg": 8.17,
+          "dist_km": 91.7,
+          "date_bp": 3498,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.97455,
+          "lon": 46.11863,
+          "name": "Diqdiqah",
+          "type": "settlement",
+          "arc_deg": 355.92,
+          "dist_km": 82.5,
+          "date_bp": 4285,
+          "source": "pleiades"
+        }
+      ],
+      "count": 99,
+      "by_type": {
+        "monumental": 25,
+        "settlement": 19,
+        "unknown": 55
+      },
+      "by_source": {
+        "p3k14c": 57,
+        "pleiades": 42
+      },
+      "enrichment": {
+        "observed": 99,
+        "expected": 1004.81,
+        "std": 31.16,
+        "enrichment": 0.099,
+        "z_score": -29.07,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Iron Age (3,000\u20132,000 BP)",
+      "start_bp": 3000,
+      "end_bp": 2000,
+      "start_cal": -1050,
+      "end_cal": -50,
+      "sites": [
+        {
+          "lat": -14.50639,
+          "lon": -75.15823,
+          "name": "Mollake Chico PAP-436",
+          "type": "unknown",
+          "arc_deg": 119.97,
+          "dist_km": 12.2,
+          "date_bp": 2680,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.5,
+          "lon": -75.0,
+          "name": "Pueblo Viejo NPV85",
+          "type": "unknown",
+          "arc_deg": 119.83,
+          "dist_km": 5.2,
+          "date_bp": 2140,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.49164,
+          "lon": -75.64765,
+          "name": "Callango West Bank",
+          "type": "unknown",
+          "arc_deg": 120.38,
+          "dist_km": 37.4,
+          "date_bp": 2874,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.49,
+          "lon": -75.05,
+          "name": "Quemado",
+          "type": "unknown",
+          "arc_deg": 119.87,
+          "dist_km": 8.6,
+          "date_bp": 2400,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.44,
+          "lon": -75.14,
+          "name": "Santa Clara",
+          "type": "unknown",
+          "arc_deg": 119.92,
+          "dist_km": 17.9,
+          "date_bp": 2080,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.29,
+          "lon": -75.38,
+          "name": "Pampa Media Luna",
+          "type": "unknown",
+          "arc_deg": 120.06,
+          "dist_km": 44.5,
+          "date_bp": 2100,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.25618,
+          "lon": -74.85885,
+          "name": "Cutamalla PAP-767",
+          "type": "unknown",
+          "arc_deg": 119.6,
+          "dist_km": 22.5,
+          "date_bp": 2206,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.22,
+          "lon": -75.41,
+          "name": "Cerro Max Uhle",
+          "type": "unknown",
+          "arc_deg": 120.06,
+          "dist_km": 52.9,
+          "date_bp": 2400,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -14.12,
+          "lon": -76.1,
+          "name": "Carhuas",
+          "type": "unknown",
+          "arc_deg": 120.61,
+          "dist_km": 96.3,
+          "date_bp": 2675,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.65189,
+          "lon": -73.95782,
+          "name": "Campanayuq Rumi",
+          "type": "settlement",
+          "arc_deg": 118.54,
+          "dist_km": 38.1,
+          "date_bp": 2930,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.17218,
+          "lon": -74.21642,
+          "name": "Wichqana",
+          "type": "unknown",
+          "arc_deg": 118.55,
+          "dist_km": 98.3,
+          "date_bp": 2832,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.1,
+          "lon": -72.25,
+          "name": "Huillca Raccay",
+          "type": "unknown",
+          "arc_deg": 116.81,
+          "dist_km": 7.7,
+          "date_bp": 2706,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -13.09,
+          "lon": -72.32,
+          "name": "Machu Picchu",
+          "type": "unknown",
+          "arc_deg": 116.87,
+          "dist_km": 12.2,
+          "date_bp": 2964,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.59,
+          "lon": -65.37,
+          "name": "RO-GM-08",
+          "type": "unknown",
+          "arc_deg": 109.21,
+          "dist_km": 3.7,
+          "date_bp": 2275,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.586,
+          "lon": -67.29,
+          "name": "Fazenda Atl\u00e2ntica",
+          "type": "unknown",
+          "arc_deg": 110.87,
+          "dist_km": 97.9,
+          "date_bp": 2110,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.38307,
+          "lon": -64.35991,
+          "name": "5 Irmaos",
+          "type": "unknown",
+          "arc_deg": 108.24,
+          "dist_km": 37.3,
+          "date_bp": 2450,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.86815,
+          "lon": -64.05599,
+          "name": "Foz do Jatuarana",
+          "type": "unknown",
+          "arc_deg": 107.73,
+          "dist_km": 3.5,
+          "date_bp": 2969,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.80476,
+          "lon": -63.95111,
+          "name": "Santo Antonio/Igapo-1 RO-PV-19",
+          "type": "unknown",
+          "arc_deg": 107.6,
+          "dist_km": 2.9,
+          "date_bp": 2340,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -8.76,
+          "lon": -63.43,
+          "name": "SitioNN_Fase_Urucuri",
+          "type": "unknown",
+          "arc_deg": 107.13,
+          "dist_km": 26.5,
+          "date_bp": 2410,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -4.32862,
+          "lon": -55.76155,
+          "name": "Serraria Trombetas",
+          "type": "unknown",
+          "arc_deg": 98.32,
+          "dist_km": 17.9,
+          "date_bp": 2200,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -2.79973,
+          "lon": -55.19136,
+          "name": "Terra Preta (Parau\u00e0\u221a\u026c\u2260) PA00797",
+          "type": "unknown",
+          "arc_deg": 97.06,
+          "dist_km": 97.5,
+          "date_bp": 2490,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.05,
+          "lon": -15.97,
+          "name": "Teneswillim sud",
+          "type": "unknown",
+          "arc_deg": 53.16,
+          "dist_km": 53.2,
+          "date_bp": 2874,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 22.58,
+          "lon": -3.92,
+          "name": "Oued Amded",
+          "type": "unknown",
+          "arc_deg": 41.0,
+          "dist_km": 22.0,
+          "date_bp": 2160,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.58,
+          "lon": 13.08,
+          "name": "Germa",
+          "type": "unknown",
+          "arc_deg": 25.07,
+          "dist_km": 72.2,
+          "date_bp": 2885,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.58,
+          "lon": 13.17,
+          "name": "Wadi Adjal",
+          "type": "unknown",
+          "arc_deg": 24.99,
+          "dist_km": 74.3,
+          "date_bp": 2115,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 26.62107,
+          "lon": 13.10314,
+          "name": "Zinchecra Fezzan",
+          "type": "unknown",
+          "arc_deg": 25.04,
+          "dist_km": 68.3,
+          "date_bp": 2854,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.7917,
+          "lon": 31.2235,
+          "name": "Dahshur",
+          "type": "unknown",
+          "arc_deg": 8.78,
+          "dist_km": 15.0,
+          "date_bp": 2050,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 29.9489,
+          "lon": 31.305,
+          "name": "Tura",
+          "type": "unknown",
+          "arc_deg": 8.7,
+          "dist_km": 1.7,
+          "date_bp": 2130,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 30.5528,
+          "lon": 32.0994,
+          "name": "Tell El Maskhuta",
+          "type": "unknown",
+          "arc_deg": 7.96,
+          "dist_km": 62.2,
+          "date_bp": 2280,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 24.57884,
+          "lon": 82.50833,
+          "name": "\u015au\u0144gas",
+          "type": "unknown",
+          "arc_deg": 323.24,
+          "dist_km": 85.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 25.22249,
+          "lon": 80.23359,
+          "name": "Cainnas (river)",
+          "type": "unknown",
+          "arc_deg": 325.4,
+          "dist_km": 78.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.46663,
+          "lon": 12.44997,
+          "name": "Tin Abunda",
+          "type": "unknown",
+          "arc_deg": 25.64,
+          "dist_km": 69.3,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.51788,
+          "lon": 13.33108,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.86,
+          "dist_km": 84.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.53336,
+          "lon": 13.36851,
+          "name": "el-Gheraia",
+          "type": "unknown",
+          "arc_deg": 24.83,
+          "dist_km": 84.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.53369,
+          "lon": 13.38144,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.81,
+          "dist_km": 84.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54428,
+          "lon": 13.21561,
+          "name": "Techertiba",
+          "type": "unknown",
+          "arc_deg": 24.96,
+          "dist_km": 79.3,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54434,
+          "lon": 12.95547,
+          "name": "Saniat Ben Howedi",
+          "type": "unknown",
+          "arc_deg": 25.18,
+          "dist_km": 73.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54471,
+          "lon": 13.06326,
+          "name": "Garama Metropolis",
+          "type": "settlement",
+          "arc_deg": 25.09,
+          "dist_km": 75.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54668,
+          "lon": 13.22125,
+          "name": "el-Charaig",
+          "type": "settlement",
+          "arc_deg": 24.95,
+          "dist_km": 79.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54767,
+          "lon": 13.24204,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.93,
+          "dist_km": 79.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.5521,
+          "lon": 13.1518,
+          "name": "Brech",
+          "type": "unknown",
+          "arc_deg": 25.01,
+          "dist_km": 76.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.55852,
+          "lon": 12.94997,
+          "name": "Germa Necropoleis",
+          "type": "unknown",
+          "arc_deg": 25.18,
+          "dist_km": 71.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.60091,
+          "lon": 13.14723,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 25.0,
+          "dist_km": 71.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.61514,
+          "lon": 13.08751,
+          "name": "Zinchecra",
+          "type": "settlement",
+          "arc_deg": 25.05,
+          "dist_km": 68.6,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.6232,
+          "lon": 13.61371,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.59,
+          "dist_km": 80.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.62933,
+          "lon": 13.03516,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 25.09,
+          "dist_km": 65.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.67675,
+          "lon": 12.7035,
+          "name": "Tinda",
+          "type": "settlement",
+          "arc_deg": 25.37,
+          "dist_km": 52.7,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.68285,
+          "lon": 13.79834,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.42,
+          "dist_km": 78.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.68701,
+          "lon": 12.71151,
+          "name": "Ubari",
+          "type": "settlement",
+          "arc_deg": 25.36,
+          "dist_km": 51.8,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.68719,
+          "lon": 13.75668,
+          "name": "Zuaya",
+          "type": "unknown",
+          "arc_deg": 24.45,
+          "dist_km": 76.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.70826,
+          "lon": 13.85154,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.36,
+          "dist_km": 76.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.71796,
+          "lon": 13.88437,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.33,
+          "dist_km": 76.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.71843,
+          "lon": 13.89583,
+          "name": "Cemetery of the Garamantes",
+          "type": "unknown",
+          "arc_deg": 24.32,
+          "dist_km": 76.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.07249,
+          "lon": 68.6999,
+          "name": "Indoi",
+          "type": "unknown",
+          "arc_deg": 335.86,
+          "dist_km": 40.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.54989,
+          "lon": 14.27162,
+          "name": "Baracum?",
+          "type": "settlement",
+          "arc_deg": 23.81,
+          "dist_km": 5.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.55967,
+          "lon": 13.21573,
+          "name": "Dedris?",
+          "type": "settlement",
+          "arc_deg": 24.71,
+          "dist_km": 30.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.73702,
+          "lon": 68.98318,
+          "name": "Mousikanoi",
+          "type": "unknown",
+          "arc_deg": 335.77,
+          "dist_km": 37.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.03186,
+          "lon": 64.95528,
+          "name": "Chaarene/Arana",
+          "type": "unknown",
+          "arc_deg": 339.3,
+          "dist_km": 16.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.66541,
+          "lon": 57.74342,
+          "name": "Karmana",
+          "type": "settlement",
+          "arc_deg": 345.66,
+          "dist_km": 69.1,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.68038,
+          "lon": 26.48742,
+          "name": "Bahrein",
+          "type": "unknown",
+          "arc_deg": 13.01,
+          "dist_km": 87.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.7004,
+          "lon": 26.7332,
+          "name": "Nuweimisa",
+          "type": "unknown",
+          "arc_deg": 12.79,
+          "dist_km": 88.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.03294,
+          "lon": 30.79985,
+          "name": "el-Kom el-Ahmar (Dishasha)",
+          "type": "unknown",
+          "arc_deg": 9.22,
+          "dist_km": 95.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.05583,
+          "lon": 30.90472,
+          "name": "Peenameus",
+          "type": "settlement",
+          "arc_deg": 9.12,
+          "dist_km": 93.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.05855,
+          "lon": 26.40153,
+          "name": "el-Areg",
+          "type": "unknown",
+          "arc_deg": 13.03,
+          "dist_km": 44.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.05903,
+          "lon": 30.99623,
+          "name": "Kella",
+          "type": "settlement",
+          "arc_deg": 9.04,
+          "dist_km": 94.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.09279,
+          "lon": 31.00503,
+          "name": "Herakleopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 9.03,
+          "dist_km": 90.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.09973,
+          "lon": 30.65019,
+          "name": "Kerkethoeris?",
+          "type": "settlement",
+          "arc_deg": 9.34,
+          "dist_km": 86.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.10006,
+          "lon": 30.7999,
+          "name": "Talei(this)",
+          "type": "settlement",
+          "arc_deg": 9.21,
+          "dist_km": 87.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.10651,
+          "lon": 30.76128,
+          "name": "Temple of Soknebtunis",
+          "type": "monumental",
+          "arc_deg": 9.24,
+          "dist_km": 86.8,
+          "date_bp": 2254,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.11944,
+          "lon": 30.60268,
+          "name": "Tell el-Ma'araka",
+          "type": "settlement",
+          "arc_deg": 9.38,
+          "dist_km": 83.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.13235,
+          "lon": 30.5884,
+          "name": "Magdola",
+          "type": "settlement",
+          "arc_deg": 9.39,
+          "dist_km": 82.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.13577,
+          "lon": 30.69304,
+          "name": "Kerkeosiris",
+          "type": "settlement",
+          "arc_deg": 9.3,
+          "dist_km": 83.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.14389,
+          "lon": 30.98191,
+          "name": "Kos",
+          "type": "settlement",
+          "arc_deg": 9.05,
+          "dist_km": 84.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.14411,
+          "lon": 21.52558,
+          "name": "Augilai",
+          "type": "unknown",
+          "arc_deg": 17.23,
+          "dist_km": 36.0,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.1521,
+          "lon": 21.29521,
+          "name": "Augila",
+          "type": "settlement",
+          "arc_deg": 17.43,
+          "dist_km": 40.8,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.15359,
+          "lon": 31.0518,
+          "name": "Tinteris",
+          "type": "settlement",
+          "arc_deg": 8.99,
+          "dist_km": 84.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.15831,
+          "lon": 52.67868,
+          "name": "Tal-i Hakavan",
+          "type": "monumental",
+          "arc_deg": 350.13,
+          "dist_km": 74.2,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.16433,
+          "lon": 30.5369,
+          "name": "Kharabat Deir el-Halin",
+          "type": "settlement",
+          "arc_deg": 9.43,
+          "dist_km": 78.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.18373,
+          "lon": 25.55008,
+          "name": "Gebel el-Dakrur",
+          "type": "unknown",
+          "arc_deg": 13.76,
+          "dist_km": 20.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.18465,
+          "lon": 31.12046,
+          "name": "Tilothis/Neiloupolis",
+          "type": "settlement",
+          "arc_deg": 8.92,
+          "dist_km": 81.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.18804,
+          "lon": 52.58034,
+          "name": "Band-i Bahman",
+          "type": "monumental",
+          "arc_deg": 350.21,
+          "dist_km": 71.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19227,
+          "lon": 30.64189,
+          "name": "Narmouthis",
+          "type": "monumental",
+          "arc_deg": 9.34,
+          "dist_km": 76.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19385,
+          "lon": 54.31964,
+          "name": "Niriz/Narezzash?",
+          "type": "settlement",
+          "arc_deg": 348.7,
+          "dist_km": 53.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19425,
+          "lon": 30.75033,
+          "name": "Polemonos Meris",
+          "type": "unknown",
+          "arc_deg": 9.24,
+          "dist_km": 77.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19691,
+          "lon": 30.62871,
+          "name": "Kom Medinet Ghuran",
+          "type": "settlement",
+          "arc_deg": 9.35,
+          "dist_km": 75.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.20129,
+          "lon": 25.54522,
+          "name": "Umm Ubaydah",
+          "type": "monumental",
+          "arc_deg": 13.76,
+          "dist_km": 18.0,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.20281,
+          "lon": 33.25157,
+          "name": "Mounychiatis",
+          "type": "unknown",
+          "arc_deg": 7.07,
+          "dist_km": 96.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.20517,
+          "lon": 25.54351,
+          "name": "Ammon",
+          "type": "monumental",
+          "arc_deg": 13.76,
+          "dist_km": 17.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.20565,
+          "lon": 31.18139,
+          "name": "Schmonthis",
+          "type": "settlement",
+          "arc_deg": 8.87,
+          "dist_km": 79.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.20638,
+          "lon": 30.9686,
+          "name": "Ptolemais Hormou",
+          "type": "settlement",
+          "arc_deg": 9.05,
+          "dist_km": 77.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.21678,
+          "lon": 31.11989,
+          "name": "Tanchais",
+          "type": "settlement",
+          "arc_deg": 8.92,
+          "dist_km": 77.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.21732,
+          "lon": 51.63306,
+          "name": "Gur-i Dukhtar",
+          "type": "monumental",
+          "arc_deg": 351.04,
+          "dist_km": 77.3,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23061,
+          "lon": 30.80835,
+          "name": "Tebetny",
+          "type": "settlement",
+          "arc_deg": 9.19,
+          "dist_km": 73.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23259,
+          "lon": 19.21767,
+          "name": "Marada",
+          "type": "settlement",
+          "arc_deg": 19.2,
+          "dist_km": 86.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.2362,
+          "lon": 25.52317,
+          "name": "Gebel Mota",
+          "type": "unknown",
+          "arc_deg": 13.77,
+          "dist_km": 13.8,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.24483,
+          "lon": 25.34019,
+          "name": "el-Maraki",
+          "type": "settlement",
+          "arc_deg": 13.93,
+          "dist_km": 10.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.2493,
+          "lon": 50.309,
+          "name": "Kharg",
+          "type": "settlement",
+          "arc_deg": 352.19,
+          "dist_km": 84.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.25,
+          "lon": 30.75,
+          "name": "Argaitidos (Diorux)",
+          "type": "unknown",
+          "arc_deg": 9.24,
+          "dist_km": 70.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.25,
+          "lon": 31.25,
+          "name": "Boubastos",
+          "type": "unknown",
+          "arc_deg": 8.81,
+          "dist_km": 75.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.25026,
+          "lon": 31.08654,
+          "name": "Bousiris",
+          "type": "settlement",
+          "arc_deg": 8.95,
+          "dist_km": 73.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.25349,
+          "lon": 25.80635,
+          "name": "Ain Zeitun",
+          "type": "monumental",
+          "arc_deg": 13.52,
+          "dist_km": 15.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.25351,
+          "lon": 30.89583,
+          "name": "Haueris",
+          "type": "settlement",
+          "arc_deg": 9.11,
+          "dist_km": 71.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.259,
+          "lon": 50.84065,
+          "name": "Helleh/Granis? (river)",
+          "type": "unknown",
+          "arc_deg": 351.73,
+          "dist_km": 79.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.2703,
+          "lon": 25.78156,
+          "name": "Abul Awlaf",
+          "type": "unknown",
+          "arc_deg": 13.54,
+          "dist_km": 13.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.2723,
+          "lon": 30.89936,
+          "name": "Labyrinthos",
+          "type": "monumental",
+          "arc_deg": 9.11,
+          "dist_km": 69.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.27564,
+          "lon": 51.1878,
+          "name": "Borazjan/Taoke?/[Tawwaj]?",
+          "type": "settlement",
+          "arc_deg": 351.43,
+          "dist_km": 74.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.27611,
+          "lon": 30.73064,
+          "name": "Berenikis Aigialou",
+          "type": "unknown",
+          "arc_deg": 9.25,
+          "dist_km": 67.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.27687,
+          "lon": 30.60707,
+          "name": "Perkethaut/Philagris?",
+          "type": "settlement",
+          "arc_deg": 9.36,
+          "dist_km": 66.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.28364,
+          "lon": 51.67308,
+          "name": "Sar Mashhad",
+          "type": "monumental",
+          "arc_deg": 351.01,
+          "dist_km": 69.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.2841,
+          "lon": 34.94156,
+          "name": "Ankale",
+          "type": "settlement",
+          "arc_deg": 5.59,
+          "dist_km": 97.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.28633,
+          "lon": 30.73473,
+          "name": "Arsinoites/Krokodeilopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 9.25,
+          "dist_km": 66.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.29572,
+          "lon": 25.75471,
+          "name": "Abu Shuruf",
+          "type": "settlement",
+          "arc_deg": 13.56,
+          "dist_km": 10.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.30314,
+          "lon": 31.16811,
+          "name": "Koma",
+          "type": "settlement",
+          "arc_deg": 8.87,
+          "dist_km": 68.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.31322,
+          "lon": 25.72581,
+          "name": "Ain Koreishat",
+          "type": "settlement",
+          "arc_deg": 13.59,
+          "dist_km": 8.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.31618,
+          "lon": 48.26117,
+          "name": "Chaldaea",
+          "type": "unknown",
+          "arc_deg": 353.98,
+          "dist_km": 91.0,
+          "date_bp": 2670,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.32524,
+          "lon": 25.42054,
+          "name": "Khamiseh",
+          "type": "settlement",
+          "arc_deg": 13.85,
+          "dist_km": 2.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.33365,
+          "lon": 30.63569,
+          "name": "Polydeukia",
+          "type": "settlement",
+          "arc_deg": 9.33,
+          "dist_km": 60.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.34394,
+          "lon": 25.37403,
+          "name": "Ghargart",
+          "type": "settlement",
+          "arc_deg": 13.89,
+          "dist_km": 0.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.34549,
+          "lon": 30.70124,
+          "name": "Themistou Meris",
+          "type": "unknown",
+          "arc_deg": 9.27,
+          "dist_km": 59.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.34806,
+          "lon": 30.49696,
+          "name": "Theadelpheia",
+          "type": "settlement",
+          "arc_deg": 9.45,
+          "dist_km": 57.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.35497,
+          "lon": 47.91585,
+          "name": "'Akkaz",
+          "type": "settlement",
+          "arc_deg": 354.28,
+          "dist_km": 88.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.36416,
+          "lon": 30.90308,
+          "name": "Metrodoron",
+          "type": "settlement",
+          "arc_deg": 9.1,
+          "dist_km": 59.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.37631,
+          "lon": 31.168,
+          "name": "Moi(e)thymis",
+          "type": "settlement",
+          "arc_deg": 8.87,
+          "dist_km": 60.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.37946,
+          "lon": 48.21537,
+          "name": "Dilmun (region)",
+          "type": "unknown",
+          "arc_deg": 354.02,
+          "dist_km": 84.3,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.38083,
+          "lon": 25.57472,
+          "name": "Ammonioi",
+          "type": "unknown",
+          "arc_deg": 13.71,
+          "dist_km": 1.4,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.38303,
+          "lon": 30.46795,
+          "name": "Philoteris",
+          "type": "settlement",
+          "arc_deg": 9.47,
+          "dist_km": 53.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.3833,
+          "lon": 30.53329,
+          "name": "Euhemereia",
+          "type": "settlement",
+          "arc_deg": 9.42,
+          "dist_km": 54.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.38689,
+          "lon": 52.29053,
+          "name": "Saifabad",
+          "type": "settlement",
+          "arc_deg": 350.48,
+          "dist_km": 52.6,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.39352,
+          "lon": 31.03141,
+          "name": "Tanis",
+          "type": "settlement",
+          "arc_deg": 8.98,
+          "dist_km": 57.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.39758,
+          "lon": 30.93348,
+          "name": "Herakleidou Meris",
+          "type": "unknown",
+          "arc_deg": 9.07,
+          "dist_km": 56.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.40563,
+          "lon": 30.41825,
+          "name": "Sobek temple, Qa\u015fr Q\u0101r\u016bn",
+          "type": "monumental",
+          "arc_deg": 9.51,
+          "dist_km": 50.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.40783,
+          "lon": 30.76456,
+          "name": "Psenaryo",
+          "type": "settlement",
+          "arc_deg": 9.21,
+          "dist_km": 53.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.40842,
+          "lon": 31.25167,
+          "name": "Aphrodito(polis)",
+          "type": "settlement",
+          "arc_deg": 8.79,
+          "dist_km": 57.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.42254,
+          "lon": 30.87034,
+          "name": "Psenyris",
+          "type": "settlement",
+          "arc_deg": 9.12,
+          "dist_km": 52.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.42838,
+          "lon": 31.2658,
+          "name": "Aphroditopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.78,
+          "dist_km": 55.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.4337,
+          "lon": 48.27449,
+          "name": "Failaka/Tell Khazne",
+          "type": "settlement",
+          "arc_deg": 353.98,
+          "dist_km": 77.9,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.43416,
+          "lon": 48.3312,
+          "name": "E-kara/Icarus (island)",
+          "type": "unknown",
+          "arc_deg": 353.93,
+          "dist_km": 77.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.44296,
+          "lon": 31.19487,
+          "name": "Kerke",
+          "type": "settlement",
+          "arc_deg": 8.84,
+          "dist_km": 53.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.45379,
+          "lon": 31.08033,
+          "name": "Philadelpheia",
+          "type": "settlement",
+          "arc_deg": 8.93,
+          "dist_km": 51.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.45396,
+          "lon": 30.36088,
+          "name": "Medinet Quta",
+          "type": "settlement",
+          "arc_deg": 9.56,
+          "dist_km": 44.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.46901,
+          "lon": 35.25459,
+          "name": "Risqah",
+          "type": "monumental",
+          "arc_deg": 5.31,
+          "dist_km": 78.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.47383,
+          "lon": 30.62882,
+          "name": "Moeris (lake)",
+          "type": "unknown",
+          "arc_deg": 9.32,
+          "dist_km": 44.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.47667,
+          "lon": 30.95984,
+          "name": "Tamais?",
+          "type": "settlement",
+          "arc_deg": 9.04,
+          "dist_km": 47.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 35.5,
+          "name": "Skenitai",
+          "type": "unknown",
+          "arc_deg": 5.09,
+          "dist_km": 76.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 36.5,
+          "name": "Sarakenoi",
+          "type": "unknown",
+          "arc_deg": 4.22,
+          "dist_km": 80.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 45.5,
+          "name": "Arabia",
+          "type": "unknown",
+          "arc_deg": 356.39,
+          "dist_km": 83.6,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 50.5,
+          "name": "Darreh Gap/Rhogonis? (river)",
+          "type": "unknown",
+          "arc_deg": 352.05,
+          "dist_km": 55.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 52.5,
+          "name": "Untitled",
+          "type": "unknown",
+          "arc_deg": 350.31,
+          "dist_km": 38.1,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.51455,
+          "lon": 35.38883,
+          "name": "Ain el-Qattar",
+          "type": "monumental",
+          "arc_deg": 5.19,
+          "dist_km": 74.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.51566,
+          "lon": 35.39366,
+          "name": "Wujh el-Qattar",
+          "type": "settlement",
+          "arc_deg": 5.18,
+          "dist_km": 74.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.51824,
+          "lon": 30.90343,
+          "name": "Karanis",
+          "type": "settlement",
+          "arc_deg": 9.08,
+          "dist_km": 42.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5291,
+          "lon": 30.8214,
+          "name": "Neiloupolis",
+          "type": "settlement",
+          "arc_deg": 9.15,
+          "dist_km": 40.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.53347,
+          "lon": 30.66892,
+          "name": "Soknopaiou Nesos",
+          "type": "settlement",
+          "arc_deg": 9.28,
+          "dist_km": 38.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.53695,
+          "lon": 31.00416,
+          "name": "Bakchias",
+          "type": "settlement",
+          "arc_deg": 8.99,
+          "dist_km": 41.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.54409,
+          "lon": 35.48201,
+          "name": "Umm el-Quseir",
+          "type": "settlement",
+          "arc_deg": 5.11,
+          "dist_km": 71.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5441,
+          "lon": 34.9866,
+          "name": "Kheleifeh",
+          "type": "settlement",
+          "arc_deg": 5.54,
+          "dist_km": 68.8,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.54441,
+          "lon": 35.45281,
+          "name": "Teraif Merar",
+          "type": "settlement",
+          "arc_deg": 5.13,
+          "dist_km": 71.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.55269,
+          "lon": 35.47103,
+          "name": "Jebel Abu Judeidah",
+          "type": "monumental",
+          "arc_deg": 5.12,
+          "dist_km": 70.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.57297,
+          "lon": 35.41273,
+          "name": "Ain Shellaly",
+          "type": "monumental",
+          "arc_deg": 5.17,
+          "dist_km": 67.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.57315,
+          "lon": 35.43026,
+          "name": "Aramaua",
+          "type": "settlement",
+          "arc_deg": 5.15,
+          "dist_km": 67.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.58678,
+          "lon": 31.2376,
+          "name": "Peme/Hypsele",
+          "type": "settlement",
+          "arc_deg": 8.79,
+          "dist_km": 37.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.60185,
+          "lon": 34.01462,
+          "name": "Nabataei",
+          "type": "unknown",
+          "arc_deg": 6.38,
+          "dist_km": 56.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.61606,
+          "lon": 26.45006,
+          "name": "Alexandrou Parembole",
+          "type": "settlement",
+          "arc_deg": 12.92,
+          "dist_km": 16.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.62792,
+          "lon": 31.24863,
+          "name": "Memphites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.77,
+          "dist_km": 33.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.64472,
+          "lon": 31.26827,
+          "name": "Paabeithis",
+          "type": "settlement",
+          "arc_deg": 8.75,
+          "dist_km": 31.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.6883,
+          "lon": 53.13156,
+          "name": "Qadamgah",
+          "type": "monumental",
+          "arc_deg": 349.79,
+          "dist_km": 11.2,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.69389,
+          "lon": 31.24669,
+          "name": "Panarachthis/Pinarachthis",
+          "type": "settlement",
+          "arc_deg": 8.77,
+          "dist_km": 26.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.7284,
+          "lon": 24.58017,
+          "name": "el-Fredgia",
+          "type": "unknown",
+          "arc_deg": 14.51,
+          "dist_km": 53.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.73497,
+          "lon": 24.51062,
+          "name": "Giarabub",
+          "type": "settlement",
+          "arc_deg": 14.57,
+          "dist_km": 55.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 32.75,
+          "name": "Phoinikon",
+          "type": "settlement",
+          "arc_deg": 7.46,
+          "dist_km": 31.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 34.75,
+          "name": "Kheleifeh",
+          "type": "unknown",
+          "arc_deg": 5.73,
+          "dist_km": 44.6,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 35.25,
+          "name": "Untitled",
+          "type": "monumental",
+          "arc_deg": 5.3,
+          "dist_km": 47.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 35.75,
+          "name": "Khirbet el-Thalajeh",
+          "type": "unknown",
+          "arc_deg": 4.86,
+          "dist_km": 49.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75809,
+          "lon": 52.84162,
+          "name": "Band-e Am\u012br/Tukrash?",
+          "type": "settlement",
+          "arc_deg": 350.04,
+          "dist_km": 6.3,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.76251,
+          "lon": 34.97876,
+          "name": "Timnah",
+          "type": "settlement",
+          "arc_deg": 5.53,
+          "dist_km": 44.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.77085,
+          "lon": 34.94797,
+          "name": "Slaves' Hill (Timna Valley)",
+          "type": "settlement",
+          "arc_deg": 5.56,
+          "dist_km": 43.4,
+          "date_bp": 2950,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.78681,
+          "lon": 35.17474,
+          "name": "Ain Hejfeh",
+          "type": "unknown",
+          "arc_deg": 5.36,
+          "dist_km": 42.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.78773,
+          "lon": 24.83506,
+          "name": "Ain Melfa",
+          "type": "unknown",
+          "arc_deg": 14.29,
+          "dist_km": 56.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.82584,
+          "lon": 31.2656,
+          "name": "Toachris",
+          "type": "settlement",
+          "arc_deg": 8.74,
+          "dist_km": 11.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.83192,
+          "lon": 24.76532,
+          "name": "Abbiar Zergum",
+          "type": "unknown",
+          "arc_deg": 14.34,
+          "dist_km": 62.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.85339,
+          "lon": 33.0648,
+          "name": "Melana Ore",
+          "type": "unknown",
+          "arc_deg": 7.18,
+          "dist_km": 22.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.85487,
+          "lon": 52.8706,
+          "name": "Kur/Araxes? (river)",
+          "type": "unknown",
+          "arc_deg": 350.03,
+          "dist_km": 4.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.86377,
+          "lon": 52.69237,
+          "name": "Majdabad",
+          "type": "settlement",
+          "arc_deg": 350.18,
+          "dist_km": 3.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.8892,
+          "lon": 52.65423,
+          "name": "Mansurabad East/Rakkan?",
+          "type": "settlement",
+          "arc_deg": 350.22,
+          "dist_km": 6.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.89105,
+          "lon": 31.20046,
+          "name": "Saite-Persian cemetery at Abu Sir",
+          "type": "monumental",
+          "arc_deg": 8.79,
+          "dist_km": 3.8,
+          "date_bp": 2614,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.91859,
+          "lon": 35.61837,
+          "name": "Jebel Batra",
+          "type": "settlement",
+          "arc_deg": 4.97,
+          "dist_km": 30.4,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.92862,
+          "lon": 52.89269,
+          "name": "Dasht-i Gohar/Takht-i Rustam",
+          "type": "settlement",
+          "arc_deg": 350.02,
+          "dist_km": 13.0,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.93327,
+          "lon": 31.31666,
+          "name": "Troikon Oros",
+          "type": "settlement",
+          "arc_deg": 8.69,
+          "dist_km": 0.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.93512,
+          "lon": 52.8895,
+          "name": "Apadana Palace",
+          "type": "monumental",
+          "arc_deg": 350.02,
+          "dist_km": 13.7,
+          "date_bp": 2490,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.93693,
+          "lon": 35.58389,
+          "name": "Khirbet el-Nasara",
+          "type": "settlement",
+          "arc_deg": 5.0,
+          "dist_km": 28.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.9579,
+          "lon": 35.32195,
+          "name": "Auara",
+          "type": "settlement",
+          "arc_deg": 5.22,
+          "dist_km": 24.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.9611,
+          "lon": 34.93384,
+          "name": "Biq'at 'Uvdah",
+          "type": "settlement",
+          "arc_deg": 5.56,
+          "dist_km": 22.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.96187,
+          "lon": 52.44436,
+          "name": "Tal-i Baiza",
+          "type": "settlement",
+          "arc_deg": 350.41,
+          "dist_km": 12.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.96187,
+          "lon": 52.76689,
+          "name": "Masumabad West",
+          "type": "settlement",
+          "arc_deg": 350.13,
+          "dist_km": 15.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.97014,
+          "lon": 32.56014,
+          "name": "Clysma",
+          "type": "settlement",
+          "arc_deg": 7.61,
+          "dist_km": 5.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.97035,
+          "lon": 53.01633,
+          "name": "Saidun",
+          "type": "settlement",
+          "arc_deg": 349.91,
+          "dist_km": 18.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98073,
+          "lon": 31.12218,
+          "name": "Memphites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.85,
+          "dist_km": 6.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98605,
+          "lon": 35.54054,
+          "name": "Khirbet el-Qirana",
+          "type": "unknown",
+          "arc_deg": 5.03,
+          "dist_km": 22.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98799,
+          "lon": 35.49858,
+          "name": "Khirbet Naqb el-Shtar",
+          "type": "unknown",
+          "arc_deg": 5.07,
+          "dist_km": 22.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98849,
+          "lon": 52.87403,
+          "name": "Ka'ba-ye Zartosht",
+          "type": "monumental",
+          "arc_deg": 350.04,
+          "dist_km": 19.5,
+          "date_bp": 2490,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.99243,
+          "lon": 34.68307,
+          "name": "Gypsaria?",
+          "type": "settlement",
+          "arc_deg": 5.77,
+          "dist_km": 17.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.0,
+          "lon": 31.26667,
+          "name": "Troikon Oros",
+          "type": "settlement",
+          "arc_deg": 8.72,
+          "dist_km": 7.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.00812,
+          "lon": 35.48753,
+          "name": "Abu el-Nusur",
+          "type": "settlement",
+          "arc_deg": 5.08,
+          "dist_km": 19.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.01139,
+          "lon": 35.51422,
+          "name": "Fuweileh el-Gharbiyeh",
+          "type": "settlement",
+          "arc_deg": 5.05,
+          "dist_km": 19.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.0209,
+          "lon": 32.56954,
+          "name": "Koubri",
+          "type": "settlement",
+          "arc_deg": 7.6,
+          "dist_km": 0.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.02562,
+          "lon": 35.47646,
+          "name": "Ain el-Jamam",
+          "type": "monumental",
+          "arc_deg": 5.09,
+          "dist_km": 17.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.04173,
+          "lon": 35.49944,
+          "name": "Abu el-Lisan",
+          "type": "settlement",
+          "arc_deg": 5.07,
+          "dist_km": 16.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.05574,
+          "lon": 52.4513,
+          "name": "Tal-i Gachi",
+          "type": "settlement",
+          "arc_deg": 350.41,
+          "dist_km": 22.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.07279,
+          "lon": 35.45107,
+          "name": "Khirbet Hamdan",
+          "type": "settlement",
+          "arc_deg": 5.11,
+          "dist_km": 12.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.07373,
+          "lon": 35.41506,
+          "name": "Khirbet el-Taiyineh",
+          "type": "settlement",
+          "arc_deg": 5.14,
+          "dist_km": 12.2,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.07921,
+          "lon": 52.92087,
+          "name": "Sivand",
+          "type": "settlement",
+          "arc_deg": 350.01,
+          "dist_km": 30.0,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.08059,
+          "lon": 31.05945,
+          "name": "Papremite Nomos",
+          "type": "unknown",
+          "arc_deg": 8.9,
+          "dist_km": 18.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.08089,
+          "lon": 35.44512,
+          "name": "Khirbet Sherfan",
+          "type": "settlement",
+          "arc_deg": 5.11,
+          "dist_km": 11.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.08452,
+          "lon": 31.21826,
+          "name": "Kerkasoros",
+          "type": "settlement",
+          "arc_deg": 8.76,
+          "dist_km": 17.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.08574,
+          "lon": 35.42386,
+          "name": "Khirbet el-Baridiyeh",
+          "type": "settlement",
+          "arc_deg": 5.13,
+          "dist_km": 10.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.09305,
+          "lon": 35.485,
+          "name": "Khirbet Qurein",
+          "type": "settlement",
+          "arc_deg": 5.08,
+          "dist_km": 10.4,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.09323,
+          "lon": 51.90991,
+          "name": "Persides?/Susidae? Pylae",
+          "type": "unknown",
+          "arc_deg": 350.88,
+          "dist_km": 22.1,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.09327,
+          "lon": 52.5402,
+          "name": "Maitona",
+          "type": "settlement",
+          "arc_deg": 350.34,
+          "dist_km": 27.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.10183,
+          "lon": 35.47698,
+          "name": "Khirbet Umm Ras",
+          "type": "settlement",
+          "arc_deg": 5.08,
+          "dist_km": 9.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.10337,
+          "lon": 52.49133,
+          "name": "Persis/Pars",
+          "type": "unknown",
+          "arc_deg": 350.38,
+          "dist_km": 28.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.11044,
+          "lon": 35.5539,
+          "name": "Khirbet el-Mureighah",
+          "type": "settlement",
+          "arc_deg": 5.02,
+          "dist_km": 8.8,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.11817,
+          "lon": 35.42995,
+          "name": "Fera'Dor",
+          "type": "settlement",
+          "arc_deg": 5.12,
+          "dist_km": 7.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.12235,
+          "lon": 31.13398,
+          "name": "Letopolis",
+          "type": "settlement",
+          "arc_deg": 8.83,
+          "dist_km": 22.4,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.12387,
+          "lon": 31.07366,
+          "name": "Letopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.88,
+          "dist_km": 23.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.12832,
+          "lon": 35.43455,
+          "name": "Khirbet ein Mudilija",
+          "type": "unknown",
+          "arc_deg": 5.12,
+          "dist_km": 6.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.13735,
+          "lon": 35.44266,
+          "name": "Khirbet Rassif",
+          "type": "settlement",
+          "arc_deg": 5.11,
+          "dist_km": 5.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.1598,
+          "lon": 52.50205,
+          "name": "Bard Burideh 1",
+          "type": "settlement",
+          "arc_deg": 350.38,
+          "dist_km": 34.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.16111,
+          "lon": 52.32314,
+          "name": "Kaupirrish",
+          "type": "settlement",
+          "arc_deg": 350.53,
+          "dist_km": 33.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.1725,
+          "lon": 52.43611,
+          "name": "Sang-i Dokhtar",
+          "type": "monumental",
+          "arc_deg": 350.43,
+          "dist_km": 35.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.18358,
+          "lon": 51.49807,
+          "name": "Tepe Suruvan",
+          "type": "settlement",
+          "arc_deg": 351.24,
+          "dist_km": 28.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.19392,
+          "lon": 53.1672,
+          "name": "Gabr-i Mader-i Soleiman",
+          "type": "monumental",
+          "arc_deg": 349.81,
+          "dist_km": 45.1,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.19522,
+          "lon": 53.17432,
+          "name": "Pasargadae/Batrakatash",
+          "type": "settlement",
+          "arc_deg": 349.8,
+          "dist_km": 45.3,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.20516,
+          "lon": 53.04482,
+          "name": "Pulvar/Araxes? (river)",
+          "type": "unknown",
+          "arc_deg": 349.91,
+          "dist_km": 45.1,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.20777,
+          "lon": 53.18469,
+          "name": "Tall-i Takht (Throne Hill)",
+          "type": "unknown",
+          "arc_deg": 349.79,
+          "dist_km": 46.8,
+          "date_bp": 2490,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.25,
+          "lon": 31.25,
+          "name": "Ptolemaios/Traianos Potamos",
+          "type": "unknown",
+          "arc_deg": 8.72,
+          "dist_km": 35.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.31308,
+          "lon": 35.12076,
+          "name": "Mezad Be'er Menuha",
+          "type": "settlement",
+          "arc_deg": 5.38,
+          "dist_km": 15.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.32493,
+          "lon": 32.39116,
+          "name": "Pikrai Limnai",
+          "type": "unknown",
+          "arc_deg": 7.73,
+          "dist_km": 34.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.34877,
+          "lon": 49.78642,
+          "name": "Zoreh/Or(o)atis? (river)",
+          "type": "unknown",
+          "arc_deg": 352.73,
+          "dist_km": 33.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.35149,
+          "lon": 51.34792,
+          "name": "Da u Dukhtar",
+          "type": "monumental",
+          "arc_deg": 351.39,
+          "dist_km": 45.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.43239,
+          "lon": 30.81578,
+          "name": "Terenouthis",
+          "type": "settlement",
+          "arc_deg": 9.07,
+          "dist_km": 59.5,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.4677,
+          "lon": 32.326,
+          "name": "Serapieion",
+          "type": "settlement",
+          "arc_deg": 7.77,
+          "dist_km": 51.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 29.5,
+          "name": "Glaukon Akron",
+          "type": "unknown",
+          "arc_deg": 10.2,
+          "dist_km": 79.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 47.5,
+          "name": "Pasitigris? (river)",
+          "type": "unknown",
+          "arc_deg": 354.71,
+          "dist_km": 36.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 52.0,
+          "name": "Untitled",
+          "type": "unknown",
+          "arc_deg": 350.84,
+          "dist_km": 68.0,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 52.5,
+          "name": "Untitled",
+          "type": "unknown",
+          "arc_deg": 350.41,
+          "dist_km": 72.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 53.5,
+          "name": "Untitled",
+          "type": "monumental",
+          "arc_deg": 349.55,
+          "dist_km": 82.3,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.52171,
+          "lon": 47.83315,
+          "name": "Apologos/[al-Ubulla]",
+          "type": "settlement",
+          "arc_deg": 354.42,
+          "dist_km": 40.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.53557,
+          "lon": 31.44147,
+          "name": "Boubastites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.53,
+          "dist_km": 65.6,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.53567,
+          "lon": 35.14917,
+          "name": "Kalgouia?",
+          "type": "settlement",
+          "arc_deg": 5.34,
+          "dist_km": 40.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.55348,
+          "lon": 31.60784,
+          "name": "Per-Sopdu",
+          "type": "settlement",
+          "arc_deg": 8.38,
+          "dist_km": 66.2,
+          "date_bp": 2614,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.55799,
+          "lon": 35.08826,
+          "name": "Horvat Qazra",
+          "type": "settlement",
+          "arc_deg": 5.39,
+          "dist_km": 43.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5698,
+          "lon": 31.58661,
+          "name": "Saphthis",
+          "type": "settlement",
+          "arc_deg": 8.4,
+          "dist_km": 68.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.57238,
+          "lon": 31.51109,
+          "name": "Boubastis",
+          "type": "settlement",
+          "arc_deg": 8.46,
+          "dist_km": 69.1,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.57352,
+          "lon": 32.2903,
+          "name": "Pikrai Limnai",
+          "type": "unknown",
+          "arc_deg": 7.8,
+          "dist_km": 63.0,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.57525,
+          "lon": 35.01165,
+          "name": "Mezad Neqarot",
+          "type": "unknown",
+          "arc_deg": 5.46,
+          "dist_km": 45.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.58798,
+          "lon": 31.70043,
+          "name": "Arabia Nomos",
+          "type": "unknown",
+          "arc_deg": 8.3,
+          "dist_km": 69.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.68479,
+          "lon": 34.35609,
+          "name": "Quseima",
+          "type": "settlement",
+          "arc_deg": 6.01,
+          "dist_km": 61.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.68852,
+          "lon": 34.92854,
+          "name": "Mezad Ma'ale Mahmal",
+          "type": "unknown",
+          "arc_deg": 5.52,
+          "dist_km": 58.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.6939,
+          "lon": 33.40019,
+          "name": "Bir el Maghara",
+          "type": "settlement",
+          "arc_deg": 6.83,
+          "dist_km": 68.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.71325,
+          "lon": 31.26668,
+          "name": "Natho",
+          "type": "settlement",
+          "arc_deg": 8.66,
+          "dist_km": 86.7,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.71361,
+          "lon": 30.82878,
+          "name": "Atarbechis",
+          "type": "settlement",
+          "arc_deg": 9.04,
+          "dist_km": 90.5,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.72538,
+          "lon": 31.44519,
+          "name": "Leontopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.51,
+          "dist_km": 86.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.72699,
+          "lon": 31.79739,
+          "name": "Phakoussa",
+          "type": "settlement",
+          "arc_deg": 8.21,
+          "dist_km": 83.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.73426,
+          "lon": 31.62056,
+          "name": "Pharbaithos",
+          "type": "settlement",
+          "arc_deg": 8.36,
+          "dist_km": 86.1,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 30.25,
+          "name": "Agathos Daimon (river)",
+          "type": "unknown",
+          "arc_deg": 9.53,
+          "dist_km": 99.8,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 31.75,
+          "name": "Bouto",
+          "type": "unknown",
+          "arc_deg": 8.24,
+          "dist_km": 86.8,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 32.25,
+          "name": "Nekou Diorux",
+          "type": "unknown",
+          "arc_deg": 7.82,
+          "dist_km": 82.9,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75041,
+          "lon": 35.7266,
+          "name": "Sela",
+          "type": "monumental",
+          "arc_deg": 4.83,
+          "dist_km": 61.4,
+          "date_bp": 2670,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.77267,
+          "lon": 47.62361,
+          "name": "Tell Nahr 'Umar",
+          "type": "settlement",
+          "arc_deg": 354.62,
+          "dist_km": 67.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.78019,
+          "lon": 30.75261,
+          "name": "Bolbitinos (river)",
+          "type": "unknown",
+          "arc_deg": 9.1,
+          "dist_km": 98.6,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.79421,
+          "lon": 34.77366,
+          "name": "Eboda",
+          "type": "settlement",
+          "arc_deg": 5.65,
+          "dist_km": 71.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.80148,
+          "lon": 49.1039,
+          "name": "Jarrahi/Hedyphon? (river)",
+          "type": "unknown",
+          "arc_deg": 353.35,
+          "dist_km": 79.0,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.80467,
+          "lon": 49.49975,
+          "name": "Tell Tabareh",
+          "type": "settlement",
+          "arc_deg": 353.01,
+          "dist_km": 82.0,
+          "date_bp": 2250,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.80934,
+          "lon": 47.5628,
+          "name": "Jebel Khayabir/Alexandria?/Antiochia?/Spasinou Charax?/Karkh Maisan?/[Astarabad Ardashir]?",
+          "type": "settlement",
+          "arc_deg": 354.67,
+          "dist_km": 70.9,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.81263,
+          "lon": 31.18869,
+          "name": "Bousirites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.72,
+          "dist_km": 98.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.82962,
+          "lon": 35.41178,
+          "name": "Toloha",
+          "type": "unknown",
+          "arc_deg": 5.1,
+          "dist_km": 71.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.83482,
+          "lon": 46.3341,
+          "name": "Eama\u0161kuga",
+          "type": "monumental",
+          "arc_deg": 355.72,
+          "dist_km": 67.9,
+          "date_bp": 2670,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.84778,
+          "lon": 31.79514,
+          "name": "Pharbaithites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.2,
+          "dist_km": 97.3,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.84957,
+          "lon": 32.36698,
+          "name": "Sile",
+          "type": "settlement",
+          "arc_deg": 7.71,
+          "dist_km": 93.0,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.8548,
+          "lon": 49.4716,
+          "name": "Tell Tendy",
+          "type": "settlement",
+          "arc_deg": 353.04,
+          "dist_km": 87.4,
+          "date_bp": 2500,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.86002,
+          "lon": 32.17349,
+          "name": "Daphnai",
+          "type": "settlement",
+          "arc_deg": 7.87,
+          "dist_km": 95.6,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.87483,
+          "lon": 34.43173,
+          "name": "Nessana",
+          "type": "monumental",
+          "arc_deg": 5.94,
+          "dist_km": 82.1,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.88117,
+          "lon": 34.63072,
+          "name": "Sobata",
+          "type": "settlement",
+          "arc_deg": 5.77,
+          "dist_km": 81.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.8911,
+          "lon": 32.09,
+          "name": "Sethroites Nomos",
+          "type": "unknown",
+          "arc_deg": 7.94,
+          "dist_km": 99.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.91661,
+          "lon": 32.81154,
+          "name": "Qasrawet",
+          "type": "settlement",
+          "arc_deg": 7.32,
+          "dist_km": 97.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.99177,
+          "lon": 35.86193,
+          "name": "Mhai",
+          "type": "settlement",
+          "arc_deg": 4.71,
+          "dist_km": 87.6,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.99447,
+          "lon": 35.34828,
+          "name": "En Thamar",
+          "type": "settlement",
+          "arc_deg": 5.15,
+          "dist_km": 90.4,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.00182,
+          "lon": 35.76279,
+          "name": "Dhat Ras",
+          "type": "settlement",
+          "arc_deg": 4.79,
+          "dist_km": 89.2,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.02537,
+          "lon": 35.06435,
+          "name": "Mampsis",
+          "type": "settlement",
+          "arc_deg": 5.39,
+          "dist_km": 95.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.02993,
+          "lon": 34.56518,
+          "name": "Betomolachon?",
+          "type": "settlement",
+          "arc_deg": 5.81,
+          "dist_km": 98.5,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.03264,
+          "lon": 46.37141,
+          "name": "Mat Tamti",
+          "type": "unknown",
+          "arc_deg": 355.7,
+          "dist_km": 90.0,
+          "date_bp": 2700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.04612,
+          "lon": 35.63705,
+          "name": "Khirbet Dubab",
+          "type": "settlement",
+          "arc_deg": 4.9,
+          "dist_km": 94.7,
+          "date_bp": 2280,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.05811,
+          "lon": 35.77989,
+          "name": "Nakhl",
+          "type": "settlement",
+          "arc_deg": 4.77,
+          "dist_km": 95.3,
+          "date_bp": 2280,
+          "source": "pleiades"
+        }
+      ],
+      "count": 293,
+      "by_type": {
+        "monumental": 28,
+        "settlement": 143,
+        "unknown": 122
+      },
+      "by_source": {
+        "p3k14c": 29,
+        "pleiades": 264
+      },
+      "enrichment": {
+        "observed": 293,
+        "expected": 1009.8,
+        "std": 31.11,
+        "enrichment": 0.29,
+        "z_score": -23.04,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Classical/Medieval (2,000\u2013800 BP)",
+      "start_bp": 2000,
+      "end_bp": 800,
+      "start_cal": -50,
+      "end_cal": 1150,
+      "sites": [
+        {
+          "lat": -27.19303,
+          "lon": -109.428,
+          "name": "O97 Orongo",
+          "type": "unknown",
+          "arc_deg": 154.27,
+          "dist_km": 16.7,
+          "date_bp": 1180,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.17662,
+          "lon": -109.40688,
+          "name": "Ahu Vinapu 2",
+          "type": "monumental",
+          "arc_deg": 154.24,
+          "dist_km": 15.4,
+          "date_bp": 1100,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.12641,
+          "lon": -109.28774,
+          "name": "Moai Tukuturi",
+          "type": "monumental",
+          "arc_deg": 154.13,
+          "dist_km": 12.9,
+          "date_bp": 1040,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.12173,
+          "lon": -109.40502,
+          "name": "Site 15-90",
+          "type": "unknown",
+          "arc_deg": 154.23,
+          "dist_km": 9.5,
+          "date_bp": 840,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.11341,
+          "lon": -109.33274,
+          "name": "Site 18-473G",
+          "type": "unknown",
+          "arc_deg": 154.16,
+          "dist_km": 10.4,
+          "date_bp": 1110,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.10334,
+          "lon": -109.30876,
+          "name": "CS4",
+          "type": "unknown",
+          "arc_deg": 154.14,
+          "dist_km": 9.9,
+          "date_bp": 840,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -11.04917,
+          "lon": -66.285,
+          "name": "Candelaria",
+          "type": "unknown",
+          "arc_deg": 110.7,
+          "dist_km": 97.6,
+          "date_bp": 1700,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -10.193,
+          "lon": -67.369,
+          "name": "Balne\u00e1rio Quinau\u00e1",
+          "type": "unknown",
+          "arc_deg": 111.23,
+          "dist_km": 42.8,
+          "date_bp": 1760,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -9.599,
+          "lon": -67.292,
+          "name": "Jac\u00f3 S\u00e1",
+          "type": "unknown",
+          "arc_deg": 110.88,
+          "dist_km": 96.8,
+          "date_bp": 1485,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 17.83,
+          "lon": -16.02,
+          "name": "Km 25 sud Nktt",
+          "type": "unknown",
+          "arc_deg": 53.3,
+          "dist_km": 33.3,
+          "date_bp": 1050,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 17.93,
+          "lon": -15.98,
+          "name": "Tin Mahham",
+          "type": "unknown",
+          "arc_deg": 53.22,
+          "dist_km": 41.6,
+          "date_bp": 1700,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.02,
+          "lon": -16.02,
+          "name": "Nouakchott KN3",
+          "type": "unknown",
+          "arc_deg": 53.22,
+          "dist_km": 52.4,
+          "date_bp": 1300,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.1,
+          "lon": -15.67,
+          "name": "Aftout Targue nord",
+          "type": "unknown",
+          "arc_deg": 52.88,
+          "dist_km": 44.8,
+          "date_bp": 1740,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.35,
+          "lon": -15.73,
+          "name": "Touila",
+          "type": "unknown",
+          "arc_deg": 52.83,
+          "dist_km": 72.6,
+          "date_bp": 1380,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.4,
+          "lon": -15.67,
+          "name": "Akreidil",
+          "type": "unknown",
+          "arc_deg": 52.76,
+          "dist_km": 75.0,
+          "date_bp": 1460,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 18.79693,
+          "lon": 93.6353,
+          "name": "Saline? (island)",
+          "type": "unknown",
+          "arc_deg": 311.5,
+          "dist_km": 90.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 19.21563,
+          "lon": 93.38353,
+          "name": "Bazakata? (island)",
+          "type": "unknown",
+          "arc_deg": 311.89,
+          "dist_km": 58.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 20.01393,
+          "lon": 93.33042,
+          "name": "Sada",
+          "type": "settlement",
+          "arc_deg": 312.25,
+          "dist_km": 20.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 20.39821,
+          "lon": 93.34122,
+          "name": "Argyra Chora",
+          "type": "unknown",
+          "arc_deg": 312.4,
+          "dist_km": 60.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.2701,
+          "lon": 86.31929,
+          "name": "Bamanghati",
+          "type": "settlement",
+          "arc_deg": 319.16,
+          "dist_km": 21.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.29042,
+          "lon": 87.91595,
+          "name": "Tamalites",
+          "type": "settlement",
+          "arc_deg": 317.79,
+          "dist_km": 40.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.5,
+          "lon": 87.5,
+          "name": "Kambouson Stoma",
+          "type": "unknown",
+          "arc_deg": 318.22,
+          "dist_km": 46.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.50177,
+          "lon": 86.01401,
+          "name": "Suari/Uberae",
+          "type": "unknown",
+          "arc_deg": 319.5,
+          "dist_km": 8.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.65088,
+          "lon": 86.37591,
+          "name": "Adamas? (river)",
+          "type": "unknown",
+          "arc_deg": 319.25,
+          "dist_km": 20.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 22.80402,
+          "lon": 82.64906,
+          "name": "Ouxenton (mountain)",
+          "type": "unknown",
+          "arc_deg": 322.52,
+          "dist_km": 95.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 25.21117,
+          "lon": 78.49739,
+          "name": "Charmae",
+          "type": "unknown",
+          "arc_deg": 326.89,
+          "dist_km": 23.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 25.49458,
+          "lon": 73.89293,
+          "name": "Phyllitai",
+          "type": "unknown",
+          "arc_deg": 330.95,
+          "dist_km": 80.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 25.69285,
+          "lon": 78.50292,
+          "name": "Eragassa",
+          "type": "settlement",
+          "arc_deg": 327.03,
+          "dist_km": 74.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 25.84379,
+          "lon": 74.87537,
+          "name": "M\u0101lavas",
+          "type": "unknown",
+          "arc_deg": 330.2,
+          "dist_km": 15.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.38054,
+          "lon": 72.68381,
+          "name": "Sarabastrae",
+          "type": "unknown",
+          "arc_deg": 332.24,
+          "dist_km": 17.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.52369,
+          "lon": 13.00968,
+          "name": "el-Grefa",
+          "type": "unknown",
+          "arc_deg": 25.14,
+          "dist_km": 76.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.53162,
+          "lon": 13.08532,
+          "name": "Tuasc",
+          "type": "unknown",
+          "arc_deg": 25.07,
+          "dist_km": 77.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.54449,
+          "lon": 13.30805,
+          "name": "el-Fgeg",
+          "type": "unknown",
+          "arc_deg": 24.88,
+          "dist_km": 81.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.5493,
+          "lon": 12.94955,
+          "name": "el-Hattia",
+          "type": "unknown",
+          "arc_deg": 25.19,
+          "dist_km": 72.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.55709,
+          "lon": 13.20261,
+          "name": "Tuiua",
+          "type": "unknown",
+          "arc_deg": 24.96,
+          "dist_km": 77.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.56673,
+          "lon": 13.43853,
+          "name": "Lecksair",
+          "type": "settlement",
+          "arc_deg": 24.76,
+          "dist_km": 82.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.58802,
+          "lon": 13.56273,
+          "name": "er-Rugheba",
+          "type": "unknown",
+          "arc_deg": 24.64,
+          "dist_km": 82.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.58894,
+          "lon": 13.47007,
+          "name": "el-Gser",
+          "type": "unknown",
+          "arc_deg": 24.72,
+          "dist_km": 80.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.59927,
+          "lon": 13.10048,
+          "name": "Gasr el-Uatuat",
+          "type": "unknown",
+          "arc_deg": 25.04,
+          "dist_km": 70.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.60396,
+          "lon": 74.24013,
+          "name": "Oratae",
+          "type": "unknown",
+          "arc_deg": 330.95,
+          "dist_km": 48.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.62924,
+          "lon": 13.62785,
+          "name": "et-Tanahma",
+          "type": "unknown",
+          "arc_deg": 24.58,
+          "dist_km": 79.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.62971,
+          "lon": 13.15852,
+          "name": "Saniat Suleiman Craida",
+          "type": "settlement",
+          "arc_deg": 24.99,
+          "dist_km": 68.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.63446,
+          "lon": 13.68089,
+          "name": "Gasr Bendbeia",
+          "type": "unknown",
+          "arc_deg": 24.53,
+          "dist_km": 80.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.64144,
+          "lon": 13.14393,
+          "name": "Saniat Gebril",
+          "type": "settlement",
+          "arc_deg": 25.0,
+          "dist_km": 67.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.65684,
+          "lon": 13.69651,
+          "name": "Gasr Abudrina",
+          "type": "settlement",
+          "arc_deg": 24.51,
+          "dist_km": 78.4,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.67489,
+          "lon": 12.8749,
+          "name": "Tag'lit",
+          "type": "unknown",
+          "arc_deg": 25.22,
+          "dist_km": 57.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.68053,
+          "lon": 12.76529,
+          "name": "ed-Disa",
+          "type": "unknown",
+          "arc_deg": 25.31,
+          "dist_km": 53.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.69854,
+          "lon": 13.78588,
+          "name": "Gelah",
+          "type": "settlement",
+          "arc_deg": 24.42,
+          "dist_km": 76.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.73254,
+          "lon": 13.8915,
+          "name": "Chlef",
+          "type": "settlement",
+          "arc_deg": 24.32,
+          "dist_km": 74.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.73414,
+          "lon": 13.94083,
+          "name": "el-Hamra",
+          "type": "unknown",
+          "arc_deg": 24.28,
+          "dist_km": 75.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.76036,
+          "lon": 13.99479,
+          "name": "el-Abiad",
+          "type": "unknown",
+          "arc_deg": 24.23,
+          "dist_km": 74.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.82394,
+          "lon": 68.07362,
+          "name": "Naagramma",
+          "type": "settlement",
+          "arc_deg": 336.34,
+          "dist_km": 81.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.86445,
+          "lon": 69.07736,
+          "name": "Surae",
+          "type": "unknown",
+          "arc_deg": 335.48,
+          "dist_km": 54.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 26.99972,
+          "lon": 66.9984,
+          "name": "Arbita (mountain)",
+          "type": "unknown",
+          "arc_deg": 337.32,
+          "dist_km": 86.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.06797,
+          "lon": 14.44041,
+          "name": "Sabae",
+          "type": "settlement",
+          "arc_deg": 23.77,
+          "dist_km": 51.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.35354,
+          "lon": 67.71905,
+          "name": "Silae",
+          "type": "unknown",
+          "arc_deg": 336.77,
+          "dist_km": 32.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.5,
+          "lon": 72.5,
+          "name": "Maroae",
+          "type": "unknown",
+          "arc_deg": 332.69,
+          "dist_km": 98.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.55096,
+          "lon": 67.97236,
+          "name": "Mesae",
+          "type": "unknown",
+          "arc_deg": 336.59,
+          "dist_km": 5.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 27.68921,
+          "lon": 68.84908,
+          "name": "Kamigara",
+          "type": "settlement",
+          "arc_deg": 335.87,
+          "dist_km": 29.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 28.78859,
+          "lon": 27.05284,
+          "name": "Sitra",
+          "type": "settlement",
+          "arc_deg": 12.5,
+          "dist_km": 82.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.0111,
+          "lon": 30.9289,
+          "name": "Nino",
+          "type": "settlement",
+          "arc_deg": 9.11,
+          "dist_km": 98.9,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.02615,
+          "lon": 21.5489,
+          "name": "Gialo",
+          "type": "settlement",
+          "arc_deg": 17.23,
+          "dist_km": 22.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.04837,
+          "lon": 31.09943,
+          "name": "Thmoinepsi",
+          "type": "settlement",
+          "arc_deg": 8.95,
+          "dist_km": 96.2,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.06476,
+          "lon": 25.39879,
+          "name": "Hammoniacus Nomos",
+          "type": "unknown",
+          "arc_deg": 13.9,
+          "dist_km": 31.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.06646,
+          "lon": 30.28324,
+          "name": "Ain el-Rayan el-Wastaniya",
+          "type": "unknown",
+          "arc_deg": 9.66,
+          "dist_km": 86.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.06667,
+          "lon": 51.90001,
+          "name": "Qanat-i Bagh",
+          "type": "monumental",
+          "arc_deg": 350.79,
+          "dist_km": 91.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.07488,
+          "lon": 31.02771,
+          "name": "Mouchis",
+          "type": "settlement",
+          "arc_deg": 9.01,
+          "dist_km": 92.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.09022,
+          "lon": 30.32827,
+          "name": "Ain el-Rayan el-Bahariya",
+          "type": "unknown",
+          "arc_deg": 9.62,
+          "dist_km": 84.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.09656,
+          "lon": 52.65581,
+          "name": "Muk",
+          "type": "monumental",
+          "arc_deg": 350.14,
+          "dist_km": 81.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.12491,
+          "lon": 30.90036,
+          "name": "Tomis (river)",
+          "type": "unknown",
+          "arc_deg": 9.12,
+          "dist_km": 86.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.18577,
+          "lon": 31.04564,
+          "name": "Kom Abu Khalid",
+          "type": "unknown",
+          "arc_deg": 8.99,
+          "dist_km": 80.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19377,
+          "lon": 30.87699,
+          "name": "Neklone",
+          "type": "monumental",
+          "arc_deg": 9.13,
+          "dist_km": 78.2,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.19558,
+          "lon": 53.2311,
+          "name": "Sarvestan Palace",
+          "type": "monumental",
+          "arc_deg": 349.65,
+          "dist_km": 64.7,
+          "date_bp": 1700,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23014,
+          "lon": 30.71486,
+          "name": "Noeris",
+          "type": "settlement",
+          "arc_deg": 9.27,
+          "dist_km": 72.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23344,
+          "lon": 25.48345,
+          "name": "el-Wazidi",
+          "type": "unknown",
+          "arc_deg": 13.81,
+          "dist_km": 13.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.23844,
+          "lon": 31.19594,
+          "name": "Thmoiamounis",
+          "type": "settlement",
+          "arc_deg": 8.85,
+          "dist_km": 76.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.24035,
+          "lon": 30.77807,
+          "name": "Kelol",
+          "type": "settlement",
+          "arc_deg": 9.22,
+          "dist_km": 72.1,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.24939,
+          "lon": 32.90458,
+          "name": "Arandara",
+          "type": "settlement",
+          "arc_deg": 7.37,
+          "dist_km": 88.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.29977,
+          "lon": 25.40912,
+          "name": "Zawa",
+          "type": "unknown",
+          "arc_deg": 13.86,
+          "dist_km": 5.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.30007,
+          "lon": 21.64703,
+          "name": "Gicherra",
+          "type": "settlement",
+          "arc_deg": 17.1,
+          "dist_km": 51.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.31138,
+          "lon": 31.23811,
+          "name": "Parembole",
+          "type": "settlement",
+          "arc_deg": 8.81,
+          "dist_km": 68.3,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.31851,
+          "lon": 31.12108,
+          "name": "Pouet",
+          "type": "settlement",
+          "arc_deg": 8.91,
+          "dist_km": 66.5,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.32254,
+          "lon": 25.3938,
+          "name": "Bilad er-Rum",
+          "type": "settlement",
+          "arc_deg": 13.87,
+          "dist_km": 2.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.35376,
+          "lon": 30.96982,
+          "name": "Sele",
+          "type": "settlement",
+          "arc_deg": 9.04,
+          "dist_km": 61.3,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.35585,
+          "lon": 30.6756,
+          "name": "Pisais",
+          "type": "settlement",
+          "arc_deg": 9.29,
+          "dist_km": 58.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.36802,
+          "lon": 30.85168,
+          "name": "Piamouei",
+          "type": "settlement",
+          "arc_deg": 9.14,
+          "dist_km": 58.7,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.37354,
+          "lon": 32.57337,
+          "name": "Ras Abu el Daraq",
+          "type": "monumental",
+          "arc_deg": 7.64,
+          "dist_km": 72.2,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.3787,
+          "lon": 30.79404,
+          "name": "Phanou",
+          "type": "settlement",
+          "arc_deg": 9.19,
+          "dist_km": 57.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.38314,
+          "lon": 30.77793,
+          "name": "Phentemin",
+          "type": "settlement",
+          "arc_deg": 9.2,
+          "dist_km": 56.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.40549,
+          "lon": 31.01943,
+          "name": "Pantikou",
+          "type": "settlement",
+          "arc_deg": 8.99,
+          "dist_km": 56.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.40631,
+          "lon": 25.28766,
+          "name": "Abbiar Gabbus",
+          "type": "unknown",
+          "arc_deg": 13.95,
+          "dist_km": 8.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.41945,
+          "lon": 32.81503,
+          "name": "Marah",
+          "type": "settlement",
+          "arc_deg": 7.43,
+          "dist_km": 68.8,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.43552,
+          "lon": 25.181,
+          "name": "Schiatuh",
+          "type": "unknown",
+          "arc_deg": 14.04,
+          "dist_km": 12.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.43654,
+          "lon": 55.66864,
+          "name": "Shiragan/Sirjan",
+          "type": "settlement",
+          "arc_deg": 347.57,
+          "dist_km": 11.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.43876,
+          "lon": 48.34368,
+          "name": "al-Qusur",
+          "type": "settlement",
+          "arc_deg": 353.92,
+          "dist_km": 76.9,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.44912,
+          "lon": 51.67641,
+          "name": "Puskan Castle",
+          "type": "unknown",
+          "arc_deg": 351.02,
+          "dist_km": 51.3,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.46915,
+          "lon": 34.84255,
+          "name": "Wadi Tuweiba",
+          "type": "settlement",
+          "arc_deg": 5.67,
+          "dist_km": 76.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 25.5,
+          "name": "Abu Mansur",
+          "type": "unknown",
+          "arc_deg": 13.75,
+          "dist_km": 15.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 34.0,
+          "name": "Sinai",
+          "type": "unknown",
+          "arc_deg": 6.4,
+          "dist_km": 67.9,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.5,
+          "lon": 51.5,
+          "name": "Girre",
+          "type": "unknown",
+          "arc_deg": 351.18,
+          "dist_km": 47.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.51177,
+          "lon": 31.24833,
+          "name": "Akanthonpolis",
+          "type": "settlement",
+          "arc_deg": 8.78,
+          "dist_km": 46.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.54378,
+          "lon": 35.13368,
+          "name": "Khirbet el-Kithara",
+          "type": "unknown",
+          "arc_deg": 5.41,
+          "dist_km": 69.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.56797,
+          "lon": 52.65391,
+          "name": "Barm-i Dilak",
+          "type": "monumental",
+          "arc_deg": 350.19,
+          "dist_km": 29.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.59669,
+          "lon": 35.06479,
+          "name": "Wadi Mulgham",
+          "type": "settlement",
+          "arc_deg": 5.47,
+          "dist_km": 63.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.61833,
+          "lon": 51.65833,
+          "name": "Kazerun",
+          "type": "monumental",
+          "arc_deg": 351.05,
+          "dist_km": 32.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.65672,
+          "lon": 35.23068,
+          "name": "\u2018Praesidio\u2019",
+          "type": "unknown",
+          "arc_deg": 5.32,
+          "dist_km": 57.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.71313,
+          "lon": 35.05529,
+          "name": "Rujm Hadid",
+          "type": "settlement",
+          "arc_deg": 5.47,
+          "dist_km": 50.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.72869,
+          "lon": 31.30207,
+          "name": "Skenai Mandrai",
+          "type": "unknown",
+          "arc_deg": 8.72,
+          "dist_km": 22.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 30.75,
+          "name": "Epagathiane (Diorux)",
+          "type": "unknown",
+          "arc_deg": 9.19,
+          "dist_km": 15.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.75,
+          "lon": 31.25,
+          "name": "Patsonteos (Oreine)",
+          "type": "unknown",
+          "arc_deg": 8.76,
+          "dist_km": 19.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.77763,
+          "lon": 51.57094,
+          "name": "Veh Shapur/Bishapur",
+          "type": "settlement",
+          "arc_deg": 351.14,
+          "dist_km": 15.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.79313,
+          "lon": 35.12622,
+          "name": "Taba Sabkha",
+          "type": "settlement",
+          "arc_deg": 5.4,
+          "dist_km": 41.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.79728,
+          "lon": 56.97877,
+          "name": "Ghubayr\u0101",
+          "type": "settlement",
+          "arc_deg": 346.48,
+          "dist_km": 45.2,
+          "date_bp": 1131,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.80321,
+          "lon": 39.88222,
+          "name": "Dumatha",
+          "type": "settlement",
+          "arc_deg": 1.28,
+          "dist_km": 56.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.80377,
+          "lon": 35.30866,
+          "name": "Quweira",
+          "type": "unknown",
+          "arc_deg": 5.24,
+          "dist_km": 41.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.80493,
+          "lon": 52.98177,
+          "name": "Maqsudabad",
+          "type": "monumental",
+          "arc_deg": 349.93,
+          "dist_km": 0.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.80766,
+          "lon": 51.6118,
+          "name": "Gur-i Shapur",
+          "type": "monumental",
+          "arc_deg": 351.11,
+          "dist_km": 12.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.83026,
+          "lon": 35.06382,
+          "name": "Arabia Petraia",
+          "type": "unknown",
+          "arc_deg": 5.45,
+          "dist_km": 37.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.84518,
+          "lon": 35.32717,
+          "name": "Qasr el-Qorbah",
+          "type": "settlement",
+          "arc_deg": 5.23,
+          "dist_km": 37.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.84858,
+          "lon": 51.57708,
+          "name": "Tang-i Qandil",
+          "type": "monumental",
+          "arc_deg": 351.14,
+          "dist_km": 7.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.85106,
+          "lon": 52.32373,
+          "name": "Guyum",
+          "type": "monumental",
+          "arc_deg": 350.5,
+          "dist_km": 0.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.86553,
+          "lon": 52.94861,
+          "name": "Akhur-i Rustam",
+          "type": "unknown",
+          "arc_deg": 349.96,
+          "dist_km": 6.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.89491,
+          "lon": 35.06076,
+          "name": "(B)Ossia/Ad Dianam?",
+          "type": "unknown",
+          "arc_deg": 5.45,
+          "dist_km": 30.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.95313,
+          "lon": 35.34806,
+          "name": "Humayma Roman Fort",
+          "type": "unknown",
+          "arc_deg": 5.2,
+          "dist_km": 25.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.96008,
+          "lon": 52.91536,
+          "name": "Darre-ye Barre",
+          "type": "monumental",
+          "arc_deg": 350.0,
+          "dist_km": 16.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.96649,
+          "lon": 52.88704,
+          "name": "Naqsh-i Rajab",
+          "type": "monumental",
+          "arc_deg": 350.03,
+          "dist_km": 17.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.97635,
+          "lon": 52.92621,
+          "name": "Hajjiabad",
+          "type": "monumental",
+          "arc_deg": 349.99,
+          "dist_km": 18.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98083,
+          "lon": 52.90944,
+          "name": "(I)Stakhr",
+          "type": "settlement",
+          "arc_deg": 350.01,
+          "dist_km": 19.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 29.98181,
+          "lon": 52.6665,
+          "name": "Kuh-i Ayyub",
+          "type": "monumental",
+          "arc_deg": 350.22,
+          "dist_km": 16.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.00071,
+          "lon": 35.26402,
+          "name": "Wadi Nukhaya",
+          "type": "settlement",
+          "arc_deg": 5.27,
+          "dist_km": 19.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.0108,
+          "lon": 51.5873,
+          "name": "Naqsh-i Bahram",
+          "type": "monumental",
+          "arc_deg": 351.15,
+          "dist_km": 10.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.04546,
+          "lon": 33.00229,
+          "name": "Sarakene",
+          "type": "unknown",
+          "arc_deg": 7.22,
+          "dist_km": 0.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.04994,
+          "lon": 31.26212,
+          "name": "Darb Qirmiz",
+          "type": "unknown",
+          "arc_deg": 8.72,
+          "dist_km": 13.3,
+          "date_bp": 1000,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.05338,
+          "lon": 35.49371,
+          "name": "Khirbet el-Hiyad",
+          "type": "settlement",
+          "arc_deg": 5.07,
+          "dist_km": 14.9,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.07116,
+          "lon": 35.46459,
+          "name": "Suweimirah",
+          "type": "settlement",
+          "arc_deg": 5.09,
+          "dist_km": 12.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.08374,
+          "lon": 35.2198,
+          "name": "Arieldela",
+          "type": "settlement",
+          "arc_deg": 5.31,
+          "dist_km": 10.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.09998,
+          "lon": 51.45951,
+          "name": "Nurabad",
+          "type": "unknown",
+          "arc_deg": 351.27,
+          "dist_km": 18.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.12341,
+          "lon": 35.47993,
+          "name": "Khirbet Dor",
+          "type": "unknown",
+          "arc_deg": 5.08,
+          "dist_km": 7.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.14414,
+          "lon": 52.53267,
+          "name": "Kuh-i Shahrak",
+          "type": "monumental",
+          "arc_deg": 350.35,
+          "dist_km": 33.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.14514,
+          "lon": 31.27721,
+          "name": "Heliopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 8.7,
+          "dist_km": 23.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.19874,
+          "lon": 35.75077,
+          "name": "Ammatha",
+          "type": "unknown",
+          "arc_deg": 4.84,
+          "dist_km": 0.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.22581,
+          "lon": 35.51552,
+          "name": "Ail",
+          "type": "unknown",
+          "arc_deg": 5.04,
+          "dist_km": 4.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.22696,
+          "lon": 35.78044,
+          "name": "el-Mutrab",
+          "type": "unknown",
+          "arc_deg": 4.81,
+          "dist_km": 3.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.23103,
+          "lon": 27.76568,
+          "name": "Klimax?",
+          "type": "unknown",
+          "arc_deg": 11.71,
+          "dist_km": 68.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.25,
+          "lon": 35.75,
+          "name": "Basta",
+          "type": "settlement",
+          "arc_deg": 4.84,
+          "dist_km": 5.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.25077,
+          "lon": 27.13177,
+          "name": "Ogdaimoi?",
+          "type": "unknown",
+          "arc_deg": 12.25,
+          "dist_km": 77.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.26444,
+          "lon": 35.47909,
+          "name": "Qasr Tuliyeh",
+          "type": "unknown",
+          "arc_deg": 5.07,
+          "dist_km": 8.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.28527,
+          "lon": 51.281,
+          "name": "Untitled",
+          "type": "settlement",
+          "arc_deg": 351.44,
+          "dist_km": 38.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.29125,
+          "lon": 35.54817,
+          "name": "Abu Danna",
+          "type": "unknown",
+          "arc_deg": 5.01,
+          "dist_km": 11.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.29192,
+          "lon": 30.47575,
+          "name": "Deir Abou Makar",
+          "type": "monumental",
+          "arc_deg": 9.38,
+          "dist_km": 47.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.31731,
+          "lon": 50.90792,
+          "name": "Chahar Deh",
+          "type": "monumental",
+          "arc_deg": 351.76,
+          "dist_km": 38.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.31786,
+          "lon": 30.35487,
+          "name": "Deir el-Sourian",
+          "type": "monumental",
+          "arc_deg": 9.48,
+          "dist_km": 51.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.31906,
+          "lon": 30.35985,
+          "name": "Deir Amba Bishoi",
+          "type": "monumental",
+          "arc_deg": 9.48,
+          "dist_km": 51.1,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.32226,
+          "lon": 35.45157,
+          "name": "Al-Khazneh",
+          "type": "monumental",
+          "arc_deg": 5.09,
+          "dist_km": 15.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.32421,
+          "lon": 35.40115,
+          "name": "Sobora/Karkaria",
+          "type": "settlement",
+          "arc_deg": 5.14,
+          "dist_km": 15.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.33193,
+          "lon": 35.27361,
+          "name": "Qasr Taiyibeh",
+          "type": "unknown",
+          "arc_deg": 5.25,
+          "dist_km": 17.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.33209,
+          "lon": 35.5959,
+          "name": "Adrou/Augustopolis",
+          "type": "unknown",
+          "arc_deg": 4.97,
+          "dist_km": 15.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.35712,
+          "lon": 30.27067,
+          "name": "Deir Amba Baramos",
+          "type": "monumental",
+          "arc_deg": 9.55,
+          "dist_km": 56.1,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.40359,
+          "lon": 35.3396,
+          "name": "Bir Madkhur",
+          "type": "settlement",
+          "arc_deg": 5.18,
+          "dist_km": 24.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.40996,
+          "lon": 34.35785,
+          "name": "Lysa?",
+          "type": "settlement",
+          "arc_deg": 6.03,
+          "dist_km": 30.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.41153,
+          "lon": 30.85102,
+          "name": "Nikiou",
+          "type": "settlement",
+          "arc_deg": 9.05,
+          "dist_km": 56.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.42151,
+          "lon": 31.55943,
+          "name": "Bilbeis",
+          "type": "settlement",
+          "arc_deg": 8.44,
+          "dist_km": 51.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.43752,
+          "lon": 30.74656,
+          "name": "Prosopites Nomos",
+          "type": "settlement",
+          "arc_deg": 9.13,
+          "dist_km": 60.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.45487,
+          "lon": 30.22154,
+          "name": "Sketis",
+          "type": "unknown",
+          "arc_deg": 9.58,
+          "dist_km": 67.4,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.46353,
+          "lon": 30.93078,
+          "name": "Onouphis Ano",
+          "type": "settlement",
+          "arc_deg": 8.97,
+          "dist_km": 61.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.48736,
+          "lon": 32.0692,
+          "name": "Heroopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 7.99,
+          "dist_km": 55.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.49944,
+          "lon": 50.46535,
+          "name": "Khayrabad Bala",
+          "type": "monumental",
+          "arc_deg": 352.16,
+          "dist_km": 55.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.5,
+          "lon": 50.5,
+          "name": "Untitled",
+          "type": "settlement",
+          "arc_deg": 352.13,
+          "dist_km": 55.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.52706,
+          "lon": 35.56264,
+          "name": "Negla",
+          "type": "settlement",
+          "arc_deg": 4.99,
+          "dist_km": 37.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.55271,
+          "lon": 35.76177,
+          "name": "Da'janiya",
+          "type": "unknown",
+          "arc_deg": 4.81,
+          "dist_km": 39.3,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.62732,
+          "lon": 35.49401,
+          "name": "Phaino",
+          "type": "settlement",
+          "arc_deg": 5.04,
+          "dist_km": 48.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.64327,
+          "lon": 34.41375,
+          "name": "Cadesh Barnea",
+          "type": "unknown",
+          "arc_deg": 5.97,
+          "dist_km": 56.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.66283,
+          "lon": 50.30914,
+          "name": "Veh-az-Amid-Kavad/[Arragan]",
+          "type": "settlement",
+          "arc_deg": 352.3,
+          "dist_km": 72.1,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.68756,
+          "lon": 31.13739,
+          "name": "Diokleous Kome",
+          "type": "settlement",
+          "arc_deg": 8.77,
+          "dist_km": 85.0,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.68772,
+          "lon": 35.86809,
+          "name": "Jurf ed-Darawish",
+          "type": "unknown",
+          "arc_deg": 4.72,
+          "dist_km": 53.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.70713,
+          "lon": 50.137,
+          "name": "Kai Ka'us",
+          "type": "monumental",
+          "arc_deg": 352.46,
+          "dist_km": 75.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.72929,
+          "lon": 35.65069,
+          "name": "Arindela",
+          "type": "settlement",
+          "arc_deg": 4.9,
+          "dist_km": 59.4,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.73364,
+          "lon": 35.61041,
+          "name": "Mamopsora",
+          "type": "settlement",
+          "arc_deg": 4.93,
+          "dist_km": 60.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.73488,
+          "lon": 30.57976,
+          "name": "Andropolites Nomos",
+          "type": "unknown",
+          "arc_deg": 9.25,
+          "dist_km": 95.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 30.75,
+          "name": "Momemphites Nomos",
+          "type": "unknown",
+          "arc_deg": 9.1,
+          "dist_km": 95.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 31.0,
+          "name": "Unnamed road",
+          "type": "unknown",
+          "arc_deg": 8.89,
+          "dist_km": 93.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.75,
+          "lon": 35.75,
+          "name": "Untitled",
+          "type": "settlement",
+          "arc_deg": 4.81,
+          "dist_km": 61.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.76196,
+          "lon": 36.68016,
+          "name": "Qasr Bayir",
+          "type": "settlement",
+          "arc_deg": 4.02,
+          "dist_km": 58.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.77035,
+          "lon": 35.71767,
+          "name": "Thornia/Th(o)ana",
+          "type": "settlement",
+          "arc_deg": 4.84,
+          "dist_km": 63.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.77093,
+          "lon": 31.00461,
+          "name": "Taya",
+          "type": "settlement",
+          "arc_deg": 8.88,
+          "dist_km": 95.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.77808,
+          "lon": 30.62647,
+          "name": "Andronpolis",
+          "type": "settlement",
+          "arc_deg": 9.2,
+          "dist_km": 99.5,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.7827,
+          "lon": 47.70108,
+          "name": "Maghlub/Forat?/Perat de Meshan?/Bahman Ardashir?/\u2018Oratha\u2019?/Furat al-Basra?",
+          "type": "settlement",
+          "arc_deg": 354.55,
+          "dist_km": 68.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.79722,
+          "lon": 34.77555,
+          "name": "Roman Army camp (Eboda)",
+          "type": "settlement",
+          "arc_deg": 5.65,
+          "dist_km": 71.5,
+          "date_bp": 1750,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.81574,
+          "lon": 35.23762,
+          "name": "Thamara?",
+          "type": "settlement",
+          "arc_deg": 5.25,
+          "dist_km": 71.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.85155,
+          "lon": 35.91947,
+          "name": "er-Ruweihi",
+          "type": "unknown",
+          "arc_deg": 4.66,
+          "dist_km": 71.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.86091,
+          "lon": 32.44425,
+          "name": "Apollonopolites Nomos",
+          "type": "unknown",
+          "arc_deg": 7.64,
+          "dist_km": 93.7,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.87011,
+          "lon": 34.73149,
+          "name": "Horvat Ma'agurah",
+          "type": "settlement",
+          "arc_deg": 5.68,
+          "dist_km": 79.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.89929,
+          "lon": 35.1305,
+          "name": "Rogem Zafir",
+          "type": "unknown",
+          "arc_deg": 5.34,
+          "dist_km": 80.9,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.90212,
+          "lon": 35.75768,
+          "name": "Rujm el-Farideyyeh",
+          "type": "unknown",
+          "arc_deg": 4.8,
+          "dist_km": 78.1,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.90764,
+          "lon": 35.86329,
+          "name": "Umm Ubtulah",
+          "type": "unknown",
+          "arc_deg": 4.71,
+          "dist_km": 78.2,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.91543,
+          "lon": 35.71681,
+          "name": "Khirbet ed-Dharih",
+          "type": "settlement",
+          "arc_deg": 4.83,
+          "dist_km": 79.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.91956,
+          "lon": 35.11223,
+          "name": "Horvat Zafir",
+          "type": "unknown",
+          "arc_deg": 5.35,
+          "dist_km": 83.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.93319,
+          "lon": 35.09797,
+          "name": "Mezad Zafir",
+          "type": "unknown",
+          "arc_deg": 5.36,
+          "dist_km": 84.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.9441,
+          "lon": 35.44226,
+          "name": "Praesidium",
+          "type": "unknown",
+          "arc_deg": 5.07,
+          "dist_km": 84.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 30.9688,
+          "lon": 35.70634,
+          "name": "Khirbet et-Tannur",
+          "type": "monumental",
+          "arc_deg": 4.84,
+          "dist_km": 85.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.02352,
+          "lon": 35.10553,
+          "name": "Untitled",
+          "type": "unknown",
+          "arc_deg": 5.35,
+          "dist_km": 94.8,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.02727,
+          "lon": 35.48182,
+          "name": "Zoara",
+          "type": "settlement",
+          "arc_deg": 5.03,
+          "dist_km": 93.3,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.02779,
+          "lon": 35.24164,
+          "name": "Mezad Thamar",
+          "type": "unknown",
+          "arc_deg": 5.24,
+          "dist_km": 94.6,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.03574,
+          "lon": 34.59951,
+          "name": "Soudanon",
+          "type": "settlement",
+          "arc_deg": 5.78,
+          "dist_km": 99.0,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.04561,
+          "lon": 35.84573,
+          "name": "Mudeibi",
+          "type": "settlement",
+          "arc_deg": 4.72,
+          "dist_km": 93.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.04685,
+          "lon": 35.50275,
+          "name": "Ag. Lot",
+          "type": "monumental",
+          "arc_deg": 5.01,
+          "dist_km": 95.4,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.05905,
+          "lon": 35.18358,
+          "name": "Mezad Zafit",
+          "type": "unknown",
+          "arc_deg": 5.28,
+          "dist_km": 98.4,
+          "date_bp": 1650,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.09138,
+          "lon": 35.63428,
+          "name": "El-\u2018Iraq",
+          "type": "settlement",
+          "arc_deg": 4.9,
+          "dist_km": 99.7,
+          "date_bp": 1949,
+          "source": "pleiades"
+        },
+        {
+          "lat": 31.09334,
+          "lon": 35.69585,
+          "name": "Mothous",
+          "type": "settlement",
+          "arc_deg": 4.84,
+          "dist_km": 99.6,
+          "date_bp": 1980,
+          "source": "pleiades"
+        }
+      ],
+      "count": 209,
+      "by_type": {
+        "monumental": 29,
+        "settlement": 80,
+        "unknown": 100
+      },
+      "by_source": {
+        "p3k14c": 15,
+        "pleiades": 194
+      },
+      "enrichment": {
+        "observed": 209,
+        "expected": 1008.34,
+        "std": 30.38,
+        "enrichment": 0.207,
+        "z_score": -26.31,
+        "too_few": false
+      }
+    },
+    {
+      "period_label": "Late (800\u2013300 BP)",
+      "start_bp": 800,
+      "end_bp": 300,
+      "start_cal": 1150,
+      "end_cal": 1650,
+      "sites": [
+        {
+          "lat": -27.16946,
+          "lon": -109.40688,
+          "name": "Feature 101A",
+          "type": "unknown",
+          "arc_deg": 154.24,
+          "dist_km": 14.6,
+          "date_bp": 460,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.16808,
+          "lon": -109.39887,
+          "name": "Ahu o Tuki",
+          "type": "monumental",
+          "arc_deg": 154.24,
+          "dist_km": 14.7,
+          "date_bp": 640,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.14883,
+          "lon": -109.43215,
+          "name": "Ahu Tautira",
+          "type": "monumental",
+          "arc_deg": 154.26,
+          "dist_km": 11.8,
+          "date_bp": 720,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.14666,
+          "lon": -109.33578,
+          "name": "Site AK 571 Akahanga settlement",
+          "type": "settlement",
+          "arc_deg": 154.18,
+          "dist_km": 13.9,
+          "date_bp": 440,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.1328,
+          "lon": -109.364,
+          "name": "Anakena pre-Ahu Nau Nau I Trench C",
+          "type": "monumental",
+          "arc_deg": 154.2,
+          "dist_km": 11.7,
+          "date_bp": 665,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.12506,
+          "lon": -109.27677,
+          "name": "RN03 Tongariki",
+          "type": "unknown",
+          "arc_deg": 154.12,
+          "dist_km": 13.0,
+          "date_bp": 645,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.12484,
+          "lon": -109.36868,
+          "name": "Site 10-241",
+          "type": "unknown",
+          "arc_deg": 154.2,
+          "dist_km": 10.8,
+          "date_bp": 480,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.12303,
+          "lon": -109.26426,
+          "name": "SW Poike",
+          "type": "unknown",
+          "arc_deg": 154.11,
+          "dist_km": 13.1,
+          "date_bp": 654,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.10712,
+          "lon": -109.35967,
+          "name": "T 01 Stone-lined basin",
+          "type": "unknown",
+          "arc_deg": 154.19,
+          "dist_km": 9.1,
+          "date_bp": 384,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.10573,
+          "lon": -109.29306,
+          "name": "ST 14",
+          "type": "unknown",
+          "arc_deg": 154.13,
+          "dist_km": 10.6,
+          "date_bp": 407,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.10438,
+          "lon": -109.23998,
+          "name": "Site B",
+          "type": "unknown",
+          "arc_deg": 154.08,
+          "dist_km": 11.7,
+          "date_bp": 640,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.10247,
+          "lon": -109.32079,
+          "name": "ST 43",
+          "type": "unknown",
+          "arc_deg": 154.15,
+          "dist_km": 9.5,
+          "date_bp": 426,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.09568,
+          "lon": -109.24904,
+          "name": "AMTH-III Ahu Motu Toremo Hiva",
+          "type": "monumental",
+          "arc_deg": 154.09,
+          "dist_km": 10.6,
+          "date_bp": 700,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.09231,
+          "lon": -109.29267,
+          "name": "Site 31-98",
+          "type": "unknown",
+          "arc_deg": 154.13,
+          "dist_km": 9.1,
+          "date_bp": 420,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.08721,
+          "lon": -109.40366,
+          "name": "Site 26-1 Ahu Te Niu (Ahu Ohau)",
+          "type": "monumental",
+          "arc_deg": 154.22,
+          "dist_km": 5.9,
+          "date_bp": 700,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.08125,
+          "lon": -109.31162,
+          "name": "Site 31-90 or 31-91",
+          "type": "unknown",
+          "arc_deg": 154.14,
+          "dist_km": 7.5,
+          "date_bp": 795,
+          "source": "p3k14c"
+        },
+        {
+          "lat": -27.07436,
+          "lon": -109.32246,
+          "name": "Auh Nau Nau plaza",
+          "type": "unknown",
+          "arc_deg": 154.15,
+          "dist_km": 6.5,
+          "date_bp": 720,
+          "source": "p3k14c"
+        },
+        {
+          "lat": 28.75508,
+          "lon": 54.54477,
+          "name": "Darabgird",
+          "type": "settlement",
+          "arc_deg": 348.46,
+          "dist_km": 99.4,
+          "date_bp": 450,
+          "source": "pleiades"
+        }
+      ],
+      "count": 18,
+      "by_type": {
+        "monumental": 5,
+        "settlement": 2,
+        "unknown": 11
+      },
+      "by_source": {
+        "p3k14c": 17,
+        "pleiades": 1
+      },
+      "enrichment": {
+        "observed": 18,
+        "expected": 1012.02,
+        "std": 31.07,
+        "enrichment": 0.018,
+        "z_score": -31.99,
+        "too_few": false
+      }
+    }
+  ]
+}

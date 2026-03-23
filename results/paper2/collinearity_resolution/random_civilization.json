@@ -1,0 +1,24 @@
+{
+  "actual_fit_km": 0.95,
+  "n_africa_monuments": 663,
+  "n_sa_monuments": 15,
+  "n_pacific_islands": 59,
+  "n_trials": 100000,
+  "count_better": 25,
+  "p_value": 0.00025,
+  "percentile": 0.02,
+  "median_fit_km": 641.52,
+  "mean_fit_km": 783.19,
+  "percentiles": {
+    "1": 25.07,
+    "5": 107.83,
+    "10": 195.74,
+    "25": 406.29,
+    "50": 641.52,
+    "75": 902.2,
+    "90": 1812.72,
+    "95": 2173.63,
+    "99": 3257.94
+  },
+  "verdict": "Specific monument positions matter (p=0.000250)"
+}

@@ -1,0 +1,591 @@
+{
+  "meta": {
+    "analysis": "Temporal Divergence Deep Dive \u2014 500-Year Bins",
+    "date": "2026-03-19",
+    "methodology": {
+      "bins": "500-year windows from 5000 BCE to 500 CE",
+      "pleiades_date_field": "minDate (calendar year)",
+      "p3k14c_date_field": "Age (14C years BP, converted to cal years via simplified IntCal20 approximation)",
+      "p3k14c_classification": "keyword-based (monumental vs domestic from site names)",
+      "pleiades_classification": "featureTypes field (same types as settlement_baseline_test)",
+      "threshold_km": 50,
+      "monte_carlo_trials": 200,
+      "min_sites_per_bin": 20,
+      "great_circle_pole": {
+        "lat": 59.682122,
+        "lon": -138.646087
+      }
+    },
+    "question": "Does monument-settlement divergence onset sharply or gradually? Does it track the known chronology of large-scale monument construction (onset ~3000 BCE, peak ~2500 BCE, decline after ~2000 BCE)?"
+  },
+  "pleiades_bins": [
+    {
+      "bin_start": -5000,
+      "bin_end": -4500,
+      "label": "5000 BCE \u2013 4500 BCE",
+      "monument_n": 7,
+      "settlement_n": 14,
+      "monument_z": null,
+      "settlement_z": null,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": null
+    },
+    {
+      "bin_start": -4500,
+      "bin_end": -4000,
+      "label": "4500 BCE \u2013 4000 BCE",
+      "monument_n": 2,
+      "settlement_n": 8,
+      "monument_z": null,
+      "settlement_z": null,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": null
+    },
+    {
+      "bin_start": -4000,
+      "bin_end": -3500,
+      "label": "4000 BCE \u2013 3500 BCE",
+      "monument_n": 36,
+      "settlement_n": 53,
+      "monument_z": -0.35,
+      "settlement_z": -0.48,
+      "divergence_D": 0.13,
+      "monument_detail": {
+        "n": 36,
+        "observed": 0,
+        "expected": 0.11,
+        "std": 0.31,
+        "z_score": -0.35,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 53,
+        "observed": 1,
+        "expected": 1.58,
+        "std": 1.2,
+        "z_score": -0.48,
+        "enrichment": 0.633,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -3500,
+      "bin_end": -3000,
+      "label": "3500 BCE \u2013 3000 BCE",
+      "monument_n": 6,
+      "settlement_n": 43,
+      "monument_z": null,
+      "settlement_z": -1.64,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": {
+        "n": 43,
+        "observed": 1,
+        "expected": 4.24,
+        "std": 1.97,
+        "z_score": -1.64,
+        "enrichment": 0.236,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -3000,
+      "bin_end": -2500,
+      "label": "3000 BCE \u2013 2500 BCE",
+      "monument_n": 74,
+      "settlement_n": 89,
+      "monument_z": 9.87,
+      "settlement_z": -0.08,
+      "divergence_D": 9.95,
+      "monument_detail": {
+        "n": 74,
+        "observed": 31,
+        "expected": 6.9,
+        "std": 2.44,
+        "z_score": 9.87,
+        "enrichment": 4.493,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 89,
+        "observed": 3,
+        "expected": 3.15,
+        "std": 1.75,
+        "z_score": -0.08,
+        "enrichment": 0.954,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -2500,
+      "bin_end": -2000,
+      "label": "2500 BCE \u2013 2000 BCE",
+      "monument_n": 45,
+      "settlement_n": 28,
+      "monument_z": 2.1,
+      "settlement_z": -0.77,
+      "divergence_D": 2.87,
+      "monument_detail": {
+        "n": 45,
+        "observed": 7,
+        "expected": 3.37,
+        "std": 1.73,
+        "z_score": 2.1,
+        "enrichment": 2.077,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 28,
+        "observed": 1,
+        "expected": 2.14,
+        "std": 1.47,
+        "z_score": -0.77,
+        "enrichment": 0.467,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -2000,
+      "bin_end": -1500,
+      "label": "2000 BCE \u2013 1500 BCE",
+      "monument_n": 286,
+      "settlement_n": 220,
+      "monument_z": -0.97,
+      "settlement_z": -1.05,
+      "divergence_D": 0.08,
+      "monument_detail": {
+        "n": 286,
+        "observed": 1,
+        "expected": 2.52,
+        "std": 1.57,
+        "z_score": -0.97,
+        "enrichment": 0.398,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 220,
+        "observed": 1,
+        "expected": 2.85,
+        "std": 1.76,
+        "z_score": -1.05,
+        "enrichment": 0.351,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -1500,
+      "bin_end": -1000,
+      "label": "1500 BCE \u2013 1000 BCE",
+      "monument_n": 17,
+      "settlement_n": 85,
+      "monument_z": null,
+      "settlement_z": 0.72,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": {
+        "n": 85,
+        "observed": 6,
+        "expected": 4.45,
+        "std": 2.16,
+        "z_score": 0.72,
+        "enrichment": 1.35,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -1000,
+      "bin_end": -500,
+      "label": "1000 BCE \u2013 500 BCE",
+      "monument_n": 921,
+      "settlement_n": 3210,
+      "monument_z": 1.03,
+      "settlement_z": 0.72,
+      "divergence_D": 0.31,
+      "monument_detail": {
+        "n": 921,
+        "observed": 14,
+        "expected": 10.56,
+        "std": 3.33,
+        "z_score": 1.03,
+        "enrichment": 1.326,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 3210,
+        "observed": 26,
+        "expected": 22.71,
+        "std": 4.55,
+        "z_score": 0.72,
+        "enrichment": 1.145,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -500,
+      "bin_end": 0,
+      "label": "500 BCE \u2013 0 CE",
+      "monument_n": 2261,
+      "settlement_n": 11610,
+      "monument_z": 0.62,
+      "settlement_z": -5.36,
+      "divergence_D": 5.98,
+      "monument_detail": {
+        "n": 2261,
+        "observed": 21,
+        "expected": 18.26,
+        "std": 4.44,
+        "z_score": 0.62,
+        "enrichment": 1.15,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 11610,
+        "observed": 62,
+        "expected": 116.32,
+        "std": 10.14,
+        "z_score": -5.36,
+        "enrichment": 0.533,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": 0,
+      "bin_end": 500,
+      "label": "0 CE \u2013 500 CE",
+      "monument_n": 491,
+      "settlement_n": 1244,
+      "monument_z": -2.92,
+      "settlement_z": -3.46,
+      "divergence_D": 0.54,
+      "monument_detail": {
+        "n": 491,
+        "observed": 1,
+        "expected": 12.19,
+        "std": 3.83,
+        "z_score": -2.92,
+        "enrichment": 0.082,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 1244,
+        "observed": 2,
+        "expected": 16.33,
+        "std": 4.15,
+        "z_score": -3.46,
+        "enrichment": 0.122,
+        "too_few": false
+      }
+    }
+  ],
+  "p3k14c_bins": [
+    {
+      "bin_start": -5000,
+      "bin_end": -4500,
+      "label": "5000 BCE \u2013 4500 BCE",
+      "monument_n": 3,
+      "settlement_n": 28,
+      "monument_z": null,
+      "settlement_z": 0.0,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": {
+        "n": 28,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -4500,
+      "bin_end": -4000,
+      "label": "4500 BCE \u2013 4000 BCE",
+      "monument_n": 9,
+      "settlement_n": 34,
+      "monument_z": null,
+      "settlement_z": 0.0,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": {
+        "n": 34,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -4000,
+      "bin_end": -3500,
+      "label": "4000 BCE \u2013 3500 BCE",
+      "monument_n": 14,
+      "settlement_n": 67,
+      "monument_z": null,
+      "settlement_z": -0.07,
+      "divergence_D": null,
+      "monument_detail": null,
+      "settlement_detail": {
+        "n": 67,
+        "observed": 0,
+        "expected": 0.01,
+        "std": 0.07,
+        "z_score": -0.07,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -3500,
+      "bin_end": -3000,
+      "label": "3500 BCE \u2013 3000 BCE",
+      "monument_n": 21,
+      "settlement_n": 85,
+      "monument_z": -0.42,
+      "settlement_z": 0.0,
+      "divergence_D": -0.42,
+      "monument_detail": {
+        "n": 21,
+        "observed": 0,
+        "expected": 0.17,
+        "std": 0.4,
+        "z_score": -0.42,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 85,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -3000,
+      "bin_end": -2500,
+      "label": "3000 BCE \u2013 2500 BCE",
+      "monument_n": 36,
+      "settlement_n": 114,
+      "monument_z": 3.76,
+      "settlement_z": -0.07,
+      "divergence_D": 3.83,
+      "monument_detail": {
+        "n": 36,
+        "observed": 4,
+        "expected": 0.74,
+        "std": 0.87,
+        "z_score": 3.76,
+        "enrichment": 5.369,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 114,
+        "observed": 0,
+        "expected": 0.01,
+        "std": 0.07,
+        "z_score": -0.07,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -2500,
+      "bin_end": -2000,
+      "label": "2500 BCE \u2013 2000 BCE",
+      "monument_n": 50,
+      "settlement_n": 148,
+      "monument_z": 4.13,
+      "settlement_z": 2.71,
+      "divergence_D": 1.42,
+      "monument_detail": {
+        "n": 50,
+        "observed": 5,
+        "expected": 0.94,
+        "std": 0.98,
+        "z_score": 4.13,
+        "enrichment": 5.319,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 148,
+        "observed": 1,
+        "expected": 0.12,
+        "std": 0.32,
+        "z_score": 2.71,
+        "enrichment": 8.333,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -2000,
+      "bin_end": -1500,
+      "label": "2000 BCE \u2013 1500 BCE",
+      "monument_n": 47,
+      "settlement_n": 179,
+      "monument_z": 0.87,
+      "settlement_z": 0.0,
+      "divergence_D": 0.87,
+      "monument_detail": {
+        "n": 47,
+        "observed": 1,
+        "expected": 0.45,
+        "std": 0.64,
+        "z_score": 0.87,
+        "enrichment": 2.247,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 179,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -1500,
+      "bin_end": -1000,
+      "label": "1500 BCE \u2013 1000 BCE",
+      "monument_n": 33,
+      "settlement_n": 156,
+      "monument_z": -0.37,
+      "settlement_z": 2.14,
+      "divergence_D": -2.51,
+      "monument_detail": {
+        "n": 33,
+        "observed": 0,
+        "expected": 0.14,
+        "std": 0.37,
+        "z_score": -0.37,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 156,
+        "observed": 1,
+        "expected": 0.17,
+        "std": 0.39,
+        "z_score": 2.14,
+        "enrichment": 5.882,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -1000,
+      "bin_end": -500,
+      "label": "1000 BCE \u2013 500 BCE",
+      "monument_n": 24,
+      "settlement_n": 81,
+      "monument_z": 0.0,
+      "settlement_z": 2.14,
+      "divergence_D": -2.14,
+      "monument_detail": {
+        "n": 24,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 81,
+        "observed": 1,
+        "expected": 0.15,
+        "std": 0.4,
+        "z_score": 2.14,
+        "enrichment": 6.667,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": -500,
+      "bin_end": 0,
+      "label": "500 BCE \u2013 0 CE",
+      "monument_n": 73,
+      "settlement_n": 192,
+      "monument_z": -0.4,
+      "settlement_z": -0.14,
+      "divergence_D": -0.26,
+      "monument_detail": {
+        "n": 73,
+        "observed": 0,
+        "expected": 0.14,
+        "std": 0.37,
+        "z_score": -0.4,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 192,
+        "observed": 0,
+        "expected": 0.02,
+        "std": 0.14,
+        "z_score": -0.14,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    },
+    {
+      "bin_start": 0,
+      "bin_end": 500,
+      "label": "0 CE \u2013 500 CE",
+      "monument_n": 64,
+      "settlement_n": 198,
+      "monument_z": 0.0,
+      "settlement_z": -0.24,
+      "divergence_D": 0.24,
+      "monument_detail": {
+        "n": 64,
+        "observed": 0,
+        "expected": 0.0,
+        "std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0,
+        "too_few": false
+      },
+      "settlement_detail": {
+        "n": 198,
+        "observed": 0,
+        "expected": 0.06,
+        "std": 0.23,
+        "z_score": -0.24,
+        "enrichment": 0.0,
+        "too_few": false
+      }
+    }
+  ],
+  "interpretation": {
+    "pleiades_peak_divergence": {
+      "bin": "3000 BCE \u2013 2500 BCE",
+      "D": 9.95,
+      "monument_z": 9.87,
+      "settlement_z": -0.08
+    },
+    "pleiades_onset": "D first exceeds 2.0 in bin starting -3000 (3000 BCE \u2013 2500 BCE)",
+    "pleiades_chronology_match": {
+      "avg_D_pre_3000BCE": 0.13,
+      "avg_D_3000_2000BCE": 4.3,
+      "avg_D_post_2000BCE": 2.28,
+      "pattern": "rise_and_fall",
+      "matches_known_chronology": true
+    },
+    "p3k14c_peak_divergence": {
+      "bin": "3000 BCE \u2013 2500 BCE",
+      "D": 3.83,
+      "monument_z": 3.76,
+      "settlement_z": -0.07
+    }
+  }
+}

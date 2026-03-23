@@ -1,0 +1,32 @@
+{
+  "human_fit_km": 0.95,
+  "geological_fit_km": 71.8,
+  "geological_sources": [
+    {
+      "name": "Gulf of Suez Rift (East African Rift \u2192 Nile Valley)",
+      "lat": 29.5,
+      "lon": 32.5
+    },
+    {
+      "name": "Peru-Chile Trench (at Nazca latitude)",
+      "lat": -15.0,
+      "lon": -76.0
+    },
+    {
+      "name": "Easter Hotspot",
+      "lat": -26.5,
+      "lon": -106.0
+    }
+  ],
+  "geological_pole": {
+    "lat": -59.65,
+    "lon": 39.76
+  },
+  "alison_pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "pole_angular_distance_deg": 0.81,
+  "geological_fit_percentile_vs_random": 6.98,
+  "verdict": "Tectonic sources are ALIGNED with human sites \u2014 plate tectonics is the ultimate cause"
+}

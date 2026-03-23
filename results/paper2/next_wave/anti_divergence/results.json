@@ -1,0 +1,128 @@
+{
+  "study": "S9: Anti-Divergence Circle Search",
+  "description": "Find the great circle maximizing settlement clustering while minimizing monument clustering -- the inverse of the Alison pattern.",
+  "phase1_pole_scan": {
+    "total_poles_scanned": 684,
+    "top_10": [
+      {
+        "pole_lat": 10.0,
+        "pole_lon": -30.0,
+        "monument_count": 0,
+        "settlement_count": 72,
+        "inverse_divergence": 72.0
+      },
+      {
+        "pole_lat": 40.0,
+        "pole_lon": -60.0,
+        "monument_count": 2,
+        "settlement_count": 80,
+        "inverse_divergence": 40.0
+      },
+      {
+        "pole_lat": 0.0,
+        "pole_lon": -20.0,
+        "monument_count": 0,
+        "settlement_count": 39,
+        "inverse_divergence": 39.0
+      },
+      {
+        "pole_lat": 0.0,
+        "pole_lon": 160.0,
+        "monument_count": 0,
+        "settlement_count": 39,
+        "inverse_divergence": 39.0
+      },
+      {
+        "pole_lat": 35.0,
+        "pole_lon": -20.0,
+        "monument_count": 0,
+        "settlement_count": 36,
+        "inverse_divergence": 36.0
+      },
+      {
+        "pole_lat": 65.0,
+        "pole_lon": -100.0,
+        "monument_count": 1,
+        "settlement_count": 33,
+        "inverse_divergence": 33.0
+      },
+      {
+        "pole_lat": 70.0,
+        "pole_lon": -120.0,
+        "monument_count": 0,
+        "settlement_count": 27,
+        "inverse_divergence": 27.0
+      },
+      {
+        "pole_lat": 70.0,
+        "pole_lon": -90.0,
+        "monument_count": 1,
+        "settlement_count": 26,
+        "inverse_divergence": 26.0
+      },
+      {
+        "pole_lat": 50.0,
+        "pole_lon": 140.0,
+        "monument_count": 2,
+        "settlement_count": 50,
+        "inverse_divergence": 25.0
+      },
+      {
+        "pole_lat": 70.0,
+        "pole_lon": -130.0,
+        "monument_count": 1,
+        "settlement_count": 25,
+        "inverse_divergence": 25.0
+      }
+    ]
+  },
+  "phase2_anti_circle": {
+    "pole_lat": 10.0,
+    "pole_lon": -30.0,
+    "monument_count": 0,
+    "settlement_count": 72,
+    "inverse_divergence": 72.0,
+    "regions_crossed": [
+      "Middle East / Central Asia",
+      "Africa",
+      "North America"
+    ],
+    "settlement_mc": {
+      "observed": 72,
+      "mean": 131.31,
+      "std": 271.51,
+      "z_score": -0.22,
+      "p_value": 0.28,
+      "trials": 200
+    },
+    "monument_mc": {
+      "observed": 0,
+      "mean": 34.4,
+      "std": 69.1,
+      "z_score": -0.5,
+      "p_low": 0.0,
+      "trials": 200
+    }
+  },
+  "phase3_comparison": {
+    "alison_circle": {
+      "monument_count": 83,
+      "settlement_count": 122,
+      "divergence": 0.6803,
+      "pole_lat": 59.682122,
+      "pole_lon": -138.646087
+    },
+    "anti_circle": {
+      "monument_count": 0,
+      "settlement_count": 72,
+      "inverse_divergence": 72.0,
+      "pole_lat": 10.0,
+      "pole_lon": -30.0
+    },
+    "ratio_of_ratios": 105.8313
+  },
+  "phase4_orthogonality": {
+    "angular_separation_deg": 90.52,
+    "is_orthogonal_80_100": true
+  }
+}

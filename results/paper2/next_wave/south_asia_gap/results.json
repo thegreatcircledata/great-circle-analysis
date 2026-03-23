@@ -1,0 +1,281 @@
+{
+  "study": "S3: South Asia Gap Diagnosis",
+  "phase1_major_site_distances": {
+    "Mohenjo-daro": {
+      "lat": 27.3242,
+      "lon": 68.1362,
+      "gc_dist_km": 26.22,
+      "within_50km": true,
+      "within_100km": true,
+      "within_200km": true
+    },
+    "Harappa": {
+      "lat": 30.631,
+      "lon": 72.8651,
+      "gc_dist_km": 443.25,
+      "within_50km": false,
+      "within_100km": false,
+      "within_200km": false
+    },
+    "Lothal": {
+      "lat": 22.5218,
+      "lon": 72.2498,
+      "gc_dist_km": 443.02,
+      "within_50km": false,
+      "within_100km": false,
+      "within_200km": false
+    },
+    "Dholavira": {
+      "lat": 23.8876,
+      "lon": 70.2129,
+      "gc_dist_km": 348.5,
+      "within_50km": false,
+      "within_100km": false,
+      "within_200km": false
+    },
+    "Kalibangan": {
+      "lat": 29.4736,
+      "lon": 74.13,
+      "gc_dist_km": 352.06,
+      "within_50km": false,
+      "within_100km": false,
+      "within_200km": false
+    },
+    "Rakhigarhi": {
+      "lat": 29.2808,
+      "lon": 76.1156,
+      "gc_dist_km": 385.56,
+      "within_50km": false,
+      "within_100km": false,
+      "within_200km": false
+    }
+  },
+  "phase2_coverage_audit": {
+    "Pleiades": {
+      "South Asia": 663,
+      "Egypt": 1287,
+      "Anatolia": 4734,
+      "Italy": 7224
+    },
+    "p3k14c": {
+      "South Asia": 118,
+      "Egypt": 1412,
+      "Anatolia": 2940,
+      "Italy": 3643
+    }
+  },
+  "phase3_type_distribution": {
+    "South Asia": {
+      "total": 663,
+      "monumental": 36,
+      "settlement": 333,
+      "other": 294,
+      "mon_frac": 0.054,
+      "set_frac": 0.502
+    },
+    "Egypt": {
+      "total": 1287,
+      "monumental": 278,
+      "settlement": 616,
+      "other": 393,
+      "mon_frac": 0.216,
+      "set_frac": 0.479
+    },
+    "Anatolia": {
+      "total": 4734,
+      "monumental": 525,
+      "settlement": 2437,
+      "other": 1772,
+      "mon_frac": 0.111,
+      "set_frac": 0.515
+    },
+    "Italy": {
+      "total": 7224,
+      "monumental": 1410,
+      "settlement": 3831,
+      "other": 1983,
+      "mon_frac": 0.195,
+      "set_frac": 0.53
+    }
+  },
+  "phase4_divergence_pleiades_p3k": {
+    "n_monuments": 36,
+    "n_settlements": 451,
+    "monuments_near_gc": 0,
+    "settlements_near_gc": 5,
+    "mon_z": -0.613,
+    "sett_z": 0.613,
+    "divergence": -1.227,
+    "n_trials": 500
+  },
+  "phase4b_divergence_merged": {
+    "n_monuments": 1613,
+    "n_settlements": 3382,
+    "monuments_near_gc": 42,
+    "settlements_near_gc": 124,
+    "mon_z": -1.928,
+    "sett_z": 1.928,
+    "divergence": -3.856,
+    "n_trials": 500,
+    "source": "south_asia_merged.json"
+  },
+  "harappan_kmz_analysis": {
+    "total_sites": 1744,
+    "within_50km": 49,
+    "within_100km": 94,
+    "within_200km": 287,
+    "median_dist_km": 391.9,
+    "mean_dist_km": 373.9,
+    "enrichment_50km": 2.01,
+    "period_counts": {
+      "Early_Harappan": 487,
+      "Harappan": 466,
+      "Late_Harappan": 791
+    },
+    "nearest_sites": [
+      {
+        "name": "Jhukar",
+        "gc_dist_km": 0.03,
+        "period": "Harappan"
+      },
+      {
+        "name": "Jhukar",
+        "gc_dist_km": 0.03,
+        "period": "Late_Harappan"
+      },
+      {
+        "name": "Naru Waro Dharo",
+        "gc_dist_km": 3.53,
+        "period": "Harappan"
+      },
+      {
+        "name": "Lalanji Mari",
+        "gc_dist_km": 3.98,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Lalanji Mari",
+        "gc_dist_km": 3.98,
+        "period": "Harappan"
+      },
+      {
+        "name": "Tupi",
+        "gc_dist_km": 4.29,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Tupi",
+        "gc_dist_km": 4.29,
+        "period": "Harappan"
+      },
+      {
+        "name": "Kander Bhit",
+        "gc_dist_km": 4.3,
+        "period": "Harappan"
+      },
+      {
+        "name": "Sabharo",
+        "gc_dist_km": 5.15,
+        "period": "Harappan"
+      },
+      {
+        "name": "Zayak North",
+        "gc_dist_km": 9.74,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Mammai Damb",
+        "gc_dist_km": 10.09,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Mamro Two",
+        "gc_dist_km": 10.55,
+        "period": "Harappan"
+      },
+      {
+        "name": "Kot Diji",
+        "gc_dist_km": 10.64,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Kot Diji",
+        "gc_dist_km": 10.64,
+        "period": "Harappan"
+      },
+      {
+        "name": "Zayak Southeast",
+        "gc_dist_km": 11.03,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Mamro One",
+        "gc_dist_km": 11.86,
+        "period": "Harappan"
+      },
+      {
+        "name": "Lundi Thori",
+        "gc_dist_km": 12.94,
+        "period": "Harappan"
+      },
+      {
+        "name": "Kurragi Damb",
+        "gc_dist_km": 13.15,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Dhiji-ji Tikri",
+        "gc_dist_km": 13.88,
+        "period": "Early_Harappan"
+      },
+      {
+        "name": "Merujh",
+        "gc_dist_km": 14.54,
+        "period": "Harappan"
+      }
+    ]
+  },
+  "wikipedia_ivc": {
+    "total": 52,
+    "within_50km": 4,
+    "within_100km": 4,
+    "median_dist_km": 397.1
+  },
+  "phase5_gc_segment": {
+    "lat_range": [
+      17.05,
+      29.59
+    ],
+    "lon_range": [
+      55.19,
+      99.73
+    ],
+    "n_sample_points": 86
+  },
+  "diagnosis": {
+    "verdict": "EXPLAINED",
+    "explanation": "Major IVC sites are mostly far from the great circle. The GC passes through the region but misses the main centers. The Harappan KMZ dataset shows enrichment near the GC, suggesting the corridor does intersect IVC territory.",
+    "factors": [
+      {
+        "factor": "MAJOR_SITES_FAR",
+        "detail": "Only 1/6 within 50km, 1/6 within 100km"
+      },
+      {
+        "factor": "COVERAGE_ADEQUATE",
+        "detail": "SA/Egypt ratio = 0.52"
+      },
+      {
+        "factor": "LOW_MONUMENT_FRACTION",
+        "detail": "SA monumental = 5.4%, Egypt = 21.6%"
+      },
+      {
+        "factor": "NO_DIVERGENCE",
+        "detail": "Monument-settlement divergence = -1.23"
+      },
+      {
+        "factor": "HARAPPAN_ENRICHED",
+        "detail": "Harappan sites 2.0x enriched near GC"
+      }
+    ]
+  }
+}

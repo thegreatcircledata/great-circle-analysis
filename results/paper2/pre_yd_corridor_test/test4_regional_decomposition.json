@@ -1,0 +1,42 @@
+{
+  "test": "Regional Decomposition",
+  "regions": {
+    "Other": {
+      "pre_yd": 0,
+      "post_yd": 181,
+      "total": 181
+    },
+    "Peru/Amazon": {
+      "pre_yd": 0,
+      "post_yd": 44,
+      "total": 44
+    },
+    "North Africa/Mediterranean": {
+      "pre_yd": 0,
+      "post_yd": 46,
+      "total": 46
+    },
+    "Egypt/Levant": {
+      "pre_yd": 6,
+      "post_yd": 443,
+      "total": 449
+    },
+    "Iran/Central Asia": {
+      "pre_yd": 4,
+      "post_yd": 83,
+      "total": 87
+    }
+  },
+  "leave_one_out": {
+    "Egypt/Levant": {
+      "removed_pre_yd": 6,
+      "remaining_pre_yd": 4,
+      "pct_of_total_pre_yd": 60.0
+    },
+    "Iran/Central Asia": {
+      "removed_pre_yd": 4,
+      "remaining_pre_yd": 6,
+      "pct_of_total_pre_yd": 40.0
+    }
+  }
+}

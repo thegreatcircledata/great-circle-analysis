@@ -1,0 +1,18 @@
+{
+  "total_circle_points": 720,
+  "land_points": 319,
+  "near_30th_parallel_count": 129,
+  "fraction_near_30": 0.4044,
+  "percentile_vs_random": 93.4,
+  "mean_random_fraction": 0.1579,
+  "fraction_arid_belt": 0.6646,
+  "latitude_distribution": {
+    "-20_to_-10": 22,
+    "-10_to_+0": 71,
+    "+0_to_+10": 3,
+    "+10_to_+20": 47,
+    "+20_to_+30": 147,
+    "+30_to_+40": 29
+  },
+  "verdict": "Circle TRACKS the desert belt (93th percentile for 30\u00b0 proximity)"
+}

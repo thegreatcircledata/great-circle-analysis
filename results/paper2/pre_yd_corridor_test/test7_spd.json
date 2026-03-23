@@ -1,0 +1,808 @@
+{
+  "test": "Summed Probability Distribution (simplified uncalibrated)",
+  "limitation": "Uses uncalibrated ages in 200-year bins. Proper SPD requires IntCal20 calibration.",
+  "spd_bins": [
+    {
+      "bin_start": 5000,
+      "bin_end": 5200,
+      "on_corridor": 12,
+      "off_corridor": 1569,
+      "on_normalized": 0.03658537,
+      "off_normalized": 0.04844985
+    },
+    {
+      "bin_start": 5200,
+      "bin_end": 5400,
+      "on_corridor": 13,
+      "off_corridor": 1360,
+      "on_normalized": 0.03963415,
+      "off_normalized": 0.04199605
+    },
+    {
+      "bin_start": 5400,
+      "bin_end": 5600,
+      "on_corridor": 23,
+      "off_corridor": 1225,
+      "on_normalized": 0.07012195,
+      "off_normalized": 0.03782732
+    },
+    {
+      "bin_start": 5600,
+      "bin_end": 5800,
+      "on_corridor": 16,
+      "off_corridor": 1245,
+      "on_normalized": 0.04878049,
+      "off_normalized": 0.03844491
+    },
+    {
+      "bin_start": 5800,
+      "bin_end": 6000,
+      "on_corridor": 20,
+      "off_corridor": 1181,
+      "on_normalized": 0.06097561,
+      "off_normalized": 0.03646863
+    },
+    {
+      "bin_start": 6000,
+      "bin_end": 6200,
+      "on_corridor": 20,
+      "off_corridor": 1248,
+      "on_normalized": 0.06097561,
+      "off_normalized": 0.03853755
+    },
+    {
+      "bin_start": 6200,
+      "bin_end": 6400,
+      "on_corridor": 18,
+      "off_corridor": 1101,
+      "on_normalized": 0.05487805,
+      "off_normalized": 0.03399827
+    },
+    {
+      "bin_start": 6400,
+      "bin_end": 6600,
+      "on_corridor": 5,
+      "off_corridor": 923,
+      "on_normalized": 0.0152439,
+      "off_normalized": 0.02850173
+    },
+    {
+      "bin_start": 6600,
+      "bin_end": 6800,
+      "on_corridor": 10,
+      "off_corridor": 832,
+      "on_normalized": 0.0304878,
+      "off_normalized": 0.0256917
+    },
+    {
+      "bin_start": 6800,
+      "bin_end": 7000,
+      "on_corridor": 10,
+      "off_corridor": 848,
+      "on_normalized": 0.0304878,
+      "off_normalized": 0.02618577
+    },
+    {
+      "bin_start": 7000,
+      "bin_end": 7200,
+      "on_corridor": 10,
+      "off_corridor": 743,
+      "on_normalized": 0.0304878,
+      "off_normalized": 0.02294343
+    },
+    {
+      "bin_start": 7200,
+      "bin_end": 7400,
+      "on_corridor": 7,
+      "off_corridor": 682,
+      "on_normalized": 0.02134146,
+      "off_normalized": 0.02105978
+    },
+    {
+      "bin_start": 7400,
+      "bin_end": 7600,
+      "on_corridor": 7,
+      "off_corridor": 629,
+      "on_normalized": 0.02134146,
+      "off_normalized": 0.01942317
+    },
+    {
+      "bin_start": 7600,
+      "bin_end": 7800,
+      "on_corridor": 9,
+      "off_corridor": 690,
+      "on_normalized": 0.02743902,
+      "off_normalized": 0.02130682
+    },
+    {
+      "bin_start": 7800,
+      "bin_end": 8000,
+      "on_corridor": 16,
+      "off_corridor": 694,
+      "on_normalized": 0.04878049,
+      "off_normalized": 0.02143034
+    },
+    {
+      "bin_start": 8000,
+      "bin_end": 8200,
+      "on_corridor": 17,
+      "off_corridor": 654,
+      "on_normalized": 0.05182927,
+      "off_normalized": 0.02019516
+    },
+    {
+      "bin_start": 8200,
+      "bin_end": 8400,
+      "on_corridor": 14,
+      "off_corridor": 569,
+      "on_normalized": 0.04268293,
+      "off_normalized": 0.01757041
+    },
+    {
+      "bin_start": 8400,
+      "bin_end": 8600,
+      "on_corridor": 12,
+      "off_corridor": 508,
+      "on_normalized": 0.03658537,
+      "off_normalized": 0.01568676
+    },
+    {
+      "bin_start": 8600,
+      "bin_end": 8800,
+      "on_corridor": 6,
+      "off_corridor": 545,
+      "on_normalized": 0.01829268,
+      "off_normalized": 0.0168293
+    },
+    {
+      "bin_start": 8800,
+      "bin_end": 9000,
+      "on_corridor": 10,
+      "off_corridor": 532,
+      "on_normalized": 0.0304878,
+      "off_normalized": 0.01642787
+    },
+    {
+      "bin_start": 9000,
+      "bin_end": 9200,
+      "on_corridor": 10,
+      "off_corridor": 501,
+      "on_normalized": 0.0304878,
+      "off_normalized": 0.0154706
+    },
+    {
+      "bin_start": 9200,
+      "bin_end": 9400,
+      "on_corridor": 3,
+      "off_corridor": 448,
+      "on_normalized": 0.00914634,
+      "off_normalized": 0.01383399
+    },
+    {
+      "bin_start": 9400,
+      "bin_end": 9600,
+      "on_corridor": 1,
+      "off_corridor": 503,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.01553236
+    },
+    {
+      "bin_start": 9600,
+      "bin_end": 9800,
+      "on_corridor": 3,
+      "off_corridor": 452,
+      "on_normalized": 0.00914634,
+      "off_normalized": 0.01395751
+    },
+    {
+      "bin_start": 9800,
+      "bin_end": 10000,
+      "on_corridor": 7,
+      "off_corridor": 465,
+      "on_normalized": 0.02134146,
+      "off_normalized": 0.01435894
+    },
+    {
+      "bin_start": 10000,
+      "bin_end": 10200,
+      "on_corridor": 5,
+      "off_corridor": 453,
+      "on_normalized": 0.0152439,
+      "off_normalized": 0.01398839
+    },
+    {
+      "bin_start": 10200,
+      "bin_end": 10400,
+      "on_corridor": 5,
+      "off_corridor": 397,
+      "on_normalized": 0.0152439,
+      "off_normalized": 0.01225914
+    },
+    {
+      "bin_start": 10400,
+      "bin_end": 10600,
+      "on_corridor": 7,
+      "off_corridor": 362,
+      "on_normalized": 0.02134146,
+      "off_normalized": 0.01117836
+    },
+    {
+      "bin_start": 10600,
+      "bin_end": 10800,
+      "on_corridor": 0,
+      "off_corridor": 340,
+      "on_normalized": 0.0,
+      "off_normalized": 0.01049901
+    },
+    {
+      "bin_start": 10800,
+      "bin_end": 11000,
+      "on_corridor": 2,
+      "off_corridor": 347,
+      "on_normalized": 0.00609756,
+      "off_normalized": 0.01071517
+    },
+    {
+      "bin_start": 11000,
+      "bin_end": 11200,
+      "on_corridor": 2,
+      "off_corridor": 320,
+      "on_normalized": 0.00609756,
+      "off_normalized": 0.00988142
+    },
+    {
+      "bin_start": 11200,
+      "bin_end": 11400,
+      "on_corridor": 1,
+      "off_corridor": 322,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00994318
+    },
+    {
+      "bin_start": 11400,
+      "bin_end": 11600,
+      "on_corridor": 0,
+      "off_corridor": 291,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00898592
+    },
+    {
+      "bin_start": 11600,
+      "bin_end": 11800,
+      "on_corridor": 3,
+      "off_corridor": 328,
+      "on_normalized": 0.00914634,
+      "off_normalized": 0.01012846
+    },
+    {
+      "bin_start": 11800,
+      "bin_end": 12000,
+      "on_corridor": 4,
+      "off_corridor": 315,
+      "on_normalized": 0.01219512,
+      "off_normalized": 0.00972703
+    },
+    {
+      "bin_start": 12000,
+      "bin_end": 12200,
+      "on_corridor": 3,
+      "off_corridor": 338,
+      "on_normalized": 0.00914634,
+      "off_normalized": 0.01043725
+    },
+    {
+      "bin_start": 12200,
+      "bin_end": 12400,
+      "on_corridor": 2,
+      "off_corridor": 385,
+      "on_normalized": 0.00609756,
+      "off_normalized": 0.01188859
+    },
+    {
+      "bin_start": 12400,
+      "bin_end": 12600,
+      "on_corridor": 2,
+      "off_corridor": 368,
+      "on_normalized": 0.00609756,
+      "off_normalized": 0.01136364
+    },
+    {
+      "bin_start": 12600,
+      "bin_end": 12800,
+      "on_corridor": 3,
+      "off_corridor": 268,
+      "on_normalized": 0.00914634,
+      "off_normalized": 0.00827569
+    },
+    {
+      "bin_start": 12800,
+      "bin_end": 13000,
+      "on_corridor": 2,
+      "off_corridor": 307,
+      "on_normalized": 0.00609756,
+      "off_normalized": 0.00947999
+    },
+    {
+      "bin_start": 13000,
+      "bin_end": 13200,
+      "on_corridor": 1,
+      "off_corridor": 220,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00679348
+    },
+    {
+      "bin_start": 13200,
+      "bin_end": 13400,
+      "on_corridor": 1,
+      "off_corridor": 213,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00657732
+    },
+    {
+      "bin_start": 13400,
+      "bin_end": 13600,
+      "on_corridor": 0,
+      "off_corridor": 213,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00657732
+    },
+    {
+      "bin_start": 13600,
+      "bin_end": 13800,
+      "on_corridor": 0,
+      "off_corridor": 204,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00629941
+    },
+    {
+      "bin_start": 13800,
+      "bin_end": 14000,
+      "on_corridor": 0,
+      "off_corridor": 232,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00716403
+    },
+    {
+      "bin_start": 14000,
+      "bin_end": 14200,
+      "on_corridor": 1,
+      "off_corridor": 165,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00509511
+    },
+    {
+      "bin_start": 14200,
+      "bin_end": 14400,
+      "on_corridor": 1,
+      "off_corridor": 189,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00583622
+    },
+    {
+      "bin_start": 14400,
+      "bin_end": 14600,
+      "on_corridor": 0,
+      "off_corridor": 175,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0054039
+    },
+    {
+      "bin_start": 14600,
+      "bin_end": 14800,
+      "on_corridor": 1,
+      "off_corridor": 143,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00441576
+    },
+    {
+      "bin_start": 14800,
+      "bin_end": 15000,
+      "on_corridor": 0,
+      "off_corridor": 129,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00398345
+    },
+    {
+      "bin_start": 15000,
+      "bin_end": 15200,
+      "on_corridor": 0,
+      "off_corridor": 139,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00429224
+    },
+    {
+      "bin_start": 15200,
+      "bin_end": 15400,
+      "on_corridor": 1,
+      "off_corridor": 131,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00404521
+    },
+    {
+      "bin_start": 15400,
+      "bin_end": 15600,
+      "on_corridor": 0,
+      "off_corridor": 121,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00373641
+    },
+    {
+      "bin_start": 15600,
+      "bin_end": 15800,
+      "on_corridor": 0,
+      "off_corridor": 130,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00401433
+    },
+    {
+      "bin_start": 15800,
+      "bin_end": 16000,
+      "on_corridor": 0,
+      "off_corridor": 128,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00395257
+    },
+    {
+      "bin_start": 16000,
+      "bin_end": 16200,
+      "on_corridor": 0,
+      "off_corridor": 112,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0034585
+    },
+    {
+      "bin_start": 16200,
+      "bin_end": 16400,
+      "on_corridor": 0,
+      "off_corridor": 92,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00284091
+    },
+    {
+      "bin_start": 16400,
+      "bin_end": 16600,
+      "on_corridor": 0,
+      "off_corridor": 123,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00379817
+    },
+    {
+      "bin_start": 16600,
+      "bin_end": 16800,
+      "on_corridor": 0,
+      "off_corridor": 82,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00253211
+    },
+    {
+      "bin_start": 16800,
+      "bin_end": 17000,
+      "on_corridor": 0,
+      "off_corridor": 103,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00318058
+    },
+    {
+      "bin_start": 17000,
+      "bin_end": 17200,
+      "on_corridor": 0,
+      "off_corridor": 110,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00339674
+    },
+    {
+      "bin_start": 17200,
+      "bin_end": 17400,
+      "on_corridor": 0,
+      "off_corridor": 98,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00302619
+    },
+    {
+      "bin_start": 17400,
+      "bin_end": 17600,
+      "on_corridor": 0,
+      "off_corridor": 97,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00299531
+    },
+    {
+      "bin_start": 17600,
+      "bin_end": 17800,
+      "on_corridor": 0,
+      "off_corridor": 108,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00333498
+    },
+    {
+      "bin_start": 17800,
+      "bin_end": 18000,
+      "on_corridor": 0,
+      "off_corridor": 113,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00348938
+    },
+    {
+      "bin_start": 18000,
+      "bin_end": 18200,
+      "on_corridor": 0,
+      "off_corridor": 108,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00333498
+    },
+    {
+      "bin_start": 18200,
+      "bin_end": 18400,
+      "on_corridor": 0,
+      "off_corridor": 103,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00318058
+    },
+    {
+      "bin_start": 18400,
+      "bin_end": 18600,
+      "on_corridor": 0,
+      "off_corridor": 108,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00333498
+    },
+    {
+      "bin_start": 18600,
+      "bin_end": 18800,
+      "on_corridor": 1,
+      "off_corridor": 106,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00327322
+    },
+    {
+      "bin_start": 18800,
+      "bin_end": 19000,
+      "on_corridor": 0,
+      "off_corridor": 106,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00327322
+    },
+    {
+      "bin_start": 19000,
+      "bin_end": 19200,
+      "on_corridor": 1,
+      "off_corridor": 109,
+      "on_normalized": 0.00304878,
+      "off_normalized": 0.00336586
+    },
+    {
+      "bin_start": 19200,
+      "bin_end": 19400,
+      "on_corridor": 0,
+      "off_corridor": 136,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0041996
+    },
+    {
+      "bin_start": 19400,
+      "bin_end": 19600,
+      "on_corridor": 0,
+      "off_corridor": 86,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00265563
+    },
+    {
+      "bin_start": 19600,
+      "bin_end": 19800,
+      "on_corridor": 0,
+      "off_corridor": 121,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00373641
+    },
+    {
+      "bin_start": 19800,
+      "bin_end": 20000,
+      "on_corridor": 0,
+      "off_corridor": 103,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00318058
+    },
+    {
+      "bin_start": 20000,
+      "bin_end": 20200,
+      "on_corridor": 0,
+      "off_corridor": 117,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0036129
+    },
+    {
+      "bin_start": 20200,
+      "bin_end": 20400,
+      "on_corridor": 0,
+      "off_corridor": 114,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00352026
+    },
+    {
+      "bin_start": 20400,
+      "bin_end": 20600,
+      "on_corridor": 0,
+      "off_corridor": 101,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00311882
+    },
+    {
+      "bin_start": 20600,
+      "bin_end": 20800,
+      "on_corridor": 0,
+      "off_corridor": 106,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00327322
+    },
+    {
+      "bin_start": 20800,
+      "bin_end": 21000,
+      "on_corridor": 0,
+      "off_corridor": 112,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0034585
+    },
+    {
+      "bin_start": 21000,
+      "bin_end": 21200,
+      "on_corridor": 0,
+      "off_corridor": 115,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00355114
+    },
+    {
+      "bin_start": 21200,
+      "bin_end": 21400,
+      "on_corridor": 0,
+      "off_corridor": 81,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00250124
+    },
+    {
+      "bin_start": 21400,
+      "bin_end": 21600,
+      "on_corridor": 0,
+      "off_corridor": 78,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0024086
+    },
+    {
+      "bin_start": 21600,
+      "bin_end": 21800,
+      "on_corridor": 0,
+      "off_corridor": 84,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00259387
+    },
+    {
+      "bin_start": 21800,
+      "bin_end": 22000,
+      "on_corridor": 0,
+      "off_corridor": 80,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00247036
+    },
+    {
+      "bin_start": 22000,
+      "bin_end": 22200,
+      "on_corridor": 0,
+      "off_corridor": 70,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00216156
+    },
+    {
+      "bin_start": 22200,
+      "bin_end": 22400,
+      "on_corridor": 0,
+      "off_corridor": 74,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00228508
+    },
+    {
+      "bin_start": 22400,
+      "bin_end": 22600,
+      "on_corridor": 0,
+      "off_corridor": 95,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00293355
+    },
+    {
+      "bin_start": 22600,
+      "bin_end": 22800,
+      "on_corridor": 0,
+      "off_corridor": 103,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00318058
+    },
+    {
+      "bin_start": 22800,
+      "bin_end": 23000,
+      "on_corridor": 0,
+      "off_corridor": 107,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0033041
+    },
+    {
+      "bin_start": 23000,
+      "bin_end": 23200,
+      "on_corridor": 0,
+      "off_corridor": 119,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00367465
+    },
+    {
+      "bin_start": 23200,
+      "bin_end": 23400,
+      "on_corridor": 0,
+      "off_corridor": 82,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00253211
+    },
+    {
+      "bin_start": 23400,
+      "bin_end": 23600,
+      "on_corridor": 0,
+      "off_corridor": 124,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00382905
+    },
+    {
+      "bin_start": 23600,
+      "bin_end": 23800,
+      "on_corridor": 0,
+      "off_corridor": 79,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00243948
+    },
+    {
+      "bin_start": 23800,
+      "bin_end": 24000,
+      "on_corridor": 0,
+      "off_corridor": 107,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0033041
+    },
+    {
+      "bin_start": 24000,
+      "bin_end": 24200,
+      "on_corridor": 0,
+      "off_corridor": 112,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0034585
+    },
+    {
+      "bin_start": 24200,
+      "bin_end": 24400,
+      "on_corridor": 0,
+      "off_corridor": 95,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00293355
+    },
+    {
+      "bin_start": 24400,
+      "bin_end": 24600,
+      "on_corridor": 0,
+      "off_corridor": 102,
+      "on_normalized": 0.0,
+      "off_normalized": 0.0031497
+    },
+    {
+      "bin_start": 24600,
+      "bin_end": 24800,
+      "on_corridor": 0,
+      "off_corridor": 97,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00299531
+    },
+    {
+      "bin_start": 24800,
+      "bin_end": 25000,
+      "on_corridor": 0,
+      "off_corridor": 86,
+      "on_normalized": 0.0,
+      "off_normalized": 0.00265563
+    }
+  ],
+  "pre_yd_mean_density_ratio": 0.662,
+  "post_yd_mean_density_ratio": 1.3083
+}

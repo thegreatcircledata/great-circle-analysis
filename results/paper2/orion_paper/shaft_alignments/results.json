@@ -1,0 +1,316 @@
+{
+  "study": "O3_shaft_alignments",
+  "description": "Great Pyramid shaft alignment test at 2560 BCE",
+  "parameters": {
+    "giza_lat": 29.979,
+    "epoch_bce": 2560,
+    "angle_tolerance_deg": 1.0,
+    "n_bright_stars": 162,
+    "mc_trials": 10000
+  },
+  "phase1_target_declinations": {
+    "kings_south": {
+      "angle_deg": 45.0,
+      "target_dec_no_refraction": -15.021,
+      "target_dec_with_refraction": -15.038,
+      "uncertainty_deg": 0.5,
+      "claimed_star": "Alnitak",
+      "bayer": "\u03b6 Ori"
+    },
+    "kings_north": {
+      "angle_deg": 32.5,
+      "target_dec_no_refraction": 87.479,
+      "target_dec_with_refraction": 87.505,
+      "uncertainty_deg": 0.5,
+      "claimed_star": "Thuban",
+      "bayer": "\u03b1 Dra"
+    },
+    "queens_south": {
+      "angle_deg": 39.5,
+      "target_dec_no_refraction": -20.521,
+      "target_dec_with_refraction": -20.541,
+      "uncertainty_deg": 0.5,
+      "claimed_star": "Sirius",
+      "bayer": "\u03b1 CMa"
+    },
+    "queens_north": {
+      "angle_deg": 39.0,
+      "target_dec_no_refraction": 80.979,
+      "target_dec_with_refraction": 81.0,
+      "uncertainty_deg": 0.5,
+      "claimed_star": "Kochab",
+      "bayer": "\u03b2 UMi"
+    }
+  },
+  "phase2_star_matching": {
+    "kings_south": {
+      "target_dec": -15.021,
+      "direction": "south",
+      "n_matches_2deg": 7,
+      "matches": [
+        {
+          "star": "Alnilam",
+          "mag": 1.69,
+          "dec_2560": -15.057,
+          "transit_alt": 44.964,
+          "offset_deg": -0.036,
+          "is_claimed": false
+        },
+        {
+          "star": "Larawag",
+          "mag": 2.29,
+          "dec_2560": -15.315,
+          "transit_alt": 44.706,
+          "offset_deg": -0.294,
+          "is_claimed": false
+        },
+        {
+          "star": "Alnitak",
+          "mag": 1.77,
+          "dec_2560": -15.349,
+          "transit_alt": 44.672,
+          "offset_deg": -0.328,
+          "is_claimed": true
+        },
+        {
+          "star": "Sadalsuud",
+          "mag": 2.91,
+          "dec_2560": -14.619,
+          "transit_alt": 45.402,
+          "offset_deg": 0.402,
+          "is_claimed": false
+        },
+        {
+          "star": "Mintaka",
+          "mag": 2.23,
+          "dec_2560": -14.576,
+          "transit_alt": 45.445,
+          "offset_deg": 0.445,
+          "is_claimed": false
+        },
+        {
+          "star": "Dabih",
+          "mag": 3.08,
+          "dec_2560": -15.806,
+          "transit_alt": 44.215,
+          "offset_deg": -0.785,
+          "is_claimed": false
+        },
+        {
+          "star": "Algedi",
+          "mag": 3.57,
+          "dec_2560": -13.444,
+          "transit_alt": 46.577,
+          "offset_deg": 1.577,
+          "is_claimed": false
+        }
+      ]
+    },
+    "kings_north": {
+      "target_dec": 87.479,
+      "direction": "north",
+      "n_matches_2deg": 1,
+      "matches": [
+        {
+          "star": "Thuban",
+          "mag": 3.65,
+          "dec_2560": 88.713,
+          "transit_alt": 31.266,
+          "offset_deg": -1.234,
+          "is_claimed": true
+        }
+      ]
+    },
+    "queens_south": {
+      "target_dec": -20.521,
+      "direction": "south",
+      "n_matches_2deg": 9,
+      "matches": [
+        {
+          "star": "Lesath",
+          "mag": 2.69,
+          "dec_2560": -20.694,
+          "transit_alt": 39.327,
+          "offset_deg": -0.173,
+          "is_claimed": false
+        },
+        {
+          "star": "Shaula",
+          "mag": 1.63,
+          "dec_2560": -20.717,
+          "transit_alt": 39.304,
+          "offset_deg": -0.196,
+          "is_claimed": false
+        },
+        {
+          "star": "Tureis",
+          "mag": 2.78,
+          "dec_2560": -21.017,
+          "transit_alt": 39.004,
+          "offset_deg": -0.496,
+          "is_claimed": false
+        },
+        {
+          "star": "Cursa",
+          "mag": 2.79,
+          "dec_2560": -21.113,
+          "transit_alt": 38.908,
+          "offset_deg": -0.592,
+          "is_claimed": false
+        },
+        {
+          "star": "Iota Ori",
+          "mag": 2.77,
+          "dec_2560": -19.529,
+          "transit_alt": 40.492,
+          "offset_deg": 0.992,
+          "is_claimed": false
+        },
+        {
+          "star": "Ascella",
+          "mag": 2.6,
+          "dec_2560": -21.536,
+          "transit_alt": 38.485,
+          "offset_deg": -1.015,
+          "is_claimed": false
+        },
+        {
+          "star": "Menkar",
+          "mag": 2.53,
+          "dec_2560": -19.454,
+          "transit_alt": 40.567,
+          "offset_deg": 1.067,
+          "is_claimed": false
+        },
+        {
+          "star": "Saiph",
+          "mag": 2.09,
+          "dec_2560": -21.904,
+          "transit_alt": 38.117,
+          "offset_deg": -1.383,
+          "is_claimed": false
+        },
+        {
+          "star": "Kaus Australis",
+          "mag": 1.85,
+          "dec_2560": -22.173,
+          "transit_alt": 37.848,
+          "offset_deg": -1.652,
+          "is_claimed": false
+        }
+      ]
+    },
+    "queens_north": {
+      "target_dec": 80.979,
+      "direction": "north",
+      "n_matches_2deg": 2,
+      "matches": [
+        {
+          "star": "Kochab",
+          "mag": 2.08,
+          "dec_2560": 80.245,
+          "transit_alt": 39.734,
+          "offset_deg": 0.734,
+          "is_claimed": true
+        },
+        {
+          "star": "Pherkad",
+          "mag": 3.05,
+          "dec_2560": 80.228,
+          "transit_alt": 39.751,
+          "offset_deg": 0.751,
+          "is_claimed": false
+        }
+      ]
+    }
+  },
+  "phase3_exhaustive": {
+    "kings_south": {
+      "n_matching_1deg": 6,
+      "n_total": 162,
+      "p_shaft": 0.037037
+    },
+    "kings_north": {
+      "n_matching_1deg": 0,
+      "n_total": 162,
+      "p_shaft": 0.0
+    },
+    "queens_south": {
+      "n_matching_1deg": 5,
+      "n_total": 162,
+      "p_shaft": 0.030864
+    },
+    "queens_north": {
+      "n_matching_1deg": 2,
+      "n_total": 162,
+      "p_shaft": 0.012346
+    }
+  },
+  "phase4_combined_significance": {
+    "fisher": {
+      "p_values": [
+        0.037037,
+        0.006173,
+        0.030864,
+        0.012346
+      ],
+      "chi2_stat": 32.512,
+      "df": 8,
+      "combined_p": 7.5e-05
+    },
+    "monte_carlo": {
+      "n_trials": 10000,
+      "angle_range": [
+        25.0,
+        55.0
+      ],
+      "tolerance_deg": 1.0,
+      "n_all4_match": 2163,
+      "p_all4": 0.2163,
+      "match_distribution": {
+        "0": 0,
+        "1": 94,
+        "2": 2743,
+        "3": 5000,
+        "4": 2163
+      }
+    }
+  },
+  "phase5_epoch_sweep": {
+    "kings_south": {
+      "claimed_star": "Alnitak",
+      "best_epoch_bce": 2500,
+      "best_offset_deg": -0.0345,
+      "offset_at_2560bce": null
+    },
+    "kings_north": {
+      "claimed_star": "Thuban",
+      "best_epoch_bce": 3225,
+      "best_offset_deg": -0.039,
+      "offset_at_2560bce": null
+    },
+    "queens_south": {
+      "claimed_star": "Sirius",
+      "best_epoch_bce": 1900,
+      "best_offset_deg": -0.0337,
+      "offset_at_2560bce": null
+    },
+    "queens_north": {
+      "claimed_star": "Kochab",
+      "best_epoch_bce": 2350,
+      "best_offset_deg": 0.003,
+      "offset_at_2560bce": null
+    },
+    "convergence": {
+      "best_epochs_bce": [
+        2500,
+        3225,
+        1900,
+        2350
+      ],
+      "mean_bce": 2494,
+      "std_years": 476,
+      "spread_years": 1325
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "actual_procrustes_distance": 0.000385,
+  "random_arrangement_test": {
+    "n_random": 10000,
+    "p_value_unconstrained": 0.0015,
+    "p_value_collinearity_matched": 0.0074,
+    "random_median": 0.494558,
+    "colmatched_median": 0.577711
+  },
+  "asterism_comparison": {
+    "total_triplets_tested": 3420,
+    "orion_rank": 5,
+    "top_10": [
+      {
+        "name": "Arcturus-Regulus-Alhena",
+        "distance": 0.000104
+      },
+      {
+        "name": "Sirius-Spica-Altair",
+        "distance": 0.000128
+      },
+      {
+        "name": "Pollux-Spica-Fomalhaut",
+        "distance": 0.000137
+      },
+      {
+        "name": "Regulus-Procyon-Bellatrix",
+        "distance": 0.000167
+      },
+      {
+        "name": "Sirius-Spica-Fomalhaut",
+        "distance": 0.000401
+      },
+      {
+        "name": "Rigel-Regulus-Deneb",
+        "distance": 0.000409
+      },
+      {
+        "name": "Canopus-Rigel-Pollux",
+        "distance": 0.000532
+      },
+      {
+        "name": "Rigel-Procyon-Regulus",
+        "distance": 0.000625
+      },
+      {
+        "name": "Antares-Regulus-Alnath",
+        "distance": 0.000648
+      },
+      {
+        "name": "Fomalhaut-Spica-Castor",
+        "distance": 0.000655
+      }
+    ]
+  },
+  "epoch_sensitivity": {
+    "best_epoch": 3000,
+    "best_distance": 0.000381,
+    "worst_distance": 0.000469,
+    "total_variation": 8.8e-05,
+    "variation_pct_of_mean": 20.82,
+    "at_2560_bce": 0.000405,
+    "at_10500_bce": 0.000444,
+    "survey_uncertainty": 0.009437,
+    "variation_over_uncertainty": 0.01
+  },
+  "pyramid_collinearity": 0.023569
+}

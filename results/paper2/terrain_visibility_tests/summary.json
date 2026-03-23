@@ -1,0 +1,35 @@
+{
+  "test_a_terrain_transition": {
+    "gc_mean_gradient": 458.0118529210658,
+    "gc_percentile": 62.5,
+    "verdict": "MARGINAL"
+  },
+  "test_b_visibility": {
+    "gc_mean_prominence_m": -2.3343918314757333,
+    "gc_percentile": 51.5,
+    "gc_vs_control_p": 0.8148718430761377,
+    "monument_prominence_m": -43.87005900770712,
+    "settlement_prominence_m": 0.6357958705846811,
+    "mon_vs_set_p": 0.9999263997841892
+  },
+  "test_c_navigation": {
+    "crossing_prominence_m": -8.420266113145006,
+    "random_coast_prominence_m": -43.32586008645963,
+    "crossing_vs_coast_p": 0.07628227858756947,
+    "intervisible_segments": "7/25"
+  },
+  "test_d_nile_constriction": {
+    "gc_crossing_lat": 29.906237784573285,
+    "min_width_lat": 29.900000000000013,
+    "memphis_lat": 29.85,
+    "offset_gc_to_min_km": 0.6923940876332608,
+    "offset_memphis_to_min_km": 5.550000000001262,
+    "min_width_km": 10.603396840038007
+  },
+  "test_e_elevation_differential": {
+    "monument_mean_tpi_m": -46.243253968253974,
+    "settlement_mean_tpi_m": -0.6165540540540491,
+    "mann_whitney_p": 0.9999927167095117,
+    "verdict": "NOT SUPPORTED"
+  }
+}

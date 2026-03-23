@@ -1,0 +1,35 @@
+{
+  "observed_r": -0.4280369763728965,
+  "observed_p_parametric": 0.02915033120163249,
+  "n_pyramids": 26,
+  "n_permutations": 10000,
+  "test_a_shuffle_dates": {
+    "description": "Keep pyramid positions fixed, shuffle dates randomly",
+    "p_value": 0.0196,
+    "count_more_extreme": 196,
+    "null_mean_r": -0.00034205443320317705,
+    "null_std_r": 0.20101855989974116,
+    "null_percentiles": {
+      "2.5": -0.40580424816897437,
+      "5": -0.35215642011596765,
+      "50": 0.002952083429231145,
+      "95": 0.3002278730061481,
+      "97.5": 0.3308512084619951
+    }
+  },
+  "test_b_shuffle_positions": {
+    "description": "Keep dates fixed, shuffle which pyramid is at which location",
+    "p_value": 0.0178,
+    "count_more_extreme": 178,
+    "null_mean_r": 0.00015383248305803987,
+    "null_std_r": 0.20051165186167882,
+    "null_percentiles": {
+      "2.5": -0.3978049815462119,
+      "5": -0.3459008922449462,
+      "50": 0.0025501599044554053,
+      "95": 0.3018132268899456,
+      "97.5": 0.3306437211661752
+    }
+  },
+  "interpretation": "Shuffling dates: p=0.0196 \u2014 significant at alpha=0.05. Shuffling positions: p=0.0178 \u2014 significant at alpha=0.05."
+}

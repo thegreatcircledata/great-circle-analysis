@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "analysis": "Deep Dive Directive 2: Lithic Exchange Network Directionality",
+    "date": "2026-03-21",
+    "n_total_routes": 2561,
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "overall": {
+    "mean_offset_deg": 40.71,
+    "median_offset_deg": 38.5,
+    "std_offset_deg": 27.8,
+    "null_expectation_deg": 45.0,
+    "t_test_vs_45": {
+      "t": -7.801,
+      "p": 0.0
+    },
+    "ks_test_vs_uniform": {
+      "D": 0.1317,
+      "p": 0.0
+    },
+    "interpretation": "Mean offset = 40.7\u00b0. ~45\u00b0 consistent with random"
+  },
+  "distance_weighted": {
+    "weighted_mean_offset": 49.18,
+    "correlation_dist_vs_offset": {
+      "pearson_r": 0.3574,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.3636,
+      "spearman_p": 0.0
+    },
+    "short_vs_long": {
+      "distance_cutoff_km": 1765.0,
+      "short_routes_mean_offset": 33.79,
+      "long_routes_mean_offset": 47.63,
+      "t_test": {
+        "t": -13.0022,
+        "p": 0.0
+      }
+    }
+  },
+  "regional": {
+    "Egypt": {
+      "n_routes": 7,
+      "mean_offset": 48.81,
+      "mean_distance_km": 179.0,
+      "t_vs_45": 0.3844,
+      "p_vs_45": 0.713971
+    },
+    "Europe": {
+      "n_routes": 4,
+      "mean_offset": 43.1,
+      "mean_distance_km": 561.2,
+      "t_vs_45": -0.0972,
+      "p_vs_45": 0.928702
+    },
+    "Mediterranean": {
+      "n_routes": 5,
+      "mean_offset": 57.84,
+      "mean_distance_km": 206.3,
+      "t_vs_45": 0.9308,
+      "p_vs_45": 0.404664
+    },
+    "Mesoamerica": {
+      "n_routes": 6,
+      "mean_offset": 47.98,
+      "mean_distance_km": 209.3,
+      "t_vs_45": 0.2859,
+      "p_vs_45": 0.786417
+    },
+    "Near_East": {
+      "n_routes": 10,
+      "mean_offset": 59.74,
+      "mean_distance_km": 366.5,
+      "t_vs_45": 1.9809,
+      "p_vs_45": 0.078944
+    },
+    "Pacific": {
+      "n_routes": 2523,
+      "mean_offset": 40.54,
+      "mean_distance_km": 2353.4,
+      "t_vs_45": -8.0634,
+      "p_vs_45": 0.0
+    },
+    "South_America": {
+      "n_routes": 6,
+      "mean_offset": 49.93,
+      "mean_distance_km": 224.1,
+      "t_vs_45": 0.4089,
+      "p_vs_45": 0.699506
+    }
+  },
+  "gc_crossing": {
+    "n_cross": 152,
+    "n_total": 2561,
+    "fraction": 0.0594
+  },
+  "easter_island_pitcairn": {
+    "name": "Pitcairn (basalt) \u2192 Easter Island",
+    "src": [
+      -25.07,
+      -130.1
+    ],
+    "dst": [
+      -27.1,
+      -109.3
+    ],
+    "material": "basalt",
+    "period": "1200-1500 CE",
+    "region": "Pacific",
+    "route_bearing": 100.7,
+    "route_distance_km": 2087.1,
+    "gc_bearing_at_midpoint": 80.6,
+    "gc_dist_midpoint_km": 313.9,
+    "offset_from_gc_deg": 20.2
+  },
+  "interpretation": {
+    "key_question": "Do stone tool exchange routes show directionality along the Great Circle?",
+    "findings": [
+      "Mean offset (40.7\u00b0) is consistent with random expectation (45\u00b0) \u2014 no evidence for GC-aligned directionality"
+    ],
+    "caveats": [
+      "Published routes are biased toward well-studied regions (Near East, Mediterranean)",
+      "Many 'routes' are inferred from source matching, not documented travel paths",
+      "Short-distance routes (<100km) are dominated by local geography",
+      "The Pofatu database provides coordinates but source-artefact matching requires interpretation",
+      "Route bearing is source-to-destination, actual travel paths may differ significantly",
+      "Random expectation assumes uniform bearing distribution, which geography can bias"
+    ]
+  }
+}

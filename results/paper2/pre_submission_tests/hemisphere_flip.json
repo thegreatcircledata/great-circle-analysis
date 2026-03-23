@@ -1,0 +1,77 @@
+{
+  "new_world": {
+    "merged_NW": {
+      "total_sites": 31991,
+      "near_gc": 3287,
+      "expected": 300.228,
+      "std": 750.1349572017025,
+      "enrichment": 10.948345923764606,
+      "z_score": 3.9816461975613437,
+      "monuments_near_gc": 144,
+      "settlements_near_gc": 2943,
+      "monument_fraction": 0.04664723032069971
+    },
+    "peru_ministry": {
+      "total_sites": 17465,
+      "near_gc": 1884,
+      "expected": 135.995,
+      "std": 503.54380839704504,
+      "enrichment": 13.853450494503473,
+      "z_score": 3.4714060045033768,
+      "monuments_near_gc": 63,
+      "settlements_near_gc": 1821,
+      "monument_fraction": 0.03343949044585987
+    },
+    "p3k14c_NW": {
+      "total_sites": 1208,
+      "near_gc": 71,
+      "expected": 9.088,
+      "std": 16.425232296683053,
+      "enrichment": 7.812500000000001,
+      "z_score": 3.7693226422437047,
+      "monuments_near_gc": 0,
+      "settlements_near_gc": 0,
+      "monument_fraction": null
+    }
+  },
+  "old_world": {
+    "merged_OW": {
+      "total_sites": 476706,
+      "near_gc": 9127,
+      "expected": 3662.574,
+      "std": 5468.469637341329,
+      "enrichment": 2.4919633023114343,
+      "z_score": 0.9992605541203489,
+      "monuments_near_gc": 588,
+      "settlements_near_gc": 8283,
+      "monument_fraction": 0.06628339533310788
+    },
+    "pleiades_OW": {
+      "total_sites": 34470,
+      "near_gc": 302,
+      "expected": 278.098,
+      "std": 503.06587878328617,
+      "enrichment": 1.085948119008407,
+      "z_score": 0.04751266386384483,
+      "monuments_near_gc": 103,
+      "settlements_near_gc": 117,
+      "monument_fraction": 0.4681818181818182
+    },
+    "p3k14c_OW": {
+      "total_sites": 21538,
+      "near_gc": 92,
+      "expected": 162.568,
+      "std": 259.22681453892847,
+      "enrichment": 0.5659170316421436,
+      "z_score": -0.27222492443737034,
+      "monuments_near_gc": 0,
+      "settlements_near_gc": 0,
+      "monument_fraction": null
+    }
+  },
+  "comparison": {
+    "nw_mean_enrichment": 10.871432139422694,
+    "ow_mean_enrichment": 1.3812761509873284,
+    "interpretation": "Mixed result: NW=10.87x vs OW=1.38x"
+  }
+}

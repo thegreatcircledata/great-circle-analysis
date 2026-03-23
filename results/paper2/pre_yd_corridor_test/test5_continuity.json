@@ -1,0 +1,15 @@
+{
+  "test": "Continuity vs Discontinuity Across YD",
+  "on_corridor": {
+    "total_site_clusters": 190,
+    "continuity_sites": 4,
+    "continuity_rate": 0.021053
+  },
+  "off_corridor": {
+    "total_site_clusters": 22805,
+    "continuity_sites": 1271,
+    "continuity_rate": 0.055733
+  },
+  "continuity_ratio_on_off": 0.3777,
+  "z_score_continuity": -0.6701
+}

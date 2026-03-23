@@ -1,0 +1,554 @@
+{
+  "pyramid_measurements": {
+    "base_perimeter_m": 921.44,
+    "height_m": 146.59,
+    "base_length_m": 230.36,
+    "apothem_m": 186.42,
+    "slope_angle_deg": 51.844,
+    "base_area_m2": 53066.9,
+    "volume_m3": 2583283.0
+  },
+  "constants_tested": {
+    "earth_equat_circum_km": 40075.017,
+    "earth_polar_circum_km": 40007.863,
+    "earth_equat_radius_km": 6378.137,
+    "earth_polar_radius_km": 6356.752,
+    "earth_mean_radius_km": 6371.0,
+    "earth_axial_tilt_deg": 23.439,
+    "moon_distance_km": 384400.0,
+    "sun_distance_km": 149597870.7,
+    "speed_of_light_m_s": 299792458.0,
+    "earth_orbital_period_days": 365.256,
+    "lunar_month_days": 29.53,
+    "precession_period_years": 25772.0,
+    "golden_ratio": 1.61803,
+    "pi": 3.14159,
+    "earth_surface_area_km2": 510065623.0,
+    "speed_of_light_km_s": 299792.458,
+    "earth_obliquity_arcsec": 84381.448
+  },
+  "tolerance_pct": 1.0,
+  "total_gp_hits": 13540,
+  "hits_at_43200": [
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43200,
+      "product_km": 39806.208,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.6708,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43200,
+      "product_km": 39806.208,
+      "constant": "earth_polar_circum_km",
+      "constant_value": 40007.863,
+      "error_pct": 0.504,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "height_m",
+      "multiplier": 43200,
+      "product_km": 6332.688,
+      "constant": "earth_equat_radius_km",
+      "constant_value": 6378.137,
+      "error_pct": 0.7126,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "height_m",
+      "multiplier": 43200,
+      "product_km": 6332.688,
+      "constant": "earth_polar_radius_km",
+      "constant_value": 6356.752,
+      "error_pct": 0.3786,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "height_m",
+      "multiplier": 43200,
+      "product_km": 6332.688,
+      "constant": "earth_mean_radius_km",
+      "constant_value": 6371.0,
+      "error_pct": 0.6013,
+      "conversion": "m_to_km"
+    }
+  ],
+  "optimal_multiplier_circumference": 43491.7,
+  "optimal_multiplier_radius": 43364.2,
+  "circumference_error_at_43200_pct": 0.6708,
+  "radius_error_at_43200_pct": 0.3786,
+  "random_monument_comparison": {
+    "n_random": 1000,
+    "gp_comparable_hits": 6979,
+    "random_mean": 8452.9,
+    "random_std": 2372.0,
+    "z_score": -0.62,
+    "gp_percentile": 23.1
+  },
+  "dual_match_test": {
+    "n_random": 1000,
+    "monuments_with_dual_match": 30,
+    "dual_match_pct": 3.0
+  },
+  "precessional_analysis": {
+    "factorization": "43200 = 600 \u00d7 72",
+    "actual_years_per_degree": 71.589,
+    "error_of_72": 0.57,
+    "sexagesimal_note": "43200 = 12 \u00d7 3600 seconds (half a day in seconds)"
+  },
+  "all_hits_sample": [
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43057,
+      "product_km": 39674.44208000001,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9996,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43058,
+      "product_km": 39675.363520000006,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9973,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43059,
+      "product_km": 39676.284960000005,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.995,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43060,
+      "product_km": 39677.2064,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9927,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43061,
+      "product_km": 39678.12784,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9904,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43062,
+      "product_km": 39679.04928,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9881,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43063,
+      "product_km": 39679.97072,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9858,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43064,
+      "product_km": 39680.89216,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9835,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43065,
+      "product_km": 39681.8136,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9812,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43066,
+      "product_km": 39682.73504,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9789,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43067,
+      "product_km": 39683.656480000005,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9766,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43068,
+      "product_km": 39684.57792,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9743,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43069,
+      "product_km": 39685.49936,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.972,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43070,
+      "product_km": 39686.42080000001,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9697,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43071,
+      "product_km": 39687.342240000005,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9674,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43072,
+      "product_km": 39688.26368,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9651,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43073,
+      "product_km": 39689.18512,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9628,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43074,
+      "product_km": 39690.10656,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9605,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43075,
+      "product_km": 39691.028,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9582,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43076,
+      "product_km": 39691.949440000004,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9559,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43077,
+      "product_km": 39692.87088,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9536,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43078,
+      "product_km": 39693.79232,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9513,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43079,
+      "product_km": 39694.713760000006,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.949,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43080,
+      "product_km": 39695.635200000004,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9467,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43081,
+      "product_km": 39696.55664,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9444,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43082,
+      "product_km": 39697.47808000001,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9421,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43083,
+      "product_km": 39698.399520000006,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9398,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43084,
+      "product_km": 39699.32096,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9375,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43085,
+      "product_km": 39700.2424,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9352,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43086,
+      "product_km": 39701.16384,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9329,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43087,
+      "product_km": 39702.08528,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9306,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43088,
+      "product_km": 39703.00672,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9283,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43089,
+      "product_km": 39703.92816,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.926,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43090,
+      "product_km": 39704.8496,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9237,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43091,
+      "product_km": 39705.77104,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9214,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43092,
+      "product_km": 39706.692480000005,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9191,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43093,
+      "product_km": 39707.61392,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9168,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43094,
+      "product_km": 39708.53536,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9145,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43095,
+      "product_km": 39709.45680000001,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9122,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43096,
+      "product_km": 39710.378240000005,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9099,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43097,
+      "product_km": 39711.29968,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9076,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43098,
+      "product_km": 39712.22112,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9053,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43099,
+      "product_km": 39713.14256,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.903,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43100,
+      "product_km": 39714.064,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.9007,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43101,
+      "product_km": 39714.985440000004,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8984,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43102,
+      "product_km": 39715.90688,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8961,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43103,
+      "product_km": 39716.82832,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8938,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43104,
+      "product_km": 39717.749760000006,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8915,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43105,
+      "product_km": 39718.671200000004,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8892,
+      "conversion": "m_to_km"
+    },
+    {
+      "measurement": "base_perimeter_m",
+      "multiplier": 43106,
+      "product_km": 39719.59264,
+      "constant": "earth_equat_circum_km",
+      "constant_value": 40075.017,
+      "error_pct": 0.8869,
+      "conversion": "m_to_km"
+    }
+  ]
+}

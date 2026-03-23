@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "date": "2026-03-20",
+    "databases": [
+      "p3k14c",
+      "XRONOS",
+      "ROAD v32"
+    ],
+    "total_merged_dates": 94181,
+    "pre_yd_dates": 16483,
+    "on_corridor_dates": 807,
+    "threshold_km": 50,
+    "n_random_circles": 1000,
+    "runtime_seconds": 19.9
+  },
+  "test1_temporal_profile": {
+    "description": "Enrichment of on-corridor dates by 500-year bin",
+    "file": "test1_temporal_profile.json"
+  },
+  "test2_pre_yd_enrichment": {
+    "description": "THE KEY TEST: Pre-YD corridor enrichment vs random circles",
+    "pre_yd_z_score": -0.4706,
+    "deep_pre_yd_z_score": -0.4895,
+    "late_glacial_z_score": -0.3015,
+    "habitability_matched_z": -0.9878,
+    "observed_pre_yd_on_corridor": 10,
+    "random_mean": 127.14,
+    "random_std": 248.91,
+    "percentile": 32.8,
+    "file": "test2_pre_yd_enrichment.json"
+  },
+  "test3_yd_disruption": {
+    "description": "YD crash ratio: corridor vs global",
+    "crash_ratio_corridor": 1.5,
+    "crash_ratio_global": 1.3165,
+    "z_score": 0.1084,
+    "file": "test3_yd_disruption.json"
+  },
+  "test4_regional_decomposition": {
+    "description": "Regional breakdown of on-corridor pre-YD dates",
+    "top_region": "Egypt/Levant",
+    "top_region_pre_yd": 6,
+    "file": "test4_regional_decomposition.json"
+  },
+  "test5_continuity": {
+    "description": "Site continuity across YD boundary",
+    "continuity_rate_on": 0.021053,
+    "continuity_rate_off": 0.055733,
+    "file": "test5_continuity.json"
+  },
+  "test6_atlantis_regions": {
+    "description": "Pre-YD activity in candidate \"Atlantis\" regions",
+    "file": "test6_atlantis_regions.json"
+  },
+  "test7_spd": {
+    "description": "Simplified summed probability distribution",
+    "file": "test7_spd.json"
+  },
+  "sensitivity": {
+    "25km": {
+      "total_on": 450,
+      "pre_yd_on": 4,
+      "z_score": -0.4534,
+      "random_mean": 41.15,
+      "random_std": 81.94
+    },
+    "100km": {
+      "total_on": 1221,
+      "pre_yd_on": 65,
+      "z_score": -0.3397,
+      "random_mean": 184.08,
+      "random_std": 350.57
+    },
+    "exclude_north_america": {
+      "pre_yd_on": 10,
+      "z_score": -0.4334
+    }
+  },
+  "verdict": "CONVENTIONAL \u2014 No pre-YD anomaly detected"
+}

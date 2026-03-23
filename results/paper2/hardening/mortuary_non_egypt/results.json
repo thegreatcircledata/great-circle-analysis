@@ -1,0 +1,592 @@
+{
+  "test": "C3_Mortuary_Divergence_Outside_Egypt",
+  "seed": 42,
+  "mc_trials": 500,
+  "threshold_km": 50,
+  "total_pre2000_mortuary": 150,
+  "per_segment": {
+    "Anatolia": {
+      "N_total": 5,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    },
+    "Egypt_Nubia": {
+      "N_total": 65,
+      "N_on_corridor": 41,
+      "MC_mean": 41.13,
+      "MC_std": 3.91,
+      "Z_score": -0.034
+    },
+    "Greece_Balkans": {
+      "N_total": 9,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    },
+    "Italy": {
+      "N_total": 12,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    },
+    "Levant": {
+      "N_total": 6,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    },
+    "Mesopotamia_Iran": {
+      "N_total": 5,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    },
+    "Other": {
+      "N_total": 44,
+      "N_on_corridor": 0,
+      "MC_mean": 0.0,
+      "MC_std": 0.0,
+      "Z_score": 0.0
+    }
+  },
+  "non_egypt_aggregate": {
+    "N_total": 85,
+    "N_on_corridor": 0,
+    "MC_mean": 0.0,
+    "MC_std": 0.0,
+    "Z_score": 0.0
+  },
+  "on_corridor_sites": [
+    {
+      "title": "Pyramid of Sahure",
+      "featureTypes": "pyramid, architecturalcomplex, causeway",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8975674595,
+      "lon": 31.2048106295,
+      "dist_from_gc": 3.11,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Mastaba of Ptahshepses at Abusir",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 29.8965413666,
+      "lon": 31.204560324,
+      "dist_from_gc": 3.22,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Abu Sir",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.896115,
+      "lon": 31.20404,
+      "dist_from_gc": 3.26,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Neferirkare",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.89497065,
+      "lon": 31.2024288,
+      "dist_from_gc": 3.38,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Abusir South",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.8832291844,
+      "lon": 31.2097395019,
+      "dist_from_gc": 4.74,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Sacred Animal Necropolis (\u1e62aqq\u0101rah)",
+      "featureTypes": "settlement, cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.8817400893,
+      "lon": 31.2153024975,
+      "dist_from_gc": 4.95,
+      "segment": "Egypt_Nubia",
+      "minDate": -4500.0
+    },
+    {
+      "title": "Helwan necropolis",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.8835905399,
+      "lon": 31.295443074,
+      "dist_from_gc": 5.43,
+      "segment": "Egypt_Nubia",
+      "minDate": -2950.0
+    },
+    {
+      "title": "Tomb of Mereruka",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 29.8757920202,
+      "lon": 31.2211994488,
+      "dist_from_gc": 5.66,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Mastaba of Kagemni",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 29.8757727,
+      "lon": 31.2213817,
+      "dist_from_gc": 5.67,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Teti",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8751649794,
+      "lon": 31.2217551626,
+      "dist_from_gc": 5.74,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramids of Queens",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.9717794,
+      "lon": 31.1281233,
+      "dist_from_gc": 5.77,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Userkaf",
+      "featureTypes": "tomb, pyramid",
+      "matched_types": [
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.8737765,
+      "lon": 31.2185497,
+      "dist_from_gc": 5.86,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Menkaure",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.9728781,
+      "lon": 31.128802,
+      "dist_from_gc": 5.88,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "The Giza Necropolis",
+      "featureTypes": "cemetery, archaeological-site",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.973088495,
+      "lon": 31.1297475567,
+      "dist_from_gc": 5.9,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Khentkawes",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.9735563,
+      "lon": 31.1356834,
+      "dist_from_gc": 5.9,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Djoser",
+      "featureTypes": "pyramid, architecturalcomplex",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8707675098,
+      "lon": 31.2166486516,
+      "dist_from_gc": 6.18,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Khafre",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.9769101,
+      "lon": 31.1296934,
+      "dist_from_gc": 6.32,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Giza",
+      "featureTypes": "sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex",
+      "matched_types": [
+        "cemetery",
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.9777703374,
+      "lon": 31.1319071185,
+      "dist_from_gc": 6.4,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Unas",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8681961251,
+      "lon": 31.2149708867,
+      "dist_from_gc": 6.45,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Tomb of Hetepheres I",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 29.9790508,
+      "lon": 31.1359926,
+      "dist_from_gc": 6.51,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "The Great Pyramid",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.9791600351,
+      "lon": 31.1342156516,
+      "dist_from_gc": 6.53,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Sekhemkhet",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8661529394,
+      "lon": 31.2136320778,
+      "dist_from_gc": 6.66,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Abu Bakr cemetery",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.9818377994,
+      "lon": 31.1271615028,
+      "dist_from_gc": 6.89,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Saqqarah",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.862380874,
+      "lon": 31.2193541512,
+      "dist_from_gc": 7.13,
+      "segment": "Egypt_Nubia",
+      "minDate": -2950.0
+    },
+    {
+      "title": "Pyramid of Pepi I at Saqqarah",
+      "featureTypes": "tomb, pyramid",
+      "matched_types": [
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.8547523,
+      "lon": 31.2186043,
+      "dist_from_gc": 7.97,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Necropolis and Mortuary Complex of Pepi I",
+      "featureTypes": "pyramid, cemetery",
+      "matched_types": [
+        "cemetery",
+        "pyramid"
+      ],
+      "lat": 29.8542114233,
+      "lon": 31.2190057132,
+      "dist_from_gc": 8.03,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Djedkare-Isesi",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.850964,
+      "lon": 31.22094695,
+      "dist_from_gc": 8.41,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Mastabet el-Fara'un",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 29.8351588,
+      "lon": 31.215421,
+      "dist_from_gc": 10.11,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Khendjer",
+      "featureTypes": "tomb, pyramid",
+      "matched_types": [
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.83229655,
+      "lon": 31.2239184,
+      "dist_from_gc": 10.5,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Pyramid-complex of Senusret III",
+      "featureTypes": "tomb, pyramid, temple-2",
+      "matched_types": [
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.8185716356,
+      "lon": 31.2257073725,
+      "dist_from_gc": 12.04,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Red Pyramid",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.8085513,
+      "lon": 31.20624445,
+      "dist_from_gc": 12.98,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Djedefre",
+      "featureTypes": "tomb",
+      "matched_types": [
+        "tomb"
+      ],
+      "lat": 30.0327194,
+      "lon": 31.0742458,
+      "dist_from_gc": 12.98,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Abu Rawash",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 30.0341969932,
+      "lon": 31.0794498643,
+      "dist_from_gc": 13.1,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "White Pyramid",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.805854985,
+      "lon": 31.2238459406,
+      "dist_from_gc": 13.43,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Takyris",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 29.7998647855,
+      "lon": 31.2167046376,
+      "dist_from_gc": 14.03,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Black Pyramid",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.7917430749,
+      "lon": 31.2239092367,
+      "dist_from_gc": 14.99,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Bent Pyramid",
+      "featureTypes": "tomb, pyramid",
+      "matched_types": [
+        "pyramid",
+        "tomb"
+      ],
+      "lat": 29.7902357,
+      "lon": 31.20946815,
+      "dist_from_gc": 15.04,
+      "segment": "Egypt_Nubia",
+      "minDate": -2670.0
+    },
+    {
+      "title": "Pyramid of Ameny Qemau",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.7818440739,
+      "lon": 31.2216294924,
+      "dist_from_gc": 16.07,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "El Qattah",
+      "featureTypes": "cemetery",
+      "matched_types": [
+        "cemetery"
+      ],
+      "lat": 30.2170479,
+      "lon": 30.9668449,
+      "dist_from_gc": 34.33,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Pyramid of Amenemhat I",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.5748412261,
+      "lon": 31.2252958361,
+      "dist_from_gc": 39.03,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    },
+    {
+      "title": "Pyramid of Senusret I",
+      "featureTypes": "pyramid",
+      "matched_types": [
+        "pyramid"
+      ],
+      "lat": 29.56017955,
+      "lon": 31.22115665,
+      "dist_from_gc": 40.62,
+      "segment": "Egypt_Nubia",
+      "minDate": -2010.0
+    }
+  ],
+  "feature_type_counts": {
+    "pyramid": 25,
+    "tomb": 12,
+    "cemetery": 12
+  },
+  "segment_on_corridor_counts": {
+    "Egypt_Nubia": 41
+  },
+  "egypt_pyramid_tomb_pct_of_all": 90.2,
+  "temporal_decomposition": {
+    "Egypt_Nubia": {
+      "pre_3000_BCE": {
+        "N": 9,
+        "N_on": 1
+      },
+      "3000_2000_BCE": {
+        "N": 56,
+        "N_on": 40
+      },
+      "2000_1000_BCE": {
+        "N": 0,
+        "N_on": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+test_num,name,p_uncorrected,direction,category,p_bh_all,significant_bh_all,p_bh_positive,significant_bh_positive
+9,OSM replication Z=30.39,1e-200,positive,Primary,4.0999999999999998e-199,True,2.3e-199,True
+1,Portal enrichment Z=25.85,1e-146,positive,Primary,2.05e-145,True,1.15e-145,True
+7,XRONOS replication Z=24.45,1e-130,positive,Primary,1.3666666666666668e-129,True,7.666666666666668e-130,True
+11,Peru Ministry replication Z=14.38,1e-46,positive,Primary,1.025e-45,True,5.7500000000000006e-46,True
+10,Wikidata replication Z=14.06,1e-44,positive,Primary,8.2e-44,True,4.6e-44,True
+3,"Monument enrichment 5.05x, Z=11.83",1e-31,positive,Primary,6.8333333333333345e-31,True,3.833333333333334e-31,True
+4,"Temporal spike 2750-2500 BCE, Z=11.26",1e-28,positive,Primary,5.125e-28,True,2.875e-28,True
+12,p3k14c replication Z=11.12,1e-28,positive,Primary,5.125e-28,True,2.875e-28,True
+8,Pleiades replication Z=10.68,1e-26,positive,Primary,4.5555555555555555e-26,True,2.5555555555555557e-26,True
+2,Split-sample validation (100/100),1e-10,positive,Primary,3.727272727272727e-10,True,2.090909090909091e-10,True
+5,Preservation test D>2 in 100% of MC,1e-10,positive,Primary,3.727272727272727e-10,True,2.090909090909091e-10,True
+13,CNSA Brazil enrichment p=6.1e-7,6.1e-07,positive,Primary,2.084166666666667e-06,True,1.1691666666666668e-06,True
+18,Newgrange-Knossos second alignment p<0.0001,0.0001,positive,Deep dive,0.0003153846153846154,True,0.00017692307692307696,True
+19,Collinearity p=0.0003 (random civ sim),0.0003,positive,Collinearity,0.0008785714285714284,True,0.0004928571428571428,True
+20,Continental position p=0.00034,0.00034,positive,Collinearity,0.0009293333333333334,True,0.0005213333333333334,True
+6,Anti-circle control max |D|=2.0 vs 8.16,0.001,positive,Primary,0.0024117647058823533,True,0.0013529411764705884,True
+17,Off-circle terrain difference p=0.001,0.001,positive,Deep dive,0.0024117647058823533,True,0.0013529411764705884,True
+23,Equivalent site substitution rank #1/640,0.0016,positive,Collinearity,0.0036444444444444445,True,0.0020444444444444447,True
+15,Orion shape match #5/3420,0.0074,positive,Hancock,0.01596842105263158,True,0.008957894736842106,True
+21,Geological pole within 0.8deg,0.01,positive,Collinearity,0.019523809523809523,True,0.010952380952380953,True
+14,Nile Valley constriction (within 1km),0.01,positive,Terrain,0.019523809523809523,True,0.010952380952380953,True
+16,"43,200 dual match 3%",0.03,positive,Hancock,0.0559090909090909,False,0.031363636363636364,True
+22,Desert belt 93rd percentile,0.07,positive,Collinearity,0.12478260869565218,False,0.07,False
+37,Navigational waypoints p=0.076,0.076,null,Terrain,0.12983333333333333,False,,
+41,aDNA connectivity (null),0.25,null,Deep dive,0.41000000000000003,False,,
+24,Population density Z=0.89,0.37,null,Alternative,0.577037037037037,False,,
+35,Terrain transition 62nd %ile,0.38,null,Terrain,0.577037037037037,False,,
+36,Visibility 52nd %ile,0.48,null,Terrain,0.6612903225806451,False,,
+39,Soreq Cave climate (binning artifact),0.5,null,Climate,0.6612903225806451,False,,
+31,Longitude grid (6 tests all negative),0.5,null,Hancock,0.6612903225806451,False,,
+26,Geological feature (no correspondence),0.5,null,Alternative,0.6612903225806451,False,,
+34,Phi ratio Bonferroni p=0.64,0.64,null,Hancock,0.82,False,,
+29,"Pre-YD civilization (10 dates, 33rd %ile)",0.67,null,Pre-YD,0.8324242424242424,False,,
+27,Astronomical alignment (nothing survives),0.75,null,Alternative,0.8902857142857143,False,,
+40,Monument size vs distance (null),0.76,null,Deep dive,0.8902857142857143,False,,
+38,Habitability optimization 19th %ile,0.81,null,Alternative,0.9225000000000001,False,,
+28,South American divergence (null on 3 DBs),0.9,null,Regional,0.95325,False,,
+30,YD crash ratio Z=0.11,0.91,null,Pre-YD,0.95325,False,,
+32,108 degree separation Z=-1.38,0.92,null,Hancock,0.95325,False,,
+25,Trade routes D=-4.0,0.93,null,Alternative,0.95325,False,,
+33,Pillar 43 encoding #22/24,0.99,null,Hancock,0.99,False,,

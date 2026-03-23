@@ -1,0 +1,351 @@
+{
+  "description": "Directive 6: Off-circle site membership in 12 high-D circles + Alison",
+  "threshold_km": 50.0,
+  "n_circles": 13,
+  "circles": [
+    {
+      "id": "rank_1",
+      "pole_lat": 36.0,
+      "pole_lon": -117.5,
+      "D": 24.28134457718866
+    },
+    {
+      "id": "rank_2",
+      "pole_lat": 45.5,
+      "pole_lon": -141.5,
+      "D": 22.69487569211997
+    },
+    {
+      "id": "rank_3",
+      "pole_lat": 43.5,
+      "pole_lon": -135.0,
+      "D": 21.817401854006892
+    },
+    {
+      "id": "rank_4",
+      "pole_lat": 47.5,
+      "pole_lon": -157.0,
+      "D": 20.994637722259288
+    },
+    {
+      "id": "rank_5",
+      "pole_lat": 0.5,
+      "pole_lon": 102.5,
+      "D": 19.586144277647307
+    },
+    {
+      "id": "rank_6",
+      "pole_lat": 29.5,
+      "pole_lon": -108.0,
+      "D": 17.957215445059983
+    },
+    {
+      "id": "rank_7",
+      "pole_lat": 6.0,
+      "pole_lon": -82.5,
+      "D": 16.731089026991423
+    },
+    {
+      "id": "rank_8",
+      "pole_lat": 17.5,
+      "pole_lon": 119.5,
+      "D": 15.942934160898167
+    },
+    {
+      "id": "rank_9",
+      "pole_lat": 34.0,
+      "pole_lon": 140.5,
+      "D": 15.839894053492564
+    },
+    {
+      "id": "rank_10",
+      "pole_lat": 43.0,
+      "pole_lon": 160.0,
+      "D": 15.798018005543582
+    },
+    {
+      "id": "rank_11",
+      "pole_lat": 19.0,
+      "pole_lon": 120.5,
+      "D": 15.141890367557783
+    },
+    {
+      "id": "rank_12",
+      "pole_lat": 59.5,
+      "pole_lon": 178.5,
+      "D": 14.080676062093152
+    },
+    {
+      "id": "alison",
+      "pole_lat": 59.682122,
+      "pole_lon": -138.646087,
+      "D": 8.92029521000284
+    }
+  ],
+  "site_results": [
+    {
+      "site": "G\u00f6bekli Tepe",
+      "lat": 37.223,
+      "lon": 38.922,
+      "distances_km": {
+        "rank_1": 1510.4,
+        "rank_2": 809.1,
+        "rank_3": 1010.6,
+        "rank_4": 454.8,
+        "rank_5": 2343.5,
+        "rank_6": 1827.0,
+        "rank_7": 2275.6,
+        "rank_8": 1982.8,
+        "rank_9": 1320.4,
+        "rank_10": 714.6,
+        "rank_11": 1989.4,
+        "rank_12": 1371.0,
+        "alison": 770.1
+      },
+      "closest_circle": "rank_4",
+      "closest_distance_km": 454.8,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Stonehenge",
+      "lat": 51.179,
+      "lon": -1.826,
+      "distances_km": {
+        "rank_1": 1532.4,
+        "rank_2": 1417.9,
+        "rank_3": 1447.0,
+        "rank_4": 1218.1,
+        "rank_5": 948.4,
+        "rank_6": 1489.5,
+        "rank_7": 1169.1,
+        "rank_8": 488.2,
+        "rank_9": 154.9,
+        "rank_10": 610.9,
+        "rank_11": 403.6,
+        "rank_12": 2299.4,
+        "alison": 2915.4
+      },
+      "closest_circle": "rank_9",
+      "closest_distance_km": 154.9,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Angkor Wat",
+      "lat": 13.412,
+      "lon": 103.867,
+      "distances_km": {
+        "rank_1": 3004.2,
+        "rank_2": 758.2,
+        "rank_3": 1316.3,
+        "rank_4": 425.3,
+        "rank_5": 8563.9,
+        "rank_6": 4138.0,
+        "rank_7": 7737.4,
+        "rank_8": 8272.3,
+        "rank_9": 5667.9,
+        "rank_10": 3745.7,
+        "rank_11": 8127.3,
+        "rank_12": 2147.2,
+        "alison": 168.2
+      },
+      "closest_circle": "alison",
+      "closest_distance_km": 168.2,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Teotihuacan",
+      "lat": 19.692,
+      "lon": -98.844,
+      "distances_km": {
+        "rank_1": 7437.7,
+        "rank_2": 5173.3,
+        "rank_3": 5734.4,
+        "rank_4": 3973.5,
+        "rank_5": 6774.3,
+        "rank_6": 8578.3,
+        "rank_7": 7675.3,
+        "rank_8": 4123.1,
+        "rank_9": 1345.1,
+        "rank_10": 616.3,
+        "rank_11": 3932.2,
+        "rank_12": 2287.7,
+        "alison": 4558.6
+      },
+      "closest_circle": "rank_10",
+      "closest_distance_km": 616.3,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Great Zimbabwe",
+      "lat": -20.267,
+      "lon": 30.933,
+      "distances_km": {
+        "rank_1": 6475.7,
+        "rank_2": 7117.4,
+        "rank_3": 7112.2,
+        "rank_4": 6896.0,
+        "rank_5": 1898.4,
+        "rank_6": 5762.9,
+        "rank_7": 2672.1,
+        "rank_8": 521.7,
+        "rank_9": 3003.5,
+        "rank_10": 4665.9,
+        "rank_11": 677.1,
+        "rank_12": 4942.9,
+        "alison": 5547.0
+      },
+      "closest_circle": "rank_8",
+      "closest_distance_km": 521.7,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Borobudur",
+      "lat": -7.608,
+      "lon": 110.204,
+      "distances_km": {
+        "rank_1": 4240.0,
+        "rank_2": 2025.0,
+        "rank_3": 2570.9,
+        "rank_4": 832.4,
+        "rank_5": 8765.5,
+        "rank_6": 5337.0,
+        "rank_7": 8593.6,
+        "rank_8": 7034.7,
+        "rank_9": 4387.3,
+        "rank_10": 2467.2,
+        "rank_11": 6840.9,
+        "rank_12": 458.9,
+        "alison": 1906.6
+      },
+      "closest_circle": "rank_12",
+      "closest_distance_km": 458.9,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Machu Picchu",
+      "lat": -13.163,
+      "lon": -72.546,
+      "distances_km": {
+        "rank_1": 2787.0,
+        "rank_2": 527.3,
+        "rank_3": 1087.6,
+        "rank_4": 665.8,
+        "rank_5": 8497.4,
+        "rank_6": 3928.0,
+        "rank_7": 7609.8,
+        "rank_8": 8629.2,
+        "rank_9": 5950.6,
+        "rank_10": 4007.7,
+        "rank_11": 8470.9,
+        "rank_12": 2323.9,
+        "alison": 16.3
+      },
+      "closest_circle": "alison",
+      "closest_distance_km": 16.3,
+      "within_50km": {
+        "alison": 16.3
+      },
+      "n_circles_within_50km": 1
+    },
+    {
+      "site": "Chichen Itza",
+      "lat": 20.683,
+      "lon": -88.569,
+      "distances_km": {
+        "rank_1": 6723.0,
+        "rank_2": 4484.4,
+        "rank_3": 5037.6,
+        "rank_4": 3282.7,
+        "rank_5": 7362.2,
+        "rank_6": 7823.3,
+        "rank_7": 8248.6,
+        "rank_8": 4773.5,
+        "rank_9": 2012.3,
+        "rank_10": 58.1,
+        "rank_11": 4576.8,
+        "rank_12": 1808.4,
+        "alison": 4163.5
+      },
+      "closest_circle": "rank_10",
+      "closest_distance_km": 58.1,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Cahokia",
+      "lat": 38.655,
+      "lon": -90.062,
+      "distances_km": {
+        "rank_1": 7572.7,
+        "rank_2": 5768.8,
+        "rank_3": 6248.7,
+        "rank_4": 4653.6,
+        "rank_5": 5468.4,
+        "rank_6": 8072.4,
+        "rank_7": 6297.5,
+        "rank_8": 3045.3,
+        "rank_9": 395.1,
+        "rank_10": 1486.7,
+        "rank_11": 2849.1,
+        "rank_12": 3545.7,
+        "alison": 5907.6
+      },
+      "closest_circle": "rank_9",
+      "closest_distance_km": 395.1,
+      "within_50km": {},
+      "n_circles_within_50km": 0
+    },
+    {
+      "site": "Karnak/Luxor",
+      "lat": 25.719,
+      "lon": 32.657,
+      "distances_km": {
+        "rank_1": 2463.7,
+        "rank_2": 2066.3,
+        "rank_3": 2208.1,
+        "rank_4": 1808.6,
+        "rank_5": 2036.5,
+        "rank_6": 2571.3,
+        "rank_7": 2179.9,
+        "rank_8": 1138.9,
+        "rank_9": 88.0,
+        "rank_10": 662.0,
+        "rank_11": 1110.0,
+        "rank_12": 28.5,
+        "alison": 478.0
+      },
+      "closest_circle": "rank_12",
+      "closest_distance_km": 28.5,
+      "within_50km": {
+        "rank_12": 28.5
+      },
+      "n_circles_within_50km": 1
+    }
+  ],
+  "circle_captures_within_50km": {
+    "rank_1": [],
+    "rank_2": [],
+    "rank_3": [],
+    "rank_4": [],
+    "rank_5": [],
+    "rank_6": [],
+    "rank_7": [],
+    "rank_8": [],
+    "rank_9": [],
+    "rank_10": [],
+    "rank_11": [],
+    "rank_12": [
+      "Karnak/Luxor"
+    ],
+    "alison": [
+      "Machu Picchu"
+    ]
+  },
+  "multi_capture_circles": {}
+}

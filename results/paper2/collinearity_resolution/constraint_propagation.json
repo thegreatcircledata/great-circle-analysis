@@ -1,0 +1,588 @@
+{
+  "Giza+Nazca\u2192Pacific": {
+    "pair": "Giza+Nazca\u2192Pacific",
+    "target_region": "Pacific",
+    "circle_points_in_region": 1028,
+    "land_points": 62,
+    "land_fraction": 0.0603,
+    "islands_within_50km": [
+      {
+        "name": "Easter Island (Rapa Nui)",
+        "lat": -27.1,
+        "lon": -109.333,
+        "population": 7750,
+        "distance_km": 0.9
+      },
+      {
+        "name": "Sala y Gomez",
+        "lat": -26.47,
+        "lon": -105.37,
+        "population": 0,
+        "distance_km": 34.4
+      }
+    ],
+    "islands_within_100km": [
+      {
+        "name": "Easter Island (Rapa Nui)",
+        "lat": -27.1,
+        "lon": -109.333,
+        "population": 7750,
+        "distance_km": 0.9
+      },
+      {
+        "name": "Sala y Gomez",
+        "lat": -26.47,
+        "lon": -105.37,
+        "population": 0,
+        "distance_km": 34.4
+      }
+    ],
+    "islands_within_200km": [
+      {
+        "name": "Easter Island (Rapa Nui)",
+        "lat": -27.1,
+        "lon": -109.333,
+        "population": 7750,
+        "distance_km": 0.9
+      },
+      {
+        "name": "Sala y Gomez",
+        "lat": -26.47,
+        "lon": -105.37,
+        "population": 0,
+        "distance_km": 34.4
+      }
+    ],
+    "inhabited_within_50km": 1,
+    "inhabited_within_100km": 1,
+    "inhabited_within_200km": 1,
+    "all_islands_ranked": [
+      {
+        "name": "Easter Island (Rapa Nui)",
+        "lat": -27.1,
+        "lon": -109.333,
+        "population": 7750,
+        "distance_km": 0.9
+      },
+      {
+        "name": "Sala y Gomez",
+        "lat": -26.47,
+        "lon": -105.37,
+        "population": 0,
+        "distance_km": 34.4
+      },
+      {
+        "name": "Rapa Iti",
+        "lat": -27.62,
+        "lon": -144.34,
+        "population": 507,
+        "distance_km": 292.9
+      },
+      {
+        "name": "New Caledonia (Noumea)",
+        "lat": -22.28,
+        "lon": 166.46,
+        "population": 271407,
+        "distance_km": 374.1
+      },
+      {
+        "name": "Tongatapu (Tonga)",
+        "lat": -21.21,
+        "lon": -175.15,
+        "population": 75416,
+        "distance_km": 423.1
+      },
+      {
+        "name": "Ducie Island",
+        "lat": -24.67,
+        "lon": -124.78,
+        "population": 0,
+        "distance_km": 551.5
+      },
+      {
+        "name": "Viti Levu (Fiji)",
+        "lat": -17.77,
+        "lon": 178.07,
+        "population": 600000,
+        "distance_km": 553.0
+      },
+      {
+        "name": "Pitcairn Island",
+        "lat": -25.07,
+        "lon": -130.1,
+        "population": 47,
+        "distance_km": 559.6
+      },
+      {
+        "name": "Henderson Island",
+        "lat": -24.37,
+        "lon": -128.33,
+        "population": 0,
+        "distance_km": 622.5
+      },
+      {
+        "name": "Raivavae",
+        "lat": -23.87,
+        "lon": -147.67,
+        "population": 940,
+        "distance_km": 686.9
+      },
+      {
+        "name": "Vanua Levu (Fiji)",
+        "lat": -16.58,
+        "lon": 179.22,
+        "population": 135961,
+        "distance_km": 719.4
+      },
+      {
+        "name": "Tubuai",
+        "lat": -23.35,
+        "lon": -149.48,
+        "population": 2170,
+        "distance_km": 728.2
+      },
+      {
+        "name": "Vavau (Tonga)",
+        "lat": -18.62,
+        "lon": -173.98,
+        "population": 14922,
+        "distance_km": 734.5
+      },
+      {
+        "name": "Rimatara",
+        "lat": -22.64,
+        "lon": -152.81,
+        "population": 873,
+        "distance_km": 768.7
+      },
+      {
+        "name": "Mangareva (Gambier)",
+        "lat": -23.12,
+        "lon": -134.97,
+        "population": 1239,
+        "distance_km": 802.3
+      },
+      {
+        "name": "Rurutu",
+        "lat": -22.47,
+        "lon": -151.35,
+        "population": 2466,
+        "distance_km": 805.4
+      },
+      {
+        "name": "Niue",
+        "lat": -19.05,
+        "lon": -169.87,
+        "population": 1620,
+        "distance_km": 809.9
+      },
+      {
+        "name": "Rarotonga (Cook Is.)",
+        "lat": -21.23,
+        "lon": -159.78,
+        "population": 13007,
+        "distance_km": 811.7
+      },
+      {
+        "name": "Palau (Koror)",
+        "lat": 7.34,
+        "lon": 134.47,
+        "population": 11754,
+        "distance_km": 871.8
+      },
+      {
+        "name": "San Felix Island",
+        "lat": -26.28,
+        "lon": -80.13,
+        "population": 0,
+        "distance_km": 922.2
+      },
+      {
+        "name": "Desventuradas Islands",
+        "lat": -26.35,
+        "lon": -80.05,
+        "population": 0,
+        "distance_km": 932.6
+      },
+      {
+        "name": "San Ambrosio Island",
+        "lat": -26.35,
+        "lon": -79.88,
+        "population": 0,
+        "distance_km": 940.0
+      },
+      {
+        "name": "Norfolk Island",
+        "lat": -29.04,
+        "lon": 167.95,
+        "population": 1748,
+        "distance_km": 997.0
+      },
+      {
+        "name": "Futuna",
+        "lat": -14.27,
+        "lon": -178.15,
+        "population": 3613,
+        "distance_km": 1055.7
+      },
+      {
+        "name": "Tureia",
+        "lat": -20.78,
+        "lon": -138.57,
+        "population": 313,
+        "distance_km": 1068.2
+      },
+      {
+        "name": "Aitutaki (Cook Is.)",
+        "lat": -18.86,
+        "lon": -159.79,
+        "population": 2000,
+        "distance_km": 1070.5
+      },
+      {
+        "name": "Wallis Island",
+        "lat": -13.3,
+        "lon": -176.2,
+        "population": 8333,
+        "distance_km": 1225.5
+      },
+      {
+        "name": "Yap (Micronesia)",
+        "lat": 9.54,
+        "lon": 138.13,
+        "population": 11377,
+        "distance_km": 1287.8
+      },
+      {
+        "name": "Upolu (Samoa)",
+        "lat": -13.83,
+        "lon": -171.76,
+        "population": 143418,
+        "distance_km": 1312.9
+      },
+      {
+        "name": "Savaii (Samoa)",
+        "lat": -13.63,
+        "lon": -172.45,
+        "population": 43142,
+        "distance_km": 1312.9
+      },
+      {
+        "name": "Reao",
+        "lat": -18.47,
+        "lon": -136.42,
+        "population": 367,
+        "distance_km": 1323.0
+      },
+      {
+        "name": "Pukarua",
+        "lat": -18.3,
+        "lon": -137.02,
+        "population": 168,
+        "distance_km": 1342.9
+      },
+      {
+        "name": "Tahiti",
+        "lat": -17.68,
+        "lon": -149.45,
+        "population": 189517,
+        "distance_km": 1355.9
+      },
+      {
+        "name": "Hao",
+        "lat": -18.07,
+        "lon": -140.95,
+        "population": 1344,
+        "distance_km": 1366.8
+      },
+      {
+        "name": "Moorea",
+        "lat": -17.53,
+        "lon": -149.83,
+        "population": 17816,
+        "distance_km": 1368.5
+      },
+      {
+        "name": "Anaa",
+        "lat": -17.35,
+        "lon": -145.5,
+        "population": 411,
+        "distance_km": 1426.3
+      },
+      {
+        "name": "Raiatea",
+        "lat": -16.83,
+        "lon": -151.43,
+        "population": 12237,
+        "distance_km": 1427.4
+      },
+      {
+        "name": "Huahine",
+        "lat": -16.75,
+        "lon": -150.99,
+        "population": 6303,
+        "distance_km": 1441.6
+      },
+      {
+        "name": "Tatakoto",
+        "lat": -17.35,
+        "lon": -138.45,
+        "population": 264,
+        "distance_km": 1449.6
+      },
+      {
+        "name": "Maupiti",
+        "lat": -16.45,
+        "lon": -152.27,
+        "population": 1194,
+        "distance_km": 1458.7
+      },
+      {
+        "name": "Bora Bora",
+        "lat": -16.5,
+        "lon": -151.74,
+        "population": 10605,
+        "distance_km": 1460.0
+      },
+      {
+        "name": "Tuvalu (Funafuti)",
+        "lat": -8.52,
+        "lon": 179.2,
+        "population": 6320,
+        "distance_km": 1559.5
+      },
+      {
+        "name": "Fakarava",
+        "lat": -16.05,
+        "lon": -145.65,
+        "population": 855,
+        "distance_km": 1569.5
+      },
+      {
+        "name": "Makatea",
+        "lat": -15.83,
+        "lon": -148.25,
+        "population": 84,
+        "distance_km": 1572.7
+      },
+      {
+        "name": "Lord Howe Island",
+        "lat": -31.55,
+        "lon": 159.08,
+        "population": 382,
+        "distance_km": 1620.5
+      },
+      {
+        "name": "Rangiroa",
+        "lat": -15.13,
+        "lon": -147.65,
+        "population": 2567,
+        "distance_km": 1655.7
+      },
+      {
+        "name": "Tikehau",
+        "lat": -15.0,
+        "lon": -148.17,
+        "population": 500,
+        "distance_km": 1665.3
+      },
+      {
+        "name": "Juan Fernandez (Robinson Crusoe)",
+        "lat": -33.64,
+        "lon": -78.83,
+        "population": 926,
+        "distance_km": 1711.1
+      },
+      {
+        "name": "Nauru",
+        "lat": -0.52,
+        "lon": 166.93,
+        "population": 10876,
+        "distance_km": 1845.0
+      },
+      {
+        "name": "Tokelau (Atafu)",
+        "lat": -8.58,
+        "lon": -172.5,
+        "population": 524,
+        "distance_km": 1848.5
+      },
+      {
+        "name": "Chuuk (Micronesia)",
+        "lat": 7.45,
+        "lon": 151.85,
+        "population": 48654,
+        "distance_km": 1851.0
+      },
+      {
+        "name": "Guam",
+        "lat": 13.44,
+        "lon": 144.79,
+        "population": 168783,
+        "distance_km": 2033.5
+      },
+      {
+        "name": "Galapagos (Santa Cruz)",
+        "lat": -0.74,
+        "lon": -90.3,
+        "population": 15000,
+        "distance_km": 2114.5
+      },
+      {
+        "name": "Pohnpei (Micronesia)",
+        "lat": 6.88,
+        "lon": 158.23,
+        "population": 36196,
+        "distance_km": 2138.5
+      },
+      {
+        "name": "Fatu Hiva (Marquesas)",
+        "lat": -10.47,
+        "lon": -138.67,
+        "population": 611,
+        "distance_km": 2214.6
+      },
+      {
+        "name": "Kosrae (Micronesia)",
+        "lat": 5.32,
+        "lon": 162.98,
+        "population": 6616,
+        "distance_km": 2231.7
+      },
+      {
+        "name": "Saipan (CNMI)",
+        "lat": 15.19,
+        "lon": 145.75,
+        "population": 43385,
+        "distance_km": 2253.5
+      },
+      {
+        "name": "Hiva Oa (Marquesas)",
+        "lat": -9.77,
+        "lon": -139.0,
+        "population": 2190,
+        "distance_km": 2292.4
+      },
+      {
+        "name": "Kiribati (Tarawa)",
+        "lat": 1.45,
+        "lon": 173.0,
+        "population": 63439,
+        "distance_km": 2326.1
+      },
+      {
+        "name": "Nuku Hiva (Marquesas)",
+        "lat": -8.86,
+        "lon": -140.1,
+        "population": 3120,
+        "distance_km": 2392.4
+      },
+      {
+        "name": "Baker Island",
+        "lat": 0.19,
+        "lon": -176.48,
+        "population": 0,
+        "distance_km": 2633.6
+      },
+      {
+        "name": "Howland Island",
+        "lat": 0.81,
+        "lon": -176.62,
+        "population": 0,
+        "distance_km": 2693.1
+      },
+      {
+        "name": "Marshall Islands (Majuro)",
+        "lat": 7.09,
+        "lon": 171.38,
+        "population": 27797,
+        "distance_km": 2821.2
+      },
+      {
+        "name": "Jarvis Island",
+        "lat": -0.37,
+        "lon": -160.01,
+        "population": 0,
+        "distance_km": 3082.0
+      },
+      {
+        "name": "Palmyra Atoll",
+        "lat": 5.88,
+        "lon": -162.08,
+        "population": 0,
+        "distance_km": 3707.3
+      },
+      {
+        "name": "Wake Island",
+        "lat": 19.28,
+        "lon": 166.63,
+        "population": 0,
+        "distance_km": 3784.8
+      },
+      {
+        "name": "Clipperton Island",
+        "lat": 10.3,
+        "lon": -109.22,
+        "population": 0,
+        "distance_km": 4006.6
+      },
+      {
+        "name": "Johnston Atoll",
+        "lat": 16.73,
+        "lon": -169.53,
+        "population": 0,
+        "distance_km": 4622.3
+      },
+      {
+        "name": "Hawaii (Big Island)",
+        "lat": 19.5,
+        "lon": -155.5,
+        "population": 200629,
+        "distance_km": 5345.5
+      },
+      {
+        "name": "Midway Atoll",
+        "lat": 28.21,
+        "lon": -177.38,
+        "population": 0,
+        "distance_km": 5450.3
+      },
+      {
+        "name": "Maui",
+        "lat": 20.8,
+        "lon": -156.32,
+        "population": 164221,
+        "distance_km": 5466.6
+      },
+      {
+        "name": "Oahu",
+        "lat": 21.47,
+        "lon": -157.98,
+        "population": 1016508,
+        "distance_km": 5496.1
+      },
+      {
+        "name": "Kauai",
+        "lat": 22.08,
+        "lon": -159.52,
+        "population": 72293,
+        "distance_km": 5518.6
+      }
+    ]
+  },
+  "Giza+Easter\u2192South_America": {
+    "pair": "Giza+Easter\u2192South_America",
+    "target_region": "South America",
+    "circle_points_in_region": 217,
+    "land_points": 117,
+    "land_fraction": 0.5392
+  },
+  "Nazca+Easter\u2192NorthAfrica_ME": {
+    "pair": "Nazca+Easter\u2192NorthAfrica_ME",
+    "target_region": "North Africa/ME",
+    "circle_points_in_region": 725,
+    "land_points": 705,
+    "land_fraction": 0.9724
+  },
+  "verdict": "FORCED \u2014 Easter Island is the ONLY inhabited island within 100km of the Giza-Nazca great circle in the Pacific"
+}

@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "date": "2026-03-22",
+    "description": "Multi-region preservation simulation (Directive 3). Tests whether adding estimated missing settlements in Mesopotamia, Indus Valley, and Peru affects the monument-settlement divergence.",
+    "great_circle_pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "threshold_km": 50,
+    "n_mc_trials": 200,
+    "n_monte_carlo_iterations": 1000,
+    "regions": {
+      "egypt": {
+        "n_estimated": 350,
+        "center": [
+          30.5,
+          31.0
+        ],
+        "std": [
+          0.8,
+          0.5
+        ]
+      },
+      "mesopotamia": {
+        "n_estimated": 200,
+        "center": [
+          32.0,
+          45.5
+        ],
+        "std": [
+          0.8,
+          1.2
+        ]
+      },
+      "indus": {
+        "n_estimated": 500,
+        "center": [
+          27.5,
+          69.0
+        ],
+        "std": [
+          1.5,
+          2.0
+        ]
+      },
+      "peru": {
+        "n_estimated": 200,
+        "center": [
+          -12.0,
+          -77.0
+        ],
+        "std": [
+          1.0,
+          0.5
+        ]
+      }
+    },
+    "total_estimated_settlements": 1250
+  },
+  "global_baseline": {
+    "label": "Global Pleiades \u2014 no augmentation",
+    "n_monumental": 4598,
+    "n_settlement": 18037,
+    "monumental": {
+      "n_sites": 4598,
+      "observed": 83,
+      "expected": 59.62,
+      "std": 8.28,
+      "z_score": 2.82,
+      "enrichment": 1.392,
+      "p_value": 0.005
+    },
+    "settlement": {
+      "n_sites": 18037,
+      "observed": 118,
+      "expected": 196.74,
+      "std": 13.53,
+      "z_score": -5.82,
+      "enrichment": 0.6,
+      "p_value": 1.0
+    },
+    "divergence_D": 8.64
+  },
+  "per_region": {
+    "egypt": {
+      "label": "Egypt (Nile floodplain)",
+      "rationale": "70% Delta (30-31.5N), 30% Valley (24-30N). Most buried under modern cities and alluvium.",
+      "sweep": [
+        {
+          "n_estimated": 50,
+          "avg_within_50km": 9.8,
+          "pct_within_50km": 19.5,
+          "avg_mean_distance_km": 164.0
+        },
+        {
+          "n_estimated": 100,
+          "avg_within_50km": 19.8,
+          "pct_within_50km": 19.8,
+          "avg_mean_distance_km": 161.0
+        },
+        {
+          "n_estimated": 200,
+          "avg_within_50km": 39.4,
+          "pct_within_50km": 19.7,
+          "avg_mean_distance_km": 166.0
+        },
+        {
+          "n_estimated": 350,
+          "avg_within_50km": 68.5,
+          "pct_within_50km": 19.6,
+          "avg_mean_distance_km": 164.0
+        },
+        {
+          "n_estimated": 500,
+          "avg_within_50km": 98.4,
+          "pct_within_50km": 19.7,
+          "avg_mean_distance_km": 165.0
+        }
+      ]
+    },
+    "mesopotamia": {
+      "label": "Mesopotamia (Tigris-Euphrates alluvial plain)",
+      "rationale": "Thousands of unexcavated tells under modern Iraqi cities. Circle passes ~40km from Ur. Settlements cluster along rivers; circle clips the desert edge.",
+      "sweep": [
+        {
+          "n_estimated": 50,
+          "avg_within_50km": 2.3,
+          "pct_within_50km": 4.6,
+          "avg_mean_distance_km": 197.0
+        },
+        {
+          "n_estimated": 100,
+          "avg_within_50km": 4.9,
+          "pct_within_50km": 4.9,
+          "avg_mean_distance_km": 195.0
+        },
+        {
+          "n_estimated": 200,
+          "avg_within_50km": 9.6,
+          "pct_within_50km": 4.8,
+          "avg_mean_distance_km": 195.0
+        },
+        {
+          "n_estimated": 500,
+          "avg_within_50km": 24.2,
+          "pct_within_50km": 4.8,
+          "avg_mean_distance_km": 196.0
+        }
+      ]
+    },
+    "indus": {
+      "label": "Indus Valley (Mohenjo-daro region + Punjab)",
+      "rationale": "~2,600 known Indus sites, most in Punjab/Cholistan far from circle. Circle passes ~20km from Mohenjo-daro. City walls = monumental but most settlements are domestic.",
+      "sweep": [
+        {
+          "n_estimated": 100,
+          "avg_within_50km": 22.9,
+          "pct_within_50km": 22.9,
+          "avg_mean_distance_km": 136.0
+        },
+        {
+          "n_estimated": 500,
+          "avg_within_50km": 116.8,
+          "pct_within_50km": 23.4,
+          "avg_mean_distance_km": 135.0
+        },
+        {
+          "n_estimated": 1000,
+          "avg_within_50km": 231.3,
+          "pct_within_50km": 23.1,
+          "avg_mean_distance_km": 135.0
+        }
+      ]
+    },
+    "peru": {
+      "label": "Peru (Lima coastal plain)",
+      "rationale": "Thousands of huaca sites under modern Lima. Circle passes through southern Peru (~14S). Most unexcavated sites are coastal, 100-200km from circle.",
+      "sweep": [
+        {
+          "n_estimated": 100,
+          "avg_within_50km": 0.2,
+          "pct_within_50km": 0.2,
+          "avg_mean_distance_km": 349.0
+        },
+        {
+          "n_estimated": 200,
+          "avg_within_50km": 0.4,
+          "pct_within_50km": 0.2,
+          "avg_mean_distance_km": 351.0
+        },
+        {
+          "n_estimated": 500,
+          "avg_within_50km": 0.6,
+          "pct_within_50km": 0.1,
+          "avg_mean_distance_km": 351.0
+        }
+      ]
+    }
+  },
+  "egypt_only_augmented": {
+    "label": "Global Pleiades + 350 Egypt estimated settlements",
+    "n_estimated": 350,
+    "n_iterations": 1000,
+    "mean_D": 6.83,
+    "std_D": 0.52,
+    "pct_D_gt_2": 100.0,
+    "mean_settlement_z": -3.85,
+    "mean_monument_z": 2.98
+  },
+  "multi_region_augmented": {
+    "label": "Global Pleiades + 1250 estimated settlements (all 4 regions)",
+    "n_estimated_total": 1250,
+    "n_iterations": 1000,
+    "mean_D": 5.2,
+    "std_D": 0.69,
+    "median_D": 5.2,
+    "pct_D_positive": 100.0,
+    "pct_D_gt_2": 100.0,
+    "mean_settlement_z": -2.22,
+    "mean_monument_z": 2.98,
+    "mean_estimated_near_circle": 194.6,
+    "D_percentiles": {
+      "5th": 4.0,
+      "25th": 4.75,
+      "50th": 5.2,
+      "75th": 5.64,
+      "95th": 6.29
+    }
+  },
+  "comparison": {
+    "baseline_D": 8.64,
+    "egypt_only_mean_D": 6.83,
+    "multi_region_mean_D": 5.2,
+    "change_egypt_only": -1.81,
+    "change_multi_region": -3.44,
+    "egypt_only_pct_gt2": 100.0,
+    "multi_region_pct_gt2": 100.0,
+    "interpretation": "Adding 1250 estimated missing settlements across 4 riverine civilizations DECREASES divergence from D=8.64 to D=5.20. D > 2 in 100% of iterations. The preservation argument HOLDS the monument-settlement divergence."
+  },
+  "verdict": {
+    "egypt_only_survives": true,
+    "multi_region_survives": true,
+    "multi_region_pct_gt2": 100.0
+  },
+  "elapsed_seconds": 870.2
+}

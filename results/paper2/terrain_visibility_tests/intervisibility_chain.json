@@ -1,0 +1,352 @@
+[
+  {
+    "from": [
+      17.45845493164934,
+      -16.110711389799803
+    ],
+    "to": [
+      -1.2782902069007671,
+      -50.832947014189344
+    ],
+    "distance_km": 4336.328877606315,
+    "max_elevation_m": 22.0,
+    "theoretical_los_km": 16.74478426256964,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -1.2782902069007671,
+      -50.832947014189344
+    ],
+    "to": [
+      -14.853212319342207,
+      -75.61580534467154
+    ],
+    "distance_km": 3111.847093910827,
+    "max_elevation_m": 4561.0,
+    "theoretical_los_km": 241.10057839001547,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -14.853212319342207,
+      -75.61580534467154
+    ],
+    "to": [
+      -10.332159522264629,
+      149.5194855367344
+    ],
+    "distance_km": 14307.422701393269,
+    "max_elevation_m": 4987.0,
+    "theoretical_los_km": 252.10873903932801,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -10.332159522264629,
+      149.5194855367344
+    ],
+    "to": [
+      -8.67317757760625,
+      146.4749085012045
+    ],
+    "distance_km": 381.4534242613403,
+    "max_elevation_m": 1441.0,
+    "theoretical_los_km": 135.51900567817046,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -8.67317757760625,
+      146.4749085012045
+    ],
+    "to": [
+      -7.5740004373655045,
+      144.4969221481797
+    ],
+    "distance_km": 249.69052623723886,
+    "max_elevation_m": 13.0,
+    "theoretical_los_km": 12.871818053406441,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -7.5740004373655045,
+      144.4969221481797
+    ],
+    "to": [
+      -2.726413924006198,
+      136.02496628109236
+    ],
+    "distance_km": 1081.796876936232,
+    "max_elevation_m": 3716.0,
+    "theoretical_los_km": 217.62363934095026,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -2.726413924006198,
+      136.02496628109236
+    ],
+    "to": [
+      -1.6293346448254264,
+      134.1420415258913
+    ],
+    "distance_km": 242.1844748693388,
+    "max_elevation_m": 24.0,
+    "theoretical_los_km": 17.48935676347189,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      -1.6293346448254264,
+      134.1420415258913
+    ],
+    "to": [
+      -0.45362878467600454,
+      132.12968978790624
+    ],
+    "distance_km": 259.1190999085816,
+    "max_elevation_m": 2220.0,
+    "theoretical_los_km": 168.2072471684856,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      -0.45362878467600454,
+      132.12968978790624
+    ],
+    "to": [
+      1.5536445298084145,
+      128.69546652933926
+    ],
+    "distance_km": 442.2811142126738,
+    "max_elevation_m": 81.0,
+    "theoretical_los_km": 32.129999999999995,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      1.5536445298084145,
+      128.69546652933926
+    ],
+    "to": [
+      1.5705961330488922,
+      128.66642522500038
+    ],
+    "distance_km": 3.7380807729073244,
+    "max_elevation_m": 104.0,
+    "theoretical_los_km": 36.40699932705248,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      1.5705961330488922,
+      128.66642522500038
+    ],
+    "to": [
+      1.9937309166772357,
+      127.94109797309297
+    ],
+    "distance_km": 93.33960911733337,
+    "max_elevation_m": 88.0,
+    "theoretical_los_km": 33.48956852513928,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      1.9937309166772357,
+      127.94109797309297
+    ],
+    "to": [
+      2.061340223659868,
+      127.82512451162006
+    ],
+    "distance_km": 14.920032756272944,
+    "max_elevation_m": 533.0,
+    "theoretical_los_km": 82.41985015759249,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      2.061340223659868,
+      127.82512451162006
+    ],
+    "to": [
+      12.400080536894555,
+      109.26865417590885
+    ],
+    "distance_km": 2345.0355402201594,
+    "max_elevation_m": 560.0,
+    "theoretical_los_km": 84.48161930266251,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      12.400080536894555,
+      109.26865417590885
+    ],
+    "to": [
+      19.631682983106607,
+      93.76481463381928
+    ],
+    "distance_km": 1840.2517419024734,
+    "max_elevation_m": 872.0,
+    "theoretical_los_km": 105.42083665006648,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      19.631682983106607,
+      93.76481463381928
+    ],
+    "to": [
+      19.865429623921578,
+      93.19315757448396
+    ],
+    "distance_km": 65.22869983831723,
+    "max_elevation_m": 4.0,
+    "theoretical_los_km": 7.14,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      19.865429623921578,
+      93.19315757448396
+    ],
+    "to": [
+      19.90176003090539,
+      93.10375906557368
+    ],
+    "distance_km": 10.183601331065923,
+    "max_elevation_m": 69.0,
+    "theoretical_los_km": 29.654647190617524,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      19.90176003090539,
+      93.10375906557368
+    ],
+    "to": [
+      21.604086564961005,
+      88.72822630188065
+    ],
+    "distance_km": 492.7405104337609,
+    "max_elevation_m": 69.0,
+    "theoretical_los_km": 29.654647190617524,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      21.604086564961005,
+      88.72822630188065
+    ],
+    "to": [
+      21.593783120874097,
+      88.75593700823138
+    ],
+    "distance_km": 3.0855214677149587,
+    "max_elevation_m": 5.0,
+    "theoretical_los_km": 7.9827626796742495,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      21.593783120874097,
+      88.75593700823138
+    ],
+    "to": [
+      21.658631374583923,
+      88.58135690612201
+    ],
+    "distance_km": 19.43325885982184,
+    "max_elevation_m": 5.0,
+    "theoretical_los_km": 7.9827626796742495,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      21.658631374583923,
+      88.58135690612201
+    ],
+    "to": [
+      21.831638535300865,
+      88.11240390205998
+    ],
+    "distance_km": 52.11513934393913,
+    "max_elevation_m": 6.0,
+    "theoretical_los_km": 8.744678381735945,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      21.831638535300865,
+      88.11240390205998
+    ],
+    "to": [
+      21.880075433024572,
+      87.98027431230734
+    ],
+    "distance_km": 14.661241779716478,
+    "max_elevation_m": 6.0,
+    "theoretical_los_km": 8.744678381735945,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      21.880075433024572,
+      87.98027431230734
+    ],
+    "to": [
+      30.024261575756285,
+      50.13642895378843
+    ],
+    "distance_km": 3871.933142054929,
+    "max_elevation_m": 2535.0,
+    "theoretical_los_km": 179.7451570974862,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      30.024261575756285,
+      50.13642895378843
+    ],
+    "to": [
+      30.057612971374446,
+      49.622901682269344
+    ],
+    "distance_km": 49.569923124413926,
+    "max_elevation_m": 0.0,
+    "theoretical_los_km": 0.0,
+    "potentially_intervisible": false
+  },
+  {
+    "from": [
+      30.057612971374446,
+      49.622901682269344
+    ],
+    "to": [
+      30.0646149072994,
+      49.51100698612766
+    ],
+    "distance_km": 10.796661443400112,
+    "max_elevation_m": 3.0,
+    "theoretical_los_km": 6.1834213830208915,
+    "potentially_intervisible": true
+  },
+  {
+    "from": [
+      30.0646149072994,
+      49.51100698612766
+    ],
+    "to": [
+      30.101021092534516,
+      48.90248214891876
+    ],
+    "distance_km": 58.69024404861286,
+    "max_elevation_m": 3.0,
+    "theoretical_los_km": 6.1834213830208915,
+    "potentially_intervisible": false
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "study": "O1 Builder's Precision Envelope",
+  "parameters": {
+    "sigma_star_deg": 0.5,
+    "n_trials": 10000,
+    "seed": 42,
+    "reference": "Schaefer 1993 (naked-eye positional accuracy)",
+    "ground_survey_ref": "Petrie (58 mm / 230 m baseline)"
+  },
+  "envelope": {
+    "median_D": 0.06630973535720025,
+    "mean_D": 0.09131402241706098,
+    "std_D": 0.08175634798675664,
+    "min_D": 1.3367112411862372e-06,
+    "max_D": 0.4373392704236047,
+    "p5": 0.003142037021262157,
+    "p95": 0.2487463556727946
+  },
+  "sites": {
+    "Giza": {
+      "observed_D": 0.000347,
+      "percentile": 0.8,
+      "within_90pct_CI": false,
+      "interpretation": "BETTER than expected \u2014 exceeds builder precision limit"
+    },
+    "Teotihuacan": {
+      "observed_D": 0.080989,
+      "percentile": 56.26,
+      "within_90pct_CI": true,
+      "interpretation": "Within intentional-encoding envelope"
+    },
+    "Thornborough": {
+      "observed_D": 0.005988,
+      "percentile": 8.05,
+      "within_90pct_CI": true,
+      "interpretation": "Within intentional-encoding envelope"
+    }
+  }
+}

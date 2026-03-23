@@ -1,0 +1,245 @@
+[
+  {
+    "label": "Alison's Circle (D=8.9)",
+    "pole": "(59.7\u00b0, -138.6\u00b0)",
+    "D": 8.92029521000284,
+    "narrative_score": 4,
+    "n_famous": 23,
+    "n_unesco": 8,
+    "n_pleiades": 302,
+    "continents_with_famous": [
+      "Africa",
+      "Asia",
+      "Other",
+      "South America"
+    ],
+    "famous_sites": [
+      "Valley Temple of Khafre",
+      "Great Sphinx of Giza",
+      "Giza Plateau \u2014 full complex (including Khufu, Khafre, Menkaure pyramids)",
+      "Great Pyramid of Giza",
+      "Great Pyramid of Giza (Khufu / Cheops)",
+      "Pyramids of Giza",
+      "Ollantaytambo",
+      "Easter Island (Rapa Nui)",
+      "Easter Island (Rapa Nui) \u2013 Moai and Ahu Platforms",
+      "Easter Island (Rapa Nui) \u2014 Moai statues and Ahu Vinapu",
+      "Nazca Lines",
+      "Persepolis",
+      "Petra",
+      "Machu Picchu",
+      "Mohenjo-daro",
+      "Khajuraho",
+      "Sacsayhuaman",
+      "Sacsayhuaman (Saksaywaman)",
+      "Sacsayhuam\u00e1n (Sacsayhuaman)",
+      "Amaru Marka Wasi (Temple of the Moon / Snake Temple)",
+      "Amazon Geoglyphs (Geoglyphs of Acre)",
+      "Jac\u00f3 S\u00e1 Geoglyph Site",
+      "Ur"
+    ]
+  },
+  {
+    "label": "Circle #10 (D=15.8)",
+    "pole": "(43.0\u00b0, 160.0\u00b0)",
+    "D": 15.798018005543582,
+    "narrative_score": 3,
+    "n_famous": 11,
+    "n_unesco": 7,
+    "n_pleiades": 4590,
+    "continents_with_famous": [
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "famous_sites": [
+      "Pyramid of the Magician (Uxmal)",
+      "Delphi",
+      "Parthenon / Athens Acropolis",
+      "Colosseum, Rome",
+      "Chichen Itza",
+      "Chich\u00e9n Itz\u00e1 (El Castillo / Temple of Kukulkan)",
+      "Temple of the Inscriptions, Palenque (Pacal's Tomb)",
+      "Palenque",
+      "Palenque (Temple of Inscriptions / Equinox Alignment)",
+      "Pompeii",
+      "Petra"
+    ]
+  },
+  {
+    "label": "Circle #9 (D=15.8)",
+    "pole": "(34.0\u00b0, 140.5\u00b0)",
+    "D": 15.839894053492564,
+    "narrative_score": 3,
+    "n_famous": 8,
+    "n_unesco": 3,
+    "n_pleiades": 3033,
+    "continents_with_famous": [
+      "Africa",
+      "Europe",
+      "North America"
+    ],
+    "famous_sites": [
+      "Pompeii",
+      "Colosseum, Rome",
+      "Temple of Horus at Edfu (Edfu Building Texts)",
+      "Temple of Seti I at Abydos",
+      "Osireion (Osirion) at Abydos",
+      "Blackwater Draw (Clovis type-site)",
+      "Clovis Type Site (Clovis, New Mexico)",
+      "Luxor / Karnak"
+    ]
+  },
+  {
+    "label": "Circle #2 (D=22.7)",
+    "pole": "(45.5\u00b0, -141.5\u00b0)",
+    "D": 22.69487569211997,
+    "narrative_score": 2,
+    "n_famous": 8,
+    "n_unesco": 2,
+    "n_pleiades": 1974,
+    "continents_with_famous": [
+      "Europe",
+      "South America"
+    ],
+    "famous_sites": [
+      "Suriqui Island",
+      "Tiwanaku (Tiahuanaco)",
+      "Tiwanaku",
+      "Puma Punku",
+      "Serra da Paituna / Painel do Pil\u00e3o (Amazon Rock Art)",
+      "Colosseum, Rome",
+      "Rego Grande (Amazonian Stonehenge)",
+      "Lake Titicaca and Island of the Sun"
+    ]
+  },
+  {
+    "label": "Circle #1 (D=24.3)",
+    "pole": "(36.0\u00b0, -117.5\u00b0)",
+    "D": 24.28134457718866,
+    "narrative_score": 2,
+    "n_famous": 3,
+    "n_unesco": 2,
+    "n_pleiades": 1862,
+    "continents_with_famous": [
+      "Asia",
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome",
+      "Denisova Cave",
+      "Great Wall (Badaling)"
+    ]
+  },
+  {
+    "label": "Circle #4 (D=21.0)",
+    "pole": "(47.5\u00b0, -157.0\u00b0)",
+    "D": 20.994637722259288,
+    "narrative_score": 2,
+    "n_famous": 2,
+    "n_unesco": 1,
+    "n_pleiades": 2271,
+    "continents_with_famous": [
+      "Asia",
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome",
+      "Sundaland (submerged continental shelf)"
+    ]
+  },
+  {
+    "label": "Circle #6 (D=18.0)",
+    "pole": "(29.5\u00b0, -108.0\u00b0)",
+    "D": 17.957215445059983,
+    "narrative_score": 2,
+    "n_famous": 2,
+    "n_unesco": 2,
+    "n_pleiades": 1903,
+    "continents_with_famous": [
+      "Europe",
+      "Oceania"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome",
+      "Nan Madol"
+    ]
+  },
+  {
+    "label": "Circle #8 (D=15.9)",
+    "pole": "(17.5\u00b0, 119.5\u00b0)",
+    "D": 15.942934160898167,
+    "narrative_score": 1,
+    "n_famous": 2,
+    "n_unesco": 2,
+    "n_pleiades": 2409,
+    "continents_with_famous": [
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome",
+      "Pompeii"
+    ]
+  },
+  {
+    "label": "Fine scan #12 (D=28.4)",
+    "pole": "(22.0\u00b0, 124.0\u00b0)",
+    "D": 28.429467453258326,
+    "narrative_score": 1,
+    "n_famous": 2,
+    "n_unesco": 2,
+    "n_pleiades": 2654,
+    "continents_with_famous": [
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome",
+      "Pompeii"
+    ]
+  },
+  {
+    "label": "Circle #3 (D=21.8)",
+    "pole": "(43.5\u00b0, -135.0\u00b0)",
+    "D": 21.817401854006892,
+    "narrative_score": 1,
+    "n_famous": 1,
+    "n_unesco": 1,
+    "n_pleiades": 1929,
+    "continents_with_famous": [
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome"
+    ]
+  },
+  {
+    "label": "Circle #5 (D=19.6)",
+    "pole": "(0.5\u00b0, 102.5\u00b0)",
+    "D": 19.586144277647307,
+    "narrative_score": 1,
+    "n_famous": 1,
+    "n_unesco": 1,
+    "n_pleiades": 1669,
+    "continents_with_famous": [
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome"
+    ]
+  },
+  {
+    "label": "Circle #7 (D=16.7)",
+    "pole": "(6.0\u00b0, -82.5\u00b0)",
+    "D": 16.731089026991423,
+    "narrative_score": 1,
+    "n_famous": 1,
+    "n_unesco": 1,
+    "n_pleiades": 1847,
+    "continents_with_famous": [
+      "Europe"
+    ],
+    "famous_sites": [
+      "Colosseum, Rome"
+    ]
+  }
+]

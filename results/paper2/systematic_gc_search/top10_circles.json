@@ -1,0 +1,122 @@
+[
+  {
+    "pole_lat": 36.0,
+    "pole_lon": -117.5,
+    "z_mon": 30.68968130813821,
+    "z_set": 6.408336730949551,
+    "D": 24.28134457718866,
+    "mon_count": 579,
+    "set_count": 764,
+    "mon_baseline_mean": 235.41,
+    "set_baseline_mean": 631.04,
+    "hot_spot_id": 0
+  },
+  {
+    "pole_lat": 45.5,
+    "pole_lon": -141.5,
+    "z_mon": 24.510161552196536,
+    "z_set": 1.8152858600765631,
+    "D": 22.69487569211997,
+    "mon_count": 593,
+    "set_count": 777,
+    "mon_baseline_mean": 242.81,
+    "set_baseline_mean": 732.13,
+    "hot_spot_id": 7
+  },
+  {
+    "pole_lat": 43.5,
+    "pole_lon": -135.0,
+    "z_mon": 25.607648235419855,
+    "z_set": 3.7902463814129637,
+    "D": 21.817401854006892,
+    "mon_count": 580,
+    "set_count": 740,
+    "mon_baseline_mean": 234.34,
+    "set_baseline_mean": 648.27,
+    "hot_spot_id": 2
+  },
+  {
+    "pole_lat": 47.5,
+    "pole_lon": -157.0,
+    "z_mon": 23.367315239534214,
+    "z_set": 2.3726775172749264,
+    "D": 20.994637722259288,
+    "mon_count": 610,
+    "set_count": 999,
+    "mon_baseline_mean": 265.55,
+    "set_baseline_mean": 922.01,
+    "hot_spot_id": 18
+  },
+  {
+    "pole_lat": 0.5,
+    "pole_lon": 102.5,
+    "z_mon": 17.238956299896117,
+    "z_set": -2.347187977751192,
+    "D": 19.586144277647307,
+    "mon_count": 491,
+    "set_count": 607,
+    "mon_baseline_mean": 246.26,
+    "set_baseline_mean": 665.65,
+    "hot_spot_id": 1
+  },
+  {
+    "pole_lat": 29.5,
+    "pole_lon": -108.0,
+    "z_mon": 23.92811936328242,
+    "z_set": 5.970903918222437,
+    "D": 17.957215445059983,
+    "mon_count": 563,
+    "set_count": 814,
+    "mon_baseline_mean": 245.12,
+    "set_baseline_mean": 663.35,
+    "hot_spot_id": 3
+  },
+  {
+    "pole_lat": 6.0,
+    "pole_lon": -82.5,
+    "z_mon": 20.117392116747443,
+    "z_set": 3.3863030897560207,
+    "D": 16.731089026991423,
+    "mon_count": 540,
+    "set_count": 777,
+    "mon_baseline_mean": 245.19,
+    "set_baseline_mean": 678.37,
+    "hot_spot_id": 11
+  },
+  {
+    "pole_lat": 17.5,
+    "pole_lon": 119.5,
+    "z_mon": 28.725081708307396,
+    "z_set": 12.78214754740923,
+    "D": 15.942934160898167,
+    "mon_count": 636,
+    "set_count": 998,
+    "mon_baseline_mean": 257.24,
+    "set_baseline_mean": 657.19,
+    "hot_spot_id": 6
+  },
+  {
+    "pole_lat": 34.0,
+    "pole_lon": 140.5,
+    "z_mon": 32.07492853939444,
+    "z_set": 16.235034485901878,
+    "D": 15.839894053492564,
+    "mon_count": 799,
+    "set_count": 1381,
+    "mon_baseline_mean": 343.48,
+    "set_baseline_mean": 877.44,
+    "hot_spot_id": 5
+  },
+  {
+    "pole_lat": 43.0,
+    "pole_lon": 160.0,
+    "z_mon": 43.59027110514751,
+    "z_set": 27.792253099603926,
+    "D": 15.798018005543582,
+    "mon_count": 1127,
+    "set_count": 2073,
+    "mon_baseline_mean": 395.8,
+    "set_baseline_mean": 1081.24,
+    "hot_spot_id": 8
+  }
+]

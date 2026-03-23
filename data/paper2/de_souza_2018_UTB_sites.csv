@@ -1,0 +1,105 @@
+Site,Structure,Type,Longitude,Latitude
+Mt01,I,circular enclosure,-57.9452,-9.4071
+Mt02,I,hexagonal enclosure,-57.8872,-9.8711
+Mt03,I,circular enclosure,-57.8772,-9.7048
+Mt04,I,enclosure,-57.8212,-9.8132
+Mt05,I,circular enclosure,-57.7557,-9.8221
+Mt06,I,circular enclosure,-58.2325,-9.415
+Mt06,II,enclosure,-58.2326,-9.4149
+Mt07,I,circular enclosure,-59.3228,-9.3501
+Mt07,II,circular enclosure,-59.3208,-9.3512
+Mt07,III,causeway,-59.3146,-9.3476
+Mt08,I,circular enclosure,-59.234,-9.4506
+Mt09,I,circular enclosure,-58.6019,-9.9833
+Mt10,I,hexagonal enclosure,-58.4585,-10.0984
+Mt11,I,hexagonal enclosure,-58.6438,-10.3111
+Mt12,I,circular enclosure,-57.3703,-9.4245
+Mt13,I,hexagonal enclosure,-58.4414,-10.7534
+Mt14,I,circular enclosure,-59.6343,-10.0918
+Mt16,I,hexagonal enclosure,-58.5072,-10.3604
+Mt17,I,enclosure,-57.9857,-9.7611
+Mt18,I,circular enclosure,-57.8512,-9.4176
+Mt19,I,enclosure,-57.8374,-9.5936
+Mt20,I,circular enclosure,-57.7716,-9.8721
+Mt21,I,circular enclosure,-59.0036,-9.4852
+Mt23,I,causeway,-55.2413,-9.9197
+Mt24,I,circular enclosure,-55.507,-9.673
+Mt25/26,I,circular enclosure,-58.5124,-9.9246
+Mt25/26,II,circular enclosure,-58.51,-9.9231
+Mt27,I,circular enclosure,-59.1692,-9.4302
+Mt27,II,circular enclosure,-59.169,-9.4304
+Mt28,I,circular enclosure,-59.2405,-9.365
+Mt29,I,causeway,-59.3187,-9.2897
+Mt29,II,mounded village,-59.324,-9.2909
+Mt30,I,hexagonal enclosure,-59.3287,-9.4957
+Mt-31,I,enclosure,-60.0786,-9.9671
+Mt-32,I,circular enclosure,-57.9185,-9.7542
+Mt-33,I,circular enclosure,-58.5755,-10.0513
+Mt-34,I,enclosure,-58.5713,-10.1108
+Mt-35/36,I,circular enclosure,-58.5775,-10.0298
+Mt-35/36,II,circular enclosure,-58.5766,-10.0297
+Mt-37,I,circular enclosure,-58.5424,-10.2691
+NN,I,enclosure,-59.0066,-9.4575
+Z-Mt01,I,circular enclosure,-58.1495,-9.7471
+Z-Mt01,II,enclosure,-58.1493,-9.7476
+Z-Mt01,III,circular enclosure,-58.15,-9.7489
+Z-Mt01,IV,hexagonal enclosure,-58.1499,-9.7494
+Z-Mt02,I,circular enclosure,-58.1425,-10.1667
+Z-Mt03,I,hexagonal enclosure,-57.7843,-9.5961
+Z-Mt04,I,circular enclosure,-57.6745,-9.8635
+Z-Mt04,II,enclosure,-57.676,-9.8654
+Z-Mt05,I,hexagonal enclosure,-58.3389,-9.3335
+Z-Mt05,II,hexagonal enclosure,-58.3391,-9.3329
+Z-Mt06,I,enclosure,-58.2823,-9.437
+Z-Mt07,I,circular enclosure,-58.1723,-9.4871
+Z-Mt08,I,hexagonal enclosure,-58.1557,-9.4418
+Z-Mt09/10,I,circular enclosure,-58.859,-9.2415
+Z-Mt09/10,II,circular enclosure,-58.8576,-9.2446
+Z-Mt09/10,III,circular enclosure,-58.8564,-9.2429
+Z-Mt09/10,IV,circular enclosure,-58.8565,-9.2427
+Z-Mt11,I,circular enclosure,-58.9347,-9.2116
+Z-Mt11,II,circular enclosure,-58.935,-9.2115
+Z-Mt12,I,circular enclosure,-59.0231,-9.0253
+Z-Mt12,II,circular enclosure,-59.0221,-9.0253
+Z-Mt13,I,circular enclosure,-59.0994,-9.0478
+Z-Mt14,I,enclosure,-59.0988,-9.3029
+Z-Mt14,II,circular enclosure,-59.1009,-9.2996
+Z-Mt14,III,circular enclosure,-59.097,-9.3012
+Z-Mt15,I,circular enclosure,-59.0958,-9.3129
+Z-Mt16,I,causeway,-59.1055,-9.0507
+Z-Mt16,II,causeway,-59.1072,-9.0509
+Z-Mt16,III,circular enclosure,-59.1049,-9.0497
+Z-Mt19,I,circular enclosure,-58.4527,-9.9663
+Z-Mt20,I,enclosure,-58.3285,-10.3927
+Z-Mt21,I,circular enclosure,-57.424,-9.1798
+Z-Mt22,I,circular enclosure,-59.7402,-9.322
+Z-Mt23,I,circular enclosure,-59.7501,-9.4271
+Z-Mt24/25,I,circular enclosure,-59.7943,-9.5016
+Z-Mt24/25,II,circular enclosure,-59.798,-9.5016
+Z-Mt25/26,II,circular enclosure,-59.8014,-9.4867
+Z-Mt26,I,circular enclosure,-59.8006,-9.4867
+Z-Mt27,I,enclosure,-59.8122,-9.5065
+Z-Mt28,I,circular enclosure,-57.1729,-9.7239
+Z-Mt29,I,hexagonal enclosure,-57.9733,-9.797
+Z-Mt30,I,circular enclosure,-57.9374,-10.1606
+Z-Mt31,I,hexagonal enclosure,-57.701,-9.2278
+Z-Mt32,I,circular enclosure,-57.6511,-9.6583
+Z-Mt33,I,circular enclosure,-58.9042,-9.2813
+Z-Mt33,II,circular enclosure,-58.9044,-9.2816
+Z-Mt34,I,enclosure,-59.2797,-9.4404
+Z-Mt35,I,circular enclosure,-58.2266,-9.533
+Z-Mt36,I,circular enclosure,-59.7847,-9.9606
+Z-Mt37,I,circular enclosure,-59.8073,-9.8468
+Z-Mt38,I,circular enclosure,-59.0461,-9.5301
+Z-Mt38,II,circular enclosure,-59.0465,-9.5302
+Z-Mt39,I,circular enclosure,-60.2005,-9.6139
+Z-Mt40,I,circular enclosure,-58.0065,-9.5131
+Z-Mt41,I,enclosure,-58.427,-10.6544
+Z-Mt42,I,circular enclosure,-59.0987,-9.3028
+Z-Mt43,I,circular enclosure,-58.8564,-9.243
+Z-Mt43,II,circular enclosure,-58.8565,-9.2426
+Z-Mt43,III,circular enclosure,-58.859,-9.2415
+Z-Mt43,IV,circular enclosure,-58.8575,-9.2446
+Z-Mt44,I,circular enclosure,-58.1381,-9.2874
+Z-Mt45,I,enclosure,-59.0954,-9.6312
+Z-Mt46,I,enclosure,-58.8959,-9.3249

@@ -1,0 +1,10 @@
+{
+  "monument_mean_tpi_m": -46.243253968253974,
+  "monument_median_tpi_m": -15.229166666666666,
+  "monument_n": 105,
+  "settlement_mean_tpi_m": -0.6165540540540491,
+  "settlement_median_tpi_m": -4.203125,
+  "settlement_n": 296,
+  "mann_whitney_stat": 11117.0,
+  "mann_whitney_p": 0.9999927167095117
+}

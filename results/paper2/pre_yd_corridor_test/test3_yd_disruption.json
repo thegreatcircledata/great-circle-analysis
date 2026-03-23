@@ -1,0 +1,21 @@
+{
+  "test": "YD Disruption Profile",
+  "corridor": {
+    "pre_yd_window_count": 4,
+    "post_yd_onset_count": 6,
+    "crash_ratio": 1.5,
+    "recovery_count": 22,
+    "recovery_ratio": 5.5
+  },
+  "global": {
+    "pre_yd_window_count": 632,
+    "post_yd_onset_count": 832,
+    "crash_ratio": 1.3165,
+    "recovery_count": 2832,
+    "recovery_ratio": 4.481
+  },
+  "z_score_crash": 0.1084,
+  "random_crash_mean": 1.3673,
+  "random_crash_std": 1.2242,
+  "n_random_with_data": 672
+}

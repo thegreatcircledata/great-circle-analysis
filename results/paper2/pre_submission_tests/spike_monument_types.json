@@ -1,0 +1,652 @@
+[
+  {
+    "title": "Necropolis and Mortuary Complex of Pepi I",
+    "types": "pyramid, cemetery",
+    "description": "Located in south Saqqara, this monument and associated necropolis date to the Sixth Dynasty of ancie",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8542114233,
+    "lon": 31.2190057132,
+    "gc_dist": 8.033416869120629,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Sun Temple of Niuserre",
+    "types": "temple-2",
+    "description": "Temple dedicated to the god Ra in the 5th dynasty by the pharaoh Niuserre (Nyuserre).",
+    "categories": [
+      "Ceremonial"
+    ],
+    "lat": 29.9040166062,
+    "lon": 31.1941100416,
+    "gc_dist": 2.3038061174866016,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Saqqarah",
+    "types": "cemetery",
+    "description": "A pharaonic necropolis serving the ancient Egyptian city of Memphis. It was most active during Early",
+    "categories": [
+      "Mortuary",
+      "Settlement"
+    ],
+    "lat": 29.862380874,
+    "lon": 31.2193541512,
+    "gc_dist": 7.131590847477128,
+    "minDate": -2950.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Tal-i-iblis",
+    "types": "settlement, tell",
+    "description": "Tell in the Bard Sir Valley in Iran occupied in the late 4th-early 3rd millennia BCE. This site was ",
+    "categories": [
+      "Infrastructure",
+      "Settlement"
+    ],
+    "lat": 29.784054,
+    "lon": 56.758976,
+    "gc_dist": 40.926185159069064,
+    "minDate": -6200.0,
+    "maxDate": -2000.0
+  },
+  {
+    "title": "Giza",
+    "types": "sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex",
+    "description": "The site of Giza encompasses the Giza Necropolis, a large archaeological site famous for its pyramid",
+    "categories": [
+      "Mortuary",
+      "Ceremonial",
+      "Settlement"
+    ],
+    "lat": 29.9777703374,
+    "lon": 31.1319071185,
+    "gc_dist": 6.399762317261775,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Mastaba of Kagemni",
+    "types": "tomb",
+    "description": "The Sixth Dynasty vizier Kagemni was buried in a large limestone mastaba at Saqqara. It is the large",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8757727,
+    "lon": 31.2213817,
+    "gc_dist": 5.665736456572631,
+    "minDate": -2670.0,
+    "maxDate": 2099.0
+  },
+  {
+    "title": "Pyramid of Neferirkare",
+    "types": "pyramid",
+    "description": "A pyramid at Abu Sir built for the Fifth Dynasty pharaoh Neferirkare Kakai.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.89497065,
+    "lon": 31.2024288,
+    "gc_dist": 3.377051964329439,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Pyramid of Djedkare-Isesi",
+    "types": "pyramid",
+    "description": "The Pyramid of Djedkare Isesi in South Saqqara was built for the Fifth Dynasty pharaoh Djedkare Ises",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.850964,
+    "lon": 31.22094695,
+    "gc_dist": 8.40971485539194,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Pyramid of Sahure",
+    "types": "pyramid, architecturalcomplex, causeway",
+    "description": "A pyramid complex dating to the Fifth Dynasty of Ancient Egypt and associated with the Egyptian phar",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8975674595,
+    "lon": 31.2048106295,
+    "gc_dist": 3.10987053764984,
+    "minDate": -2670.0,
+    "maxDate": 2099.0
+  },
+  {
+    "title": "Petra",
+    "types": "settlement",
+    "description": "Capital city of the Nabataeans located on the slope of Mount Hor.",
+    "categories": [
+      "Settlement"
+    ],
+    "lat": 30.328611,
+    "lon": 35.441944,
+    "gc_dist": 15.95771065196277,
+    "minDate": -2600000.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Zodacatha",
+    "types": "settlement, fort",
+    "description": "An ancient settlement, modern Khirbet as-Sadaqa in Jordan.",
+    "categories": [
+      "Administrative",
+      "Settlement"
+    ],
+    "lat": 30.1612757898,
+    "lon": 35.4940000874,
+    "gc_dist": 2.883022514422919,
+    "minDate": -3300.0,
+    "maxDate": 1453.0
+  },
+  {
+    "title": "Babylon",
+    "types": "fortified-settlement, settlement",
+    "description": "An ancient fortified city of the Nile Delta of Egypt, located at Babylon in the area today known as ",
+    "categories": [
+      "Administrative",
+      "Settlement"
+    ],
+    "lat": 30.005783,
+    "lon": 31.2301075,
+    "gc_dist": 8.659043974295855,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Heliopolis",
+    "types": "settlement, monument",
+    "description": "Ancient Heliopolis was the capital of the 13th or Heliopolite Nome of Lower Egypt and served as a ma",
+    "categories": [
+      "Settlement"
+    ],
+    "lat": 30.1294036,
+    "lon": 31.3074812,
+    "gc_dist": 21.693037893184737,
+    "minDate": -6000.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Bent Pyramid",
+    "types": "tomb, pyramid",
+    "description": "A pyramid built by Pharaoh Sneferu (ca. 2600 BC).",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.7902357,
+    "lon": 31.20946815,
+    "gc_dist": 15.03727892427196,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Red Pyramid",
+    "types": "pyramid",
+    "description": "The third pyramid built by Pharaoh Sneferu.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8085513,
+    "lon": 31.20624445,
+    "gc_dist": 12.981084538187133,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Memphis",
+    "types": "urban, settlement, archaeological-site",
+    "description": "A city and capital of Ancient Egypt that remained an important center for most of Egyptian history.",
+    "categories": [
+      "Infrastructure",
+      "Settlement"
+    ],
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "gc_dist": 8.864564435920329,
+    "minDate": -2950.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Takyris",
+    "types": "cemetery",
+    "description": "Takyris is an ancient royal Egyptian necropolis located in the desert on the west bank of the Nile.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.7998647855,
+    "lon": 31.2167046376,
+    "gc_dist": 14.032874237918804,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "The Great Pyramid",
+    "types": "pyramid",
+    "description": "The Great Pyramid of Khufu was built ca. 2580\u20132560 B.C. during the 4th dynasty of ancient Egypt. It ",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9791600351,
+    "lon": 31.1342156516,
+    "gc_dist": 6.533751604611098,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Sacred Animal Necropolis (\u1e62aqq\u0101rah)",
+    "types": "settlement, cemetery",
+    "description": "Sacred Animal Necropolis at North \u1e62aqq\u0101rah, Egypt, used from the Archaic to the Ptolemaic Period, wi",
+    "categories": [
+      "Mortuary",
+      "Ceremonial",
+      "Settlement"
+    ],
+    "lat": 29.8817400893,
+    "lon": 31.2153024975,
+    "gc_dist": 4.952748865925969,
+    "minDate": -4500.0,
+    "maxDate": 640.0
+  },
+  {
+    "title": "Pyramid of Djedefre",
+    "types": "tomb",
+    "description": "The Pyramid of Djedefre, a Fourth Dynasty pharaoh, at Abu Rawash.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 30.0327194,
+    "lon": 31.0742458,
+    "gc_dist": 12.983898493004745,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Abu Rawash",
+    "types": "cemetery",
+    "description": "Pharaonic archaeological site located 8 km north of Giza, including the pyramid of King Djedefre and",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 30.0341969932,
+    "lon": 31.0794498643,
+    "gc_dist": 13.102414236565892,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Pepi I at Saqqarah",
+    "types": "tomb, pyramid",
+    "description": "One of the pyramids at Saqqarah in Egypt. Pepi I was a pharaoh of the Sixth Dynasty and reigned from",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8547523,
+    "lon": 31.2186043,
+    "gc_dist": 7.970073147887888,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Pyramids of Queens",
+    "types": "pyramid",
+    "description": "There are three satellite pyramids, typically referred to as \"Queen's pyramids\", associated with the",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9717794,
+    "lon": 31.1281233,
+    "gc_dist": 5.768935600863188,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Maadi",
+    "types": "settlement",
+    "description": "A Predynastic settlement located on the eastern bank of the Nile on the outskirts of modern Cairo.",
+    "categories": [
+      "Settlement"
+    ],
+    "lat": 29.966796,
+    "lon": 31.276221,
+    "gc_dist": 3.947722340863038,
+    "minDate": -4500.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Mastaba of Ptahshepses at Abusir",
+    "types": "tomb",
+    "description": "The mastaba-style tomb of Ptahshepses, vizier to the Fifth Dynasty Pharaoh Nyuserre Ini. Following t",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8965413666,
+    "lon": 31.204560324,
+    "gc_dist": 3.221368285274366,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Khafre",
+    "types": "pyramid",
+    "description": "The Pyramid of Khafre is the second-largest of the ancient Egyptian Pyramids at Giza and served as t",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9769101,
+    "lon": 31.1296934,
+    "gc_dist": 6.32359622648255,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Khufu's ship",
+    "types": "monument",
+    "description": "The sealed burial pit adjacent to the Great Pyramid contained a remarkably well preserved Old Kingdo",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9780461,
+    "lon": 31.1342169,
+    "gc_dist": 6.4103746894015785,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Userkaf",
+    "types": "tomb, pyramid",
+    "description": "A Fifth Dynasty pyramid at Saqqarah.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8737765,
+    "lon": 31.2185497,
+    "gc_dist": 5.862573713866368,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Qasr el-Sagha temple",
+    "types": "temple-2",
+    "description": "Temple located north of Lake Qarun in the Fayyum Depression. Tentatively dated to the Old Kingdom pe",
+    "categories": [
+      "Ceremonial"
+    ],
+    "lat": 29.5950711,
+    "lon": 30.6778876,
+    "gc_dist": 31.96440859868744,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Abu Sir",
+    "types": "cemetery",
+    "description": "An Old Kingdom necropolis serving the ancient Egyptian city of Memphis.",
+    "categories": [
+      "Mortuary",
+      "Settlement"
+    ],
+    "lat": 29.896115,
+    "lon": 31.20404,
+    "gc_dist": 3.2641283183311316,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Sekhemkhet",
+    "types": "pyramid",
+    "description": "The Pyramid of Sekhemkhet, also known as \"The Buried Pyramid\", is an unfinished step pyramid at Saqq",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8661529394,
+    "lon": 31.2136320778,
+    "gc_dist": 6.664790437618649,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Mastabet el-Fara'un",
+    "types": "tomb",
+    "description": "The site of the burial of Shepseskaf, the last known pharaoh of the Fourth Dynasty of Ancient Egypt.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8351588,
+    "lon": 31.215421,
+    "gc_dist": 10.112877961486447,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Abusir South",
+    "types": "cemetery",
+    "description": "Abusir South, located north of Saqqara, refers to an archaeological area where a large cemetery of l",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8832291844,
+    "lon": 31.2097395019,
+    "gc_dist": 4.7401528708142,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Pyramid of Menkaure",
+    "types": "pyramid",
+    "description": "The Pyramid of Menkaure is the smallest of the three main pyramids located on the Giza plateau. It m",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9728781,
+    "lon": 31.128802,
+    "gc_dist": 5.884755482389664,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Tomb of Hetepheres I",
+    "types": "tomb",
+    "description": "Hetepheres I was a 4th Dynasty queen of ancient Egypt (ca. 2600 B.C). She may have been a wife of th",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9790508,
+    "lon": 31.1359926,
+    "gc_dist": 6.506326512444502,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Abu Bakr cemetery",
+    "types": "cemetery",
+    "description": "Burial area in the northwestern portion of the Giza Necropolis containing burials dated to the Fourt",
+    "categories": [
+      "Mortuary",
+      "Infrastructure"
+    ],
+    "lat": 29.9818377994,
+    "lon": 31.1271615028,
+    "gc_dist": 6.891180442918994,
+    "minDate": -2670.0,
+    "maxDate": 2099.0
+  },
+  {
+    "title": "Tomb of Mereruka",
+    "types": "tomb",
+    "description": "The mastaba tomb of the vizier Mereruka at Saqqarah dates to the Sixth Dynasty of ancient Egypt.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8757920202,
+    "lon": 31.2211994488,
+    "gc_dist": 5.6620360846027324,
+    "minDate": -2670.0,
+    "maxDate": 2099.0
+  },
+  {
+    "title": "Temple of Amenhotep II",
+    "types": "temple, temple-2",
+    "description": "Amenhotep II built a temple at Giza that he dedicated to the god Horemakhet, a sun-god identified wi",
+    "categories": [
+      "Ceremonial"
+    ],
+    "lat": 29.9755980739,
+    "lon": 31.1381126504,
+    "gc_dist": 6.105659065486179,
+    "minDate": -2670.0,
+    "maxDate": -1086.0
+  },
+  {
+    "title": "The Great Sphinx",
+    "types": "monument",
+    "description": "A monumental limestone sphinx situated on the Giza plateau, likely connected with the reign of Phara",
+    "categories": [
+      "Unclassified"
+    ],
+    "lat": 29.9752657478,
+    "lon": 31.1376650606,
+    "gc_dist": 6.072714388759778,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Valley Temple of Khafre",
+    "types": "temple-2",
+    "description": "The Valley Temple associated with the pyramid of Khafre. The Valley Temple is linked to the pyramid ",
+    "categories": [
+      "Mortuary",
+      "Ceremonial"
+    ],
+    "lat": 29.9749623,
+    "lon": 31.1381113,
+    "gc_dist": 6.035259773110738,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Tal-i Malyan/[Anzan]",
+    "types": "settlement, archaeological-site",
+    "description": "An ancient place, cited: BAtlas 94 C3 Tal-i Malyan/[Anzan]",
+    "categories": [
+      "Settlement"
+    ],
+    "lat": 30.0032156667,
+    "lon": 52.4103596667,
+    "gc_dist": 16.70636112700231,
+    "minDate": -4000.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Khentkawes",
+    "types": "pyramid",
+    "description": "Khentkawes I was a queen of the 4th dynasty of ancient Egypt. She may have been a daughter of the ph",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.9735563,
+    "lon": 31.1356834,
+    "gc_dist": 5.900487517810689,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Unas",
+    "types": "pyramid",
+    "description": "A pyramid at Saqqara built for Unas, the final ruler of Egypt's Fifth Dynasty.",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8681961251,
+    "lon": 31.2149708867,
+    "gc_dist": 6.449970022500565,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Moenjodaro",
+    "types": "settlement, archaeological-site",
+    "description": "An ancient (third millennium BC) city of the Indian sub-continent connected with the Harappan Civili",
+    "categories": [
+      "Settlement"
+    ],
+    "lat": 27.325412,
+    "lon": 68.13774115,
+    "gc_dist": 26.05627372973322,
+    "minDate": -3000.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Sphinx Temple",
+    "types": "temple-2",
+    "description": "The Old Kingdom temple associated with the Great Sphinx of Giza and assigned to the reign of Khafre.",
+    "categories": [
+      "Ceremonial"
+    ],
+    "lat": 29.975210654,
+    "lon": 31.1382094955,
+    "gc_dist": 6.061917787321363,
+    "minDate": -2670.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "The Giza Necropolis",
+    "types": "cemetery, archaeological-site",
+    "description": "This complex of ancient monuments includes the three pyramid complexes known as the Great Pyramids, ",
+    "categories": [
+      "Mortuary",
+      "Settlement"
+    ],
+    "lat": 29.973088495,
+    "lon": 31.1297475567,
+    "gc_dist": 5.899894990214307,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Pyramid of Djoser",
+    "types": "pyramid, architecturalcomplex",
+    "description": "The pyramid of the Third Dynasty pharaoh Djoser was built at Saqqara by architect Imhotep ca. 2267-2",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8707675098,
+    "lon": 31.2166486516,
+    "gc_dist": 6.179550750441194,
+    "minDate": -2670.0,
+    "maxDate": 2100.0
+  },
+  {
+    "title": "Helwan necropolis",
+    "types": "cemetery",
+    "description": "Burial site on the east bank of the Nile (opposite Saqqara) containing over 100 burials dated to the",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8835905399,
+    "lon": 31.295443074,
+    "gc_dist": 5.43167950143652,
+    "minDate": -2950.0,
+    "maxDate": -2168.0
+  },
+  {
+    "title": "Pyramid of Teti",
+    "types": "pyramid",
+    "description": "The Pyramid of Teti is a smooth-sided pyramid situated in the pyramid field at Saqqara. Teti was the",
+    "categories": [
+      "Mortuary"
+    ],
+    "lat": 29.8751649794,
+    "lon": 31.2217551626,
+    "gc_dist": 5.736242665161626,
+    "minDate": -2670.0,
+    "maxDate": 2099.0
+  }
+]

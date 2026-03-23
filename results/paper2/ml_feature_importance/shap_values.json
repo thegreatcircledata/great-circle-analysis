@@ -1,0 +1,16 @@
+{
+  "mean_abs_shap": {
+    "dist_to_gc_km": 0.14294259250164032,
+    "dist_to_coast_km": 0.10099534690380096,
+    "dist_to_river_km": 0.18209068477153778,
+    "elevation_m": 0.25984758138656616,
+    "abs_latitude": 0.24808458983898163,
+    "longitude": 0.19382482767105103,
+    "nearest_site_km": 0.6665226817131042,
+    "cross_type_dist_km": 2.0688812732696533
+  },
+  "gc_dist_rank": 7,
+  "n_features": 8,
+  "interpretation": "WEAK: Great Circle distance is not a strong predictor after controlling for geographic features.",
+  "n_shap_samples": 2000
+}

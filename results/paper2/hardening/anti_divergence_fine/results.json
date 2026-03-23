@@ -1,0 +1,116 @@
+{
+  "phase1_fine_grid": {
+    "metric_A": {
+      "pole_lat": 30.0,
+      "pole_lon": -48.0,
+      "value": 81.0,
+      "n_mon": 1,
+      "n_sett": 81,
+      "angular_sep_to_alison": 64.74234989813066
+    },
+    "metric_B": {
+      "pole_lat": 52.0,
+      "pole_lon": -152.0,
+      "value": 1511.0,
+      "n_mon": 610,
+      "n_sett": 2121,
+      "angular_sep_to_alison": 10.697168249184918
+    },
+    "metric_C": {
+      "pole_lat": 0.0,
+      "pole_lon": -104.0,
+      "value": 1.0,
+      "n_mon": 0,
+      "n_sett": 1,
+      "angular_sep_to_alison": 65.46266706841988
+    },
+    "converge": false
+  },
+  "phase2_local_opt": {
+    "metric_A": {
+      "pole_lat": 31.5,
+      "pole_lon": -51.5,
+      "value": 84.0,
+      "n_mon": 1,
+      "n_sett": 84,
+      "angular_sep_to_alison": 61.805211393021224
+    },
+    "metric_B": {
+      "pole_lat": 52.5,
+      "pole_lon": -156.0,
+      "value": 1560.0,
+      "n_mon": 528,
+      "n_sett": 2088,
+      "angular_sep_to_alison": 11.995040581261604
+    },
+    "metric_C": {
+      "pole_lat": 0.0,
+      "pole_lon": -104.0,
+      "value": 1.0,
+      "n_mon": 0,
+      "n_sett": 1,
+      "angular_sep_to_alison": 65.46266706841988
+    }
+  },
+  "phase3_threshold_sensitivity": [
+    {
+      "threshold_km": 25,
+      "pole_lat": 25.0,
+      "pole_lon": -180.0,
+      "metric_A": 66.0,
+      "angular_sep": 44.90807602971985
+    },
+    {
+      "threshold_km": 50,
+      "pole_lat": 10.0,
+      "pole_lon": -30.0,
+      "metric_A": 72.0,
+      "angular_sep": 90.51812262260938
+    },
+    {
+      "threshold_km": 75,
+      "pole_lat": 35.0,
+      "pole_lon": -20.0,
+      "metric_A": 44.0,
+      "angular_sep": 72.72853464684785
+    },
+    {
+      "threshold_km": 100,
+      "pole_lat": 35.0,
+      "pole_lon": -20.0,
+      "metric_A": 67.0,
+      "angular_sep": 72.72853464684785
+    },
+    {
+      "threshold_km": 150,
+      "pole_lat": 25.0,
+      "pole_lon": -50.0,
+      "metric_A": 51.0,
+      "angular_sep": 67.93674148684103
+    },
+    {
+      "threshold_km": 200,
+      "pole_lat": 50.0,
+      "pole_lon": -60.0,
+      "metric_A": 51.0,
+      "angular_sep": 43.5179922088901
+    }
+  ],
+  "phase4_bootstrap": {
+    "n_bootstrap": 500,
+    "median_sep": 90.51812262260938,
+    "mean_sep": 77.27588376645487,
+    "std_sep": 18.41329329051085,
+    "ci_95_lo": 50.87552184382129,
+    "ci_95_hi": 90.51812262260938
+  },
+  "phase5_null_model": {
+    "n_null": 200,
+    "null_mean": 83.51832148024802,
+    "null_median": 86.33102821726729,
+    "null_std": 41.65474422134787,
+    "p_ge_90_52": 0.465,
+    "p_near_90": 0.01,
+    "interpretation": "GEOMETRIC TRUISM: Random reference poles also yield ~90\u00b0 separations to the anti-divergence pole. Orthogonality is NOT specific to Alison."
+  }
+}

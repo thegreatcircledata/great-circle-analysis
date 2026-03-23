@@ -1,0 +1,598 @@
+{
+  "segments": [
+    {
+      "name": "Egypt-Levant",
+      "lat_range": [
+        25,
+        35
+      ],
+      "lon_range": [
+        25,
+        45
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 3079,
+          "near_gc": 201,
+          "monuments": 79,
+          "settlements": 85,
+          "unclassified": 37,
+          "classification_rate": 0.8159203980099502
+        },
+        "p3k14c": {
+          "total_in_segment": 312,
+          "near_gc": 59,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 59,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 685,
+          "near_gc": 165,
+          "monuments": 1,
+          "settlements": 38,
+          "unclassified": 126,
+          "classification_rate": 0.23636363636363636
+        },
+        "merged_sites": {
+          "total_in_segment": 9975,
+          "near_gc": 725,
+          "monuments": 52,
+          "settlements": 472,
+          "unclassified": 201,
+          "classification_rate": 0.7227586206896551
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 1150,
+        "monuments": 132,
+        "settlements": 595,
+        "classified": 727,
+        "classification_rate": 0.6321739130434783,
+        "monument_fraction": 0.1815680880330124
+      }
+    },
+    {
+      "name": "Iran-Mesopotamia",
+      "lat_range": [
+        28,
+        35
+      ],
+      "lon_range": [
+        45,
+        60
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 487,
+          "near_gc": 75,
+          "monuments": 24,
+          "settlements": 33,
+          "unclassified": 18,
+          "classification_rate": 0.76
+        },
+        "p3k14c": {
+          "total_in_segment": 52,
+          "near_gc": 10,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 10,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 82,
+          "near_gc": 20,
+          "monuments": 0,
+          "settlements": 13,
+          "unclassified": 7,
+          "classification_rate": 0.65
+        },
+        "merged_sites": {
+          "total_in_segment": 1710,
+          "near_gc": 203,
+          "monuments": 38,
+          "settlements": 90,
+          "unclassified": 75,
+          "classification_rate": 0.6305418719211823
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 308,
+        "monuments": 62,
+        "settlements": 136,
+        "classified": 198,
+        "classification_rate": 0.6428571428571429,
+        "monument_fraction": 0.31313131313131315
+      }
+    },
+    {
+      "name": "South Asia",
+      "lat_range": [
+        20,
+        32
+      ],
+      "lon_range": [
+        60,
+        85
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 249,
+          "near_gc": 12,
+          "monuments": 0,
+          "settlements": 2,
+          "unclassified": 10,
+          "classification_rate": 0.16666666666666666
+        },
+        "p3k14c": {
+          "total_in_segment": 10,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 11,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 2201,
+          "near_gc": 135,
+          "monuments": 75,
+          "settlements": 48,
+          "unclassified": 12,
+          "classification_rate": 0.9111111111111111
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 1844,
+          "near_gc": 155,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 155,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 302,
+        "monuments": 75,
+        "settlements": 50,
+        "classified": 125,
+        "classification_rate": 0.4139072847682119,
+        "monument_fraction": 0.6
+      }
+    },
+    {
+      "name": "SE Asia",
+      "lat_range": [
+        5,
+        25
+      ],
+      "lon_range": [
+        85,
+        115
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 52,
+          "near_gc": 8,
+          "monuments": 0,
+          "settlements": 3,
+          "unclassified": 5,
+          "classification_rate": 0.375
+        },
+        "p3k14c": {
+          "total_in_segment": 55,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 56,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 5724,
+          "near_gc": 543,
+          "monuments": 313,
+          "settlements": 222,
+          "unclassified": 8,
+          "classification_rate": 0.9852670349907919
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 1005,
+          "near_gc": 34,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 34,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 585,
+        "monuments": 313,
+        "settlements": 225,
+        "classified": 538,
+        "classification_rate": 0.9196581196581196,
+        "monument_fraction": 0.5817843866171004
+      }
+    },
+    {
+      "name": "Peru",
+      "lat_range": [
+        -20,
+        -5
+      ],
+      "lon_range": [
+        -80,
+        -70
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "p3k14c": {
+          "total_in_segment": 249,
+          "near_gc": 18,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 18,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 255,
+          "near_gc": 18,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 18,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 19876,
+          "near_gc": 2972,
+          "monuments": 62,
+          "settlements": 2711,
+          "unclassified": 199,
+          "classification_rate": 0.9330417227456258
+        },
+        "peru_ministry": {
+          "total_in_segment": 16413,
+          "near_gc": 1883,
+          "monuments": 63,
+          "settlements": 1820,
+          "unclassified": 0,
+          "classification_rate": 1.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 4891,
+        "monuments": 125,
+        "settlements": 4531,
+        "classified": 4656,
+        "classification_rate": 0.9519525659374362,
+        "monument_fraction": 0.026847079037800686
+      }
+    },
+    {
+      "name": "Brazil",
+      "lat_range": [
+        -15,
+        0
+      ],
+      "lon_range": [
+        -65,
+        -45
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "p3k14c": {
+          "total_in_segment": 108,
+          "near_gc": 15,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 15,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 328,
+          "near_gc": 51,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 51,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 232,
+          "near_gc": 7,
+          "monuments": 5,
+          "settlements": 2,
+          "unclassified": 0,
+          "classification_rate": 1.0
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 73,
+        "monuments": 5,
+        "settlements": 2,
+        "classified": 7,
+        "classification_rate": 0.0958904109589041,
+        "monument_fraction": 0.7142857142857143
+      }
+    },
+    {
+      "name": "North Africa/Sahara",
+      "lat_range": [
+        22,
+        30
+      ],
+      "lon_range": [
+        0,
+        25
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 79,
+          "near_gc": 6,
+          "monuments": 0,
+          "settlements": 4,
+          "unclassified": 2,
+          "classification_rate": 0.6666666666666666
+        },
+        "p3k14c": {
+          "total_in_segment": 98,
+          "near_gc": 9,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 9,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 108,
+          "near_gc": 9,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 9,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 31347,
+          "near_gc": 7487,
+          "monuments": 3,
+          "settlements": 7478,
+          "unclassified": 6,
+          "classification_rate": 0.9991986109256044
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 7511,
+        "monuments": 3,
+        "settlements": 7482,
+        "classified": 7485,
+        "classification_rate": 0.9965384103315138,
+        "monument_fraction": 0.0004008016032064128
+      }
+    },
+    {
+      "name": "W Europe",
+      "lat_range": [
+        36,
+        48
+      ],
+      "lon_range": [
+        -10,
+        15
+      ],
+      "databases": {
+        "pleiades": {
+          "total_in_segment": 10720,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "p3k14c": {
+          "total_in_segment": 2893,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "xronos": {
+          "total_in_segment": 4947,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "merged_sites": {
+          "total_in_segment": 88356,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "peru_ministry": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        },
+        "south_asia": {
+          "total_in_segment": 0,
+          "near_gc": 0,
+          "monuments": 0,
+          "settlements": 0,
+          "unclassified": 0,
+          "classification_rate": 0.0
+        }
+      },
+      "combined": {
+        "total_near_gc": 0,
+        "monuments": 0,
+        "settlements": 0,
+        "classified": 0,
+        "classification_rate": 0.0,
+        "monument_fraction": null
+      }
+    }
+  ],
+  "classification_rates": {
+    "Egypt-Levant": {
+      "pleiades": 0.8159203980099502,
+      "p3k14c": 0.0,
+      "xronos": 0.23636363636363636,
+      "merged_sites": 0.7227586206896551
+    },
+    "Iran-Mesopotamia": {
+      "pleiades": 0.76,
+      "p3k14c": 0.0,
+      "xronos": 0.65,
+      "merged_sites": 0.6305418719211823
+    },
+    "South Asia": {
+      "pleiades": 0.16666666666666666,
+      "merged_sites": 0.9111111111111111,
+      "south_asia": 0.0
+    },
+    "SE Asia": {
+      "pleiades": 0.375,
+      "merged_sites": 0.9852670349907919,
+      "south_asia": 0.0
+    },
+    "Peru": {
+      "p3k14c": 0.0,
+      "xronos": 0.0,
+      "merged_sites": 0.9330417227456258,
+      "peru_ministry": 1.0
+    },
+    "Brazil": {
+      "p3k14c": 0.0,
+      "xronos": 0.0,
+      "merged_sites": 1.0
+    },
+    "North Africa/Sahara": {
+      "pleiades": 0.6666666666666666,
+      "p3k14c": 0.0,
+      "xronos": 0.0,
+      "merged_sites": 0.9991986109256044
+    },
+    "W Europe": {}
+  }
+}

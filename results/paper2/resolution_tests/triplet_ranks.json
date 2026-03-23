@@ -1,0 +1,27 @@
+{
+  "description": "Giza-Nazca-Easter Island triplet percentile rankings",
+  "alison_triplet": {
+    "sites": [
+      "Great Pyramid of Giza",
+      "Nazca Lines",
+      "Easter Island"
+    ],
+    "D_approx": 4.580294132232666,
+    "fit_mean_km": 0.7031235098838806,
+    "fit_max_km": 0.9536451101303101,
+    "combined_score": 2.689349366414977
+  },
+  "ranks": {
+    "D_rank": 51373,
+    "D_percentile": 90.4913,
+    "fit_rank": 785,
+    "fit_percentile": 99.8547,
+    "combined_rank": 1982,
+    "combined_percentile": 99.6331
+  },
+  "context": {
+    "total_triplets": 540274,
+    "total_sites": 149,
+    "high_D_and_low_fit_count": 1228
+  }
+}

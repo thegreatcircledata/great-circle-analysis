@@ -1,0 +1,63 @@
+{
+  "test": "A1_Orion_Gaia_Upgrade",
+  "pyramid_axis_bearing_deg": 39.604,
+  "BSC": {
+    "catalogue": "BSC",
+    "best_epoch": -11625,
+    "min_offset_deg": 0.017,
+    "window_5deg_yr": 1225,
+    "window_10deg_yr": 2550,
+    "p_value_5deg": 0.0475,
+    "p_value_10deg": 0.0989,
+    "offset_at_construction_deg": 33.493
+  },
+  "Gaia_DR3": {
+    "catalogue": "Gaia_DR3",
+    "best_epoch": -11625,
+    "min_offset_deg": 0.088,
+    "window_5deg_yr": 1250,
+    "window_10deg_yr": 2550,
+    "p_value_5deg": 0.0485,
+    "p_value_10deg": 0.0989,
+    "offset_at_construction_deg": 33.555
+  },
+  "comparison": {
+    "delta_best_epoch_yr": 0,
+    "delta_best_epoch_pct": 0.0,
+    "delta_window_5deg_yr": 25,
+    "delta_window_5deg_pct": 2.02,
+    "delta_window_10deg_yr": 0,
+    "delta_window_10deg_pct": 0.0,
+    "bsc_confirmed": true
+  },
+  "procrustes": {
+    "key_epochs": [
+      {
+        "epoch": -11750,
+        "procrustes_distance": 0.000616
+      },
+      {
+        "epoch": -10000,
+        "procrustes_distance": 0.000553
+      },
+      {
+        "epoch": -5000,
+        "procrustes_distance": 3e-06
+      },
+      {
+        "epoch": -2560,
+        "procrustes_distance": 0.000143
+      },
+      {
+        "epoch": 0,
+        "procrustes_distance": 3.9e-05
+      },
+      {
+        "epoch": 2000,
+        "procrustes_distance": 4.8e-05
+      }
+    ],
+    "max_distance": 0.000616,
+    "shape_stable": true
+  }
+}

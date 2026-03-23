@@ -1,0 +1,94 @@
+{
+  "phase1": {
+    "dof_analysis": {
+      "total_coords": 6,
+      "procrustes_removes": 4,
+      "remaining_dof": 2,
+      "parameters": [
+        "distance_ratio",
+        "bend_angle"
+      ]
+    },
+    "giza": {
+      "d_khufu_khafre_m": 489.5,
+      "d_khafre_menkaure_m": 483.2,
+      "distance_ratio": 1.012962,
+      "bend_angle_deg": 168.7998
+    },
+    "orion": {
+      "sep_alnitak_alnilam_deg": 1.356062,
+      "sep_alnilam_mintaka_deg": 1.385827,
+      "distance_ratio": 0.978521,
+      "bend_angle_deg": 172.4788
+    },
+    "differences": {
+      "distance_ratio": 0.03444,
+      "bend_angle_deg": 3.6791
+    }
+  },
+  "phase2": {
+    "n_valid_triplets": 690015,
+    "ratio_analysis": {
+      "orion_ratio": 0.978521,
+      "giza_ratio": 1.012962,
+      "tolerance": 0.03444,
+      "n_within_tolerance": 21336,
+      "p_ratio": 0.030921,
+      "distribution_median": 0.9841,
+      "distribution_mean": 1.63,
+      "distribution_std": 2.9555,
+      "giza_percentile": 51.32
+    },
+    "angle_analysis": {
+      "orion_angle_deg": 172.4788,
+      "giza_angle_deg": 168.7998,
+      "tolerance_deg": 3.6791,
+      "n_within_tolerance": 19636,
+      "p_angle": 0.028457,
+      "distribution_median": 74.26,
+      "distribution_mean": 81.08,
+      "distribution_std": 47.2,
+      "giza_percentile": 96.11
+    },
+    "joint_analysis": {
+      "n_both_match": 532,
+      "p_joint": 0.000771,
+      "p_if_independent": 0.00087993,
+      "independence_ratio": 0.8762
+    }
+  },
+  "phase3": {
+    "procrustes_p": 0.002463,
+    "bits_procrustes": 8.6654,
+    "bits_ratio_only": 5.0153,
+    "bits_angle_only": 5.1351,
+    "bits_joint": 10.341,
+    "theoretical_max": {
+      "precision_m": 1.0,
+      "span_m": 486.3,
+      "bits_per_dof": 8.93,
+      "total_bits": 17.85,
+      "observed_fraction": 0.4854
+    }
+  },
+  "phase4": {
+    "pi_encoding": {
+      "base_m": 230.4,
+      "height_m": 146.5,
+      "observed_2b_over_h": 3.145392,
+      "true_pi": 3.141593,
+      "error_pct": 0.121,
+      "p_value": 0.002171,
+      "bits": 8.8472
+    },
+    "scale_43200": {
+      "p_value": 0.03,
+      "bits": 5.0589
+    },
+    "orion_shape": {
+      "p_value": 0.002463,
+      "bits": 8.6654
+    },
+    "ranking": "See values"
+  }
+}

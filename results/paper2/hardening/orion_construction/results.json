@@ -1,0 +1,35 @@
+{
+  "test": "A3: Construction-Epoch Orientation Significance",
+  "seed": 42,
+  "n_stars": 156,
+  "n_triplets": 620620,
+  "construction_epoch": -2560,
+  "pyramid_axis_deg": 39.604,
+  "orion_belt": {
+    "procrustes_D": 0.095219,
+    "shape_rank": 6530,
+    "shape_p": 0.010522,
+    "PA_at_construction_deg": 106.46,
+    "orientation_offset_deg": 66.85
+  },
+  "part1_random_axis": {
+    "n_mc": 10000,
+    "p_mc": 0.7395,
+    "p_analytic": 0.7427,
+    "significant": false,
+    "interpretation": "NOT significant; ~74% of random axes fall within this offset of any fixed PA"
+  },
+  "part2_orient_among_top_shape": {
+    "n_top_shape_triplets": 6530,
+    "orion_orient_rank_in_top": 5564,
+    "p_orient_given_shape": 0.8521,
+    "significant": false
+  },
+  "part3_orient_all_triplets": {
+    "orient_rank": 515707,
+    "p_orient": 0.831,
+    "significant": false
+  },
+  "combined_p": 0.008965,
+  "conclusion": "The orientation offset at the construction epoch is NOT independently significant. A random building axis has a ~74% chance of falling within 66.85 deg of any target PA. Among the top shape-matched triplets, Orion's orientation does not stand out. The construction-epoch orientation adds no meaningful evidence beyond shape match."
+}

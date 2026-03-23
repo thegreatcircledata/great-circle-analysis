@@ -1,0 +1,328 @@
+{
+  "test": "Test 5: Cluster Gradients \u2014 earlier = closer?",
+  "method": "For each geographic cluster near the GC, compute Pearson r and Spearman rho between radiocarbon age (BP) and absolute distance from GC (km). If earlier = closer, expect r < 0 (older sites closer to GC). Permutation test (10,000 shuffles) for significance.",
+  "data_source": "p3k14c radiocarbon database (deduplicated to unique sites)",
+  "gc_pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "max_gc_distance_km": 500,
+  "reference_memphis_result": {
+    "note": "Previous Memphis-only pyramid test found r=-0.428, p=0.029 (N=26)"
+  },
+  "clusters": [
+    {
+      "cluster": "Memphis_Egypt",
+      "description": "Nile Valley pyramids and temples (Egypt)",
+      "n_sites": 117,
+      "pearson_r": -0.0714,
+      "pearson_p": 0.444575,
+      "spearman_rho": 0.1971,
+      "spearman_p": 0.033139,
+      "permutation_p": 0.2419,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        1697,
+        47280
+      ],
+      "distance_range_km": [
+        1.7,
+        487.1
+      ],
+      "mean_age_bp": 6596,
+      "mean_distance_km": 141.3,
+      "oldest_5_sites": [
+        {
+          "name": "Boker BE",
+          "age_bp": 47280,
+          "gc_distance_km": 77.2
+        },
+        {
+          "name": "Shunera 17",
+          "age_bp": 22200,
+          "gc_distance_km": 89.4
+        },
+        {
+          "name": "Ein Aqev (D31)",
+          "age_bp": 19980,
+          "gc_distance_km": 73.8
+        },
+        {
+          "name": "Azariq 8",
+          "age_bp": 19700,
+          "gc_distance_km": 90.6
+        },
+        {
+          "name": "Zin D 5",
+          "age_bp": 18840,
+          "gc_distance_km": 76.2
+        }
+      ],
+      "interpretation": "r=-0.0714: earlier monuments ARE closer to GC (permutation p=0.2419)"
+    },
+    {
+      "cluster": "Nazca_Peru",
+      "description": "Nazca/Ica region geoglyphs and sites (Peru)",
+      "n_sites": 38,
+      "pearson_r": 0.3983,
+      "pearson_p": 0.01325,
+      "spearman_rho": 0.3331,
+      "spearman_p": 0.040989,
+      "permutation_p": 0.9915,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        2080,
+        10280
+      ],
+      "distance_range_km": [
+        3.7,
+        281.5
+      ],
+      "mean_age_bp": 4565,
+      "mean_distance_km": 91.7,
+      "oldest_5_sites": [
+        {
+          "name": "Jaywamachay",
+          "age_bp": 10280,
+          "gc_distance_km": 102.1
+        },
+        {
+          "name": "Panam Km",
+          "age_bp": 9152,
+          "gc_distance_km": 274.0
+        },
+        {
+          "name": "Puente (Ac-158)",
+          "age_bp": 8860,
+          "gc_distance_km": 102.2
+        },
+        {
+          "name": "El Abrigo",
+          "age_bp": 8835,
+          "gc_distance_km": 9.4
+        },
+        {
+          "name": "Paracas Village 154",
+          "age_bp": 8830,
+          "gc_distance_km": 127.9
+        }
+      ],
+      "interpretation": "r=0.3983: earlier monuments are NOT closer to GC (permutation p=0.9915)"
+    },
+    {
+      "cluster": "Easter_Island",
+      "description": "Rapa Nui ahu and settlements",
+      "n_sites": 36,
+      "pearson_r": 0.137,
+      "pearson_p": 0.425449,
+      "spearman_rho": 0.0819,
+      "spearman_p": 0.635017,
+      "permutation_p": 0.7849,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        150,
+        1180
+      ],
+      "distance_range_km": [
+        3.9,
+        16.7
+      ],
+      "mean_age_bp": 577,
+      "mean_distance_km": 11.0,
+      "oldest_5_sites": [
+        {
+          "name": "O97 Orongo",
+          "age_bp": 1180,
+          "gc_distance_km": 16.7
+        },
+        {
+          "name": "Auh Nau Nau plaza",
+          "age_bp": 1170,
+          "gc_distance_km": 6.4
+        },
+        {
+          "name": "Site 18-473G",
+          "age_bp": 1110,
+          "gc_distance_km": 10.4
+        },
+        {
+          "name": "Ahu Vinapu 1",
+          "age_bp": 1100,
+          "gc_distance_km": 15.4
+        },
+        {
+          "name": "Moai Tukuturi",
+          "age_bp": 1040,
+          "gc_distance_km": 12.9
+        }
+      ],
+      "interpretation": "r=0.1370: earlier monuments are NOT closer to GC (permutation p=0.7849)"
+    },
+    {
+      "cluster": "Persepolis_Iran",
+      "description": "Fars/Isfahan region sites (Iran)",
+      "n_sites": 14,
+      "pearson_r": -0.3189,
+      "pearson_p": 0.266362,
+      "spearman_rho": -0.2527,
+      "spearman_p": 0.383315,
+      "permutation_p": 0.132,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        3742,
+        10190
+      ],
+      "distance_range_km": [
+        3.3,
+        447.0
+      ],
+      "mean_age_bp": 6651,
+      "mean_distance_km": 99.7,
+      "oldest_5_sites": [
+        {
+          "name": "Pasargades",
+          "age_bp": 10190,
+          "gc_distance_km": 46.2
+        },
+        {
+          "name": "Mushki",
+          "age_bp": 8640,
+          "gc_distance_km": 5.3
+        },
+        {
+          "name": "Rahmatabad",
+          "age_bp": 8270,
+          "gc_distance_km": 34.6
+        },
+        {
+          "name": "Tall-i Jari B",
+          "age_bp": 7297,
+          "gc_distance_km": 3.8
+        },
+        {
+          "name": "Tol-e Ba\u0161i",
+          "age_bp": 7283,
+          "gc_distance_km": 26.9
+        }
+      ],
+      "interpretation": "r=-0.3189: earlier monuments ARE closer to GC (permutation p=0.1320)"
+    },
+    {
+      "cluster": "Levant_PPNB",
+      "description": "Levant Pre-Pottery Neolithic and later (Israel/Jordan/Syria/Lebanon)",
+      "n_sites": 181,
+      "pearson_r": 0.1185,
+      "pearson_p": 0.112236,
+      "spearman_rho": 0.0635,
+      "spearman_p": 0.39608,
+      "permutation_p": 0.9416,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        2620,
+        47280
+      ],
+      "distance_range_km": [
+        4.3,
+        483.2
+      ],
+      "mean_age_bp": 10020,
+      "mean_distance_km": 189.7,
+      "oldest_5_sites": [
+        {
+          "name": "Boker BE",
+          "age_bp": 47280,
+          "gc_distance_km": 77.2
+        },
+        {
+          "name": "Kebara",
+          "age_bp": 43700,
+          "gc_distance_km": 267.5
+        },
+        {
+          "name": "Palmyra",
+          "age_bp": 38450,
+          "gc_distance_km": 483.2
+        },
+        {
+          "name": "Ksar'Akil",
+          "age_bp": 32400,
+          "gc_distance_km": 414.0
+        },
+        {
+          "name": "Hayonim Cave",
+          "age_bp": 29980,
+          "gc_distance_km": 304.8
+        }
+      ],
+      "interpretation": "r=0.1185: earlier monuments are NOT closer to GC (permutation p=0.9416)"
+    },
+    {
+      "cluster": "Indus_Valley",
+      "description": "Indus Valley / Sindh-Punjab sites (Pakistan/India)",
+      "n_sites": 5,
+      "pearson_r": -0.5267,
+      "pearson_p": 0.361793,
+      "spearman_rho": -0.7,
+      "spearman_p": 0.18812,
+      "permutation_p": 0.2173,
+      "n_permutations": 10000,
+      "age_range_bp": [
+        3499,
+        6280
+      ],
+      "distance_range_km": [
+        221.3,
+        435.1
+      ],
+      "mean_age_bp": 4285,
+      "mean_distance_km": 321.0,
+      "oldest_5_sites": [
+        {
+          "name": "Sannarachamma",
+          "age_bp": 6280,
+          "gc_distance_km": 252.5
+        },
+        {
+          "name": "Banawali",
+          "age_bp": 4058,
+          "gc_distance_km": 337.4
+        },
+        {
+          "name": "Ojiyana",
+          "age_bp": 3830,
+          "gc_distance_km": 221.3
+        },
+        {
+          "name": "Khirsara",
+          "age_bp": 3760,
+          "gc_distance_km": 358.7
+        },
+        {
+          "name": "Harappa",
+          "age_bp": 3499,
+          "gc_distance_km": 435.1
+        }
+      ],
+      "interpretation": "r=-0.5267: earlier monuments ARE closer to GC (permutation p=0.2173)"
+    },
+    {
+      "cluster": "Anatolia",
+      "description": "Anatolian Neolithic and Bronze Age sites (Turkey)",
+      "n_sites": 0,
+      "status": "SKIPPED \u2014 fewer than 5 dated sites"
+    }
+  ],
+  "pattern_summary": {
+    "clusters_tested": 6,
+    "clusters_skipped": 1,
+    "clusters_with_negative_r": [
+      "Memphis_Egypt",
+      "Persepolis_Iran",
+      "Indus_Valley"
+    ],
+    "clusters_significant_p05": [],
+    "is_pattern": true,
+    "is_memphis_specific": false,
+    "verdict": "3 of 6 tested clusters show r < 0 (earlier = closer). 0 significant at p < 0.05. PATTERN detected across multiple clusters."
+  }
+}

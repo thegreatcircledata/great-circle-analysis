@@ -1,0 +1,21 @@
+{
+  "test": "A4_shape_orientation_independence",
+  "seed": 42,
+  "n_stars": 181,
+  "n_triplets": 971970,
+  "spearman_rho": -0.040859,
+  "spearman_p": 0.0,
+  "abs_rho": 0.0409,
+  "independent": true,
+  "fisher_valid": true,
+  "orion_shape_distance": 0.020382,
+  "orion_orient_offset_deg": 87.91,
+  "orion_shape_rank": 2640,
+  "orion_shape_p": 0.002716,
+  "orion_orient_rank": 954897,
+  "orion_orient_p": 0.982435,
+  "fisher_p": 0.018482,
+  "permutation_combined_rank": 475165,
+  "permutation_p": 0.488868,
+  "computation_time_s": 158.5
+}

@@ -1,0 +1,327 @@
+{
+  "test": "Temporal Density Profile",
+  "description": "Enrichment of on-corridor dates relative to global, by 500-year bin",
+  "threshold_km": 50,
+  "bins": [
+    {
+      "bin_start": 5000,
+      "bin_end": 5500,
+      "on_corridor_count": 33,
+      "off_corridor_count": 3572,
+      "enrichment": 1.0689,
+      "period_label": ""
+    },
+    {
+      "bin_start": 5500,
+      "bin_end": 6000,
+      "on_corridor_count": 51,
+      "off_corridor_count": 3008,
+      "enrichment": 1.9618,
+      "period_label": ""
+    },
+    {
+      "bin_start": 6000,
+      "bin_end": 6500,
+      "on_corridor_count": 41,
+      "off_corridor_count": 2815,
+      "enrichment": 1.6852,
+      "period_label": ""
+    },
+    {
+      "bin_start": 6500,
+      "bin_end": 7000,
+      "on_corridor_count": 22,
+      "off_corridor_count": 2137,
+      "enrichment": 1.1912,
+      "period_label": ""
+    },
+    {
+      "bin_start": 7000,
+      "bin_end": 7500,
+      "on_corridor_count": 21,
+      "off_corridor_count": 1751,
+      "enrichment": 1.3877,
+      "period_label": ""
+    },
+    {
+      "bin_start": 7500,
+      "bin_end": 8000,
+      "on_corridor_count": 28,
+      "off_corridor_count": 1687,
+      "enrichment": 1.9204,
+      "period_label": ""
+    },
+    {
+      "bin_start": 8000,
+      "bin_end": 8500,
+      "on_corridor_count": 35,
+      "off_corridor_count": 1450,
+      "enrichment": 2.7929,
+      "period_label": "Early Holocene peak"
+    },
+    {
+      "bin_start": 8500,
+      "bin_end": 9000,
+      "on_corridor_count": 24,
+      "off_corridor_count": 1358,
+      "enrichment": 2.0449,
+      "period_label": "Early Holocene peak"
+    },
+    {
+      "bin_start": 9000,
+      "bin_end": 9500,
+      "on_corridor_count": 13,
+      "off_corridor_count": 1172,
+      "enrichment": 1.2834,
+      "period_label": "Early Holocene peak"
+    },
+    {
+      "bin_start": 9500,
+      "bin_end": 10000,
+      "on_corridor_count": 11,
+      "off_corridor_count": 1197,
+      "enrichment": 1.0633,
+      "period_label": "Early Holocene peak"
+    },
+    {
+      "bin_start": 10000,
+      "bin_end": 10500,
+      "on_corridor_count": 13,
+      "off_corridor_count": 1051,
+      "enrichment": 1.4312,
+      "period_label": "Post-YD recovery"
+    },
+    {
+      "bin_start": 10500,
+      "bin_end": 11000,
+      "on_corridor_count": 6,
+      "off_corridor_count": 848,
+      "enrichment": 0.8187,
+      "period_label": "Post-YD recovery"
+    },
+    {
+      "bin_start": 11000,
+      "bin_end": 11500,
+      "on_corridor_count": 3,
+      "off_corridor_count": 801,
+      "enrichment": 0.4334,
+      "period_label": "Post-YD recovery"
+    },
+    {
+      "bin_start": 11500,
+      "bin_end": 12000,
+      "on_corridor_count": 7,
+      "off_corridor_count": 775,
+      "enrichment": 1.0451,
+      "period_label": "YD duration"
+    },
+    {
+      "bin_start": 12000,
+      "bin_end": 12500,
+      "on_corridor_count": 6,
+      "off_corridor_count": 908,
+      "enrichment": 0.7646,
+      "period_label": "YD duration"
+    },
+    {
+      "bin_start": 12500,
+      "bin_end": 13000,
+      "on_corridor_count": 6,
+      "off_corridor_count": 758,
+      "enrichment": 0.9159,
+      "period_label": "YD duration"
+    },
+    {
+      "bin_start": 13000,
+      "bin_end": 13500,
+      "on_corridor_count": 2,
+      "off_corridor_count": 529,
+      "enrichment": 0.4374,
+      "period_label": "** YD ONSET **"
+    },
+    {
+      "bin_start": 13500,
+      "bin_end": 14000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 553,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 14000,
+      "bin_end": 14500,
+      "on_corridor_count": 2,
+      "off_corridor_count": 436,
+      "enrichment": 0.5308,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 14500,
+      "bin_end": 15000,
+      "on_corridor_count": 1,
+      "off_corridor_count": 365,
+      "enrichment": 0.317,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 15000,
+      "bin_end": 15500,
+      "on_corridor_count": 1,
+      "off_corridor_count": 344,
+      "enrichment": 0.3364,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 15500,
+      "bin_end": 16000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 305,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 16000,
+      "bin_end": 16500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 263,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 16500,
+      "bin_end": 17000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 249,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 17000,
+      "bin_end": 17500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 267,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 17500,
+      "bin_end": 18000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 259,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 18000,
+      "bin_end": 18500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 263,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 18500,
+      "bin_end": 19000,
+      "on_corridor_count": 1,
+      "off_corridor_count": 268,
+      "enrichment": 0.4317,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 19000,
+      "bin_end": 19500,
+      "on_corridor_count": 1,
+      "off_corridor_count": 278,
+      "enrichment": 0.4162,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 19500,
+      "bin_end": 20000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 277,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 20000,
+      "bin_end": 20500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 274,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 20500,
+      "bin_end": 21000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 276,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 21000,
+      "bin_end": 21500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 228,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 21500,
+      "bin_end": 22000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 210,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 22000,
+      "bin_end": 22500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 194,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 22500,
+      "bin_end": 23000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 255,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 23000,
+      "bin_end": 23500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 272,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 23500,
+      "bin_end": 24000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 239,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 24000,
+      "bin_end": 24500,
+      "on_corridor_count": 0,
+      "off_corridor_count": 256,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    },
+    {
+      "bin_start": 24500,
+      "bin_end": 25000,
+      "on_corridor_count": 0,
+      "off_corridor_count": 236,
+      "enrichment": 0.0,
+      "period_label": "Pre-YD"
+    }
+  ]
+}

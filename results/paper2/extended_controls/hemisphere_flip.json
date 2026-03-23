@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "analysis": "Hemisphere Flip \u2014 New World Pipeline",
+    "date": "2026-03-22",
+    "question": "Does the monument-settlement divergence exist when using ONLY New World data?",
+    "methodology": {
+      "great_circle_pole": {
+        "lat": 59.682122,
+        "lon": -138.646087
+      },
+      "threshold_km": 50,
+      "monte_carlo_trials": 1000,
+      "jitter_deg": 2.0,
+      "new_world_bounds": {
+        "lon_min": -130,
+        "lon_max": -30,
+        "lat_min": -55,
+        "lat_max": 70
+      },
+      "databases": [
+        "Peru Ministry",
+        "XRONOS",
+        "p3k14c",
+        "Pleiades"
+      ]
+    }
+  },
+  "nw_enrichment": {
+    "Peru Ministry (all)": {
+      "n_sites": 17465,
+      "observed": 1884,
+      "expected": 1068.88,
+      "std": 32.08,
+      "z_score": 25.41,
+      "enrichment": 1.763,
+      "p_value": 0.0,
+      "label": "Peru Ministry (all)",
+      "too_few": false
+    },
+    "XRONOS NW": {
+      "n_sites": 3982,
+      "observed": 116,
+      "expected": 50.9,
+      "std": 7.14,
+      "z_score": 9.12,
+      "enrichment": 2.279,
+      "p_value": 0.0,
+      "label": "XRONOS NW",
+      "too_few": false
+    },
+    "p3k14c NW": {
+      "n_sites": 14495,
+      "observed": 80,
+      "expected": 31.67,
+      "std": 5.5,
+      "z_score": 8.78,
+      "enrichment": 2.526,
+      "p_value": 0.0,
+      "label": "p3k14c NW",
+      "too_few": false
+    },
+    "Pleiades NW": {
+      "n_sites": 0,
+      "observed": 0,
+      "expected": 0,
+      "std": 0,
+      "z_score": NaN,
+      "enrichment": NaN,
+      "p_value": 1.0,
+      "label": "Pleiades NW",
+      "too_few": true
+    }
+  },
+  "ow_enrichment": {
+    "XRONOS OW": {
+      "n_sites": 24145,
+      "observed": 200,
+      "expected": 109.45,
+      "std": 10.57,
+      "z_score": 8.56,
+      "enrichment": 1.827,
+      "p_value": 0.0,
+      "label": "XRONOS OW",
+      "too_few": false
+    },
+    "p3k14c OW": {
+      "n_sites": 22198,
+      "observed": 107,
+      "expected": 74.71,
+      "std": 8.51,
+      "z_score": 3.8,
+      "enrichment": 1.432,
+      "p_value": 0.0,
+      "label": "p3k14c OW",
+      "too_few": false
+    },
+    "Pleiades OW": {
+      "n_sites": 34470,
+      "observed": 302,
+      "expected": 398.21,
+      "std": 19.79,
+      "z_score": -4.86,
+      "enrichment": 0.758,
+      "p_value": 1.0,
+      "label": "Pleiades OW",
+      "too_few": false
+    }
+  },
+  "nw_divergence": {
+    "Peru Ministry": {
+      "monument_n": 1460,
+      "domestic_n": 274,
+      "monument_result": {
+        "n_sites": 1460,
+        "observed": 114,
+        "expected": 61.09,
+        "std": 7.59,
+        "z_score": 6.97,
+        "enrichment": 1.866,
+        "p_value": 0.0,
+        "label": "Peru Ministry monuments",
+        "too_few": false
+      },
+      "domestic_result": {
+        "n_sites": 274,
+        "observed": 19,
+        "expected": 17.11,
+        "std": 4.02,
+        "z_score": 0.47,
+        "enrichment": 1.111,
+        "p_value": 0.359,
+        "label": "Peru Ministry domestic",
+        "too_few": false
+      },
+      "divergence_D": 6.5
+    },
+    "XRONOS NW": {
+      "monument_n": 117,
+      "domestic_n": 215,
+      "monument_result": {
+        "n_sites": 117,
+        "observed": 12,
+        "expected": 2.39,
+        "std": 1.49,
+        "z_score": 6.45,
+        "enrichment": 5.019,
+        "p_value": 0.0,
+        "label": "XRONOS NW monuments",
+        "too_few": false
+      },
+      "domestic_result": {
+        "n_sites": 215,
+        "observed": 3,
+        "expected": 1.16,
+        "std": 1.05,
+        "z_score": 1.76,
+        "enrichment": 2.597,
+        "p_value": 0.101,
+        "label": "XRONOS NW domestic",
+        "too_few": false
+      },
+      "divergence_D": 4.69
+    },
+    "p3k14c NW": {
+      "monument_n": 341,
+      "domestic_n": 881,
+      "monument_result": {
+        "n_sites": 341,
+        "observed": 13,
+        "expected": 2.5,
+        "std": 1.55,
+        "z_score": 6.76,
+        "enrichment": 5.194,
+        "p_value": 0.0,
+        "label": "p3k14c NW monuments",
+        "too_few": false
+      },
+      "domestic_result": {
+        "n_sites": 881,
+        "observed": 2,
+        "expected": 0.62,
+        "std": 0.78,
+        "z_score": 1.77,
+        "enrichment": 3.226,
+        "p_value": 0.132,
+        "label": "p3k14c NW domestic",
+        "too_few": false
+      },
+      "divergence_D": 4.99
+    },
+    "Pleiades NW": {
+      "monument_n": 0,
+      "domestic_n": 0,
+      "monument_result": {
+        "n_sites": 0,
+        "z_score": NaN,
+        "too_few": true
+      },
+      "domestic_result": {
+        "n_sites": 0,
+        "z_score": NaN,
+        "too_few": true
+      },
+      "divergence_D": null
+    }
+  },
+  "ow_divergence": {
+    "p3k14c OW": {
+      "monument_n": 263,
+      "domestic_n": 1218,
+      "monument_result": {
+        "n_sites": 263,
+        "observed": 10,
+        "expected": 2.67,
+        "std": 1.6,
+        "z_score": 4.59,
+        "enrichment": 3.743,
+        "p_value": 0.0,
+        "label": "p3k14c OW monuments",
+        "too_few": false
+      },
+      "domestic_result": {
+        "n_sites": 1218,
+        "observed": 2,
+        "expected": 0.88,
+        "std": 0.94,
+        "z_score": 1.2,
+        "enrichment": 2.275,
+        "p_value": 0.225,
+        "label": "p3k14c OW domestic",
+        "too_few": false
+      },
+      "divergence_D": 3.39
+    },
+    "Pleiades OW": {
+      "monument_n": 4598,
+      "domestic_n": 18037,
+      "monument_result": {
+        "n_sites": 4598,
+        "observed": 83,
+        "expected": 60.74,
+        "std": 7.47,
+        "z_score": 2.98,
+        "enrichment": 1.366,
+        "p_value": 0.005,
+        "label": "Pleiades OW monuments",
+        "too_few": false
+      },
+      "domestic_result": {
+        "n_sites": 18037,
+        "observed": 118,
+        "expected": 199.4,
+        "std": 14.75,
+        "z_score": -5.52,
+        "enrichment": 0.592,
+        "p_value": 1.0,
+        "label": "Pleiades OW domestic",
+        "too_few": false
+      },
+      "divergence_D": 8.5
+    }
+  },
+  "temporal_bins": [
+    {
+      "bin_start": -5000,
+      "bin_end": -4500,
+      "label": "5000 BCE \u2013 4500 BCE",
+      "nw_n": 273,
+      "nw_z": -0.67,
+      "nw_enrichment": 0.0,
+      "ow_n": 801,
+      "ow_z": 1.01,
+      "ow_enrichment": 1.443,
+      "nw_mon_n": 1,
+      "nw_dom_n": 11,
+      "nw_mon_z": null,
+      "nw_dom_z": null,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -4500,
+      "bin_end": -4000,
+      "label": "4500 BCE \u2013 4000 BCE",
+      "nw_n": 329,
+      "nw_z": 0.66,
+      "nw_enrichment": 1.595,
+      "ow_n": 771,
+      "ow_z": -0.21,
+      "ow_enrichment": 0.9,
+      "nw_mon_n": 3,
+      "nw_dom_n": 13,
+      "nw_mon_z": null,
+      "nw_dom_z": null,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -4000,
+      "bin_end": -3500,
+      "label": "4000 BCE \u2013 3500 BCE",
+      "nw_n": 328,
+      "nw_z": 1.88,
+      "nw_enrichment": 3.509,
+      "ow_n": 959,
+      "ow_z": -0.32,
+      "ow_enrichment": 0.855,
+      "nw_mon_n": 3,
+      "nw_dom_n": 23,
+      "nw_mon_z": null,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -3500,
+      "bin_end": -3000,
+      "label": "3500 BCE \u2013 3000 BCE",
+      "nw_n": 278,
+      "nw_z": -0.49,
+      "nw_enrichment": 0.0,
+      "ow_n": 1031,
+      "ow_z": 0.8,
+      "ow_enrichment": 1.482,
+      "nw_mon_n": 2,
+      "nw_dom_n": 18,
+      "nw_mon_z": null,
+      "nw_dom_z": null,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -3000,
+      "bin_end": -2500,
+      "label": "3000 BCE \u2013 2500 BCE",
+      "nw_n": 593,
+      "nw_z": -0.62,
+      "nw_enrichment": 0.0,
+      "ow_n": 1420,
+      "ow_z": 3.92,
+      "ow_enrichment": 2.754,
+      "nw_mon_n": 6,
+      "nw_dom_n": 34,
+      "nw_mon_z": null,
+      "nw_dom_z": -0.06,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -2500,
+      "bin_end": -2000,
+      "label": "2500 BCE \u2013 2000 BCE",
+      "nw_n": 712,
+      "nw_z": -0.65,
+      "nw_enrichment": 0.523,
+      "ow_n": 1966,
+      "ow_z": 3.96,
+      "ow_enrichment": 2.656,
+      "nw_mon_n": 8,
+      "nw_dom_n": 28,
+      "nw_mon_z": null,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -2000,
+      "bin_end": -1500,
+      "label": "2000 BCE \u2013 1500 BCE",
+      "nw_n": 638,
+      "nw_z": 0.4,
+      "nw_enrichment": 1.328,
+      "ow_n": 2279,
+      "ow_z": 1.7,
+      "ow_enrichment": 1.865,
+      "nw_mon_n": 11,
+      "nw_dom_n": 31,
+      "nw_mon_z": null,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -1500,
+      "bin_end": -1000,
+      "label": "1500 BCE \u2013 1000 BCE",
+      "nw_n": 763,
+      "nw_z": 2.35,
+      "nw_enrichment": 2.513,
+      "ow_n": 1842,
+      "ow_z": -0.08,
+      "ow_enrichment": 0.956,
+      "nw_mon_n": 12,
+      "nw_dom_n": 41,
+      "nw_mon_z": null,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -1000,
+      "bin_end": -500,
+      "label": "1000 BCE \u2013 500 BCE",
+      "nw_n": 586,
+      "nw_z": 1.15,
+      "nw_enrichment": 1.744,
+      "ow_n": 870,
+      "ow_z": -1.47,
+      "ow_enrichment": 0.0,
+      "nw_mon_n": 17,
+      "nw_dom_n": 40,
+      "nw_mon_z": null,
+      "nw_dom_z": 2.02,
+      "nw_divergence_D": null
+    },
+    {
+      "bin_start": -500,
+      "bin_end": 0,
+      "label": "500 BCE \u2013 0 CE",
+      "nw_n": 1148,
+      "nw_z": 3.54,
+      "nw_enrichment": 2.911,
+      "ow_n": 1438,
+      "ow_z": 0.9,
+      "ow_enrichment": 1.662,
+      "nw_mon_n": 59,
+      "nw_dom_n": 71,
+      "nw_mon_z": -0.39,
+      "nw_dom_z": -0.15,
+      "nw_divergence_D": -0.24
+    },
+    {
+      "bin_start": 0,
+      "bin_end": 500,
+      "label": "0 CE \u2013 500 CE",
+      "nw_n": 1722,
+      "nw_z": -0.31,
+      "nw_enrichment": 0.729,
+      "ow_n": 1175,
+      "ow_z": -0.08,
+      "ow_enrichment": 0.943,
+      "nw_mon_n": 50,
+      "nw_dom_n": 100,
+      "nw_mon_z": 0.0,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": 0.0
+    },
+    {
+      "bin_start": 500,
+      "bin_end": 1000,
+      "label": "500 CE \u2013 1000 CE",
+      "nw_n": 2527,
+      "nw_z": 3.08,
+      "nw_enrichment": 3.695,
+      "ow_n": 1328,
+      "ow_z": -0.62,
+      "ow_enrichment": 0.539,
+      "nw_mon_n": 66,
+      "nw_dom_n": 155,
+      "nw_mon_z": 2.81,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": 2.81
+    },
+    {
+      "bin_start": 1000,
+      "bin_end": 1500,
+      "label": "1000 CE \u2013 1500 CE",
+      "nw_n": 2038,
+      "nw_z": 7.67,
+      "nw_enrichment": 4.975,
+      "ow_n": 955,
+      "ow_z": -1.24,
+      "ow_enrichment": 0.0,
+      "nw_mon_n": 69,
+      "nw_dom_n": 138,
+      "nw_mon_z": 5.12,
+      "nw_dom_z": 0.0,
+      "nw_divergence_D": 5.12
+    },
+    {
+      "bin_start": 1500,
+      "bin_end": 2000,
+      "label": "1500 CE \u2013 2000 CE",
+      "nw_n": 882,
+      "nw_z": 8.58,
+      "nw_enrichment": 5.429,
+      "ow_n": 640,
+      "ow_z": -0.48,
+      "ow_enrichment": 0.0,
+      "nw_mon_n": 19,
+      "nw_dom_n": 68,
+      "nw_mon_z": null,
+      "nw_dom_z": 2.06,
+      "nw_divergence_D": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+tool_technology,stone_type,measurement_type,achieved_value,unit,context,n_trials,source
+Copper saws + sand abrasive,Aswan granite,surface_flatness,N/A,mm/m,"Stocks 2001 — 'totally flat' stated but no numerical tolerance published",N/A,Stocks 2001 Antiquity
+Copper saws + sand abrasive,Aswan granite,drill_feed_rate,3.0,mm/hr,"6 cm depth in 20 hours with 3 workers; tubular drill with sand abrasive",5,Stocks 2001 Antiquity
+River cobble hammerstones + trial fitting,Andesite,joint_gap,N/A,mm,"Protzen 1985 — 'as close as one wishes' but no gap measured",3,Protzen 1985 JSAH
+River cobble hammerstones + trial fitting,Andesite,dressing_time,20,min/face,"One face dressed in ~20 minutes",6,Protzen 1985 JSAH
+River cobble hammerstones + trial fitting,Andesite,dressing_time_full,90,min/block,"Three sides plus five edges in ~90 minutes",3,Protzen 1985 JSAH
+Flint picks + basalt pounders,Limestone,quarry_time,9,months/pillar,"Estimated for 30 untrained workers to quarry one 7m T-pillar",1,Beuger 2018
+Modern CNC fabrication,Dimension stone,surface_flatness,1.5,mm/m,"Machine-cut dimension stone face ≤2m — MIA standard",N/A,Marble Institute of America
+Modern CNC fabrication,Calibrated tile,surface_flatness,0.8,mm/m,"Calibrated tile face — MIA standard",N/A,Marble Institute of America
+Modern machine grinding,Smooth stone,surface_flatness,1.25,mm/m,"Smooth stone flatness ±1.5 mm in 1.2 m — MIA standard",N/A,Marble Institute of America
+Hand tools + rotary drilling,Basalt (predynastic vessel),circularity_rmsd,312,um,"Vdovina replica — best attempt using modern ball-bearing table",1,Antropogenez.ru / Vdovina
+Ancient hand tools (unknown),Basalt (predynastic vessel),circularity_rmsd,64,um,"Ancient Petrie Museum vessel exterior upper surface mean",24,Fomitchev-Zamilov 2025 npj Heritage Science
+Stone hammers + abrasion,Grey andesite,surface_flatness,1.0,mm/m,"Protzen & Nair 2013 — ±1mm stated tolerance for H-blocks",N/A,Protzen & Nair 2013
+Copper tools + stone rubbers,Tura limestone,joint_gap,0.5,mm,"Petrie 1883 — mean joint gap on Great Pyramid casing; NO modern replication has achieved this",0,No replication experiment has measured joint tolerance

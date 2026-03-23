@@ -1,0 +1,103 @@
+{
+  "test": "A2_orion_window_sweep",
+  "pyramid_axis_bearing_deg": 219.606,
+  "min_offset_deg": 0.05,
+  "min_offset_epoch": -11800,
+  "shape_p": 0.0025,
+  "precession_period_yr": 25772,
+  "epoch_range": [
+    -13000,
+    2026
+  ],
+  "epoch_step_yr": 25,
+  "sweep": [
+    {
+      "threshold_deg": 1,
+      "window_yr": 250,
+      "orient_p": 0.0097,
+      "combined_p": 0.000281969
+    },
+    {
+      "threshold_deg": 2,
+      "window_yr": 475,
+      "orient_p": 0.018431,
+      "combined_p": 0.000506166
+    },
+    {
+      "threshold_deg": 3,
+      "window_yr": 725,
+      "orient_p": 0.028131,
+      "combined_p": 0.000742831
+    },
+    {
+      "threshold_deg": 4,
+      "window_yr": 1000,
+      "orient_p": 0.038802,
+      "combined_p": 0.000993399
+    },
+    {
+      "threshold_deg": 5,
+      "window_yr": 1225,
+      "orient_p": 0.047532,
+      "combined_p": 0.0011928
+    },
+    {
+      "threshold_deg": 6,
+      "window_yr": 1500,
+      "orient_p": 0.058203,
+      "combined_p": 0.0014311
+    },
+    {
+      "threshold_deg": 7,
+      "window_yr": 1750,
+      "orient_p": 0.067903,
+      "combined_p": 0.00164345
+    },
+    {
+      "threshold_deg": 8,
+      "window_yr": 2025,
+      "orient_p": 0.078574,
+      "combined_p": 0.00187304
+    },
+    {
+      "threshold_deg": 9,
+      "window_yr": 2250,
+      "orient_p": 0.087304,
+      "combined_p": 0.00205815
+    },
+    {
+      "threshold_deg": 10,
+      "window_yr": 2375,
+      "orient_p": 0.092154,
+      "combined_p": 0.00216004
+    },
+    {
+      "threshold_deg": 15,
+      "window_yr": 3250,
+      "orient_p": 0.126106,
+      "combined_p": 0.00285696
+    },
+    {
+      "threshold_deg": 20,
+      "window_yr": 4775,
+      "orient_p": 0.185279,
+      "combined_p": 0.00401932
+    },
+    {
+      "threshold_deg": 30,
+      "window_yr": 8425,
+      "orient_p": 0.326905,
+      "combined_p": 0.00662763
+    },
+    {
+      "threshold_deg": 45,
+      "window_yr": 14800,
+      "orient_p": 0.574267,
+      "combined_p": 0.0108337
+    }
+  ],
+  "first_exceed_001_deg": 45,
+  "first_exceed_005_deg": null,
+  "literature_note": "Archaeoastronomical precision benchmarks: Schaefer (1993) ~0.5 deg, Ruggles (1999) 1-2 deg, Aveni (2001) 2-3 deg. At 2 deg threshold combined p = 0.0005062; at 3 deg threshold combined p = 0.0007428; at 5 deg threshold combined p = 0.001193. Result is ROBUST: combined p < 0.01 at literature-standard 2-3 deg windows.",
+  "seed": 42
+}

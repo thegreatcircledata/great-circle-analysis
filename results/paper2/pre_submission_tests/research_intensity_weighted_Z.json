@@ -1,0 +1,15 @@
+{
+  "test": "1E_research_intensity_weighted_enrichment",
+  "unweighted_count": 12414,
+  "unweighted_expected": 4002.417,
+  "unweighted_enrichment": 3.1016258425846184,
+  "unweighted_Z": 1.5443644045244347,
+  "weighted_count": 11814.57643204676,
+  "weighted_expected": 3550.1143176686514,
+  "weighted_enrichment": 3.327942532229597,
+  "weighted_Z": 1.781738754850618,
+  "z_change_pct": 15.370358811091576,
+  "on_corridor_p3k14c_density": 3.16747220879652,
+  "off_corridor_p3k14c_density": 2.57158717908935,
+  "interpretation": "WARNING: Enrichment collapses after correction (Z dropped to 1.8)"
+}

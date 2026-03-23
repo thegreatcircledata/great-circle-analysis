@@ -1,0 +1,641 @@
+{
+  "pole_lat": 59.682122,
+  "pole_lon": -138.646087,
+  "egypt": {
+    "n_pyramids": 26,
+    "pearson_r_volume": -0.06297903139215925,
+    "pearson_p_volume": 0.7598778523936689,
+    "spearman_rho_volume": 0.2206637533302955,
+    "spearman_p_volume": 0.27869553550713394,
+    "pearson_r_log_volume": 0.07501182533235044,
+    "pearson_p_log_volume": 0.715716591000127,
+    "pyramids": [
+      {
+        "name": "Step Pyramid of Djoser",
+        "lat": 29.8713,
+        "lon": 31.2164,
+        "date_bce": 2630,
+        "dynasty": 3,
+        "base_m": 121.0,
+        "height_m": 62.5,
+        "volume_m3": 411778,
+        "distance_km": 6.12
+      },
+      {
+        "name": "Sekhemkhet Pyramid",
+        "lat": 29.868,
+        "lon": 31.214,
+        "date_bce": 2611,
+        "dynasty": 3,
+        "base_m": 115.0,
+        "height_m": 70.0,
+        "volume_m3": 416588,
+        "distance_km": 6.46
+      },
+      {
+        "name": "Layer Pyramid (Khaba)",
+        "lat": 29.937,
+        "lon": 31.157,
+        "date_bce": 2600,
+        "dynasty": 3,
+        "base_m": 84.0,
+        "height_m": 45.0,
+        "volume_m3": 142884,
+        "distance_km": 1.67
+      },
+      {
+        "name": "Meidum Pyramid",
+        "lat": 29.3884,
+        "lon": 31.1568,
+        "date_bce": 2600,
+        "dynasty": 3,
+        "base_m": 144.0,
+        "height_m": 93.5,
+        "volume_m3": 646272,
+        "distance_km": 59.09
+      },
+      {
+        "name": "Bent Pyramid",
+        "lat": 29.7903,
+        "lon": 31.2094,
+        "date_bce": 2600,
+        "dynasty": 4,
+        "base_m": 189.43,
+        "height_m": 104.71,
+        "volume_m3": 1064592,
+        "distance_km": 15.03
+      },
+      {
+        "name": "Red Pyramid",
+        "lat": 29.8089,
+        "lon": 31.2059,
+        "date_bce": 2590,
+        "dynasty": 4,
+        "base_m": 220.0,
+        "height_m": 104.0,
+        "volume_m3": 1677867,
+        "distance_km": 12.94
+      },
+      {
+        "name": "Great Pyramid of Khufu",
+        "lat": 29.9792,
+        "lon": 31.1342,
+        "date_bce": 2560,
+        "dynasty": 4,
+        "base_m": 230.6,
+        "height_m": 146.7,
+        "volume_m3": 2600324,
+        "distance_km": 6.54
+      },
+      {
+        "name": "Pyramid of Djedefre",
+        "lat": 30.0322,
+        "lon": 31.0747,
+        "date_bce": 2528,
+        "dynasty": 4,
+        "base_m": 106.2,
+        "height_m": 67.0,
+        "volume_m3": 251885,
+        "distance_km": 12.92
+      },
+      {
+        "name": "Pyramid of Khafre",
+        "lat": 29.9761,
+        "lon": 31.1308,
+        "date_bce": 2520,
+        "dynasty": 4,
+        "base_m": 215.25,
+        "height_m": 143.5,
+        "volume_m3": 2216241,
+        "distance_km": 6.22
+      },
+      {
+        "name": "Pyramid of Menkaure",
+        "lat": 29.9725,
+        "lon": 31.1281,
+        "date_bce": 2490,
+        "dynasty": 4,
+        "base_m": 109.0,
+        "height_m": 66.0,
+        "volume_m3": 261382,
+        "distance_km": 5.85
+      },
+      {
+        "name": "Pyramid of Userkaf",
+        "lat": 29.8736,
+        "lon": 31.2192,
+        "date_bce": 2494,
+        "dynasty": 5,
+        "base_m": 73.3,
+        "height_m": 49.0,
+        "volume_m3": 87757,
+        "distance_km": 5.89
+      },
+      {
+        "name": "Pyramid of Sahure",
+        "lat": 29.8975,
+        "lon": 31.2014,
+        "date_bce": 2487,
+        "dynasty": 5,
+        "base_m": 78.5,
+        "height_m": 48.0,
+        "volume_m3": 98596,
+        "distance_km": 3.09
+      },
+      {
+        "name": "Pyramid of Neferirkare",
+        "lat": 29.8947,
+        "lon": 31.2025,
+        "date_bce": 2475,
+        "dynasty": 5,
+        "base_m": 105.0,
+        "height_m": 72.0,
+        "volume_m3": 264600,
+        "distance_km": 3.41
+      },
+      {
+        "name": "Pyramid of Nyuserre",
+        "lat": 29.895,
+        "lon": 31.2003,
+        "date_bce": 2445,
+        "dynasty": 5,
+        "base_m": 78.9,
+        "height_m": 52.0,
+        "volume_m3": 107904,
+        "distance_km": 3.36
+      },
+      {
+        "name": "Pyramid of Unas",
+        "lat": 29.8681,
+        "lon": 31.2156,
+        "date_bce": 2375,
+        "dynasty": 5,
+        "base_m": 57.75,
+        "height_m": 43.0,
+        "volume_m3": 47803,
+        "distance_km": 6.47
+      },
+      {
+        "name": "Pyramid of Teti",
+        "lat": 29.8756,
+        "lon": 31.2206,
+        "date_bce": 2345,
+        "dynasty": 6,
+        "base_m": 78.5,
+        "height_m": 52.5,
+        "volume_m3": 107839,
+        "distance_km": 5.68
+      },
+      {
+        "name": "Pyramid of Pepi I",
+        "lat": 29.8528,
+        "lon": 31.2153,
+        "date_bce": 2332,
+        "dynasty": 6,
+        "base_m": 78.75,
+        "height_m": 52.5,
+        "volume_m3": 108527,
+        "distance_km": 8.16
+      },
+      {
+        "name": "Pyramid of Merenre",
+        "lat": 29.8489,
+        "lon": 31.2133,
+        "date_bce": 2283,
+        "dynasty": 6,
+        "base_m": 78.75,
+        "height_m": 52.5,
+        "volume_m3": 108527,
+        "distance_km": 8.57
+      },
+      {
+        "name": "Pyramid of Pepi II",
+        "lat": 29.8439,
+        "lon": 31.2131,
+        "date_bce": 2278,
+        "dynasty": 6,
+        "base_m": 78.75,
+        "height_m": 52.5,
+        "volume_m3": 108527,
+        "distance_km": 9.12
+      },
+      {
+        "name": "Pyramid of Amenemhat I",
+        "lat": 29.8022,
+        "lon": 31.2219,
+        "date_bce": 1991,
+        "dynasty": 12,
+        "base_m": 84.0,
+        "height_m": 55.0,
+        "volume_m3": 129360,
+        "distance_km": 13.82
+      },
+      {
+        "name": "Pyramid of Senusret I",
+        "lat": 29.8092,
+        "lon": 31.2228,
+        "date_bce": 1971,
+        "dynasty": 12,
+        "base_m": 105.0,
+        "height_m": 61.25,
+        "volume_m3": 225094,
+        "distance_km": 13.05
+      },
+      {
+        "name": "Pyramid of Amenemhat II",
+        "lat": 29.7992,
+        "lon": 31.2178,
+        "date_bce": 1929,
+        "dynasty": 12,
+        "base_m": 50.0,
+        "height_m": 35.0,
+        "volume_m3": 29167,
+        "distance_km": 14.12
+      },
+      {
+        "name": "Pyramid of Senusret II",
+        "lat": 29.2377,
+        "lon": 30.9708,
+        "date_bce": 1880,
+        "dynasty": 12,
+        "base_m": 106.0,
+        "height_m": 48.65,
+        "volume_m3": 182210,
+        "distance_km": 74.15
+      },
+      {
+        "name": "Pyramid of Senusret III",
+        "lat": 29.8181,
+        "lon": 31.2267,
+        "date_bce": 1878,
+        "dynasty": 12,
+        "base_m": 105.0,
+        "height_m": 62.0,
+        "volume_m3": 227850,
+        "distance_km": 12.1
+      },
+      {
+        "name": "Pyramid of Amenemhat III (Dahshur)",
+        "lat": 29.7875,
+        "lon": 31.2111,
+        "date_bce": 1860,
+        "dynasty": 12,
+        "base_m": 105.0,
+        "height_m": 75.0,
+        "volume_m3": 275625,
+        "distance_km": 15.35
+      },
+      {
+        "name": "Pyramid of Amenemhat III (Hawara)",
+        "lat": 29.2719,
+        "lon": 30.8981,
+        "date_bce": 1850,
+        "dynasty": 12,
+        "base_m": 105.0,
+        "height_m": 58.0,
+        "volume_m3": 213150,
+        "distance_km": 69.72
+      }
+    ]
+  },
+  "nazca": {
+    "n_geoglyphs": 19,
+    "pearson_r": -0.4329710775253876,
+    "pearson_p": 0.06407337768285751,
+    "spearman_rho": -0.6596491228070176,
+    "spearman_p": 0.0021205311472039285,
+    "geoglyphs": [
+      {
+        "name": "Hummingbird",
+        "size_m": 96,
+        "lat": -14.6923,
+        "lon": -75.1492,
+        "distance_km": 6.65
+      },
+      {
+        "name": "Spider",
+        "size_m": 46,
+        "lat": -14.6943,
+        "lon": -75.1227,
+        "distance_km": 8.13
+      },
+      {
+        "name": "Monkey",
+        "size_m": 110,
+        "lat": -14.7074,
+        "lon": -75.139,
+        "distance_km": 8.64
+      },
+      {
+        "name": "Condor",
+        "size_m": 134,
+        "lat": -14.6978,
+        "lon": -75.1265,
+        "distance_km": 8.29
+      },
+      {
+        "name": "Astronaut",
+        "size_m": 32,
+        "lat": -14.7452,
+        "lon": -75.0797,
+        "distance_km": 15.27
+      },
+      {
+        "name": "Parrot",
+        "size_m": 200,
+        "lat": -14.6899,
+        "lon": -75.1082,
+        "distance_km": 8.4
+      },
+      {
+        "name": "Dog",
+        "size_m": 51,
+        "lat": -14.7064,
+        "lon": -75.1306,
+        "distance_km": 8.95
+      },
+      {
+        "name": "Pelican",
+        "size_m": 285,
+        "lat": -14.6894,
+        "lon": -75.1083,
+        "distance_km": 8.35
+      },
+      {
+        "name": "Whale",
+        "size_m": 65,
+        "lat": -14.7538,
+        "lon": -75.1044,
+        "distance_km": 14.92
+      },
+      {
+        "name": "Hands",
+        "size_m": 45,
+        "lat": -14.6942,
+        "lon": -75.1147,
+        "distance_km": 8.51
+      },
+      {
+        "name": "Tree",
+        "size_m": 70,
+        "lat": -14.694,
+        "lon": -75.1158,
+        "distance_km": 8.44
+      },
+      {
+        "name": "Lizard",
+        "size_m": 180,
+        "lat": -14.6936,
+        "lon": -75.1175,
+        "distance_km": 8.32
+      },
+      {
+        "name": "Spiral",
+        "size_m": 80,
+        "lat": -14.698,
+        "lon": -75.122,
+        "distance_km": 8.53
+      },
+      {
+        "name": "Flower",
+        "size_m": 76,
+        "lat": -14.695,
+        "lon": -75.114,
+        "distance_km": 8.62
+      },
+      {
+        "name": "Frigatebird",
+        "size_m": 160,
+        "lat": -14.691,
+        "lon": -75.112,
+        "distance_km": 8.32
+      },
+      {
+        "name": "Trapezoid_Large_1",
+        "size_m": 400,
+        "lat": -14.694,
+        "lon": -75.153,
+        "distance_km": 6.63
+      },
+      {
+        "name": "Trapezoid_Large_2",
+        "size_m": 350,
+        "lat": -14.696,
+        "lon": -75.148,
+        "distance_km": 7.07
+      },
+      {
+        "name": "Trapezoid_Large_3",
+        "size_m": 500,
+        "lat": -14.7,
+        "lon": -75.142,
+        "distance_km": 7.76
+      },
+      {
+        "name": "Trapezoid_Large_4",
+        "size_m": 300,
+        "lat": -14.702,
+        "lon": -75.135,
+        "distance_km": 8.3
+      }
+    ]
+  },
+  "easter_island": {
+    "n_ahu": 15,
+    "pearson_r_platform": 0.058998329808185736,
+    "pearson_p_platform": 0.8345599826618,
+    "spearman_rho_platform": 0.033958905427861195,
+    "spearman_p_platform": 0.9043678210462518,
+    "pearson_r_moai_height": -0.02757563216612,
+    "pearson_p_moai_height": 0.9222879565674508,
+    "pearson_r_n_moai": 0.24345764664298944,
+    "pearson_p_n_moai": 0.3819163265193011,
+    "ahu": [
+      {
+        "name": "Ahu Tongariki",
+        "platform_length_m": 220.0,
+        "n_moai": 15,
+        "max_moai_height_m": 8.7,
+        "lat": -27.1222,
+        "lon": -109.2728,
+        "distance_km": 12.83
+      },
+      {
+        "name": "Ahu Akivi",
+        "platform_length_m": 70.0,
+        "n_moai": 7,
+        "max_moai_height_m": 4.5,
+        "lat": -27.115,
+        "lon": -109.395,
+        "distance_km": 9.06
+      },
+      {
+        "name": "Ahu Nau Nau",
+        "platform_length_m": 65.0,
+        "n_moai": 7,
+        "max_moai_height_m": 5.5,
+        "lat": -27.0736,
+        "lon": -109.3221,
+        "distance_km": 6.38
+      },
+      {
+        "name": "Ahu Tahai",
+        "platform_length_m": 8.0,
+        "n_moai": 1,
+        "max_moai_height_m": 4.5,
+        "lat": -27.1395,
+        "lon": -109.428,
+        "distance_km": 10.9
+      },
+      {
+        "name": "Ahu Ko Te Riku",
+        "platform_length_m": 10.0,
+        "n_moai": 1,
+        "max_moai_height_m": 5.1,
+        "lat": -27.139,
+        "lon": -109.429,
+        "distance_km": 10.82
+      },
+      {
+        "name": "Ahu Vai Uri",
+        "platform_length_m": 25.0,
+        "n_moai": 5,
+        "max_moai_height_m": 4.0,
+        "lat": -27.1398,
+        "lon": -109.4275,
+        "distance_km": 10.94
+      },
+      {
+        "name": "Ahu Hanga Te'e",
+        "platform_length_m": 86.0,
+        "n_moai": 8,
+        "max_moai_height_m": 6.0,
+        "lat": -27.1453,
+        "lon": -109.3428,
+        "distance_km": 13.6
+      },
+      {
+        "name": "Ahu Vinapu",
+        "platform_length_m": 40.0,
+        "n_moai": 6,
+        "max_moai_height_m": 5.0,
+        "lat": -27.1764,
+        "lon": -109.4064,
+        "distance_km": 15.4
+      },
+      {
+        "name": "Ahu Te Pito Kura",
+        "platform_length_m": 45.0,
+        "n_moai": 1,
+        "max_moai_height_m": 9.8,
+        "lat": -27.0883,
+        "lon": -109.2996,
+        "distance_km": 8.52
+      },
+      {
+        "name": "Ahu Huri a Urenga",
+        "platform_length_m": 12.0,
+        "n_moai": 1,
+        "max_moai_height_m": 4.0,
+        "lat": -27.1525,
+        "lon": -109.3949,
+        "distance_km": 13.1
+      },
+      {
+        "name": "Ahu Ature Huki",
+        "platform_length_m": 12.0,
+        "n_moai": 1,
+        "max_moai_height_m": 3.0,
+        "lat": -27.0801,
+        "lon": -109.3196,
+        "distance_km": 7.14
+      },
+      {
+        "name": "Ahu Akahanga",
+        "platform_length_m": 60.0,
+        "n_moai": 13,
+        "max_moai_height_m": 7.0,
+        "lat": -27.1488,
+        "lon": -109.3367,
+        "distance_km": 14.13
+      },
+      {
+        "name": "Ahu One Makihi",
+        "platform_length_m": 15.0,
+        "n_moai": 1,
+        "max_moai_height_m": 4.0,
+        "lat": -27.1411,
+        "lon": -109.2913,
+        "distance_km": 14.41
+      },
+      {
+        "name": "Ahu Hanga Poukura",
+        "platform_length_m": 30.0,
+        "n_moai": 5,
+        "max_moai_height_m": 5.0,
+        "lat": -27.1635,
+        "lon": -109.3793,
+        "distance_km": 14.67
+      },
+      {
+        "name": "Ahu Vinapu II",
+        "platform_length_m": 35.0,
+        "n_moai": 5,
+        "max_moai_height_m": 4.5,
+        "lat": -27.176,
+        "lon": -109.4058,
+        "distance_km": 15.37
+      }
+    ]
+  },
+  "cross_cultural_summary": [
+    {
+      "region": "Egypt (volume)",
+      "r": -0.06297903139215925,
+      "p": 0.7598778523936689,
+      "rho": 0.2206637533302955,
+      "p_rho": 0.27869553550713394,
+      "n": 26
+    },
+    {
+      "region": "Egypt (log vol)",
+      "r": 0.07501182533235044,
+      "p": 0.715716591000127,
+      "rho": null,
+      "p_rho": null,
+      "n": 26
+    },
+    {
+      "region": "Nazca (size)",
+      "r": -0.4329710775253876,
+      "p": 0.06407337768285751,
+      "rho": -0.6596491228070176,
+      "p_rho": 0.0021205311472039285,
+      "n": 19
+    },
+    {
+      "region": "Easter Is. (platform)",
+      "r": 0.058998329808185736,
+      "p": 0.8345599826618,
+      "rho": 0.033958905427861195,
+      "p_rho": 0.9043678210462518,
+      "n": 15
+    },
+    {
+      "region": "Easter Is. (moai ht)",
+      "r": -0.02757563216612,
+      "p": 0.9222879565674508,
+      "rho": -0.03960525992780081,
+      "p_rho": 0.8885518390922543,
+      "n": 15
+    },
+    {
+      "region": "Easter Is. (n_moai)",
+      "r": 0.24345764664298944,
+      "p": 0.3819163265193011,
+      "rho": 0.19643106891519183,
+      "p_rho": 0.482893079753955,
+      "n": 15
+    }
+  ]
+}

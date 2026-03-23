@@ -1,0 +1,369 @@
+{
+  "study": "O4 Cross-Cultural Orion Salience",
+  "date": "2026-03-22T16:43:52.415592",
+  "phase1_cross_cultural": {
+    "n_cultures": 20,
+    "regions": {
+      "Arctic": 1,
+      "E Africa": 1,
+      "E Asia": 2,
+      "Europe": 1,
+      "Iran": 1,
+      "Mesopotamia": 2,
+      "N Africa": 1,
+      "N America": 2,
+      "N Europe": 1,
+      "NE Africa": 1,
+      "Oceania": 2,
+      "Polynesia": 2,
+      "S America": 1,
+      "S Asia": 1,
+      "W Europe": 1
+    },
+    "cultures_referencing_three": 9,
+    "cultures": [
+      {
+        "culture": "Ancient Egypt",
+        "region": "NE Africa",
+        "name": "Sah",
+        "source": "Pyramid Texts, ~2400 BCE"
+      },
+      {
+        "culture": "Babylonian",
+        "region": "Mesopotamia",
+        "name": "MULSIPA.ZI.AN.NA",
+        "source": "MUL.APIN"
+      },
+      {
+        "culture": "Ancient Greek",
+        "region": "Europe",
+        "name": "Orion's Belt / Zone",
+        "source": "Homer, Hesiod"
+      },
+      {
+        "culture": "Aboriginal Australian (Yolngu)",
+        "region": "Oceania",
+        "name": "Three brothers in canoe",
+        "source": "Norris 2016"
+      },
+      {
+        "culture": "Aboriginal Australian (Boorong)",
+        "region": "Oceania",
+        "name": "Three young men hunting",
+        "source": "Stanbridge 1857"
+      },
+      {
+        "culture": "Lakota Sioux",
+        "region": "N America",
+        "name": "Tayamni (Buffalo)",
+        "source": "Goodman 1992"
+      },
+      {
+        "culture": "Navajo",
+        "region": "N America",
+        "name": "First Slender One",
+        "source": "Griffin-Pierce 1992"
+      },
+      {
+        "culture": "Chinese",
+        "region": "E Asia",
+        "name": "Three Stars / Shen",
+        "source": "Sun & Kistemaker 1997"
+      },
+      {
+        "culture": "Japanese",
+        "region": "E Asia",
+        "name": "Mitsuboshi (Three Stars)",
+        "source": "Renshaw & Ihara 2000"
+      },
+      {
+        "culture": "Hindu",
+        "region": "S Asia",
+        "name": "Mriga (Deer)",
+        "source": "Subbarayappa 2008"
+      },
+      {
+        "culture": "Maori",
+        "region": "Polynesia",
+        "name": "Tautoru (Three in a row)",
+        "source": "Best 1922"
+      },
+      {
+        "culture": "Hawaiian",
+        "region": "Polynesia",
+        "name": "Ka Hei-Hei o na Keiki",
+        "source": "Johnson 2014"
+      },
+      {
+        "culture": "Tuareg",
+        "region": "N Africa",
+        "name": "Talemt (She-Camels)",
+        "source": "Bernus & Ag-Sidiyene 1989"
+      },
+      {
+        "culture": "Aymara",
+        "region": "S America",
+        "name": "Three Crosses",
+        "source": "Urton 1981"
+      },
+      {
+        "culture": "Norse",
+        "region": "N Europe",
+        "name": "Frigg's Distaff",
+        "source": "Reuter 1934"
+      },
+      {
+        "culture": "Celtic/Irish",
+        "region": "W Europe",
+        "name": "Three Ploughmen",
+        "source": "Allen 1899"
+      },
+      {
+        "culture": "Sumerian",
+        "region": "Mesopotamia",
+        "name": "The Faithful Shepherd",
+        "source": "Hunger & Pingree 1989"
+      },
+      {
+        "culture": "Persian",
+        "region": "Iran",
+        "name": "Three Brothers",
+        "source": "Dehkhoda 1944"
+      },
+      {
+        "culture": "Inuit",
+        "region": "Arctic",
+        "name": "Ullaktut (Runners)",
+        "source": "MacDonald 1998"
+      },
+      {
+        "culture": "Swahili",
+        "region": "E Africa",
+        "name": "Three Cooking Stones",
+        "source": "Allen 1899"
+      }
+    ]
+  },
+  "phase2_asterism_comparison": {
+    "asterism_counts": {
+      "Milky Way": 40,
+      "Pleiades": 30,
+      "Ursa Major / Big Dipper": 25,
+      "Sirius (single star)": 25,
+      "Orion's Belt": 20,
+      "Scorpius (tail/stinger)": 20,
+      "Southern Cross (Crux)": 15
+    },
+    "total_culture_pairs": 175,
+    "orion_rank": 5,
+    "orion_fraction": 0.1143
+  },
+  "phase3_bayesian": {
+    "raw_p_giza": 0.002463,
+    "n_candidate_asterisms": 7,
+    "bonferroni_corrected_p": 0.017241,
+    "prior_orion_salience": 0.1143,
+    "prior_orion_uniform": 0.1429,
+    "bayes_factor_uniform_vs_salience": 1.25,
+    "salience_boost_factor": 0.8,
+    "conclusion": "Orion's Belt is 0.8x more likely to be chosen than uniform random among 7 major asterisms. Even with Bonferroni correction (p=0.0172), the Giza correlation remains significant at alpha=0.05."
+  },
+  "phase4_collinear_bias": {
+    "n_bright_stars_mag_lt_3": 122,
+    "total_bright_triplets": 295240,
+    "collinear_triplets_gt_160": 51330,
+    "compact_collinear_lt_5deg": 1,
+    "uniform_compact": 1,
+    "prior_orion_among_collinear": 1.9e-05,
+    "prior_orion_among_compact": 1.0,
+    "top_collinear": [
+      {
+        "stars": [
+          "Capella",
+          "Fomalhaut",
+          "Zosma"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          0.08,
+          1.16,
+          2.56
+        ]
+      },
+      {
+        "stars": [
+          "Achernar",
+          "Dubhe",
+          "Acamar"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          0.46,
+          1.79,
+          2.88
+        ]
+      },
+      {
+        "stars": [
+          "Altair",
+          "Gienah",
+          "Yed Prior"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          0.76,
+          2.59,
+          2.74
+        ]
+      },
+      {
+        "stars": [
+          "Acrux",
+          "Eltanin",
+          "Kornephoros"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          0.76,
+          2.23,
+          2.77
+        ]
+      },
+      {
+        "stars": [
+          "Acrux",
+          "Larawag",
+          "Sadalmelik"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          0.76,
+          2.29,
+          2.96
+        ]
+      },
+      {
+        "stars": [
+          "Regulus",
+          "Zubeneschamali",
+          "Hassaleh"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          1.35,
+          2.61,
+          2.69
+        ]
+      },
+      {
+        "stars": [
+          "Peacock",
+          "Yed Prior",
+          "Alnasl"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          1.94,
+          2.74,
+          2.99
+        ]
+      },
+      {
+        "stars": [
+          "Diphda",
+          "Nunki",
+          "Kraz"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          2.04,
+          2.05,
+          2.65
+        ]
+      },
+      {
+        "stars": [
+          "Rasalhague",
+          "Tarazed",
+          "Tejat"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          2.08,
+          2.72,
+          2.88
+        ]
+      },
+      {
+        "stars": [
+          "Tiaki",
+          "Alphecca",
+          "Cebalrai"
+        ],
+        "max_angle": 180.0,
+        "mags": [
+          2.39,
+          2.23,
+          2.77
+        ]
+      }
+    ],
+    "compact_collinear_list": [
+      {
+        "stars": [
+          "Alnilam",
+          "Alnitak",
+          "Mintaka"
+        ],
+        "max_angle": 172.42
+      }
+    ]
+  },
+  "phase5_pyramid_texts": {
+    "n_references": 4,
+    "references": [
+      {
+        "ref": "PT 882",
+        "date": "2400-2300 BCE",
+        "significance": "Direct association of deceased pharaoh with Orion (Sah)"
+      },
+      {
+        "ref": "PT 820",
+        "date": "2400-2300 BCE",
+        "significance": "King identified as stellar companion of Orion"
+      },
+      {
+        "ref": "PT 723",
+        "date": "2400-2300 BCE",
+        "significance": "Stellar destiny of the pharaoh"
+      },
+      {
+        "ref": "PT 186",
+        "date": "2400-2300 BCE",
+        "significance": "Orion's heliacal setting/rising as model for royal rebirth"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "~2560 BCE",
+        "event": "Great Pyramids of Giza constructed (Dynasty 4)"
+      },
+      {
+        "date": "~2400 BCE",
+        "event": "Earliest Pyramid Texts (Unis, Dynasty 5) reference Sah/Orion"
+      },
+      {
+        "date": "~2300 BCE",
+        "event": "Pyramid Texts in Pepi I, Pepi II elaborate Orion associations"
+      },
+      {
+        "date": "~1500 BCE",
+        "event": "Coffin Texts continue Orion-afterlife tradition"
+      },
+      {
+        "date": "~1350 BCE",
+        "event": "Book of the Dead references Orion in stellar afterlife"
+      }
+    ]
+  }
+}

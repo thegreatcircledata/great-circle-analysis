@@ -1,0 +1,416 @@
+{
+  "study": "S1: Publication & Excavation Density Bias Test",
+  "verdict": "CLEAR",
+  "explanation": "XRONOS Mann-Whitney p=0.5834 (>0.05) and median ratio=1.000 (<1.5). No significant publication density bias detected. Note: p3k14c has zero on-corridor sites (<50 km) due to geographic sampling bias toward North America and Europe; the great circle passes through North Africa, South America, and the South Pacific where p3k14c has minimal coverage. XRONOS serves as the primary radiocarbon proxy.",
+  "phase1": {
+    "p3k14c_overall": {
+      "label": "p3k14c_overall",
+      "n_on": 0,
+      "n_off": 12815,
+      "skip": true,
+      "reason": "insufficient on-corridor coverage in p3k14c"
+    },
+    "p3k14c_regional": {},
+    "xronos_overall": {
+      "label": "xronos_overall",
+      "n_on": 316,
+      "n_off": 27402,
+      "median_on": 4.0,
+      "median_off": 4.0,
+      "median_ratio": 1.0,
+      "mann_whitney_U": 4406404.5,
+      "mann_whitney_p": 0.5833891569130315,
+      "bootstrap_ci_95": [
+        0.75,
+        1.0
+      ],
+      "mean_on": 10.573,
+      "mean_off": 9.912
+    },
+    "xronos_regional": {
+      "PE": {
+        "label": "xronos_PE",
+        "n_on": 18,
+        "n_off": 191,
+        "median_on": 3.0,
+        "median_off": 3.0,
+        "median_ratio": 1.0,
+        "mann_whitney_U": 1722.5,
+        "mann_whitney_p": 0.9900011555745378,
+        "bootstrap_ci_95": [
+          0.5,
+          2.0
+        ],
+        "mean_on": 6.222,
+        "mean_off": 7.0
+      },
+      "BR": {
+        "label": "xronos_BR",
+        "n_on": 53,
+        "n_off": 816,
+        "median_on": 3.0,
+        "median_off": 1.5,
+        "median_ratio": 2.0,
+        "mann_whitney_U": 25623.0,
+        "mann_whitney_p": 0.01553745554208206,
+        "bootstrap_ci_95": [
+          1.0,
+          3.0
+        ],
+        "mean_on": 3.528,
+        "mean_off": 3.14
+      },
+      "CL": {
+        "label": "xronos_CL",
+        "n_on": 45,
+        "n_off": 323,
+        "median_on": 3.0,
+        "median_off": 2.0,
+        "median_ratio": 1.5,
+        "mann_whitney_U": 7621.0,
+        "mann_whitney_p": 0.5898769582910584,
+        "bootstrap_ci_95": [
+          0.667,
+          2.0
+        ],
+        "mean_on": 4.978,
+        "mean_off": 4.991
+      },
+      "IR": {
+        "label": "xronos_IR",
+        "n_on": 20,
+        "n_off": 91,
+        "median_on": 10.0,
+        "median_off": 15.0,
+        "median_ratio": 0.667,
+        "mann_whitney_U": 774.0,
+        "mann_whitney_p": 0.2979178380803057,
+        "bootstrap_ci_95": [
+          0.45,
+          1.1
+        ],
+        "mean_on": 14.25,
+        "mean_off": 27.297
+      },
+      "JO": {
+        "label": "xronos_JO",
+        "n_on": 31,
+        "n_off": 42,
+        "median_on": 6.0,
+        "median_off": 8.0,
+        "median_ratio": 0.75,
+        "mann_whitney_U": 576.5,
+        "mann_whitney_p": 0.4075405301143844,
+        "bootstrap_ci_95": [
+          0.25,
+          2.0
+        ],
+        "mean_on": 20.258,
+        "mean_off": 17.429
+      },
+      "IL": {
+        "label": "xronos_IL",
+        "n_on": 36,
+        "n_off": 85,
+        "median_on": 3.0,
+        "median_off": 9.0,
+        "median_ratio": 0.333,
+        "mann_whitney_U": 1000.0,
+        "mann_whitney_p": 0.002588266019189655,
+        "bootstrap_ci_95": [
+          0.167,
+          0.833
+        ],
+        "mean_on": 9.833,
+        "mean_off": 19.918
+      },
+      "EG": {
+        "label": "xronos_EG",
+        "n_on": 98,
+        "n_off": 149,
+        "median_on": 6.0,
+        "median_off": 6.0,
+        "median_ratio": 1.0,
+        "mann_whitney_U": 6548.0,
+        "mann_whitney_p": 0.16923736134744716,
+        "bootstrap_ci_95": [
+          0.5,
+          1.8
+        ],
+        "mean_on": 15.112,
+        "mean_off": 18.591
+      },
+      "LY": {
+        "label": "xronos_LY",
+        "n_on": 5,
+        "n_off": 28,
+        "median_on": 2.0,
+        "median_off": 4.0,
+        "median_ratio": 0.5,
+        "mann_whitney_U": 46.5,
+        "mann_whitney_p": 0.23394522880898627,
+        "bootstrap_ci_95": [
+          0.5,
+          1.25
+        ],
+        "mean_on": 2.8,
+        "mean_off": 13.107
+      },
+      "ML": {
+        "label": "xronos_ML",
+        "n_on": 6,
+        "n_off": 111,
+        "median_on": 3.5,
+        "median_off": 3.0,
+        "median_ratio": 1.167,
+        "mann_whitney_U": 398.0,
+        "mann_whitney_p": 0.4185071440467625,
+        "bootstrap_ci_95": [
+          0.667,
+          8.0
+        ],
+        "mean_on": 7.833,
+        "mean_off": 6.144
+      }
+    }
+  },
+  "phase2_pleiades_connections": {
+    "label": "pleiades_connections",
+    "n_on": 302,
+    "n_off": 32954,
+    "median_on": 0.0,
+    "median_off": 0.0,
+    "median_ratio": Infinity,
+    "mann_whitney_U": 4861550.0,
+    "mann_whitney_p": 0.19731758144808176,
+    "bootstrap_ci_95": [
+      NaN,
+      NaN
+    ],
+    "mean_on": 0.268,
+    "mean_off": 0.415
+  },
+  "phase3_monument_vs_settlement": {
+    "pleiades": {
+      "monument": {
+        "label": "pleiades_monument",
+        "n_on": 79,
+        "n_off": 3914,
+        "median_on": 0.0,
+        "median_off": 0.0,
+        "median_ratio": Infinity,
+        "mann_whitney_U": 151399.5,
+        "mann_whitney_p": 0.434162137523881,
+        "bootstrap_ci_95": [
+          NaN,
+          NaN
+        ],
+        "mean_on": 0.038,
+        "mean_off": 0.109
+      },
+      "settlement": {
+        "label": "pleiades_settlement",
+        "n_on": 118,
+        "n_off": 17294,
+        "median_on": 0.0,
+        "median_off": 0.0,
+        "median_ratio": Infinity,
+        "mann_whitney_U": 1024382.0,
+        "mann_whitney_p": 0.8762705012580376,
+        "bootstrap_ci_95": [
+          NaN,
+          NaN
+        ],
+        "mean_on": 0.229,
+        "mean_off": 0.245
+      }
+    },
+    "xronos": {
+      "monument": {
+        "label": "xronos_monument",
+        "n_on": 0,
+        "n_off": 337,
+        "skip": true,
+        "reason": "too few sites"
+      },
+      "settlement": {
+        "label": "xronos_settlement",
+        "n_on": 56,
+        "n_off": 4194,
+        "median_on": 8.5,
+        "median_off": 6.0,
+        "median_ratio": 1.417,
+        "mann_whitney_U": 124931.0,
+        "mann_whitney_p": 0.4097797017256113,
+        "bootstrap_ci_95": [
+          0.83,
+          2.083
+        ],
+        "mean_on": 17.714,
+        "mean_off": 15.462
+      }
+    }
+  },
+  "phase4_decile": {
+    "xronos_spearman": {
+      "rho": -0.1636,
+      "p": 0.651477
+    },
+    "xronos_table": [
+      {
+        "decile": 1,
+        "mean_dates": 12.543547813722006,
+        "median_dates": 4.0,
+        "n_sites": 2813,
+        "mean_dist_km": 458.5649342983828
+      },
+      {
+        "decile": 2,
+        "mean_dates": 9.564877355136865,
+        "median_dates": 3.0,
+        "n_sites": 2813,
+        "mean_dist_km": 1282.8536745802774
+      },
+      {
+        "decile": 3,
+        "mean_dates": 7.433143669985776,
+        "median_dates": 3.0,
+        "n_sites": 2812,
+        "mean_dist_km": 1829.6723400715543
+      },
+      {
+        "decile": 4,
+        "mean_dates": 8.330963384287237,
+        "median_dates": 4.0,
+        "n_sites": 2813,
+        "mean_dist_km": 2123.3733497676235
+      },
+      {
+        "decile": 5,
+        "mean_dates": 10.376821898329187,
+        "median_dates": 4.0,
+        "n_sites": 2813,
+        "mean_dist_km": 2445.1425507745407
+      },
+      {
+        "decile": 6,
+        "mean_dates": 8.187766714082503,
+        "median_dates": 3.0,
+        "n_sites": 2812,
+        "mean_dist_km": 2823.8538969276024
+      },
+      {
+        "decile": 7,
+        "mean_dates": 7.282260931389975,
+        "median_dates": 3.0,
+        "n_sites": 2813,
+        "mean_dist_km": 3065.0064914842965
+      },
+      {
+        "decile": 8,
+        "mean_dates": 8.4900426742532,
+        "median_dates": 4.0,
+        "n_sites": 2812,
+        "mean_dist_km": 3277.635657489799
+      },
+      {
+        "decile": 9,
+        "mean_dates": 7.290081763242091,
+        "median_dates": 3.0,
+        "n_sites": 2813,
+        "mean_dist_km": 3531.190322351299
+      },
+      {
+        "decile": 10,
+        "mean_dates": 19.82758620689655,
+        "median_dates": 6.0,
+        "n_sites": 2813,
+        "mean_dist_km": 5706.687905605585
+      }
+    ],
+    "pleiades_spearman": {
+      "rho": -0.1879,
+      "p": 0.603218
+    },
+    "pleiades_table": [
+      {
+        "decile": 1,
+        "mean_dates": 0.22773426167682043,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 221.39345053138885
+      },
+      {
+        "decile": 2,
+        "mean_dates": 0.5593269509718596,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 599.3978307781864
+      },
+      {
+        "decile": 3,
+        "mean_dates": 0.4128227444154337,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 872.6519019704397
+      },
+      {
+        "decile": 4,
+        "mean_dates": 0.37800986364955036,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 1016.2426029689672
+      },
+      {
+        "decile": 5,
+        "mean_dates": 0.3681462140992167,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 1137.8843347704558
+      },
+      {
+        "decile": 6,
+        "mean_dates": 0.4751958224543081,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 1352.8621479972214
+      },
+      {
+        "decile": 7,
+        "mean_dates": 0.8035973310124747,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 1586.9632773076514
+      },
+      {
+        "decile": 8,
+        "mean_dates": 0.33159268929503916,
+        "median_dates": 0.0,
+        "n_sites": 3447,
+        "mean_dist_km": 1797.0871887794824
+      },
+      {
+        "decile": 9,
+        "mean_dates": 0.2332369942196532,
+        "median_dates": 0.0,
+        "n_sites": 3460,
+        "mean_dist_km": 2117.2378761725827
+      },
+      {
+        "decile": 10,
+        "mean_dates": 0.2804309842748981,
+        "median_dates": 0.0,
+        "n_sites": 3434,
+        "mean_dist_km": 2848.587457579915
+      }
+    ]
+  },
+  "parameters": {
+    "pole_lat": 59.682122,
+    "pole_lon": -138.646087,
+    "threshold_km": 50,
+    "off_corridor_min_km": 200,
+    "mc_trials": 1000,
+    "random_seed": 42
+  }
+}

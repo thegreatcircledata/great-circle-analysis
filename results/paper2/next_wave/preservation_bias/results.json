@@ -1,0 +1,114 @@
+{
+  "study": "S7 \u2014 Preservation Bias: Multi-Region Settlement Simulation",
+  "date": "2026-03-22",
+  "parameters": {
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    },
+    "threshold_km": 50,
+    "mc_trials": 200,
+    "seed": 42
+  },
+  "baseline": {
+    "z_monument": 6.629,
+    "z_settlement": -3.347,
+    "divergence": 7.812,
+    "total_monuments": 4598,
+    "total_settlements": 18037
+  },
+  "region_known_corridor_settlements": {
+    "Egypt": 74,
+    "Mesopotamia": 3,
+    "Indus_Valley": 2,
+    "Peru_Coast": 0
+  },
+  "sensitivity_sweep": {
+    "0.0x": {
+      "multiplier": 0.0,
+      "z_monument": 6.629,
+      "z_settlement": -3.347,
+      "divergence": 6.997,
+      "total_synthetics_added": 0,
+      "per_region_added": {
+        "Egypt": 0,
+        "Mesopotamia": 0,
+        "Indus_Valley": 0,
+        "Peru_Coast": 0
+      }
+    },
+    "0.5x": {
+      "multiplier": 0.5,
+      "z_monument": -0.377,
+      "z_settlement": 0.189,
+      "divergence": -0.476,
+      "total_synthetics_added": 229,
+      "per_region_added": {
+        "Egypt": 29,
+        "Mesopotamia": 60,
+        "Indus_Valley": 100,
+        "Peru_Coast": 40
+      }
+    },
+    "1.0x": {
+      "multiplier": 1.0,
+      "z_monument": -4.27,
+      "z_settlement": 2.129,
+      "divergence": -4.299,
+      "total_synthetics_added": 458,
+      "per_region_added": {
+        "Egypt": 58,
+        "Mesopotamia": 120,
+        "Indus_Valley": 200,
+        "Peru_Coast": 80
+      }
+    },
+    "2.0x": {
+      "multiplier": 2.0,
+      "z_monument": -9.372,
+      "z_settlement": 4.616,
+      "divergence": -9.979,
+      "total_synthetics_added": 916,
+      "per_region_added": {
+        "Egypt": 116,
+        "Mesopotamia": 240,
+        "Indus_Valley": 400,
+        "Peru_Coast": 160
+      }
+    },
+    "3.0x": {
+      "multiplier": 3.0,
+      "z_monument": -13.023,
+      "z_settlement": 6.338,
+      "divergence": -15.232,
+      "total_synthetics_added": 1374,
+      "per_region_added": {
+        "Egypt": 174,
+        "Mesopotamia": 360,
+        "Indus_Valley": 600,
+        "Peru_Coast": 240
+      }
+    },
+    "5.0x": {
+      "multiplier": 5.0,
+      "z_monument": -18.514,
+      "z_settlement": 8.805,
+      "divergence": -20.961,
+      "total_synthetics_added": 2290,
+      "per_region_added": {
+        "Egypt": 290,
+        "Mesopotamia": 600,
+        "Indus_Valley": 1000,
+        "Peru_Coast": 400
+      }
+    }
+  },
+  "breakeven": {
+    "multiplier": 0.47,
+    "settlements_needed": 214,
+    "total_known_settlements": 18037,
+    "ratio_to_known": 0.012
+  },
+  "verdict": "FRAGILE",
+  "verdict_detail": "Divergence drops to -4.3 (<2) at central estimate"
+}

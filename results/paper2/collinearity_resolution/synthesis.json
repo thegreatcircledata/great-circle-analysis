@@ -1,0 +1,14 @@
+{
+  "verdicts": {
+    "test_1_constraint_propagation": "FORCED \u2014 Easter Island is the ONLY inhabited island within 100km of the Giza-Nazca great circle in the Pacific",
+    "test_2_continental_position": "Specific positions matter beyond continental geometry (p_narrow=0.000340, p_expanded=0.000510)",
+    "test_3_random_civilization": "Specific monument positions matter (p=0.000250)",
+    "test_4_island_scan": "Easter Island is UNIQUE \u2014 only 1 inhabited island(s) within 100km of the Giza-Nazca circle in the entire Pacific",
+    "test_5_geological": "Tectonic sources are ALIGNED with human sites \u2014 plate tectonics is the ultimate cause",
+    "test_6_atmospheric": "Circle TRACKS the desert belt (93th percentile for 30\u00b0 proximity)",
+    "test_7_equivalent_substitution": "The actual Giza-Nazca-Easter triplet is the BEST combination \u2014 specific sites matter"
+  },
+  "forced_indicators": 2,
+  "special_indicators": 3,
+  "overall_assessment": "UNRESOLVED: The specific positions of Giza, Nazca, and Easter Island produce unusually good collinearity even among geographic/cultural equivalents. The collinearity appears to be a genuine geometric coincidence."
+}

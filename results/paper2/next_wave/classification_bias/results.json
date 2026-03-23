@@ -1,0 +1,246 @@
+{
+  "study": "S2: Pleiades Classification Bias Test",
+  "verdict": "CLEAR",
+  "verdict_text": "Monument ratio is NOT significantly correlated with distance-to-GC at the regional level (Spearman p > 0.1), OR within-region divergence persists, indicating the pattern is not a classification artifact.",
+  "phase1": {
+    "description": "Spearman correlation of regional monument_ratio with mean distance-to-GC",
+    "spearman_rho": -0.2848,
+    "spearman_p": 0.425,
+    "n_regions": 10,
+    "region_stats": {
+      "Egypt/Nubia": {
+        "n_monument": 253,
+        "n_settlement": 616,
+        "n_both": 25,
+        "n_unclassified": 393,
+        "total": 1287,
+        "monument_ratio": 0.2911,
+        "mean_dist_gc_km": 286.428
+      },
+      "Levant": {
+        "n_monument": 195,
+        "n_settlement": 782,
+        "n_both": 23,
+        "n_unclassified": 445,
+        "total": 1445,
+        "monument_ratio": 0.1996,
+        "mean_dist_gc_km": 335.7812
+      },
+      "Anatolia": {
+        "n_monument": 481,
+        "n_settlement": 2437,
+        "n_both": 44,
+        "n_unclassified": 1772,
+        "total": 4734,
+        "monument_ratio": 0.1648,
+        "mean_dist_gc_km": 949.7384
+      },
+      "Greece/Balkans": {
+        "n_monument": 744,
+        "n_settlement": 2584,
+        "n_both": 114,
+        "n_unclassified": 2095,
+        "total": 5537,
+        "monument_ratio": 0.2236,
+        "mean_dist_gc_km": 1020.6614
+      },
+      "Italy": {
+        "n_monument": 1276,
+        "n_settlement": 3831,
+        "n_both": 134,
+        "n_unclassified": 1983,
+        "total": 7224,
+        "monument_ratio": 0.2499,
+        "mean_dist_gc_km": 1505.0624
+      },
+      "North Africa (non-E)": {
+        "n_monument": 490,
+        "n_settlement": 3093,
+        "n_both": 37,
+        "n_unclassified": 960,
+        "total": 4580,
+        "monument_ratio": 0.1368,
+        "mean_dist_gc_km": 945.5834
+      },
+      "Iberia": {
+        "n_monument": 225,
+        "n_settlement": 1770,
+        "n_both": 26,
+        "n_unclassified": 544,
+        "total": 2565,
+        "monument_ratio": 0.1128,
+        "mean_dist_gc_km": 1818.2348
+      },
+      "Mesopotamia": {
+        "n_monument": 171,
+        "n_settlement": 526,
+        "n_both": 10,
+        "n_unclassified": 630,
+        "total": 1337,
+        "monument_ratio": 0.2453,
+        "mean_dist_gc_km": 479.3288
+      },
+      "Iran/Central Asia": {
+        "n_monument": 90,
+        "n_settlement": 582,
+        "n_both": 6,
+        "n_unclassified": 360,
+        "total": 1038,
+        "monument_ratio": 0.1339,
+        "mean_dist_gc_km": 654.3767
+      },
+      "South Asia": {
+        "n_monument": 32,
+        "n_settlement": 303,
+        "n_both": 2,
+        "n_unclassified": 261,
+        "total": 598,
+        "monument_ratio": 0.0955,
+        "mean_dist_gc_km": 812.6992
+      }
+    }
+  },
+  "phase2": {
+    "description": "Within-region on-corridor vs off-corridor monument ratio (Fisher exact test)",
+    "on_corridor_threshold_km": 50,
+    "off_corridor_threshold_km": 200,
+    "testable_regions": 3,
+    "significant_regions": 1,
+    "significant_region_names": [
+      "Iran/Central Asia"
+    ],
+    "per_region": {
+      "Egypt/Nubia": {
+        "on_mon": 58,
+        "on_set": 78,
+        "on_total": 136,
+        "on_ratio": 0.4265,
+        "off_mon": 170,
+        "off_set": 327,
+        "off_total": 497,
+        "off_ratio": 0.3421,
+        "fisher_odds": 1.4303,
+        "fisher_p": 0.0707
+      },
+      "Levant": {
+        "on_mon": 12,
+        "on_set": 39,
+        "on_total": 51,
+        "on_ratio": 0.2353,
+        "off_mon": 154,
+        "off_set": 578,
+        "off_total": 732,
+        "off_ratio": 0.2104,
+        "fisher_odds": 1.1548,
+        "fisher_p": 0.7229
+      },
+      "Anatolia": {
+        "on_mon": 0,
+        "on_set": 0,
+        "on_total": 0,
+        "on_ratio": null,
+        "off_mon": 525,
+        "off_set": 2481,
+        "off_total": 3006,
+        "off_ratio": 0.1747,
+        "fisher_odds": null,
+        "fisher_p": null
+      },
+      "Greece/Balkans": {
+        "on_mon": 0,
+        "on_set": 0,
+        "on_total": 0,
+        "on_ratio": null,
+        "off_mon": 858,
+        "off_set": 2698,
+        "off_total": 3556,
+        "off_ratio": 0.2413,
+        "fisher_odds": null,
+        "fisher_p": null
+      },
+      "Italy": {
+        "on_mon": 0,
+        "on_set": 0,
+        "on_total": 0,
+        "on_ratio": null,
+        "off_mon": 1410,
+        "off_set": 3965,
+        "off_total": 5375,
+        "off_ratio": 0.2623,
+        "fisher_odds": null,
+        "fisher_p": null
+      },
+      "North Africa (non-E)": {
+        "on_mon": 0,
+        "on_set": 4,
+        "on_total": 4,
+        "on_ratio": 0.0,
+        "off_mon": 527,
+        "off_set": 3093,
+        "off_total": 3620,
+        "off_ratio": 0.1456,
+        "fisher_odds": 0.0,
+        "fisher_p": 1.0
+      },
+      "Iberia": {
+        "on_mon": 0,
+        "on_set": 0,
+        "on_total": 0,
+        "on_ratio": null,
+        "off_mon": 251,
+        "off_set": 1796,
+        "off_total": 2047,
+        "off_ratio": 0.1226,
+        "fisher_odds": null,
+        "fisher_p": null
+      },
+      "Mesopotamia": {
+        "on_mon": 0,
+        "on_set": 3,
+        "on_total": 3,
+        "on_ratio": 0.0,
+        "off_mon": 164,
+        "off_set": 466,
+        "off_total": 630,
+        "off_ratio": 0.2603,
+        "fisher_odds": 0.0,
+        "fisher_p": 0.5722
+      },
+      "Iran/Central Asia": {
+        "on_mon": 25,
+        "on_set": 34,
+        "on_total": 59,
+        "on_ratio": 0.4237,
+        "off_mon": 41,
+        "off_set": 506,
+        "off_total": 547,
+        "off_ratio": 0.075,
+        "fisher_odds": 9.0746,
+        "fisher_p": 0.0
+      },
+      "South Asia": {
+        "on_mon": 0,
+        "on_set": 4,
+        "on_total": 4,
+        "on_ratio": 0.0,
+        "off_mon": 27,
+        "off_set": 276,
+        "off_total": 303,
+        "off_ratio": 0.0891,
+        "fisher_odds": 0.0,
+        "fisher_p": 1.0
+      }
+    }
+  },
+  "phase3": {
+    "description": "Fraction of sites unclassified: on-corridor vs off-corridor",
+    "on_unclassified": 101,
+    "on_total": 302,
+    "on_fraction": 0.3344,
+    "off_unclassified": 11308,
+    "off_total": 32954,
+    "off_fraction": 0.3431,
+    "fisher_odds": 0.9619,
+    "fisher_p": 0.8076
+  }
+}

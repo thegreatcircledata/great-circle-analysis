@@ -1,0 +1,3984 @@
+{
+  "n_combinations": 640,
+  "actual_triplet": {
+    "giza_equiv": "Giza",
+    "nazca_equiv": "Nazca",
+    "easter_equiv": "Easter Island",
+    "fit_km": 0.95
+  },
+  "actual_rank": 1,
+  "better_combinations": 0,
+  "top_20": [
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 0.95
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 1.21
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 1.79
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 5.08
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 5.39
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 5.78
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.17
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.74
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.92
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 8.62
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 9.08
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 9.71
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 12.14
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 12.69
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 13.45
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 13.74
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 14.07
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 14.53
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 14.73
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 14.88
+    }
+  ],
+  "threshold_counts": {
+    "within_1km": 1,
+    "within_5km": 3,
+    "within_10km": 12,
+    "within_50km": 55,
+    "within_100km": 83,
+    "within_500km": 395
+  },
+  "all_results": [
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 0.95
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 1.21
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 1.79
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 5.08
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 5.39
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 5.78
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.17
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.74
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 6.92
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 8.62
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 9.08
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 9.71
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 12.14
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 12.69
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 13.45
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 13.74
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 14.07
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 14.53
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 14.73
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 14.88
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 15.98
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 16.22
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 16.4
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 18.95
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 19.81
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 19.96
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 20.35
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 20.96
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 21.51
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 21.8
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 22.35
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 22.39
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 23.22
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 24.55
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 24.94
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 25.24
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 25.77
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 26.7
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 27.27
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 29.69
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 31.33
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 31.41
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 34.68
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 35.45
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 36.2
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 36.42
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 37.14
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 37.39
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 37.62
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 38.78
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 38.92
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 40.78
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 42.68
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 43.22
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 43.78
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 50.19
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 50.25
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 52.14
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 59.49
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 61.22
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 64.07
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 68.05
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 71.03
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 72.21
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 74.04
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 74.18
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 75.39
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 75.85
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 79.62
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 81.38
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 82.39
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 84.32
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 86.08
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 86.96
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 88.84
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 91.21
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 92.93
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 92.93
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 93.21
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 93.29
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 96.78
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 97.32
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 98.09
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 101.5
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 104.76
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 105.89
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 105.91
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 106.71
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 109.22
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 110.7
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 115.63
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 117.02
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 117.1
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 117.28
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 117.35
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 122.19
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 123.55
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 123.77
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 125.65
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 126.44
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 126.63
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 129.62
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 129.8
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 130.1
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 130.42
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 131.98
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 135.8
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 138.21
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 139.02
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 140.02
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 146.3
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 150.39
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 154.34
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 155.06
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 158.05
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 158.49
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 158.56
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 158.71
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 159.92
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 160.64
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 161.9
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 162.24
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 162.48
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 163.47
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 164.18
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 164.63
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 165.39
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 165.68
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 166.24
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 166.54
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 167.72
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 169.11
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 169.11
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 169.36
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 170.22
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 171.71
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 172.3
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 172.44
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 174.52
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 176.05
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 177.62
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 181.46
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 182.85
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 185.26
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 186.42
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 189.14
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 189.35
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 192.99
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 193.08
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 193.31
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 197.71
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 201.19
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 201.43
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 201.49
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 201.98
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 203.01
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 203.28
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 204.17
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 205.52
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 206.14
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 206.33
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 206.83
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 206.94
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 207.1
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 210.37
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 210.73
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 211.06
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 211.41
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 211.49
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 212.24
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 213.73
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 214.56
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 214.9
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 215.29
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 215.57
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 215.95
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 219.57
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 219.69
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 222.87
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 224.76
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 226.44
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 228.86
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 229.91
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 231.16
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 232.0
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 234.85
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 235.87
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 236.36
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 236.39
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 239.01
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 240.27
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 241.12
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 241.65
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 242.69
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 242.94
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 243.32
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 243.52
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 244.11
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 244.43
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 244.52
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 245.75
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 247.17
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 247.45
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 248.55
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 250.36
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 250.53
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 250.97
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 252.3
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 252.96
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 255.08
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 256.29
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 256.73
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 257.29
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 257.87
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 261.3
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 262.94
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 263.39
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 264.1
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 264.66
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 264.75
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 265.83
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 266.66
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 267.8
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 270.71
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 271.6
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 271.69
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 271.95
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 272.54
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 273.03
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 274.28
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 274.53
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 276.86
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 280.26
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 287.19
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 290.55
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 291.02
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 299.86
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 302.88
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 303.66
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 304.25
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 304.95
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 307.7
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 308.91
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 309.33
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 310.0
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 311.19
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 311.82
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 312.93
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 313.84
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 314.42
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 315.07
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 315.15
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 315.82
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 316.65
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 318.0
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 319.02
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 323.0
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 324.72
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 325.32
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 331.72
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 334.66
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 334.67
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 336.33
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 337.7
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 338.26
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 339.27
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 339.69
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 340.06
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 342.17
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 343.2
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 343.28
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 344.19
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 344.53
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 345.17
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 345.48
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 346.4
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 347.36
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 347.39
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 348.07
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 348.44
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 349.11
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 349.42
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 349.97
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 350.17
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 350.53
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 350.82
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 351.41
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 351.76
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 352.15
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 352.27
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 352.7
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 352.94
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 353.7
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 354.21
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 354.25
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 355.64
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 356.66
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 357.01
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 357.19
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 357.53
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 358.29
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 358.53
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 360.38
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 361.44
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 362.91
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 363.11
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 364.17
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 364.96
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 365.11
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 369.56
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 371.74
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 371.8
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 377.21
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 382.23
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 385.49
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 386.22
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 389.11
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 391.01
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 393.59
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 394.08
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 397.75
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 397.77
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 399.03
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 400.44
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 402.23
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 403.7
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 404.29
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 404.57
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 405.58
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 405.99
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 406.99
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 408.19
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 408.46
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 413.83
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 414.03
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 414.36
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 414.75
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 414.88
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 415.44
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 416.48
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 416.64
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 419.58
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 421.49
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 424.92
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 425.07
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 428.5
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 429.27
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 430.65
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 431.87
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 433.8
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 434.27
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 434.49
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 435.07
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 435.34
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 437.35
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 437.38
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 439.77
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 442.85
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 443.04
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 445.88
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 446.4
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 446.87
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 446.93
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 447.02
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 447.09
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 448.6
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 452.99
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 456.06
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 457.36
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 457.71
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 457.88
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 458.34
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 458.52
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 461.02
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 461.22
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 462.98
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 463.01
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 464.75
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 465.51
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 465.54
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 465.74
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 467.63
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 470.13
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 470.17
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 470.38
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 474.73
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 474.9
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 477.31
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 477.5
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Easter Island",
+      "fit_km": 478.64
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 484.04
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 485.69
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 490.79
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 490.92
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Easter Island",
+      "fit_km": 499.87
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 504.11
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 505.36
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tongatapu",
+      "fit_km": 506.59
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 508.57
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 511.42
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 512.35
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 513.38
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 514.53
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Easter Island",
+      "fit_km": 515.49
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 516.04
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 516.33
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 516.62
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 517.02
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 517.03
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 520.02
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 520.83
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 521.14
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 521.73
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 522.66
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 523.8
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 524.32
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 525.71
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 526.22
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 526.46
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 527.46
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 528.48
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Easter Island",
+      "fit_km": 528.99
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 529.38
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 532.23
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 533.09
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Easter Island",
+      "fit_km": 535.32
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 551.29
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 553.38
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 554.27
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 557.1
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 558.79
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Fiji (Viti Levu)",
+      "fit_km": 568.79
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 572.29
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 579.41
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 590.11
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Mangareva",
+      "fit_km": 595.82
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 599.0
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 601.5
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 602.77
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 602.87
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 604.73
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 608.35
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Pitcairn",
+      "fit_km": 610.87
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 612.14
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Mangareva",
+      "fit_km": 615.78
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 620.55
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 624.33
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Mangareva",
+      "fit_km": 625.07
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 625.78
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 629.86
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 629.91
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 630.99
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 631.31
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 631.36
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Rarotonga",
+      "fit_km": 634.1
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 634.51
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 635.43
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 636.69
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 642.16
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 645.61
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 646.12
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 646.3
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 647.86
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 649.81
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 650.33
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 650.51
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 652.08
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 656.45
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Mangareva",
+      "fit_km": 656.87
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 656.95
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 657.14
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 658.68
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 658.94
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 658.94
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Mangareva",
+      "fit_km": 658.96
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 660.01
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Mangareva",
+      "fit_km": 660.41
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Mangareva",
+      "fit_km": 660.69
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 661.7
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 663.27
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 663.83
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 665.76
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 666.05
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 666.05
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 666.25
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 667.04
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 669.31
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 669.73
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 670.34
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 670.44
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 671.7
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 672.47
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 676.76
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 677.58
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 678.66
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Mangareva",
+      "fit_km": 686.27
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 753.18
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 768.85
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 773.78
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Tahiti",
+      "fit_km": 779.72
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 793.54
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Easter Island",
+      "fit_km": 809.46
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 812.82
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Tahiti",
+      "fit_km": 813.74
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Tahiti",
+      "fit_km": 814.46
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Tahiti",
+      "fit_km": 815.45
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Tahiti",
+      "fit_km": 818.83
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 823.54
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 830.27
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Samoa (Upolu)",
+      "fit_km": 840.46
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 844.2
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 845.94
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 848.04
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 848.76
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Tahiti",
+      "fit_km": 849.19
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Tahiti",
+      "fit_km": 857.33
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 857.58
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Easter Island",
+      "fit_km": 867.67
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Tahiti",
+      "fit_km": 871.81
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 991.52
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 998.32
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1002.14
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Easter Island",
+      "fit_km": 1003.65
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1008.97
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1009.65
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1010.31
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1010.55
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1012.4
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1025.23
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1033.05
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1037.51
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1045.84
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1046.71
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1047.55
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1047.88
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1050.87
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1191.27
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1202.72
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1203.37
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1204.71
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1206.05
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1213.15
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1214.73
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1215.83
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1232.79
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1237.16
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1239.26
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1242.56
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1243.57
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1244.07
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1246.81
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1247.49
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1247.71
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1248.05
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1248.28
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1248.36
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1250.53
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1251.39
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1251.81
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1252.13
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1252.34
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1252.41
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1253.8
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1258.47
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1258.87
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1259.19
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1259.4
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1259.47
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1357.92
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1377.03
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1378.15
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1380.14
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1382.58
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1397.14
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1401.3
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Marquesas (Nuku Hiva)",
+      "fit_km": 1406.33
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 2950.23
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 2995.65
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3042.83
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3075.22
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3079.27
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3081.65
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3091.3
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3098.19
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3104.75
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3130.06
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3133.43
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3142.44
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3148.37
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3151.75
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3166.35
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3180.58
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3182.89
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3192.43
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3196.58
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3197.9
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3199.97
+    },
+    {
+      "giza_equiv": "Abu Simbel",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3202.34
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3202.64
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3206.26
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3213.86
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3215.81
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3228.3
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3239.82
+    },
+    {
+      "giza_equiv": "Petra",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3241.53
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3244.64
+    },
+    {
+      "giza_equiv": "Luxor/Karnak",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3247.96
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3250.32
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3254.61
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3257.23
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3262.43
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3264.02
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chan Chan",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3264.43
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3269.95
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3284.72
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3287.88
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3290.35
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3290.96
+    },
+    {
+      "giza_equiv": "Abydos",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3294.19
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3296.08
+    },
+    {
+      "giza_equiv": "Baalbek",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3296.66
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Chavin de Huantar",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3297.44
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3343.45
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3345.64
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3346.28
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3348.45
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Machu Picchu",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3352.48
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Cusco/Sacsayhuaman",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3355.28
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3356.02
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3358.11
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Caral",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3364.82
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3385.7
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3387.6
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Tiwanaku",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3394.16
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3413.88
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3415.49
+    },
+    {
+      "giza_equiv": "Dahshur",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3416.07
+    },
+    {
+      "giza_equiv": "Saqqara",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3417.67
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Palpa geoglyphs",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3421.72
+    },
+    {
+      "giza_equiv": "Giza",
+      "nazca_equiv": "Nazca",
+      "easter_equiv": "Galapagos",
+      "fit_km": 3423.87
+    }
+  ],
+  "verdict": "The actual Giza-Nazca-Easter triplet is the BEST combination \u2014 specific sites matter"
+}

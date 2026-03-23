@@ -1,0 +1,72 @@
+[
+  {
+    "feature": "cross_type_dist_km",
+    "rf_importance": 0.5456070196586841,
+    "xgb_importance": 0.4225320518016815,
+    "lr_coefficient": -5.331256359435452,
+    "shap_mean_abs": 2.3442256450653076
+  },
+  {
+    "feature": "site_density",
+    "rf_importance": 0.07889778882741189,
+    "xgb_importance": 0.1104704812169075,
+    "lr_coefficient": 0.09345045011180832,
+    "shap_mean_abs": 0.504260778427124
+  },
+  {
+    "feature": "elevation_m",
+    "rf_importance": 0.051371832694519254,
+    "xgb_importance": 0.05848284438252449,
+    "lr_coefficient": 0.13999584372691146,
+    "shap_mean_abs": 0.271213561296463
+  },
+  {
+    "feature": "dist_to_coast_km",
+    "rf_importance": 0.04707723516537548,
+    "xgb_importance": 0.05481954291462898,
+    "lr_coefficient": -0.002651808068420012,
+    "shap_mean_abs": 0.22826053202152252
+  },
+  {
+    "feature": "abs_latitude",
+    "rf_importance": 0.043837600135895834,
+    "xgb_importance": 0.06525186449289322,
+    "lr_coefficient": -0.07744036478729961,
+    "shap_mean_abs": 0.1890847533941269
+  },
+  {
+    "feature": "dist_to_river_km",
+    "rf_importance": 0.055379990545016425,
+    "xgb_importance": 0.05601530894637108,
+    "lr_coefficient": -0.14633004562651988,
+    "shap_mean_abs": 0.16298502683639526
+  },
+  {
+    "feature": "longitude",
+    "rf_importance": 0.05299811388172508,
+    "xgb_importance": 0.06551463901996613,
+    "lr_coefficient": 0.42523109186015323,
+    "shap_mean_abs": 0.1532406210899353
+  },
+  {
+    "feature": "seismic_pga",
+    "rf_importance": 0.03472292298941529,
+    "xgb_importance": 0.05416324362158775,
+    "lr_coefficient": -0.1343191978154976,
+    "shap_mean_abs": 0.12013556063175201
+  },
+  {
+    "feature": "cloud_cover",
+    "rf_importance": 0.04318189773878304,
+    "xgb_importance": 0.053560640662908554,
+    "lr_coefficient": -0.31427594174987117,
+    "shap_mean_abs": 0.10930930823087692
+  },
+  {
+    "feature": "dist_to_gc_km",
+    "rf_importance": 0.046925598363173684,
+    "xgb_importance": 0.05918944254517555,
+    "lr_coefficient": 0.4930099185398668,
+    "shap_mean_abs": 0.0976100042462349
+  }
+]

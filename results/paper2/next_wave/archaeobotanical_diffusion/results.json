@@ -1,0 +1,629 @@
+{
+  "study": "S8: Archaeobotanical Diffusion Rate Test",
+  "overall_verdict": "COUNTER-EVIDENCE",
+  "overall_explanation": "At least one dataset shows perpendicular spread to GC.",
+  "old_world": {
+    "verdict": "NULL",
+    "explanation": "Old World mean offset=41.9\u00b0, V-test p=0.0000, percentile=24.6%. No significant alignment with GC corridor.",
+    "pairs": [
+      {
+        "from": "Ohalo II",
+        "to": "Tell Abu Hureyra",
+        "from_lat": 32.72,
+        "from_lon": 35.57,
+        "to_lat": 35.87,
+        "to_lon": 38.4,
+        "date_from_bp": 21000,
+        "date_to_bp": 11000,
+        "spread_bearing": 35.79,
+        "gc_bearing": 87.08,
+        "angular_offset_deg": 51.29,
+        "distance_km": 436.15,
+        "time_years": 10000
+      },
+      {
+        "from": "Tell Abu Hureyra",
+        "to": "Jericho",
+        "from_lat": 35.87,
+        "from_lon": 38.4,
+        "to_lat": 31.87,
+        "to_lon": 35.44,
+        "date_from_bp": 11000,
+        "date_to_bp": 9000,
+        "spread_bearing": 212.4,
+        "gc_bearing": 88.5,
+        "angular_offset_deg": 56.1,
+        "distance_km": 521.95,
+        "time_years": 2000
+      },
+      {
+        "from": "Jericho",
+        "to": "\u00c7ay\u00f6n\u00fc",
+        "from_lat": 31.87,
+        "from_lon": 35.44,
+        "to_lat": 38.22,
+        "to_lon": 39.72,
+        "date_from_bp": 9000,
+        "date_to_bp": 8500,
+        "spread_bearing": 27.68,
+        "gc_bearing": 87.02,
+        "angular_offset_deg": 59.33,
+        "distance_km": 806.2,
+        "time_years": 500
+      },
+      {
+        "from": "\u00c7ay\u00f6n\u00fc",
+        "to": "Ali Kosh",
+        "from_lat": 38.22,
+        "from_lon": 39.72,
+        "to_lat": 32.4,
+        "to_lon": 47.55,
+        "date_from_bp": 8500,
+        "date_to_bp": 7500,
+        "spread_bearing": 130.0,
+        "gc_bearing": 89.17,
+        "angular_offset_deg": 40.84,
+        "distance_km": 960.34,
+        "time_years": 1000
+      },
+      {
+        "from": "Ali Kosh",
+        "to": "\u00c7atalh\u00f6y\u00fck",
+        "from_lat": 32.4,
+        "from_lon": 47.55,
+        "to_lat": 37.67,
+        "to_lon": 32.83,
+        "date_from_bp": 7500,
+        "date_to_bp": 7400,
+        "spread_bearing": 297.74,
+        "gc_bearing": 93.13,
+        "angular_offset_deg": 24.61,
+        "distance_km": 1460.53,
+        "time_years": 100
+      },
+      {
+        "from": "\u00c7atalh\u00f6y\u00fck",
+        "to": "Jarmo",
+        "from_lat": 37.67,
+        "from_lon": 32.83,
+        "to_lat": 35.55,
+        "to_lon": 44.95,
+        "date_from_bp": 7400,
+        "date_to_bp": 7000,
+        "spread_bearing": 98.62,
+        "gc_bearing": 85.67,
+        "angular_offset_deg": 12.95,
+        "distance_km": 1106.33,
+        "time_years": 400
+      },
+      {
+        "from": "Jarmo",
+        "to": "Knossos",
+        "from_lat": 35.55,
+        "from_lon": 44.95,
+        "to_lat": 35.3,
+        "to_lon": 25.16,
+        "date_from_bp": 7000,
+        "date_to_bp": 7000,
+        "spread_bearing": 274.89,
+        "gc_bearing": 91.82,
+        "angular_offset_deg": 3.07,
+        "distance_km": 1790.37,
+        "time_years": 0
+      },
+      {
+        "from": "Knossos",
+        "to": "Franchthi Cave",
+        "from_lat": 35.3,
+        "from_lon": 25.16,
+        "to_lat": 37.42,
+        "to_lon": 23.13,
+        "date_from_bp": 7000,
+        "date_to_bp": 7000,
+        "spread_bearing": 322.96,
+        "gc_bearing": 81.86,
+        "angular_offset_deg": 61.1,
+        "distance_km": 297.66,
+        "time_years": 0
+      },
+      {
+        "from": "Franchthi Cave",
+        "to": "Mehrgarh",
+        "from_lat": 37.42,
+        "from_lon": 23.13,
+        "to_lat": 29.37,
+        "to_lon": 67.62,
+        "date_from_bp": 7000,
+        "date_to_bp": 7000,
+        "spread_bearing": 88.9,
+        "gc_bearing": 80.82,
+        "angular_offset_deg": 8.08,
+        "distance_km": 4186.41,
+        "time_years": 0
+      },
+      {
+        "from": "Mehrgarh",
+        "to": "Nabta Playa",
+        "from_lat": 29.37,
+        "from_lon": 67.62,
+        "to_lat": 22.51,
+        "to_lon": 30.72,
+        "date_from_bp": 7000,
+        "date_to_bp": 7000,
+        "spread_bearing": 267.04,
+        "gc_bearing": 102.91,
+        "angular_offset_deg": 15.87,
+        "distance_km": 3751.66,
+        "time_years": 0
+      },
+      {
+        "from": "Nabta Playa",
+        "to": "Karanovo",
+        "from_lat": 22.51,
+        "from_lon": 30.72,
+        "to_lat": 42.52,
+        "to_lon": 25.55,
+        "date_from_bp": 7000,
+        "date_to_bp": 6200,
+        "spread_bearing": 349.05,
+        "gc_bearing": 84.61,
+        "angular_offset_deg": 84.44,
+        "distance_km": 2276.02,
+        "time_years": 800
+      },
+      {
+        "from": "Karanovo",
+        "to": "Lepenski Vir",
+        "from_lat": 42.52,
+        "from_lon": 25.55,
+        "to_lat": 44.56,
+        "to_lon": 22.02,
+        "date_from_bp": 6200,
+        "date_to_bp": 6000,
+        "spread_bearing": 309.77,
+        "gc_bearing": 81.89,
+        "angular_offset_deg": 47.88,
+        "distance_km": 363.83,
+        "time_years": 200
+      },
+      {
+        "from": "Lepenski Vir",
+        "to": "Linearbandkeramik (avg)",
+        "from_lat": 44.56,
+        "from_lon": 22.02,
+        "to_lat": 50.0,
+        "to_lon": 10.0,
+        "date_from_bp": 6000,
+        "date_to_bp": 5500,
+        "spread_bearing": 308.03,
+        "gc_bearing": 80.02,
+        "angular_offset_deg": 48.01,
+        "distance_km": 1087.97,
+        "time_years": 500
+      },
+      {
+        "from": "Linearbandkeramik (avg)",
+        "to": "Fayum A",
+        "from_lat": 50.0,
+        "from_lon": 10.0,
+        "to_lat": 29.48,
+        "to_lon": 30.63,
+        "date_from_bp": 5500,
+        "date_to_bp": 5200,
+        "spread_bearing": 135.1,
+        "gc_bearing": 73.47,
+        "angular_offset_deg": 61.63,
+        "distance_km": 2863.71,
+        "time_years": 300
+      },
+      {
+        "from": "Fayum A",
+        "to": "Merimde",
+        "from_lat": 29.48,
+        "from_lon": 30.63,
+        "to_lat": 30.37,
+        "to_lon": 30.85,
+        "date_from_bp": 5200,
+        "date_to_bp": 4800,
+        "spread_bearing": 12.04,
+        "gc_bearing": 84.61,
+        "angular_offset_deg": 72.57,
+        "distance_km": 101.21,
+        "time_years": 400
+      },
+      {
+        "from": "Merimde",
+        "to": "Sarazm",
+        "from_lat": 30.37,
+        "from_lon": 30.85,
+        "to_lat": 39.5,
+        "to_lon": 67.45,
+        "date_from_bp": 4800,
+        "date_to_bp": 3500,
+        "spread_bearing": 62.88,
+        "gc_bearing": 84.72,
+        "angular_offset_deg": 21.84,
+        "distance_km": 3460.74,
+        "time_years": 1300
+      }
+    ],
+    "circular_stats": {
+      "mean_angular_offset_deg": 41.85,
+      "median_angular_offset_deg": 47.95,
+      "std_angular_offset_deg": 24.56,
+      "v_test_vs_0": {
+        "V_statistic": 10.9068,
+        "p_value": 3e-06,
+        "mean_angle_deg": 41.92,
+        "R_bar": 0.9162,
+        "n": 16
+      },
+      "v_test_vs_90": {
+        "V_statistic": 9.7943,
+        "p_value": 1e-05,
+        "mean_angle_deg": 41.92,
+        "R_bar": 0.9162,
+        "n": 16
+      },
+      "rayleigh_test": {
+        "Z_statistic": 13.4304,
+        "R_bar": 0.9162,
+        "p_value": 1e-06,
+        "n": 16
+      }
+    },
+    "speed_analysis": {
+      "mean_speed_along_km_yr": 2.3108,
+      "mean_speed_perp_km_yr": 2.0331,
+      "median_speed_along_km_yr": 1.0213,
+      "median_speed_perp_km_yr": 1.1698,
+      "wilcoxon_stat": 32.0,
+      "wilcoxon_p": 0.715332,
+      "n_pairs": 12
+    },
+    "speed_pairs": [
+      {
+        "from": "Ohalo II",
+        "to": "Tell Abu Hureyra",
+        "along_gc_km": 272.76,
+        "perp_gc_km": 340.34,
+        "speed_along_km_yr": 0.0273,
+        "speed_perp_km_yr": 0.034,
+        "time_years": 10000
+      },
+      {
+        "from": "Tell Abu Hureyra",
+        "to": "Jericho",
+        "along_gc_km": 291.12,
+        "perp_gc_km": 433.22,
+        "speed_along_km_yr": 0.1456,
+        "speed_perp_km_yr": 0.2166,
+        "time_years": 2000
+      },
+      {
+        "from": "Jericho",
+        "to": "\u00c7ay\u00f6n\u00fc",
+        "along_gc_km": 411.24,
+        "perp_gc_km": 693.43,
+        "speed_along_km_yr": 0.8225,
+        "speed_perp_km_yr": 1.3869,
+        "time_years": 500
+      },
+      {
+        "from": "\u00c7ay\u00f6n\u00fc",
+        "to": "Ali Kosh",
+        "along_gc_km": 726.53,
+        "perp_gc_km": 628.01,
+        "speed_along_km_yr": 0.7265,
+        "speed_perp_km_yr": 0.628,
+        "time_years": 1000
+      },
+      {
+        "from": "Ali Kosh",
+        "to": "\u00c7atalh\u00f6y\u00fck",
+        "along_gc_km": 1327.86,
+        "perp_gc_km": 608.22,
+        "speed_along_km_yr": 13.2786,
+        "speed_perp_km_yr": 6.0822,
+        "time_years": 100
+      },
+      {
+        "from": "\u00c7atalh\u00f6y\u00fck",
+        "to": "Jarmo",
+        "along_gc_km": 1078.19,
+        "perp_gc_km": 247.93,
+        "speed_along_km_yr": 2.6955,
+        "speed_perp_km_yr": 0.6198,
+        "time_years": 400
+      },
+      {
+        "from": "Nabta Playa",
+        "to": "Karanovo",
+        "along_gc_km": 220.52,
+        "perp_gc_km": 2265.31,
+        "speed_along_km_yr": 0.2756,
+        "speed_perp_km_yr": 2.8316,
+        "time_years": 800
+      },
+      {
+        "from": "Karanovo",
+        "to": "Lepenski Vir",
+        "along_gc_km": 244.02,
+        "perp_gc_km": 269.87,
+        "speed_along_km_yr": 1.2201,
+        "speed_perp_km_yr": 1.3493,
+        "time_years": 200
+      },
+      {
+        "from": "Lepenski Vir",
+        "to": "Linearbandkeramik (avg)",
+        "along_gc_km": 727.85,
+        "perp_gc_km": 808.65,
+        "speed_along_km_yr": 1.4557,
+        "speed_perp_km_yr": 1.6173,
+        "time_years": 500
+      },
+      {
+        "from": "Linearbandkeramik (avg)",
+        "to": "Fayum A",
+        "along_gc_km": 1360.73,
+        "perp_gc_km": 2519.77,
+        "speed_along_km_yr": 4.5358,
+        "speed_perp_km_yr": 8.3992,
+        "time_years": 300
+      },
+      {
+        "from": "Fayum A",
+        "to": "Merimde",
+        "along_gc_km": 30.32,
+        "perp_gc_km": 96.56,
+        "speed_along_km_yr": 0.0758,
+        "speed_perp_km_yr": 0.2414,
+        "time_years": 400
+      },
+      {
+        "from": "Merimde",
+        "to": "Sarazm",
+        "along_gc_km": 3212.35,
+        "perp_gc_km": 1287.45,
+        "speed_along_km_yr": 2.471,
+        "speed_perp_km_yr": 0.9903,
+        "time_years": 1300
+      }
+    ],
+    "null_model": {
+      "real_mean_offset_deg": 41.85,
+      "random_mean_offsets_mean": 45.04,
+      "random_mean_offsets_std": 4.09,
+      "random_mean_offsets_5th": 38.24,
+      "random_mean_offsets_95th": 51.02,
+      "percentile_rank": 24.6,
+      "n_trials": 1000
+    }
+  },
+  "new_world": {
+    "verdict": "COUNTER-EVIDENCE",
+    "explanation": "New World mean offset=60.5\u00b0 (>60\u00b0). Maize diffusion is predominantly perpendicular to GC, counter to corridor hypothesis.",
+    "pairs": [
+      {
+        "from": "Tehuacan Valley",
+        "to": "Guil\u00e1 Naquitz",
+        "from_lat": 18.45,
+        "from_lon": -97.39,
+        "to_lat": 16.95,
+        "to_lon": -96.42,
+        "date_from_bp": 7000,
+        "date_to_bp": 6250,
+        "spread_bearing": 148.22,
+        "gc_bearing": 64.53,
+        "angular_offset_deg": 83.69,
+        "distance_km": 195.9,
+        "time_years": 750
+      },
+      {
+        "from": "Guil\u00e1 Naquitz",
+        "to": "Oaxaca",
+        "from_lat": 16.95,
+        "from_lon": -96.42,
+        "to_lat": 17.06,
+        "to_lon": -96.72,
+        "date_from_bp": 6250,
+        "date_to_bp": 6000,
+        "spread_bearing": 291.02,
+        "gc_bearing": 64.67,
+        "angular_offset_deg": 46.35,
+        "distance_km": 34.16,
+        "time_years": 250
+      },
+      {
+        "from": "Oaxaca",
+        "to": "Panama (Aguadulce)",
+        "from_lat": 17.06,
+        "from_lon": -96.72,
+        "to_lat": 8.24,
+        "to_lon": -80.55,
+        "date_from_bp": 6000,
+        "date_to_bp": 5000,
+        "spread_bearing": 117.23,
+        "gc_bearing": 64.75,
+        "angular_offset_deg": 52.49,
+        "distance_km": 2007.91,
+        "time_years": 1000
+      },
+      {
+        "from": "Panama (Aguadulce)",
+        "to": "Coastal Ecuador",
+        "from_lat": 8.24,
+        "from_lon": -80.55,
+        "to_lat": -2.0,
+        "to_lon": -80.7,
+        "date_from_bp": 5000,
+        "date_to_bp": 4000,
+        "spread_bearing": 180.84,
+        "gc_bearing": 62.3,
+        "angular_offset_deg": 61.45,
+        "distance_km": 1138.76,
+        "time_years": 1000
+      },
+      {
+        "from": "Coastal Ecuador",
+        "to": "Coastal Peru",
+        "from_lat": -2.0,
+        "from_lon": -80.7,
+        "to_lat": -12.0,
+        "to_lon": -76.8,
+        "date_from_bp": 4000,
+        "date_to_bp": 3000,
+        "spread_bearing": 159.05,
+        "gc_bearing": 63.87,
+        "angular_offset_deg": 84.82,
+        "distance_km": 1192.14,
+        "time_years": 1000
+      },
+      {
+        "from": "Coastal Peru",
+        "to": "SW United States",
+        "from_lat": -12.0,
+        "from_lon": -76.8,
+        "to_lat": 33.5,
+        "to_lon": -108.5,
+        "date_from_bp": 3000,
+        "date_to_bp": 2100,
+        "spread_bearing": 327.48,
+        "gc_bearing": 63.53,
+        "angular_offset_deg": 83.95,
+        "distance_km": 6071.71,
+        "time_years": 900
+      },
+      {
+        "from": "SW United States",
+        "to": "Eastern Woodlands",
+        "from_lat": 33.5,
+        "from_lon": -108.5,
+        "to_lat": 37.0,
+        "to_lon": -86.0,
+        "date_from_bp": 2100,
+        "date_to_bp": 1800,
+        "spread_bearing": 72.8,
+        "gc_bearing": 62.11,
+        "angular_offset_deg": 10.7,
+        "distance_km": 2074.76,
+        "time_years": 300
+      }
+    ],
+    "circular_stats": {
+      "mean_angular_offset_deg": 60.49,
+      "median_angular_offset_deg": 61.45,
+      "std_angular_offset_deg": 27.16,
+      "v_test_vs_0": {
+        "V_statistic": 3.0653,
+        "p_value": 0.013287,
+        "mean_angle_deg": 61.15,
+        "R_bar": 0.9076,
+        "n": 7
+      },
+      "v_test_vs_90": {
+        "V_statistic": 5.5652,
+        "p_value": 0.000849,
+        "mean_angle_deg": 61.15,
+        "R_bar": 0.9076,
+        "n": 7
+      },
+      "rayleigh_test": {
+        "Z_statistic": 5.7667,
+        "R_bar": 0.9076,
+        "p_value": 0.00062,
+        "n": 7
+      }
+    },
+    "speed_analysis": {
+      "mean_speed_along_km_yr": 1.3577,
+      "mean_speed_perp_km_yr": 1.7331,
+      "median_speed_along_km_yr": 0.5442,
+      "median_speed_perp_km_yr": 1.1873,
+      "wilcoxon_stat": 6.0,
+      "wilcoxon_p": 0.921875,
+      "n_pairs": 7
+    },
+    "speed_pairs": [
+      {
+        "from": "Tehuacan Valley",
+        "to": "Guil\u00e1 Naquitz",
+        "along_gc_km": 21.53,
+        "perp_gc_km": 194.71,
+        "speed_along_km_yr": 0.0287,
+        "speed_perp_km_yr": 0.2596,
+        "time_years": 750
+      },
+      {
+        "from": "Guil\u00e1 Naquitz",
+        "to": "Oaxaca",
+        "along_gc_km": 23.58,
+        "perp_gc_km": 24.72,
+        "speed_along_km_yr": 0.0943,
+        "speed_perp_km_yr": 0.0989,
+        "time_years": 250
+      },
+      {
+        "from": "Oaxaca",
+        "to": "Panama (Aguadulce)",
+        "along_gc_km": 1222.62,
+        "perp_gc_km": 1592.77,
+        "speed_along_km_yr": 1.2226,
+        "speed_perp_km_yr": 1.5928,
+        "time_years": 1000
+      },
+      {
+        "from": "Panama (Aguadulce)",
+        "to": "Coastal Ecuador",
+        "along_gc_km": 544.24,
+        "perp_gc_km": 1000.29,
+        "speed_along_km_yr": 0.5442,
+        "speed_perp_km_yr": 1.0003,
+        "time_years": 1000
+      },
+      {
+        "from": "Coastal Ecuador",
+        "to": "Coastal Peru",
+        "along_gc_km": 107.63,
+        "perp_gc_km": 1187.27,
+        "speed_along_km_yr": 0.1076,
+        "speed_perp_km_yr": 1.1873,
+        "time_years": 1000
+      },
+      {
+        "from": "Coastal Peru",
+        "to": "SW United States",
+        "along_gc_km": 639.94,
+        "perp_gc_km": 6037.89,
+        "speed_along_km_yr": 0.711,
+        "speed_perp_km_yr": 6.7088,
+        "time_years": 900
+      },
+      {
+        "from": "SW United States",
+        "to": "Eastern Woodlands",
+        "along_gc_km": 2038.69,
+        "perp_gc_km": 385.21,
+        "speed_along_km_yr": 6.7956,
+        "speed_perp_km_yr": 1.284,
+        "time_years": 300
+      }
+    ],
+    "null_model": {
+      "real_mean_offset_deg": 60.49,
+      "random_mean_offsets_mean": 45.14,
+      "random_mean_offsets_std": 14.04,
+      "random_mean_offsets_5th": 22.78,
+      "random_mean_offsets_95th": 64.63,
+      "percentile_rank": 79.6,
+      "n_trials": 1000
+    }
+  },
+  "parameters": {
+    "pole_lat": 59.682122,
+    "pole_lon": -138.646087,
+    "mc_trials": 1000,
+    "random_seed": 42
+  }
+}

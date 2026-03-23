@@ -1,0 +1,44 @@
+{
+  "actual_fit_km": 0.95,
+  "narrow_zones": {
+    "description": "Narrow: Nile Valley + Peru coast + Pacific islands",
+    "n_trials": 100000,
+    "count_better": 34,
+    "p_value": 0.00034,
+    "percentile": 0.03,
+    "median_fit_km": 586.51,
+    "mean_fit_km": 746.68,
+    "percentiles": {
+      "1": 27.08,
+      "5": 114.88,
+      "10": 189.08,
+      "25": 371.16,
+      "50": 586.51,
+      "75": 819.73,
+      "90": 1810.06,
+      "95": 2189.37,
+      "99": 3317.95
+    }
+  },
+  "expanded_zones": {
+    "description": "Expanded: Egypt/Levant + Peru/Chile coast + Pacific islands",
+    "n_trials": 100000,
+    "count_better": 51,
+    "p_value": 0.00051,
+    "percentile": 0.05,
+    "median_fit_km": 545.82,
+    "mean_fit_km": 685.05,
+    "percentiles": {
+      "1": 14.32,
+      "5": 69.65,
+      "10": 135.2,
+      "25": 309.93,
+      "50": 545.82,
+      "75": 826.15,
+      "90": 1389.82,
+      "95": 2035.7,
+      "99": 3066.74
+    }
+  },
+  "verdict": "Specific positions matter beyond continental geometry (p_narrow=0.000340, p_expanded=0.000510)"
+}

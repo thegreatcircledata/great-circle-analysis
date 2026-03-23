@@ -1,0 +1,73 @@
+{
+  "giza": {
+    "procrustes_D": 0.000347,
+    "source": "Bauval 1989",
+    "rank_all": 1878,
+    "total_triplets": 762355,
+    "p_all": 0.002463,
+    "site_collinearity_angle": 168.8,
+    "n_collinear_triplets": 123260,
+    "rank_collinear": 1878,
+    "p_collinear": 0.015236
+  },
+  "teotihuacan": {
+    "procrustes_D": 0.080989,
+    "source": "popular claim",
+    "rank_all": 666703,
+    "total_triplets": 762355,
+    "p_all": 0.874531,
+    "site_collinearity_angle": 131.08,
+    "n_collinear_triplets": 123260,
+    "rank_collinear": 116575,
+    "p_collinear": 0.945765
+  },
+  "thornborough": {
+    "procrustes_D": 0.005988,
+    "source": "Harding (informal)",
+    "rank_all": 28263,
+    "total_triplets": 762355,
+    "p_all": 0.037073,
+    "site_collinearity_angle": 157.29,
+    "n_collinear_triplets": 123260,
+    "rank_collinear": 10840,
+    "p_collinear": 0.087944
+  },
+  "bh_correction": {
+    "giza_all": {
+      "p_raw": 0.002463,
+      "p_bh": 0.014778,
+      "survives_005": true
+    },
+    "giza_collinear": {
+      "p_raw": 0.015236,
+      "p_bh": 0.045708,
+      "survives_005": true
+    },
+    "teotihuacan_all": {
+      "p_raw": 0.874531,
+      "p_bh": 0.945765,
+      "survives_005": false
+    },
+    "teotihuacan_collinear": {
+      "p_raw": 0.945765,
+      "p_bh": 0.945765,
+      "survives_005": false
+    },
+    "thornborough_all": {
+      "p_raw": 0.037073,
+      "p_bh": 0.074146,
+      "survives_005": false
+    },
+    "thornborough_collinear": {
+      "p_raw": 0.087944,
+      "p_bh": 0.131916,
+      "survives_005": false
+    }
+  },
+  "metadata": {
+    "n_stars": 167,
+    "n_triplets": 762355,
+    "collinearity_threshold_deg": 160,
+    "seed": 42
+  }
+}

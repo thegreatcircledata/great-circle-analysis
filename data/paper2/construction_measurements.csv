@@ -1,0 +1,19 @@
+site,period,stone_type,block_mass_tonnes,joint_gap_mean_mm,joint_gap_sigma_mm,surface_flatness_mm_per_m,angular_accuracy_arc_sec,tool_technology,transport_distance_km,source,data_quality
+Great Pyramid — casing stones,c. 2560 BCE,Tura limestone,15,0.5,0.28,0.13,12,Copper saws + sand abrasive + stone rubbers,15,Petrie 1883 (https://gizamedia.rc.fas.harvard.edu/images/MFA-images/Giza/GizaImage/full/library/petrie_gizeh.pdf),HIGH
+Great Pyramid — descending passage (built section),c. 2560 BCE,Tura limestone,N/A,N/A,N/A,0.028,5,Copper tools + stone rubbers,15,Petrie 1883 — passage straightness 1.27mm over 45.7m,HIGH
+Great Pyramid — King's Chamber walls,c. 2560 BCE,Aswan red granite,N/A,0.5,N/A,N/A,N/A,Copper saws + sand abrasive,930,Petrie 1883 / Lepre (http://home.hiwaay.net/~jalison/gpkc.html),HIGH
+Great Pyramid — coffer,c. 2560 BCE,Aswan red granite,3.75,N/A,N/A,0.53,N/A,Copper saws + sand abrasive + calipers (Petrie),930,Petrie 1883 — mean surface variation 1.0mm across coffer,HIGH
+Great Pyramid — base platform,c. 2560 BCE,Limestone bedrock (leveled),N/A,N/A,N/A,0.091,12,Leveling + surveying (unknown method),0,Petrie 1883; Dash 2016 (http://dashfoundation.com/downloads/archaeology/as-published/AERAGRAM16_2_GDash.pdf),HIGH
+Serapeum boxes,c. 1279–30 BCE,Aswan rose granite / diorite,70-100,N/A,N/A,N/A,3960,Unknown (disputed),320,Antropogenez.ru 2021 — ~1.1° angular deviation (https://www.reddit.com/r/AlternativeHistory/comments/stl92o/),LOW
+Serapeum boxes (Dunn claim),c. 1279–30 BCE,Aswan rose granite,70-100,N/A,N/A,0.0027,N/A,Unknown (disputed),320,Dunn 1995 (https://www.gizapower.com/Precision.htm) — 6in straight-edge only,LOW
+Sacsayhuamán walls,c. 1438–1532 CE,Limestone (cyclopean courses),125,N/A,N/A,N/A,N/A,River cobble hammerstones + trial fitting,0,Protzen 1983/1985 — qualitative only (https://www.svtsm.ch/sites/default/files/2022-04/1983%20Inca%20Quarrying%20and%20Stonecutting%20by%20Jean-Pierre%20Protzen.pdf),MEDIUM
+Ollantaytambo Six Monoliths,c. 15th century CE,Pink granite / rhyolite,50,N/A,N/A,N/A,N/A,River cobble hammerstones + trial fitting,5,Protzen 1993 — qualitative only,NONE
+Puma Punku H-blocks,c. AD 536–710,Grey andesite,0.6,N/A,N/A,1.0,N/A,Stone hammers + abrasion,10,Protzen & Nair 2013 — ±1mm stated (https://escholarship.org/uc/item/2192r04f),MEDIUM
+Puma Punku platform slabs,c. AD 536–710,Red sandstone,83,N/A,N/A,N/A,N/A,Stone hammers + abrasion,10,Protzen & Nair 2013; Vranich 1999,MEDIUM
+Göbekli Tepe pillars,c. 9500–8800 BCE,Limestone,8,N/A,N/A,N/A,N/A,Flint picks + basalt pounders,0.6,Haklay & Gopher 2020 (https://doi.org/10.1017/S0959774319000660) — placement only,MEDIUM
+Baalbek Trilithon,c. 1st century CE,Limestone,800,N/A,N/A,N/A,N/A,Roman iron tools + cranes,1,Lohmann 2010 (https://bollettinodiarcheologiaonline.beniculturali.it/wp-content/uploads/2021/09/3_LOHMANN.pdf),NONE
+Stonehenge sarsens,c. 2500 BCE,Sarsen (silcrete),26,N/A,N/A,N/A,N/A,Stone mauls + antler picks,29,Abbott & Anderson-Whymark 2012 (https://historicengland.org.uk/research/results/reports/32-2012),NONE
+Malta Ħaġar Qim,c. 3600–3200 BCE,Globigerina limestone,57,N/A,N/A,N/A,N/A,Flint / stone tools,N/A,Heritage Malta — no precision data published (https://heritagemalta.mt/explore/hagar-qim-and-mnajdra-archaeological-park/),NONE
+Easter Island Ahu Vinapu,c. post-AD 1200,Basalt,7,N/A,N/A,N/A,N/A,Basalt hammers + coral abrasive (inferred),N/A,PBS NOVA / Mulloy (https://www.pbs.org/wgbh/nova/lostempires/easter/explore/ahuvinapu.html),NONE
+Osireion at Abydos,c. 1290–1279 BCE,Aswan red granite,N/A,N/A,N/A,N/A,N/A,Unknown,320,Murray 1904 (https://archive.org/details/osireionatabydos00murr) — no precision data,NONE
+Valley Temple at Giza,c. 2558–2532 BCE,Aswan red granite,40,N/A,N/A,N/A,N/A,Copper tools + stone rubbers (inferred),930,ISIDA 2013 (https://isida-project.ucoz.com/egypt_2012/giza_granit.htm) — no precision data,NONE

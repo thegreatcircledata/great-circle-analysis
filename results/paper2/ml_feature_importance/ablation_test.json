@@ -1,0 +1,18 @@
+{
+  "global": {
+    "auc_with_gc": 0.8890142553102361,
+    "auc_with_gc_std": 0.005004868717598437,
+    "auc_without_gc": 0.8888078400851785,
+    "auc_without_gc_std": 0.005660395042157181,
+    "delta_auc": 0.00020641522505759902,
+    "interpretation": "MINIMAL: GC is largely a geographic proxy"
+  },
+  "corridor": {
+    "auc_with_gc": 0.8744555751327063,
+    "auc_with_gc_std": 0.021757120000520217,
+    "auc_without_gc": 0.8740545702932856,
+    "auc_without_gc_std": 0.02247982462645309,
+    "delta_auc": 0.0004010048394207377,
+    "interpretation": "MINIMAL: GC is largely a geographic proxy"
+  }
+}

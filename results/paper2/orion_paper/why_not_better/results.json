@@ -1,0 +1,442 @@
+{
+  "phase1_residual": {
+    "disparity": 0.00034732407333266214,
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "matching": {
+      "Khufu": {
+        "star": "Mintaka",
+        "residual_dx": -0.004736456227155295,
+        "residual_dy": 0.0058631134680051655,
+        "residual_mag": 0.007537248644595833,
+        "direction_deg": 128.93265642684418
+      },
+      "Khafre": {
+        "star": "Alnilam",
+        "residual_dx": 0.010321211683720473,
+        "residual_dy": -0.011165905594205324,
+        "residual_mag": 0.01520542200528725,
+        "direction_deg": -47.25123209031053
+      },
+      "Menkaure": {
+        "star": "Alnitak",
+        "residual_dx": -0.005584755456565282,
+        "residual_dy": 0.0053027921262002176,
+        "residual_mag": 0.007701240019849187,
+        "direction_deg": 136.48350198933196
+      }
+    },
+    "largest_residual": {
+      "pyramid": "Khafre",
+      "magnitude": 0.01520542200528725
+    }
+  },
+  "phase2_menkaure_offset": {
+    "menkaure_offset_m": 93.8593054582475,
+    "khufu_khafre_distance_m": 489.4804177068639,
+    "pyramid_offset_ratio": 0.19175293242161368,
+    "mintaka_offset_ratio": -0.13426503113766913,
+    "same_direction": false,
+    "ratio_consistency": 1.4281673403479058
+  },
+  "phase3_perfect_positions": {
+    "offsets_m": {
+      "Khufu": {
+        "offset_m": 5.167681980108579,
+        "dx_m": -3.2474050742896745,
+        "dy_m": 4.019862849776917,
+        "direction_deg": 128.93265642684418,
+        "perfect_lat": 29.9792361108772,
+        "perfect_lon": 31.13416632346772
+      },
+      "Khafre": {
+        "offset_m": 10.425128452277942,
+        "dx_m": 7.076420341936121,
+        "dy_m": -7.655558659609875,
+        "direction_deg": -47.25123209031053,
+        "perfect_lat": 29.97603122926105,
+        "perfect_lon": 31.130673384530912
+      },
+      "Menkaure": {
+        "offset_m": 5.280117606787501,
+        "dx_m": -3.829015267646518,
+        "dy_m": 3.635695809832999,
+        "direction_deg": 136.48350198933196,
+        "perfect_lat": 29.97253265986175,
+        "perfect_lon": 31.127760292001366
+      }
+    },
+    "interpretation": "Sub-50m offsets: builders COULD have placed them perfectly. The deviations may be intentional or due to local terrain.",
+    "max_offset_m": 10.425128452277942
+  },
+  "phase4_plateau": {
+    "plateau_polygon": [
+      [
+        29.985,
+        31.12
+      ],
+      [
+        29.985,
+        31.145
+      ],
+      [
+        29.968,
+        31.145
+      ],
+      [
+        29.968,
+        31.12
+      ]
+    ],
+    "positions": {
+      "Khufu": {
+        "actual_inside": true,
+        "perfect_inside": true
+      },
+      "Khafre": {
+        "actual_inside": true,
+        "perfect_inside": true
+      },
+      "Menkaure": {
+        "actual_inside": true,
+        "perfect_inside": true
+      }
+    },
+    "all_perfect_inside": true
+  },
+  "phase5_better_triplets": {
+    "orion_belt_rank": 1717,
+    "orion_belt_disparity": 0.0003416307023630383,
+    "n_better": 1716,
+    "percentile": 99.75313434552565,
+    "total_triplets": 695520,
+    "top_20": [
+      {
+        "rank": 1,
+        "disparity": 2.1377774772624036e-08,
+        "stars": [
+          "Achernar",
+          "Arneb",
+          "Subra"
+        ],
+        "magnitudes": [
+          0.46,
+          2.58,
+          3.52
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 2,
+        "disparity": 7.227223575156927e-08,
+        "stars": [
+          "Procyon",
+          "Algol",
+          "Algorab"
+        ],
+        "magnitudes": [
+          0.34,
+          2.12,
+          2.95
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 3,
+        "disparity": 1.2520024850193323e-07,
+        "stars": [
+          "Menkalinan",
+          "Seginus",
+          "Homam"
+        ],
+        "magnitudes": [
+          1.9,
+          3.03,
+          3.41
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 4,
+        "disparity": 1.2569598117906366e-07,
+        "stars": [
+          "Arcturus",
+          "Alnitak",
+          "Markab"
+        ],
+        "magnitudes": [
+          -0.05,
+          1.77,
+          2.49
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 5,
+        "disparity": 3.6290254168402925e-07,
+        "stars": [
+          "Arneb",
+          "Muphrid",
+          "Matar"
+        ],
+        "magnitudes": [
+          2.58,
+          2.68,
+          2.94
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 6,
+        "disparity": 4.1659047556041884e-07,
+        "stars": [
+          "Canopus",
+          "Denebola",
+          "Fafnir"
+        ],
+        "magnitudes": [
+          -0.74,
+          2.14,
+          3.17
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 7,
+        "disparity": 5.250417242086414e-07,
+        "stars": [
+          "Arcturus",
+          "Rasalgethi",
+          "Chertan"
+        ],
+        "magnitudes": [
+          -0.05,
+          2.81,
+          3.34
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 8,
+        "disparity": 6.271829213755353e-07,
+        "stars": [
+          "Sargas",
+          "Sadalbari",
+          "Algedi"
+        ],
+        "magnitudes": [
+          1.87,
+          3.51,
+          3.57
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 9,
+        "disparity": 7.368784019634589e-07,
+        "stars": [
+          "Rigil Kent",
+          "Wezen",
+          "Alpheratz"
+        ],
+        "magnitudes": [
+          -0.01,
+          1.84,
+          2.06
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 10,
+        "disparity": 9.626054736644463e-07,
+        "stars": [
+          "Fomalhaut",
+          "Menkent",
+          "Nihal"
+        ],
+        "magnitudes": [
+          1.16,
+          2.06,
+          2.84
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 11,
+        "disparity": 9.710902352244588e-07,
+        "stars": [
+          "Arcturus",
+          "Elnath",
+          "Skat"
+        ],
+        "magnitudes": [
+          -0.05,
+          1.65,
+          3.27
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 12,
+        "disparity": 1.0680897334358619e-06,
+        "stars": [
+          "Alioth",
+          "Castor",
+          "Sheratan"
+        ],
+        "magnitudes": [
+          1.77,
+          1.98,
+          2.64
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 13,
+        "disparity": 1.3096625663955308e-06,
+        "stars": [
+          "Alphard",
+          "Sabik",
+          "Sheratan"
+        ],
+        "magnitudes": [
+          1.98,
+          2.43,
+          2.64
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 14,
+        "disparity": 1.3948010643138886e-06,
+        "stars": [
+          "Scheat",
+          "Zubenelgenubi",
+          "Wazn"
+        ],
+        "magnitudes": [
+          2.42,
+          2.75,
+          3.02
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 15,
+        "disparity": 1.4811933426450707e-06,
+        "stars": [
+          "Arcturus",
+          "Bellatrix",
+          "Biham"
+        ],
+        "magnitudes": [
+          -0.05,
+          1.64,
+          3.52
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 16,
+        "disparity": 1.4842200722897658e-06,
+        "stars": [
+          "Arcturus",
+          "Markab",
+          "Eta Ori"
+        ],
+        "magnitudes": [
+          -0.05,
+          2.49,
+          3.36
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 17,
+        "disparity": 1.506235919435106e-06,
+        "stars": [
+          "Sadr",
+          "Zubenelgenubi",
+          "Alsephina"
+        ],
+        "magnitudes": [
+          2.23,
+          2.75,
+          1.96
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 18,
+        "disparity": 1.5337904971657323e-06,
+        "stars": [
+          "Alphard",
+          "Eltanin",
+          "Ankaa"
+        ],
+        "magnitudes": [
+          1.98,
+          2.23,
+          2.39
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 19,
+        "disparity": 1.620894091391989e-06,
+        "stars": [
+          "Nunki",
+          "Kochab",
+          "Kornephoros"
+        ],
+        "magnitudes": [
+          2.05,
+          2.08,
+          2.77
+        ],
+        "cultural_significance": null
+      },
+      {
+        "rank": 20,
+        "disparity": 1.8158142817137346e-06,
+        "stars": [
+          "Aspidiske",
+          "Aludra",
+          "Cursa"
+        ],
+        "magnitudes": [
+          2.25,
+          2.45,
+          2.79
+        ],
+        "cultural_significance": null
+      }
+    ],
+    "first_famous_asterism": {
+      "rank": 1717,
+      "asterism": "Orion Belt",
+      "stars": [
+        "Alnitak",
+        "Mintaka",
+        "Alnilam"
+      ],
+      "disparity": 0.0003416307023630383
+    },
+    "first_egyptian_subset": {
+      "rank": 1717,
+      "constellation": "Sah",
+      "stars": [
+        "Alnitak",
+        "Mintaka",
+        "Alnilam"
+      ],
+      "disparity": 0.0003416307023630383
+    },
+    "better_triplets_containing_orion_stars": 151,
+    "better_triplets_mean_magnitude": 2.403490675990676,
+    "computation_time_s": 13.106669187545776
+  }
+}

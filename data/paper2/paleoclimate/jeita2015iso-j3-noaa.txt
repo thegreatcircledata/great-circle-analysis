@@ -1,0 +1,242 @@
+# Jeita Cave, Lebanon 20,000 Year Speleothem Stable Isotope Data
+#----------------------------------------------------
+#                World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------
+# Template Version 4.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, NOAA Landing Page URL, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, study title, NOAA Landing Page URL, and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# NOAA_Landing_Page: https://www.ncei.noaa.gov/access/paleo-search/study/20446
+#   Landing_Page_Description: NOAA Landing Page of this file's parent study, which includes all study metadata.
+#
+# Study_Level_JSON_Metadata: https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-cave-20446.json
+#   Study_Level_JSON_Description: JSON metadata of this data file's parent study, which includes all study metadata.
+#
+# Data_Type: Speleothems
+#
+# Dataset_DOI: 10.25921/attj-1g71
+#
+# Science_Keywords: hydrology
+#--------------------
+# Resource_Links
+#
+# Data_Download_Resource:  https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/lebanon/jeita2015iso-j3-noaa.txt
+#   Data_Download_Description: NOAA Template File; Jeita Cave Core J3 Stable Isotope Data
+#
+#--------------------
+# Contribution_Date
+#   Date: 2016-08-26
+#--------------------
+# File_Last_Modified_Date
+#   Date: 2025-01-31
+#--------------------
+# Title
+#   Study_Name: Jeita Cave, Lebanon 20,000 Year Speleothem Stable Isotope Data
+#--------------------
+# Investigators
+#   Investigators: Cheng, H.(https://orcid.org/0000-0002-5305-9458); Sinha, A.(https://orcid.org/0000-0001-5700-2451); Verheyden, S.; Nader, F.H.; Li, X.L.(https://orcid.org/0000-0002-8464-9020); Zhang, P.Z.; Yin, J.J.; Yi, L.(https://orcid.org/0000-0003-3377-8591); Peng, Y.B.; Rao, Z.G.; Ning, Y.F.(https://orcid.org/0000-0002-2327-7307); Edwards, R.L.(https://orcid.org/0000-0002-7027-5881)
+#--------------------
+# Description_Notes_and_Keywords
+#   Description: Speleothem stable isotope (d18O and d13C) data from 3 stalagmites collected in Jeita Cave, Lebanon for the past 20,000 years
+#--------------------
+# Publication
+#   Authors: Cheng, H.; Sinha, A.; Verheyden, S.; Nader, F.H.; Li, X.L.; Zhang, P.Z.; Yin, J.J.; Yi, L.; Peng, Y.B.; Rao, Z.G.; Ning, Y.F.; Edwards, R.L.
+#   Journal_Name: Geophysical Research Letters
+#   Published_Title: The climate variability in northern Levant over the past 20,000 years
+#   Published_Date_or_Year: 2015
+#   Volume: 42
+#   Pages: 8641-8650
+#   Issue: 20
+#   Report_Number: 
+#   DOI: 10.1002/2015GL065397
+#   Full_Citation:
+#   Abstract: The Levant constitutes an important region for assessing linkages between climate and societal changes throughout the course of human history. However, large uncertainties remain in our understanding of the region's hydroclimate variability under varying boundary conditions. Here we present a new high-resolution, precisely dated speleothem oxygen-carbon isotope and Sr/Ca records, spanning the last 20 ka from Jeita Cave, northern Levant. Our record reveals a higher (lower) precipitation-evaporation (P-E) balance during the Last Glacial Maximum and Bolling interstadial (Heinrich stadial 1). The early-middle Holocene is characterized by a trend toward higher P-E state, culminating between ~7 and 6 ka. The middle-late Holocene is characterized by two millennial-length drier periods during 5.3-4.2 and 2.8-1.4 ka. On submillennial time scale, the northern Levant climate variability is dominated by 500 year periodicity. Comparisons with the regional proxy records suggest persistent out-of-phase climate variability between the northern and southern Levant on a wide range of timescales.
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: National Basic Research Program of China
+#   Grant: 2013CB955902
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: National Science Foundation of China 
+#   Grant: 41230524
+#--------------------
+# Site_Information
+#   Site_Name: Jeita Cave
+#   Location: Lebanon
+#   Northernmost_Latitude: 33.95
+#   Southernmost_Latitude: 33.95
+#   Easternmost_Longitude: 35.65
+#   Westernmost_Longitude: 35.65
+#   Elevation_m: 100
+#--------------------
+# Data_Collection
+#   Collection_Name: Jeita2015iso j3
+#   First_Year: 847
+#   Last_Year: 372
+#   Time_Unit: cal yr BP
+#   Core_Length_m:
+#   Parameter_Keywords: carbon isotopes, oxygen isotopes
+#   Notes: 
+#--------------------
+# Chronology_Information
+#   Chronology: Uranium-Thorium
+#   Chronology_Download_Resource: https://www.ncei.noaa.gov/pub/data/paleo/templates/noaa-wds-paleo-uth-terms.csv
+#     Chronology_Download_Description: Uranium-Thorium terms and definitions.
+#   Chronology_Notes:
+#   Rejection_Rationale:
+#   238U_Decay_Constant: Jaffey et al., 1971
+#   234U_Decay_Constant: Cheng et al., 2013
+#   230Th_Decay_Constant: Cheng et al., 2013
+#   Initial_230Th/232Th: 4.4  2.2 × 10^-6
+#   Initial_230Th/232Th_Method: Those are the values for a material at secular equilibrium, with the bulk earth 232Th/238U value of 3.8. The errors are arbitrarily assumed to be 50%.
+#   Age_Model_Method:
+#   Missing_Values: na
+#   Chronology_Table:
+# samp_id	depth_top_mm	238U_ppb	238U_2s_ppb	232Th_ppt	232Th_2s_ppt	230Th_232Th_atom_ppm	230Th_232Th_atom_2s_ppm	d234U_meas_permil	d234U_meas_2s_permil	230Th_238U_act	230Th_238U_act_2s	meas_yr	age_uncorr_BM	age_uncorr_2s_yr	age_corr_BM	d234U_init_permil	d234U_init_2s_permil	age_corr_BP1950	age_corr_2s_yr
+# J3-11	11	139.8	0.2	41	1	244	13	28.9	1.6	0.0044	0.0002	2012	464	22	455	29	2	393	23
+# J3-48	48	154.6	0.3	50	1	258	10	23.3	2.1	0.0050	0.0002	2012	535	17	526	23	2	464	18
+# J3-2	75	148.1	0.3	53	1	278	12	18.8	2.7	0.0061	0.0002	2010	652	25	641	19	3	581	26
+# J3-92	92	156.6	0.2	137	3	123	4	21.9	1.8	0.0065	0.0002	2012	700	18	675	22	2	613	25
+# J3-165	165	155.4	0.2	225	5	95	3	141.3	1.8	0.0084	0.0002	2012	802	20	765	142	2	703	33
+# J3-4	180	176.2	0.3	117	2	206	6	23.1	2.2	0.0083	0.0002	2010	885	17	866	23	2	806	22
+#--------------------
+# Variables
+# PaST_Thesaurus_Download_Resource: https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf
+#   PaST_Thesaurus_Download_Description: Paleoenvironmental Standard Terms (PaST) Thesaurus terms, definitions, and relationships in SKOS format.
+#
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line, shortname-tab-var components: what, material, error, units, seasonality, data type, detail, method, C or N for Character or Numeric data)
+#
+## sampleID	sample identification,,,,,speleothems,,,C,stalagmite ID
+## depth_mm	depth,,,millimeter,,speleothems,,,N,distance from top
+## age_calBP	age,,,calendar year before present,,speleothems,,,N,
+## d18OcarbVPDB	delta 18O,calcium carbonate,,per mil VPDB,,speleothems,raw,isotope ratio mass spectrometry,N,
+## d13CcarbVPDB	delta 13C,calcium carbonate,,per mil VPDB,,speleothems,raw,isotope ratio mass spectrometry,N,
+#--------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values:
+sampleID	depth_mm	age_calBP	d18OcarbVPDB	d13CcarbVPDB
+Jeita-3	0	372	-5.60	-10.02
+Jeita-3	2	376	-5.72	-10.99
+Jeita-3	4	380	-5.77	-10.07
+Jeita-3	6	383	-5.94	-9.92
+Jeita-3	8	387	-5.46	-10.11
+Jeita-3	10	391	-5.40	-10.10
+Jeita-3	11	393		
+Jeita-3	12	395	-5.67	-10.51
+Jeita-3	14	399	-5.87	-10.86
+Jeita-3	16	403	-5.73	-10.50
+Jeita-3	18	406	-5.61	-10.71
+Jeita-3	20	410	-5.61	-10.33
+Jeita-3	22	414	-5.77	-10.99
+Jeita-3	24	418	-5.72	-10.58
+Jeita-3	26	422	-5.67	-10.90
+Jeita-3	28	426	-5.37	-11.00
+Jeita-3	30	429	-5.56	-10.77
+Jeita-3	32	433	-5.46	-10.48
+Jeita-3	34	437	-5.45	-10.30
+Jeita-3	36	441	-5.46	-10.64
+Jeita-3	38	445	-5.43	-10.81
+Jeita-3	40	449	-5.26	-10.59
+Jeita-3	42	452	-5.19	-10.54
+Jeita-3	44	456	-5.44	-10.55
+Jeita-3	46	460	-5.62	-10.37
+Jeita-3	48	464	-5.45	-11.00
+Jeita-3	49	470	-5.02	-11.20
+Jeita-3	50	476	-5.24	-11.18
+Jeita-3	51	482	-5.37	-11.23
+Jeita-3	52	487	-5.31	-11.16
+Jeita-3	53	493	-5.41	-11.25
+Jeita-3	54	499	-5.50	-10.75
+Jeita-3	55	505	-5.53	-10.74
+Jeita-3	56	511		
+Jeita-3	57	517	-5.20	-10.28
+Jeita-3	58	523	-5.28	-10.45
+Jeita-3	59	528	-5.34	-10.68
+Jeita-3	60	534	-5.49	-10.51
+Jeita-3	61	540	-5.50	-10.63
+Jeita-3	62	546	-5.23	-10.64
+Jeita-3	63	552	-5.34	-10.45
+Jeita-3	64	558	-5.41	-10.63
+Jeita-3	65	563	-5.75	-10.67
+Jeita-3	66	569	-5.60	-10.64
+Jeita-3	67	575	-5.43	-10.84
+Jeita-3	68	581		
+Jeita-3	69	582	-5.55	-10.77
+Jeita-3	70	584	-5.52	-10.61
+Jeita-3	71	585	-5.34	-10.61
+Jeita-3	72	586	-5.47	-11.05
+Jeita-3	74	589	-5.60	-11.00
+Jeita-3	76	592	-5.49	-10.62
+Jeita-3	78	594	-5.67	-10.88
+Jeita-3	80	597	-5.51	-10.98
+Jeita-3	82	600	-5.72	-10.71
+Jeita-3	84	602	-5.70	-10.63
+Jeita-3	86	605	-5.67	-10.59
+Jeita-3	88	608	-5.84	-10.72
+Jeita-3	90	610	-5.69	-10.83
+Jeita-3	92	613	-5.43	-11.12
+Jeita-3	94	615	-5.70	-11.06
+Jeita-3	96	618	-5.56	-11.27
+Jeita-3	98	620	-5.71	-11.02
+Jeita-3	100	622	-5.87	-11.21
+Jeita-3	102	624	-5.82	-10.99
+Jeita-3	104	627	-6.01	-10.80
+Jeita-3	106	629	-5.86	-10.91
+Jeita-3	108	631	-5.92	-10.85
+Jeita-3	110	633	-5.83	-11.06
+Jeita-3	112	636	-5.70	-11.09
+Jeita-3	114	638	-5.85	-10.87
+Jeita-3	116	640	-5.85	-11.13
+Jeita-3	118	642	-5.63	-11.25
+Jeita-3	120	645		
+Jeita-3	122	647		
+Jeita-3	124	649	-5.54	-10.80
+Jeita-3	126	651	-5.59	-10.88
+Jeita-3	128	654	-5.46	-10.98
+Jeita-3	130	656	-5.58	-11.04
+Jeita-3	132	658	-5.64	-10.95
+Jeita-3	134	660	-5.86	-10.82
+Jeita-3	136	663	-5.80	-10.57
+Jeita-3	138	665	-5.54	-10.10
+Jeita-3	140	668	-5.35	-10.23
+Jeita-3	142	671	-5.35	-10.27
+Jeita-3	144	673	-5.84	-10.59
+Jeita-3	146	676	-5.71	-11.10
+Jeita-3	148	679	-5.43	-10.88
+Jeita-3	150	682	-5.61	-10.79
+Jeita-3	152	685	-5.79	-11.05
+Jeita-3	154	688	-5.49	-10.65
+Jeita-3	156	690	-5.52	-11.05
+Jeita-3	158	693	-5.09	-11.06
+Jeita-3	160	696	-5.40	-10.94
+Jeita-3	162	699	-5.03	-10.94
+Jeita-3	164	702	-5.26	-11.06
+Jeita-3	165	703		
+Jeita-3	166	710	-5.71	-10.64
+Jeita-3	167	717	-5.68	-10.90
+Jeita-3	168	724	-5.54	-10.99
+Jeita-3	170	737	-5.51	-10.62
+Jeita-3	171	744	-5.44	-11.02
+Jeita-3	172	751	-5.56	-10.53
+Jeita-3	173	758	-5.53	-11.13
+Jeita-3	174	765	-5.45	-10.92
+Jeita-3	176	779	-5.53	-11.06
+Jeita-3	177	785	-5.38	-11.16
+Jeita-3	178	792	-5.37	-10.97
+Jeita-3	179	799	-5.16	-10.68
+Jeita-3	180	806	-5.39	-10.80
+Jeita-3	181	813	-5.12	-11.07
+Jeita-3	182	820	-5.17	-11.02
+Jeita-3	183	827	-5.29	-11.05
+Jeita-3	184	833	-5.29	-11.12
+Jeita-3	185	840	-5.34	-11.07
+Jeita-3	186	847	-5.07	-11.05

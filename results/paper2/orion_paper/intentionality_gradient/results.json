@@ -1,0 +1,106 @@
+{
+  "study": "O6_Intentionality_Gradient",
+  "description": "Multi-axis intentionality scoring for Orion Belt correlation claims",
+  "axes": {
+    "1_shape_match": "Procrustes p-value transformed to -log10(p); higher = better geometric match",
+    "2_brightness_size": "Spearman rank correlation between structure size and paired star brightness",
+    "3_orientation": "1 - (angular_offset/90); how well site axis matches Belt position angle",
+    "4_textual": "Categorical 0-3; textual/cultural evidence linking site to Orion",
+    "5_extension": "Categorical 0-3; does pattern extend beyond minimal 3-point match"
+  },
+  "normalization": {
+    "shape": "divided by 3.0 and clamped to [0,1]",
+    "brightness": "already [0,1]",
+    "orientation": "already [0,1]",
+    "textual": "divided by 3.0",
+    "extension": "divided by 3.0"
+  },
+  "sites": {
+    "Giza": {
+      "shape_match_raw": 2.6085,
+      "shape_match_p": 0.002463,
+      "shape_match_norm": 0.8695,
+      "brightness_size_raw": 0.5,
+      "brightness_size_norm": 0.5,
+      "orientation_raw": 0.4444,
+      "orientation_offset_deg": 50.0,
+      "orientation_norm": 0.4444,
+      "textual_raw": 3,
+      "textual_norm": 1.0,
+      "extension_raw": "TBD",
+      "extension_norm": null,
+      "n_axes": 4,
+      "composite_score": 0.7035
+    },
+    "Teotihuacan": {
+      "shape_match_raw": 0.058,
+      "shape_match_p": 0.875,
+      "shape_match_norm": 0.0193,
+      "brightness_size_raw": 0.5,
+      "brightness_size_norm": 0.5,
+      "orientation_raw": 0.3333,
+      "orientation_offset_deg": 60.0,
+      "orientation_norm": 0.3333,
+      "textual_raw": 1,
+      "textual_norm": 0.3333,
+      "extension_raw": 0,
+      "extension_norm": 0.0,
+      "n_axes": 5,
+      "composite_score": 0.2372
+    },
+    "Thornborough": {
+      "shape_match_raw": 1.4318,
+      "shape_match_p": 0.037,
+      "shape_match_norm": 0.4773,
+      "brightness_size_raw": 0.0,
+      "brightness_size_norm": 0.0,
+      "orientation_raw": 0.3333,
+      "orientation_offset_deg": 60.0,
+      "orientation_norm": 0.3333,
+      "textual_raw": 0,
+      "textual_norm": 0.0,
+      "extension_raw": 0,
+      "extension_norm": 0.0,
+      "n_axes": 5,
+      "composite_score": 0.1621
+    },
+    "Gobekli Tepe P43": {
+      "shape_match_raw": 0.0378,
+      "shape_match_p": 0.916667,
+      "shape_match_norm": 0.0126,
+      "brightness_size_raw": null,
+      "brightness_size_norm": null,
+      "orientation_raw": null,
+      "orientation_offset_deg": null,
+      "orientation_norm": null,
+      "textual_raw": 1,
+      "textual_norm": 0.3333,
+      "extension_raw": 0,
+      "extension_norm": 0.0,
+      "n_axes": 3,
+      "composite_score": 0.1153
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "site": "Giza",
+      "composite": 0.7035
+    },
+    {
+      "rank": 2,
+      "site": "Teotihuacan",
+      "composite": 0.2372
+    },
+    {
+      "rank": 3,
+      "site": "Thornborough",
+      "composite": 0.1621
+    },
+    {
+      "rank": 4,
+      "site": "Gobekli Tepe P43",
+      "composite": 0.1153
+    }
+  ]
+}

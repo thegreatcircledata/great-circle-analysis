@@ -1,0 +1,102 @@
+{
+  "test": "Atlantis Region Test",
+  "global_pre_post_ratio": 0.212142,
+  "regions": [
+    {
+      "name": "Atlantic west of Gibraltar",
+      "center_lat": 35.0,
+      "center_lon": -10.0,
+      "radius_km": 500,
+      "rationale": "Plato's description",
+      "total_dates": 1112,
+      "pre_yd_dates": 328,
+      "post_yd_dates": 784,
+      "pre_post_ratio": 0.4184,
+      "ratio_vs_global": 1.9721,
+      "temporal_breakdown": {
+        "25000-15000": 121,
+        "15000-12800": 28,
+        "12800-11600": 23,
+        "11600-8000": 74,
+        "8000-5000": 252
+      }
+    },
+    {
+      "name": "Richat Structure, Mauritania",
+      "center_lat": 21.1,
+      "center_lon": -11.4,
+      "radius_km": 200,
+      "rationale": "Alt history community claim",
+      "total_dates": 17,
+      "pre_yd_dates": 0,
+      "post_yd_dates": 17,
+      "pre_post_ratio": 0.0,
+      "ratio_vs_global": 0.0,
+      "temporal_breakdown": {
+        "25000-15000": 0,
+        "15000-12800": 0,
+        "12800-11600": 0,
+        "11600-8000": 2,
+        "8000-5000": 9
+      }
+    },
+    {
+      "name": "Persian Gulf basin",
+      "center_lat": 27.0,
+      "center_lon": 51.0,
+      "radius_km": 300,
+      "rationale": "On Great Circle, dry land during LGM",
+      "total_dates": 23,
+      "pre_yd_dates": 0,
+      "post_yd_dates": 23,
+      "pre_post_ratio": 0.0,
+      "ratio_vs_global": 0.0,
+      "temporal_breakdown": {
+        "25000-15000": 0,
+        "15000-12800": 0,
+        "12800-11600": 0,
+        "11600-8000": 0,
+        "8000-5000": 16
+      }
+    },
+    {
+      "name": "Sunda Shelf, SE Asia",
+      "center_lat": -5.0,
+      "center_lon": 110.0,
+      "radius_km": 500,
+      "rationale": "On Great Circle, dry land during LGM",
+      "total_dates": 0,
+      "pre_yd_dates": 0,
+      "post_yd_dates": 0,
+      "pre_post_ratio": 0,
+      "ratio_vs_global": 0,
+      "temporal_breakdown": {
+        "25000-15000": 0,
+        "15000-12800": 0,
+        "12800-11600": 0,
+        "11600-8000": 0,
+        "8000-5000": 0
+      }
+    },
+    {
+      "name": "Doggerland, North Sea",
+      "center_lat": 55.0,
+      "center_lon": 3.0,
+      "radius_km": 300,
+      "rationale": "Known submerged Mesolithic landscape",
+      "total_dates": 720,
+      "pre_yd_dates": 1,
+      "post_yd_dates": 719,
+      "pre_post_ratio": 0.0014,
+      "ratio_vs_global": 0.0066,
+      "temporal_breakdown": {
+        "25000-15000": 1,
+        "15000-12800": 0,
+        "12800-11600": 2,
+        "11600-8000": 68,
+        "8000-5000": 64
+      }
+    }
+  ],
+  "caveat": "Most candidate regions are now partially or fully submerged. Low data counts reflect absence of excavation, NOT necessarily absence of activity."
+}

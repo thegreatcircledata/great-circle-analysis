@@ -1,0 +1,439 @@
+{
+  "test": "C4",
+  "title": "Understanding Ceremonial Depletion",
+  "seed": 42,
+  "mc_trials": 500,
+  "threshold_km": 50,
+  "total_sites": 34470,
+  "phase1_temporal": {
+    "pre-2000 BCE": {
+      "n": 69,
+      "on_corridor": 7,
+      "mc_mean": 0.61,
+      "mc_std": 0.84,
+      "Z": 7.584
+    },
+    "2000 BCE\u20130 CE": {
+      "n": 1458,
+      "on_corridor": 19,
+      "mc_mean": 12.84,
+      "mc_std": 3.46,
+      "Z": 1.782
+    },
+    "0 CE\u2013present": {
+      "n": 623,
+      "on_corridor": 2,
+      "mc_mean": 5.39,
+      "mc_std": 2.27,
+      "Z": -1.494
+    },
+    "undated": {
+      "n": 84,
+      "on_corridor": 1,
+      "mc_mean": 0.73,
+      "mc_std": 0.84,
+      "Z": 0.318
+    },
+    "overall": {
+      "n": 2234,
+      "on_corridor": 29,
+      "mc_mean": 19.6,
+      "mc_std": 4.22,
+      "Z": 2.229
+    }
+  },
+  "phase2_mediterranean": {
+    "pre-2000 BCE": {
+      "n": 69,
+      "n_med": 22,
+      "frac_med": 0.3188
+    },
+    "2000 BCE\u20130 CE": {
+      "n": 1458,
+      "n_med": 1048,
+      "frac_med": 0.7188
+    },
+    "0 CE\u2013present": {
+      "n": 623,
+      "n_med": 359,
+      "frac_med": 0.5762
+    },
+    "undated": {
+      "n": 84,
+      "n_med": 70,
+      "frac_med": 0.8333
+    },
+    "overall": {
+      "n": 2234,
+      "n_med": 1499,
+      "frac_med": 0.671
+    }
+  },
+  "phase3_geography": {
+    "on_corridor_count": 29,
+    "off_corridor_count": 2205,
+    "on_corridor_examples": [
+      {
+        "title": "Maqsudabad",
+        "lat": 29.805,
+        "lon": 52.982,
+        "dist_km": 0.2,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Sun Temple of Niuserre",
+        "lat": 29.904,
+        "lon": 31.194,
+        "dist_km": 2.3,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Valley Temple of Khafre",
+        "lat": 29.975,
+        "lon": 31.138,
+        "dist_km": 6.0,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Sphinx Temple",
+        "lat": 29.975,
+        "lon": 31.138,
+        "dist_km": 6.1,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Temple of Amenhotep II",
+        "lat": 29.976,
+        "lon": 31.138,
+        "dist_km": 6.1,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Giza",
+        "lat": 29.978,
+        "lon": 31.132,
+        "dist_km": 6.4,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Kuntillat 'Ajrud",
+        "lat": 30.193,
+        "lon": 34.421,
+        "dist_km": 6.4,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Tang-i Qandil",
+        "lat": 29.849,
+        "lon": 51.577,
+        "dist_km": 7.9,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Naqsh-i Bahram",
+        "lat": 30.011,
+        "lon": 51.587,
+        "dist_km": 10.2,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Qadamgah",
+        "lat": 29.688,
+        "lon": 53.132,
+        "dist_km": 11.2,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Pyramid-complex of Senusret III",
+        "lat": 29.819,
+        "lon": 31.226,
+        "dist_km": 12.0,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Gur-i Shapur",
+        "lat": 29.808,
+        "lon": 51.612,
+        "dist_km": 12.1,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Braq",
+        "lat": 30.308,
+        "lon": 35.463,
+        "dist_km": 13.6,
+        "period": "undated"
+      },
+      {
+        "title": "Ain Zeitun",
+        "lat": 29.253,
+        "lon": 25.806,
+        "dist_km": 15.7,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Great Temple of Petra",
+        "lat": 30.329,
+        "lon": 35.442,
+        "dist_km": 16.0,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Temple of the Winged Lions",
+        "lat": 30.329,
+        "lon": 35.442,
+        "dist_km": 16.0,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Darre-ye Barre",
+        "lat": 29.96,
+        "lon": 52.915,
+        "dist_km": 16.7,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Kuh-i Ayyub",
+        "lat": 29.982,
+        "lon": 52.667,
+        "dist_km": 16.8,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "The Deir",
+        "lat": 30.338,
+        "lon": 35.431,
+        "dist_km": 17.1,
+        "period": "0 CE\u2013present"
+      },
+      {
+        "title": "Naqsh-i Rajab",
+        "lat": 29.966,
+        "lon": 52.887,
+        "dist_km": 17.2,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Ammon",
+        "lat": 29.205,
+        "lon": 25.544,
+        "dist_km": 17.5,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Umm Ubaydah",
+        "lat": 29.201,
+        "lon": 25.545,
+        "dist_km": 18.0,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Hajjiabad",
+        "lat": 29.976,
+        "lon": 52.926,
+        "dist_km": 18.7,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Qasr el-Sagha temple",
+        "lat": 29.595,
+        "lon": 30.678,
+        "dist_km": 32.0,
+        "period": "pre-2000 BCE"
+      },
+      {
+        "title": "Kazerun",
+        "lat": 29.618,
+        "lon": 51.658,
+        "dist_km": 32.7,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Kuh-i Shahrak",
+        "lat": 30.144,
+        "lon": 52.533,
+        "dist_km": 33.4,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Chahar Deh",
+        "lat": 30.317,
+        "lon": 50.908,
+        "dist_km": 38.4,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Hathor Temple, Timna Valley",
+        "lat": 29.768,
+        "lon": 34.956,
+        "dist_km": 43.8,
+        "period": "2000 BCE\u20130 CE"
+      },
+      {
+        "title": "Deir Abou Makar",
+        "lat": 30.292,
+        "lon": 30.476,
+        "dist_km": 47.0,
+        "period": "0 CE\u2013present"
+      }
+    ],
+    "off_corridor_hotspots": [
+      {
+        "lat_bin": "[40,45)",
+        "lon_bin": "[10,15)",
+        "count": 344
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[20,25)",
+        "count": 297
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[25,30)",
+        "count": 150
+      },
+      {
+        "lat_bin": "[25,30)",
+        "lon_bin": "[30,35)",
+        "count": 128
+      },
+      {
+        "lat_bin": "[30,35)",
+        "lon_bin": "[35,40)",
+        "count": 94
+      },
+      {
+        "lat_bin": "[45,50)",
+        "lon_bin": "[0,5)",
+        "count": 79
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[30,35)",
+        "count": 75
+      },
+      {
+        "lat_bin": "[30,35)",
+        "lon_bin": "[40,45)",
+        "count": 72
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[40,45)",
+        "count": 62
+      },
+      {
+        "lat_bin": "[40,45)",
+        "lon_bin": "[0,5)",
+        "count": 58
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[5,10)",
+        "count": 51
+      },
+      {
+        "lat_bin": "[35,40)",
+        "lon_bin": "[10,15)",
+        "count": 51
+      },
+      {
+        "lat_bin": "[45,50)",
+        "lon_bin": "[5,10)",
+        "count": 44
+      },
+      {
+        "lat_bin": "[20,25)",
+        "lon_bin": "[30,35)",
+        "count": 42
+      },
+      {
+        "lat_bin": "[45,50)",
+        "lon_bin": "[10,15)",
+        "count": 40
+      }
+    ]
+  },
+  "phase4_sacred_combined": {
+    "sacred_pre2000": {
+      "n": 215,
+      "on_corridor": 46,
+      "mc_mean": 2.01,
+      "mc_std": 1.36,
+      "Z": 32.327
+    },
+    "settlement_pre2000": {
+      "n": 436,
+      "on_corridor": 16,
+      "mc_mean": 3.74,
+      "mc_std": 1.9,
+      "Z": 6.447
+    },
+    "sacred_minus_settlement_Z": 25.88
+  },
+  "phase5_church_vs_temple": {
+    "churches": {
+      "n": 581,
+      "on_corridor": 1,
+      "mc_mean": 5.08,
+      "mc_std": 2.29,
+      "Z": -1.781
+    },
+    "temples_sanctuaries": {
+      "n": 1717,
+      "on_corridor": 29,
+      "mc_mean": 15.06,
+      "mc_std": 3.71,
+      "Z": 3.758
+    },
+    "churches_pre-2000 BCE": {
+      "n": 1,
+      "on_corridor": 0,
+      "mc_mean": 0.01,
+      "Z": -0.119
+    },
+    "churches_2000 BCE\u20130 CE": {
+      "n": 112,
+      "on_corridor": 0,
+      "mc_mean": 1.07,
+      "Z": -1.032
+    },
+    "churches_0 CE\u2013present": {
+      "n": 445,
+      "on_corridor": 1,
+      "mc_mean": 3.81,
+      "Z": -1.493
+    },
+    "churches_undated": {
+      "n": 23,
+      "on_corridor": 0,
+      "mc_mean": 0.27,
+      "Z": -0.521
+    },
+    "temples_pre-2000 BCE": {
+      "n": 68,
+      "on_corridor": 7,
+      "mc_mean": 0.59,
+      "Z": 8.582
+    },
+    "temples_2000 BCE\u20130 CE": {
+      "n": 1374,
+      "on_corridor": 19,
+      "mc_mean": 11.93,
+      "Z": 2.062
+    },
+    "temples_0 CE\u2013present": {
+      "n": 211,
+      "on_corridor": 2,
+      "mc_mean": 1.89,
+      "Z": 0.079
+    },
+    "temples_undated": {
+      "n": 64,
+      "on_corridor": 1,
+      "mc_mean": 0.57,
+      "Z": 0.56
+    }
+  }
+}

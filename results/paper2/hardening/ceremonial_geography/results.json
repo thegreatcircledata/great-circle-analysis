@@ -1,0 +1,211 @@
+{
+  "test": "C5",
+  "title": "Ceremonial Geography Follow-Up",
+  "seed": 42,
+  "mc_trials": 1000,
+  "threshold_km": 50,
+  "total_sites_loaded": 34470,
+  "phase1_on_corridor_ceremonial": {
+    "total_pre2000_ceremonial": 30,
+    "on_corridor_count": 2,
+    "regions_with_on_corridor": {
+      "Egypt/Nubia": 2
+    },
+    "on_corridor_sites": [
+      {
+        "id": "782688268",
+        "title": "Temple of Amenhotep II",
+        "lat": 29.9756,
+        "lon": 31.1381,
+        "min_date": -2670.0,
+        "max_date": -1086.0,
+        "feature_types": "temple, temple-2",
+        "region": "Egypt/Nubia",
+        "dist_km": 6.11
+      },
+      {
+        "id": "442962448",
+        "title": "Giza",
+        "lat": 29.9778,
+        "lon": 31.1319,
+        "min_date": -2670.0,
+        "max_date": 2100.0,
+        "feature_types": "sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex",
+        "region": "Egypt/Nubia",
+        "dist_km": 6.4
+      }
+    ]
+  },
+  "phase2_per_region_enrichment": {
+    "Anatolia": {
+      "n_total": 2,
+      "n_on_corridor": 0,
+      "mc_mean": 0.0,
+      "mc_std": 0.0,
+      "Z": 0.0
+    },
+    "Egypt/Nubia": {
+      "n_total": 8,
+      "n_on_corridor": 2,
+      "mc_mean": 0.6,
+      "mc_std": 0.7,
+      "Z": 2.002
+    },
+    "Iran/Central_Asia": {
+      "n_total": 1,
+      "n_on_corridor": 0,
+      "mc_mean": 0.02,
+      "mc_std": 0.13,
+      "Z": -0.132
+    },
+    "Mesopotamia": {
+      "n_total": 2,
+      "n_on_corridor": 0,
+      "mc_mean": 0.0,
+      "mc_std": 0.04,
+      "Z": -0.045
+    },
+    "North_Africa_nonEgypt": {
+      "n_total": 6,
+      "n_on_corridor": 0,
+      "mc_mean": 0.0,
+      "mc_std": 0.0,
+      "Z": 0.0
+    },
+    "Other": {
+      "n_total": 11,
+      "n_on_corridor": 0,
+      "mc_mean": 0.0,
+      "mc_std": 0.03,
+      "Z": -0.032
+    }
+  },
+  "phase3_framing_decision": {
+    "regions_with_on_corridor_sites": [
+      "Egypt/Nubia"
+    ],
+    "num_regions_with_sites": 1,
+    "regions_Z_gt1": [
+      "Egypt/Nubia"
+    ],
+    "non_egypt_Z_gt1": [],
+    "egypt_on_corridor": 2,
+    "total_on_corridor": 2,
+    "egypt_fraction": 1.0,
+    "framing": "Old Kingdom sacred architecture alignment"
+  },
+  "phase4_combined_sacred": {
+    "multi_regional": false,
+    "per_region_divergence": {
+      "Anatolia": {
+        "sacred_n": 7,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 61,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      },
+      "East_Africa": {
+        "sacred_n": 1,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 3,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      },
+      "Egypt/Nubia": {
+        "sacred_n": 71,
+        "sacred_on": 42,
+        "sacred_Z": -0.008,
+        "settle_n": 43,
+        "settle_on": 9,
+        "settle_Z": -0.035,
+        "divergence": 0.026
+      },
+      "Iran/Central_Asia": {
+        "sacred_n": 5,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 40,
+        "settle_on": 6,
+        "settle_Z": 0.025,
+        "divergence": -0.025
+      },
+      "Levant": {
+        "sacred_n": 6,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 72,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      },
+      "Mesopotamia": {
+        "sacred_n": 5,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 112,
+        "settle_on": 1,
+        "settle_Z": 0.032,
+        "divergence": -0.032
+      },
+      "North_Africa_nonEgypt": {
+        "sacred_n": 6,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 4,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      },
+      "Other": {
+        "sacred_n": 75,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 97,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      },
+      "South_Asia": {
+        "sacred_n": 1,
+        "sacred_on": 0,
+        "sacred_Z": 0.0,
+        "settle_n": 4,
+        "settle_on": 0,
+        "settle_Z": 0.0,
+        "divergence": 0.0
+      }
+    },
+    "egypt_decomposition": {
+      "full_sacred": {
+        "n": 177,
+        "on": 42,
+        "Z": 32.987
+      },
+      "egypt_only": {
+        "n": 71,
+        "on": 42,
+        "Z": 52.786
+      },
+      "non_egypt": {
+        "n": 106,
+        "on": 0,
+        "Z": -0.968
+      }
+    }
+  },
+  "phase5_catalog_summary": {
+    "total_on_corridor_sacred": 42,
+    "by_category": {
+      "mortuary": 40,
+      "ceremonial": 1,
+      "mortuary+ceremonial": 1
+    },
+    "by_region": {
+      "Egypt/Nubia": 42
+    }
+  }
+}

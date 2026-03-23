@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "analysis": "Deep Dive Directive 1: Archaeoastronomical Orientations",
+    "date": "2026-03-21",
+    "n_total": 150,
+    "threshold_km": 100,
+    "pole": {
+      "lat": 59.682122,
+      "lon": -138.646087
+    }
+  },
+  "data_summary": {
+    "within_50km": 54,
+    "within_100km": 56,
+    "within_200km": 60,
+    "within_500km": 87,
+    "total": 150,
+    "near_circle": 56,
+    "off_circle": 94,
+    "sources": {
+      "Belmonte_Egyptian": 69,
+      "Silva_Portuguese": 20,
+      "Liller_EasterIsland": 20,
+      "Aveni_Nazca": 20,
+      "Literature": 21
+    }
+  },
+  "near_circle": {
+    "n": 56,
+    "rayleigh_R": 0.0923,
+    "rayleigh_Z": 0.477,
+    "rayleigh_p": 0.622686,
+    "circular_mean_deg": 326.6,
+    "circular_std_deg": 125.1
+  },
+  "off_circle": {
+    "n": 94,
+    "rayleigh_R": 0.5985,
+    "rayleigh_Z": 33.6756,
+    "rayleigh_p": 0.0,
+    "circular_mean_deg": 106.8,
+    "circular_std_deg": 58.1
+  },
+  "egyptian_subtest": {
+    "total": 69,
+    "near_50km": 10,
+    "mid_50_200km": 5,
+    "far_200km": 54,
+    "bands": {
+      "<50km": {
+        "n": 10,
+        "rayleigh_R": 0.6618,
+        "rayleigh_p": 0.008975,
+        "circular_mean": 23.6,
+        "v_test_east_p": 0.117863,
+        "gc_offset_rayleigh_p": 0.009054,
+        "gc_offset_mean": 299.5
+      },
+      "50-200km": {
+        "n": 5,
+        "rayleigh_R": 0.7905,
+        "rayleigh_p": 0.034722,
+        "circular_mean": 335.3,
+        "v_test_east_p": 0.8518,
+        "gc_offset_rayleigh_p": 0.034371,
+        "gc_offset_mean": 250.4
+      },
+      ">200km": {
+        "n": 54,
+        "rayleigh_R": 0.6435,
+        "rayleigh_p": 0.0,
+        "circular_mean": 107.9,
+        "v_test_east_p": 0.0,
+        "gc_offset_rayleigh_p": 0.0,
+        "gc_offset_mean": 22.6
+      }
+    },
+    "dist_orientation_correlation": {
+      "dist_vs_east_offset": {
+        "pearson_r": -0.3287,
+        "pearson_p": 0.005826,
+        "spearman_rho": -0.2584,
+        "spearman_p": 0.032053
+      },
+      "dist_vs_gc_offset": {
+        "pearson_r": -0.2898,
+        "pearson_p": 0.015713,
+        "spearman_rho": -0.1898,
+        "spearman_p": 0.118183
+      }
+    }
+  },
+  "gc_bearing_alignment": {
+    "near_circle": {
+      "n": 56,
+      "mean_offset_from_gc_deg": 233.8,
+      "offset_circular_std": 122.0,
+      "rayleigh_p": 0.55048,
+      "v_test_along_gc_p": 0.741397,
+      "v_test_perp_gc_p": 0.811734
+    },
+    "off_circle": {
+      "n": 94,
+      "mean_offset_from_gc_deg": 29.6,
+      "offset_circular_std": 57.4,
+      "rayleigh_p": 0.0,
+      "v_test_along_gc_p": 0.0,
+      "v_test_perp_gc_p": 2.1e-05
+    }
+  },
+  "target_tests": {
+    "near_circle": {
+      "East (equinox sunrise, 90\u00b0)": {
+        "target_bearing": 90.0,
+        "V": -0.0509,
+        "u": -0.54,
+        "p": 0.704823
+      },
+      "West (equinox sunset, 270\u00b0)": {
+        "target_bearing": 270.0,
+        "V": 0.0509,
+        "u": 0.54,
+        "p": 0.295177
+      },
+      "North (0\u00b0)": {
+        "target_bearing": 0.0,
+        "V": 0.077,
+        "u": 0.81,
+        "p": 0.207552
+      },
+      "South (180\u00b0)": {
+        "target_bearing": 180.0,
+        "V": -0.077,
+        "u": -0.81,
+        "p": 0.792448
+      },
+      "Summer solstice sunrise (66\u00b0)": {
+        "target_bearing": 66.36009926203428,
+        "V": -0.0157,
+        "u": -0.17,
+        "p": 0.566066
+      },
+      "Winter solstice sunrise (246\u00b0)": {
+        "target_bearing": 246.36009926203428,
+        "V": 0.0157,
+        "u": 0.17,
+        "p": 0.433934
+      }
+    },
+    "off_circle": {
+      "East (equinox sunrise, 90\u00b0)": {
+        "target_bearing": 90.0,
+        "V": 0.573,
+        "u": 7.86,
+        "p": 0.0
+      },
+      "West (equinox sunset, 270\u00b0)": {
+        "target_bearing": 270.0,
+        "V": -0.573,
+        "u": -7.86,
+        "p": 1.0
+      },
+      "North (0\u00b0)": {
+        "target_bearing": 0.0,
+        "V": -0.1728,
+        "u": -2.37,
+        "p": 0.9911
+      },
+      "South (180\u00b0)": {
+        "target_bearing": 180.0,
+        "V": 0.1728,
+        "u": 2.37,
+        "p": 0.0089
+      },
+      "Summer solstice sunrise (63\u00b0)": {
+        "target_bearing": 63.31229804836417,
+        "V": 0.4344,
+        "u": 5.96,
+        "p": 0.0
+      },
+      "Winter solstice sunrise (243\u00b0)": {
+        "target_bearing": 243.31229804836414,
+        "V": -0.4344,
+        "u": -5.96,
+        "p": 1.0
+      }
+    }
+  },
+  "all_monuments": {
+    "n": 150,
+    "rayleigh_R": 0.3493,
+    "rayleigh_Z": 18.3015,
+    "rayleigh_p": 0.0,
+    "circular_mean_deg": 103.2,
+    "circular_std_deg": 83.1
+  },
+  "threshold_sensitivity": {
+    "25km": {
+      "n_near": 52,
+      "n_off": 98,
+      "near_rayleigh_p": 0.914653,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.0416,
+      "off_R": 0.5563,
+      "near_circ_var": 0.9584,
+      "off_circ_var": 0.4437
+    },
+    "50km": {
+      "n_near": 54,
+      "n_off": 96,
+      "near_rayleigh_p": 0.809589,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.0628,
+      "off_R": 0.5712,
+      "near_circ_var": 0.9372,
+      "off_circ_var": 0.4288
+    },
+    "100km": {
+      "n_near": 56,
+      "n_off": 94,
+      "near_rayleigh_p": 0.622686,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.0923,
+      "off_R": 0.5985,
+      "near_circ_var": 0.9077,
+      "off_circ_var": 0.4015
+    },
+    "200km": {
+      "n_near": 60,
+      "n_off": 90,
+      "near_rayleigh_p": 0.359736,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.1308,
+      "off_R": 0.6491,
+      "near_circ_var": 0.8692,
+      "off_circ_var": 0.3509
+    },
+    "500km": {
+      "n_near": 87,
+      "n_off": 63,
+      "near_rayleigh_p": 0.212096,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.1336,
+      "off_R": 0.6886,
+      "near_circ_var": 0.8664,
+      "off_circ_var": 0.3114
+    },
+    "1000km": {
+      "n_near": 110,
+      "n_off": 40,
+      "near_rayleigh_p": 0.006417,
+      "off_rayleigh_p": 0.0,
+      "near_R": 0.2135,
+      "off_R": 0.7259,
+      "near_circ_var": 0.7865,
+      "off_circ_var": 0.2741
+    }
+  },
+  "interpretation": {
+    "key_question": "Do near-circle monuments share a preferred orientation?",
+    "findings": [
+      "Near-circle monument orientations are consistent with uniform distribution (Rayleigh p=0.6227)",
+      "Near-circle monuments do NOT preferentially face along the GC bearing (V-test p=0.741397)"
+    ],
+    "caveats": [
+      "Most orientation databases remain in print \u2014 our dataset is a compilation of available digital sources",
+      "Egyptian temples dominate the near-circle sample, creating geographic bias",
+      "The GC bearing in Egypt (~80-90\u00b0) roughly coincides with sunrise/sunset axis",
+      "East-facing bias in Egyptian temples is well-documented independently of the GC",
+      "Sample sizes for non-Egyptian regions are small",
+      "Many azimuths were manually extracted from published tables \u2014 potential transcription errors"
+    ]
+  }
+}

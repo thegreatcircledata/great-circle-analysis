@@ -1,0 +1,3414 @@
+{
+  "description": "Top 100 triplets by combined score (D / (mean_fit + 1))",
+  "total_sites": 149,
+  "total_triplets": 540274,
+  "site_list": [
+    {
+      "name": "Abu Hureyra",
+      "lat": 35.867,
+      "lon": 38.383,
+      "source": "hancock"
+    },
+    {
+      "name": "Acre Geoglyphs (Amazon Earthworks)",
+      "lat": -9.8,
+      "lon": -67.8,
+      "source": "hancock"
+    },
+    {
+      "name": "Amaru Marka Wasi (Temple of the Moon / Snake Temple)",
+      "lat": -13.506,
+      "lon": -71.964,
+      "source": "hancock"
+    },
+    {
+      "name": "Amazon Geoglyphs (Geoglyphs of Acre)",
+      "lat": -9.97,
+      "lon": -67.5,
+      "source": "hancock"
+    },
+    {
+      "name": "Angkor Wat",
+      "lat": 13.4125,
+      "lon": 103.867,
+      "source": "hancock"
+    },
+    {
+      "name": "Antarctica (Queen Maud Land / Princess Martha Coast)",
+      "lat": -72.0,
+      "lon": -5.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Arlington Canyon Site",
+      "lat": 34.0,
+      "lon": -120.1,
+      "source": "hancock"
+    },
+    {
+      "name": "Baalbek (Temple of Jupiter / Heliopolis)",
+      "lat": 34.0058,
+      "lon": 36.2181,
+      "source": "hancock"
+    },
+    {
+      "name": "Bimini Road (Bimini Wall)",
+      "lat": 25.7697,
+      "lon": -79.2989,
+      "source": "hancock"
+    },
+    {
+      "name": "Blackwater Draw (Clovis type-site)",
+      "lat": 34.277,
+      "lon": -103.322,
+      "source": "hancock"
+    },
+    {
+      "name": "Bluefish Caves",
+      "lat": 67.15,
+      "lon": -140.73,
+      "source": "hancock"
+    },
+    {
+      "name": "Cahokia",
+      "lat": 38.654,
+      "lon": -90.064,
+      "source": "hancock"
+    },
+    {
+      "name": "Carolina Bays",
+      "lat": 34.5,
+      "lon": -79.5,
+      "source": "hancock"
+    },
+    {
+      "name": "Cerutti Mastodon Site",
+      "lat": 32.885,
+      "lon": -117.238,
+      "source": "hancock"
+    },
+    {
+      "name": "Chaco Canyon (Pueblo Bonito and Great Houses)",
+      "lat": 36.06,
+      "lon": -107.96,
+      "source": "hancock"
+    },
+    {
+      "name": "Channeled Scablands",
+      "lat": 47.0,
+      "lon": -118.5,
+      "source": "hancock"
+    },
+    {
+      "name": "Chichen Itza",
+      "lat": 20.6843,
+      "lon": -88.5678,
+      "source": "hancock"
+    },
+    {
+      "name": "Cholula Great Pyramid (Tlachihualtepetl)",
+      "lat": 19.0579,
+      "lon": -98.3022,
+      "source": "hancock"
+    },
+    {
+      "name": "Clovis Type Site (Clovis, New Mexico)",
+      "lat": 34.41,
+      "lon": -103.2,
+      "source": "hancock"
+    },
+    {
+      "name": "Denisova Cave",
+      "lat": 51.398,
+      "lon": 84.676,
+      "source": "hancock"
+    },
+    {
+      "name": "Derinkuyu Underground City",
+      "lat": 38.3742,
+      "lon": 34.7339,
+      "source": "hancock"
+    },
+    {
+      "name": "Easter Island (Rapa Nui) \u2013 Moai and Ahu Platforms",
+      "lat": -27.11,
+      "lon": -109.35,
+      "source": "hancock"
+    },
+    {
+      "name": "Finger Lakes Region (Glacial Geological Evidence)",
+      "lat": 42.8,
+      "lon": -76.9,
+      "source": "hancock"
+    },
+    {
+      "name": "Gault Site / Buttermilk Creek Complex",
+      "lat": 30.77,
+      "lon": -97.72,
+      "source": "hancock"
+    },
+    {
+      "name": "Ggantija (\u0120gantija) Temples",
+      "lat": 36.0478,
+      "lon": 14.2681,
+      "source": "hancock"
+    },
+    {
+      "name": "Giza Plateau \u2014 full complex (including Khufu, Khafre, Menkaure pyramids)",
+      "lat": 29.9774,
+      "lon": 31.1322,
+      "source": "hancock"
+    },
+    {
+      "name": "Gunung Padang",
+      "lat": -6.9939,
+      "lon": 107.0564,
+      "source": "hancock"
+    },
+    {
+      "name": "G\u00f6bekli Tepe",
+      "lat": 37.2236,
+      "lon": 38.9217,
+      "source": "hancock"
+    },
+    {
+      "name": "G\u0127ar Dalam Cave",
+      "lat": 35.8245,
+      "lon": 14.534,
+      "source": "hancock"
+    },
+    {
+      "name": "Harran (City of the Sabians)",
+      "lat": 36.8639,
+      "lon": 39.0322,
+      "source": "hancock"
+    },
+    {
+      "name": "High Bank Works",
+      "lat": 39.37,
+      "lon": -83.04,
+      "source": "hancock"
+    },
+    {
+      "name": "Karahan Tepe",
+      "lat": 37.238,
+      "lon": 39.433,
+      "source": "hancock"
+    },
+    {
+      "name": "Kaymakli Underground City",
+      "lat": 38.2522,
+      "lon": 34.6834,
+      "source": "hancock"
+    },
+    {
+      "name": "La Venta",
+      "lat": 18.1031,
+      "lon": -94.0456,
+      "source": "hancock"
+    },
+    {
+      "name": "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+      "lat": 52.0,
+      "lon": -90.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Lake Titicaca and Island of the Sun",
+      "lat": -15.9254,
+      "lon": -69.3354,
+      "source": "hancock"
+    },
+    {
+      "name": "Lapa do Santo / Lagoa Santa Sites",
+      "lat": -19.5,
+      "lon": -43.9,
+      "source": "hancock"
+    },
+    {
+      "name": "Luzia Woman Site (Lapa Vermelha)",
+      "lat": -19.63,
+      "lon": -44.05,
+      "source": "hancock"
+    },
+    {
+      "name": "Machu Picchu",
+      "lat": -13.1631,
+      "lon": -72.545,
+      "source": "hancock"
+    },
+    {
+      "name": "Malta Cart Ruts",
+      "lat": 35.9042,
+      "lon": 14.3977,
+      "source": "hancock"
+    },
+    {
+      "name": "Meadowcroft Rockshelter",
+      "lat": 40.35,
+      "lon": -80.47,
+      "source": "hancock"
+    },
+    {
+      "name": "Monte Alban",
+      "lat": 17.0432,
+      "lon": -96.7672,
+      "source": "hancock"
+    },
+    {
+      "name": "Monte Verde",
+      "lat": -41.5,
+      "lon": -73.2,
+      "source": "hancock"
+    },
+    {
+      "name": "Moundville Archaeological Site",
+      "lat": 33.005,
+      "lon": -87.631,
+      "source": "hancock"
+    },
+    {
+      "name": "Murray Springs Clovis Site",
+      "lat": 31.5712,
+      "lon": -110.1808,
+      "source": "hancock"
+    },
+    {
+      "name": "Nan Madol",
+      "lat": 6.8428,
+      "lon": 158.3328,
+      "source": "hancock"
+    },
+    {
+      "name": "Nazca Lines",
+      "lat": -14.739,
+      "lon": -75.13,
+      "source": "hancock"
+    },
+    {
+      "name": "Nevali \u00c7ori (Neval\u0131 \u00c7ori)",
+      "lat": 37.5177,
+      "lon": 38.6033,
+      "source": "hancock"
+    },
+    {
+      "name": "Newark Earthworks (Octagon Earthworks and Great Circle)",
+      "lat": 40.042,
+      "lon": -82.43,
+      "source": "hancock"
+    },
+    {
+      "name": "Ollantaytambo",
+      "lat": -13.2589,
+      "lon": -72.2644,
+      "source": "hancock"
+    },
+    {
+      "name": "Osireion (Osirion) at Abydos",
+      "lat": 26.1843,
+      "lon": 31.9193,
+      "source": "hancock"
+    },
+    {
+      "name": "Page-Ladson Site",
+      "lat": 30.23,
+      "lon": -83.85,
+      "source": "hancock"
+    },
+    {
+      "name": "Palenque (Temple of Inscriptions / Equinox Alignment)",
+      "lat": 17.484,
+      "lon": -92.046,
+      "source": "hancock"
+    },
+    {
+      "name": "Paracas Candelabra (Candelabra of the Andes / El Candelabro)",
+      "lat": -13.78,
+      "lon": -76.33,
+      "source": "hancock"
+    },
+    {
+      "name": "Pedra Furada (Serra da Capivara)",
+      "lat": -8.83,
+      "lon": -42.55,
+      "source": "hancock"
+    },
+    {
+      "name": "Pilauco Site (Younger Dryas Boundary layer)",
+      "lat": -40.59,
+      "lon": -73.13,
+      "source": "hancock"
+    },
+    {
+      "name": "Piri Reis Map (1513)",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "source": "hancock"
+    },
+    {
+      "name": "Poverty Point",
+      "lat": 32.637,
+      "lon": -91.411,
+      "source": "hancock"
+    },
+    {
+      "name": "Puma Punku",
+      "lat": -16.563,
+      "lon": -68.6724,
+      "source": "hancock"
+    },
+    {
+      "name": "Pyramid of the Magician (Uxmal)",
+      "lat": 20.3594,
+      "lon": -89.7714,
+      "source": "hancock"
+    },
+    {
+      "name": "Pyramid of the Sun at Teotihuacan",
+      "lat": 19.6922,
+      "lon": -98.8445,
+      "source": "hancock"
+    },
+    {
+      "name": "Rego Grande (Amazonian Stonehenge)",
+      "lat": 0.5,
+      "lon": -51.78,
+      "source": "hancock"
+    },
+    {
+      "name": "Saginaw Bay Impact Point (hypothetical)",
+      "lat": 43.6,
+      "lon": -83.8,
+      "source": "hancock"
+    },
+    {
+      "name": "Saint Croix River Potholes (Interstate State Park)",
+      "lat": 45.39,
+      "lon": -92.65,
+      "source": "hancock"
+    },
+    {
+      "name": "San Lorenzo",
+      "lat": 17.9833,
+      "lon": -94.8667,
+      "source": "hancock"
+    },
+    {
+      "name": "Serpent Mound",
+      "lat": 39.0256,
+      "lon": -83.4297,
+      "source": "hancock"
+    },
+    {
+      "name": "Serra da Paituna / Painel do Pil\u00e3o (Amazon Rock Art)",
+      "lat": -2.0,
+      "lon": -54.07,
+      "source": "hancock"
+    },
+    {
+      "name": "Stonehenge",
+      "lat": 51.1789,
+      "lon": -1.8262,
+      "source": "hancock"
+    },
+    {
+      "name": "Sundaland (submerged continental shelf)",
+      "lat": 5.0,
+      "lon": 108.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Sundaland (submerged landmass)",
+      "lat": 0.0,
+      "lon": 108.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Suriqui Island",
+      "lat": -16.2,
+      "lon": -68.75,
+      "source": "hancock"
+    },
+    {
+      "name": "Tell Qaramel",
+      "lat": 36.62,
+      "lon": 37.19,
+      "source": "hancock"
+    },
+    {
+      "name": "Temple of Horus at Edfu (Edfu Building Texts)",
+      "lat": 24.9786,
+      "lon": 32.8732,
+      "source": "hancock"
+    },
+    {
+      "name": "Tequinho Geoglyph Site",
+      "lat": -9.55,
+      "lon": -67.7,
+      "source": "hancock"
+    },
+    {
+      "name": "Terra Preta Sites (Amazonian Dark Earth)",
+      "lat": -3.5,
+      "lon": -60.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Terra Preta Sites / Amazon Managed Landscape",
+      "lat": -3.0,
+      "lon": -60.0,
+      "source": "hancock"
+    },
+    {
+      "name": "Texcotzingo (Tetzcotzingo)",
+      "lat": 19.5058,
+      "lon": -98.8528,
+      "source": "hancock"
+    },
+    {
+      "name": "Toca da Tira Peia (Serra da Capivara)",
+      "lat": -8.77,
+      "lon": -42.63,
+      "source": "hancock"
+    },
+    {
+      "name": "Topper Site",
+      "lat": 33.0,
+      "lon": -81.55,
+      "source": "hancock"
+    },
+    {
+      "name": "Tres Zapotes",
+      "lat": 18.4667,
+      "lon": -95.4,
+      "source": "hancock"
+    },
+    {
+      "name": "Watson Brake",
+      "lat": 32.45,
+      "lon": -92.22,
+      "source": "hancock"
+    },
+    {
+      "name": "White Pond (Younger Dryas Boundary Sediment Core Site)",
+      "lat": 34.18,
+      "lon": -80.58,
+      "source": "hancock"
+    },
+    {
+      "name": "White Sands (Fossilized Human Footprints)",
+      "lat": 32.78,
+      "lon": -106.17,
+      "source": "hancock"
+    },
+    {
+      "name": "Xochicalco",
+      "lat": 18.4983,
+      "lon": -99.2989,
+      "source": "hancock"
+    },
+    {
+      "name": "Yonaguni Monument (Submarine Ruins)",
+      "lat": 24.4333,
+      "lon": 122.9833,
+      "source": "hancock"
+    },
+    {
+      "name": "Borobudur",
+      "lat": -7.608,
+      "lon": 110.204,
+      "source": "curated"
+    },
+    {
+      "name": "Prambanan",
+      "lat": -7.752,
+      "lon": 110.492,
+      "source": "curated"
+    },
+    {
+      "name": "Mohenjo-daro",
+      "lat": 27.329,
+      "lon": 68.138,
+      "source": "curated"
+    },
+    {
+      "name": "Harappa",
+      "lat": 30.631,
+      "lon": 72.868,
+      "source": "curated"
+    },
+    {
+      "name": "Sanchi Stupa",
+      "lat": 23.479,
+      "lon": 77.74,
+      "source": "curated"
+    },
+    {
+      "name": "Ellora Caves",
+      "lat": 20.027,
+      "lon": 75.179,
+      "source": "curated"
+    },
+    {
+      "name": "Ajanta Caves",
+      "lat": 20.552,
+      "lon": 75.7,
+      "source": "curated"
+    },
+    {
+      "name": "Hampi",
+      "lat": 15.335,
+      "lon": 76.46,
+      "source": "curated"
+    },
+    {
+      "name": "Sigiriya",
+      "lat": 7.957,
+      "lon": 80.76,
+      "source": "curated"
+    },
+    {
+      "name": "Bagan Temples",
+      "lat": 21.172,
+      "lon": 94.859,
+      "source": "curated"
+    },
+    {
+      "name": "Sukhothai",
+      "lat": 17.017,
+      "lon": 99.703,
+      "source": "curated"
+    },
+    {
+      "name": "Great Wall Badaling",
+      "lat": 40.36,
+      "lon": 116.014,
+      "source": "curated"
+    },
+    {
+      "name": "Terracotta Army Xian",
+      "lat": 34.384,
+      "lon": 109.278,
+      "source": "curated"
+    },
+    {
+      "name": "Forbidden City Beijing",
+      "lat": 39.917,
+      "lon": 116.397,
+      "source": "curated"
+    },
+    {
+      "name": "Gyeongju Tumuli",
+      "lat": 35.834,
+      "lon": 129.219,
+      "source": "curated"
+    },
+    {
+      "name": "Kofun Daisen (Nintoku)",
+      "lat": 34.564,
+      "lon": 135.488,
+      "source": "curated"
+    },
+    {
+      "name": "Ise Grand Shrine",
+      "lat": 34.455,
+      "lon": 136.726,
+      "source": "curated"
+    },
+    {
+      "name": "Great Zimbabwe",
+      "lat": -20.274,
+      "lon": 30.934,
+      "source": "curated"
+    },
+    {
+      "name": "Meroe Pyramids",
+      "lat": 16.938,
+      "lon": 33.749,
+      "source": "curated"
+    },
+    {
+      "name": "Aksum Stelae Field",
+      "lat": 14.131,
+      "lon": 38.72,
+      "source": "curated"
+    },
+    {
+      "name": "Lalibela Rock Churches",
+      "lat": 12.032,
+      "lon": 39.044,
+      "source": "curated"
+    },
+    {
+      "name": "Leptis Magna",
+      "lat": 32.638,
+      "lon": 14.289,
+      "source": "curated"
+    },
+    {
+      "name": "Volubilis",
+      "lat": 34.074,
+      "lon": -5.554,
+      "source": "curated"
+    },
+    {
+      "name": "Mesa Verde",
+      "lat": 37.184,
+      "lon": -108.489,
+      "source": "curated"
+    },
+    {
+      "name": "Caral",
+      "lat": -10.893,
+      "lon": -77.52,
+      "source": "curated"
+    },
+    {
+      "name": "Chan Chan",
+      "lat": -8.106,
+      "lon": -79.075,
+      "source": "curated"
+    },
+    {
+      "name": "Copan",
+      "lat": 14.84,
+      "lon": -89.141,
+      "source": "curated"
+    },
+    {
+      "name": "El Tajin",
+      "lat": 20.449,
+      "lon": -97.378,
+      "source": "curated"
+    },
+    {
+      "name": "Persepolis",
+      "lat": 29.935,
+      "lon": 52.891,
+      "source": "curated"
+    },
+    {
+      "name": "Pasargadae",
+      "lat": 30.194,
+      "lon": 53.167,
+      "source": "curated"
+    },
+    {
+      "name": "Hattusa",
+      "lat": 40.018,
+      "lon": 34.615,
+      "source": "curated"
+    },
+    {
+      "name": "Troy Hisarlik",
+      "lat": 39.957,
+      "lon": 26.239,
+      "source": "curated"
+    },
+    {
+      "name": "Knossos",
+      "lat": 35.298,
+      "lon": 25.163,
+      "source": "curated"
+    },
+    {
+      "name": "Mycenae",
+      "lat": 37.731,
+      "lon": 22.757,
+      "source": "curated"
+    },
+    {
+      "name": "Delphi",
+      "lat": 38.482,
+      "lon": 22.501,
+      "source": "curated"
+    },
+    {
+      "name": "Olympia",
+      "lat": 37.638,
+      "lon": 21.63,
+      "source": "curated"
+    },
+    {
+      "name": "Ephesus",
+      "lat": 37.941,
+      "lon": 27.342,
+      "source": "curated"
+    },
+    {
+      "name": "Palmyra",
+      "lat": 34.551,
+      "lon": 38.269,
+      "source": "curated"
+    },
+    {
+      "name": "Petra",
+      "lat": 30.329,
+      "lon": 35.444,
+      "source": "curated"
+    },
+    {
+      "name": "Jerash",
+      "lat": 32.281,
+      "lon": 35.891,
+      "source": "curated"
+    },
+    {
+      "name": "Pompeii",
+      "lat": 40.751,
+      "lon": 14.487,
+      "source": "curated"
+    },
+    {
+      "name": "Colosseum Rome",
+      "lat": 41.89,
+      "lon": 12.492,
+      "source": "curated"
+    },
+    {
+      "name": "Parthenon Athens",
+      "lat": 37.971,
+      "lon": 23.727,
+      "source": "curated"
+    },
+    {
+      "name": "Avebury",
+      "lat": 51.429,
+      "lon": -1.854,
+      "source": "curated"
+    },
+    {
+      "name": "Newgrange",
+      "lat": 53.695,
+      "lon": -6.475,
+      "source": "curated"
+    },
+    {
+      "name": "Carnac Stones",
+      "lat": 47.585,
+      "lon": -3.077,
+      "source": "curated"
+    },
+    {
+      "name": "Skara Brae",
+      "lat": 59.049,
+      "lon": -3.343,
+      "source": "curated"
+    },
+    {
+      "name": "Tonga Haamonga",
+      "lat": -21.139,
+      "lon": -175.068,
+      "source": "curated"
+    },
+    {
+      "name": "Kidmuri Temple",
+      "lat": 36.3595,
+      "lon": 43.1537,
+      "source": "pleiades"
+    },
+    {
+      "name": "Sebetti temple (Khorsabad) ",
+      "lat": 36.5065,
+      "lon": 43.2263,
+      "source": "pleiades"
+    },
+    {
+      "name": "Emah",
+      "lat": 32.5433,
+      "lon": 44.4233,
+      "source": "pleiades"
+    },
+    {
+      "name": "Gula temple (Kalhu)",
+      "lat": 36.1007,
+      "lon": 43.3285,
+      "source": "pleiades"
+    },
+    {
+      "name": "Temple of S\u00een and \u0160ama\u0161 at Assur",
+      "lat": 35.4581,
+      "lon": 43.2597,
+      "source": "pleiades"
+    },
+    {
+      "name": "Temple of Bel at Dura-Europos",
+      "lat": 34.7509,
+      "lon": 40.7258,
+      "source": "pleiades"
+    },
+    {
+      "name": "Batavodurum/(Ulpia) Noviomagus",
+      "lat": 51.8417,
+      "lon": 5.8587,
+      "source": "pleiades"
+    },
+    {
+      "name": "Pyrgi",
+      "lat": 42.0155,
+      "lon": 11.9627,
+      "source": "pleiades"
+    },
+    {
+      "name": "Tarracina(e)/Anxur",
+      "lat": 41.2912,
+      "lon": 13.2488,
+      "source": "pleiades"
+    },
+    {
+      "name": "Viroconium",
+      "lat": 52.6745,
+      "lon": -2.6438,
+      "source": "pleiades"
+    },
+    {
+      "name": "Bassai",
+      "lat": 37.4296,
+      "lon": 21.9003,
+      "source": "pleiades"
+    },
+    {
+      "name": "Grotto of the Sibyl",
+      "lat": 40.835,
+      "lon": 14.0767,
+      "source": "pleiades"
+    },
+    {
+      "name": "Zeus Diktaios, T./Eleia?",
+      "lat": 35.1964,
+      "lon": 26.276,
+      "source": "pleiades"
+    },
+    {
+      "name": "Capua",
+      "lat": 41.0861,
+      "lon": 14.2502,
+      "source": "pleiades"
+    },
+    {
+      "name": "Asklepieion",
+      "lat": 39.1189,
+      "lon": 27.1656,
+      "source": "pleiades"
+    },
+    {
+      "name": "Mortuary Temple of Merenptah",
+      "lat": 25.725,
+      "lon": 32.6066,
+      "source": "pleiades"
+    }
+  ],
+  "top_100_combined": [
+    {
+      "sites": [
+        "Mesa Verde",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        108,
+        126,
+        141
+      ],
+      "pole_lat": 30.7254,
+      "pole_lon": 134.7109,
+      "fit_max_km": 0.24,
+      "fit_mean_km": 0.16,
+      "d1_km": 0.0,
+      "d2_km": 0.24,
+      "d3_km": 0.24,
+      "D_approx": 52.6823,
+      "z_mon": 90.3626,
+      "z_set": 37.6802,
+      "n_mon": 1213,
+      "n_set": 784,
+      "combined_score": 45.4365
+    },
+    {
+      "sites": [
+        "Stonehenge",
+        "Mesa Verde",
+        "Capua"
+      ],
+      "indices": [
+        67,
+        108,
+        146
+      ],
+      "pole_lat": 30.4262,
+      "pole_lon": 135.0535,
+      "fit_max_km": 0.01,
+      "fit_mean_km": 0.01,
+      "d1_km": 0.01,
+      "d2_km": 0.0,
+      "d3_km": 0.01,
+      "D_approx": 45.4569,
+      "z_mon": 90.7839,
+      "z_set": 45.327,
+      "n_mon": 1218,
+      "n_set": 898,
+      "combined_score": 45.1976
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Stonehenge",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        34,
+        67,
+        126
+      ],
+      "pole_lat": 29.6578,
+      "pole_lon": 133.2101,
+      "fit_max_km": 0.42,
+      "fit_mean_km": 0.29,
+      "d1_km": 0.11,
+      "d2_km": 0.42,
+      "d3_km": 0.36,
+      "D_approx": 53.5027,
+      "z_mon": 90.1097,
+      "z_set": 36.607,
+      "n_mon": 1210,
+      "n_set": 768,
+      "combined_score": 41.3152
+    },
+    {
+      "sites": [
+        "Poverty Point",
+        "Pompeii",
+        "Pyrgi"
+      ],
+      "indices": [
+        57,
+        125,
+        140
+      ],
+      "pole_lat": 38.5669,
+      "pole_lon": 147.882,
+      "fit_max_km": 0.14,
+      "fit_mean_km": 0.09,
+      "d1_km": 0.01,
+      "d2_km": 0.14,
+      "d3_km": 0.14,
+      "D_approx": 44.4439,
+      "z_mon": 89.4355,
+      "z_set": 44.9917,
+      "n_mon": 1202,
+      "n_set": 893,
+      "combined_score": 40.6594
+    },
+    {
+      "sites": [
+        "Cahokia",
+        "Pyrgi",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        11,
+        140,
+        141
+      ],
+      "pole_lat": 36.4621,
+      "pole_lon": 143.7062,
+      "fit_max_km": 0.35,
+      "fit_mean_km": 0.23,
+      "d1_km": 0.01,
+      "d2_km": 0.35,
+      "d3_km": 0.35,
+      "D_approx": 47.8923,
+      "z_mon": 91.5424,
+      "z_set": 43.6501,
+      "n_mon": 1227,
+      "n_set": 873,
+      "combined_score": 38.8305
+    },
+    {
+      "sites": [
+        "Osireion (Osirion) at Abydos",
+        "Saginaw Bay Impact Point (hypothetical)",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        50,
+        62,
+        144
+      ],
+      "pole_lat": 35.8496,
+      "pole_lon": 142.7257,
+      "fit_max_km": 0.38,
+      "fit_mean_km": 0.29,
+      "d1_km": 0.36,
+      "d2_km": 0.14,
+      "d3_km": 0.38,
+      "D_approx": 48.6938,
+      "z_mon": 90.8682,
+      "z_set": 42.1744,
+      "n_mon": 1219,
+      "n_set": 851,
+      "combined_score": 37.6748
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Xochicalco",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        12,
+        83,
+        126
+      ],
+      "pole_lat": 41.022,
+      "pole_lon": 153.7799,
+      "fit_max_km": 0.0,
+      "fit_mean_km": 0.0,
+      "d1_km": 0.0,
+      "d2_km": 0.0,
+      "d3_km": 0.0,
+      "D_approx": 37.4163,
+      "z_mon": 95.7563,
+      "z_set": 58.34,
+      "n_mon": 1277,
+      "n_set": 1092,
+      "combined_score": 37.3231
+    },
+    {
+      "sites": [
+        "Pyrgi",
+        "Bassai",
+        "Capua"
+      ],
+      "indices": [
+        140,
+        143,
+        146
+      ],
+      "pole_lat": 41.1303,
+      "pole_lon": 153.8433,
+      "fit_max_km": 0.06,
+      "fit_mean_km": 0.04,
+      "d1_km": 0.05,
+      "d2_km": 0.01,
+      "d3_km": 0.06,
+      "D_approx": 38.5205,
+      "z_mon": 95.2506,
+      "z_set": 56.7302,
+      "n_mon": 1271,
+      "n_set": 1068,
+      "combined_score": 37.0123
+    },
+    {
+      "sites": [
+        "Pompeii",
+        "Carnac Stones",
+        "Pyrgi"
+      ],
+      "indices": [
+        125,
+        130,
+        140
+      ],
+      "pole_lat": 38.6736,
+      "pole_lon": 148.0983,
+      "fit_max_km": 0.33,
+      "fit_mean_km": 0.22,
+      "d1_km": 0.28,
+      "d2_km": 0.05,
+      "d3_km": 0.33,
+      "D_approx": 43.8574,
+      "z_mon": 89.5198,
+      "z_set": 45.6624,
+      "n_mon": 1203,
+      "n_set": 903,
+      "combined_score": 35.9234
+    },
+    {
+      "sites": [
+        "Topper Site",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        78,
+        140,
+        146
+      ],
+      "pole_lat": 41.1451,
+      "pole_lon": 153.8797,
+      "fit_max_km": 0.11,
+      "fit_mean_km": 0.08,
+      "d1_km": 0.0,
+      "d2_km": 0.11,
+      "d3_km": 0.11,
+      "D_approx": 38.6048,
+      "z_mon": 95.3349,
+      "z_set": 56.7302,
+      "n_mon": 1272,
+      "n_set": 1068,
+      "combined_score": 35.8477
+    },
+    {
+      "sites": [
+        "Page-Ladson Site",
+        "Pyrgi",
+        "Zeus Diktaios, T./Eleia?"
+      ],
+      "indices": [
+        51,
+        140,
+        145
+      ],
+      "pole_lat": 41.5797,
+      "pole_lon": 155.0187,
+      "fit_max_km": 0.21,
+      "fit_mean_km": 0.15,
+      "d1_km": 0.05,
+      "d2_km": 0.21,
+      "d3_km": 0.2,
+      "D_approx": 41.0901,
+      "z_mon": 96.0091,
+      "z_set": 54.9191,
+      "n_mon": 1280,
+      "n_set": 1041,
+      "combined_score": 35.7189
+    },
+    {
+      "sites": [
+        "Chaco Canyon (Pueblo Bonito and Great Houses)",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        14,
+        126,
+        141
+      ],
+      "pole_lat": 31.39,
+      "pole_lon": 135.6622,
+      "fit_max_km": 0.6,
+      "fit_mean_km": 0.41,
+      "d1_km": 0.01,
+      "d2_km": 0.6,
+      "d3_km": 0.6,
+      "D_approx": 50.1506,
+      "z_mon": 87.16,
+      "z_set": 37.0095,
+      "n_mon": 1175,
+      "n_set": 774,
+      "combined_score": 35.6922
+    },
+    {
+      "sites": [
+        "Xochicalco",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        83,
+        140,
+        146
+      ],
+      "pole_lat": 41.0881,
+      "pole_lon": 153.7393,
+      "fit_max_km": 0.11,
+      "fit_mean_km": 0.08,
+      "d1_km": 0.0,
+      "d2_km": 0.11,
+      "d3_km": 0.11,
+      "D_approx": 38.2522,
+      "z_mon": 95.2506,
+      "z_set": 56.9985,
+      "n_mon": 1271,
+      "n_set": 1072,
+      "combined_score": 35.5117
+    },
+    {
+      "sites": [
+        "El Tajin",
+        "Olympia",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        112,
+        120,
+        126
+      ],
+      "pole_lat": 40.9945,
+      "pole_lon": 153.713,
+      "fit_max_km": 0.09,
+      "fit_mean_km": 0.07,
+      "d1_km": 0.01,
+      "d2_km": 0.09,
+      "d3_km": 0.09,
+      "D_approx": 37.0637,
+      "z_mon": 95.672,
+      "z_set": 58.6083,
+      "n_mon": 1276,
+      "n_set": 1096,
+      "combined_score": 34.7941
+    },
+    {
+      "sites": [
+        "Topper Site",
+        "Bassai",
+        "Capua"
+      ],
+      "indices": [
+        78,
+        143,
+        146
+      ],
+      "pole_lat": 41.1469,
+      "pole_lon": 153.877,
+      "fit_max_km": 0.17,
+      "fit_mean_km": 0.12,
+      "d1_km": 0.02,
+      "d2_km": 0.16,
+      "d3_km": 0.17,
+      "D_approx": 38.7217,
+      "z_mon": 95.2506,
+      "z_set": 56.5289,
+      "n_mon": 1271,
+      "n_set": 1065,
+      "combined_score": 34.6216
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "Colosseum Rome",
+        "Bassai"
+      ],
+      "indices": [
+        76,
+        126,
+        143
+      ],
+      "pole_lat": 40.8378,
+      "pole_lon": 153.3184,
+      "fit_max_km": 0.04,
+      "fit_mean_km": 0.03,
+      "d1_km": 0.01,
+      "d2_km": 0.04,
+      "d3_km": 0.04,
+      "D_approx": 35.3025,
+      "z_mon": 95.5877,
+      "z_set": 60.2852,
+      "n_mon": 1275,
+      "n_set": 1121,
+      "combined_score": 34.3782
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        12,
+        140,
+        146
+      ],
+      "pole_lat": 41.0732,
+      "pole_lon": 153.7027,
+      "fit_max_km": 0.17,
+      "fit_mean_km": 0.12,
+      "d1_km": 0.01,
+      "d2_km": 0.17,
+      "d3_km": 0.17,
+      "D_approx": 38.235,
+      "z_mon": 95.1664,
+      "z_set": 56.9314,
+      "n_mon": 1270,
+      "n_set": 1071,
+      "combined_score": 34.2148
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Knossos",
+        "Pompeii"
+      ],
+      "indices": [
+        12,
+        117,
+        125
+      ],
+      "pole_lat": 41.2146,
+      "pole_lon": 153.4882,
+      "fit_max_km": 0.04,
+      "fit_mean_km": 0.03,
+      "d1_km": 0.01,
+      "d2_km": 0.04,
+      "d3_km": 0.04,
+      "D_approx": 34.8036,
+      "z_mon": 86.5701,
+      "z_set": 51.7664,
+      "n_mon": 1168,
+      "n_set": 994,
+      "combined_score": 33.7582
+    },
+    {
+      "sites": [
+        "Pyramid of the Magician (Uxmal)",
+        "Mycenae",
+        "Capua"
+      ],
+      "indices": [
+        59,
+        118,
+        146
+      ],
+      "pole_lat": 43.3681,
+      "pole_lon": 159.7095,
+      "fit_max_km": 0.36,
+      "fit_mean_km": 0.25,
+      "d1_km": 0.05,
+      "d2_km": 0.36,
+      "d3_km": 0.36,
+      "D_approx": 42.2425,
+      "z_mon": 101.6557,
+      "z_set": 59.4132,
+      "n_mon": 1347,
+      "n_set": 1108,
+      "combined_score": 33.7296
+    },
+    {
+      "sites": [
+        "Gault Site / Buttermilk Creek Complex",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        23,
+        141,
+        144
+      ],
+      "pole_lat": 37.3203,
+      "pole_lon": 145.285,
+      "fit_max_km": 0.23,
+      "fit_mean_km": 0.16,
+      "d1_km": 0.0,
+      "d2_km": 0.23,
+      "d3_km": 0.23,
+      "D_approx": 38.787,
+      "z_mon": 85.0531,
+      "z_set": 46.2661,
+      "n_mon": 1150,
+      "n_set": 912,
+      "combined_score": 33.5234
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Xochicalco",
+        "Olympia"
+      ],
+      "indices": [
+        12,
+        83,
+        120
+      ],
+      "pole_lat": 41.0269,
+      "pole_lon": 153.7751,
+      "fit_max_km": 0.14,
+      "fit_mean_km": 0.11,
+      "d1_km": 0.14,
+      "d2_km": 0.14,
+      "d3_km": 0.06,
+      "D_approx": 37.2804,
+      "z_mon": 95.4192,
+      "z_set": 58.1388,
+      "n_mon": 1273,
+      "n_set": 1089,
+      "combined_score": 33.4665
+    },
+    {
+      "sites": [
+        "El Tajin",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        112,
+        140,
+        146
+      ],
+      "pole_lat": 41.0592,
+      "pole_lon": 153.6682,
+      "fit_max_km": 0.23,
+      "fit_mean_km": 0.16,
+      "d1_km": 0.01,
+      "d2_km": 0.23,
+      "d3_km": 0.23,
+      "D_approx": 38.4035,
+      "z_mon": 95.3349,
+      "z_set": 56.9314,
+      "n_mon": 1272,
+      "n_set": 1071,
+      "combined_score": 33.2426
+    },
+    {
+      "sites": [
+        "Meroe Pyramids",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        103,
+        126,
+        141
+      ],
+      "pole_lat": 30.1837,
+      "pole_lon": 133.9522,
+      "fit_max_km": 0.93,
+      "fit_mean_km": 0.62,
+      "d1_km": 0.03,
+      "d2_km": 0.91,
+      "d3_km": 0.93,
+      "D_approx": 53.2379,
+      "z_mon": 90.7839,
+      "z_set": 37.5461,
+      "n_mon": 1218,
+      "n_set": 782,
+      "combined_score": 32.8697
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Knossos"
+      ],
+      "indices": [
+        76,
+        81,
+        117
+      ],
+      "pole_lat": 41.0301,
+      "pole_lon": 153.1941,
+      "fit_max_km": 0.08,
+      "fit_mean_km": 0.06,
+      "d1_km": 0.08,
+      "d2_km": 0.08,
+      "d3_km": 0.03,
+      "D_approx": 34.6523,
+      "z_mon": 89.7726,
+      "z_set": 55.1203,
+      "n_mon": 1206,
+      "n_set": 1044,
+      "combined_score": 32.5388
+    },
+    {
+      "sites": [
+        "Topper Site",
+        "Pyrgi",
+        "Bassai"
+      ],
+      "indices": [
+        78,
+        140,
+        143
+      ],
+      "pole_lat": 41.1461,
+      "pole_lon": 153.8777,
+      "fit_max_km": 0.28,
+      "fit_mean_km": 0.2,
+      "d1_km": 0.04,
+      "d2_km": 0.28,
+      "d3_km": 0.27,
+      "D_approx": 38.6546,
+      "z_mon": 95.2506,
+      "z_set": 56.596,
+      "n_mon": 1271,
+      "n_set": 1066,
+      "combined_score": 32.1882
+    },
+    {
+      "sites": [
+        "Pyrgi",
+        "Tarracina(e)/Anxur",
+        "Mortuary Temple of Merenptah"
+      ],
+      "indices": [
+        140,
+        141,
+        148
+      ],
+      "pole_lat": 36.2243,
+      "pole_lon": 143.2745,
+      "fit_max_km": 0.86,
+      "fit_mean_km": 0.57,
+      "d1_km": 0.82,
+      "d2_km": 0.86,
+      "d3_km": 0.05,
+      "D_approx": 48.5579,
+      "z_mon": 90.5311,
+      "z_set": 41.9732,
+      "n_mon": 1215,
+      "n_set": 848,
+      "combined_score": 30.8542
+    },
+    {
+      "sites": [
+        "Cholula Great Pyramid (Tlachihualtepetl)",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        17,
+        140,
+        146
+      ],
+      "pole_lat": 41.2251,
+      "pole_lon": 154.0782,
+      "fit_max_km": 0.43,
+      "fit_mean_km": 0.29,
+      "d1_km": 0.01,
+      "d2_km": 0.43,
+      "d3_km": 0.43,
+      "D_approx": 39.8294,
+      "z_mon": 95.4192,
+      "z_set": 55.5898,
+      "n_mon": 1273,
+      "n_set": 1051,
+      "combined_score": 30.7819
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Colosseum Rome",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        9,
+        126,
+        144
+      ],
+      "pole_lat": 33.8452,
+      "pole_lon": 139.4816,
+      "fit_max_km": 0.79,
+      "fit_mean_km": 0.53,
+      "d1_km": 0.02,
+      "d2_km": 0.79,
+      "d3_km": 0.79,
+      "D_approx": 46.8242,
+      "z_mon": 82.6933,
+      "z_set": 35.8692,
+      "n_mon": 1122,
+      "n_set": 757,
+      "combined_score": 30.5742
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        9,
+        18,
+        141
+      ],
+      "pole_lat": 33.8964,
+      "pole_lon": 139.4115,
+      "fit_max_km": 0.86,
+      "fit_mean_km": 0.58,
+      "d1_km": 0.86,
+      "d2_km": 0.86,
+      "d3_km": 0.0,
+      "D_approx": 47.9197,
+      "z_mon": 80.5021,
+      "z_set": 32.5824,
+      "n_mon": 1096,
+      "n_set": 708,
+      "combined_score": 30.3804
+    },
+    {
+      "sites": [
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Colosseum Rome",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        18,
+        126,
+        144
+      ],
+      "pole_lat": 33.8359,
+      "pole_lon": 139.4668,
+      "fit_max_km": 0.81,
+      "fit_mean_km": 0.55,
+      "d1_km": 0.02,
+      "d2_km": 0.81,
+      "d3_km": 0.81,
+      "D_approx": 46.9927,
+      "z_mon": 82.8619,
+      "z_set": 35.8692,
+      "n_mon": 1124,
+      "n_set": 757,
+      "combined_score": 30.3659
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        9,
+        18,
+        144
+      ],
+      "pole_lat": 33.8351,
+      "pole_lon": 139.4799,
+      "fit_max_km": 0.85,
+      "fit_mean_km": 0.57,
+      "d1_km": 0.85,
+      "d2_km": 0.85,
+      "d3_km": 0.0,
+      "D_approx": 47.6171,
+      "z_mon": 83.6204,
+      "z_set": 36.0033,
+      "n_mon": 1133,
+      "n_set": 759,
+      "combined_score": 30.3617
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Stonehenge",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        34,
+        67,
+        141
+      ],
+      "pole_lat": 29.6526,
+      "pole_lon": 133.2329,
+      "fit_max_km": 1.08,
+      "fit_mean_km": 0.77,
+      "d1_km": 0.29,
+      "d2_km": 1.08,
+      "d3_km": 0.93,
+      "D_approx": 53.2877,
+      "z_mon": 90.6997,
+      "z_set": 37.4119,
+      "n_mon": 1217,
+      "n_set": 780,
+      "combined_score": 30.1687
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Pompeii"
+      ],
+      "indices": [
+        9,
+        18,
+        125
+      ],
+      "pole_lat": 33.7252,
+      "pole_lon": 139.6021,
+      "fit_max_km": 0.83,
+      "fit_mean_km": 0.55,
+      "d1_km": 0.83,
+      "d2_km": 0.83,
+      "d3_km": 0.0,
+      "D_approx": 46.5852,
+      "z_mon": 88.4242,
+      "z_set": 41.839,
+      "n_mon": 1190,
+      "n_set": 846,
+      "combined_score": 30.012
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        9,
+        18,
+        126
+      ],
+      "pole_lat": 33.8457,
+      "pole_lon": 139.4681,
+      "fit_max_km": 0.85,
+      "fit_mean_km": 0.57,
+      "d1_km": 0.85,
+      "d2_km": 0.85,
+      "d3_km": 0.0,
+      "D_approx": 46.7554,
+      "z_mon": 82.3562,
+      "z_set": 35.6009,
+      "n_mon": 1118,
+      "n_set": 753,
+      "combined_score": 29.7827
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Olympia",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        12,
+        120,
+        126
+      ],
+      "pole_lat": 41.0241,
+      "pole_lon": 153.7758,
+      "fit_max_km": 0.36,
+      "fit_mean_km": 0.25,
+      "d1_km": 0.05,
+      "d2_km": 0.34,
+      "d3_km": 0.36,
+      "D_approx": 37.1635,
+      "z_mon": 95.5035,
+      "z_set": 58.34,
+      "n_mon": 1274,
+      "n_set": 1092,
+      "combined_score": 29.6684
+    },
+    {
+      "sites": [
+        "Xochicalco",
+        "Olympia",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        83,
+        120,
+        126
+      ],
+      "pole_lat": 41.0248,
+      "pole_lon": 153.7775,
+      "fit_max_km": 0.37,
+      "fit_mean_km": 0.26,
+      "d1_km": 0.05,
+      "d2_km": 0.37,
+      "d3_km": 0.36,
+      "D_approx": 37.1635,
+      "z_mon": 95.5035,
+      "z_set": 58.34,
+      "n_mon": 1274,
+      "n_set": 1092,
+      "combined_score": 29.483
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Pyrgi"
+      ],
+      "indices": [
+        9,
+        18,
+        140
+      ],
+      "pole_lat": 33.9684,
+      "pole_lon": 139.3311,
+      "fit_max_km": 0.88,
+      "fit_mean_km": 0.59,
+      "d1_km": 0.88,
+      "d2_km": 0.88,
+      "d3_km": 0.0,
+      "D_approx": 46.628,
+      "z_mon": 73.8442,
+      "z_set": 27.2162,
+      "n_mon": 1017,
+      "n_set": 628,
+      "combined_score": 29.365
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Newgrange",
+        "Capua"
+      ],
+      "indices": [
+        34,
+        129,
+        146
+      ],
+      "pole_lat": 29.4456,
+      "pole_lon": 133.7353,
+      "fit_max_km": 0.12,
+      "fit_mean_km": 0.09,
+      "d1_km": 0.04,
+      "d2_km": 0.12,
+      "d3_km": 0.1,
+      "D_approx": 31.9605,
+      "z_mon": 74.9398,
+      "z_set": 42.9793,
+      "n_mon": 1030,
+      "n_set": 863,
+      "combined_score": 29.3469
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Meroe Pyramids",
+        "Pompeii"
+      ],
+      "indices": [
+        34,
+        103,
+        125
+      ],
+      "pole_lat": 29.4823,
+      "pole_lon": 133.6549,
+      "fit_max_km": 0.86,
+      "fit_mean_km": 0.69,
+      "d1_km": 0.42,
+      "d2_km": 0.79,
+      "d3_km": 0.86,
+      "D_approx": 48.042,
+      "z_mon": 91.2896,
+      "z_set": 43.2476,
+      "n_mon": 1224,
+      "n_set": 867,
+      "combined_score": 28.4132
+    },
+    {
+      "sites": [
+        "Blackwater Draw (Clovis type-site)",
+        "Clovis Type Site (Clovis, New Mexico)",
+        "Capua"
+      ],
+      "indices": [
+        9,
+        18,
+        146
+      ],
+      "pole_lat": 33.6335,
+      "pole_lon": 139.7038,
+      "fit_max_km": 0.81,
+      "fit_mean_km": 0.54,
+      "d1_km": 0.81,
+      "d2_km": 0.81,
+      "d3_km": 0.0,
+      "D_approx": 42.8495,
+      "z_mon": 85.8959,
+      "z_set": 43.0464,
+      "n_mon": 1160,
+      "n_set": 864,
+      "combined_score": 27.8463
+    },
+    {
+      "sites": [
+        "Tres Zapotes",
+        "Grotto of the Sibyl",
+        "Zeus Diktaios, T./Eleia?"
+      ],
+      "indices": [
+        79,
+        144,
+        145
+      ],
+      "pole_lat": 42.6031,
+      "pole_lon": 156.7147,
+      "fit_max_km": 0.07,
+      "fit_mean_km": 0.05,
+      "d1_km": 0.01,
+      "d2_km": 0.07,
+      "d3_km": 0.07,
+      "D_approx": 29.0693,
+      "z_mon": 70.3046,
+      "z_set": 41.2353,
+      "n_mon": 975,
+      "n_set": 837,
+      "combined_score": 27.619
+    },
+    {
+      "sites": [
+        "Pyramid of the Sun at Teotihuacan",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        60,
+        125,
+        141
+      ],
+      "pole_lat": 41.0075,
+      "pole_lon": 153.0239,
+      "fit_max_km": 0.49,
+      "fit_mean_km": 0.33,
+      "d1_km": 0.01,
+      "d2_km": 0.49,
+      "d3_km": 0.49,
+      "D_approx": 36.5924,
+      "z_mon": 88.7613,
+      "z_set": 52.1689,
+      "n_mon": 1194,
+      "n_set": 1000,
+      "combined_score": 27.5455
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Avebury",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        34,
+        128,
+        144
+      ],
+      "pole_lat": 29.5596,
+      "pole_lon": 133.4455,
+      "fit_max_km": 1.37,
+      "fit_mean_km": 0.98,
+      "d1_km": 0.39,
+      "d2_km": 1.37,
+      "d3_km": 1.16,
+      "D_approx": 53.016,
+      "z_mon": 96.5991,
+      "z_set": 43.583,
+      "n_mon": 1287,
+      "n_set": 872,
+      "combined_score": 26.8231
+    },
+    {
+      "sites": [
+        "Cahokia",
+        "Pompeii",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        11,
+        125,
+        126
+      ],
+      "pole_lat": 36.3675,
+      "pole_lon": 143.8515,
+      "fit_max_km": 1.11,
+      "fit_mean_km": 0.75,
+      "d1_km": 0.04,
+      "d2_km": 1.1,
+      "d3_km": 1.11,
+      "D_approx": 46.2378,
+      "z_mon": 95.9249,
+      "z_set": 49.6871,
+      "n_mon": 1279,
+      "n_set": 963,
+      "combined_score": 26.4352
+    },
+    {
+      "sites": [
+        "Watson Brake",
+        "Pompeii",
+        "Pyrgi"
+      ],
+      "indices": [
+        80,
+        125,
+        140
+      ],
+      "pole_lat": 38.3914,
+      "pole_lon": 147.5283,
+      "fit_max_km": 0.86,
+      "fit_mean_km": 0.59,
+      "d1_km": 0.03,
+      "d2_km": 0.86,
+      "d3_km": 0.86,
+      "D_approx": 41.7694,
+      "z_mon": 87.8342,
+      "z_set": 46.0649,
+      "n_mon": 1183,
+      "n_set": 909,
+      "combined_score": 26.3399
+    },
+    {
+      "sites": [
+        "Xochicalco",
+        "Bassai",
+        "Capua"
+      ],
+      "indices": [
+        83,
+        143,
+        146
+      ],
+      "pole_lat": 41.0824,
+      "pole_lon": 153.7438,
+      "fit_max_km": 0.64,
+      "fit_mean_km": 0.45,
+      "d1_km": 0.08,
+      "d2_km": 0.64,
+      "d3_km": 0.63,
+      "D_approx": 38.118,
+      "z_mon": 95.2506,
+      "z_set": 57.1326,
+      "n_mon": 1271,
+      "n_set": 1074,
+      "combined_score": 26.2673
+    },
+    {
+      "sites": [
+        "Olympia",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        120,
+        140,
+        146
+      ],
+      "pole_lat": 41.3085,
+      "pole_lon": 154.2889,
+      "fit_max_km": 0.87,
+      "fit_mean_km": 0.58,
+      "d1_km": 0.2,
+      "d2_km": 0.67,
+      "d3_km": 0.87,
+      "D_approx": 41.2896,
+      "z_mon": 95.672,
+      "z_set": 54.3825,
+      "n_mon": 1276,
+      "n_set": 1033,
+      "combined_score": 26.1269
+    },
+    {
+      "sites": [
+        "Lake Agassiz / Laurentide Ice Sheet Impact Zone",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        34,
+        126,
+        141
+      ],
+      "pole_lat": 29.6535,
+      "pole_lon": 133.2239,
+      "fit_max_km": 1.58,
+      "fit_mean_km": 1.06,
+      "d1_km": 0.02,
+      "d2_km": 1.58,
+      "d3_km": 1.57,
+      "D_approx": 53.5887,
+      "z_mon": 90.5311,
+      "z_set": 36.9424,
+      "n_mon": 1215,
+      "n_set": 773,
+      "combined_score": 26.0321
+    },
+    {
+      "sites": [
+        "Stonehenge",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        67,
+        126,
+        141
+      ],
+      "pole_lat": 29.6709,
+      "pole_lon": 133.2483,
+      "fit_max_km": 1.6,
+      "fit_mean_km": 1.07,
+      "d1_km": 0.09,
+      "d2_km": 1.6,
+      "d3_km": 1.51,
+      "D_approx": 53.7074,
+      "z_mon": 90.7839,
+      "z_set": 37.0766,
+      "n_mon": 1218,
+      "n_set": 775,
+      "combined_score": 25.9882
+    },
+    {
+      "sites": [
+        "Finger Lakes Region (Glacial Geological Evidence)",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        22,
+        141,
+        144
+      ],
+      "pole_lat": 38.0479,
+      "pole_lon": 146.6536,
+      "fit_max_km": 0.75,
+      "fit_mean_km": 0.5,
+      "d1_km": 0.01,
+      "d2_km": 0.75,
+      "d3_km": 0.74,
+      "D_approx": 38.9779,
+      "z_mon": 83.0305,
+      "z_set": 44.0526,
+      "n_mon": 1126,
+      "n_set": 879,
+      "combined_score": 25.9793
+    },
+    {
+      "sites": [
+        "Osireion (Osirion) at Abydos",
+        "Pyrgi",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        50,
+        140,
+        141
+      ],
+      "pole_lat": 35.9792,
+      "pole_lon": 142.8353,
+      "fit_max_km": 1.38,
+      "fit_mean_km": 0.92,
+      "d1_km": 0.07,
+      "d2_km": 1.31,
+      "d3_km": 1.38,
+      "D_approx": 49.8616,
+      "z_mon": 89.6883,
+      "z_set": 39.8267,
+      "n_mon": 1205,
+      "n_set": 816,
+      "combined_score": 25.9788
+    },
+    {
+      "sites": [
+        "Newark Earthworks (Octagon Earthworks and Great Circle)",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        48,
+        141,
+        144
+      ],
+      "pole_lat": 37.9921,
+      "pole_lon": 146.5465,
+      "fit_max_km": 0.67,
+      "fit_mean_km": 0.45,
+      "d1_km": 0.01,
+      "d2_km": 0.67,
+      "d3_km": 0.67,
+      "D_approx": 37.6019,
+      "z_mon": 82.8619,
+      "z_set": 45.26,
+      "n_mon": 1124,
+      "n_set": 897,
+      "combined_score": 25.9461
+    },
+    {
+      "sites": [
+        "Pyrgi",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        140,
+        141,
+        144
+      ],
+      "pole_lat": 36.9338,
+      "pole_lon": 144.5839,
+      "fit_max_km": 0.92,
+      "fit_mean_km": 0.62,
+      "d1_km": 0.36,
+      "d2_km": 0.92,
+      "d3_km": 0.56,
+      "D_approx": 41.7487,
+      "z_mon": 87.0758,
+      "z_set": 45.327,
+      "n_mon": 1174,
+      "n_set": 898,
+      "combined_score": 25.8295
+    },
+    {
+      "sites": [
+        "Moundville Archaeological Site",
+        "Colosseum Rome",
+        "Capua"
+      ],
+      "indices": [
+        43,
+        126,
+        146
+      ],
+      "pole_lat": 39.4448,
+      "pole_lon": 150.0673,
+      "fit_max_km": 0.88,
+      "fit_mean_km": 0.59,
+      "d1_km": 0.02,
+      "d2_km": 0.88,
+      "d3_km": 0.87,
+      "D_approx": 40.655,
+      "z_mon": 99.4645,
+      "z_set": 58.8095,
+      "n_mon": 1321,
+      "n_set": 1099,
+      "combined_score": 25.5735
+    },
+    {
+      "sites": [
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        81,
+        125,
+        141
+      ],
+      "pole_lat": 41.0611,
+      "pole_lon": 153.1495,
+      "fit_max_km": 0.6,
+      "fit_mean_km": 0.41,
+      "d1_km": 0.01,
+      "d2_km": 0.6,
+      "d3_km": 0.6,
+      "D_approx": 35.6843,
+      "z_mon": 88.2556,
+      "z_set": 52.5714,
+      "n_mon": 1188,
+      "n_set": 1006,
+      "combined_score": 25.3924
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        76,
+        125,
+        141
+      ],
+      "pole_lat": 41.0688,
+      "pole_lon": 153.1675,
+      "fit_max_km": 0.62,
+      "fit_mean_km": 0.42,
+      "d1_km": 0.01,
+      "d2_km": 0.62,
+      "d3_km": 0.62,
+      "D_approx": 35.7685,
+      "z_mon": 88.3399,
+      "z_set": 52.5714,
+      "n_mon": 1189,
+      "n_set": 1006,
+      "combined_score": 25.2579
+    },
+    {
+      "sites": [
+        "El Tajin",
+        "Knossos",
+        "Pompeii"
+      ],
+      "indices": [
+        112,
+        117,
+        125
+      ],
+      "pole_lat": 41.2415,
+      "pole_lon": 153.54,
+      "fit_max_km": 0.51,
+      "fit_mean_km": 0.36,
+      "d1_km": 0.09,
+      "d2_km": 0.51,
+      "d3_km": 0.5,
+      "D_approx": 34.3805,
+      "z_mon": 85.8116,
+      "z_set": 51.4311,
+      "n_mon": 1159,
+      "n_set": 989,
+      "combined_score": 25.198
+    },
+    {
+      "sites": [
+        "San Lorenzo",
+        "Mycenae",
+        "Petra"
+      ],
+      "indices": [
+        64,
+        118,
+        123
+      ],
+      "pole_lat": 42.4744,
+      "pole_lon": 157.8429,
+      "fit_max_km": 0.84,
+      "fit_mean_km": 0.61,
+      "d1_km": 0.19,
+      "d2_km": 0.79,
+      "d3_km": 0.84,
+      "D_approx": 40.1356,
+      "z_mon": 102.8356,
+      "z_set": 62.7,
+      "n_mon": 1361,
+      "n_set": 1157,
+      "combined_score": 24.9748
+    },
+    {
+      "sites": [
+        "High Bank Works",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        30,
+        141,
+        144
+      ],
+      "pole_lat": 38.1441,
+      "pole_lon": 146.839,
+      "fit_max_km": 0.88,
+      "fit_mean_km": 0.59,
+      "d1_km": 0.01,
+      "d2_km": 0.88,
+      "d3_km": 0.87,
+      "D_approx": 39.5472,
+      "z_mon": 82.8619,
+      "z_set": 43.3147,
+      "n_mon": 1124,
+      "n_set": 868,
+      "combined_score": 24.9009
+    },
+    {
+      "sites": [
+        "Olympia",
+        "Pompeii",
+        "Zeus Diktaios, T./Eleia?"
+      ],
+      "indices": [
+        120,
+        125,
+        145
+      ],
+      "pole_lat": 42.3933,
+      "pole_lon": 156.3661,
+      "fit_max_km": 0.59,
+      "fit_mean_km": 0.39,
+      "d1_km": 0.59,
+      "d2_km": 0.24,
+      "d3_km": 0.35,
+      "D_approx": 34.623,
+      "z_mon": 80.755,
+      "z_set": 46.132,
+      "n_mon": 1099,
+      "n_set": 910,
+      "combined_score": 24.8493
+    },
+    {
+      "sites": [
+        "Xochicalco",
+        "Pyrgi",
+        "Bassai"
+      ],
+      "indices": [
+        83,
+        140,
+        143
+      ],
+      "pole_lat": 41.0835,
+      "pole_lon": 153.7436,
+      "fit_max_km": 0.75,
+      "fit_mean_km": 0.54,
+      "d1_km": 0.12,
+      "d2_km": 0.74,
+      "d3_km": 0.75,
+      "D_approx": 38.0337,
+      "z_mon": 95.1664,
+      "z_set": 57.1326,
+      "n_mon": 1270,
+      "n_set": 1074,
+      "combined_score": 24.7477
+    },
+    {
+      "sites": [
+        "Saginaw Bay Impact Point (hypothetical)",
+        "Pyrgi",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        62,
+        140,
+        141
+      ],
+      "pole_lat": 35.8807,
+      "pole_lon": 142.6614,
+      "fit_max_km": 1.55,
+      "fit_mean_km": 1.04,
+      "d1_km": 0.04,
+      "d2_km": 1.55,
+      "d3_km": 1.54,
+      "D_approx": 50.3312,
+      "z_mon": 89.6883,
+      "z_set": 39.3572,
+      "n_mon": 1205,
+      "n_set": 809,
+      "combined_score": 24.6729
+    },
+    {
+      "sites": [
+        "Pedra Furada (Serra da Capivara)",
+        "Yonaguni Monument (Submarine Ruins)",
+        "Pyrgi"
+      ],
+      "indices": [
+        54,
+        84,
+        140
+      ],
+      "pole_lat": 39.1812,
+      "pole_lon": -125.2796,
+      "fit_max_km": 0.29,
+      "fit_mean_km": 0.22,
+      "d1_km": 0.29,
+      "d2_km": 0.27,
+      "d3_km": 0.1,
+      "D_approx": 29.9634,
+      "z_mon": 48.3925,
+      "z_set": 18.4291,
+      "n_mon": 715,
+      "n_set": 497,
+      "combined_score": 24.5235
+    },
+    {
+      "sites": [
+        "Cahokia",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        11,
+        141,
+        144
+      ],
+      "pole_lat": 36.452,
+      "pole_lon": 143.7219,
+      "fit_max_km": 1.38,
+      "fit_mean_km": 0.92,
+      "d1_km": 0.02,
+      "d2_km": 1.38,
+      "d3_km": 1.37,
+      "D_approx": 46.9223,
+      "z_mon": 92.0481,
+      "z_set": 45.1258,
+      "n_mon": 1233,
+      "n_set": 895,
+      "combined_score": 24.3947
+    },
+    {
+      "sites": [
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        81,
+        140,
+        146
+      ],
+      "pole_lat": 40.9276,
+      "pole_lon": 153.3472,
+      "fit_max_km": 0.75,
+      "fit_mean_km": 0.51,
+      "d1_km": 0.03,
+      "d2_km": 0.75,
+      "d3_km": 0.75,
+      "D_approx": 36.7266,
+      "z_mon": 95.3349,
+      "z_set": 58.6083,
+      "n_mon": 1272,
+      "n_set": 1096,
+      "combined_score": 24.3387
+    },
+    {
+      "sites": [
+        "La Venta",
+        "Mycenae",
+        "Colosseum Rome"
+      ],
+      "indices": [
+        33,
+        118,
+        126
+      ],
+      "pole_lat": 42.7201,
+      "pole_lon": 158.3819,
+      "fit_max_km": 1.02,
+      "fit_mean_km": 0.73,
+      "d1_km": 0.16,
+      "d2_km": 1.02,
+      "d3_km": 1.01,
+      "D_approx": 41.9535,
+      "z_mon": 104.184,
+      "z_set": 62.2305,
+      "n_mon": 1377,
+      "n_set": 1150,
+      "combined_score": 24.2896
+    },
+    {
+      "sites": [
+        "Serpent Mound",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        65,
+        141,
+        144
+      ],
+      "pole_lat": 38.1982,
+      "pole_lon": 146.9436,
+      "fit_max_km": 0.95,
+      "fit_mean_km": 0.64,
+      "d1_km": 0.01,
+      "d2_km": 0.95,
+      "d3_km": 0.95,
+      "D_approx": 39.6796,
+      "z_mon": 82.5248,
+      "z_set": 42.8452,
+      "n_mon": 1120,
+      "n_set": 861,
+      "combined_score": 24.228
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Bassai",
+        "Capua"
+      ],
+      "indices": [
+        12,
+        143,
+        146
+      ],
+      "pole_lat": 41.0673,
+      "pole_lon": 153.7133,
+      "fit_max_km": 0.84,
+      "fit_mean_km": 0.58,
+      "d1_km": 0.1,
+      "d2_km": 0.81,
+      "d3_km": 0.84,
+      "D_approx": 38.1524,
+      "z_mon": 95.4192,
+      "z_set": 57.2668,
+      "n_mon": 1273,
+      "n_set": 1076,
+      "combined_score": 24.0978
+    },
+    {
+      "sites": [
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Colosseum Rome",
+        "Bassai"
+      ],
+      "indices": [
+        81,
+        126,
+        143
+      ],
+      "pole_lat": 40.8824,
+      "pole_lon": 153.4113,
+      "fit_max_km": 0.74,
+      "fit_mean_km": 0.52,
+      "d1_km": 0.11,
+      "d2_km": 0.74,
+      "d3_km": 0.71,
+      "D_approx": 35.8391,
+      "z_mon": 95.5877,
+      "z_set": 59.7486,
+      "n_mon": 1275,
+      "n_set": 1113,
+      "combined_score": 23.5872
+    },
+    {
+      "sites": [
+        "Cholula Great Pyramid (Tlachihualtepetl)",
+        "Knossos",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        17,
+        117,
+        144
+      ],
+      "pole_lat": 41.4825,
+      "pole_lon": 153.9133,
+      "fit_max_km": 0.24,
+      "fit_mean_km": 0.17,
+      "d1_km": 0.04,
+      "d2_km": 0.24,
+      "d3_km": 0.23,
+      "D_approx": 27.3546,
+      "z_mon": 76.0354,
+      "z_set": 48.6809,
+      "n_mon": 1043,
+      "n_set": 948,
+      "combined_score": 23.4061
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        76,
+        81,
+        141
+      ],
+      "pole_lat": 41.0589,
+      "pole_lon": 153.1654,
+      "fit_max_km": 0.7,
+      "fit_mean_km": 0.54,
+      "d1_km": 0.66,
+      "d2_km": 0.7,
+      "d3_km": 0.26,
+      "D_approx": 35.6705,
+      "z_mon": 88.8456,
+      "z_set": 53.1751,
+      "n_mon": 1195,
+      "n_set": 1015,
+      "combined_score": 23.1903
+    },
+    {
+      "sites": [
+        "Lalibela Rock Churches",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        105,
+        126,
+        141
+      ],
+      "pole_lat": 32.1186,
+      "pole_lon": 136.7328,
+      "fit_max_km": 1.55,
+      "fit_mean_km": 1.04,
+      "d1_km": 0.04,
+      "d2_km": 1.52,
+      "d3_km": 1.55,
+      "D_approx": 46.9755,
+      "z_mon": 82.7776,
+      "z_set": 35.8021,
+      "n_mon": 1123,
+      "n_set": 756,
+      "combined_score": 23.0764
+    },
+    {
+      "sites": [
+        "Temple of Horus at Edfu (Edfu Building Texts)",
+        "Pyrgi",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        72,
+        140,
+        141
+      ],
+      "pole_lat": 35.789,
+      "pole_lon": 142.4985,
+      "fit_max_km": 1.77,
+      "fit_mean_km": 1.18,
+      "d1_km": 0.09,
+      "d2_km": 1.69,
+      "d3_km": 1.77,
+      "D_approx": 50.3105,
+      "z_mon": 88.9299,
+      "z_set": 38.6193,
+      "n_mon": 1196,
+      "n_set": 798,
+      "combined_score": 23.0413
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        76,
+        140,
+        146
+      ],
+      "pole_lat": 40.8994,
+      "pole_lon": 153.2787,
+      "fit_max_km": 0.86,
+      "fit_mean_km": 0.58,
+      "d1_km": 0.03,
+      "d2_km": 0.86,
+      "d3_km": 0.86,
+      "D_approx": 36.2055,
+      "z_mon": 95.0821,
+      "z_set": 58.8766,
+      "n_mon": 1269,
+      "n_set": 1100,
+      "combined_score": 22.8567
+    },
+    {
+      "sites": [
+        "Meadowcroft Rockshelter",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        40,
+        141,
+        144
+      ],
+      "pole_lat": 38.365,
+      "pole_lon": 147.2684,
+      "fit_max_km": 1.18,
+      "fit_mean_km": 0.79,
+      "d1_km": 0.02,
+      "d2_km": 1.18,
+      "d3_km": 1.18,
+      "D_approx": 40.6359,
+      "z_mon": 82.6091,
+      "z_set": 41.9732,
+      "n_mon": 1121,
+      "n_set": 848,
+      "combined_score": 22.6854
+    },
+    {
+      "sites": [
+        "Meadowcroft Rockshelter",
+        "Pompeii",
+        "Pyrgi"
+      ],
+      "indices": [
+        40,
+        125,
+        140
+      ],
+      "pole_lat": 38.3117,
+      "pole_lon": 147.3692,
+      "fit_max_km": 1.2,
+      "fit_mean_km": 0.81,
+      "d1_km": 0.05,
+      "d2_km": 1.18,
+      "d3_km": 1.2,
+      "D_approx": 40.5912,
+      "z_mon": 86.9915,
+      "z_set": 46.4003,
+      "n_mon": 1173,
+      "n_set": 914,
+      "combined_score": 22.4349
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Pyrgi",
+        "Bassai"
+      ],
+      "indices": [
+        12,
+        140,
+        143
+      ],
+      "pole_lat": 41.0686,
+      "pole_lon": 153.7125,
+      "fit_max_km": 1.01,
+      "fit_mean_km": 0.71,
+      "d1_km": 0.16,
+      "d2_km": 1.01,
+      "d3_km": 0.96,
+      "D_approx": 38.0853,
+      "z_mon": 95.4192,
+      "z_set": 57.3338,
+      "n_mon": 1273,
+      "n_set": 1077,
+      "combined_score": 22.2535
+    },
+    {
+      "sites": [
+        "Knossos",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        117,
+        125,
+        141
+      ],
+      "pole_lat": 41.18,
+      "pole_lon": 153.4307,
+      "fit_max_km": 0.9,
+      "fit_mean_km": 0.6,
+      "d1_km": 0.09,
+      "d2_km": 0.9,
+      "d3_km": 0.81,
+      "D_approx": 35.4624,
+      "z_mon": 87.4971,
+      "z_set": 52.0348,
+      "n_mon": 1179,
+      "n_set": 998,
+      "combined_score": 22.1607
+    },
+    {
+      "sites": [
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl",
+        "Mortuary Temple of Merenptah"
+      ],
+      "indices": [
+        141,
+        144,
+        148
+      ],
+      "pole_lat": 36.1733,
+      "pole_lon": 143.2344,
+      "fit_max_km": 1.77,
+      "fit_mean_km": 1.18,
+      "d1_km": 1.71,
+      "d2_km": 1.77,
+      "d3_km": 0.06,
+      "D_approx": 48.226,
+      "z_mon": 91.2053,
+      "z_set": 42.9793,
+      "n_mon": 1223,
+      "n_set": 863,
+      "combined_score": 22.136
+    },
+    {
+      "sites": [
+        "Olympia",
+        "Tarracina(e)/Anxur",
+        "Zeus Diktaios, T./Eleia?"
+      ],
+      "indices": [
+        120,
+        141,
+        145
+      ],
+      "pole_lat": 42.2007,
+      "pole_lon": 156.022,
+      "fit_max_km": 1.12,
+      "fit_mean_km": 0.75,
+      "d1_km": 1.12,
+      "d2_km": 0.42,
+      "d3_km": 0.71,
+      "D_approx": 38.6993,
+      "z_mon": 87.5814,
+      "z_set": 48.8821,
+      "n_mon": 1180,
+      "n_set": 951,
+      "combined_score": 22.0988
+    },
+    {
+      "sites": [
+        "Giza Plateau \u2014 full complex (including Khufu, Khafre, Menkaure pyramids)",
+        "Colosseum Rome",
+        "Carnac Stones"
+      ],
+      "indices": [
+        25,
+        126,
+        130
+      ],
+      "pole_lat": 38.8781,
+      "pole_lon": 148.8389,
+      "fit_max_km": 1.35,
+      "fit_mean_km": 0.92,
+      "d1_km": 0.55,
+      "d2_km": 1.35,
+      "d3_km": 0.84,
+      "D_approx": 42.208,
+      "z_mon": 94.9135,
+      "z_set": 52.7055,
+      "n_mon": 1267,
+      "n_set": 1008,
+      "combined_score": 22.0388
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        12,
+        125,
+        141
+      ],
+      "pole_lat": 41.2085,
+      "pole_lon": 153.4972,
+      "fit_max_km": 0.92,
+      "fit_mean_km": 0.62,
+      "d1_km": 0.02,
+      "d2_km": 0.91,
+      "d3_km": 0.92,
+      "D_approx": 35.4452,
+      "z_mon": 87.4129,
+      "z_set": 51.9677,
+      "n_mon": 1178,
+      "n_set": 997,
+      "combined_score": 21.9175
+    },
+    {
+      "sites": [
+        "Colosseum Rome",
+        "Avebury",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        126,
+        128,
+        141
+      ],
+      "pole_lat": 29.1746,
+      "pole_lon": 132.5777,
+      "fit_max_km": 2.23,
+      "fit_mean_km": 1.49,
+      "d1_km": 2.23,
+      "d2_km": 0.13,
+      "d3_km": 2.1,
+      "D_approx": 54.1099,
+      "z_mon": 90.7839,
+      "z_set": 36.6741,
+      "n_mon": 1218,
+      "n_set": 769,
+      "combined_score": 21.7614
+    },
+    {
+      "sites": [
+        "El Tajin",
+        "Bassai",
+        "Capua"
+      ],
+      "indices": [
+        112,
+        143,
+        146
+      ],
+      "pole_lat": 41.0496,
+      "pole_lon": 153.6764,
+      "fit_max_km": 1.05,
+      "fit_mean_km": 0.74,
+      "d1_km": 0.13,
+      "d2_km": 1.05,
+      "d3_km": 1.04,
+      "D_approx": 37.817,
+      "z_mon": 95.4192,
+      "z_set": 57.6022,
+      "n_mon": 1273,
+      "n_set": 1081,
+      "combined_score": 21.7398
+    },
+    {
+      "sites": [
+        "Bimini Road (Bimini Wall)",
+        "Delphi",
+        "Parthenon Athens"
+      ],
+      "indices": [
+        8,
+        119,
+        127
+      ],
+      "pole_lat": 44.0797,
+      "pole_lon": 162.8287,
+      "fit_max_km": 0.29,
+      "fit_mean_km": 0.19,
+      "d1_km": 0.01,
+      "d2_km": 0.29,
+      "d3_km": 0.29,
+      "D_approx": 25.9326,
+      "z_mon": 119.3539,
+      "z_set": 93.4213,
+      "n_mon": 1557,
+      "n_set": 1615,
+      "combined_score": 21.7282
+    },
+    {
+      "sites": [
+        "Gault Site / Buttermilk Creek Complex",
+        "Pyrgi",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        23,
+        140,
+        144
+      ],
+      "pole_lat": 37.3101,
+      "pole_lon": 145.295,
+      "fit_max_km": 1.21,
+      "fit_mean_km": 0.82,
+      "d1_km": 0.04,
+      "d2_km": 1.21,
+      "d3_km": 1.2,
+      "D_approx": 39.2428,
+      "z_mon": 85.643,
+      "z_set": 46.4003,
+      "n_mon": 1157,
+      "n_set": 914,
+      "combined_score": 21.6001
+    },
+    {
+      "sites": [
+        "Cahokia",
+        "Pyrgi",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        11,
+        140,
+        144
+      ],
+      "pole_lat": 36.4542,
+      "pole_lon": 143.7192,
+      "fit_max_km": 1.73,
+      "fit_mean_km": 1.17,
+      "d1_km": 0.06,
+      "d2_km": 1.73,
+      "d3_km": 1.71,
+      "D_approx": 46.7039,
+      "z_mon": 91.9638,
+      "z_set": 45.26,
+      "n_mon": 1232,
+      "n_set": 897,
+      "combined_score": 21.5685
+    },
+    {
+      "sites": [
+        "Watson Brake",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        80,
+        141,
+        144
+      ],
+      "pole_lat": 38.4569,
+      "pole_lon": 147.4488,
+      "fit_max_km": 1.31,
+      "fit_mean_km": 0.88,
+      "d1_km": 0.02,
+      "d2_km": 1.31,
+      "d3_km": 1.3,
+      "D_approx": 40.2626,
+      "z_mon": 81.7663,
+      "z_set": 41.5036,
+      "n_mon": 1111,
+      "n_set": 841,
+      "combined_score": 21.4644
+    },
+    {
+      "sites": [
+        "Murray Springs Clovis Site",
+        "Colosseum Rome",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        44,
+        126,
+        141
+      ],
+      "pole_lat": 32.2816,
+      "pole_lon": 136.9762,
+      "fit_max_km": 1.75,
+      "fit_mean_km": 1.17,
+      "d1_km": 0.03,
+      "d2_km": 1.75,
+      "d3_km": 1.75,
+      "D_approx": 46.5541,
+      "z_mon": 82.3562,
+      "z_set": 35.8021,
+      "n_mon": 1118,
+      "n_set": 756,
+      "combined_score": 21.4354
+    },
+    {
+      "sites": [
+        "El Tajin",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        112,
+        125,
+        141
+      ],
+      "pole_lat": 41.2302,
+      "pole_lon": 153.5488,
+      "fit_max_km": 0.96,
+      "fit_mean_km": 0.65,
+      "d1_km": 0.02,
+      "d2_km": 0.96,
+      "d3_km": 0.96,
+      "D_approx": 35.0083,
+      "z_mon": 87.2443,
+      "z_set": 52.236,
+      "n_mon": 1176,
+      "n_set": 1001,
+      "combined_score": 21.2402
+    },
+    {
+      "sites": [
+        "Cholula Great Pyramid (Tlachihualtepetl)",
+        "Olympia",
+        "Pyrgi"
+      ],
+      "indices": [
+        17,
+        120,
+        140
+      ],
+      "pole_lat": 41.2124,
+      "pole_lon": 154.089,
+      "fit_max_km": 1.26,
+      "fit_mean_km": 0.9,
+      "d1_km": 0.19,
+      "d2_km": 1.26,
+      "d3_km": 1.24,
+      "D_approx": 39.8655,
+      "z_mon": 95.9249,
+      "z_set": 56.0594,
+      "n_mon": 1279,
+      "n_set": 1058,
+      "combined_score": 21.0213
+    },
+    {
+      "sites": [
+        "Carnac Stones",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        130,
+        141,
+        144
+      ],
+      "pole_lat": 38.5432,
+      "pole_lon": 147.6183,
+      "fit_max_km": 1.46,
+      "fit_mean_km": 0.98,
+      "d1_km": 0.08,
+      "d2_km": 1.46,
+      "d3_km": 1.38,
+      "D_approx": 41.4907,
+      "z_mon": 82.5248,
+      "z_set": 41.0341,
+      "n_mon": 1120,
+      "n_set": 834,
+      "combined_score": 20.9959
+    },
+    {
+      "sites": [
+        "Texcotzingo (Tetzcotzingo)",
+        "White Pond (Younger Dryas Boundary Sediment Core Site)",
+        "Pompeii"
+      ],
+      "indices": [
+        76,
+        81,
+        125
+      ],
+      "pole_lat": 41.0671,
+      "pole_lon": 153.1571,
+      "fit_max_km": 0.92,
+      "fit_mean_km": 0.71,
+      "d1_km": 0.87,
+      "d2_km": 0.92,
+      "d3_km": 0.34,
+      "D_approx": 35.8683,
+      "z_mon": 88.1714,
+      "z_set": 52.3031,
+      "n_mon": 1187,
+      "n_set": 1002,
+      "combined_score": 20.9622
+    },
+    {
+      "sites": [
+        "Xochicalco",
+        "Pompeii",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        83,
+        125,
+        141
+      ],
+      "pole_lat": 41.2644,
+      "pole_lon": 153.6301,
+      "fit_max_km": 1.04,
+      "fit_mean_km": 0.7,
+      "d1_km": 0.02,
+      "d2_km": 1.04,
+      "d3_km": 1.04,
+      "D_approx": 35.5295,
+      "z_mon": 87.4971,
+      "z_set": 51.9677,
+      "n_mon": 1179,
+      "n_set": 997,
+      "combined_score": 20.9299
+    },
+    {
+      "sites": [
+        "Pyramid of the Sun at Teotihuacan",
+        "Colosseum Rome",
+        "Bassai"
+      ],
+      "indices": [
+        60,
+        126,
+        143
+      ],
+      "pole_lat": 40.7721,
+      "pole_lon": 153.181,
+      "fit_max_km": 0.98,
+      "fit_mean_km": 0.7,
+      "d1_km": 0.15,
+      "d2_km": 0.97,
+      "d3_km": 0.98,
+      "D_approx": 35.4883,
+      "z_mon": 95.8406,
+      "z_set": 60.3523,
+      "n_mon": 1278,
+      "n_set": 1122,
+      "combined_score": 20.8881
+    },
+    {
+      "sites": [
+        "Pyramid of the Sun at Teotihuacan",
+        "Pyrgi",
+        "Capua"
+      ],
+      "indices": [
+        60,
+        140,
+        146
+      ],
+      "pole_lat": 40.84,
+      "pole_lon": 153.135,
+      "fit_max_km": 1.1,
+      "fit_mean_km": 0.74,
+      "d1_km": 0.04,
+      "d2_km": 1.09,
+      "d3_km": 1.1,
+      "D_approx": 36.3396,
+      "z_mon": 95.0821,
+      "z_set": 58.7425,
+      "n_mon": 1269,
+      "n_set": 1098,
+      "combined_score": 20.8518
+    },
+    {
+      "sites": [
+        "Carolina Bays",
+        "Knossos",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        12,
+        117,
+        141
+      ],
+      "pole_lat": 41.2081,
+      "pole_lon": 153.4946,
+      "fit_max_km": 0.98,
+      "fit_mean_km": 0.7,
+      "d1_km": 0.19,
+      "d2_km": 0.94,
+      "d3_km": 0.98,
+      "D_approx": 35.4951,
+      "z_mon": 87.3286,
+      "z_set": 51.8335,
+      "n_mon": 1177,
+      "n_set": 995,
+      "combined_score": 20.8291
+    },
+    {
+      "sites": [
+        "Poverty Point",
+        "Carnac Stones",
+        "Tarracina(e)/Anxur"
+      ],
+      "indices": [
+        57,
+        130,
+        141
+      ],
+      "pole_lat": 38.6131,
+      "pole_lon": 147.8201,
+      "fit_max_km": 1.49,
+      "fit_mean_km": 1.07,
+      "d1_km": 0.35,
+      "d2_km": 1.49,
+      "d3_km": 1.38,
+      "D_approx": 43.1298,
+      "z_mon": 84.9688,
+      "z_set": 41.839,
+      "n_mon": 1149,
+      "n_set": 846,
+      "combined_score": 20.8254
+    },
+    {
+      "sites": [
+        "Poverty Point",
+        "Tarracina(e)/Anxur",
+        "Grotto of the Sibyl"
+      ],
+      "indices": [
+        57,
+        141,
+        144
+      ],
+      "pole_lat": 38.6342,
+      "pole_lon": 147.7995,
+      "fit_max_km": 1.55,
+      "fit_mean_km": 1.04,
+      "d1_km": 0.02,
+      "d2_km": 1.55,
+      "d3_km": 1.55,
+      "D_approx": 42.1976,
+      "z_mon": 83.0305,
+      "z_set": 40.8329,
+      "n_mon": 1126,
+      "n_set": 831,
+      "combined_score": 20.6835
+    },
+    {
+      "sites": [
+        "Murray Springs Clovis Site",
+        "Lalibela Rock Churches",
+        "Pyrgi"
+      ],
+      "indices": [
+        44,
+        105,
+        140
+      ],
+      "pole_lat": 32.4163,
+      "pole_lon": 136.8385,
+      "fit_max_km": 1.44,
+      "fit_mean_km": 1.15,
+      "d1_km": 0.89,
+      "d2_km": 1.44,
+      "d3_km": 1.14,
+      "D_approx": 44.4334,
+      "z_mon": 70.9788,
+      "z_set": 26.5454,
+      "n_mon": 983,
+      "n_set": 618,
+      "combined_score": 20.6206
+    }
+  ],
+  "stats": {
+    "D_mean": -2.4614,
+    "D_std": 11.0801,
+    "D_max": 56.7293,
+    "D_min": -51.8071,
+    "fit_mean_median": 534.31,
+    "fit_mean_mean": 800.23,
+    "combined_max": 45.4365,
+    "combined_mean": -0.0233,
+    "high_D_low_fit_count": 1228
+  }
+}
