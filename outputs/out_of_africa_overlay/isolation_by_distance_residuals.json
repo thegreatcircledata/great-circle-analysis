@@ -1,0 +1,16 @@
+{
+  "both_on": {
+    "n": 6,
+    "mean_residual": 0.01022,
+    "std": 0.03265
+  },
+  "both_off": {
+    "n": 36,
+    "mean_residual": -0.00227,
+    "std": 0.03617
+  },
+  "mixed": {
+    "n": 22,
+    "mean_residual": 0.00092
+  }
+}

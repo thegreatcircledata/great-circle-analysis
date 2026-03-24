@@ -1,0 +1,43 @@
+nome,name,capital,lat,lon,region,gc_dist_km
+UE-01,Elephantine (Abu),Elephantine,24.085,32.886,upper,660.875165502066
+UE-02,Edfu (Behdet),Apollonopolis Magna,24.978,32.873,upper,561.7575099101177
+UE-03,Nekhen/Hierakonpolis,Hierakonpolis,25.098,32.779,upper,547.7402452786864
+UE-04,Thebes (Waset),Thebes,25.719,32.601,upper,477.52554950293415
+UE-05,Koptos (Gebtu),Coptos,25.997,32.813,upper,448.3171982810709
+UE-06,Dendera (Iunet),Tentyris,26.142,32.67,upper,431.1580062035446
+UE-07,Diospolis Parva (Hu),Diospolis Parva,26.241,32.291,upper,417.23219895011243
+UE-08,Thinis/Abydos,Thinis,26.419,31.95,upper,394.74661228969853
+UE-09,Akhmim (Ipu/Panopolis),Panopolis,26.562,31.749,upper,377.23084105536145
+UE-10,Tjebu (Antaeopolis),Antaeopolis,26.886,31.509,upper,339.2996229354958
+UE-11,Shashotep (Hypselis),Hypselis,27.039,31.263,upper,320.2188490083754
+UE-12,Per-Nemty (Hieracon),Hieracon,27.18,31.044,upper,302.6632124703101
+UE-13,Asyut (Zawty/Lycopolis),Lycopolis,27.191,31.172,upper,302.5831040157864
+UE-14,Cusae (Qis),Cusae,27.44,30.905,upper,272.62231650843205
+UE-15,Hermopolis Magna (Khemenu),Hermopolis Magna,27.783,30.8,upper,233.6918781190543
+UE-16,Hebenu (Kom el-Ahmar),Hebenu,28.039,30.883,upper,206.0986831913542
+UE-17,Kynopolis (Saka),Cynopolis,28.21,30.762,upper,186.0702161568115
+UE-18,Hut-Nesut (Hipponon),Hipponon,28.39,30.697,upper,165.54956848525035
+UE-19,Oxyrhynchus (Per-Medjed),Oxyrhynchus,28.535,30.663,upper,149.1861254363448
+UE-20,Herakleopolis Magna (Henen-nesut),Herakleopolis Magna,29.081,30.932,upper,91.15832138344922
+UE-21,Crocodilopolis (Semenhor),Crocodilopolis,29.314,30.84,upper,64.5400350093314
+UE-22,Aphroditopolis (Atfih),Aphroditopolis,29.571,31.252,upper,39.68359257047632
+LE-01,Memphis (Ineb-Hedj),Memphis,29.845,31.255,lower,9.361459971987642
+LE-02,Letopolis (Khem),Letopolis,30.108,31.14,lower,20.752706873308853
+LE-03,Apis (Imu),Apis,30.78,30.595,lower,99.95967135346109
+LE-04,Prosopitis,Prosopitis,30.628,30.851,lower,80.8519925314813
+LE-05,Sais (Zau),Sais,30.965,30.769,lower,118.8880010437606
+LE-06,Xois (Khaset),Xois,31.094,30.949,lower,131.5940551642543
+LE-07,Metelis (Per-aha),Metelis,31.03,30.47,lower,128.76368929708406
+LE-08,Pithom (Per-Atum),Pithom,30.553,31.879,lower,63.92808586155843
+LE-09,Busiris (Per-Usir),Busiris,30.911,31.135,lower,109.72646936735146
+LE-10,Athribis (Hut-Hery-Ib),Athribis,30.393,31.194,lower,51.853621170846964
+LE-11,Leontopolis (Taremu),Leontopolis,30.737,31.367,lower,88.49268093704086
+LE-12,Sebennytos (Tjeb-Netjer),Sebennytos,30.946,31.118,lower,113.74798228296459
+LE-13,Heliopolis (Iunu),Heliopolis,30.131,31.313,lower,21.8231349838843
+LE-14,Tjaru (Sile),Sile,30.931,32.237,lower,103.0296344859562
+LE-15,Hermopolis Parva (Ba'h),Hermopolis Parva,30.919,31.364,lower,108.67750166847509
+LE-16,Mendes (Djedet),Mendes,30.961,31.518,lower,112.05347030783014
+LE-17,Diospolis Inferior (Semabehdet),Diospolis Inferior,31.257,31.553,lower,144.55805602417422
+LE-18,Bubastis (Per-Bastet),Bubastis,30.571,31.515,lower,68.87379350931224
+LE-19,Tanis (Dja'net),Tanis,30.976,31.881,lower,110.78498730394313
+LE-20,Per-Sopdu (Saft el-Hinna),Per-Sopdu,30.555,31.637,lower,66.0997553479956

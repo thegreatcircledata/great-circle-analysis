@@ -1,0 +1,74 @@
+name,lat,lon,site_class,period,min_date,gc_dist_km,source
+Be'er Resisim,30.7711522868,34.574476878,settlement,Naqada II,-3300,69.72380366407742,pleiades
+Ashqelon/Ascalon,31.6647972122,34.5505214667,monumental,Pre-Badarian,-6000,169.0513217724274,pleiades
+Gaza,31.5202095,34.451719,settlement,Naqada II,-3300,153.56694817871903,pleiades
+Rhinocolura,31.111755,33.796926,settlement,Naqada II,-3300,112.19317294151188,pleiades
+Thala,31.3826457212,34.8668864585,settlement,Pre-Badarian,-10000,135.9789523378331,pleiades
+Bouto,31.1957444573,30.7431461212,settlement,Pre-Badarian,-4500,144.66338431500844,pleiades
+Heliopolis,30.1294036,31.3074812,monumental,Pre-Badarian,-6000,21.693037893184737,pleiades
+Hermopolis Mikra,31.033655,30.4707825,settlement,Pre-Badarian,-6000,129.1611480727497,pleiades
+Tell el-Heir,30.9673676531,32.4930033098,settlement,Naqada II,-3300,105.13516527490356,pleiades
+Mendes,30.956115,31.51741,settlement,Pre-Badarian,-4500,111.51715947567209,pleiades
+Krokodilopolis/Ptolemais Euergetis,29.3149635,30.8399565,settlement,Pre-Badarian,-2600000,64.43296571182509,pleiades
+Aelana/Aila,29.5306345642,34.999966317,settlement,Pre-Badarian,-2600000,70.34692087756775,pleiades
+Abydos/Ebot,26.185099,31.917622,monumental,Pre-Badarian,-4500,420.39871872766344,pleiades
+Hermopolis Magna/Schmun,27.7813573345,30.8037580511,settlement,Pre-Badarian,-10000,233.90795063228688,pleiades
+Beit Shemesh,31.7506023372,34.9748685018,settlement,Naqada II,-3300,176.2495357548214,pleiades
+Tell 'Ira,31.2330942,34.9855686,other,Naqada II,-3300,118.73886151530678,pleiades
+Tell es-Sakan,31.475817,34.404631,settlement,Naqada I,-4000,148.91171414574455,pleiades
+Sacred Animal Necropolis (Ṣaqqārah),29.8817400893,31.2153024975,settlement,Pre-Badarian,-4500,4.952748865925969,pleiades
+Tell el-Iswid,30.8530163334,31.7655762176,settlement,Pre-Badarian,-4500,98.0781499156692,pleiades
+Diospolis Magna/Thebai,25.664781,32.631884,settlement,Pre-Badarian,-2600000,483.77455509476385,pleiades
+Nekhen/Hierakonpolis,25.097743,32.779728,settlement,Pre-Badarian,-4500,547.7742784973088,pleiades
+Kaine/Maximianopolis,26.1498853333,32.7018756667,settlement,Pre-Badarian,-2600000,430.52636108711886,pleiades
+Latopolis,25.2936689,32.5531993,settlement,Pre-Badarian,-2600000,524.3081840148006,pleiades
+Pathyris/Aphroditopolis (settlement),25.369659,32.473946,settlement,Pre-Badarian,-6000,515.2641196454879,pleiades
+Syene,24.0885745,32.901491,settlement,Pre-Badarian,-6000,660.5962267836694,pleiades
+Naga ed-Deir,26.366667,31.9,other,Pre-Badarian,-4500,400.13310849602567,pleiades
+Maadi,29.966796,31.276221,settlement,Pre-Badarian,-4500,3.947722340863038,pleiades
+Tell el-Hesi,31.54726225,34.7307006,settlement,Pre-Badarian,-10000,154.99757279325058,pleiades
+Tell Beit Mirsim,31.4558,34.9102,settlement,Naqada II,-3300,143.86650019372792,pleiades
+Tell el-Samara,30.920916,31.613893,settlement,Pre-Badarian,-5000,106.82783029200255,pleiades
+Ben Shemen Forest,31.94454115,34.94298475,settlement,Pre-Badarian,-10000,197.9498046799472,pleiades
+Merimde,30.3162987,30.8498954,settlement,Pre-Badarian,-6000,46.3492078705458,pleiades
+Minshat Abu Omar,30.9129617,32.0251797,other,Pre-Badarian,-4500,102.66541650643921,pleiades
+Wadi Zoumayli Site,31.314971,34.696699,settlement,Pre-Badarian,-6200,129.4003852349797,pleiades
+Ibis Nome,30.9581008,31.4194301,other,Pre-Badarian,-4500,112.54695368513785,pleiades
+Jebel Qa'aqir,31.521,34.964,settlement,Naqada II,-3300,150.81697841054847,pleiades
+Shiqmim,31.1963972,34.641103,settlement,Pre-Badarian,-10000,116.54898345517722,pleiades
+el-Mahasna,26.2606441,31.8401232,settlement,Pre-Badarian,-4500,411.38389348975033,pleiades
+Tel Dalit,31.9768307,34.969541,settlement,Naqada II,-3300,201.39356041148676,pleiades
+Nubt,25.94056,32.70917,monumental,Pre-Badarian,-4500,453.7902471182988,pleiades
+'En Besor,31.3056563,34.4889397,settlement,Naqada II,-3300,129.5396944282893,pleiades
+Tell Ras Budran,28.9842321981,33.1816487076,other,Early Dynastic,-3000,119.72009404559867,pleiades
+Gebel es-Silsilah,24.6485729,32.9293463,other,Pre-Badarian,-4500,598.7100480216359,pleiades
+el-Amrah,26.143117,31.968447,other,Pre-Badarian,-4500,425.4705094963483,pleiades
+Tel Erani,31.6112331026,34.7853380292,settlement,Pre-Badarian,-10000,161.79862877079904,pleiades
+Tell el-Farkha,30.874944349,31.6016594135,settlement,Pre-Badarian,-4500,101.83447927627458,pleiades
+Badari,26.98,31.42,cemetery,Badarian,-4400,328.1207870887556,supplement
+Mostagedda,26.94,31.4,cemetery,Badarian,-4400,332.37858490614417,supplement
+Matmar,27.02,31.36,cemetery,Badarian,-4400,323.1701360478746,supplement
+Hammamiya,26.97,31.44,settlement,Badarian,-4400,329.40116228482293,supplement
+Qau el-Kebir,26.89,31.51,cemetery,Badarian,-4400,338.8650791154341,supplement
+Naqada (main site),25.9,32.72,cemetery,Naqada I,-4000,458.36960133930916,supplement
+Hierakonpolis HK29A,25.1,32.76,monumental,Naqada I,-4000,547.3737991025137,supplement
+Abadiya,26.0,32.6,cemetery,Naqada I,-3900,446.36489087766495,supplement
+Hu (Diospolis Parva),26.24,32.29,cemetery,Naqada I,-3900,417.3350922619502,supplement
+Armant,25.62,32.54,settlement,Naqada I,-3900,488.0283079761175,supplement
+Gebelein,25.52,32.49,settlement,Naqada I,-3900,498.72392053399926,supplement
+Gerzeh,29.38,31.07,cemetery,Naqada II,-3500,59.26302718378065,supplement
+Tarkhan,29.5,31.18,cemetery,Naqada II,-3400,46.928267668845365,supplement
+Harageh,29.27,31.1,cemetery,Naqada II,-3400,71.70657427560764,supplement
+Maadi,29.95,31.3,settlement,Naqada II,-3500,1.885261088527841,supplement
+Wadi Digla,29.93,31.32,settlement,Naqada II,-3500,0.4996618509212567,supplement
+Abydos Cemetery U,26.4,31.94,cemetery,Naqada II,-3400,396.7697369761536,supplement
+Adaima,25.23,32.75,settlement,Naqada II,-3500,532.8837553143167,supplement
+El-Amra,26.32,32.05,cemetery,Naqada II,-3500,406.5366474210914,supplement
+Tell el-Farkha,30.78,31.37,settlement,Naqada II,-3400,93.23061331442841,supplement
+Minshat Abu Omar,30.93,31.95,cemetery,Naqada II,-3400,105.1428242384427,supplement
+Helwan necropolis,29.84,31.34,cemetery,Naqada II,-3200,10.637919099333885,supplement
+Koptos temple,25.99,32.81,monumental,Naqada III,-3200,449.0708216768289,supplement
+Tell Ibrahim Awad,30.72,31.47,settlement,Naqada III,-3200,85.75200182215121,supplement
+Abydos (Dynasty 1 royal cemetery),26.42,31.95,monumental,Early Dynastic,-3100,394.6357976999516,supplement
+Abu Rawash (Dynasty 1),30.03,31.08,cemetery,Early Dynastic,-2900,12.632857054306442,supplement
+Nag el-Deir,26.48,31.86,cemetery,Early Dynastic,-3000,387.24321003260957,supplement

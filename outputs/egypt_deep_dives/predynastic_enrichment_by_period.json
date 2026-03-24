@@ -1,0 +1,125 @@
+{
+  "by_period": {
+    "Badarian": {
+      "n_sites": 5,
+      "n_within_50km": 0,
+      "fraction_within": 0.0,
+      "monumental": {
+        "n": 0,
+        "n_within": 0,
+        "frac": 0
+      },
+      "settlement": {
+        "n": 1,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "cemetery": {
+        "n": 4,
+        "n_within": 0,
+        "frac": 0.0
+      }
+    },
+    "Naqada I": {
+      "n_sites": 7,
+      "n_within_50km": 0,
+      "fraction_within": 0.0,
+      "monumental": {
+        "n": 1,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "settlement": {
+        "n": 3,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "cemetery": {
+        "n": 3,
+        "n_within": 0,
+        "frac": 0.0
+      }
+    },
+    "Naqada II": {
+      "n_sites": 21,
+      "n_within_50km": 4,
+      "fraction_within": 0.1905,
+      "monumental": {
+        "n": 0,
+        "n_within": 0,
+        "frac": 0
+      },
+      "settlement": {
+        "n": 13,
+        "n_within": 2,
+        "frac": 0.1538
+      },
+      "cemetery": {
+        "n": 7,
+        "n_within": 2,
+        "frac": 0.2857
+      }
+    },
+    "Naqada III": {
+      "n_sites": 2,
+      "n_within_50km": 0,
+      "fraction_within": 0.0,
+      "monumental": {
+        "n": 1,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "settlement": {
+        "n": 1,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "cemetery": {
+        "n": 0,
+        "n_within": 0,
+        "frac": 0
+      }
+    },
+    "Early Dynastic": {
+      "n_sites": 4,
+      "n_within_50km": 1,
+      "fraction_within": 0.25,
+      "monumental": {
+        "n": 1,
+        "n_within": 0,
+        "frac": 0.0
+      },
+      "settlement": {
+        "n": 0,
+        "n_within": 0,
+        "frac": 0
+      },
+      "cemetery": {
+        "n": 2,
+        "n_within": 1,
+        "frac": 0.5
+      }
+    },
+    "Old Kingdom": {
+      "n_sites": 0
+    }
+  },
+  "overall": {
+    "n_monumental": 7,
+    "n_settlement": 43,
+    "monumental_within_50km": 1,
+    "settlement_within_50km": 5,
+    "monumental_fraction": 0.1429,
+    "settlement_fraction": 0.1163,
+    "divergence": 0.0266
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "monumental_z": 2.441,
+    "monumental_p": 0.034,
+    "divergence_z": 0.637,
+    "divergence_p": 0.0188,
+    "baseline_divergence_mean": 0.0003,
+    "baseline_divergence_std": 0.0413
+  }
+}

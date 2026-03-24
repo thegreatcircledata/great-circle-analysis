@@ -1,0 +1,319 @@
+{
+  "analysis": "Underground structures beneath known Great Circle sites",
+  "cluster_inventory": {
+    "Egypt (Memphis/Giza)": {
+      "center": {
+        "lat": 29.5,
+        "lon": 31.2
+      },
+      "n_features": 13,
+      "n_monumental": 7,
+      "weighted_score": 53,
+      "features": [
+        {
+          "name": "Osiris Shaft beneath Giza causeway",
+          "type": "monumental_underground",
+          "depth_m": 30,
+          "notes": "Partially flooded, 3 levels, sarcophagus at bottom"
+        },
+        {
+          "name": "Subterranean Chamber of the Great Pyramid",
+          "type": "architecturally_significant",
+          "depth_m": 30,
+          "notes": "Carved from bedrock 30m below base, unfinished"
+        },
+        {
+          "name": "ScanPyramids void (2017 muon tomography)",
+          "type": "architecturally_significant",
+          "depth_m": null,
+          "notes": "~30m long void above Grand Gallery, discovered by muon tomography"
+        },
+        {
+          "name": "Saqqara Serapeum",
+          "type": "monumental_underground",
+          "depth_m": 12,
+          "notes": "~400m of tunnels, 24 massive granite sarcophagi (60-80 tons each)"
+        },
+        {
+          "name": "Saqqara ibis catacombs",
+          "type": "monumental_underground",
+          "depth_m": 10,
+          "notes": "~4 million mummified ibis, km of tunnels"
+        },
+        {
+          "name": "Saqqara baboon catacombs",
+          "type": "architecturally_significant",
+          "depth_m": 8,
+          "notes": "Adjacent to ibis catacombs"
+        },
+        {
+          "name": "Djoser Step Pyramid substructure",
+          "type": "monumental_underground",
+          "depth_m": 28,
+          "notes": "28m deep shaft, 5.7km of tunnels beneath pyramid"
+        },
+        {
+          "name": "Valley of the Kings tomb complex",
+          "type": "monumental_underground",
+          "depth_m": 50,
+          "notes": "63 tombs, KV5 alone has 121+ chambers (Weeks 1995)"
+        },
+        {
+          "name": "Valley of the Queens",
+          "type": "monumental_underground",
+          "depth_m": 15,
+          "notes": "~80 tombs including Nefertari's tomb"
+        },
+        {
+          "name": "Osireion at Abydos",
+          "type": "monumental_underground",
+          "depth_m": 15,
+          "notes": "Megalithic subterranean temple, granite blocks, water table"
+        },
+        {
+          "name": "Giza Plateau trial passages / tunnels",
+          "type": "architecturally_significant",
+          "depth_m": 10,
+          "notes": "Exploratory rock-cut passages near Great Pyramid"
+        },
+        {
+          "name": "Abu Rawash pyramid shaft",
+          "type": "architecturally_significant",
+          "depth_m": 21,
+          "notes": "Deep shaft beneath Djedefre's pyramid"
+        },
+        {
+          "name": "Medium pyramid substructure",
+          "type": "architecturally_significant",
+          "depth_m": 15,
+          "notes": "Descending passage and burial chamber"
+        }
+      ]
+    },
+    "Peru (Nazca/Cahuachi)": {
+      "center": {
+        "lat": -14.8,
+        "lon": -75.1
+      },
+      "n_features": 5,
+      "n_monumental": 1,
+      "weighted_score": 17,
+      "features": [
+        {
+          "name": "Chav\u00edn de Hu\u00e1ntar underground galleries",
+          "type": "monumental_underground",
+          "depth_m": 15,
+          "notes": "3+ levels, acoustic properties, Lanz\u00f3n monolith chamber"
+        },
+        {
+          "name": "Nazca puquios (36+ underground aqueducts)",
+          "type": "architecturally_significant",
+          "depth_m": 10,
+          "notes": "Spiral access points, still functioning, UNESCO tentative list"
+        },
+        {
+          "name": "Cahuachi buried construction phases",
+          "type": "architecturally_significant",
+          "depth_m": 5,
+          "notes": "Multiple building phases buried beneath mound construction"
+        },
+        {
+          "name": "Nazca L\u00edneas subterranean water management",
+          "type": "architecturally_significant",
+          "depth_m": null,
+          "notes": "Underground filtration galleries connected to geoglyphs"
+        },
+        {
+          "name": "Wari underground chambers at Pikillacta",
+          "type": "architecturally_significant",
+          "depth_m": 5,
+          "notes": "Subterranean storage/ritual chambers"
+        }
+      ]
+    },
+    "Iran (Persepolis)": {
+      "center": {
+        "lat": 29.9,
+        "lon": 52.9
+      },
+      "n_features": 5,
+      "n_monumental": 1,
+      "weighted_score": 16,
+      "features": [
+        {
+          "name": "Naqsh-e Rostam rock-cut tombs",
+          "type": "monumental_underground",
+          "depth_m": 15,
+          "notes": "4 Achaemenid royal tombs carved into cliff face, Ka'ba-ye Zartosht"
+        },
+        {
+          "name": "Persepolis drainage tunnel system",
+          "type": "architecturally_significant",
+          "depth_m": 5,
+          "notes": "Extensive underground water management beneath the platform"
+        },
+        {
+          "name": "Persepolis Treasury foundations",
+          "type": "architecturally_significant",
+          "depth_m": 3,
+          "notes": "Sub-floor storage and foundation chambers"
+        },
+        {
+          "name": "Buried city beneath Persepolis (magnetometry 2020s)",
+          "type": "architecturally_significant",
+          "depth_m": 3,
+          "notes": "Magnetometry revealed extensive buried structures beyond visible ruins"
+        },
+        {
+          "name": "Naqsh-e Rajab rock reliefs",
+          "type": "minimally_modified",
+          "depth_m": 0,
+          "notes": "Sasanian rock-cut reliefs in natural rock face"
+        }
+      ]
+    },
+    "Indus Valley (Mohenjo-daro)": {
+      "center": {
+        "lat": 27.3,
+        "lon": 68.1
+      },
+      "n_features": 4,
+      "n_monumental": 0,
+      "weighted_score": 10,
+      "features": [
+        {
+          "name": "Great Bath and waterproofing/drainage system",
+          "type": "architecturally_significant",
+          "depth_m": 3,
+          "notes": "Bitumen-sealed, earliest known public water management structure"
+        },
+        {
+          "name": "Underground drainage/sewer network",
+          "type": "architecturally_significant",
+          "depth_m": 2,
+          "notes": "Covered brick drains beneath streets, one of earliest urban sewers"
+        },
+        {
+          "name": "Unexcavated lower waterlogged layers",
+          "type": "natural",
+          "depth_m": 3,
+          "notes": "Estimated 3+ meters of stratigraphy never excavated due to water table"
+        },
+        {
+          "name": "Well network (~700 wells)",
+          "type": "architecturally_significant",
+          "depth_m": 10,
+          "notes": "Brick-lined wells, highest density of any ancient city"
+        }
+      ]
+    },
+    "Easter Island": {
+      "center": {
+        "lat": -27.1,
+        "lon": -109.4
+      },
+      "n_features": 5,
+      "n_monumental": 0,
+      "weighted_score": 8,
+      "features": [
+        {
+          "name": "Ana Kai Tangata (painted cave)",
+          "type": "minimally_modified",
+          "depth_m": 5,
+          "notes": "Sooty tern (manutara) paintings, ceremony of the Birdman cult"
+        },
+        {
+          "name": "Ana Te Pahu (lava tube complex)",
+          "type": "natural",
+          "depth_m": 8,
+          "notes": "Largest lava tube, agricultural use, banana cultivation inside"
+        },
+        {
+          "name": "Ana O Keke (virgin cave)",
+          "type": "minimally_modified",
+          "depth_m": 10,
+          "notes": "Ritual seclusion cave on Poike cliff face"
+        },
+        {
+          "name": "Numerous habitation lava tubes",
+          "type": "natural",
+          "depth_m": 5,
+          "notes": "Multiple lava tubes used as shelters across the island"
+        },
+        {
+          "name": "Ana Heu Neru (meditation cave)",
+          "type": "minimally_modified",
+          "depth_m": 3,
+          "notes": "Cave at Orongo with petroglyphs"
+        }
+      ]
+    },
+    "Southeast Asia": {
+      "center": {
+        "lat": 15.0,
+        "lon": 105.0
+      },
+      "n_features": 3,
+      "n_monumental": 0,
+      "weighted_score": 4,
+      "features": [
+        {
+          "name": "Plain of Jars (underground contexts)",
+          "type": "minimally_modified",
+          "depth_m": 2,
+          "notes": "Some jars associated with cave burial practices"
+        },
+        {
+          "name": "Tam Pa Ling cave (Laos)",
+          "type": "natural",
+          "depth_m": 5,
+          "notes": "Oldest modern human fossils in mainland SE Asia (~46-63 ka)"
+        },
+        {
+          "name": "Tham Lod rock shelter (Thailand)",
+          "type": "natural",
+          "depth_m": 3,
+          "notes": "Paleolithic habitation and coffin cave burials"
+        }
+      ]
+    }
+  },
+  "control_sites": {
+    "G\u00f6bekli Tepe": {
+      "n_features": 2,
+      "n_monumental": 0,
+      "weighted_score": 6,
+      "gc_distance_km": 770.1
+    },
+    "Stonehenge": {
+      "n_features": 2,
+      "n_monumental": 0,
+      "weighted_score": 3,
+      "gc_distance_km": 2915.4
+    },
+    "Teotihuacan": {
+      "n_features": 3,
+      "n_monumental": 1,
+      "weighted_score": 9,
+      "gc_distance_km": 4558.6
+    },
+    "Angkor Wat": {
+      "n_features": 2,
+      "n_monumental": 0,
+      "weighted_score": 4,
+      "gc_distance_km": 168.2
+    },
+    "Machu Picchu": {
+      "n_features": 2,
+      "n_monumental": 0,
+      "weighted_score": 5,
+      "gc_distance_km": 16.3
+    },
+    "Tikal": {
+      "n_features": 2,
+      "n_monumental": 0,
+      "weighted_score": 4,
+      "gc_distance_km": 3877.8
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Easter Island": {
+    "lat": -27.11,
+    "lon": -109.35,
+    "distance_to_circle_km": 9.6,
+    "bearing_1": 75.7,
+    "bearing_2": 255.7,
+    "star_sector_1": "E-NE (Hokule'a rising / Arcturus)",
+    "star_sector_2": "WSW"
+  },
+  "Tahiti": {
+    "lat": -17.53,
+    "lon": -149.57,
+    "distance_to_circle_km": 1365.0,
+    "bearing_1": 95.62,
+    "bearing_2": 275.62,
+    "star_sector_1": "E (Hikianalia / Spica rising)",
+    "star_sector_2": "W"
+  },
+  "Raiatea": {
+    "lat": -16.73,
+    "lon": -151.44,
+    "distance_to_circle_km": 1432.4,
+    "bearing_1": 96.58,
+    "bearing_2": 276.58,
+    "star_sector_1": "E (Hikianalia / Spica rising)",
+    "star_sector_2": "W"
+  },
+  "Nuku Hiva (Marquesas)": {
+    "lat": -8.92,
+    "lon": -140.07,
+    "distance_to_circle_km": 2378.3,
+    "bearing_1": 90.77,
+    "bearing_2": 270.77,
+    "star_sector_1": "E (Hikianalia / Spica rising)",
+    "star_sector_2": "W"
+  },
+  "Hawaii (Big Island)": {
+    "lat": 19.72,
+    "lon": -155.08,
+    "distance_to_circle_km": 5374.7,
+    "bearing_1": 102.41,
+    "bearing_2": 282.41,
+    "star_sector_1": "ESE-SE",
+    "star_sector_2": "WNW-NW"
+  },
+  "Rarotonga": {
+    "lat": -21.24,
+    "lon": -159.77,
+    "distance_to_circle_km": 805.9,
+    "bearing_1": 100.57,
+    "bearing_2": 280.57,
+    "star_sector_1": "E (Hikianalia / Spica rising)",
+    "star_sector_2": "W"
+  },
+  "Tongatapu": {
+    "lat": -21.13,
+    "lon": -175.2,
+    "distance_to_circle_km": 427.5,
+    "bearing_1": 107.54,
+    "bearing_2": 287.54,
+    "star_sector_1": "ESE-SE",
+    "star_sector_2": "WNW-NW"
+  }
+}

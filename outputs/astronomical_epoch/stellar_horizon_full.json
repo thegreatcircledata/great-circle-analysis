@@ -1,0 +1,434 @@
+{
+  "stellar_events": [
+    {
+      "site": "Giza",
+      "site_lat": 29.9792,
+      "site_lon": 31.1342,
+      "epoch_year": -2500,
+      "gc_bearing_1": 84.86,
+      "gc_bearing_2": 264.86,
+      "star": "Procyon",
+      "mag": 0.34,
+      "offset": 0.13,
+      "direction": "set",
+      "bearing_used": 264.9,
+      "star_azimuth": 264.7,
+      "star_dec_at_epoch": 4.56
+    },
+    {
+      "site": "Giza",
+      "site_lat": 29.9792,
+      "site_lon": 31.1342,
+      "epoch_year": -2600,
+      "gc_bearing_1": 84.86,
+      "gc_bearing_2": 264.86,
+      "star": "Procyon",
+      "mag": 0.34,
+      "offset": 0.21,
+      "direction": "set",
+      "bearing_used": 264.9,
+      "star_azimuth": 265.1,
+      "star_dec_at_epoch": 4.27
+    },
+    {
+      "site": "Giza",
+      "site_lat": 29.9792,
+      "site_lon": 31.1342,
+      "epoch_year": -3000,
+      "gc_bearing_1": 84.86,
+      "gc_bearing_2": 264.86,
+      "star": "Alhena",
+      "mag": 1.93,
+      "offset": 0.52,
+      "direction": "set",
+      "bearing_used": 264.9,
+      "star_azimuth": 264.3,
+      "star_dec_at_epoch": 4.9
+    },
+    {
+      "site": "Giza",
+      "site_lat": 29.9792,
+      "site_lon": 31.1342,
+      "epoch_year": -10000,
+      "gc_bearing_1": 84.86,
+      "gc_bearing_2": 264.86,
+      "star": "Menkalinan",
+      "mag": 1.9,
+      "offset": 1.06,
+      "direction": "rise",
+      "bearing_used": 84.9,
+      "star_azimuth": 85.9,
+      "star_dec_at_epoch": -3.54
+    },
+    {
+      "site": "Nazca",
+      "site_lat": -14.735,
+      "site_lon": -75.13,
+      "epoch_year": -200,
+      "gc_bearing_1": 63.14,
+      "gc_bearing_2": 243.14,
+      "star": "Nunki",
+      "mag": 2.02,
+      "offset": 0.36,
+      "direction": "rise",
+      "bearing_used": 63.1,
+      "star_azimuth": 63.5,
+      "star_dec_at_epoch": -25.57
+    },
+    {
+      "site": "Nazca",
+      "site_lat": -14.735,
+      "site_lon": -75.13,
+      "epoch_year": -500,
+      "gc_bearing_1": 63.14,
+      "gc_bearing_2": 243.14,
+      "star": "Wezen",
+      "mag": 1.84,
+      "offset": 0.61,
+      "direction": "rise",
+      "bearing_used": 63.1,
+      "star_azimuth": 63.7,
+      "star_dec_at_epoch": -25.32
+    },
+    {
+      "site": "Nazca",
+      "site_lat": -14.735,
+      "site_lon": -75.13,
+      "epoch_year": -600,
+      "gc_bearing_1": 63.14,
+      "gc_bearing_2": 243.14,
+      "star": "Wezen",
+      "mag": 1.84,
+      "offset": 0.52,
+      "direction": "rise",
+      "bearing_used": 63.1,
+      "star_azimuth": 63.7,
+      "star_dec_at_epoch": -25.41
+    },
+    {
+      "site": "Easter Island",
+      "site_lat": -27.1127,
+      "site_lon": -109.3497,
+      "epoch_year": 1000,
+      "gc_bearing_1": 75.7,
+      "gc_bearing_2": 255.7,
+      "star": "Aldebaran",
+      "mag": 0.85,
+      "offset": 1.4,
+      "direction": "set",
+      "bearing_used": 255.7,
+      "star_azimuth": 254.3,
+      "star_dec_at_epoch": 13.94
+    },
+    {
+      "site": "Easter Island",
+      "site_lat": -27.1127,
+      "site_lon": -109.3497,
+      "epoch_year": 1200,
+      "gc_bearing_1": 75.7,
+      "gc_bearing_2": 255.7,
+      "star": "Aldebaran",
+      "mag": 0.85,
+      "offset": 2.09,
+      "direction": "set",
+      "bearing_used": 255.7,
+      "star_azimuth": 253.6,
+      "star_dec_at_epoch": 14.55
+    },
+    {
+      "site": "Easter Island",
+      "site_lat": -27.1127,
+      "site_lon": -109.3497,
+      "epoch_year": 1400,
+      "gc_bearing_1": 75.7,
+      "gc_bearing_2": 255.7,
+      "star": "Regulus",
+      "mag": 1.35,
+      "offset": 2.38,
+      "direction": "set",
+      "bearing_used": 255.7,
+      "star_azimuth": 253.3,
+      "star_dec_at_epoch": 14.8
+    },
+    {
+      "site": "Persepolis",
+      "site_lat": 29.9352,
+      "site_lon": 52.8916,
+      "epoch_year": -500,
+      "gc_bearing_1": 95.79,
+      "gc_bearing_2": 275.79,
+      "star": "Mintaka",
+      "mag": 2.23,
+      "offset": 0.73,
+      "direction": "set",
+      "bearing_used": 275.8,
+      "star_azimuth": 276.5,
+      "star_dec_at_epoch": -5.65
+    },
+    {
+      "site": "Persepolis",
+      "site_lat": 29.9352,
+      "site_lon": 52.8916,
+      "epoch_year": -520,
+      "gc_bearing_1": 95.79,
+      "gc_bearing_2": 275.79,
+      "star": "Altair",
+      "mag": 0.76,
+      "offset": 0.77,
+      "direction": "rise",
+      "bearing_used": 95.8,
+      "star_azimuth": 96.6,
+      "star_dec_at_epoch": 5.69
+    },
+    {
+      "site": "Persepolis",
+      "site_lat": 29.9352,
+      "site_lon": 52.8916,
+      "epoch_year": -2000,
+      "gc_bearing_1": 95.79,
+      "gc_bearing_2": 275.79,
+      "star": "Procyon",
+      "mag": 0.34,
+      "offset": 0.97,
+      "direction": "rise",
+      "bearing_used": 95.8,
+      "star_azimuth": 96.8,
+      "star_dec_at_epoch": 5.86
+    },
+    {
+      "site": "Mohenjo-daro",
+      "site_lat": 27.3242,
+      "site_lon": 68.1367,
+      "epoch_year": -2500,
+      "gc_bearing_1": 103.15,
+      "gc_bearing_2": 283.15,
+      "star": "Alnath",
+      "mag": 1.65,
+      "offset": 1.21,
+      "direction": "rise",
+      "bearing_used": 103.1,
+      "star_azimuth": 104.4,
+      "star_dec_at_epoch": 12.73
+    },
+    {
+      "site": "Mohenjo-daro",
+      "site_lat": 27.3242,
+      "site_lon": 68.1367,
+      "epoch_year": -2600,
+      "gc_bearing_1": 103.15,
+      "gc_bearing_2": 283.15,
+      "star": "Alnath",
+      "mag": 1.65,
+      "offset": 0.6,
+      "direction": "rise",
+      "bearing_used": 103.1,
+      "star_azimuth": 103.8,
+      "star_dec_at_epoch": 12.19
+    },
+    {
+      "site": "Mohenjo-daro",
+      "site_lat": 27.3242,
+      "site_lon": 68.1367,
+      "epoch_year": -3000,
+      "gc_bearing_1": 103.15,
+      "gc_bearing_2": 283.15,
+      "star": "Bellatrix",
+      "mag": 1.64,
+      "offset": 0.5,
+      "direction": "set",
+      "bearing_used": 283.1,
+      "star_azimuth": 282.6,
+      "star_dec_at_epoch": -11.22
+    },
+    {
+      "site": "Angkor Wat",
+      "site_lat": 13.4125,
+      "site_lon": 103.867,
+      "epoch_year": 1100,
+      "gc_bearing_1": 116.61,
+      "gc_bearing_2": 296.61,
+      "star": "Wezen",
+      "mag": 1.84,
+      "offset": 0.55,
+      "direction": "set",
+      "bearing_used": 296.6,
+      "star_azimuth": 296.1,
+      "star_dec_at_epoch": -25.31
+    },
+    {
+      "site": "Angkor Wat",
+      "site_lat": 13.4125,
+      "site_lon": 103.867,
+      "epoch_year": 1150,
+      "gc_bearing_1": 116.61,
+      "gc_bearing_2": 296.61,
+      "star": "Wezen",
+      "mag": 1.84,
+      "offset": 0.5,
+      "direction": "set",
+      "bearing_used": 296.6,
+      "star_azimuth": 296.1,
+      "star_dec_at_epoch": -25.35
+    },
+    {
+      "site": "Angkor Wat",
+      "site_lat": 13.4125,
+      "site_lon": 103.867,
+      "epoch_year": 1200,
+      "gc_bearing_1": 116.61,
+      "gc_bearing_2": 296.61,
+      "star": "Wezen",
+      "mag": 1.84,
+      "offset": 0.46,
+      "direction": "set",
+      "bearing_used": 296.6,
+      "star_azimuth": 296.2,
+      "star_dec_at_epoch": -25.39
+    },
+    {
+      "site": "Machu Picchu",
+      "site_lat": -13.1631,
+      "site_lon": -72.545,
+      "epoch_year": 1450,
+      "gc_bearing_1": 62.51,
+      "gc_bearing_2": 242.51,
+      "star": "Nunki",
+      "mag": 2.02,
+      "offset": 0.1,
+      "direction": "rise",
+      "bearing_used": 62.5,
+      "star_azimuth": 62.4,
+      "star_dec_at_epoch": -26.8
+    },
+    {
+      "site": "Machu Picchu",
+      "site_lat": -13.1631,
+      "site_lon": -72.545,
+      "epoch_year": 1400,
+      "gc_bearing_1": 62.51,
+      "gc_bearing_2": 242.51,
+      "star": "Nunki",
+      "mag": 2.02,
+      "offset": 0.12,
+      "direction": "rise",
+      "bearing_used": 62.5,
+      "star_azimuth": 62.4,
+      "star_dec_at_epoch": -26.82
+    },
+    {
+      "site": "Ollantaytambo",
+      "site_lat": -13.2581,
+      "site_lon": -72.2636,
+      "epoch_year": 1400,
+      "gc_bearing_1": 62.45,
+      "gc_bearing_2": 242.45,
+      "star": "Nunki",
+      "mag": 2.02,
+      "offset": 0.07,
+      "direction": "rise",
+      "bearing_used": 62.5,
+      "star_azimuth": 62.4,
+      "star_dec_at_epoch": -26.82
+    },
+    {
+      "site": "Ollantaytambo",
+      "site_lat": -13.2581,
+      "site_lon": -72.2636,
+      "epoch_year": 1450,
+      "gc_bearing_1": 62.45,
+      "gc_bearing_2": 242.45,
+      "star": "Nunki",
+      "mag": 2.02,
+      "offset": 0.04,
+      "direction": "rise",
+      "bearing_used": 62.5,
+      "star_azimuth": 62.4,
+      "star_dec_at_epoch": -26.8
+    }
+  ],
+  "significance": {
+    "site": "Giza",
+    "epoch": -2500,
+    "gc_best_offset_deg": 0.13,
+    "mc_n_trials": 10000,
+    "mc_mean_best_offset_deg": 2.41,
+    "mc_std_deg": 4.15,
+    "mc_median_deg": 0.76,
+    "gc_percentile": 11.1,
+    "conclusion": "The Great Circle's best stellar alignment at Giza (2500 BCE) has an offset of 0.1\u00b0. This is at the 11.1th percentile among random great circles (median random offset: 0.8\u00b0). Not significant \u2014 typical of random circles."
+  },
+  "multi_site_consistency": {
+    "Procyon": [
+      {
+        "site": "Giza",
+        "epoch": -2500,
+        "offset": 0.13
+      },
+      {
+        "site": "Giza",
+        "epoch": -2600,
+        "offset": 0.21
+      },
+      {
+        "site": "Persepolis",
+        "epoch": -2000,
+        "offset": 0.97
+      }
+    ],
+    "Nunki": [
+      {
+        "site": "Nazca",
+        "epoch": -200,
+        "offset": 0.36
+      },
+      {
+        "site": "Machu Picchu",
+        "epoch": 1450,
+        "offset": 0.1
+      },
+      {
+        "site": "Machu Picchu",
+        "epoch": 1400,
+        "offset": 0.12
+      },
+      {
+        "site": "Ollantaytambo",
+        "epoch": 1400,
+        "offset": 0.07
+      },
+      {
+        "site": "Ollantaytambo",
+        "epoch": 1450,
+        "offset": 0.04
+      }
+    ],
+    "Wezen": [
+      {
+        "site": "Nazca",
+        "epoch": -500,
+        "offset": 0.61
+      },
+      {
+        "site": "Nazca",
+        "epoch": -600,
+        "offset": 0.52
+      },
+      {
+        "site": "Angkor Wat",
+        "epoch": 1100,
+        "offset": 0.55
+      },
+      {
+        "site": "Angkor Wat",
+        "epoch": 1150,
+        "offset": 0.5
+      },
+      {
+        "site": "Angkor Wat",
+        "epoch": 1200,
+        "offset": 0.46
+      }
+    ]
+  },
+  "overall_conclusion": "The stellar horizon analysis found no compelling evidence of astronomical alignment. While individual site-epoch combinations can be found where a bright star rises or sets near the Great Circle's bearing, the Monte Carlo test shows this is expected for ANY great circle \u2014 the sky is dense with bright stars, and finding a ~few-degree match at any given site is not unusual."
+}

@@ -1,0 +1,224 @@
+{
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "n_island_groups": 20,
+  "band_counts": {
+    "50": 1,
+    "100": 1,
+    "200": 1,
+    "500": 2
+  },
+  "closest_islands": [
+    {
+      "name": "Easter Island (Rapa Nui)",
+      "distance_km": 9.6
+    },
+    {
+      "name": "Rapa Iti",
+      "distance_km": 285.9
+    },
+    {
+      "name": "Tonga",
+      "distance_km": 502.8
+    },
+    {
+      "name": "Pitcairn Islands",
+      "distance_km": 551.1
+    },
+    {
+      "name": "Fiji",
+      "distance_km": 557.9
+    }
+  ],
+  "results": [
+    {
+      "name": "Easter Island (Rapa Nui)",
+      "lat": -27.11,
+      "lon": -109.35,
+      "distance_km": 9.6,
+      "bearing_east": 75.7,
+      "bearing_west": 255.7,
+      "within_bands_km": [
+        50,
+        100,
+        200,
+        500
+      ]
+    },
+    {
+      "name": "Rapa Iti",
+      "lat": -27.62,
+      "lon": -144.34,
+      "distance_km": 285.9,
+      "bearing_east": 92.87,
+      "bearing_west": 272.87,
+      "within_bands_km": [
+        500
+      ]
+    },
+    {
+      "name": "Tonga",
+      "lat": -20.42,
+      "lon": -175.2,
+      "distance_km": 502.8,
+      "bearing_east": 107.55,
+      "bearing_west": 287.55,
+      "within_bands_km": []
+    },
+    {
+      "name": "Pitcairn Islands",
+      "lat": -25.07,
+      "lon": -130.1,
+      "distance_km": 551.1,
+      "bearing_east": 85.68,
+      "bearing_west": 265.68,
+      "within_bands_km": []
+    },
+    {
+      "name": "Fiji",
+      "lat": -17.71,
+      "lon": 178.07,
+      "distance_km": 557.9,
+      "bearing_east": 110.33,
+      "bearing_west": 290.33,
+      "within_bands_km": []
+    },
+    {
+      "name": "Henderson Island",
+      "lat": -24.37,
+      "lon": -128.32,
+      "distance_km": 613.7,
+      "bearing_east": 84.78,
+      "bearing_west": 264.78,
+      "within_bands_km": []
+    },
+    {
+      "name": "Mangareva / Gambier",
+      "lat": -23.13,
+      "lon": -134.97,
+      "distance_km": 793.1,
+      "bearing_east": 88.13,
+      "bearing_west": 268.13,
+      "within_bands_km": []
+    },
+    {
+      "name": "Austral Islands",
+      "lat": -22.44,
+      "lon": -151.35,
+      "distance_km": 802.6,
+      "bearing_east": 96.42,
+      "bearing_west": 276.42,
+      "within_bands_km": []
+    },
+    {
+      "name": "Niue",
+      "lat": -19.05,
+      "lon": -169.87,
+      "distance_km": 806.7,
+      "bearing_east": 105.3,
+      "bearing_west": 285.3,
+      "within_bands_km": []
+    },
+    {
+      "name": "Cook Islands",
+      "lat": -19.0,
+      "lon": -159.5,
+      "distance_km": 1055.9,
+      "bearing_east": 100.5,
+      "bearing_west": 280.5,
+      "within_bands_km": []
+    },
+    {
+      "name": "Wallis & Futuna",
+      "lat": -13.28,
+      "lon": -176.18,
+      "distance_km": 1226.3,
+      "bearing_east": 108.26,
+      "bearing_west": 288.26,
+      "within_bands_km": []
+    },
+    {
+      "name": "Samoa",
+      "lat": -13.76,
+      "lon": -172.1,
+      "distance_km": 1307.3,
+      "bearing_east": 106.51,
+      "bearing_west": 286.51,
+      "within_bands_km": []
+    },
+    {
+      "name": "Society Islands",
+      "lat": -17.32,
+      "lon": -149.75,
+      "distance_km": 1386.4,
+      "bearing_east": 95.71,
+      "bearing_west": 275.71,
+      "within_bands_km": []
+    },
+    {
+      "name": "Tuamotu Archipelago",
+      "lat": -17.0,
+      "lon": -144.0,
+      "distance_km": 1467.1,
+      "bearing_east": 92.77,
+      "bearing_west": 272.77,
+      "within_bands_km": []
+    },
+    {
+      "name": "Tokelau",
+      "lat": -9.17,
+      "lon": -171.82,
+      "distance_km": 1805.1,
+      "bearing_east": 106.72,
+      "bearing_west": 286.72,
+      "within_bands_km": []
+    },
+    {
+      "name": "New Zealand (Aotearoa)",
+      "lat": -41.27,
+      "lon": 174.78,
+      "distance_km": 1998.6,
+      "bearing_east": 112.67,
+      "bearing_west": 292.67,
+      "within_bands_km": []
+    },
+    {
+      "name": "Marquesas Islands",
+      "lat": -9.43,
+      "lon": -140.07,
+      "distance_km": 2321.6,
+      "bearing_east": 90.77,
+      "bearing_west": 270.77,
+      "within_bands_km": []
+    },
+    {
+      "name": "Phoenix Islands",
+      "lat": -3.85,
+      "lon": -171.73,
+      "distance_km": 2373.8,
+      "bearing_east": 107.21,
+      "bearing_west": 287.21,
+      "within_bands_km": []
+    },
+    {
+      "name": "Line Islands (Kiribati)",
+      "lat": 1.87,
+      "lon": -157.47,
+      "distance_km": 3378.0,
+      "bearing_east": 100.88,
+      "bearing_west": 280.88,
+      "within_bands_km": []
+    },
+    {
+      "name": "Hawaiian Islands",
+      "lat": 20.79,
+      "lon": -156.33,
+      "distance_km": 5461.4,
+      "bearing_east": 103.55,
+      "bearing_west": 283.55,
+      "within_bands_km": []
+    }
+  ]
+}

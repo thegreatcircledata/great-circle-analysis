@@ -1,0 +1,964 @@
+name,lat,lon,date_bce,circle_pos,cluster,source,is_monumental,type
+Khufu's ship,29.9780461,31.1342169,-2670,8.876635126853216e-05,Egypt / Levant,pleiades,False,monument
+Giza plateau,29.9732,31.1328,-2938,0.0017452659891432631,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,29.9777703374,31.1319071185,-2670,0.002106200233583877,Egypt / Levant,pleiades,False,"sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex"
+Giza Western Cemetery,29.9792,31.131,-2418,0.0027607203284674142,Egypt / Levant,p3k14c,False,radiocarbon
+Giza Western Cemetery,29.9792,31.131,-1998,0.0027607203284674142,Egypt / Levant,p3k14c,False,radiocarbon
+Giza Western Cemetery,29.9792,31.131,-3011,0.0027607203284674142,Egypt / Levant,p3k14c,False,radiocarbon
+Giza Khafre Pyramid,29.9757,31.1305,-2397,0.0035056645665463293,Egypt / Levant,p3k14c,True,radiocarbon
+Giza Khafre Pyramid,29.9757,31.1305,-2496,0.0035056645665463293,Egypt / Levant,p3k14c,True,radiocarbon
+Giza Khafre Pyramid,29.9757,31.1305,-2323,0.0035056645665463293,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Khafre,29.9769101,31.1296934,-2670,0.004093134448169167,Egypt / Levant,pleiades,True,pyramid
+The Giza Necropolis,29.973088495,31.1297475567,-2670,0.004388832531049047,Egypt / Levant,pleiades,False,"cemetery, archaeological-site"
+Pyramid of Menkaure,29.9728781,31.128802,-2670,0.00522348944116402,Egypt / Levant,pleiades,True,pyramid
+Abu Bakr cemetery,29.9818377994,31.1271615028,-2670,0.00583586923198709,Egypt / Levant,pleiades,False,cemetery
+Pyramids of Queens,29.9717794,31.1281233,-2670,0.005907516869456231,Egypt / Levant,pleiades,True,pyramid
+Memphites Nomos,29.9807344781,31.1221787957,-330,0.010233366743420902,Egypt / Levant,pleiades,False,"province, label"
+Letopolites Nomos,30.123866346,31.0736571945,-330,0.03919789211568059,Egypt / Levant,pleiades,False,"province, label"
+Abu Rawash,30.0341969932,31.0794498643,-2670,0.04228156159194896,Egypt / Levant,pleiades,False,cemetery
+Abu Roash Djedefre Pyramid Temple,30.0321,31.0749,-2199,0.04639339534099918,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Djedefre,30.0327194,31.0742458,-2670,0.046901667044778605,Egypt / Levant,pleiades,True,tomb
+Papremite Nomos,30.0805901123,31.0594514057,-330,0.05533915778386245,Egypt / Levant,pleiades,False,"province, label"
+Undefined site southwest of Cairo,30.0,31.0,-1426,0.1138846505972424,Egypt / Levant,p3k14c,False,radiocarbon
+El Qattah,30.2170479,30.9668449,-2010,0.12272450698549164,Egypt / Levant,pleiades,False,cemetery
+Bakchias,29.536946,31.0041595,-330,0.15229214464170582,Egypt / Levant,pleiades,False,"settlement, archaeological-site"
+Tamais?,29.476667,30.959842,-330,0.1961814036237115,Egypt / Levant,pleiades,False,settlement
+Merimde,30.3162987,30.8498954,-6000,0.2142267645435254,Egypt / Levant,pleiades,False,settlement
+Merimde Beni Salame,30.3011,30.8403,-3880,0.22387507005544194,Egypt / Levant,p3k14c,False,radiocarbon
+Merimde Beni Salame,30.3011,30.8403,-4372,0.22387507005544194,Egypt / Levant,p3k14c,False,radiocarbon
+Karanis,29.5182407695,30.9034261769,-330,0.24128386944096292,Egypt / Levant,pleiades,False,settlement
+Upper K,29.5923,30.8887,-4702,0.24725416721850024,Egypt / Levant,p3k14c,False,radiocarbon
+Upper K,29.5923,30.8887,-3675,0.24725416721850024,Egypt / Levant,p3k14c,False,radiocarbon
+Upper K,29.5923,30.8887,-3891,0.24725416721850024,Egypt / Levant,p3k14c,False,radiocarbon
+Upper K,29.5923,30.8887,-3578,0.24725416721850024,Egypt / Levant,p3k14c,False,radiocarbon
+E29H1 [aka E29H1 (L Basin)],29.5842,30.8344,-1154,0.2950186074069734,Egypt / Levant,p3k14c,False,radiocarbon
+Neiloupolis,29.529099,30.8214,-330,0.3113603466077848,Egypt / Levant,pleiades,False,settlement
+Epagathiane (Diorux),29.75,30.75,-30,0.35269992780655457,Egypt / Levant,pleiades,False,canal
+Qasr el-Sagha temple,29.5950711,30.6778876,-2670,0.4295240656715009,Egypt / Levant,pleiades,True,temple-2
+Qasr El Sagha VIIC/80,29.5925,30.6758,-2034,0.4315718706588427,Egypt / Levant,p3k14c,False,radiocarbon
+Qasr El Sagha VIA-1/81,29.5925,30.6758,-1583,0.4315718706588427,Egypt / Levant,p3k14c,False,radiocarbon
+Qasr El Sagha VIA-1/81,29.5925,30.6758,-1552,0.4315718706588427,Egypt / Levant,p3k14c,False,radiocarbon
+Qasr El Sagha VIA-2/81,29.5925,30.6758,-1709,0.4315718706588427,Egypt / Levant,p3k14c,False,radiocarbon
+Qasr El Sagha VIIG/80 (aka Qasr El Sagha VIIG/81),29.5925,30.6758,-1300,0.4315718706588427,Egypt / Levant,p3k14c,False,radiocarbon
+Soknopaiou Nesos,29.5334745,30.668916,-330,0.443056342734792,Egypt / Levant,pleiades,False,"settlement, archaeological-site"
+Moeris (lake),29.4738340311,30.6288162768,-330,0.48339567031314346,Egypt / Levant,pleiades,False,lake
+Deir Abou Makar,30.2919228217,30.4757533764,300,0.5381175186278142,Egypt / Levant,pleiades,False,"monastery, church"
+Fayoum,29.5,30.5,-3619,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayum pit 59,29.5,30.5,-4702,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayum,29.5,30.5,-4075,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayum,29.5,30.5,-6548,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayum,29.5,30.5,-5511,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayum,29.5,30.5,-5900,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Fayoum site R (E29G3 area b),29.5,30.5,-4129,0.5925540887499778,Egypt / Levant,p3k14c,False,radiocarbon
+Medinet Quta,29.453956,30.36088,-330,0.7175174573009144,Egypt / Levant,pleiades,False,settlement
+Siwa 7530,29.63,26.5,-6224,4.034989943712958,Egypt / Levant,p3k14c,False,radiocarbon
+Alexandrou Parembole,29.61606,26.45006,-330,4.079843417983113,Egypt / Levant,pleiades,False,settlement
+el-Areg,29.058555,26.401535,-330,4.194284453284865,Egypt / Levant,pleiades,False,cemetery
+Siwa 7624,29.83,26.17,-6397,4.292930407745018,Egypt / Levant,p3k14c,False,radiocarbon
+Siwa 76117,29.83,26.17,-7650,4.292930407745018,Egypt / Levant,p3k14c,False,radiocarbon
+Hatiet Um El Hiyus,29.42,25.83,-7056,4.640636554206594,Egypt / Levant,p3k14c,False,radiocarbon
+Ain Zeitun,29.253491,25.806348,-330,4.6835788021952,Egypt / Levant,pleiades,False,"settlement, settlement-modern, temple-2"
+Abul Awlaf,29.270302,25.781559,-330,4.7027290727175455,Egypt / Levant,pleiades,False,cemetery
+Abu Shuruf,29.295715,25.754713,-330,4.72248145512134,Egypt / Levant,pleiades,False,settlement
+Ain Koreishat,29.313218,25.725809,-330,4.745074883393727,Egypt / Levant,pleiades,False,settlement
+Ammonioi,29.3808297993,25.5747248898,-750,4.866297229381189,Egypt / Levant,pleiades,False,"label, people"
+Abu Mansur,29.5,25.5,-30,4.914357614922324,Egypt / Levant,pleiades,False,labeled feature
+Solis Fons,29.5,25.5,-750,4.914357614922324,Egypt / Levant,pleiades,False,lake
+el-Zawia,29.5,25.5,-30,4.914357614922324,Egypt / Levant,pleiades,False,labeled feature
+Gebel el-Dakrur,29.183733,25.550082,-330,4.914663618049303,Egypt / Levant,pleiades,False,cemetery
+Umm Ubaydah,29.201286,25.545218,-750,4.916455961013071,Egypt / Levant,pleiades,True,temple
+Ammon,29.2051737961,25.5435073559,-750,4.917400308160836,Egypt / Levant,pleiades,False,"oasis, settlement, temple-2"
+Gebel Mota,29.236201,25.523166,-750,4.9307142658209955,Egypt / Levant,pleiades,False,cemetery
+el-Wazidi,29.233437,25.483452,-30,4.9654199061902204,Egypt / Levant,pleiades,False,cemetery
+Khamiseh,29.325244,25.420537,-330,5.0070720056462505,Egypt / Levant,pleiades,False,settlement
+Zawa,29.299766,25.409122,-30,5.020461245070919,Egypt / Levant,pleiades,False,cemetery
+Bilad er-Rum,29.322537,25.393799,-30,5.030534081469057,Egypt / Levant,pleiades,False,settlement
+Ghargart,29.34394,25.37403,-330,5.044628778897561,Egypt / Levant,pleiades,False,settlement
+Hammoniacus Nomos,29.0647649737,25.3987875489,-30,5.061995738636483,Egypt / Levant,pleiades,False,"province, label"
+el-Maraki,29.244831,25.340192,-330,5.087639984417308,Egypt / Levant,pleiades,False,settlement
+Abbiar Gabbus,29.406315,25.287663,-30,5.110466035983507,Egypt / Levant,pleiades,False,cemetery
+Schiatuh,29.435516,25.180996,-30,5.198367121869978,Egypt / Levant,pleiades,False,cemetery
+Siwa,29.33,25.17,-5113,5.222694349320818,Egypt / Levant,p3k14c,False,radiocarbon
+Shyiata,29.5,25.08,-7322,5.276324609429935,Egypt / Levant,p3k14c,False,radiocarbon
+Augilai,29.1441143605,21.5255798451,-550,8.392781409821282,Other,pleiades,False,"label, people"
+Gialo,29.026153,21.548897,-30,8.392892388094651,Other,pleiades,False,settlement
+Augila,29.1521035,21.2952075,-550,8.58960313121753,Other,pleiades,False,settlement
+Sirte Basin,28.72,21.0,-2327,8.91934201511151,Other,p3k14c,False,radiocarbon
+Serire lGattusa,28.0,15.33,-3940,13.951899545549793,Other,p3k14c,False,radiocarbon
+Wadi Hmuda,27.58,14.35,-2664,14.891214468358271,Other,p3k14c,False,radiocarbon
+Wadi Hmuda,27.58,14.35,-1782,14.891214468358271,Other,p3k14c,False,radiocarbon
+Baracum?,27.549893,14.271622,-330,14.965750733666596,Other,pleiades,False,settlement
+Wadi Shati,27.5,14.0,-2770,15.21163909723117,Other,p3k14c,False,radiocarbon
+Hatia,27.5,13.5,-3740,15.642842350699937,Other,p3k14c,False,radiocarbon
+Garamantes,27.5,13.5,-550,15.642842350699937,Other,pleiades,False,people
+Dedris?,27.559667,13.215733,-330,15.873605583532822,Other,pleiades,False,settlement
+Bordj Tan Kena,26.5,8.5,-4248,20.205245949164464,Other,p3k14c,False,radiocarbon
+Tihodaene,25.37,6.85,-5220,21.946040018124677,Other,p3k14c,False,radiocarbon
+Erg Tihodaene,25.32,6.83,-4291,21.977661804061995,Other,p3k14c,False,radiocarbon
+Meniet,25.0,4.3,-3643,24.26002210926123,Other,p3k14c,False,radiocarbon
+Knachich,23.13,-2.21,-5662,30.488099791424247,Other,p3k14c,False,radiocarbon
+Telig MT30,22.67,-3.68,-2654,31.917466502813056,Other,p3k14c,False,radiocarbon
+Telig MT30,22.67,-3.68,-7304,31.917466502813056,Other,p3k14c,False,radiocarbon
+Oued Haijad,22.57,-3.67,-6764,31.944557239684514,Other,p3k14c,False,radiocarbon
+Oued Haijad,22.57,-3.67,-2612,31.944557239684514,Other,p3k14c,False,radiocarbon
+Oued Haijad,22.57,-3.67,-5133,31.944557239684514,Other,p3k14c,False,radiocarbon
+Oued Amded,22.58,-3.92,-218,32.15653494659716,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-7650,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-3891,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-1982,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-4971,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-4820,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-5101,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-4172,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-2906,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-3740,32.21756692019659,Other,p3k14c,False,radiocarbon
+Agorgott,22.65,-4.02,-6213,32.21756692019659,Other,p3k14c,False,radiocarbon
+Mermadha,19.2,-12.3,-5954,40.68100484882598,Other,p3k14c,False,radiocarbon
+Oued el Abid,19.03,-12.4,-7153,40.83648221098133,Other,p3k14c,False,radiocarbon
+Oued Tidjikja,19.0,-12.83,-8200,41.21984803138173,Other,p3k14c,False,radiocarbon
+Dahiet el Atench,19.0,-12.83,-6494,41.21984803138173,Other,p3k14c,False,radiocarbon
+Aftout Targue nord,18.1,-15.67,210,44.04247024264566,Other,p3k14c,False,radiocarbon
+Aftout Targue,18.08,-15.67,-1520,44.05094010448613,Other,p3k14c,False,radiocarbon
+Nouakchott KN2,18.03,-15.93,-1888,44.29601690036958,Other,p3k14c,False,radiocarbon
+Nouakchott KN2,18.03,-15.93,-3481,44.29601690036958,Other,p3k14c,False,radiocarbon
+Nouakchott NW Radio,18.03,-15.93,350,44.29601690036958,Other,p3k14c,False,radiocarbon
+Nouakchott NW Radio,18.03,-15.93,-3632,44.29601690036958,Other,p3k14c,False,radiocarbon
+Nouakchott KN2,18.03,-15.93,-302,44.29601690036958,Other,p3k14c,False,radiocarbon
+Tin Mahham,17.93,-15.98,250,44.3815564495452,Other,p3k14c,False,radiocarbon
+Jioua,17.72,-16.05,-4237,44.53115267133535,Other,p3k14c,False,radiocarbon
+PA-JO-26,-0.626917,-49.536723,-1026,82.244717815738,Other,p3k14c,False,radiocarbon
+Agua Azul,-4.189724,-55.466974,-974,89.15695456840649,Other,p3k14c,False,radiocarbon
+Serraria Trombetas,-4.328619,-55.761554,-260,89.48077959461313,Other,p3k14c,False,radiocarbon
+Sambaqui de Urua,-4.595126,-56.328051,-3816,90.10311280771617,Other,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-5328,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-6688,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+RO-PV-35,-8.869518,-63.313225,-1247,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_Jamari,-8.869518,-63.313225,-1992,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-2969,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-2286,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-722,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+Cachoerinha-1 RO-PV-48,-8.869518,-63.313225,-4377,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_faseUrucuri1a,-8.869518,-63.313225,-292,98.24501365252047,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_Fase_Jamari,-8.830418,-63.374771,-124,98.27899292954169,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_Fase_Jamari,-8.830418,-63.374771,-186,98.27899292954169,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_Fase_Pacatuba RO-PV-35,-8.830418,-63.374771,-3427,98.27899292954169,Peru / Andes,p3k14c,False,radiocarbon
+SitioNN_Fase_Urucuri,-8.76,-63.43,-480,98.29225301996416,Peru / Andes,p3k14c,False,radiocarbon
+Garbin,-8.6013,-63.806692,-3106,98.5399594726149,Peru / Andes,p3k14c,False,radiocarbon
+Garbin,-8.6013,-63.806692,-6159,98.5399594726149,Peru / Andes,p3k14c,False,radiocarbon
+Garbin,-8.6013,-63.806692,-4334,98.5399594726149,Peru / Andes,p3k14c,False,radiocarbon
+Garbin,-8.6013,-63.806692,-4334,98.5399594726149,Peru / Andes,p3k14c,False,radiocarbon
+Ilha Santo Antonio,-8.80523,-63.948633,-6181,98.76182552160225,Peru / Andes,p3k14c,False,radiocarbon
+Santo Antonio/Igapo-1 RO-PV-19,-8.80476,-63.951107,-407,98.76373215227517,Peru / Andes,p3k14c,False,radiocarbon
+Boa Vista,-8.843572,-63.973938,-60,98.8023347486457,Peru / Andes,p3k14c,False,radiocarbon
+Boa Vista,-8.843572,-63.973938,-2644,98.8023347486457,Peru / Andes,p3k14c,False,radiocarbon
+Boa Vista,-8.843572,-63.973938,-6570,98.8023347486457,Peru / Andes,p3k14c,False,radiocarbon
+Vista Alegre I,-8.859821,-64.025904,-134,98.85509738600825,Peru / Andes,p3k14c,False,radiocarbon
+Vista Alegre I,-8.859821,-64.025904,-1247,98.85509738600825,Peru / Andes,p3k14c,False,radiocarbon
+Vista Alegre I,-8.859821,-64.025904,-7239,98.85509738600825,Peru / Andes,p3k14c,False,radiocarbon
+Foz do Jatuarana,-8.868152,-64.055991,-869,98.88512139102772,Peru / Andes,p3k14c,False,radiocarbon
+Teotonio RO-JP-1,-8.864919,-64.05996,-1278,98.88697395299454,Peru / Andes,p3k14c,False,radiocarbon
+Teotonio RO-JP-1,-8.864919,-64.05996,-816,98.88697395299454,Peru / Andes,p3k14c,False,radiocarbon
+5 Irmaos,-9.383072,-64.359911,-522,99.3977289345305,Peru / Andes,p3k14c,False,radiocarbon
+RO-GM-08,-9.59,-65.37,-339,100.36945346120552,Peru / Andes,p3k14c,False,radiocarbon
+Balneário Quinauá,-10.193,-67.369,365,102.38609787461058,Peru / Andes,p3k14c,False,radiocarbon
+Balneário Quinauá,-10.193,-67.369,190,102.38609787461058,Peru / Andes,p3k14c,False,radiocarbon
+Balneário Quinauá,-10.193,-67.369,380,102.38609787461058,Peru / Andes,p3k14c,False,radiocarbon
+Balneário Quinauá,-10.193,-67.369,385,102.38609787461058,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-188,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-151,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-650,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-744,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-769,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Marcavalle,-13.32,-71.57,-1012,107.48721018837222,Peru / Andes,p3k14c,False,radiocarbon
+Chanapata,-13.28,-72.01,-680,107.84792242066294,Peru / Andes,p3k14c,False,radiocarbon
+Chanapata,-13.28,-72.01,-1446,107.84792242066294,Peru / Andes,p3k14c,False,radiocarbon
+Chanapata,-13.28,-72.01,-727,107.84792242066294,Peru / Andes,p3k14c,False,radiocarbon
+Huillca Raccay,-13.1,-72.25,-606,107.97170074384536,Peru / Andes,p3k14c,False,radiocarbon
+Huillca Raccay,-13.1,-72.25,-354,107.97170074384536,Peru / Andes,p3k14c,False,radiocarbon
+Huillca Raccay,-13.1,-72.25,-554,107.97170074384536,Peru / Andes,p3k14c,False,radiocarbon
+Machu Picchu,-13.09,-72.32,-864,108.02752796941297,Peru / Andes,p3k14c,False,radiocarbon
+Machu Picchu,-13.09,-72.32,-785,108.02752796941297,Peru / Andes,p3k14c,False,radiocarbon
+Machu Picchu,-13.09,-72.32,-743,108.02752796941297,Peru / Andes,p3k14c,False,radiocarbon
+Machu Picchu,-13.09,-72.32,-102,108.02752796941297,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1352,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1300,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1426,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1394,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1678,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1294,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-743,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Waywaka,-13.66174,-73.386209,-1562,109.21156482754498,Peru / Andes,p3k14c,False,radiocarbon
+Campanayuq Rumi,-13.651886,-73.957817,-830,109.70099681373165,Peru / Andes,p3k14c,False,radiocarbon
+Campanayuq Rumi,-13.651886,-73.957817,-791,109.70099681373165,Peru / Andes,p3k14c,False,radiocarbon
+Campanayuq Rumi,-13.651886,-73.957817,-742,109.70099681373165,Peru / Andes,p3k14c,False,radiocarbon
+Campanayuq Rumi,-13.651886,-73.957817,-547,109.70099681373165,Peru / Andes,p3k14c,False,radiocarbon
+Cutamalla PAP-767,-14.256185,-74.858849,-216,110.75458430665742,Peru / Andes,p3k14c,False,radiocarbon
+Cutamalla PAP-767,-14.256185,-74.858849,-266,110.75458430665742,Peru / Andes,p3k14c,False,radiocarbon
+Cutamalla PAP-767,-14.256185,-74.858849,-157,110.75458430665742,Peru / Andes,p3k14c,False,radiocarbon
+Pueblo Viejo NPV85,-14.5,-75.0,-134,110.98686111415225,Peru / Andes,p3k14c,False,radiocarbon
+Pueblo Viejo NPV85,-14.5,-75.0,-197,110.98686111415225,Peru / Andes,p3k14c,False,radiocarbon
+Quemado,-14.49,-75.05,-365,111.02551423280727,Peru / Andes,p3k14c,False,radiocarbon
+Quemado,-14.49,-75.05,-470,111.02551423280727,Peru / Andes,p3k14c,False,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-272,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3502,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3675,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3778,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-2575,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3664,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3632,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-218,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-60,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-82,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-124,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-82,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-396,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-250,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-144,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-176,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-1856,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-1919,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3405,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-3799,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Cahuachi CAH88,-14.49,-75.07,-134,111.04278616379008,Peru / Andes,p3k14c,True,radiocarbon
+Santa Clara,-14.44,-75.14,-134,111.08065467018713,Peru / Andes,p3k14c,False,radiocarbon
+Mollake Chico PAP-436,-14.506394,-75.158227,-580,111.12639333061463,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2852,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-3012,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2795,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2720,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-876,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2784,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2700,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-927,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-972,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-932,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-983,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2861,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2839,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2973,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2724,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2776,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2642,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2859,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2844,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-1231,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-1330,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2648,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2820,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2734,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-905,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2654,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2698,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2709,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2849,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2600,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2670,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-1137,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-666,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-898,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2965,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2545,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-1076,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-3126,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-951,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-2795,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-3209,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pernil Alto PAP-266,-14.492267,-75.215905,-1030,111.16983615857953,Peru / Andes,p3k14c,False,radiocarbon
+Pampa Media Luna,-14.29,-75.38,-155,111.22043018765322,Peru / Andes,p3k14c,False,radiocarbon
+Erizo,-14.27,-75.4,-2034,111.22871502736075,Peru / Andes,p3k14c,False,radiocarbon
+Erizo,-14.27,-75.4,-1961,111.22871502736075,Peru / Andes,p3k14c,False,radiocarbon
+Erizo,-14.27,-75.4,-1152,111.22871502736075,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-606,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-449,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-606,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-617,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-774,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+Callango West Bank,-14.491641,-75.647654,-533,111.54272030876513,Peru / Andes,p3k14c,False,radiocarbon
+El Abrigo,-14.904,-75.525,-7342,111.62234175782669,Peru / Andes,p3k14c,False,radiocarbon
+Boca Rio Ica/La Yerba,-14.867,-75.567,-3664,111.64193007983852,Peru / Andes,p3k14c,False,radiocarbon
+La Paloma,-14.867,-75.567,-3095,111.64193007983852,Peru / Andes,p3k14c,False,radiocarbon
+La Paloma,-14.867,-75.567,-4723,111.64193007983852,Peru / Andes,p3k14c,False,radiocarbon
+Sada,20.013925,93.330422,-30,303.41191211608725,Other,pleiades,False,settlement
+Tamalites,22.290418,87.915951,-30,308.94773176569754,Other,pleiades,False,settlement
+Kambouson Stoma,22.5,87.5,-30,309.3823017115383,Other,pleiades,False,unknown
+Maleus (mountain),22.5,87.5,-330,309.3823017115383,Other,pleiades,False,mountain
+Dosaron (river),22.5,87.5,-30,309.3823017115383,Other,pleiades,False,river
+Bamanghati,22.270096,86.319292,-30,310.31782511274946,Other,pleiades,False,settlement
+Adamas? (river),22.6508751072,86.3759104392,-30,310.4048504442612,Other,pleiades,False,river
+Suari/Uberae,22.5017740808,86.0140054332,-30,310.6640623703986,Other,pleiades,False,label
+Charmae,25.2111683915,78.4973909546,-30,318.04590015731117,Indus Valley,pleiades,False,"label, people"
+Mālavas,25.8437911088,74.8753685174,-30,321.3565322588529,Indus Valley,pleiades,False,"label, people"
+Oratae,26.6039604143,74.2401288249,-30,322.11432290605535,Indus Valley,pleiades,False,"label, people"
+Sarabastrae,26.3805350875,72.6838052083,-30,323.3962081917251,Indus Valley,pleiades,False,"label, people"
+Mousikanoi,27.7370217023,68.9831830814,-330,326.92520343496074,Indus Valley,pleiades,False,"label, people"
+Indoi,27.0724850325,68.6999039575,-550,327.01493699056914,Indus Valley,pleiades,False,"label, people"
+Kamigara,27.689213,68.849077,-30,327.0294760795772,Indus Valley,pleiades,False,settlement
+Moenjodaro,27.325412,68.13774115,-3000,327.55967114069017,Indus Valley,pleiades,False,"settlement, archaeological-site"
+Mesae,27.5509561185,67.9723622822,-30,327.75378019832215,Indus Valley,pleiades,False,"label, people"
+Silae,27.3535410245,67.7190519659,-30,327.92834138021124,Indus Valley,pleiades,False,"label, people"
+Chaarene/Arana,28.0318591443,64.9552830701,-330,330.4638261299808,Indus Valley,pleiades,False,"region, label"
+Bam,29.1155957325,58.3689535049,-1200,336.34749830512476,Iran / Persia,pleiades,False,settlement
+Tal-i-iblis,29.784054,56.758976,-6200,337.829639450184,Iran / Persia,pleiades,False,"settlement, tell"
+Shiragan/Sirjan,29.436543,55.668645,300,338.72461551610377,Iran / Persia,pleiades,False,settlement
+Qadamgah,29.688297,53.131556,-550,340.94569261332026,Iran / Persia,pleiades,True,temple
+Tall-i Takht (Throne Hill),30.2077698,53.1846882,-540,340.9535449512355,Iran / Persia,pleiades,False,"hill, fort"
+Pasargades,30.2,53.1794,-6381,340.9572868203486,Iran / Persia,p3k14c,False,radiocarbon
+Tang-e Bolaghi,30.2033,53.179,-6958,340.95797207180976,Iran / Persia,p3k14c,False,radiocarbon
+Tang-e Bolaghi,30.2033,53.179,-7806,340.95797207180976,Iran / Persia,p3k14c,False,radiocarbon
+Tang-e Bolaghi,30.2033,53.179,-8562,340.95797207180976,Iran / Persia,p3k14c,False,radiocarbon
+Tang-e Bolaghi,30.2033,53.179,-8809,340.95797207180976,Iran / Persia,p3k14c,False,radiocarbon
+"Residential Palace (""P"")",30.2027118025,53.1779434649,-540,340.9588194591421,Iran / Persia,pleiades,False,architecturalcomplex
+Pasargadae/Batrakatash,30.1952191647,53.1743200402,-550,340.96115948014096,Iran / Persia,pleiades,False,"settlement, archaeological-site"
+Gabr-i Mader-i Soleiman,30.1939210487,53.1672049307,-750,340.9671422357118,Iran / Persia,pleiades,True,tomb
+Tomb of Cyrus the Great,30.193953153,53.1671882886,-540,340.96715986122115,Iran / Persia,pleiades,True,tomb
+Rahmatabad,30.109722,53.047222,-6624,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-6732,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-6359,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-6465,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-4242,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-5625,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-6408,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Rahmatabad,30.109722,53.047222,-6235,341.0616850206188,Iran / Persia,p3k14c,False,radiocarbon
+Pulvar/Araxes? (river),30.2051597877,53.0448189596,-550,341.07351545505094,Iran / Persia,pleiades,False,river
+Saidun,29.97035,53.016334,-550,341.07404365142395,Iran / Persia,pleiades,False,settlement
+Maqsudabad,29.804928,52.981765,-30,341.0870037632815,Iran / Persia,pleiades,True,temple
+Akhur-i Rustam,29.86553,52.948606,-30,341.12177623173375,Iran / Persia,pleiades,False,cemetery
+Tall-i Jari B,29.840099,52.942056,-5547,341.12484834212285,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Jari B,29.840099,52.942056,-5216,341.12484834212285,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Jari B,29.840099,52.942056,-5497,341.12484834212285,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Jari B,29.840099,52.942056,-5681,341.12484834212285,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Jari B,29.840099,52.942056,-5511,341.12484834212285,Iran / Persia,p3k14c,False,radiocarbon
+Tal-i Jari A,29.840925,52.939567,-4582,341.1270799581771,Iran / Persia,p3k14c,False,radiocarbon
+Tal-i Jari A,29.840925,52.939567,-4464,341.1270799581771,Iran / Persia,p3k14c,False,radiocarbon
+Tal-i Jari A,29.840925,52.939567,-4291,341.1270799581771,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i-Gap,29.8417567,52.9382753,-6500,341.12827892841074,Iran / Persia,pleiades,False,"settlement, tell"
+Mushki,29.854505,52.938554,-7131,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Mushki,29.854505,52.938554,-1740,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5652,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5803,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5851,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5814,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5819,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5760,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5760,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5716,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Mushki,29.854505,52.938554,-5652,341.1293307366792,Iran / Persia,p3k14c,False,radiocarbon
+Gap A,29.72,52.92,-4140,341.1317263500987,Iran / Persia,p3k14c,False,radiocarbon
+Gap A,29.72,52.92,-3675,341.1317263500987,Iran / Persia,p3k14c,False,radiocarbon
+Hajjiabad,29.976348,52.926209,-30,341.1523207769794,Iran / Persia,pleiades,True,temple
+Mushki,29.78,52.9,-5144,341.15506880148007,Iran / Persia,p3k14c,False,radiocarbon
+Darre-ye Barre,29.96008,52.915364,-30,341.1600209939404,Iran / Persia,pleiades,True,temple
+(I)Stakhr,29.980833,52.909444,-30,341.1672221938794,Iran / Persia,pleiades,False,settlement
+Sivand,30.079211,52.920871,-550,341.16733276025866,Iran / Persia,pleiades,False,quarry
+Firuzi 2/Matezzish?/Humadeshu?/Uvadaichaya?,29.933733,52.893943,-550,341.17582390516657,Iran / Persia,pleiades,False,settlement
+Dasht-i Gohar/Takht-i Rustam,29.928621,52.89269,-550,341.1763880239239,Iran / Persia,pleiades,False,settlement
+Tomb of Artaxerxes III,29.935871634,52.892457868,-540,341.1773202949687,Iran / Persia,pleiades,True,tomb
+Tall-i Bakun B,29.91306,52.888403,-4533,341.17851366448417,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Bakun B,29.91306,52.888403,-4453,341.17851366448417,Iran / Persia,p3k14c,False,radiocarbon
+Bakun B,29.91306,52.888403,-4269,341.17851366448417,Iran / Persia,p3k14c,False,radiocarbon
+Bakun B,29.91306,52.888403,-4546,341.17851366448417,Iran / Persia,p3k14c,False,radiocarbon
+Tall-e Bakun B,29.9130188425,52.8883692312,-6500,341.1785386309032,Iran / Persia,pleiades,False,settlement
+Persepolis/Parsa/Persai/Sat Setun,29.9351972978,52.8904279399,-550,341.1790023360011,Iran / Persia,pleiades,False,"settlement, archaeological-site"
+Apadana Palace,29.9351174422,52.8894969374,-540,341.1797969527263,Iran / Persia,pleiades,False,"palace-complex, architecturalcomplex"
+Tall-i Bakun A,29.913654,52.885685,-3375,341.18091749851123,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Bakun A,29.913654,52.885685,-3805,341.18091749851123,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i Bakun A,29.913654,52.885685,-3816,341.18091749851123,Iran / Persia,p3k14c,False,radiocarbon
+Tall-e Bakun A,29.913782648,52.8856366571,-6500,341.1809721696792,Iran / Persia,pleiades,False,settlement
+Naqsh-i Rajab,29.966486,52.887043,-30,341.1850785897109,Iran / Persia,pleiades,False,"sanctuary, monument"
+Kur/Araxes? (river),29.8548717575,52.8705970966,-550,341.1880043641246,Iran / Persia,pleiades,False,river
+Naqsh-i Rustam,29.9886564584,52.8746054601,-750,341.1980337517732,Iran / Persia,pleiades,False,"cemetery, monument"
+Investiture relief of Ardashir I,29.988580375,52.87459438,-540,341.1980356289496,Iran / Persia,pleiades,False,"cemetery, monument"
+Ka'ba-ye Zartosht,29.9884865102,52.874030317,-540,341.1985122281802,Iran / Persia,pleiades,False,monument
+Band-e Amīr/Tukrash?,29.758086,52.84161955,-550,341.2032783537011,Iran / Persia,pleiades,False,"settlement, settlement-modern"
+Masumabad West,29.961872,52.766892,-550,341.28818095720953,Iran / Persia,pleiades,False,settlement
+Majdabad,29.863774,52.692366,-550,341.3426907077139,Iran / Persia,pleiades,False,quarry
+Barm-i Dilak,29.56797,52.653905,-30,341.3466213981203,Iran / Persia,pleiades,False,monument
+Kuh-i Ayyub,29.981808,52.666503,-30,341.37669690147595,Iran / Persia,pleiades,True,temple
+Mansurabad East/Rakkan?,29.889197,52.654231,-550,341.37811384160113,Iran / Persia,pleiades,False,settlement
+Qasr-i Abu Nasr/Seraz/Tirazzish?/Shiraz(zish)?,29.59048485,52.57565215,-1200,341.4165645152384,Iran / Persia,pleiades,False,settlement
+Tol-e Baši,30.08,52.59,-5400,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5305,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5493,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-4310,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5038,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5335,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5666,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-4096,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5390,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5503,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-5530,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Baši,30.08,52.59,-4104,341.4522976510301,Iran / Persia,p3k14c,False,radiocarbon
+Untitled,29.5,52.5,-550,341.4732043985023,Iran / Persia,pleiades,False,canal
+Maitona,30.0932709192,52.5401983113,-550,341.4964843312637,Iran / Persia,pleiades,False,"unlocated, settlement"
+Tanagra,30.0932709192,52.5401983113,-30,341.4964843312637,Iran / Persia,pleiades,False,unlocated
+Kuh-i Shahrak,30.14414,52.532666,-30,341.5079485537208,Iran / Persia,pleiades,True,temple
+Bard Burideh 1,30.159804,52.50205,-550,341.5358266621397,Iran / Persia,pleiades,False,settlement
+Persis/Pars,30.1033729435,52.491334576,-550,341.5395448402444,Iran / Persia,pleiades,False,"region, label"
+Tal-i Baiza,29.961872,52.444364,-550,341.5662475151828,Iran / Persia,pleiades,False,settlement
+Tal-i Gachi,30.055736,52.451302,-550,341.56938521501695,Iran / Persia,pleiades,False,mine
+Sang-i Dokhtar,30.172501,52.436113,-550,341.59379986817373,Iran / Persia,pleiades,False,dam
+Tal-i Malyan/[Anzan],30.0032156667,52.4103596667,-4000,341.5995711167973,Iran / Persia,pleiades,False,"settlement, archaeological-site"
+Tall-i-Malyan,30.011667,52.407778,-1278,341.60261431575304,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i-Malyan,30.011667,52.407778,-1163,341.60261431575304,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i-Malyan,30.011667,52.407778,-1688,341.60261431575304,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i-Malyan,30.011667,52.407778,-1552,341.60261431575304,Iran / Persia,p3k14c,False,radiocarbon
+Tall-i-Malyan,30.011667,52.407778,-2538,341.60261431575304,Iran / Persia,p3k14c,False,radiocarbon
+Guyum,29.851062,52.323731,-30,341.6596261939818,Iran / Persia,pleiades,False,monument
+Kaupirrish,30.161109,52.323145,-550,341.689913520535,Iran / Persia,pleiades,False,settlement
+Persides?/Susidae? Pylae,30.093233,51.909909,-550,342.0393400503208,Iran / Persia,pleiades,False,pass
+Kazerun,29.618332,51.658333,-30,342.21321408307927,Iran / Persia,pleiades,True,temple
+Gur-i Shapur,29.8076618,51.6118028,-30,342.27052032565564,Iran / Persia,pleiades,False,"sanctuary, cave"
+Veh Shapur/Bishapur,29.7776349537,51.5709392664,-30,342.30314604877765,Iran / Persia,pleiades,False,settlement
+Tang-i Qandil,29.848585,51.577081,-30,342.3041933135528,Iran / Persia,pleiades,True,temple
+Naqsh-i Bahram,30.010802,51.587302,-30,342.30991172320046,Iran / Persia,pleiades,True,temple
+Girre,29.5,51.5,-30,342.33978386164654,Iran / Persia,pleiades,False,unknown
+Tol-e Nurabad,30.1166,51.5,-5306,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-4183,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-4593,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-4807,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-5335,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-5308,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-5293,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-5155,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-4118,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tol-e Nurabad,30.1166,51.5,-4048,342.3946153517478,Iran / Persia,p3k14c,False,radiocarbon
+Tepe Suruvan,30.183576,51.498066,-550,342.4022364192999,Iran / Persia,pleiades,False,settlement
+Nurabad,30.0999794031,51.4595123282,-30,342.42802727236403,Iran / Persia,pleiades,True,"tower-single, fort"
+Da u Dukhtar,30.351486,51.347925,-330,342.5462261897362,Iran / Persia,pleiades,True,tomb
+Untitled,30.285271,51.280998,-30,342.59799861681086,Iran / Persia,pleiades,False,bridge
+Chahar Deh,30.31731,50.907919,-30,342.92167419965085,Iran / Persia,pleiades,True,temple
+Chega Sofla,30.3248930974,50.142612409,-10000,343.5807718264325,Iran / Persia,pleiades,False,archaeological-site
+Zoreh/Or(o)atis? (river),30.3487671786,49.7864172054,-330,343.8891228026681,Iran / Persia,pleiades,False,river
+Ābādān,30.5,48.5,-1200,345.0061587212613,Iran / Persia,pleiades,False,settlement
+Apologos/[al-Ubulla],30.521707,47.833151,-330,345.5809511202906,Iran / Persia,pleiades,False,settlement
+[Basra],30.503217,47.820635,-1200,345.59066434774877,Iran / Persia,pleiades,False,"settlement, port"
+Pasitigris? (river),30.5,47.5,-330,345.8663294209591,Iran / Persia,pleiades,False,river
+Untitled,30.5,47.5,-550,345.8663294209591,Iran / Persia,pleiades,False,canal
+Eridu Ur Survey,30.5,46.5,-2335,346.7269046381184,Iran / Persia,pleiades,False,settlement
+Wadi Abu Tulayha,30.5085,35.9714,-6882,355.795064489526,Egypt / Levant,p3k14c,False,radiocarbon
+Wadi Abu Tulayha,30.5085,35.9714,-6941,355.795064489526,Egypt / Levant,p3k14c,False,radiocarbon
+Wadi Abu Tulayha,30.5085,35.9714,-6918,355.795064489526,Egypt / Levant,p3k14c,False,radiocarbon
+el-Mutrab,30.226957,35.78044,300,355.97320130947656,Egypt / Levant,pleiades,False,fort
+Da'janiya,30.5527095103,35.7617731361,300,355.97328653796814,Egypt / Levant,pleiades,False,fort-2
+Basta,30.25,35.75,-30,355.9983349503272,Egypt / Levant,pleiades,False,settlement-modern
+Ammatha,30.1987385,35.750773,300,356.0001945476093,Egypt / Levant,pleiades,False,fort
+Khirbet el-Thalajeh,29.75,35.75,-330,356.0229823341162,Egypt / Levant,pleiades,False,labeled feature
+Adrou/Augustopolis,30.332089,35.595901,-30,356.1271274934233,Egypt / Levant,pleiades,False,fort
+Jebel Batra,29.918585,35.61837,-750,356.12861947158206,Egypt / Levant,pleiades,False,station
+Negla,30.527058,35.562643,-30,356.14586473725603,Egypt / Levant,pleiades,False,settlement
+Khirbet el-Nasara,29.936929,35.583895,-330,356.1575312435764,Egypt / Levant,pleiades,False,settlement
+Abu Danna,30.291246,35.548172,-30,356.1703554132382,Egypt / Levant,pleiades,False,fort-2
+Khirbet el-Mureighah,30.11044,35.553898,-750,356.17464107814396,Egypt / Levant,pleiades,False,settlement
+Basta,30.2275,35.5333,-6850,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6607,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6791,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6429,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6424,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6397,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6910,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6267,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6548,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6343,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6786,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Basta,30.2275,35.5333,-6721,356.1864435945723,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-6861,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7110,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7099,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7310,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7390,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7549,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7152,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7254,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7317,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7317,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7117,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7117,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7010,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7010,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7077,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7380,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-6991,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7056,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7110,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7056,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-7012,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair I,30.6231,35.5061,-8287,356.18956741908175,Egypt / Levant,p3k14c,False,radiocarbon
+Ghwair,30.623,35.5061,-7255,356.18957256257704,Egypt / Levant,p3k14c,False,radiocarbon
+Khirbet el-Qirana,29.9860471288,35.5405442783,-330,356.192538045087,Egypt / Levant,pleiades,False,fort-2
+Phaino,30.6273155001,35.4940120909,-30,356.1997387410301,Egypt / Levant,pleiades,False,"settlement, archaeological-site, mine-2"
+Ail,30.225806,35.515523,-30,356.2018703013413,Egypt / Levant,pleiades,False,fort
+Fuweileh el-Gharbiyeh,30.011393,35.514218,-330,356.2140088575491,Egypt / Levant,pleiades,False,settlement
+Zodacatha,30.1612757898,35.4940000874,-3300,356.223768275141,Egypt / Levant,pleiades,False,"settlement, fort"
+Abu el-Lisan,30.041726,35.499439,-330,356.2252276345244,Egypt / Levant,pleiades,False,settlement
+Tell Wadi Feinan,30.62361,35.464575,-4723,356.22522818874904,Egypt / Levant,p3k14c,False,radiocarbon
+Tell Wadi Feinan,30.62361,35.464575,-4669,356.22522818874904,Egypt / Levant,p3k14c,False,radiocarbon
+Tell Wadi Feinan,30.62361,35.464575,-3605,356.22522818874904,Egypt / Levant,p3k14c,False,radiocarbon
+Tell Wadi Feinan,30.62361,35.464575,-3999,356.22522818874904,Egypt / Levant,p3k14c,False,radiocarbon
+Tell Wadi Feinan,30.62361,35.464575,-4399,356.22522818874904,Egypt / Levant,p3k14c,False,radiocarbon
+Tawilan,30.335813,35.481513,-1200,356.2255359906864,Egypt / Levant,pleiades,False,settlement
+Khirbet Naqb el-Shtar,29.987994,35.498575,-330,356.2287416885878,Egypt / Levant,pleiades,False,fort-2
+Khirbet el-Hiyad,30.053379,35.493714,300,356.2295763738745,Egypt / Levant,pleiades,False,settlement
+Qasr Tuliyeh,30.264437,35.47909,-30,356.2313123696561,Egypt / Levant,pleiades,False,fort
+Khirbet Qurein,30.09305,35.485001,-750,356.2350602706327,Egypt / Levant,pleiades,False,settlement
+Abu el-Nusur,30.008124,35.487534,-330,356.2372533633157,Egypt / Levant,pleiades,False,settlement
+Khirbet Dor,30.123414,35.479929,-30,356.2378741294881,Egypt / Levant,pleiades,False,fort
+Ba´ja,30.41,35.46,-6318,356.24023302272445,Egypt / Levant,p3k14c,False,radiocarbon
+Ba´ja,30.41,35.46,-6343,356.24023302272445,Egypt / Levant,p3k14c,False,radiocarbon
+Ba´ja,30.41,35.46,-6548,356.24023302272445,Egypt / Levant,p3k14c,False,radiocarbon
+Khirbet Umm Ras,30.101833,35.476977,-330,356.2415395056241,Egypt / Levant,pleiades,False,settlement
+Ain el-Jamam,30.025616,35.476463,-330,356.2459233991399,Egypt / Levant,pleiades,False,dam
+Beidha,30.37,35.45,-6861,356.2509227006721,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.37,35.45,-9601,356.2509227006721,Egypt / Levant,p3k14c,False,radiocarbon
+Al-Khazneh,30.322262725,35.45157105,-30,356.2520471097052,Egypt / Levant,pleiades,True,"tomb, monument"
+Beidha,30.3708,35.4478,-4858,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7336,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-6138,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7266,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7138,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7639,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7293,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7552,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7369,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7315,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7207,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7131,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7228,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7034,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7455,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7358,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7272,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7218,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7212,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7030,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7658,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7266,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708,35.4478,-7403,356.25277670701814,Egypt / Levant,p3k14c,False,radiocarbon
+Beidha,30.3708561345,35.4475843004,-10000,356.25295964028436,Egypt / Levant,pleiades,False,archaeological-site
+'Ain Jammam,30.0203,35.4686,-6472,356.2529972733565,Egypt / Levant,p3k14c,False,radiocarbon
+'Ain Jammam,30.0203,35.4686,-7002,356.2529972733565,Egypt / Levant,p3k14c,False,radiocarbon
+Suweimirah,30.071164,35.464594,-30,356.25382666754535,Egypt / Levant,pleiades,False,station
+"Street of Facades, Petra",30.3239181,35.4480261,-140,356.25501700697436,Egypt / Levant,pleiades,False,cemetery
+Shkarat Msaied,30.45,35.44,-7390,356.2553779041926,Egypt / Levant,p3k14c,False,radiocarbon
+Shkarat Msaied,30.45,35.44,-8157,356.2553779041926,Egypt / Levant,p3k14c,False,radiocarbon
+Shkarat Msaied,30.45,35.44,-7396,356.2553779041926,Egypt / Levant,p3k14c,False,radiocarbon
+Shkarat Msaied,30.45,35.44,-7495,356.2553779041926,Egypt / Levant,p3k14c,False,radiocarbon
+Shkarat Msaied,30.45,35.44,-7676,356.2553779041926,Egypt / Levant,p3k14c,False,radiocarbon
+Roman theater at Petra,30.3247804877,35.4469483108,-30,356.25590128332504,Egypt / Levant,pleiades,False,theatre
+Garden and Pool Complex at Petra,30.3286156137,35.4430008428,-30,356.2591046836397,Egypt / Levant,pleiades,False,"garden-hortus, water-feature"
+Temple of the Winged Lions,30.3292494,35.4424763,-140,356.25952387800373,Egypt / Levant,pleiades,True,temple-2
+Great Temple of Petra,30.328813337,35.4423492281,-30,356.259656081953,Egypt / Levant,pleiades,True,temple-2
+Tor Sabiha J8,29.948654,35.463746,-2192,356.2609060171286,Egypt / Levant,p3k14c,False,radiocarbon
+Khirbet Hamdan,30.072794,35.451067,-330,356.2654326367029,Egypt / Levant,pleiades,False,settlement
+Umm al-Biyara,30.3279405,35.432681,-1200,356.26803530833575,Egypt / Levant,pleiades,False,"mountain, settlement"
+Khirbet Rassif,30.13735,35.442655,-330,356.269346330635,Egypt / Levant,pleiades,False,settlement
+Khirbet Sherfan,30.08089,35.445121,-330,356.2701505850625,Egypt / Levant,pleiades,False,settlement
+Khirbet ein Mudilija,30.128324,35.434548,-330,356.27681785520366,Egypt / Levant,pleiades,False,fort
+Fera'Dor,30.118172,35.42995,-330,356.2813181995346,Egypt / Levant,pleiades,False,settlement
+Khirbet el-Baridiyeh,30.085742,35.423859,-330,356.288271025457,Egypt / Levant,pleiades,False,settlement
+Sobora/Karkaria,30.3242145,35.4011475,-30,356.29541145256565,Egypt / Levant,pleiades,False,settlement
+Khirbet el-Taiyineh,30.073726,35.415062,-750,356.2965000928195,Egypt / Levant,pleiades,False,settlement
+Bir Madkhur,30.4035905,35.3395995,-30,356.3442668251258,Egypt / Levant,pleiades,False,"station, fort"
+Humayma Roman Fort,29.9531317903,35.3480577672,-30,356.36077384554557,Egypt / Levant,pleiades,False,"fort-2, fort"
+Auara,29.9578976667,35.321948,-330,356.3831118883962,Egypt / Levant,pleiades,False,settlement
+Qasr el-Qorbah,29.845178,35.327168,-30,356.38456993115943,Egypt / Levant,pleiades,False,station
+Quweira,29.8037665,35.3086575,-30,356.4028046903451,Egypt / Levant,pleiades,False,fort
+Qasr Taiyibeh,30.331928,35.273614,-30,356.4049298081104,Egypt / Levant,pleiades,False,fort
+Wadi Nukhaya,30.00071,35.264022,-30,356.4309348101922,Egypt / Levant,pleiades,False,settlement
+Untitled,29.75,35.25,-330,356.4565182398273,Egypt / Levant,pleiades,False,aqueduct
+Arieldela,30.083736,35.2198045,-30,356.464694346867,Egypt / Levant,pleiades,False,"bath, fort"
+Kalgouia?,30.535667,35.149166,-330,356.5010701382609,Egypt / Levant,pleiades,False,station
+Ain Hejfeh,29.786806,35.174741,-330,356.5197644723164,Egypt / Levant,pleiades,False,fort
+Mezad Be'er Menuha,30.313081,35.120759,-330,356.5377011186496,Egypt / Levant,pleiades,False,station
+Horvat Qazra,30.5579856,35.08826025,-330,356.5522215663567,Egypt / Levant,pleiades,False,station
+Taba Sabkha,29.793127,35.126219,-30,356.56146782906507,Egypt / Levant,pleiades,False,settlement
+(B)Ossia/Ad Dianam?,29.8949102758,35.0607605324,-30,356.61255719293564,Egypt / Levant,pleiades,False,fort
+Yotvata Hill,29.8956,35.0601,-2832,356.6130907948051,Egypt / Levant,p3k14c,False,radiocarbon
+Arabia Petraia,29.8302636145,35.0638174991,-30,356.6134865139153,Egypt / Levant,pleiades,False,"province, label"
+Mezad Neqarot,30.5752479,35.0116528,-330,356.6171268521485,Egypt / Levant,pleiades,False,fort
+Timma Mines Site F2,29.78778,34.98889,-1021,356.68076436024666,Egypt / Levant,p3k14c,False,radiocarbon
+Nahal Reu'el,29.9628,34.9759,-7164,356.68220575327064,Egypt / Levant,p3k14c,False,radiocarbon
+Qasr Timnah,29.764919,34.98455,-330,356.6858053915043,Egypt / Levant,pleiades,False,fort-2
+Timnah,29.7625105,34.978762,-750,356.6909570137938,Egypt / Levant,pleiades,False,"valley, mine-2"
+Issaron,29.916667,34.966667,-4777,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6904,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6494,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6634,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-4420,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-3886,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6526,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6526,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6030,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6300,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7628,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6570,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7142,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-3384,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6656,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7288,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-5857,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-3190,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6429,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6861,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6818,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-5014,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7731,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-3945,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7180,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-3875,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6726,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-5506,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-4015,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6796,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6008,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-5468,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-4658,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-7077,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6386,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+Issaron,29.916667,34.966667,-6753,356.6927829588117,Egypt / Levant,p3k14c,False,radiocarbon
+"Hathor Temple, Timna Valley",29.7679517,34.9563847,-2000,356.7100462891015,Egypt / Levant,pleiades,True,temple-2
+Slaves' Hill (Timna Valley),29.7708537452,34.9479748906,-1000,356.7171715125644,Egypt / Levant,pleiades,False,production
+Biq'at 'Uvdah,29.9611,34.933843,-330,356.71868029411246,Egypt / Levant,pleiades,False,station
+Uvda,29.92,34.92,-2990,356.73297919175627,Egypt / Levant,p3k14c,False,radiocarbon
+Maaleh Ramon West,30.56,34.71,-9040,356.8773122777719,Egypt / Levant,p3k14c,False,radiocarbon
+Maaleh Ramon West,30.56,34.71,-8600,356.8773122777719,Egypt / Levant,p3k14c,False,radiocarbon
+Kheleifeh,29.75,34.75,-750,356.88995062565465,Egypt / Levant,pleiades,False,labeled feature
+Maaleh Ramon East,30.56,34.68,-9183,356.90310155700405,Egypt / Levant,p3k14c,False,radiocarbon
+Maaleh Ramon East,30.56,34.68,-9073,356.90310155700405,Egypt / Levant,p3k14c,False,radiocarbon
+Gypsaria?,29.992427,34.683066,-330,356.93374879120745,Egypt / Levant,pleiades,False,station
+Uvda 9,29.95,34.67,-6397,356.94753846400397,Egypt / Levant,p3k14c,False,radiocarbon
+Uvda 9,29.95,34.67,-6397,356.94753846400397,Egypt / Levant,p3k14c,False,radiocarbon
+Saflulim,30.5,34.58,-9623,356.99263563511477,Egypt / Levant,p3k14c,False,radiocarbon
+Saflulim,30.5,34.58,-9865,356.99263563511477,Egypt / Levant,p3k14c,False,radiocarbon
+Rosh Horesha,30.5,34.58,-9568,356.99263563511477,Egypt / Levant,p3k14c,False,radiocarbon
+Rosh Horesha,30.5,34.58,-9139,356.99263563511477,Egypt / Levant,p3k14c,False,radiocarbon
+Rosh Horesha,30.5,34.58,-9139,356.99263563511477,Egypt / Levant,p3k14c,False,radiocarbon
+Har Harif 3,30.5,34.54,-4237,357.02703995947826,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-8930,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-9150,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-9018,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-9029,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-8710,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Ramat Harif G 8,30.53,34.53,-8875,357.03384147739325,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8568,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8853,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8853,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8930,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8974,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-8754,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-9205,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Salem G 12,30.53,34.52,-9062,357.0424397772868,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-670,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-953,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-932,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-969,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-1068,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-1352,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Horvat Haluqim,30.53179,34.48771,-1026,357.0700953513667,Egypt / Levant,p3k14c,False,radiocarbon
+Kuntillat 'Ajrud,30.193056,34.421111,-1200,357.1479960013101,Egypt / Levant,pleiades,False,"sanctuary, shrine"
+Lysa?,30.409962,34.357854,-30,357.1892322438117,Egypt / Levant,pleiades,False,station
+Melana Ore,29.8533860935,33.0647986596,-330,358.34239692663556,Egypt / Levant,pleiades,False,"mountain, label"
+Sarakene,30.0454627144,33.0022890811,-30,358.38238386597243,Egypt / Levant,pleiades,False,"labeled feature, label"
+Phoinikon,29.75,32.75,-330,358.6224800717895,Egypt / Levant,pleiades,False,settlement
+Koubri,30.020898,32.569535,-550,358.75782070844616,Egypt / Levant,pleiades,False,station
+Clysma,29.9701405,32.5601425,-330,358.7698459984775,Egypt / Levant,pleiades,False,"settlement, port"
+Pikrai Limnai,30.3249334285,32.3911647322,-550,358.8878817704446,Egypt / Levant,pleiades,False,lake
+Tell el-Yahudiya,30.2924725049,31.3308260017,-1548,359.80282894008445,Egypt / Levant,pleiades,False,"settlement, archaeological-site"
+El Omari,29.8833,31.3333,-3476,359.83664140338396,Egypt / Levant,p3k14c,False,radiocarbon
+Heliopolis,30.1294036,31.3074812,-6000,359.8372687217321,Egypt / Levant,pleiades,False,"settlement, monument"
+Troikon Oros,29.933268,31.316658,-330,359.84661865929814,Egypt / Levant,pleiades,False,quarry
+Tura,29.9489,31.305,-186,359.85530545441304,Egypt / Levant,p3k14c,False,radiocarbon
+Heliopolites Nomos,30.1451445674,31.2772081065,-30,359.861959568015,Egypt / Levant,pleiades,False,"nome-gr, label"
+Helwan necropolis,29.8835905399,31.295443074,-2950,359.86931200549196,Egypt / Levant,pleiades,False,cemetery
+Ptolemaios/Traianos Potamos,30.25,31.25,-550,359.87610985811136,Egypt / Levant,pleiades,False,canal
+Troia,30.25,31.25,-330,359.87610985811136,Egypt / Levant,pleiades,False,settlement
+Tanitischer Arm,30.25,31.25,-304,359.87610985811136,Egypt / Levant,pleiades,False,settlement
+Skenai Mandrai,29.728688,31.302068,-30,359.8772383381553,Egypt / Levant,pleiades,False,fort
+Maadi,29.966796,31.276221,-4500,359.87856365495696,Egypt / Levant,pleiades,False,settlement
+Troikon Oros,30.0,31.266667,-330,359.88387234728845,Egypt / Levant,pleiades,False,"mountain, quarry"
+Toachris,29.825844,31.265599,-330,359.9001930904398,Egypt / Levant,pleiades,False,settlement
+Thebes,30.03786,31.24122,-512,359.90246787430596,Egypt / Levant,p3k14c,False,radiocarbon
+Thebes,30.03786,31.24122,-612,359.90246787430596,Egypt / Levant,p3k14c,False,radiocarbon
+Zagreb mummy,30.0379,31.2412,-848,359.90248157468176,Egypt / Levant,p3k14c,False,radiocarbon
+Zagreb mummy,30.0379,31.2412,-785,359.90248157468176,Egypt / Levant,p3k14c,False,radiocarbon
+Zagreb mummy,30.0379,31.2412,-1016,359.90248157468176,Egypt / Levant,p3k14c,False,radiocarbon
+Zagreb mummy,30.0379,31.2412,-1110,359.90248157468176,Egypt / Levant,p3k14c,False,radiocarbon
+Memphis,29.849491,31.255061,-2950,359.9072062963589,Egypt / Levant,pleiades,False,"urban, settlement, archaeological-site"
+Paabeithis,29.644721,31.268269,-330,359.91389730664315,Egypt / Levant,pleiades,False,settlement
+Babylon,30.005783,31.2301075,-2670,359.91489625598587,Egypt / Levant,pleiades,False,"fortified-settlement, settlement"
+Babylon Fortress,30.0059161262,31.2298905272,200,359.91507159532273,Egypt / Levant,pleiades,False,fort-2
+Kerkasoros,30.084523,31.21826,-750,359.91812058211576,Egypt / Levant,pleiades,False,settlement
+Patsonteos (Oreine),29.75,31.25,-30,359.92038947339057,Egypt / Levant,pleiades,False,canal
+Giza,30.0166,31.2166,-2518,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2528,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2318,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2476,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2423,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2465,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2407,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2523,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2486,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2612,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2465,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2591,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2565,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-3222,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2496,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2323,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2397,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2675,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2649,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2591,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2476,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2355,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2376,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2560,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2355,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2040,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2302,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2407,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2339,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2496,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2218,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2234,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2118,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2496,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-1872,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2301,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2200,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-1906,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2589,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-1821,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2527,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2421,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-1819,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2687,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2446,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2131,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2394,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Giza,30.0166,31.2166,-2276,359.9255861507647,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.85,31.2333,-2150,359.9259610178633,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.85,31.2333,-1930,359.9259610178633,Egypt / Levant,p3k14c,False,radiocarbon
+Unnamed,29.85,31.2333,-2224,359.9259610178633,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.85,31.2333,-1982,359.9259610178633,Egypt / Levant,p3k14c,False,radiocarbon
+Unnamed,29.85,31.2333,-1856,359.9259610178633,Egypt / Levant,p3k14c,False,radiocarbon
+Panarachthis/Pinarachthis,29.693885,31.246691,-330,359.92822220346113,Egypt / Levant,pleiades,False,settlement
+Abusir,29.8963,31.2226,-2037,359.9310935840357,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir,29.8963,31.2226,-2423,359.9310935840357,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir,29.8963,31.2226,-1520,359.9310935840357,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir,29.8963,31.2226,-2071,359.9310935840357,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir,29.8963,31.2226,-2194,359.9310935840357,Egypt / Levant,p3k14c,False,radiocarbon
+Memphites Nomos,29.6279197277,31.2486292477,-330,359.9323877824837,Egypt / Levant,pleiades,False,"province, label"
+Anubieion at Saqqarah,29.8751644,31.2230149,-664,359.9326120016072,Egypt / Levant,pleiades,False,architecturalcomplex
+Saqqara Teti Pyramid,29.8752,31.2218,-1908,359.9336581344096,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Teti Pyramid,29.8752,31.2218,-2028,359.9336581344096,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Teti Pyramid,29.8752,31.2218,-2061,359.9336581344096,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Teti,29.8751649794,31.2217551626,-2670,359.93369996984296,Egypt / Levant,pleiades,True,pyramid
+Mastaba of Kagemni,29.8757727,31.2213817,-2670,359.93396855495007,Egypt / Levant,pleiades,True,tomb
+Saqqara Mereruka Mastaba,29.8759,31.2213,-2010,359.93402781254724,Egypt / Levant,p3k14c,False,radiocarbon
+Tomb of Mereruka,29.8757920202,31.2211994488,-2670,359.9341242461769,Egypt / Levant,pleiades,True,tomb
+Saqqara [7],29.88,31.22,-2636,359.9347864396495,Egypt / Levant,p3k14c,False,radiocarbon
+Pyramid-complex of Senusret III,29.8185716356,31.2257073725,-2010,359.9353102494808,Egypt / Levant,pleiades,True,"tomb, pyramid, temple-2"
+Dahshur Senusret III boat pit,29.8189,31.2254,-1752,359.9355467252064,Egypt / Levant,p3k14c,False,radiocarbon
+Dahshur Senusret III boat pit,29.8189,31.2254,-1740,359.9355467252064,Egypt / Levant,p3k14c,False,radiocarbon
+Dahshur Senusret III boat pit,29.8189,31.2254,-1730,359.9355467252064,Egypt / Levant,p3k14c,False,radiocarbon
+Dahshur Senusret III boat pit,29.8189,31.2254,-1698,359.9355467252064,Egypt / Levant,p3k14c,False,radiocarbon
+Dahshur Senusret III boat pit,29.8189,31.2254,-1888,359.9355467252064,Egypt / Levant,p3k14c,False,radiocarbon
+Pyramid of Khendjer,29.83229655,31.2239184,-2010,359.9356376770161,Egypt / Levant,pleiades,True,"tomb, pyramid"
+Saqqara,29.8817,31.2181,-3077,359.9362763423641,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8817,31.2181,-2656,359.9362763423641,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8817,31.2181,-2839,359.9362763423641,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Userkaf Queen's Pyramid,29.8734,31.2189,-2028,359.9363227148944,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Userkaf Pyramid,29.8734,31.2189,-597,359.9363227148944,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Userkaf Pyramid,29.8734,31.2189,-668,359.9363227148944,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Userkaf Pyramid,29.8734,31.2189,-504,359.9363227148944,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Djedkare-Isesi,29.850964,31.22094695,-2670,359.93654731692993,Egypt / Levant,pleiades,True,pyramid
+Pyramid of Userkaf,29.8737765,31.2185497,-2670,359.93659182417315,Egypt / Levant,pleiades,True,"tomb, pyramid"
+Deir Apa Jeremiah,29.8664033,31.2192031,300,359.936682414227,Egypt / Levant,pleiades,False,abbey
+Saqqarah,29.862380874,31.2193541512,-2950,359.9369092317563,Egypt / Levant,pleiades,False,cemetery
+Necropolis and Mortuary Complex of Pepi I,29.8542114233,31.2190057132,-2670,359.9379358830299,Egypt / Levant,pleiades,True,"pyramid, cemetery"
+White Pyramid,29.805854985,31.2238459406,-2010,359.93804791910844,Egypt / Levant,pleiades,True,pyramid
+Pyramid of Pepi I at Saqqarah,29.8547523,31.2186043,-2670,359.93823460404013,Egypt / Levant,pleiades,True,"tomb, pyramid"
+Pyramid of Djoser,29.8707675098,31.2166486516,-2670,359.93850109546173,Egypt / Levant,pleiades,True,"pyramid, architecturalcomplex"
+Saqqara [5],29.8712,31.2166,-2003,359.93850469089386,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara [5],29.8712,31.2166,-1945,359.93850469089386,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara [5],29.8712,31.2166,-2056,359.93850469089386,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara [5],29.8712,31.2166,-738,359.93850469089386,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Horemheb Tomb,29.8661,31.217,-522,359.93861231228516,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Horemheb Tomb,29.8661,31.217,-880,359.93861231228516,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Horemheb Tomb,29.8661,31.217,-2528,359.93861231228516,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Horemheb Tomb,29.8661,31.217,-617,359.93861231228516,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara,29.8711,31.2164,-2560,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2385,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2366,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Reg.,29.8711,31.2164,-551,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Grab,29.8711,31.2164,-960,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-1134,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-1006,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Heil,29.8711,31.2164,-429,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Grab,29.8711,31.2164,-1071,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Grab,29.8711,31.2164,-1006,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Reg.,29.8711,31.2164,-354,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2660,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2513,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2518,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2370,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2549,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2686,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2722,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2486,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2266,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2208,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2706,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2328,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2407,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2612,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2602,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2712,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2680,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2538,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2308,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2234,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2276,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2234,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2476,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2560,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2171,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2098,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2453,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2458,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-1907,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-1932,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2415,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2366,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2428,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2496,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2140,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2675,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2454,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2397,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2297,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2350,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2208,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2113,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2202,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2428,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.8711,31.2164,-2213,359.93868631952256,Egypt / Levant,p3k14c,False,radiocarbon
+Sacred Animal Necropolis (Ṣaqqārah),29.8817400893,31.2153024975,-4500,359.9386887792828,Egypt / Levant,pleiades,False,"settlement, cemetery"
+Black Pyramid,29.7917430749,31.2239092367,-2010,359.9392461427673,Egypt / Levant,pleiades,True,pyramid
+Saqqara Maya Tomb,29.8732,31.2154,-1305,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-1572,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-811,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-1126,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-1336,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-533,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-633,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-858,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-942,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-1095,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-638,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Maya Tomb,29.8732,31.2154,-900,359.9393634348116,Egypt / Levant,p3k14c,True,radiocarbon
+Dahshur,29.7917,31.2235,-102,359.93960371647944,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Unas Pyramid,29.8682,31.215,-2208,359.9401532257032,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Unas,29.8681961251,31.2149708867,-2670,359.94017871644894,Egypt / Levant,pleiades,True,pyramid
+Saqqara [1],29.85,31.2167,-796,359.94030188557724,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara Iurudef Tomb,29.85,31.2167,-1110,359.94030188557724,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Iurudef Tomb,29.85,31.2167,-2113,359.94030188557724,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Iurudef Tomb,29.85,31.2167,-1021,359.94030188557724,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Iurudef Tomb,29.85,31.2167,-1079,359.94030188557724,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara Iurudef Tomb,29.85,31.2167,-1042,359.94030188557724,Egypt / Levant,p3k14c,True,radiocarbon
+Pyramid of Sekhemkhet,29.8661529394,31.2136320778,-2670,359.94151668906596,Egypt / Levant,pleiades,True,pyramid
+Serapeum,29.874725,31.21241,-330,359.9418103458456,Egypt / Levant,pleiades,False,cemetery
+Pyramid of Ameny Qemau,29.7818440739,31.2216294924,-2010,359.94209586190806,Egypt / Levant,pleiades,True,pyramid
+Mastabet el-Fara'un,29.8351588,31.215421,-2670,359.94272558469197,Egypt / Levant,pleiades,True,tomb
+Saqqara (South) Shepseskaf Mortuary Temple,29.8388,31.215,-2485,359.94276577577665,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara (South) Shepseskaf Mortuary Temple,29.8388,31.215,-2256,359.94276577577665,Egypt / Levant,p3k14c,True,radiocarbon
+Saqqara (South) Shepseskaf Mastaba el-Faraoun,29.8388,31.215,-1446,359.94276577577665,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara (South) Shepseskaf Mastaba el-Faraoun,29.8388,31.215,-1932,359.94276577577665,Egypt / Levant,p3k14c,False,radiocarbon
+Akanthonpolis,29.511769,31.248329,-30,359.9429359785759,Egypt / Levant,pleiades,False,settlement
+Abusir South,29.8832291844,31.2097395019,-2670,359.9433607238737,Egypt / Levant,pleiades,False,cemetery
+Takyris,29.7998647855,31.2167046376,-2670,359.9447522727083,Egypt / Levant,pleiades,False,cemetery
+Peme/Hypsele,29.586777,31.237597,-330,359.9455880887726,Egypt / Levant,pleiades,False,settlement
+Pyramid of Sahure,29.8975674595,31.2048106295,-2670,359.9463419387154,Egypt / Levant,pleiades,True,"pyramid, architecturalcomplex, causeway"
+Mastaba of Ptahshepses at Abusir,29.8965413666,31.204560324,-2670,359.94664934658385,Egypt / Levant,pleiades,True,tomb
+Abusir Ptahshepses Mastaba,29.8966,31.2045,-428,359.94669622014516,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir Ptahshepses Mastaba,29.8966,31.2045,-1404,359.94669622014516,Egypt / Levant,p3k14c,False,radiocarbon
+Abusir Ptahshepses Mastaba,29.8966,31.2045,-564,359.94669622014516,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1908,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1132,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2003,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1110,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2454,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2580,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2454,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2644,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2696,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2418,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2028,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2061,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1992,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1888,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1693,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1970,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1090,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1110,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1226,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1320,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1110,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1016,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1520,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1457,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1236,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1226,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1121,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1163,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1211,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2045,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2319,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2193,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2134,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2631,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2256,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-2482,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1068,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1152,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1074,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-958,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1352,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1074,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1037,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-774,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-438,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-1105,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-822,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-880,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-843,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Saqqara,29.7738,31.2169,-974,359.94689916960846,Egypt / Levant,p3k14c,False,radiocarbon
+Abu Sir,29.896115,31.20404,-2670,359.9471365696024,Egypt / Levant,pleiades,False,cemetery
+Pyramid of Neferirkare,29.89497065,31.2024288,-2670,359.9486296438742,Egypt / Levant,pleiades,True,pyramid
+Saite-Persian cemetery at Abu Sir,29.891051,31.20046,-664,359.95067850903837,Egypt / Levant,pleiades,True,"tomb, cemetery"
+Bent Pyramid,29.7902357,31.20946815,-2670,359.95186314559663,Egypt / Levant,pleiades,True,"tomb, pyramid"
+Red Pyramid,29.8085513,31.20624445,-2670,359.95302079708654,Egypt / Levant,pleiades,True,pyramid
+Dahshur,29.8083,31.2058,-1772,359.95342726613586,Egypt / Levant,p3k14c,False,radiocarbon
+Sun Temple of Niuserre,29.9040166062,31.1941100416,-2670,359.9550074077208,Egypt / Levant,pleiades,True,temple-2
+Saqqara,29.6666,31.2166,-2308,359.9566831936756,Egypt / Levant,p3k14c,False,radiocarbon
+Pyramid of Amenemhat I,29.5748412261,31.2252958361,-2010,359.95730290386524,Egypt / Levant,pleiades,True,pyramid
+Pyramid of Senusret I,29.56017955,31.22115665,-2010,359.96219078610096,Egypt / Levant,pleiades,True,pyramid
+Tarkhan tomb 2054,29.51,31.22,-2296,359.9676500198895,Egypt / Levant,p3k14c,True,radiocarbon
+Tarkhan tomb 2050,29.5083,31.2167,-2385,359.97066167901517,Egypt / Levant,p3k14c,True,radiocarbon
+Tarkhan tomb 2050,29.5083,31.2167,-1992,359.97066167901517,Egypt / Levant,p3k14c,True,radiocarbon
+Tarkhan tomb 2050,29.5083,31.2167,-2557,359.97066167901517,Egypt / Levant,p3k14c,True,radiocarbon
+Tarkhan tomb 2050,29.5083,31.2167,-2271,359.97066167901517,Egypt / Levant,p3k14c,True,radiocarbon
+Kafr Ammar tomp 1060,29.51,31.2,-2495,359.9849869403121,Egypt / Levant,p3k14c,False,radiocarbon
+Kafr Ammar tomb 2038,29.51,31.2,-2564,359.9849869403121,Egypt / Levant,p3k14c,True,radiocarbon
+Kafr Ammar tomb 2038,29.51,31.2,-2481,359.9849869403121,Egypt / Levant,p3k14c,True,radiocarbon
+Tuna El Gebel,29.9791,31.149,-1478,359.98724052216465,Egypt / Levant,p3k14c,False,radiocarbon
+Tuna El Gebel,29.9791,31.149,-1347,359.98724052216465,Egypt / Levant,p3k14c,False,radiocarbon
+Tuna El Gebel,29.9791,31.149,-1426,359.98724052216465,Egypt / Levant,p3k14c,False,radiocarbon
+Letopolis,30.1223455,31.1339825,-750,359.98736679203284,Egypt / Levant,pleiades,False,settlement
+Sphinx Temple,29.975210654,31.1382094955,-2670,359.9968980563961,Egypt / Levant,pleiades,True,temple-2
+Temple of Amenhotep II,29.9755980739,31.1381126504,-2670,359.9969469255183,Egypt / Levant,pleiades,True,"temple, temple-2"
+Valley Temple of Khafre,29.9749623,31.1381113,-2670,359.99700501075466,Egypt / Levant,pleiades,True,temple-2
+The Great Sphinx,29.9752657478,31.1376650606,-2670,359.99736284213986,Egypt / Levant,pleiades,False,monument
+Tomb of Hetepheres I,29.9790508,31.1359926,-2670,359.998466836425,Egypt / Levant,pleiades,True,tomb
+Pyramid of Khentkawes,29.9735563,31.1356834,-2670,359.9992256245664,Egypt / Levant,pleiades,True,pyramid
+The Great Pyramid,29.9791600351,31.1342156516,-2670,359.9999900763205,Egypt / Levant,pleiades,True,pyramid

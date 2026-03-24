@@ -1,0 +1,84 @@
+{
+  "crossings": [
+    {
+      "river": "Nile (Ahramat Branch)",
+      "crossing_point": {
+        "lat": 29.921289,
+        "lon": 31.148711
+      },
+      "gc_distance_km": 0.0,
+      "intersection_angle": 70.07,
+      "pyramids_within_10km": 15,
+      "pyramids_within_20km": 27
+    },
+    {
+      "river": "Indus",
+      "crossing_point": {
+        "lat": 25.4,
+        "lon": 68.14
+      },
+      "gc_distance_km": 234.49,
+      "gc_bearing": 103.16,
+      "river_bearing": 200,
+      "intersection_angle": 83.16,
+      "monuments": [
+        {
+          "name": "Mohenjo-daro",
+          "distance_km": 213.98
+        }
+      ]
+    },
+    {
+      "river": "Mekong",
+      "crossing_point": {
+        "lat": 15.35,
+        "lon": 105.0
+      },
+      "gc_distance_km": 79.12,
+      "gc_bearing": 116.9,
+      "river_bearing": 175,
+      "intersection_angle": 58.1,
+      "monuments": [
+        {
+          "name": "Angkor Wat",
+          "distance_km": 247.6
+        }
+      ]
+    },
+    {
+      "river": "Amazon (Tapaj\u00f3s confluence)",
+      "crossing_point": {
+        "lat": -2.5,
+        "lon": -54.95
+      },
+      "gc_distance_km": 112.91,
+      "gc_bearing": 59.88,
+      "river_bearing": 80,
+      "intersection_angle": 20.12,
+      "monuments": [
+        {
+          "name": "Tapaj\u00f3s earthworks",
+          "distance_km": 79.6
+        }
+      ]
+    },
+    {
+      "river": "Ganges",
+      "crossing_point": {
+        "lat": 25.3,
+        "lon": 83.0
+      },
+      "gc_distance_km": 177.63,
+      "gc_bearing": 109.61,
+      "river_bearing": 100,
+      "intersection_angle": 9.61,
+      "monuments": [
+        {
+          "name": "Varanasi (Kashi Vishwanath)",
+          "distance_km": 1.62
+        }
+      ]
+    }
+  ],
+  "note": "River bearings are approximate. Monument lists are illustrative, not exhaustive."
+}

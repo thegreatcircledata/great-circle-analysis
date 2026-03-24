@@ -1,0 +1,23 @@
+{
+  "test_1_nile_crossing": {
+    "actual_distance_km": 10.79,
+    "n_trials": 100000,
+    "n_valid_crossings": 84081,
+    "p_within_10km": 0.00749,
+    "p_within_20km": 0.02695,
+    "p_within_50km": 0.09265,
+    "count_within_10km": 749,
+    "count_within_20km": 2695
+  },
+  "test_2_monument_density": {
+    "actual_monuments_within_20km": 13,
+    "baseline_mean": 0.685,
+    "baseline_std": 2.044,
+    "percentile": 99.59,
+    "p_value": 0.01141
+  },
+  "test_3_compound": {
+    "p_compound": 0.00333,
+    "odds_ratio": 300.0
+  }
+}

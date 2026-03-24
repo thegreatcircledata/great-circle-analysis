@@ -1,0 +1,9 @@
+{
+  "n_trials": 10000,
+  "observed_effect": 0.01249,
+  "mc_mean": 0.01166,
+  "mc_std": 0.03256,
+  "percentile": 53.6,
+  "p_value": 0.536,
+  "z_score": 0.03
+}

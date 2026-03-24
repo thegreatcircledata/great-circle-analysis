@@ -1,0 +1,30 @@
+lat,lon,label,distance_to_gc_km
+-3.4,37.8,East Africa — Rift Valley (departure),3741.84
+7.0,39.5,Horn of Africa — Ethiopian Rift,2591.01
+11.5,43.0,Djibouti — Bab el-Mandeb approach,2091.08
+12.8,45.0,Bab el-Mandeb strait crossing,1941.24
+14.5,49.0,Yemen coast — Hadhramaut,1730.11
+17.0,54.5,Oman — Dhofar (Nubian Complex sites),1398.18
+22.5,59.5,Oman — northeastern coast,720.37
+25.3,56.5,UAE — Jebel Faya region,456.64
+26.5,54.0,Strait of Hormuz,354.58
+25.4,57.8,Iran — western Makran coast,427.63
+25.2,60.5,Iran — central Makran coast,407.64
+25.0,63.0,Pakistan — Balochistan coast,385.16
+24.5,67.0,Pakistan — Sindh coast / Indus delta,357.69
+22.0,69.0,India — Gujarat coast,582.03
+19.0,72.8,India — Mumbai / Konkan coast,805.86
+15.0,74.0,India — Goa / Karnataka coast,1199.36
+11.0,76.0,India — Kerala / Western Ghats,1563.43
+8.0,77.5,India — southern tip (Kanyakumari),1831.46
+7.0,80.0,Sri Lanka,1848.67
+6.0,95.0,Andaman Sea / Nicobar Islands,1330.73
+4.0,98.5,Sumatra — northern coast,1367.29
+2.0,103.0,Malay Peninsula — Singapore Strait,1344.45
+0.5,109.0,Borneo — western coast,1181.88
+-2.0,112.0,Java Sea / Borneo south,1265.4
+-5.0,119.0,Sulawesi / Flores,1171.38
+-8.0,131.0,Timor — Sahul shelf crossing,787.08
+-12.4,131.0,Australia — Madjedbebe / Arnhem Land,1207.6
+-6.0,143.0,PNG — southern coast,70.78
+-5.5,145.0,PNG — Huon Peninsula / highlands,228.18

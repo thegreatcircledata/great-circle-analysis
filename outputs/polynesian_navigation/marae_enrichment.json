@@ -1,0 +1,106 @@
+{
+  "analysis": "Marae enrichment along the Great Circle",
+  "n_sites": 41,
+  "n_mc_trials": 10000,
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "enrichment_by_threshold": {
+    "50": {
+      "threshold_km": 50,
+      "actual_count": 18,
+      "mc_mean": 0.5,
+      "mc_median": 0.0,
+      "mc_std": 2.14,
+      "mc_max": 19,
+      "mc_min": 0,
+      "enrichment_ratio": 36.254,
+      "p_value": 0.0114,
+      "significant_05": true,
+      "significant_01": false
+    },
+    "100": {
+      "threshold_km": 100,
+      "actual_count": 18,
+      "mc_mean": 0.96,
+      "mc_median": 0.0,
+      "mc_std": 2.99,
+      "mc_max": 26,
+      "mc_min": 0,
+      "enrichment_ratio": 18.825,
+      "p_value": 0.0226,
+      "significant_05": true,
+      "significant_01": false
+    },
+    "200": {
+      "threshold_km": 200,
+      "actual_count": 18,
+      "mc_mean": 1.95,
+      "mc_median": 0.0,
+      "mc_std": 4.3,
+      "mc_max": 26,
+      "mc_min": 0,
+      "enrichment_ratio": 9.214,
+      "p_value": 0.0488,
+      "significant_05": true,
+      "significant_01": false
+    },
+    "500": {
+      "threshold_km": 500,
+      "actual_count": 21,
+      "mc_mean": 4.75,
+      "mc_median": 2.0,
+      "mc_std": 6.35,
+      "mc_max": 29,
+      "mc_min": 0,
+      "enrichment_ratio": 4.42,
+      "p_value": 0.0334,
+      "significant_05": true,
+      "significant_01": false
+    }
+  },
+  "per_group_density": [
+    {
+      "group": "Cook Islands",
+      "n_sites": 1,
+      "distance_km": 1055.9
+    },
+    {
+      "group": "Easter Island",
+      "n_sites": 18,
+      "distance_km": 9.6
+    },
+    {
+      "group": "Hawaiian Islands",
+      "n_sites": 8,
+      "distance_km": 5461.4
+    },
+    {
+      "group": "Marquesas Islands",
+      "n_sites": 3,
+      "distance_km": 2321.6
+    },
+    {
+      "group": "New Zealand",
+      "n_sites": 1,
+      "distance_km": 1998.6
+    },
+    {
+      "group": "Samoa",
+      "n_sites": 1,
+      "distance_km": 1307.3
+    },
+    {
+      "group": "Society Islands",
+      "n_sites": 6,
+      "distance_km": 1386.4
+    },
+    {
+      "group": "Tonga",
+      "n_sites": 3,
+      "distance_km": 502.8
+    }
+  ],
+  "caveat": "The Polynesian sacred site database is incomplete (~41 sites). Many marae have been destroyed or are unrecorded. Easter Island (18 ahu) dominates the dataset and sits directly on the circle, which inflates enrichment at narrow bands. The 500 km band is more meaningful for Pacific-scale analysis."
+}

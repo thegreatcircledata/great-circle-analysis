@@ -1,0 +1,14 @@
+{
+  "dry_periods": [
+    {
+      "start_bp": 12500,
+      "end_bp": 65000
+    },
+    {
+      "start_bp": 65500,
+      "end_bp": 78000
+    }
+  ],
+  "threshold_m": -60,
+  "note": "Gulf exposed as dry land when sea level below threshold"
+}

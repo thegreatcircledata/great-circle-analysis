@@ -1,0 +1,167 @@
+{
+  "analysis": "Colonization wavefront vs Great Circle distance",
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "n_islands": 12,
+  "island_data": [
+    {
+      "name": "Fiji",
+      "lat": -17.71,
+      "lon": 178.07,
+      "colonization_ce": -1000,
+      "date_range_ce": [
+        -1200,
+        -800
+      ],
+      "distance_to_circle_km": 557.9
+    },
+    {
+      "name": "Tonga",
+      "lat": -20.42,
+      "lon": -175.2,
+      "colonization_ce": -850,
+      "date_range_ce": [
+        -1000,
+        -800
+      ],
+      "distance_to_circle_km": 502.8
+    },
+    {
+      "name": "Samoa",
+      "lat": -13.76,
+      "lon": -172.1,
+      "colonization_ce": -800,
+      "date_range_ce": [
+        -1050,
+        -700
+      ],
+      "distance_to_circle_km": 1307.3
+    },
+    {
+      "name": "Mangareva / Gambier Islands",
+      "lat": -23.13,
+      "lon": -134.97,
+      "colonization_ce": 1050,
+      "date_range_ce": [
+        970,
+        1120
+      ],
+      "distance_to_circle_km": 793.1
+    },
+    {
+      "name": "Society Islands",
+      "lat": -17.32,
+      "lon": -149.75,
+      "colonization_ce": 1075,
+      "date_range_ce": [
+        1025,
+        1120
+      ],
+      "distance_to_circle_km": 1386.4
+    },
+    {
+      "name": "Pitcairn / Henderson Islands",
+      "lat": -24.67,
+      "lon": -128.8,
+      "colonization_ce": 1100,
+      "date_range_ce": [
+        1000,
+        1200
+      ],
+      "distance_to_circle_km": 584.8
+    },
+    {
+      "name": "Cook Islands",
+      "lat": -19.0,
+      "lon": -159.5,
+      "colonization_ce": 1200,
+      "date_range_ce": [
+        1100,
+        1300
+      ],
+      "distance_to_circle_km": 1055.9
+    },
+    {
+      "name": "Tuamotu Archipelago",
+      "lat": -17.0,
+      "lon": -144.0,
+      "colonization_ce": 1200,
+      "date_range_ce": [
+        1100,
+        1300
+      ],
+      "distance_to_circle_km": 1467.1
+    },
+    {
+      "name": "Easter Island (Rapa Nui)",
+      "lat": -27.11,
+      "lon": -109.35,
+      "colonization_ce": 1230,
+      "date_range_ce": [
+        1200,
+        1253
+      ],
+      "distance_to_circle_km": 9.6
+    },
+    {
+      "name": "Marquesas Islands",
+      "lat": -9.43,
+      "lon": -140.07,
+      "colonization_ce": 1240,
+      "date_range_ce": [
+        1200,
+        1277
+      ],
+      "distance_to_circle_km": 2321.6
+    },
+    {
+      "name": "Hawaii",
+      "lat": 20.79,
+      "lon": -156.33,
+      "colonization_ce": 1245,
+      "date_range_ce": [
+        1219,
+        1266
+      ],
+      "distance_to_circle_km": 5461.4
+    },
+    {
+      "name": "New Zealand (Aotearoa)",
+      "lat": -41.27,
+      "lon": 174.78,
+      "colonization_ce": 1260,
+      "date_range_ce": [
+        1230,
+        1282
+      ],
+      "distance_to_circle_km": 1998.6
+    }
+  ],
+  "spearman_test": {
+    "rho": 0.62,
+    "p_value": 0.03152,
+    "significant": true,
+    "direction": "positive",
+    "interpretation": "Positive \u03c1: farther islands colonized later (distance grows with date)"
+  },
+  "pearson_test": {
+    "r": 0.3149,
+    "p_value": 0.318805
+  },
+  "east_polynesia_only": {
+    "n": 9,
+    "rho": 0.6025,
+    "p_value": 0.085953
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "actual_rho": 0.62,
+    "mc_mean_rho": -0.005,
+    "mc_std_rho": 0.3458,
+    "mc_p_value": 0.048,
+    "percentile": 95.3
+  },
+  "caveat": "The colonization chronology is debated, especially early dates. West Polynesia (Fiji/Tonga/Samoa, ~1000-800 BCE) was colonized millennia before East Polynesia (~AD 1000-1300), creating a bimodal distribution. The 'long pause' between West and East Polynesian settlement (~1800 years) dominates the variance. Easter Island's position on the circle is a single data point and its late colonization date (~AD 1230) works against the hypothesis that proximity to the circle predicts earlier settlement."
+}

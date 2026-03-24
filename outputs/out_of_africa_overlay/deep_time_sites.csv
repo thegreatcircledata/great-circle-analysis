@@ -1,0 +1,41 @@
+lat,lon,name,age_bp,reference,distance_to_gc_km,on_corridor
+-34.41,21.22,Blombos Cave,100000,Henshilwood et al. 2011,6838.8,False
+-31.58,29.17,Klasies River Mouth,120000,Deacon & Deacon 1999,6754.14,False
+-27.58,32.0,Border Cave,170000,Backwell et al. 2018,6367.25,False
+-29.1,26.04,Florisbad,259000,Grün et al. 1996,6415.68,False
+9.58,41.83,Dire Dawa / Porc-Epic Cave,77000,Pleurdeau 2006,2305.83,False
+-4.32,35.35,Mumba Rock Shelter,130000,Mehlman 1989,3830.2,False
+-1.83,35.33,Enkapune Ya Muto,50000,Ambrose 1998,3553.74,False
+25.21,56.02,Jebel Faya,125000,Armitage et al. 2011,472.85,False
+17.26,54.1,Aybut Al Auwal (Dhofar),106000,Rose et al. 2011,1374.39,False
+26.0,56.1,Al Wusta,85000,Groucutt et al. 2018,384.7,False
+17.1,53.5,Jebel Kawr,45000,Rose et al. 2011,1399.17,False
+21.0,55.0,Mudayy,75000,Delagnes et al. 2012,950.31,False
+26.27,56.34,Jebel Barakah,130000,Wahida et al. 2009,351.82,False
+15.37,78.13,Jwalapuram,74000,Petraglia et al. 2007,1030.66,False
+13.22,77.63,Attirampakkam,385000,Akhilesh et al. 2018,1274.76,False
+22.94,77.61,Bhimbetka,100000,Misra 1985,244.74,False
+24.8,73.72,16R Dune (Thar Desert),96000,Blinkhorn et al. 2013,159.07,True
+15.5,76.5,Jurreru Valley (above Toba),77000,Petraglia et al. 2012,1069.38,False
+11.9,79.8,Attirampakkam / Pallavaram,250000,Pappu et al. 2011,1340.48,False
+20.22,103.4,Tam Pa Ling (Laos),63000,Demeter et al. 2012,486.65,False
+3.82,113.77,Niah Cave (Borneo),40000,Barker et al. 2007,603.92,False
+-8.53,120.45,Liang Bua (Flores),50000,Sutikna et al. 2016,1429.34,False
+-4.95,119.62,Leang Burung 2 (Sulawesi),35000,Bulbeck et al. 2004,1132.1,False
+-5.0,119.5,Maros karst (Sulawesi),45000,Aubert et al. 2014,1143.58,False
+18.31,103.75,That Nang Ing (Laos),40000,Demeter et al. 2015,313.16,False
+14.5,100.0,Khorat Plateau (Thailand),40000,Marwick 2009,243.14,False
+-12.45,132.89,Madjedbebe,65000,Clarkson et al. 2017,1107.04,False
+-33.72,142.98,Lake Mungo,42000,Bowler et al. 2003,2584.28,False
+-34.67,150.01,Jerimalai,42000,O'Connor 2007,2334.26,False
+-8.53,125.42,Laili rock shelter (Timor),44000,O'Connor et al. 2011,1150.8,False
+-5.78,141.1,Mololo Cave (PNG),55000,Summerhayes et al. 2010,12.21,True
+-3.6,135.2,Kebar Valley (PNG),26000,Pasveer 2003,130.04,True
+-2.47,140.7,Kosipe (PNG),49000,Summerhayes et al. 2010,284.87,False
+-6.3,147.0,Huon Peninsula (PNG),42000,Groube et al. 1986,258.68,False
+-9.42,147.15,Caution Bay (PNG),5000,McNiven et al. 2011,36.48,True
+32.67,35.57,Skhul Cave,100000,Grün et al. 2005,275.34,False
+32.67,35.57,Qafzeh Cave,92000,Valladas et al. 1988,275.34,False
+31.4,35.47,Boker Tachtit,47000,Marks 1983,134.79,True
+-1.28,36.25,Olorgesailie,320000,Potts et al. 2018,3498.57,False
+0.8,36.42,Baringo (Kenya),240000,McBrearty 1999,3268.55,False

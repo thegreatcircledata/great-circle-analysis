@@ -1,0 +1,40 @@
+{
+  "galactic_north_pole_j2000": {
+    "ra": 192.859,
+    "dec": 27.128
+  },
+  "gc_pole_geographic": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "alignment_sweep": {
+    "n_epochs": 261,
+    "epoch_range": [
+      -23000,
+      3000
+    ],
+    "step_years": 100
+  },
+  "minimum_inclination": {
+    "epoch": 1500,
+    "inclination_deg": 37.8,
+    "gc_pole_ra": 224.631,
+    "gc_pole_dec": 57.644
+  },
+  "maximum_inclination": {
+    "epoch": -11800,
+    "inclination_deg": 83.44
+  },
+  "current_epoch": {
+    "inclination_deg": 37.96
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "gc_min_inclination_deg": 37.8,
+    "mc_mean_min_inclination_deg": 18.23,
+    "mc_std_deg": 12.21,
+    "mc_median_deg": 16.48,
+    "gc_percentile": 91.8
+  },
+  "conclusion": "The Great Circle's minimum mutual inclination with the galactic plane is 37.8\u00b0 (at epoch 1500). Monte Carlo testing (10000 random circles) shows a mean minimum inclination of 18.2\u00b0 \u00b1 12.2\u00b0. The Great Circle is at the 91.8th percentile. This is within normal range \u2014 not significantly aligned with the galactic plane."
+}

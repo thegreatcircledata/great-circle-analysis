@@ -1,0 +1,21 @@
+{
+  "analysis": "Acoustic properties of subterranean sites (exploratory)",
+  "status": "DESCRIPTIVE ONLY \u2014 insufficient data for statistical testing",
+  "total_sites_cataloged": 17,
+  "sites_with_measurements": 8,
+  "measured_within_200km": 1,
+  "measured_within_500km": 1,
+  "frequency_range_hz": {
+    "min": 100,
+    "max": 121,
+    "mean": 110.0
+  },
+  "key_findings": [
+    "Chav\u00edn de Hu\u00e1ntar (on-circle, 100 Hz) has peer-reviewed acoustic measurements",
+    "Great Pyramid (on-circle) has contested but documented measurements",
+    "Saqqara Serapeum (on-circle) has no published acoustic study despite obvious potential",
+    "Dominant frequency across megalithic chambers is ~110 Hz (\u00b110)",
+    "French cave painting-acoustic correlation not on circle (control data)"
+  ],
+  "caveat": "Dataset too small (<20 measured sites) for Monte Carlo. Acoustic measurements are rare and often contested. Report as catalog, not statistical test."
+}

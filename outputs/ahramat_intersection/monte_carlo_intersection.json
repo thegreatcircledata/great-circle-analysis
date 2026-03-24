@@ -1,0 +1,35 @@
+{
+  "n_trials": 100000,
+  "seed": 42,
+  "observed": {
+    "intersection_angle": 70.07,
+    "pyramids_within_10km": 15,
+    "pyramids_within_20km": 27
+  },
+  "test1_random_circle_x_fixed_branch": {
+    "n_crossings": 471,
+    "p_crossing": 0.00471,
+    "n_near_pyramid_10km": 460,
+    "p_near_pyramid": 0.0046,
+    "n_perpendicular_near_pyramid": 82,
+    "p_perpendicular_near_pyramid": 0.00082
+  },
+  "test2_monument_density": {
+    "mean_pyramids_at_crossing": 5.456,
+    "observed_pyramids": 15,
+    "p_gte_observed": 0.163482
+  },
+  "test3_conditional_on_egypt": {
+    "n_passes_egypt": 87363,
+    "n_crosses_branch": 471,
+    "n_perpendicular": 83,
+    "n_perpendicular_dense": 14,
+    "p_perpendicular_dense_given_egypt": 0.00016
+  },
+  "crossing_angles": {
+    "n": 471,
+    "mean": 58.47,
+    "median": 60.74,
+    "std": 19.99
+  }
+}

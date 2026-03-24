@@ -1,0 +1,76 @@
+{
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "reference_points": {
+    "Nazca_Pampa_center": {
+      "lat": -14.735,
+      "lon": -75.13,
+      "bearing_east": 63.139,
+      "bearing_west": 243.139,
+      "distance_to_circle_km": 11.81
+    },
+    "Nazca_Pampa_NW": {
+      "lat": -14.6,
+      "lon": -75.25,
+      "bearing_east": 63.17,
+      "bearing_west": 243.17,
+      "distance_to_circle_km": 7.41
+    },
+    "Nazca_Pampa_SE": {
+      "lat": -14.85,
+      "lon": -75.0,
+      "bearing_east": 63.106,
+      "bearing_west": 243.106,
+      "distance_to_circle_km": 29.54
+    },
+    "Nazca_Pampa_NE": {
+      "lat": -14.6,
+      "lon": -75.0,
+      "bearing_east": 63.107,
+      "bearing_west": 243.107,
+      "distance_to_circle_km": 4.75
+    },
+    "Nazca_Pampa_SW": {
+      "lat": -14.85,
+      "lon": -75.25,
+      "bearing_east": 63.169,
+      "bearing_west": 243.169,
+      "distance_to_circle_km": 17.4
+    },
+    "Cahuachi_temple": {
+      "lat": -14.817,
+      "lon": -75.12,
+      "bearing_east": 63.137,
+      "bearing_west": 243.137,
+      "distance_to_circle_km": 20.43
+    },
+    "Hummingbird_geoglyph": {
+      "lat": -14.692,
+      "lon": -75.149,
+      "bearing_east": 63.144,
+      "bearing_west": 243.144,
+      "distance_to_circle_km": 6.63
+    }
+  },
+  "summary": {
+    "mean_bearing_east": 63.139,
+    "mean_bearing_west": 243.139,
+    "bearing_std": 0.024,
+    "closest_approach_km": 4.75,
+    "cardinal_direction": "roughly NE-SW"
+  },
+  "test_bearing": {
+    "location": "Nazca_Pampa_center",
+    "bearing_east": 63.139,
+    "bearing_west": 243.139
+  },
+  "aveni_comparison": {
+    "peak_1_deg": 10,
+    "peak_2_deg": 80,
+    "offset_from_peak_1": 53.14,
+    "offset_from_peak_2": 16.86,
+    "note": "Aveni peaks are approximate; exact values from books not digitally available"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "temporal_layering": {
+    ">50,000 BP": {
+      "n_sites": 26,
+      "n_on_corridor": 2,
+      "fraction_on_corridor": 0.077,
+      "mc_mean": 0.83,
+      "mc_std": 1.26,
+      "z_score": 0.93,
+      "p_value": 0.2092,
+      "sites": [
+        "Blombos Cave",
+        "Klasies River Mouth",
+        "Border Cave",
+        "Florisbad",
+        "Dire Dawa / Porc-Epic Cave",
+        "Mumba Rock Shelter",
+        "Enkapune Ya Muto",
+        "Jebel Faya",
+        "Aybut Al Auwal (Dhofar)",
+        "Al Wusta",
+        "Mudayy",
+        "Jebel Barakah",
+        "Jwalapuram",
+        "Attirampakkam",
+        "Bhimbetka",
+        "16R Dune (Thar Desert)",
+        "Jurreru Valley (above Toba)",
+        "Attirampakkam / Pallavaram",
+        "Tam Pa Ling (Laos)",
+        "Liang Bua (Flores)",
+        "Madjedbebe",
+        "Mololo Cave (PNG)",
+        "Skhul Cave",
+        "Qafzeh Cave",
+        "Olorgesailie",
+        "Baringo (Kenya)"
+      ]
+    },
+    "50,000\u201325,000 BP": {
+      "n_sites": 13,
+      "n_on_corridor": 2,
+      "fraction_on_corridor": 0.154,
+      "mc_mean": 0.4,
+      "mc_std": 0.73,
+      "z_score": 2.21,
+      "p_value": 0.0734,
+      "sites": [
+        "Jebel Kawr",
+        "Niah Cave (Borneo)",
+        "Leang Burung 2 (Sulawesi)",
+        "Maros karst (Sulawesi)",
+        "That Nang Ing (Laos)",
+        "Khorat Plateau (Thailand)",
+        "Lake Mungo",
+        "Jerimalai",
+        "Laili rock shelter (Timor)",
+        "Kebar Valley (PNG)",
+        "Kosipe (PNG)",
+        "Huon Peninsula (PNG)",
+        "Boker Tachtit"
+      ]
+    },
+    "25,000\u201312,000 BP": {
+      "n_sites": 0,
+      "n_on_corridor": 0,
+      "fraction": 0,
+      "note": "no sites in epoch"
+    },
+    "12,000\u20138,000 BP": {
+      "n_sites": 0,
+      "n_on_corridor": 0,
+      "fraction": 0,
+      "note": "no sites in epoch",
+      "p3k14c_n_sites": 1574,
+      "p3k14c_n_on_corridor": 64,
+      "p3k14c_fraction": 0.0407
+    },
+    "8,000\u20135,000 BP": {
+      "n_sites": 1,
+      "n_on_corridor": 1,
+      "fraction_on_corridor": 1.0,
+      "mc_mean": 0.03,
+      "mc_std": 0.17,
+      "z_score": 5.83,
+      "p_value": 0.0286,
+      "sites": [
+        "Caution Bay (PNG)"
+      ],
+      "p3k14c_n_sites": 3537,
+      "p3k14c_n_on_corridor": 118,
+      "p3k14c_fraction": 0.0334
+    },
+    "5,000\u20132,000 BP": {
+      "n_sites": 0,
+      "n_on_corridor": 0,
+      "fraction": 0,
+      "note": "no sites in epoch",
+      "p3k14c_n_sites": 10381,
+      "p3k14c_n_on_corridor": 161,
+      "p3k14c_fraction": 0.0155
+    }
+  }
+}

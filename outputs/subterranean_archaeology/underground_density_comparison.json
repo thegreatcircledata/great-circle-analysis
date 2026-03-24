@@ -1,0 +1,22 @@
+{
+  "analysis": "Underground feature density: circle sites vs control",
+  "circle_clusters": {
+    "mean_features": 5.8,
+    "mean_weighted_score": 18.0
+  },
+  "control_sites": {
+    "mean_features": 2.2,
+    "mean_weighted_score": 5.2
+  },
+  "mann_whitney_features": {
+    "U": 35.5,
+    "p_value": 0.0022,
+    "significant": true
+  },
+  "mann_whitney_score": {
+    "U": 31.0,
+    "p_value": 0.0219,
+    "significant": true
+  },
+  "caveat": "Circle clusters include Egypt which has exceptionally rich underground heritage. Control selection is not strictly matched. Treat as descriptive, not definitive."
+}

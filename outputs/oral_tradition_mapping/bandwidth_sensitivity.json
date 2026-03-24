@@ -1,0 +1,217 @@
+{
+  "bandwidths": {
+    "100": {
+      "flood_deluge": {
+        "enrichment": 1.1238,
+        "on_prev": 0.375,
+        "off_prev": 0.3337,
+        "on_n": 24
+      },
+      "earth_diver": {
+        "enrichment": 0.7709,
+        "on_prev": 0.1667,
+        "off_prev": 0.2162,
+        "on_n": 24
+      },
+      "world_axis_sky_support": {
+        "enrichment": 0.8477,
+        "on_prev": 0.25,
+        "off_prev": 0.2949,
+        "on_n": 24
+      },
+      "travelling_transformer": {
+        "enrichment": 0.4945,
+        "on_prev": 0.0417,
+        "off_prev": 0.0843,
+        "on_n": 24
+      },
+      "cosmic_hunt": {
+        "enrichment": 0.6343,
+        "on_prev": 0.1667,
+        "off_prev": 0.2627,
+        "on_n": 24
+      },
+      "star_celestial": {
+        "enrichment": 0.8472,
+        "on_prev": 0.4583,
+        "off_prev": 0.541,
+        "on_n": 24
+      },
+      "giants_earlier_race": {
+        "enrichment": 0.9826,
+        "on_prev": 0.1667,
+        "off_prev": 0.1696,
+        "on_n": 24
+      }
+    },
+    "200": {
+      "flood_deluge": {
+        "enrichment": 1.0655,
+        "on_prev": 0.3556,
+        "off_prev": 0.3337,
+        "on_n": 45
+      },
+      "earth_diver": {
+        "enrichment": 0.7138,
+        "on_prev": 0.1556,
+        "off_prev": 0.2179,
+        "on_n": 45
+      },
+      "world_axis_sky_support": {
+        "enrichment": 0.9827,
+        "on_prev": 0.2889,
+        "off_prev": 0.294,
+        "on_n": 45
+      },
+      "travelling_transformer": {
+        "enrichment": 1.0728,
+        "on_prev": 0.0889,
+        "off_prev": 0.0829,
+        "on_n": 45
+      },
+      "cosmic_hunt": {
+        "enrichment": 0.5857,
+        "on_prev": 0.1556,
+        "off_prev": 0.2656,
+        "on_n": 45
+      },
+      "star_celestial": {
+        "enrichment": 0.946,
+        "on_prev": 0.5111,
+        "off_prev": 0.5403,
+        "on_n": 45
+      },
+      "giants_earlier_race": {
+        "enrichment": 0.9136,
+        "on_prev": 0.1556,
+        "off_prev": 0.1703,
+        "on_n": 45
+      }
+    },
+    "300": {
+      "flood_deluge": {
+        "enrichment": 1.2528,
+        "on_prev": 0.4118,
+        "off_prev": 0.3287,
+        "on_n": 68
+      },
+      "earth_diver": {
+        "enrichment": 0.6676,
+        "on_prev": 0.1471,
+        "off_prev": 0.2203,
+        "on_n": 68
+      },
+      "world_axis_sky_support": {
+        "enrichment": 0.9476,
+        "on_prev": 0.2794,
+        "off_prev": 0.2949,
+        "on_n": 68
+      },
+      "travelling_transformer": {
+        "enrichment": 1.0663,
+        "on_prev": 0.0882,
+        "off_prev": 0.0828,
+        "on_n": 68
+      },
+      "cosmic_hunt": {
+        "enrichment": 0.5462,
+        "on_prev": 0.1471,
+        "off_prev": 0.2692,
+        "on_n": 68
+      },
+      "star_celestial": {
+        "enrichment": 0.8646,
+        "on_prev": 0.4706,
+        "off_prev": 0.5443,
+        "on_n": 68
+      },
+      "giants_earlier_race": {
+        "enrichment": 1.0442,
+        "on_prev": 0.1765,
+        "off_prev": 0.169,
+        "on_n": 68
+      }
+    },
+    "500": {
+      "flood_deluge": {
+        "enrichment": 1.4914,
+        "on_prev": 0.4701,
+        "off_prev": 0.3152,
+        "on_n": 117
+      },
+      "earth_diver": {
+        "enrichment": 0.6045,
+        "on_prev": 0.1368,
+        "off_prev": 0.2262,
+        "on_n": 117
+      },
+      "world_axis_sky_support": {
+        "enrichment": 1.0887,
+        "on_prev": 0.3162,
+        "off_prev": 0.2905,
+        "on_n": 117
+      },
+      "travelling_transformer": {
+        "enrichment": 1.032,
+        "on_prev": 0.0855,
+        "off_prev": 0.0828,
+        "on_n": 117
+      },
+      "cosmic_hunt": {
+        "enrichment": 0.4589,
+        "on_prev": 0.1282,
+        "off_prev": 0.2794,
+        "on_n": 117
+      },
+      "star_celestial": {
+        "enrichment": 0.719,
+        "on_prev": 0.4017,
+        "off_prev": 0.5587,
+        "on_n": 117
+      },
+      "giants_earlier_race": {
+        "enrichment": 1.1268,
+        "on_prev": 0.188,
+        "off_prev": 0.1669,
+        "on_n": 117
+      }
+    }
+  },
+  "mc_500km": {
+    "flood_deluge": {
+      "enrichment": 1.4914,
+      "p_value": 0.141,
+      "z_score": 1.12
+    },
+    "earth_diver": {
+      "enrichment": 0.6045,
+      "p_value": 0.772,
+      "z_score": -0.84
+    },
+    "world_axis_sky_support": {
+      "enrichment": 1.0887,
+      "p_value": 0.368,
+      "z_score": 0.3
+    },
+    "travelling_transformer": {
+      "enrichment": 1.032,
+      "p_value": 0.287,
+      "z_score": 0.04
+    },
+    "cosmic_hunt": {
+      "enrichment": 0.4589,
+      "p_value": 0.879,
+      "z_score": -1.26
+    },
+    "star_celestial": {
+      "enrichment": 0.719,
+      "p_value": 0.912,
+      "z_score": -1.49
+    },
+    "giants_earlier_race": {
+      "enrichment": 1.1268,
+      "p_value": 0.386,
+      "z_score": 0.23
+    }
+  }
+}

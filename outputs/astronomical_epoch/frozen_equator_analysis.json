@@ -1,0 +1,43 @@
+{
+  "great_circle_pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "angular_distance_gc_pole_to_north_pole_deg": 30.318,
+  "axial_precession": {
+    "conclusion": "CANNOT align Great Circle with equator",
+    "reason": "Axial precession changes the celestial pole direction but NOT the geographic pole position on Earth's surface. The geographic North Pole remains at 90\u00b0N regardless of precession epoch. The Great Circle pole is 30.3\u00b0 from the geographic pole at ALL epochs.",
+    "period_years": 25772
+  },
+  "true_polar_wander": {
+    "conclusion": "Great Circle was NOT Earth's equator at any point in human history",
+    "degrees_needed": 30.3,
+    "typical_rate_deg_per_myr": 1.0,
+    "time_at_typical_rate_myr": 30.3,
+    "fastest_proposed_quaternary_rate_deg_per_myr": 5.0,
+    "time_at_fastest_rate_myr": 6.1,
+    "human_timescale_note": "Even at the fastest proposed Quaternary TPW rate (5\u00b0/Myr), moving the pole 30.3\u00b0 would take ~6 million years. Anatomically modern humans have existed for ~300,000 years. The pole has moved <0.3\u00b0 in that time.",
+    "references": [
+      "Steinberger & Torsvik 2008 (TPW rates)",
+      "Kirschvink 1997 (IITPW in Precambrian)",
+      "Besse & Courtillot 2002 (Quaternary polar wander)"
+    ]
+  },
+  "obliquity_variation": {
+    "gc_inclination_deg": 30.318,
+    "obliquity_related_angles": {
+      "current_obliquity": 23.44,
+      "max_obliquity": 24.5,
+      "min_obliquity": 22.1,
+      "2x_current_obliquity": 46.88,
+      "2x_max_obliquity": 49.0,
+      "obliquity_plus_complement": 90.0,
+      "co-obliquity (90 - obliquity)": 66.56
+    },
+    "closest_match": "max_obliquity",
+    "closest_match_offset_deg": 5.82,
+    "conclusion": "The Great Circle's inclination (30.3\u00b0) does not closely match any simple obliquity-related angle. Closest: max_obliquity (off by 5.8\u00b0). No astronomical significance via obliquity.",
+    "note": "Obliquity changes the positions of the tropics and arctic circles, not the equator. Even if the inclination matched an obliquity angle, there is no physical mechanism linking a surface great circle to obliquity."
+  },
+  "overall_conclusion": "The Great Circle was NOT Earth's equator at any point in human history. Axial precession does not move the geographic pole. True polar wander operates at ~1\u00b0/Myr, requiring ~30 million years to move the pole the necessary 30.3\u00b0. The circle's inclination does not match any obliquity-related angle. The 'ancient equator' claim is definitively refuted."
+}

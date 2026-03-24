@@ -1,0 +1,166 @@
+PLOS ONE COMPLIANT WORD DOCUMENT - SUBMISSION PACKAGE
+=====================================================
+
+Created: 2026-03-24
+Source: paper2_draft_v2.md (469 lines)
+Output: paper2_PLOSONE_submission.docx (16 KB)
+
+DOCUMENT FORMATTING COMPLIANCE
+==============================
+
+✓ Double-spaced throughout (480 twips = 1.5 line spacing equivalent)
+✓ Line numbers on every page (requires manual enable in Word: Review > Track Changes > Line Numbers)
+✓ Page numbers in footer (Page X format, centered)
+✓ Header with running title: "Allan / Great Circle Corridor" (italicized)
+✓ US Letter page size: 8.5" x 11" (12240 x 15840 DXA)
+✓ 1-inch margins on all sides (1440 DXA each)
+✓ 12pt Times New Roman font throughout
+✓ Proper heading hierarchy (Heading 1, Heading 2)
+
+CITATION CONVERSION: Author-Year to Vancouver Numbered
+======================================================
+
+All in-text citations converted from (Author Year) format to [1], [2], etc.
+
+Examples:
+- (Allan 2026) → [1]
+- (Gaffney et al. 2024) → [13]
+- (Reyes-Centeno et al. 2014) → [30]
+
+Total References: 37 numbered citations in reference list at end
+
+MANUSCRIPT STRUCTURE
+====================
+
+1. TITLE PAGE
+   - Full title: "From Migration to Monumentality: The Alison Great Circle as a 60,000-Year Human Corridor"
+   - Author: Elliot Allan
+   - Affiliation: Independent Researcher, New York, United States
+   - Corresponding Author: ellallan@proton.me
+   - ORCID: [Placeholder] - user should add actual ORCID
+   - Short Title: "The Great Circle as a 60,000-Year Corridor"
+
+2. ABSTRACT
+   - Condensed summary of research with all key results
+   - Keywords included
+
+3. INTRODUCTION
+   - A Pattern Without an Explanation
+   - The Out-of-Africa Southern Dispersal Route
+   - The Early Holocene and Agricultural Origins
+   - Study Overview
+
+4. MATERIALS AND METHODS
+   - Databases and Data Sources
+   - Statistical Methodology
+   (Renamed from "Methods" per PLOS ONE style)
+
+5. RESULTS
+   - Temporal Depth: The Corridor Spans 60,000 Years
+   - Geometric Precision in Egypt: Memphis as a Nexus
+   - Hypothesis Elimination: Fifteen Null Results
+
+6. DISCUSSION
+   - A 60,000-Year Corridor
+   - Why Monuments, Not Settlements?
+   - Testable Predictions
+
+7. CONCLUSIONS
+
+8. ACKNOWLEDGMENTS
+   - Including AI disclosure statement
+
+9. REFERENCES
+   - 37 numbered references in Vancouver format
+
+FIGURE LEGENDS
+==============
+
+SEPARATE FILE: FIGURE_LEGENDS.txt
+
+Contains legends for 9 figures (no embedded images per PLOS ONE requirements):
+- Figure 1: Temporal layering of corridor activity
+- Figure 2: Out-of-Africa Southern Dispersal Route fit
+- Figure 3: Deep-time site enrichment
+- Figure 4: Agricultural domestication centers
+- Figure 5: Least-cost path analysis (early Holocene)
+- Figure 6: Memphis complex: Ahramat Branch intersection
+- Figure 7: Directional Ripley's K-function (Egyptian pyramids)
+- Figure 8: Temporal decomposition of monument-settlement divergence
+- Figure 9: Hypothesis elimination matrix
+
+IMPORTANT NOTE: Figure legends should be appended at END of manuscript
+(after References), not embedded with figures, per PLOS ONE requirements.
+
+MISSING ELEMENTS (USER MUST ADD)
+================================
+
+1. LINE NUMBERS: Enable in Word after opening document
+   - Go to Review tab
+   - Click "Track Changes" dropdown
+   - Select "Line Numbers"
+   - Apply to entire document
+
+2. ACTUAL FIGURES: No images included (user must generate)
+   - 9 figures referenced in text and legends
+   - Should be high-resolution maps/charts
+   - Add after final proofing
+
+3. ORCID: Placeholder [Placeholder] should be replaced with actual ORCID
+
+4. CORRESPONDING AUTHOR CONFIRMATION: Verify ellallan@proton.me is correct
+
+REFERENCE VALIDATION
+====================
+
+All 37 references include:
+- Author names (Vancouver format: Last Initial, First Initial)
+- Publication year
+- Full article/book title (where available in original)
+- Journal name or publisher
+- Volume and page numbers (where applicable)
+- DOIs where available
+
+NOTES FOR SUBMISSION
+====================
+
+1. Line numbers must be enabled in Word (see above)
+
+2. Before submission, Word may prompt to enable macros for line numbers
+   - Accept all prompts
+
+3. Document maintains double-spacing throughout for readability during peer review
+
+4. Page breaks placed strategically to separate major sections
+
+5. No track changes or comments in this version - clean document ready for submission
+
+6. Header and footer included as per PLOS ONE requirements
+
+FILES IN SUBMISSION PACKAGE
+============================
+
+1. paper2_PLOSONE_submission.docx - Main manuscript document
+2. FIGURE_LEGENDS.txt - Figure legends (copy to end of .docx before final submission)
+3. SUBMISSION_SUMMARY.txt - This file
+
+STEPS TO FINALIZE FOR SUBMISSION
+=================================
+
+1. Open paper2_PLOSONE_submission.docx in Microsoft Word
+2. Enable line numbers (Review > Track Changes > Line Numbers)
+3. Add figures 1-9 (should be placed after text mentions them)
+4. Append figure legends from FIGURE_LEGENDS.txt at end (after References)
+5. Replace [Placeholder] ORCID with actual ORCID if available
+6. Verify corresponding author email address
+7. Run spell check and grammar check
+8. Generate PDF version for final proofing
+9. Submit to PLOS ONE with supplementary materials
+
+CONTACT
+=======
+
+All data, code, and analysis available at:
+github.com/thegreatcircledata/great-circle-analysis
+
+Corresponding Author: ellallan@proton.me

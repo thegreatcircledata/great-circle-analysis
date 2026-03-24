@@ -1,0 +1,11 @@
+{
+  "site": "Giza",
+  "epoch": -2500,
+  "gc_best_offset_deg": 0.13,
+  "mc_n_trials": 10000,
+  "mc_mean_best_offset_deg": 2.41,
+  "mc_std_deg": 4.15,
+  "mc_median_deg": 0.76,
+  "gc_percentile": 11.1,
+  "conclusion": "The Great Circle's best stellar alignment at Giza (2500 BCE) has an offset of 0.1\u00b0. This is at the 11.1th percentile among random great circles (median random offset: 0.8\u00b0). Not significant \u2014 typical of random circles."
+}

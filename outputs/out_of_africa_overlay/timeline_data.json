@@ -1,0 +1,133 @@
+{
+  "bins": {
+    "0": 47,
+    "1000": 28,
+    "2000": 73,
+    "3000": 42,
+    "4000": 46,
+    "5000": 52,
+    "6000": 37,
+    "7000": 31,
+    "8000": 38,
+    "9000": 15,
+    "10000": 16,
+    "11000": 2,
+    "26000": 1,
+    "40000": 2,
+    "42000": 1,
+    "47000": 1,
+    "49000": 1,
+    "55000": 1,
+    "63000": 1,
+    "85000": 1,
+    "92000": 1,
+    "96000": 1,
+    "100000": 2,
+    "125000": 1,
+    "130000": 1
+  },
+  "key_events": [
+    {
+      "age_bp": 125000,
+      "label": "Jebel Faya \u2014 first AMH tools in Arabia"
+    },
+    {
+      "age_bp": 74000,
+      "label": "Toba super-eruption"
+    },
+    {
+      "age_bp": 65000,
+      "label": "Madjedbebe \u2014 earliest humans in Australia"
+    },
+    {
+      "age_bp": 55000,
+      "label": "Mololo Cave \u2014 earliest humans in PNG (ON CORRIDOR)"
+    },
+    {
+      "age_bp": 50000,
+      "label": "Southern coastal migration wave"
+    },
+    {
+      "age_bp": 26000,
+      "label": "Last Glacial Maximum begins"
+    },
+    {
+      "age_bp": 20000,
+      "label": "LGM peak \u2014 sea level -125m"
+    },
+    {
+      "age_bp": 12000,
+      "label": "Younger Dryas \u2014 climate shock"
+    },
+    {
+      "age_bp": 10500,
+      "label": "Early Holocene campsites (Directive 01)"
+    },
+    {
+      "age_bp": 9000,
+      "label": "Agriculture begins \u2014 multiple independent origins along corridor"
+    },
+    {
+      "age_bp": 8000,
+      "label": "Persian Gulf floods \u2014 Arabian segment disrupted"
+    },
+    {
+      "age_bp": 6500,
+      "label": "Domestication centers cluster on corridor (p=0.002, Directive 01)"
+    },
+    {
+      "age_bp": 5000,
+      "label": "Bronze Age monuments begin (Directive 04)"
+    },
+    {
+      "age_bp": 4500,
+      "label": "Pyramid construction \u2014 Egypt"
+    },
+    {
+      "age_bp": 3000,
+      "label": "Monument-settlement continuity confirmed (p=0.004, Directive 04)"
+    }
+  ],
+  "corridor_viability": {
+    "0": 1.43,
+    "5000": 1.43,
+    "8000": 1.86,
+    "12000": 1.71,
+    "20000": 2.14,
+    "35000": 2.43,
+    "50000": 2.43,
+    "65000": 1.71,
+    "74000": 2.43,
+    "85000": 1.86,
+    "125000": 1.86
+  },
+  "green_arabia_phases": [
+    {
+      "start_bp": 130000,
+      "end_bp": 71000,
+      "label": "MIS 5"
+    },
+    {
+      "start_bp": 60000,
+      "end_bp": 50000,
+      "label": "MIS 3 phase 1"
+    },
+    {
+      "start_bp": 44000,
+      "end_bp": 35000,
+      "label": "MIS 3 phase 2"
+    },
+    {
+      "start_bp": 11000,
+      "end_bp": 5500,
+      "label": "Holocene humid"
+    }
+  ],
+  "summary": {
+    "total_on_corridor_deep_time": 16,
+    "total_on_corridor_p3k14c": 426,
+    "earliest_on_corridor_bp": 96000,
+    "latest_on_corridor_bp": 5000,
+    "occupied_millennia": 25
+  }
+}

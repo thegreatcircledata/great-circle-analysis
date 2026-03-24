@@ -1,0 +1,145 @@
+{
+  "ecliptic_pole": {
+    "reference": {
+      "ra": 270.0,
+      "dec": 66.56
+    },
+    "closest_approach": {
+      "epoch": -19900,
+      "sep": 18.68,
+      "gc_ra": 221.439,
+      "gc_dec": 81.019
+    },
+    "coincidence_within_1deg": false,
+    "interpretation": "The GC pole comes within 18.68\u00b0 of the North Ecliptic Pole at epoch -19900. This is not close enough to suggest the GC coincides with the ecliptic at any epoch."
+  },
+  "galactic_pole": {
+    "reference": {
+      "ra": 192.859,
+      "dec": 27.128
+    },
+    "closest_approach": {
+      "epoch": 1600,
+      "sep": 37.8,
+      "gc_ra": 223.973,
+      "gc_dec": 58.043
+    },
+    "interpretation": "The GC pole comes within 37.8\u00b0 of the North Galactic Pole at epoch 1600."
+  },
+  "bright_stars": {
+    "Thuban": {
+      "epoch": 3000,
+      "sep": 1.69,
+      "gc_ra": 214.902,
+      "gc_dec": 64.052
+    },
+    "Vega": {
+      "epoch": -6200,
+      "sep": 4.67,
+      "gc_ra": 278.283,
+      "gc_dec": 43.398
+    },
+    "Polaris": {
+      "epoch": -18400,
+      "sep": 4.74,
+      "gc_ra": 281.408,
+      "gc_dec": 85.632
+    },
+    "Deneb": {
+      "epoch": -10100,
+      "sep": 6.41,
+      "gc_ra": 305.049,
+      "gc_dec": 50.614
+    },
+    "Alkaid": {
+      "epoch": 1800,
+      "sep": 13.23,
+      "gc_ra": 222.661,
+      "gc_dec": 58.854
+    },
+    "Dubhe": {
+      "epoch": -21700,
+      "sep": 21.05,
+      "gc_ra": 215.237,
+      "gc_dec": 71.528
+    },
+    "Arcturus": {
+      "epoch": -200,
+      "sep": 36.74,
+      "gc_ra": 236.017,
+      "gc_dec": 51.559
+    },
+    "Altair": {
+      "epoch": -7500,
+      "sep": 36.95,
+      "gc_ra": 287.449,
+      "gc_dec": 44.736
+    },
+    "Capella": {
+      "epoch": -17600,
+      "sep": 47.62,
+      "gc_ra": 318.655,
+      "gc_dec": 83.406
+    },
+    "Regulus": {
+      "epoch": 3000,
+      "sep": 67.54,
+      "gc_ra": 214.902,
+      "gc_dec": 64.052
+    },
+    "Spica": {
+      "epoch": -200,
+      "sep": 69.53,
+      "gc_ra": 236.017,
+      "gc_dec": 51.559
+    },
+    "Antares": {
+      "epoch": -3700,
+      "sep": 71.45,
+      "gc_ra": 260.455,
+      "gc_dec": 44.005
+    },
+    "Aldebaran": {
+      "epoch": -16700,
+      "sep": 75.32,
+      "gc_ra": 330.731,
+      "gc_dec": 79.215
+    },
+    "Betelgeuse": {
+      "epoch": -18000,
+      "sep": 86.77,
+      "gc_ra": 304.551,
+      "gc_dec": 84.861
+    },
+    "Procyon": {
+      "epoch": -20200,
+      "sep": 87.34,
+      "gc_ra": 218.571,
+      "gc_dec": 79.512
+    },
+    "Fomalhaut": {
+      "epoch": -9900,
+      "sep": 87.43,
+      "gc_ra": 303.746,
+      "gc_dec": 50.021
+    },
+    "Rigel": {
+      "epoch": -17000,
+      "sep": 101.3,
+      "gc_ra": 328.508,
+      "gc_dec": 80.679
+    },
+    "Sirius": {
+      "epoch": -19100,
+      "sep": 110.83,
+      "gc_ra": 240.346,
+      "gc_dec": 84.506
+    },
+    "Canopus": {
+      "epoch": -18900,
+      "sep": 147.01,
+      "gc_ra": 249.66,
+      "gc_dec": 85.114
+    }
+  }
+}

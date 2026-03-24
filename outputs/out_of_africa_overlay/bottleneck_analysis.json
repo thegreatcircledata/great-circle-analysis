@@ -1,0 +1,108 @@
+{
+  "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)": {
+    "viability_notes": "Requires Green Arabia; Bab el-Mandeb strait narrower at low sea level",
+    "difficult_epochs": [
+      {
+        "age_bp": 0,
+        "label": "Present",
+        "score": 0
+      },
+      {
+        "age_bp": 5000,
+        "label": "Mid Holocene",
+        "score": 0
+      },
+      {
+        "age_bp": 12000,
+        "label": "Younger Dryas / early Holocene",
+        "score": 0
+      },
+      {
+        "age_bp": 20000,
+        "label": "Last Glacial Maximum (LGM)",
+        "score": 1
+      },
+      {
+        "age_bp": 65000,
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "score": 0
+      }
+    ],
+    "n_difficult": 5,
+    "n_total": 11
+  },
+  "Persian Gulf / Strait of Hormuz": {
+    "viability_notes": "Gulf was dry land during LGM and OIS-4; passable during low sea level",
+    "difficult_epochs": [
+      {
+        "age_bp": 0,
+        "label": "Present",
+        "score": 1
+      },
+      {
+        "age_bp": 5000,
+        "label": "Mid Holocene",
+        "score": 1
+      },
+      {
+        "age_bp": 8000,
+        "label": "Persian Gulf flooding / early agriculture",
+        "score": 1
+      },
+      {
+        "age_bp": 85000,
+        "label": "MIS 5a \u2014 warm phase",
+        "score": 1
+      },
+      {
+        "age_bp": 125000,
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "score": 1
+      }
+    ],
+    "n_difficult": 5,
+    "n_total": 11
+  },
+  "Sahul crossing (Timor \u2192 Australia/PNG)": {
+    "viability_notes": "Water crossings always required (~70-90 km); narrower at low sea level",
+    "difficult_epochs": [
+      {
+        "age_bp": 0,
+        "label": "Present",
+        "score": 1
+      },
+      {
+        "age_bp": 5000,
+        "label": "Mid Holocene",
+        "score": 1
+      },
+      {
+        "age_bp": 8000,
+        "label": "Persian Gulf flooding / early agriculture",
+        "score": 1
+      },
+      {
+        "age_bp": 12000,
+        "label": "Younger Dryas / early Holocene",
+        "score": 1
+      },
+      {
+        "age_bp": 65000,
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "score": 1
+      },
+      {
+        "age_bp": 85000,
+        "label": "MIS 5a \u2014 warm phase",
+        "score": 1
+      },
+      {
+        "age_bp": 125000,
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "score": 1
+      }
+    ],
+    "n_difficult": 7,
+    "n_total": 11
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "analysis": "Subterranean site enrichment by type",
+  "n_sites": 4020,
+  "n_monte_carlo": 10000,
+  "all_subterranean": {
+    "50km": {
+      "actual": 26,
+      "mc_mean": 30.72,
+      "mc_std": 53.19,
+      "z_score": -0.09,
+      "p_value": 0.2643,
+      "significant": false
+    },
+    "100km": {
+      "actual": 32,
+      "mc_mean": 64.88,
+      "mc_std": 107.25,
+      "z_score": -0.31,
+      "p_value": 0.3656,
+      "significant": false
+    },
+    "200km": {
+      "actual": 75,
+      "mc_mean": 126.61,
+      "mc_std": 202.95,
+      "z_score": -0.25,
+      "p_value": 0.318,
+      "significant": false
+    },
+    "500km": {
+      "actual": 183,
+      "mc_mean": 315.81,
+      "mc_std": 463.35,
+      "z_score": -0.29,
+      "p_value": 0.3283,
+      "significant": false
+    }
+  },
+  "by_type": {
+    "natural_cave": {
+      "50km": {
+        "actual": 5,
+        "mc_mean": 16.79,
+        "mc_std": 32.07,
+        "z_score": -0.37,
+        "p_value": 0.5601,
+        "significant": false
+      },
+      "100km": {
+        "actual": 7,
+        "mc_mean": 32.29,
+        "mc_std": 58.62,
+        "z_score": -0.43,
+        "p_value": 0.6744,
+        "significant": false
+      },
+      "200km": {
+        "actual": 24,
+        "mc_mean": 66.59,
+        "mc_std": 114.21,
+        "z_score": -0.37,
+        "p_value": 0.4909,
+        "significant": false
+      },
+      "500km": {
+        "actual": 62,
+        "mc_mean": 165.34,
+        "mc_std": 253.45,
+        "z_score": -0.41,
+        "p_value": 0.5111,
+        "significant": false
+      }
+    },
+    "modified_cave": {
+      "50km": {
+        "actual": 1,
+        "mc_mean": 1.09,
+        "mc_std": 3.23,
+        "z_score": -0.03,
+        "p_value": 0.2834,
+        "significant": false
+      },
+      "100km": {
+        "actual": 1,
+        "mc_mean": 2.22,
+        "mc_std": 5.73,
+        "z_score": -0.21,
+        "p_value": 0.4171,
+        "significant": false
+      },
+      "200km": {
+        "actual": 4,
+        "mc_mean": 4.46,
+        "mc_std": 10.35,
+        "z_score": -0.04,
+        "p_value": 0.2324,
+        "significant": false
+      },
+      "500km": {
+        "actual": 6,
+        "mc_mean": 11.3,
+        "mc_std": 21.17,
+        "z_score": -0.25,
+        "p_value": 0.332,
+        "significant": false
+      }
+    },
+    "rock_cut_monumental": {
+      "50km": {
+        "actual": 7,
+        "mc_mean": 4.19,
+        "mc_std": 11.29,
+        "z_score": 0.25,
+        "p_value": 0.1677,
+        "significant": false
+      },
+      "100km": {
+        "actual": 7,
+        "mc_mean": 8.56,
+        "mc_std": 20.4,
+        "z_score": -0.08,
+        "p_value": 0.3007,
+        "significant": false
+      },
+      "200km": {
+        "actual": 19,
+        "mc_mean": 16.89,
+        "mc_std": 33.88,
+        "z_score": 0.06,
+        "p_value": 0.2502,
+        "significant": false
+      },
+      "500km": {
+        "actual": 47,
+        "mc_mean": 41.64,
+        "mc_std": 65.43,
+        "z_score": 0.08,
+        "p_value": 0.2799,
+        "significant": false
+      }
+    },
+    "artificial_complex": {
+      "50km": {
+        "actual": 2,
+        "mc_mean": 0.42,
+        "mc_std": 2.32,
+        "z_score": 0.68,
+        "p_value": 0.0411,
+        "significant": true
+      },
+      "100km": {
+        "actual": 2,
+        "mc_mean": 0.84,
+        "mc_std": 3.56,
+        "z_score": 0.32,
+        "p_value": 0.077,
+        "significant": false
+      },
+      "200km": {
+        "actual": 3,
+        "mc_mean": 1.72,
+        "mc_std": 5.25,
+        "z_score": 0.24,
+        "p_value": 0.1108,
+        "significant": false
+      },
+      "500km": {
+        "actual": 4,
+        "mc_mean": 4.24,
+        "mc_std": 9.26,
+        "z_score": -0.03,
+        "p_value": 0.1839,
+        "significant": false
+      }
+    },
+    "utilitarian": {
+      "50km": {
+        "actual": 11,
+        "mc_mean": 9.17,
+        "mc_std": 18.19,
+        "z_score": 0.1,
+        "p_value": 0.2201,
+        "significant": false
+      },
+      "100km": {
+        "actual": 15,
+        "mc_mean": 19.16,
+        "mc_std": 35.3,
+        "z_score": -0.12,
+        "p_value": 0.2723,
+        "significant": false
+      },
+      "200km": {
+        "actual": 25,
+        "mc_mean": 36.43,
+        "mc_std": 64.97,
+        "z_score": -0.18,
+        "p_value": 0.2866,
+        "significant": false
+      },
+      "500km": {
+        "actual": 64,
+        "mc_mean": 96.68,
+        "mc_std": 153.49,
+        "z_score": -0.21,
+        "p_value": 0.3254,
+        "significant": false
+      }
+    }
+  }
+}

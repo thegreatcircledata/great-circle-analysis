@@ -1,0 +1,26 @@
+{
+  "5": {
+    "K_parallel": 236.7856,
+    "K_perpendicular": 870.2908,
+    "ratio_par_perp": 0.272,
+    "baseline_mean_ratio": 1.039,
+    "z_score": -1.988,
+    "p_value": 0.999
+  },
+  "10": {
+    "K_parallel": 238.8626,
+    "K_perpendicular": 1551.5686,
+    "ratio_par_perp": 0.154,
+    "baseline_mean_ratio": 0.963,
+    "z_score": -4.468,
+    "p_value": 1.0
+  },
+  "20": {
+    "K_parallel": 240.9397,
+    "K_perpendicular": 2598.41,
+    "ratio_par_perp": 0.093,
+    "baseline_mean_ratio": 0.879,
+    "z_score": -7.975,
+    "p_value": 1.0
+  }
+}

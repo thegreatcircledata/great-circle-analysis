@@ -1,0 +1,14 @@
+{
+  "n_categories": 7,
+  "on_corridor_n": 45,
+  "on_corridor_mean_score": 1.711,
+  "off_corridor_n": 881,
+  "off_corridor_mean_score": 1.905,
+  "difference": -0.194,
+  "mc_mean_diff": 0.0114,
+  "mc_std_diff": 0.4654,
+  "mc_percentile": 33.4,
+  "mc_p_value": 0.6657,
+  "mc_z_score": -0.44,
+  "n_trials": 10000
+}

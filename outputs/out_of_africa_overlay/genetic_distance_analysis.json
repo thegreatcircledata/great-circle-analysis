@@ -1,0 +1,55 @@
+{
+  "corridor_km": 500,
+  "n_populations": 22,
+  "n_pairs": 64,
+  "ibd_regression": {
+    "slope": 0.0509,
+    "intercept": -0.35371,
+    "r_squared": 0.5427,
+    "p_value": 0.0
+  },
+  "residual_analysis": {
+    "both_on": {
+      "n": 6,
+      "mean_residual": 0.01022,
+      "std": 0.03265
+    },
+    "both_off": {
+      "n": 36,
+      "mean_residual": -0.00227,
+      "std": 0.03617
+    },
+    "mixed": {
+      "n": 22,
+      "mean_residual": 0.00092
+    }
+  },
+  "statistical_tests": {
+    "mann_whitney_on_vs_off": {
+      "U_statistic": 131.0,
+      "p_value": 0.796,
+      "alternative": "on-corridor residuals < off-corridor residuals",
+      "significant_0.05": false
+    },
+    "mann_whitney_on_vs_mixed": {
+      "U_statistic": 77.0,
+      "p_value": 0.7352,
+      "significant_0.05": false
+    }
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "observed_effect": 0.01249,
+    "mc_mean": 0.01166,
+    "mc_std": 0.03256,
+    "percentile": 53.6,
+    "p_value": 0.536,
+    "z_score": 0.03
+  },
+  "caveats": [
+    "Fst values are approximate, compiled from published supplementary tables",
+    "Post-Neolithic migrations may overwrite deep-time corridor signal",
+    "Limited population sampling along some segments of the corridor",
+    "Results are EXPLORATORY \u2014 consistent with corridor hypothesis, not proof"
+  ]
+}

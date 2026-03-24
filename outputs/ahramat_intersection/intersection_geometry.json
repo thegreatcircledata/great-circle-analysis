@@ -1,0 +1,130 @@
+{
+  "intersections": [
+    {
+      "intersection_point": {
+        "lat": 29.921289,
+        "lon": 31.148711
+      },
+      "angles_by_scale": {
+        "local_2km": {
+          "branch_bearing": 139.07,
+          "gc_bearing": 84.87,
+          "intersection_angle": 54.21,
+          "deviation_from_90": 35.79,
+          "radius_km": 2,
+          "n_branch_points": 1
+        },
+        "5km": {
+          "branch_bearing": 139.07,
+          "gc_bearing": 84.87,
+          "intersection_angle": 54.21,
+          "deviation_from_90": 35.79,
+          "radius_km": 5,
+          "n_branch_points": 3
+        },
+        "10km": {
+          "branch_bearing": 144.14,
+          "gc_bearing": 84.87,
+          "intersection_angle": 59.27,
+          "deviation_from_90": 30.73,
+          "radius_km": 10,
+          "n_branch_points": 7
+        },
+        "20km": {
+          "branch_bearing": 154.94,
+          "gc_bearing": 84.87,
+          "intersection_angle": 70.07,
+          "deviation_from_90": 19.93,
+          "radius_km": 20,
+          "n_branch_points": 12
+        },
+        "50km": {
+          "branch_bearing": 166.17,
+          "gc_bearing": 84.87,
+          "intersection_angle": 81.3,
+          "deviation_from_90": 8.7,
+          "radius_km": 50,
+          "n_branch_points": 15
+        },
+        "full_branch": {
+          "branch_bearing": 178.75,
+          "gc_bearing": 84.87,
+          "intersection_angle": 86.12,
+          "deviation_from_90": 3.88,
+          "radius_km": "full",
+          "n_branch_points": 17
+        }
+      },
+      "nearest_pyramids": [
+        {
+          "name": "Layer Pyramid",
+          "distance_km": 1.92,
+          "dynasty": 3
+        },
+        {
+          "name": "Unfinished N. Pyramid",
+          "distance_km": 2.16,
+          "dynasty": 4
+        },
+        {
+          "name": "Sahure",
+          "distance_km": 5.89,
+          "dynasty": 5
+        },
+        {
+          "name": "Raneferef",
+          "distance_km": 5.94,
+          "dynasty": 5
+        },
+        {
+          "name": "Neferirkare",
+          "distance_km": 5.98,
+          "dynasty": 5
+        },
+        {
+          "name": "Pyramid of Menkaure",
+          "distance_km": 6.03,
+          "dynasty": 4
+        },
+        {
+          "name": "Niuserre",
+          "distance_km": 6.08,
+          "dynasty": 5
+        },
+        {
+          "name": "Pyramid of Khafre",
+          "distance_km": 6.33,
+          "dynasty": 4
+        },
+        {
+          "name": "Great Pyramid (Khufu)",
+          "distance_km": 6.59,
+          "dynasty": 4
+        },
+        {
+          "name": "Queen's Pyramids G1a-c",
+          "distance_km": 6.77,
+          "dynasty": 4
+        }
+      ],
+      "pyramid_counts": {
+        "within_5km": 2,
+        "within_10km": 15,
+        "within_15km": 22,
+        "within_20km": 27,
+        "within_30km": 27
+      }
+    }
+  ],
+  "summary": {
+    "representative_scale": "20km",
+    "primary_intersection_angle": 70.07,
+    "deviation_from_perpendicular": 19.93,
+    "is_near_perpendicular": false,
+    "full_branch_angle": 86.12,
+    "local_angle": 54.21,
+    "note": "Local meanders cause angle variation. The 20km scale captures the Memphis necropolis axis; full_branch includes the Faiyum bend.",
+    "pyramids_within_10km": 15,
+    "pyramids_within_20km": 27
+  }
+}

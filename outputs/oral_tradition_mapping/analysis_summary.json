@@ -1,0 +1,72 @@
+{
+  "analysis": "Oral Tradition & Mythology Spatial Mapping",
+  "data_source": "Berezkin Analytical Catalogue (via macleginn/mythology-queries)",
+  "n_ethnic_groups": 926,
+  "n_on_corridor": 45,
+  "corridor_width_km": 200,
+  "n_monte_carlo_trials": 10000,
+  "pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "categories_tested": 7,
+  "significant_at_005": 0,
+  "significant_at_001": 0,
+  "per_motif_results": {
+    "flood_deluge": {
+      "enrichment": 1.0655,
+      "p_value": 0.4153,
+      "z_score": 0.21,
+      "on_corridor_prevalence": 0.3556,
+      "off_corridor_prevalence": 0.3337
+    },
+    "earth_diver": {
+      "enrichment": 0.7138,
+      "p_value": 0.6621,
+      "z_score": -0.55,
+      "on_corridor_prevalence": 0.1556,
+      "off_corridor_prevalence": 0.2179
+    },
+    "world_axis_sky_support": {
+      "enrichment": 0.9827,
+      "p_value": 0.4809,
+      "z_score": -0.0,
+      "on_corridor_prevalence": 0.2889,
+      "off_corridor_prevalence": 0.294
+    },
+    "travelling_transformer": {
+      "enrichment": 1.0728,
+      "p_value": 0.2921,
+      "z_score": 0.18,
+      "on_corridor_prevalence": 0.0889,
+      "off_corridor_prevalence": 0.0829
+    },
+    "cosmic_hunt": {
+      "enrichment": 0.5857,
+      "p_value": 0.7839,
+      "z_score": -0.87,
+      "on_corridor_prevalence": 0.1556,
+      "off_corridor_prevalence": 0.2656
+    },
+    "star_celestial": {
+      "enrichment": 0.946,
+      "p_value": 0.6237,
+      "z_score": -0.25,
+      "on_corridor_prevalence": 0.5111,
+      "off_corridor_prevalence": 0.5403
+    },
+    "giants_earlier_race": {
+      "enrichment": 0.9136,
+      "p_value": 0.4997,
+      "z_score": -0.13,
+      "on_corridor_prevalence": 0.1556,
+      "off_corridor_prevalence": 0.1703
+    }
+  },
+  "composite_test": {
+    "on_mean": 1.711,
+    "off_mean": 1.905,
+    "p_value": 0.6657,
+    "z_score": -0.44
+  }
+}

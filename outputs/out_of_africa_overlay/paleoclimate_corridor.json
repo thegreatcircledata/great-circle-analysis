@@ -1,0 +1,628 @@
+{
+  "sea_level_by_epoch": {
+    "0": {
+      "label": "Present",
+      "sea_level_m": 0,
+      "green_arabia": false,
+      "persian_gulf_dry": false
+    },
+    "5000": {
+      "label": "Mid Holocene",
+      "sea_level_m": -2.0,
+      "green_arabia": false,
+      "persian_gulf_dry": false
+    },
+    "8000": {
+      "label": "Persian Gulf flooding / early agriculture",
+      "sea_level_m": -15.0,
+      "green_arabia": true,
+      "persian_gulf_dry": false
+    },
+    "12000": {
+      "label": "Younger Dryas / early Holocene",
+      "sea_level_m": -60.0,
+      "green_arabia": false,
+      "persian_gulf_dry": false
+    },
+    "20000": {
+      "label": "Last Glacial Maximum (LGM)",
+      "sea_level_m": -125.0,
+      "green_arabia": false,
+      "persian_gulf_dry": true
+    },
+    "35000": {
+      "label": "MIS 3 \u2014 warm interstadial",
+      "sea_level_m": -70.0,
+      "green_arabia": true,
+      "persian_gulf_dry": true
+    },
+    "50000": {
+      "label": "MIS 3 \u2014 early occupation",
+      "sea_level_m": -70.0,
+      "green_arabia": true,
+      "persian_gulf_dry": true
+    },
+    "65000": {
+      "label": "OIS-4 \u2014 initial southern dispersal",
+      "sea_level_m": -60.0,
+      "green_arabia": false,
+      "persian_gulf_dry": false
+    },
+    "74000": {
+      "label": "Toba eruption epoch",
+      "sea_level_m": -80.0,
+      "green_arabia": true,
+      "persian_gulf_dry": true
+    },
+    "85000": {
+      "label": "MIS 5a \u2014 warm phase",
+      "sea_level_m": -20.0,
+      "green_arabia": true,
+      "persian_gulf_dry": false
+    },
+    "125000": {
+      "label": "MIS 5e \u2014 last interglacial peak",
+      "sea_level_m": 6.0,
+      "green_arabia": true,
+      "persian_gulf_dry": false
+    }
+  },
+  "segment_viability": {
+    "East Africa (departure)": {
+      "0": {
+        "label": "Present",
+        "viability_score": 2
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 2
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 2
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 2
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 2
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 2
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 2
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 2
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 2
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 2
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 2
+      }
+    },
+    "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)": {
+      "0": {
+        "label": "Present",
+        "viability_score": 0
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 0
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 3
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 0
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 1
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 3
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 3
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 0
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 3
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 3
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 3
+      }
+    },
+    "Persian Gulf / Strait of Hormuz": {
+      "0": {
+        "label": "Present",
+        "viability_score": 1
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 1
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 1
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 2
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 3
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 3
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 3
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 2
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 3
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 1
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 1
+      }
+    },
+    "Makran coast (Iran \u2192 Pakistan)": {
+      "0": {
+        "label": "Present",
+        "viability_score": 2
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 2
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 2
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 2
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 2
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 2
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 2
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 2
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 2
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 2
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 2
+      }
+    },
+    "Indian subcontinent": {
+      "0": {
+        "label": "Present",
+        "viability_score": 2
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 2
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 2
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 2
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 2
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 2
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 2
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 2
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 2
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 2
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 2
+      }
+    },
+    "SE Asia (Sunda Shelf)": {
+      "0": {
+        "label": "Present",
+        "viability_score": 2
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 2
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 2
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 3
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 3
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 3
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 3
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 3
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 3
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 2
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 2
+      }
+    },
+    "Sahul crossing (Timor \u2192 Australia/PNG)": {
+      "0": {
+        "label": "Present",
+        "viability_score": 1
+      },
+      "5000": {
+        "label": "Mid Holocene",
+        "viability_score": 1
+      },
+      "8000": {
+        "label": "Persian Gulf flooding / early agriculture",
+        "viability_score": 1
+      },
+      "12000": {
+        "label": "Younger Dryas / early Holocene",
+        "viability_score": 1
+      },
+      "20000": {
+        "label": "Last Glacial Maximum (LGM)",
+        "viability_score": 2
+      },
+      "35000": {
+        "label": "MIS 3 \u2014 warm interstadial",
+        "viability_score": 2
+      },
+      "50000": {
+        "label": "MIS 3 \u2014 early occupation",
+        "viability_score": 2
+      },
+      "65000": {
+        "label": "OIS-4 \u2014 initial southern dispersal",
+        "viability_score": 1
+      },
+      "74000": {
+        "label": "Toba eruption epoch",
+        "viability_score": 2
+      },
+      "85000": {
+        "label": "MIS 5a \u2014 warm phase",
+        "viability_score": 1
+      },
+      "125000": {
+        "label": "MIS 5e \u2014 last interglacial peak",
+        "viability_score": 1
+      }
+    }
+  },
+  "corridor_viability_by_epoch": {
+    "0": {
+      "label": "Present",
+      "mean_viability": 1.43,
+      "min_viability": 0,
+      "bottleneck_min": 0,
+      "traversable": false,
+      "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+    },
+    "5000": {
+      "label": "Mid Holocene",
+      "mean_viability": 1.43,
+      "min_viability": 0,
+      "bottleneck_min": 0,
+      "traversable": false,
+      "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+    },
+    "8000": {
+      "label": "Persian Gulf flooding / early agriculture",
+      "mean_viability": 1.86,
+      "min_viability": 1,
+      "bottleneck_min": 1,
+      "traversable": true,
+      "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+    },
+    "12000": {
+      "label": "Younger Dryas / early Holocene",
+      "mean_viability": 1.71,
+      "min_viability": 0,
+      "bottleneck_min": 0,
+      "traversable": false,
+      "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+    },
+    "20000": {
+      "label": "Last Glacial Maximum (LGM)",
+      "mean_viability": 2.14,
+      "min_viability": 1,
+      "bottleneck_min": 1,
+      "traversable": true,
+      "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+    },
+    "35000": {
+      "label": "MIS 3 \u2014 warm interstadial",
+      "mean_viability": 2.43,
+      "min_viability": 2,
+      "bottleneck_min": 2,
+      "traversable": true,
+      "bottleneck_segment": "East Africa (departure)"
+    },
+    "50000": {
+      "label": "MIS 3 \u2014 early occupation",
+      "mean_viability": 2.43,
+      "min_viability": 2,
+      "bottleneck_min": 2,
+      "traversable": true,
+      "bottleneck_segment": "East Africa (departure)"
+    },
+    "65000": {
+      "label": "OIS-4 \u2014 initial southern dispersal",
+      "mean_viability": 1.71,
+      "min_viability": 0,
+      "bottleneck_min": 0,
+      "traversable": false,
+      "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+    },
+    "74000": {
+      "label": "Toba eruption epoch",
+      "mean_viability": 2.43,
+      "min_viability": 2,
+      "bottleneck_min": 2,
+      "traversable": true,
+      "bottleneck_segment": "East Africa (departure)"
+    },
+    "85000": {
+      "label": "MIS 5a \u2014 warm phase",
+      "mean_viability": 1.86,
+      "min_viability": 1,
+      "bottleneck_min": 1,
+      "traversable": true,
+      "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+    },
+    "125000": {
+      "label": "MIS 5e \u2014 last interglacial peak",
+      "mean_viability": 1.86,
+      "min_viability": 1,
+      "bottleneck_min": 1,
+      "traversable": true,
+      "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+    }
+  },
+  "persian_gulf_dry_periods": {
+    "dry_periods": [
+      {
+        "start_bp": 12500,
+        "end_bp": 65000
+      },
+      {
+        "start_bp": 65500,
+        "end_bp": 78000
+      }
+    ],
+    "threshold_m": -60,
+    "note": "Gulf exposed as dry land when sea level below threshold"
+  },
+  "bottleneck_analysis": {
+    "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)": {
+      "viability_notes": "Requires Green Arabia; Bab el-Mandeb strait narrower at low sea level",
+      "difficult_epochs": [
+        {
+          "age_bp": 0,
+          "label": "Present",
+          "score": 0
+        },
+        {
+          "age_bp": 5000,
+          "label": "Mid Holocene",
+          "score": 0
+        },
+        {
+          "age_bp": 12000,
+          "label": "Younger Dryas / early Holocene",
+          "score": 0
+        },
+        {
+          "age_bp": 20000,
+          "label": "Last Glacial Maximum (LGM)",
+          "score": 1
+        },
+        {
+          "age_bp": 65000,
+          "label": "OIS-4 \u2014 initial southern dispersal",
+          "score": 0
+        }
+      ],
+      "n_difficult": 5,
+      "n_total": 11
+    },
+    "Persian Gulf / Strait of Hormuz": {
+      "viability_notes": "Gulf was dry land during LGM and OIS-4; passable during low sea level",
+      "difficult_epochs": [
+        {
+          "age_bp": 0,
+          "label": "Present",
+          "score": 1
+        },
+        {
+          "age_bp": 5000,
+          "label": "Mid Holocene",
+          "score": 1
+        },
+        {
+          "age_bp": 8000,
+          "label": "Persian Gulf flooding / early agriculture",
+          "score": 1
+        },
+        {
+          "age_bp": 85000,
+          "label": "MIS 5a \u2014 warm phase",
+          "score": 1
+        },
+        {
+          "age_bp": 125000,
+          "label": "MIS 5e \u2014 last interglacial peak",
+          "score": 1
+        }
+      ],
+      "n_difficult": 5,
+      "n_total": 11
+    },
+    "Sahul crossing (Timor \u2192 Australia/PNG)": {
+      "viability_notes": "Water crossings always required (~70-90 km); narrower at low sea level",
+      "difficult_epochs": [
+        {
+          "age_bp": 0,
+          "label": "Present",
+          "score": 1
+        },
+        {
+          "age_bp": 5000,
+          "label": "Mid Holocene",
+          "score": 1
+        },
+        {
+          "age_bp": 8000,
+          "label": "Persian Gulf flooding / early agriculture",
+          "score": 1
+        },
+        {
+          "age_bp": 12000,
+          "label": "Younger Dryas / early Holocene",
+          "score": 1
+        },
+        {
+          "age_bp": 65000,
+          "label": "OIS-4 \u2014 initial southern dispersal",
+          "score": 1
+        },
+        {
+          "age_bp": 85000,
+          "label": "MIS 5a \u2014 warm phase",
+          "score": 1
+        },
+        {
+          "age_bp": 125000,
+          "label": "MIS 5e \u2014 last interglacial peak",
+          "score": 1
+        }
+      ],
+      "n_difficult": 7,
+      "n_total": 11
+    }
+  },
+  "green_arabia_phases": [
+    {
+      "start_bp": 130000,
+      "end_bp": 71000,
+      "label": "MIS 5 \u2014 Full interglacial (multiple humid pulses)"
+    },
+    {
+      "start_bp": 60000,
+      "end_bp": 50000,
+      "label": "MIS 3 humid phase 1"
+    },
+    {
+      "start_bp": 44000,
+      "end_bp": 35000,
+      "label": "MIS 3 humid phase 2"
+    },
+    {
+      "start_bp": 11000,
+      "end_bp": 5500,
+      "label": "Early-Mid Holocene humid phase (Green Arabia)"
+    }
+  ]
+}

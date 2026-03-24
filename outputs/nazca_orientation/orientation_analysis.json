@@ -1,0 +1,150 @@
+{
+  "source": "Richter et al. 2021, Applied Sciences 11(4):1637",
+  "n_lines": 2308,
+  "gc_bearing_at_nazca": 63.14,
+  "gc_bearing_axial": 63.14,
+  "histogram": {
+    "bin_centers": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75,
+      85,
+      95,
+      105,
+      115,
+      125,
+      135,
+      145,
+      155,
+      165,
+      175
+    ],
+    "bin_counts": [
+      91,
+      126,
+      103,
+      100,
+      153,
+      127,
+      177,
+      116,
+      129,
+      76,
+      104,
+      86,
+      165,
+      140,
+      172,
+      177,
+      124,
+      142
+    ],
+    "bin_width": 10.0
+  },
+  "gc_bin": {
+    "bin_center": 65,
+    "count": 177,
+    "uniform_expected": 128.2,
+    "ratio_to_expected": 1.38,
+    "rank_of_18": 17
+  },
+  "chi_squared": {
+    "statistic": 133.04,
+    "df": 17,
+    "p_value": 0.0,
+    "is_uniform": false
+  },
+  "rayleigh_test": {
+    "mean_resultant_length": 0.0399,
+    "mean_direction_axial_deg": 154.89,
+    "Z_statistic": 3.67,
+    "p_value": 0.025386,
+    "significant": true
+  },
+  "v_test": {
+    "test_direction_deg": 63.14,
+    "V": -0.0398,
+    "u": -2.71,
+    "p_value": 0.996587,
+    "significant": false
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "gc_v_statistic": -0.0398,
+    "percentile_rank": 1.9,
+    "bin_density_pct_higher": 10.8
+  },
+  "peaks": [
+    {
+      "center_deg": 65,
+      "count": 177
+    },
+    {
+      "center_deg": 155,
+      "count": 177
+    },
+    {
+      "center_deg": 125,
+      "count": 165
+    },
+    {
+      "center_deg": 45,
+      "count": 153
+    },
+    {
+      "center_deg": 175,
+      "count": 142
+    },
+    {
+      "center_deg": 85,
+      "count": 129
+    },
+    {
+      "center_deg": 15,
+      "count": 126
+    },
+    {
+      "center_deg": 105,
+      "count": 104
+    }
+  ],
+  "troughs": [
+    {
+      "center_deg": 95,
+      "count": 76
+    },
+    {
+      "center_deg": 115,
+      "count": 86
+    },
+    {
+      "center_deg": 5,
+      "count": 91
+    },
+    {
+      "center_deg": 35,
+      "count": 100
+    },
+    {
+      "center_deg": 75,
+      "count": 116
+    },
+    {
+      "center_deg": 165,
+      "count": 124
+    },
+    {
+      "center_deg": 55,
+      "count": 127
+    },
+    {
+      "center_deg": 135,
+      "count": 140
+    }
+  ]
+}

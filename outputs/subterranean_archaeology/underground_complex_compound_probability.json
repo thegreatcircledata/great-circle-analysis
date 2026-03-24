@@ -1,0 +1,72 @@
+{
+  "analysis": "Compound probability of proximity to multiple underground clusters",
+  "n_monte_carlo": 10000,
+  "cappadocia_summary": {
+    "n_cities": 16,
+    "closest_km": 904.7,
+    "mean_km": 932.5,
+    "closest_city": "Gaziemir"
+  },
+  "all_clusters": [
+    {
+      "name": "Saqqara Serapeum",
+      "region": "Egypt",
+      "gc_distance_km": 6.1
+    },
+    {
+      "name": "Petra",
+      "region": "Jordan",
+      "gc_distance_km": 16.0
+    },
+    {
+      "name": "Naqsh-e Rostam",
+      "region": "Iran",
+      "gc_distance_km": 19.4
+    },
+    {
+      "name": "Beit Guvrin-Maresha",
+      "region": "Israel",
+      "gc_distance_km": 161.5
+    },
+    {
+      "name": "Barabar Caves",
+      "region": "India",
+      "gc_distance_km": 217.9
+    },
+    {
+      "name": "Valley of the Kings",
+      "region": "Egypt",
+      "gc_distance_km": 475.2
+    },
+    {
+      "name": "Ajanta Caves",
+      "region": "India",
+      "gc_distance_km": 556.3
+    },
+    {
+      "name": "Chav\u00edn de Hu\u00e1ntar",
+      "region": "Peru",
+      "gc_distance_km": 599.0
+    },
+    {
+      "name": "Ellora Caves",
+      "region": "India",
+      "gc_distance_km": 627.7
+    },
+    {
+      "name": "Cappadocia cluster (centroid)",
+      "region": "Turkey",
+      "gc_distance_km": 927.0
+    },
+    {
+      "name": "Lalibela",
+      "region": "Ethiopia",
+      "gc_distance_km": 2030.6
+    },
+    {
+      "name": "Mogao Caves",
+      "region": "China",
+      "gc_distance_km": 2110.5
+    }
+  ]
+}

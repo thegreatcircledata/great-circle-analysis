@@ -1,0 +1,40 @@
+{
+  "early_holocene_n": 124,
+  "bronze_age_n": 180,
+  "observed_mean_distance_km": 87.1,
+  "observed_median_distance_km": 80.6,
+  "monte_carlo": {
+    "n_trials": 10000,
+    "null_mean_distance_km": 4406.2,
+    "null_std_km": 3089.5,
+    "percentile": 0.0038,
+    "p_value_continuity": 0.0038
+  },
+  "interpretation": "Bronze Age sites are significantly closer to early Holocene sites than expected \u2014 evidence of CONTINUITY",
+  "cluster_breakdown": {
+    "Egypt / Levant": {
+      "bronze_age_n": 143,
+      "early_holocene_n": 108,
+      "mean_distance_km": 80.3,
+      "median_distance_km": 80.6
+    },
+    "Iran / Persia": {
+      "bronze_age_n": 1,
+      "early_holocene_n": 7,
+      "mean_distance_km": 54.0,
+      "median_distance_km": 54.0
+    },
+    "Other": {
+      "bronze_age_n": 6,
+      "early_holocene_n": 5,
+      "mean_distance_km": 1051.4,
+      "median_distance_km": 928.8
+    },
+    "Peru / Andes": {
+      "bronze_age_n": 30,
+      "early_holocene_n": 4,
+      "mean_distance_km": 51.8,
+      "median_distance_km": 56.6
+    }
+  }
+}

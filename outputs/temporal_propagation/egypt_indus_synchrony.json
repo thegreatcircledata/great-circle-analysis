@@ -1,0 +1,24 @@
+{
+  "egypt": {
+    "n_monumental": 131,
+    "earliest": -2997,
+    "latest": 300,
+    "mean": -1693,
+    "peak_century": -2647
+  },
+  "indus": {
+    "n_monumental": 2,
+    "earliest": -3000,
+    "latest": -2600,
+    "mean": -2800,
+    "peak_century": -2950
+  },
+  "observed_offset_years": 303,
+  "monte_carlo": {
+    "n_trials": 10000,
+    "p_value": 0.2193,
+    "null_mean_offset": 910,
+    "null_median_offset": 779,
+    "interpretation": "The observed offset of 303 years between Egypt and Indus peaks has p=0.2193 under a uniform-date null. This is NOT statistically significant \u2014 such overlap is expected by chance."
+  }
+}

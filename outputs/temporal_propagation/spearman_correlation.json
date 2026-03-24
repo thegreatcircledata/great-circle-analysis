@@ -1,0 +1,9 @@
+{
+  "rho_observed": -0.2114,
+  "p_value": 0.0211,
+  "n_monumental_sites": 119,
+  "n_mc_trials": 10000,
+  "null_rho_mean": 0.0015,
+  "null_rho_std": 0.0925,
+  "interpretation": "Marginal evidence of propagation (rho=-0.211, p=0.0211)"
+}

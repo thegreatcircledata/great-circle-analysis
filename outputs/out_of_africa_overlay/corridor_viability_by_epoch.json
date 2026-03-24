@@ -1,0 +1,90 @@
+{
+  "0": {
+    "label": "Present",
+    "mean_viability": 1.43,
+    "min_viability": 0,
+    "bottleneck_min": 0,
+    "traversable": false,
+    "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+  },
+  "5000": {
+    "label": "Mid Holocene",
+    "mean_viability": 1.43,
+    "min_viability": 0,
+    "bottleneck_min": 0,
+    "traversable": false,
+    "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+  },
+  "8000": {
+    "label": "Persian Gulf flooding / early agriculture",
+    "mean_viability": 1.86,
+    "min_viability": 1,
+    "bottleneck_min": 1,
+    "traversable": true,
+    "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+  },
+  "12000": {
+    "label": "Younger Dryas / early Holocene",
+    "mean_viability": 1.71,
+    "min_viability": 0,
+    "bottleneck_min": 0,
+    "traversable": false,
+    "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+  },
+  "20000": {
+    "label": "Last Glacial Maximum (LGM)",
+    "mean_viability": 2.14,
+    "min_viability": 1,
+    "bottleneck_min": 1,
+    "traversable": true,
+    "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+  },
+  "35000": {
+    "label": "MIS 3 \u2014 warm interstadial",
+    "mean_viability": 2.43,
+    "min_viability": 2,
+    "bottleneck_min": 2,
+    "traversable": true,
+    "bottleneck_segment": "East Africa (departure)"
+  },
+  "50000": {
+    "label": "MIS 3 \u2014 early occupation",
+    "mean_viability": 2.43,
+    "min_viability": 2,
+    "bottleneck_min": 2,
+    "traversable": true,
+    "bottleneck_segment": "East Africa (departure)"
+  },
+  "65000": {
+    "label": "OIS-4 \u2014 initial southern dispersal",
+    "mean_viability": 1.71,
+    "min_viability": 0,
+    "bottleneck_min": 0,
+    "traversable": false,
+    "bottleneck_segment": "Arabian crossing (Bab el-Mandeb \u2192 Dhofar)"
+  },
+  "74000": {
+    "label": "Toba eruption epoch",
+    "mean_viability": 2.43,
+    "min_viability": 2,
+    "bottleneck_min": 2,
+    "traversable": true,
+    "bottleneck_segment": "East Africa (departure)"
+  },
+  "85000": {
+    "label": "MIS 5a \u2014 warm phase",
+    "mean_viability": 1.86,
+    "min_viability": 1,
+    "bottleneck_min": 1,
+    "traversable": true,
+    "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+  },
+  "125000": {
+    "label": "MIS 5e \u2014 last interglacial peak",
+    "mean_viability": 1.86,
+    "min_viability": 1,
+    "bottleneck_min": 1,
+    "traversable": true,
+    "bottleneck_segment": "Persian Gulf / Strait of Hormuz"
+  }
+}

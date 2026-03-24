@@ -1,0 +1,141 @@
+{
+  "intersection_point": {
+    "lat": 29.921289,
+    "lon": 31.148711
+  },
+  "new_discoveries": [
+    {
+      "name": "Buried wall complex A",
+      "lat": 29.872,
+      "lon": 31.214,
+      "depth_m": 8,
+      "type": "wall",
+      "dist_to_gc_km": 6.02,
+      "dist_to_intersection_km": 8.346,
+      "dist_to_branch_km": 1.898
+    },
+    {
+      "name": "Road network section",
+      "lat": 29.8695,
+      "lon": 31.213,
+      "depth_m": 6,
+      "type": "road",
+      "dist_to_gc_km": 6.289,
+      "dist_to_intersection_km": 8.46,
+      "dist_to_branch_km": 1.639
+    },
+    {
+      "name": "Buried structure B",
+      "lat": 29.871,
+      "lon": 31.2155,
+      "depth_m": 8,
+      "type": "structure",
+      "dist_to_gc_km": 6.144,
+      "dist_to_intersection_km": 8.528,
+      "dist_to_branch_km": 1.931
+    },
+    {
+      "name": "Deep anomaly C",
+      "lat": 29.87,
+      "lon": 31.212,
+      "depth_m": 10,
+      "type": "anomaly",
+      "dist_to_gc_km": 6.225,
+      "dist_to_intersection_km": 8.351,
+      "dist_to_branch_km": 1.605
+    },
+    {
+      "name": "Road junction",
+      "lat": 29.869,
+      "lon": 31.2145,
+      "depth_m": 5,
+      "type": "road",
+      "dist_to_gc_km": 6.357,
+      "dist_to_intersection_km": 8.604,
+      "dist_to_branch_km": 1.719
+    }
+  ],
+  "known_saqqara_pyramids": [
+    {
+      "name": "Step Pyramid (Djoser)",
+      "lat": 29.8713,
+      "lon": 31.2163,
+      "dist_to_gc_km": 6.118,
+      "dist_to_intersection_km": 8.564,
+      "dist_to_branch_km": 2.012
+    },
+    {
+      "name": "Userkaf",
+      "lat": 29.8736,
+      "lon": 31.2186,
+      "dist_to_gc_km": 5.883,
+      "dist_to_intersection_km": 8.574,
+      "dist_to_branch_km": 2.346
+    },
+    {
+      "name": "Teti",
+      "lat": 29.8764,
+      "lon": 31.22,
+      "dist_to_gc_km": 5.584,
+      "dist_to_intersection_km": 8.493,
+      "dist_to_branch_km": 2.654
+    },
+    {
+      "name": "Unas",
+      "lat": 29.8681,
+      "lon": 31.2156,
+      "dist_to_gc_km": 6.466,
+      "dist_to_intersection_km": 8.75,
+      "dist_to_branch_km": 1.753
+    },
+    {
+      "name": "Sekhemkhet",
+      "lat": 29.8686,
+      "lon": 31.2119,
+      "dist_to_gc_km": 6.379,
+      "dist_to_intersection_km": 8.452,
+      "dist_to_branch_km": 1.494
+    },
+    {
+      "name": "Pepi I",
+      "lat": 29.8539,
+      "lon": 31.2175,
+      "dist_to_gc_km": 8.055,
+      "dist_to_intersection_km": 10.006,
+      "dist_to_branch_km": 1.706
+    },
+    {
+      "name": "Merenre I",
+      "lat": 29.8506,
+      "lon": 31.2178,
+      "dist_to_gc_km": 8.423,
+      "dist_to_intersection_km": 10.303,
+      "dist_to_branch_km": 1.398
+    },
+    {
+      "name": "Pepi II",
+      "lat": 29.8472,
+      "lon": 31.2167,
+      "dist_to_gc_km": 8.79,
+      "dist_to_intersection_km": 10.528,
+      "dist_to_branch_km": 1.029
+    },
+    {
+      "name": "Ibi",
+      "lat": 29.8481,
+      "lon": 31.2183,
+      "dist_to_gc_km": 8.704,
+      "dist_to_intersection_km": 10.547,
+      "dist_to_branch_km": 1.205
+    }
+  ],
+  "comparison": {
+    "mean_dist_to_gc_new": 6.207,
+    "mean_dist_to_gc_known": 7.156,
+    "new_closer_to_gc": true,
+    "mean_dist_to_intersection_new": 8.458,
+    "mean_dist_to_intersection_known": 9.357,
+    "new_closer_to_intersection": true
+  },
+  "caveat": "El-khteeb features are all at one location (Saqqara), making this a weak single-site test."
+}

@@ -1,0 +1,31 @@
+{
+  "observed": {
+    "mean_dist_km": 208.18,
+    "median_dist_km": 130.18,
+    "within_50km": 4,
+    "within_100km": 13,
+    "n_nomes": 42
+  },
+  "upper_egypt": {
+    "n_nomes": 22,
+    "mean_dist_km": 317.72
+  },
+  "lower_egypt": {
+    "n_nomes": 20,
+    "mean_dist_km": 87.69
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "baseline_mean_dist": 219.3,
+    "baseline_std_dist": 103.44,
+    "observed_mean_dist": 208.18,
+    "percentile_rank": 45.72,
+    "p_value_mean_dist": 0.5428,
+    "baseline_mean_within_50": 6.31,
+    "observed_within_50": 4,
+    "p_value_within_50": 0.6203,
+    "baseline_mean_within_100": 12.3,
+    "observed_within_100": 13,
+    "p_value_within_100": 0.3865
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "analysis": "Temporal progression test (complexity vs age)",
+  "on_corridor_spearman": {
+    "n": 25,
+    "rho": 0.168,
+    "p_value": 0.4234
+  },
+  "off_corridor_spearman": {
+    "n": 249,
+    "rho": -0.29,
+    "p_value": 0.0
+  },
+  "geographic_distribution": {
+    "Egypt / Levant": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Easter Island": [
+      1,
+      2
+    ],
+    "Iran / Persia": [
+      1,
+      5
+    ],
+    "Southeast Asia": [
+      1
+    ],
+    "Peru / Andes": [
+      1
+    ],
+    "Other": [
+      1
+    ],
+    "Indus Valley": [
+      5
+    ]
+  }
+}

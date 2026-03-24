@@ -1,0 +1,36 @@
+{
+  "analysis": "Easter Island ahu distribution vs Great Circle",
+  "island_center": {
+    "lat": -27.1127,
+    "lon": -109.3497
+  },
+  "distance_to_circle_km": 9.9,
+  "gc_bearing": {
+    "bearing_1": 75.7,
+    "bearing_2": 255.7
+  },
+  "n_ahu": 18,
+  "rayleigh_test": {
+    "R_bar": 0.4233,
+    "mean_direction_axial": 49.0,
+    "Z": 3.23,
+    "p_value": 0.037555,
+    "significant": true
+  },
+  "v_test": {
+    "test_direction": 75.7,
+    "V": 0.2524,
+    "u": 1.51,
+    "p_value": 0.064965,
+    "significant": false
+  },
+  "monte_carlo": {
+    "n_trials": 10000,
+    "actual_mean_offset_deg": 36.27,
+    "mc_mean_offset_deg": 44.81,
+    "mc_std_offset_deg": 10.88,
+    "p_value": 0.3068,
+    "significant": false
+  },
+  "gc_sector_enrichment": 2.0
+}

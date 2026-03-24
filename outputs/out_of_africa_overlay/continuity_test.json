@@ -1,0 +1,12 @@
+{
+  "total_epochs": 6,
+  "occupied_epochs": 5,
+  "occupied_epoch_names": [
+    ">50,000 BP",
+    "50,000\u201325,000 BP",
+    "12,000\u20138,000 BP",
+    "8,000\u20135,000 BP",
+    "5,000\u20132,000 BP"
+  ],
+  "continuity_score": 0.833
+}

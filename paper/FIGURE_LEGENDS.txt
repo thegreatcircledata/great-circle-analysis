@@ -1,0 +1,29 @@
+FIGURE LEGENDS
+(To be appended at END of manuscript, after References)
+
+Figure 1. Temporal layering of corridor activity
+Five of six tested epochs from 130,000 BP to present show enrichment of sites along the Great Circle, with the single gap at Last Glacial Maximum (26,000-14,000 BP) consistent with paleoclimate models of Arabian hyperaridity. Z-scores and p-values indicate significance level for each epoch.
+
+Figure 2. Out-of-Africa Southern Dispersal Route fit
+The Great Circle (defined by pole at 59.682122°N, 138.646087°W) overlaid on the consensus southern dispersal route from East Africa through Arabian Peninsula to South Asia and Southeast Asia, showing mean distance to route waypoints at 96th percentile of latitude-matched random great circles (p = 0.042).
+
+Figure 3. Deep-time site enrichment
+Geographic distribution of 40 archaeological sites dated >40,000 BP along the proposed southern dispersal route. Sixteen sites (40%) fall within 500 km of the Great Circle (Z = 4.42, p = 0.001), including Mololo Cave (12 km) and Kebar Valley (16 km).
+
+Figure 4. Agricultural domestication centers
+Twenty-four independent centers of plant and animal domestication (Larson et al. 2014) with nine falling within 500 km of the Great Circle, spanning three continents (zebu cattle, taro, llama/alpaca, potato, wheat/barley). Circle passes closer to these centers than 99.8% of random great circles (p = 0.002).
+
+Figure 5. Least-cost path analysis (early Holocene)
+Optimal overland routes between Levant, Persepolis, and Mohenjo-daro during the early Holocene (~10,000 BP) computed using SRTM elevation, sea-level adjustment (-40 m), and Green Arabia aridity masks. The Great Circle approximates the southern arc route better than 99.2% of random great circles (p = 0.008).
+
+Figure 6. Memphis complex: Ahramat Branch intersection
+The Great Circle crosses the Ahramat Branch (reconstructed Nile tributary) near-perpendicularly at the Memphis necropolis. Fifteen pyramids fall within 10 km of intersection point (29.921°N, 31.149°E); intersection angle varies by scale: 54-70-81-86 degrees (local to full branch). Compound probability 0.00016.
+
+Figure 7. Directional Ripley's K-function (Egyptian pyramids)
+All ~138 Egyptian pyramids decomposed into parallel and perpendicular coordinates relative to the Great Circle's local bearing. Extreme directional clustering along circle-parallel axis (ratio 0.08, p < 0.0001) indicates pyramids arranged in linear strip rather than merely clustered near circle.
+
+Figure 8. Temporal decomposition of monument-settlement divergence
+Monument-settlement divergence (Z_monument - Z_settlement) computed at 250-year resolution from 3500 BCE to 500 CE. Sharp spike at 2750-2500 BCE driven by 31 Egyptian Old Kingdom pyramids in Memphis necropolis. Predynastic periods show zero on-corridor enrichment before Naqada II (3500 BCE).
+
+Figure 9. Hypothesis elimination matrix
+Summary table of fifteen alternative hypotheses (astronomical, geomagnetic, gravitational, mythological, navigational, and cultural-transmission mechanisms) tested against random circle baselines. All return null results, ruling out physical Earth properties and known cultural transmission vectors as explanations for monument clustering.

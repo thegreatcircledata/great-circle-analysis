@@ -1,0 +1,23 @@
+lat,lon,label,distance_to_gc_km
+-3.4,37.8,East Africa — Rift Valley (departure),3741.84
+7.0,39.5,Horn of Africa — Ethiopian Rift,2591.01
+15.6,32.5,Sudan — Nile Valley,1598.42
+25.0,32.8,Egypt — Upper Nile,558.77
+30.0,31.2,Egypt — Nile Delta,8.28
+31.5,34.5,Levant — Negev / Sinai,151.05
+33.0,35.5,Levant — Lebanon coast,312.32
+36.0,36.0,Syria — Orontes Valley,643.23
+37.5,38.0,SE Anatolia — Gobekli Tepe region,803.02
+39.0,43.0,Eastern Anatolia / Lake Van,966.45
+41.5,44.5,Caucasus — Georgia,1247.1
+40.0,52.0,Turkmenistan — Caspian coast,1119.65
+39.0,63.0,Uzbekistan — Amu Darya,1144.11
+38.0,68.0,Tajikistan,1126.68
+37.0,72.0,Afghanistan — Hindu Kush,1105.61
+35.0,75.0,Kashmir / northern Pakistan,965.07
+35.0,82.0,Tibet — northern plateau edge,1162.05
+38.0,90.0,Tarim Basin,1732.81
+40.0,100.0,Gansu Corridor — China,2303.07
+38.0,110.0,North China — Yellow River,2529.04
+35.0,120.0,East China coast,2717.51
+25.0,120.0,South China — Taiwan Strait,1773.25

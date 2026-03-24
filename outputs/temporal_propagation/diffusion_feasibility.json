@@ -1,0 +1,22 @@
+{
+  "direct_distance_km": 3597,
+  "estimated_circle_route_km": 5396,
+  "estimated_realistic_route_km": 7195,
+  "observed_delay_years": 303,
+  "neolithic_rate_1km_yr": {
+    "expected_delay_direct": 3597,
+    "expected_delay_realistic": 7195,
+    "feasible": false
+  },
+  "bronze_age_rate_5km_yr": {
+    "expected_delay_direct": 719,
+    "expected_delay_realistic": 1439,
+    "feasible": false
+  },
+  "maritime_rate_10km_yr": {
+    "expected_delay_direct": 360,
+    "expected_delay_realistic": 719,
+    "feasible": true
+  },
+  "note": "Arabian desert between Egypt and Indus makes direct overland diffusion unlikely. Coastal or Mesopotamian relay routes more plausible."
+}

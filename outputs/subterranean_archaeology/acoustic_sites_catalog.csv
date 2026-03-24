@@ -1,0 +1,18 @@
+name,lat,lon,resonance_hz,type,gc_distance_km,reference,notes
+Saqqara Serapeum,29.871,31.215,,underground gallery,6.1,No published acoustic data,"Granite sarcophagi and tunnel geometry suggest acoustic potential, no study"
+Great Pyramid King's Chamber,29.979,31.134,121,pyramid chamber,6.5,Reid 2007 (cymatics); Dunn 1998 (contested),"121 Hz fundamental reported, granite chamber acoustics. Note: some measurements contested"
+Chavín de Huántar (galleries),-9.593,-77.177,100,underground gallery,599.0,Cook et al. 2008; Abel et al. 2008,"Standing waves at ~100 Hz in underground galleries, pututu shell horns"
+"Diros Caves (Greece, Mani)",36.639,22.385,,natural cave,844.1,Informal measurement only,Noted acoustic properties but no published measurements
+Ħal Saflieni Hypogeum (Oracle Chamber),35.869,14.507,110,underground temple,900.2,Debertolis & Bisconti 2013; Jahn et al. 1996,"110 Hz resonance in the Oracle Chamber, male voice range"
+Derinkuyu underground city,38.374,34.735,,underground city,912.8,No published acoustic data,"Ventilation shafts may have acoustic properties, no formal study"
+Niaux cave (France),42.83,1.583,,painted cave,1956.6,Reznikoff 2006,Paintings concentrate at acoustic hot spots
+Le Portel cave (France),43.018,1.606,,painted cave,1975.7,Reznikoff & Dauvois 1988,Acoustic mapping of painted vs unpainted chambers
+Font-de-Gaume (France),44.935,1.007,,painted cave,2192.3,Reznikoff 2006,Acoustic-painting correlation documented
+Arcy-sur-Cure caves (France),47.592,3.768,,painted cave,2398.3,Reznikoff & Dauvois 1988; Reznikoff 2006,Correlation between cave painting locations and acoustic resonance points
+Le Menec (Carnac) dolmen,47.591,-3.081,110,dolmen,2582.1,Devereux 2001,Brittany megalithic site acoustic survey
+Stonehenge (interior),51.179,-1.826,,stone circle,2915.4,Till 2010; Fazenda et al. 2013,Acoustic modeling suggests interior sound amplification. Not subterranean
+Wayland's Smithy chambered tomb,51.568,-1.596,112,chambered tomb,2949.2,Jahn et al. 1996,PEAR lab measurement series
+Newgrange passage tomb,53.695,-6.475,110,passage tomb,3299.2,Jahn et al. 1996 (Princeton PEAR lab),"Sound amplification in the chamber, 110 Hz standing wave"
+"Cairn L, Loughcrew",53.741,-7.117,110,passage tomb,3322.1,Jahn et al. 1996; Devereux 2001,Part of systematic UK/Ireland megalithic acoustic survey
+Maeshowe chambered cairn,58.997,-3.188,107,chambered cairn,3745.4,Watson & Keating 1999,"Orkney passage grave, acoustic measurements"
+Chichén Itzá (El Castillo chirp),20.683,-88.569,,pyramid (exterior),4163.5,Declercq et al. 2004,Staircase produces chirped echo mimicking quetzal bird call. Not underground but documented acoustic design
