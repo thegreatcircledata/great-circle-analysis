@@ -1,0 +1,67 @@
+{
+  "analysis": "kppm Thomas Cluster Process (spatstat)",
+  "method": "mincon on pair correlation function",
+  "window": {
+    "lat_range": [20, 55],
+    "lon_range": [-12, 80]
+  },
+  "covariates": ["abs_lat", "lon_proxy", "gc_dist"],
+  "note": "lon_proxy used instead of coast_dist (coastline shapefile not loaded in R)",
+  "monuments": {
+    "coefficients": {
+      "(Intercept)": -18.4744,
+      "im_ablat": 0.4317,
+      "im_lon": -0.0685,
+      "im_gc_dist": -0.0042
+    },
+    "std_errors": {
+      "(Intercept)": 8.4969,
+      "im_ablat": 0.3501,
+      "im_lon": 0.0486,
+      "im_gc_dist": 0.0034
+    },
+    "gc_dist_beta": -0.0042,
+    "gc_dist_se": 0.0034,
+    "gc_dist_z": -1.2301,
+    "gc_dist_p": 0.2187,
+    "gc_dist_significant": false,
+    "cluster_params": {
+      "kappa": 1.1435e-07,
+      "scale": 137.9732
+    }
+  },
+  "settlements": {
+    "coefficients": {
+      "(Intercept)": -16.6055,
+      "im_ablat": 0.408,
+      "im_lon": -0.0676,
+      "im_gc_dist": -0.0039
+    },
+    "std_errors": {
+      "(Intercept)": 9.9925,
+      "im_ablat": 0.4112,
+      "im_lon": 0.0573,
+      "im_gc_dist": 0.004
+    },
+    "gc_dist_beta": -0.0039,
+    "gc_dist_se": 0.004,
+    "gc_dist_z": -0.983,
+    "gc_dist_p": 0.3256,
+    "gc_dist_significant": false,
+    "cluster_params": {
+      "kappa": 7.189e-08,
+      "scale": 195.8999
+    }
+  },
+  "divergence": {
+    "mon_beta_gc": -0.0042,
+    "set_beta_gc": -0.0039,
+    "difference": -0.0003,
+    "se_diff": 0.0053,
+    "z_test": -0.0519,
+    "p_value": 0.9586,
+    "significant": false,
+    "cis_overlap": true
+  },
+  "conclusion": "Divergence does NOT persist under kppm Thomas cluster process"
+}

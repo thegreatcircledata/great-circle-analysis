@@ -1,0 +1,334 @@
+{
+  "analysis": "Cross-Paper Multiple Testing Correction",
+  "method": "Benjamini-Hochberg FDR",
+  "q": 0.05,
+  "n_tests": 35,
+  "n_survive": 26,
+  "n_rejected": 9,
+  "k_star": 26,
+  "tests": [
+    {
+      "paper": 3,
+      "test": "PPM LRT: settlements + GC dist",
+      "p": 0.0,
+      "desc": "GC distance also improves settlement model (weaker)",
+      "bh_rank": 1,
+      "bh_threshold": 0.0014285714285714286,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "PPM LRT: monuments + GC dist",
+      "p": 5.91e-260,
+      "desc": "GC distance improves monument model",
+      "bh_rank": 2,
+      "bh_threshold": 0.002857142857142857,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "PPM \u03b2_gc CI non-overlap",
+      "p": 2.16e-13,
+      "desc": "Monument \u03b2_gc \u2260 settlement \u03b2_gc",
+      "bh_rank": 3,
+      "bh_threshold": 0.004285714285714286,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "PPM \u03b2_gc z-test",
+      "p": 2.16e-13,
+      "desc": "Formal test of \u03b2_gc divergence",
+      "bh_rank": 4,
+      "bh_threshold": 0.005714285714285714,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "PPM 0.5\u00b0 grid \u03b2_gc divergence",
+      "p": 1e-10,
+      "desc": "\u03b2_gc divergence at finer resolution",
+      "bh_rank": 5,
+      "bh_threshold": 0.007142857142857143,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "MC enrichment (Megalithic Portal, 50km)",
+      "p": 0.001,
+      "desc": "Monument enrichment in 50km corridor",
+      "bh_rank": 6,
+      "bh_threshold": 0.008571428571428572,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "MC enrichment (Pleiades monuments, 50km)",
+      "p": 0.001,
+      "desc": "Pleiades monument enrichment in 50km corridor",
+      "bh_rank": 7,
+      "bh_threshold": 0.01,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "KS test monuments vs settlements",
+      "p": 0.001,
+      "desc": "Distance distribution difference",
+      "bh_rank": 8,
+      "bh_threshold": 0.011428571428571429,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 3000-2500 BCE D",
+      "p": 0.001,
+      "desc": "Peak divergence period (Old Kingdom)",
+      "bh_rank": 9,
+      "bh_threshold": 0.012857142857142857,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Regional: Egypt contribution",
+      "p": 0.001,
+      "desc": "Egypt drives 3000-2500 BCE peak",
+      "bh_rank": 10,
+      "bh_threshold": 0.014285714285714285,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "Memphis pre-4.2ka vs post-4.2ka distance",
+      "p": 0.001,
+      "desc": "Pyramid drift after climate event",
+      "bh_rank": 11,
+      "bh_threshold": 0.015714285714285715,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "Classification reassignment stability",
+      "p": 0.001,
+      "desc": "D robust to borderline reclassification",
+      "bh_rank": 12,
+      "bh_threshold": 0.017142857142857144,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "p3k14c replication of Paper 1",
+      "p": 0.001,
+      "desc": "Independent dataset confirms enrichment",
+      "bh_rank": 13,
+      "bh_threshold": 0.018571428571428572,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Per-circle baseline test",
+      "p": 0.001,
+      "desc": "79/79 Nazca circles within 50km",
+      "bh_rank": 14,
+      "bh_threshold": 0.02,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "Nazca proximity",
+      "p": 0.0017,
+      "desc": "Nazca pampa within 10km of GC",
+      "bh_rank": 15,
+      "bh_threshold": 0.02142857142857143,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "Nazca study area MC enrichment",
+      "p": 0.0017,
+      "desc": "Nazca pampa proximity to GC",
+      "bh_rank": 16,
+      "bh_threshold": 0.022857142857142857,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Overall temporal trend",
+      "p": 0.003,
+      "desc": "Monotonic decline in D over time",
+      "bh_rank": 17,
+      "bh_threshold": 0.02428571428571429,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "Giza proximity",
+      "p": 0.005,
+      "desc": "Giza pyramids within 7km of GC",
+      "bh_rank": 18,
+      "bh_threshold": 0.025714285714285714,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "GC vs latitude band divergence",
+      "p": 0.005,
+      "desc": "GC outperforms latitude-only model",
+      "bh_rank": 19,
+      "bh_threshold": 0.027142857142857146,
+      "survives_bh": true
+    },
+    {
+      "paper": 1,
+      "test": "Bandwidth sensitivity (25-100km)",
+      "p": 0.005,
+      "desc": "Result holds across bandwidths",
+      "bh_rank": 20,
+      "bh_threshold": 0.02857142857142857,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 2500-2000 BCE D",
+      "p": 0.01,
+      "desc": "Middle Bronze Age divergence",
+      "bh_rank": 21,
+      "bh_threshold": 0.030000000000000002,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "Corridor width plateau detection",
+      "p": 0.01,
+      "desc": "Enrichment plateau at 30-60km",
+      "bh_rank": 22,
+      "bh_threshold": 0.03142857142857143,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "Alison pole percentile rank",
+      "p": 0.01,
+      "desc": "Alison's D rank among 64,800 poles",
+      "bh_rank": 23,
+      "bh_threshold": 0.03285714285714286,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 500 BCE-0 CE D",
+      "p": 0.02,
+      "desc": "Secondary peak (Classical/Persian)",
+      "bh_rank": 24,
+      "bh_threshold": 0.03428571428571429,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Regional: Greece contribution",
+      "p": 0.03,
+      "desc": "Greece/Aegean contribution",
+      "bh_rank": 25,
+      "bh_threshold": 0.03571428571428571,
+      "survives_bh": true
+    },
+    {
+      "paper": 3,
+      "test": "500BCE-0CE convergence test",
+      "p": 0.03,
+      "desc": "D stabilizes at ~0.60 (revised from 5.98)",
+      "bh_rank": 26,
+      "bh_threshold": 0.037142857142857144,
+      "survives_bh": true
+    },
+    {
+      "paper": 2,
+      "test": "Regional: Levant contribution",
+      "p": 0.04,
+      "desc": "Levant contribution to divergence",
+      "bh_rank": 27,
+      "bh_threshold": 0.038571428571428576,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 2000-1500 BCE D",
+      "p": 0.05,
+      "desc": "Late Bronze Age divergence",
+      "bh_rank": 28,
+      "bh_threshold": 0.04,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Regional: South Asia contribution",
+      "p": 0.06,
+      "desc": "South Asia (limited data)",
+      "bh_rank": 29,
+      "bh_threshold": 0.04142857142857143,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 1500-1000 BCE D",
+      "p": 0.08,
+      "desc": "Iron Age transition",
+      "bh_rank": 30,
+      "bh_threshold": 0.04285714285714286,
+      "survives_bh": false
+    },
+    {
+      "paper": 1,
+      "test": "Hemisphere balance check",
+      "p": 0.1,
+      "desc": "New vs Old World contribution",
+      "bh_rank": 31,
+      "bh_threshold": 0.04428571428571429,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 1000-500 BCE D",
+      "p": 0.12,
+      "desc": "Early Iron Age",
+      "bh_rank": 32,
+      "bh_threshold": 0.045714285714285714,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 0-500 CE D",
+      "p": 0.15,
+      "desc": "Roman Imperial",
+      "bh_rank": 33,
+      "bh_threshold": 0.047142857142857146,
+      "survives_bh": false
+    },
+    {
+      "paper": 2,
+      "test": "Temporal: 500-1000 CE D",
+      "p": 0.35,
+      "desc": "Early Medieval",
+      "bh_rank": 34,
+      "bh_threshold": 0.04857142857142858,
+      "survives_bh": false
+    },
+    {
+      "paper": 1,
+      "test": "MC enrichment (Pleiades settlements, 50km)",
+      "p": 0.42,
+      "desc": "Settlement enrichment (null expected)",
+      "bh_rank": 35,
+      "bh_threshold": 0.05,
+      "survives_bh": false
+    }
+  ],
+  "summary": {
+    "paper1_tests": 8,
+    "paper1_survive": 6,
+    "paper2_tests": 15,
+    "paper2_survive": 8,
+    "paper3_tests": 12,
+    "paper3_survive": 12
+  }
+}

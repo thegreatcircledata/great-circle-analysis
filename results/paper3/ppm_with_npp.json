@@ -1,0 +1,24 @@
+{
+  "analysis": "PPM with Agricultural Productivity Proxy (GLiM fertile lithology)",
+  "covariate_added": "Fertile lithology fraction (carbonate + mixed sedimentary from GLiM)",
+  "monuments": {
+    "base_AIC": 92837.0,
+    "gc_AIC": 92473.5,
+    "fert_AIC": 92836.7,
+    "full_AIC": 92463.5,
+    "LRT_gc_given_fert": {"chi2": 375.2, "p": 1.37e-83},
+    "beta_gc_full": -0.6552,
+    "gc_significant_after_fert": true
+  },
+  "settlements": {
+    "base_AIC": 319013.6,
+    "gc_AIC": 317251.8,
+    "fert_AIC": 319012.1,
+    "full_AIC": 317214.3,
+    "LRT_gc_given_fert": {"chi2": 1799.8, "p": 0.0},
+    "beta_gc_full": -0.7254,
+    "gc_significant_after_fert": true
+  },
+  "divergence": 0.0702,
+  "conclusion": "GC distance remains highly significant for both monuments (p=1.37e-83) and settlements (p≈0) after controlling for fertile lithology. Agricultural productivity does not explain the GC distance effect."
+}

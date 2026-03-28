@@ -1,0 +1,39 @@
+{
+  "analysis": "Solar/Agricultural Geometry Test",
+  "model": "Latitude-based growing season approximation (no external data required)",
+  "note": "Growing season estimated from latitude; real WorldClim data would give more precise results",
+  "alison": {
+    "mean_growing_season": 11.627777777777778,
+    "mean_seasonality": 0.3175590960342767,
+    "mean_ag_optimality": 3.6340811409797356,
+    "max_ag_optimality": 5.558277633333335,
+    "sweet_spot_fraction": 0.5277777777777778,
+    "mean_abs_lat": 18.988847395371415,
+    "std_abs_lat": 9.373773071695243
+  },
+  "mc": {
+    "n_trials": 1000,
+    "growing_season": {
+      "alison": 11.6,
+      "mc_mean": 9.2,
+      "mc_std": 1.8,
+      "p_value": 0.143,
+      "significant": false
+    },
+    "ag_optimality": {
+      "alison": 3.63,
+      "mc_mean": 3.71,
+      "mc_std": 0.74,
+      "p_value": 0.567,
+      "significant": false
+    },
+    "sweet_spot_fraction": {
+      "alison": 0.528,
+      "mc_mean": 0.302,
+      "mc_std": 0.144,
+      "p_value": 0.104,
+      "significant": false
+    }
+  },
+  "conclusion": "NOT SIGNIFICANT: Alison circle has typical agricultural geometry (optimality p=0.5670, sweet spot p=0.1040)"
+}

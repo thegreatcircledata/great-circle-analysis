@@ -1,0 +1,42 @@
+{
+  "analysis": "PPM Residual Spatial Autocorrelation",
+  "morans_i": {
+    "monuments": {
+      "I": 0.10298210463051893,
+      "Z": 2.9731999939513476,
+      "p_value": 0.002947123536473306,
+      "significant": true
+    },
+    "settlements": {
+      "I": 0.13197689360848544,
+      "Z": 3.800441191747808,
+      "p_value": 0.00014443869453351077,
+      "significant": true
+    }
+  },
+  "thomas_process": {
+    "monuments": {
+      "label": "Monuments (Thomas)",
+      "mean_nn_dist_km": 15.186581341381137,
+      "cluster_scale_km": 7.5932906706905685,
+      "cluster_size": 165.3558546999708,
+      "observed_frac_in_corridor": 0.020554984583761562,
+      "thomas_mean_frac": 0.07173156133201009,
+      "thomas_p_value": 0.888,
+      "enrichment_persists": false,
+      "n_simulations": 500
+    },
+    "settlements": {
+      "label": "Settlements (Thomas)",
+      "mean_nn_dist_km": 8.960047329278224,
+      "cluster_scale_km": 4.480023664639112,
+      "cluster_size": 283.39495339802124,
+      "observed_frac_in_corridor": 0.0064591569686508156,
+      "thomas_mean_frac": 0.06491399581783887,
+      "thomas_p_value": 0.986,
+      "enrichment_persists": false,
+      "n_simulations": 500
+    }
+  },
+  "conclusion": "Monument enrichment does NOT persist under Thomas cluster null"
+}

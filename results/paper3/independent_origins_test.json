@@ -1,0 +1,174 @@
+{
+  "analysis": "Independent Origins Test",
+  "civilizations": {
+    "Mesopotamia": {
+      "lat": 31.33,
+      "lon": 45.64,
+      "center": "Ur/Uruk",
+      "date": "3500 BCE"
+    },
+    "Egypt": {
+      "lat": 29.87,
+      "lon": 31.22,
+      "center": "Memphis/Saqqara",
+      "date": "3100 BCE"
+    },
+    "Indus": {
+      "lat": 27.32,
+      "lon": 68.14,
+      "center": "Mohenjo-daro",
+      "date": "2600 BCE"
+    },
+    "China": {
+      "lat": 34.27,
+      "lon": 108.94,
+      "center": "Erlitou/Xian",
+      "date": "1900 BCE"
+    },
+    "Mesoamerica": {
+      "lat": 19.69,
+      "lon": -98.84,
+      "center": "Teotihuacan",
+      "date": "200 BCE"
+    },
+    "Andes": {
+      "lat": -13.16,
+      "lon": -72.55,
+      "center": "Cusco/Caral",
+      "date": "3000 BCE"
+    },
+    "West_Africa": {
+      "lat": 11.5,
+      "lon": -4.0,
+      "center": "Jenne-jeno",
+      "date": "250 BCE"
+    }
+  },
+  "alison_distances_km": {
+    "Mesopotamia": 120.22694628043428,
+    "Egypt": 6.293262814671834,
+    "Indus": 26.59151924055368,
+    "China": 2122.5050859480925,
+    "Mesoamerica": 4558.240550302828,
+    "Andes": 16.8170775344679,
+    "West_Africa": 1123.998388066966
+  },
+  "alison_within_200km": 4,
+  "alison_within_500km": 4,
+  "origin_threshold_km": 200,
+  "corridor_km": 50.0,
+  "circles_through_4plus_origins": 4,
+  "alison": {
+    "D": 3.1823014494808093,
+    "rank_among_origin_circles": 1,
+    "total_origin_circles": 4
+  },
+  "random_baseline": {
+    "n_trials": 5000,
+    "mean_D": Infinity,
+    "median_D": 1.3521654660921358,
+    "alison_percentile": 58.9
+  },
+  "top_circles": [
+    {
+      "defined_by": "Egypt \u2014 Indus",
+      "pole_lat": 59.79079428060087,
+      "pole_lon": -139.3307496775505,
+      "n_origins_within": 4,
+      "origins": [
+        "Mesopotamia",
+        "Egypt",
+        "Indus",
+        "Andes"
+      ],
+      "distances": {
+        "Mesopotamia": 134.92698229975758,
+        "Egypt": 1.8189894035458565e-12,
+        "Indus": 1.8189894035458565e-12,
+        "China": 2160.6962743481126,
+        "Mesoamerica": 4520.2466967508635,
+        "Andes": 22.87767800331858,
+        "West_Africa": 1142.4359164015714
+      },
+      "mean_dist": 39.45116507576995,
+      "D": 2.9852754814781712,
+      "mon_in_50km": 93,
+      "set_in_50km": 115
+    },
+    {
+      "defined_by": "Indus \u2014 Andes",
+      "pole_lat": -59.92260965836701,
+      "pole_lon": 41.260504274478606,
+      "n_origins_within": 4,
+      "origins": [
+        "Mesopotamia",
+        "Egypt",
+        "Indus",
+        "Andes"
+      ],
+      "distances": {
+        "Mesopotamia": 147.24939704987992,
+        "Egypt": 19.344048839022435,
+        "Indus": 1.8189894035458565e-12,
+        "China": 2142.4462337036293,
+        "Mesoamerica": 4537.963750877245,
+        "Andes": 1.8189894035458565e-12,
+        "West_Africa": 1108.79477110253
+      },
+      "mean_dist": 41.6483614722265,
+      "D": 2.942849955799596,
+      "mon_in_50km": 114,
+      "set_in_50km": 143
+    },
+    {
+      "defined_by": "Egypt \u2014 Andes",
+      "pole_lat": -59.75925018986104,
+      "pole_lon": 41.09520649755131,
+      "n_origins_within": 4,
+      "origins": [
+        "Mesopotamia",
+        "Egypt",
+        "Indus",
+        "Andes"
+      ],
+      "distances": {
+        "Mesopotamia": 129.73866128893496,
+        "Egypt": 1.8189894035458565e-12,
+        "Indus": 12.905902416423487,
+        "China": 2139.2820054910244,
+        "Mesoamerica": 4541.491574261312,
+        "Andes": 1.8189894035458565e-12,
+        "West_Africa": 1128.1794594435505
+      },
+      "mean_dist": 35.66114092634052,
+      "D": 2.8745050797769283,
+      "mon_in_50km": 95,
+      "set_in_50km": 122
+    },
+    {
+      "defined_by": "Mesopotamia \u2014 Andes",
+      "pole_lat": -58.54279182868018,
+      "pole_lon": 39.91915763570562,
+      "n_origins_within": 4,
+      "origins": [
+        "Mesopotamia",
+        "Egypt",
+        "Indus",
+        "Andes"
+      ],
+      "distances": {
+        "Mesopotamia": 1.8189894035458565e-12,
+        "Egypt": 143.31204602937942,
+        "Indus": 108.5135319377041,
+        "China": 2115.1509466555526,
+        "Mesoamerica": 4565.917508297045,
+        "Andes": 1.8189894035458565e-12,
+        "West_Africa": 1271.7579585578078
+      },
+      "mean_dist": 62.95639449177179,
+      "D": 0.989466100168466,
+      "mon_in_50km": 78,
+      "set_in_50km": 291
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "analysis": "Independent Origins Formal P-Value",
+  "n_trials": 100000,
+  "threshold_km": 200,
+  "civilizations": {
+    "Egypt": {
+      "lat": 29.87,
+      "lon": 31.22
+    },
+    "Mesopotamia": {
+      "lat": 31.33,
+      "lon": 45.64
+    },
+    "Indus": {
+      "lat": 27.32,
+      "lon": 68.14
+    },
+    "China": {
+      "lat": 34.27,
+      "lon": 108.94
+    },
+    "Mesoamerica": {
+      "lat": 19.69,
+      "lon": -98.84
+    },
+    "Andes": {
+      "lat": -13.16,
+      "lon": -72.55
+    },
+    "West_Africa": {
+      "lat": 11.5,
+      "lon": -4.0
+    }
+  },
+  "alison_pole": {
+    "lat": 59.682122,
+    "lon": -138.646087
+  },
+  "alison_distances_km": {
+    "Egypt": 6.293262814671803,
+    "Mesopotamia": 120.22694628043604,
+    "Indus": 26.59151924055205,
+    "China": 2122.505085948095,
+    "Mesoamerica": 4558.240550302828,
+    "Andes": 16.817077534467202,
+    "West_Africa": 1123.9983880669647
+  },
+  "alison_origins_within": 4,
+  "alison_origins_hit": [
+    "Egypt",
+    "Mesopotamia",
+    "Indus",
+    "Andes"
+  ],
+  "distribution": {
+    "0": 79967,
+    "1": 18445,
+    "2": 1414,
+    "3": 132,
+    "4": 42,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "cumulative_ge": {
+    "0": 100000,
+    "1": 20033,
+    "2": 1588,
+    "3": 174,
+    "4": 42,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "p_value": 0.00042,
+  "p_value_description": "P(random great circle passes within 200km of >=4 of 7 independent origins)",
+  "sensitivity": {
+    "50": {
+      "alison_hits": 3,
+      "p_value": 1e-05,
+      "n_random_hits": 1
+    },
+    "100": {
+      "alison_hits": 3,
+      "p_value": 0.00025,
+      "n_random_hits": 25
+    },
+    "150": {
+      "alison_hits": 4,
+      "p_value": 0.00017,
+      "n_random_hits": 17
+    },
+    "200": {
+      "alison_hits": 4,
+      "p_value": 0.00042,
+      "n_random_hits": 42
+    },
+    "300": {
+      "alison_hits": 4,
+      "p_value": 0.00124,
+      "n_random_hits": 124
+    },
+    "500": {
+      "alison_hits": 4,
+      "p_value": 0.0059,
+      "n_random_hits": 590
+    }
+  },
+  "conclusion": "Highly significant: p = 0.000420. The probability of a random great circle threading 4+ of 7 independent origins within 200 km is extremely low."
+}

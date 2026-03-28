@@ -1,0 +1,116 @@
+{
+  "n_ancient_samples": 13517,
+  "threshold_km": 50,
+  "n_mc": 10000,
+  "observed": 29,
+  "mc_mean": 84.7893,
+  "mc_std": 155.8688798494106,
+  "z_score": -0.357924558474173,
+  "p_value": 0.4623,
+  "enrichment": 0.3420242884416524,
+  "percentile": 53.77,
+  "temporal": [
+    {
+      "period": "0-1000 BP",
+      "n": 1877,
+      "observed": 20,
+      "expected": 12.43,
+      "z": 0.3130839938321813,
+      "enrichment": 1.6090104585550362,
+      "too_few": false
+    },
+    {
+      "period": "1000-2000 BP",
+      "n": 3157,
+      "observed": 3,
+      "expected": 14.055,
+      "z": -0.38331800204076777,
+      "enrichment": 0.21344717182345466,
+      "too_few": false
+    },
+    {
+      "period": "2000-3000 BP",
+      "n": 1959,
+      "observed": 3,
+      "expected": 15.385,
+      "z": -0.3846520422206402,
+      "enrichment": 0.19499512512060452,
+      "too_few": false
+    },
+    {
+      "period": "3000-4000 BP",
+      "n": 1777,
+      "observed": 0,
+      "expected": 10.155,
+      "z": -0.4352996316845966,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "4000-5000 BP",
+      "n": 1625,
+      "observed": 0,
+      "expected": 12.1,
+      "z": -0.4037305304048913,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "5000-7500 BP",
+      "n": 2266,
+      "observed": 0,
+      "expected": 11.95,
+      "z": -0.3930905102064387,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "7500-10000 BP",
+      "n": 561,
+      "observed": 3,
+      "expected": 4.81,
+      "z": -0.15169757435091766,
+      "enrichment": 0.623700623687657,
+      "too_few": false
+    },
+    {
+      "period": "10000-15000 BP",
+      "n": 176,
+      "observed": 0,
+      "expected": 1.07,
+      "z": -0.34560932641419645,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "15000-25000 BP",
+      "n": 33,
+      "observed": 0,
+      "expected": 0.18,
+      "z": -0.2632299212198611,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "25000-50000 BP",
+      "n": 81,
+      "observed": 0,
+      "expected": 0.53,
+      "z": -0.23823894379665184,
+      "enrichment": 0.0,
+      "too_few": false
+    },
+    {
+      "period": "50000-120000 BP",
+      "n": 5,
+      "too_few": true
+    }
+  ],
+  "on_circle_countries": {
+    "Peru": 21,
+    "Egypt": 3,
+    "Jordan": 3,
+    "Vanuatu": 2
+  },
+  "n_on_circle": 29
+}

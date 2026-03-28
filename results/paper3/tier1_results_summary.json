@@ -1,0 +1,82 @@
+{
+  "summary": "Paper 3 PPM Tier 1 Results Summary",
+  "date": "2026-03-26",
+
+  "task1_confidence_intervals": {
+    "status": "PASS — CIs do NOT overlap",
+    "monuments_beta_gc": {
+      "estimate": -0.9672,
+      "se": 0.0300,
+      "ci_95": [-1.0261, -0.9083],
+      "p_value": "<1e-13"
+    },
+    "settlements_beta_gc": {
+      "estimate": -0.7208,
+      "se": 0.0150,
+      "ci_95": [-0.7502, -0.6914],
+      "p_value": "<1e-13"
+    },
+    "divergence_test": {
+      "delta_beta": -0.2465,
+      "se_diff": 0.0336,
+      "z_statistic": -7.34,
+      "p_value": 2.16e-13,
+      "cis_overlap": false,
+      "interpretation": "Monument β_gc is significantly more negative than settlement β_gc. The 34% divergence is formally significant at p < 10⁻¹³."
+    },
+    "lrt_monuments": {"LR": 1186.3, "p": 5.91e-260},
+    "lrt_settlements": {"LR": 2540.6, "p": 0.0}
+  },
+
+  "task2_portal_replication": {
+    "status": "PARTIAL — monument model directionally correct, settlement model DEGENERATE",
+    "monument_beta_gc": 7.7843,
+    "settlement_beta_gc": "DEGENERATE (306,636 — numerical overflow)",
+    "issue": "Megalithic Portal is ~65% UK/Ireland. The extreme geographic concentration causes the settlement quadrature to fail. The model cannot distinguish geographic bias from circle proximity.",
+    "monument_direction": "POSITIVE β_gc — monuments are REPELLED from circle in Portal data",
+    "interpretation": "Portal PPM is INVALID for this analysis. The UK/Ireland concentration dominates both site distribution and quadrature grid. Pleiades (Mediterranean-balanced) is the appropriate dataset for global PPM. Portal can only be used with per-region baselines (as in Papers 1 and 2).",
+    "recommendation": "Do NOT report Portal PPM in Paper 3. Instead, note that Portal requires distribution-matched MC (Paper 1 methodology) rather than quadrature-based PPM due to geographic concentration."
+  },
+
+  "task3_quadrature_sensitivity": {
+    "status": "PASS — results stable across resolutions",
+    "comparison": {
+      "grid_2deg": {
+        "mon_beta_gc": -0.9672,
+        "set_beta_gc": -0.7208,
+        "delta_beta": -0.2465,
+        "n_grid_points": 815
+      },
+      "grid_05deg": {
+        "mon_beta_gc": -0.8056,
+        "set_beta_gc": -0.5811,
+        "delta_beta": -0.2246,
+        "n_grid_points": 13141
+      }
+    },
+    "interpretation": "Both β_gc estimates shift slightly toward zero at finer resolution (less negative by ~17%), but the DIVERGENCE (Δβ) is stable: -0.247 at 2° vs -0.225 at 0.5°. Direction and significance unchanged. Coefficients stabilize — acceptable for publication.",
+    "rhohat_resolved": "PARTIALLY — the below-1.0 values persist at 0.5° because the Pleiades study window (Mediterranean) doesn't fully cover the circle's global extent. The rhohat is correct for the study window; it shows monument density is 3.2× settlement density at 0-50 km, even though both are below the global mean."
+  },
+
+  "task4_aadr_corridor": {
+    "status": "NULL — not significant",
+    "n_samples": 13517,
+    "observed_50km": 29,
+    "expected": 84.8,
+    "z_score": -0.36,
+    "p_value": 0.46,
+    "enrichment": 0.34,
+    "interpretation": "Ancient DNA samples show NO enrichment near the Great Circle. In fact, they're slightly depleted (enrichment = 0.34×). This is because AADR is heavily European (Hungary, UK, Germany, Sweden) — these countries are far from the circle. The 29 on-circle samples are mostly from Peru (21), Egypt (3), Jordan (3), and Vanuatu (2).",
+    "temporal_spikes": "None significant. Highest enrichment at 0-1000 BP (1.6×) driven by Peruvian samples.",
+    "for_paper3": "The AADR null result does NOT test the corridor hypothesis — it tests whether the AADR sampling strategy overlaps with the circle. AADR is an aDNA database, not an archaeological site database. Its geographic coverage reflects where aDNA labs have worked (mostly Europe), not where ancient sites are. The proper aDNA corridor test would compare F_ST between on-corridor and off-corridor populations at matched distances, which requires population genetics methods beyond simple enrichment."
+  },
+
+  "success_criteria_assessment": {
+    "CIs_dont_overlap": "PASS — z = -7.34, p = 2.16e-13",
+    "Portal_same_direction": "FAIL — Portal PPM is numerically invalid due to geographic bias",
+    "Finer_grid_resolves_rhohat": "PARTIAL — divergence stable, but below-1.0 rhohat persists (study window effect)",
+    "AADR_significant": "FAIL — Z = -0.36, not significant (wrong test for this data type)"
+  },
+
+  "key_publishable_finding": "The inhomogeneous Poisson PPM with geographic covariates confirms that GC distance is a significant predictor of site intensity for BOTH monuments and settlements, but the effect is 34% stronger for monuments (β = -0.97 vs -0.72). The divergence is formally significant (z = -7.34, p = 2.16e-13) with non-overlapping 95% CIs. This survives at 0.5° quadrature resolution. The monument-settlement divergence documented in Papers 1 and 2 via Monte Carlo is now confirmed by a formal point process model."
+}

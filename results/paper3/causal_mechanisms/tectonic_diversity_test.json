@@ -1,0 +1,14 @@
+{
+  "analysis": "Tectonic Diversity Test",
+  "data": "Bird (2003) plate boundaries",
+  "alison_crossings_50km": 28,
+  "mc_mean": 13.9,
+  "mc_std": 4.7,
+  "mc_median": 13,
+  "mc_p95": 23,
+  "mc_p99": 27,
+  "alison_percentile": 99.7,
+  "p_value": 0.007,
+  "significant": true,
+  "conclusion": "SIGNIFICANT: Alison circle crosses 28 plate boundaries (p=0.0070, 99.7th percentile)"
+}

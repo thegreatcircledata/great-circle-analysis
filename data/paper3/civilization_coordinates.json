@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Egypt",
+    "lat": 29.87,
+    "lon": 31.22,
+    "center": "Memphis/Saqqara",
+    "date": "3100 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998); coordinates from Lehner (1997)"
+  },
+  {
+    "name": "Mesopotamia",
+    "lat": 31.33,
+    "lon": 45.64,
+    "center": "Ur/Uruk",
+    "date": "3500 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998)"
+  },
+  {
+    "name": "Indus Valley",
+    "lat": 27.32,
+    "lon": 68.14,
+    "center": "Mohenjo-daro",
+    "date": "2600 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998)"
+  },
+  {
+    "name": "China",
+    "lat": 34.27,
+    "lon": 108.94,
+    "center": "Erlitou/Xi'an",
+    "date": "1900 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998)"
+  },
+  {
+    "name": "Mesoamerica",
+    "lat": 19.69,
+    "lon": -98.84,
+    "center": "Teotihuacan",
+    "date": "200 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998)"
+  },
+  {
+    "name": "Andes",
+    "lat": -13.16,
+    "lon": -72.55,
+    "center": "Cusco/Caral",
+    "date": "3000 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998)"
+  },
+  {
+    "name": "West Africa",
+    "lat": 11.50,
+    "lon": -4.00,
+    "center": "Jenne-jeno",
+    "date": "250 BCE",
+    "source": "Trigger (2003), Marcus & Feinman (1998); McIntosh & McIntosh (1981)"
+  }
+]

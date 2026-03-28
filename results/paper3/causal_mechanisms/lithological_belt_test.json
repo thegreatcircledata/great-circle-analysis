@@ -1,0 +1,39 @@
+{
+  "analysis": "Lithological Belt Test",
+  "data": "GLiM 0.5\u00b0 raster (Hartmann & Moosdorf 2012, PANGAEA)",
+  "buildable_classes": "su excluded; includes vb,ss,pb,sm,sc,va,mt,pa,py",
+  "alison": {
+    "buildable_frac": 0.4233128834355828,
+    "premium_frac": 0.3343558282208589,
+    "carbonate_frac": 0.12269938650306748,
+    "n_valid": 326
+  },
+  "global_baseline": {
+    "buildable": 0.388,
+    "premium": 0.237,
+    "carbonate": 0.056
+  },
+  "mc": {
+    "n_trials": 1000,
+    "n_valid": 1000,
+    "buildable": {
+      "alison": 0.423,
+      "mc_mean": 0.496,
+      "p": 0.741,
+      "sig": false
+    },
+    "premium": {
+      "alison": 0.334,
+      "mc_mean": 0.303,
+      "p": 0.338,
+      "sig": false
+    },
+    "carbonate": {
+      "alison": 0.123,
+      "mc_mean": 0.074,
+      "p": 0.137,
+      "sig": false
+    }
+  },
+  "conclusion": "NOT SIGNIFICANT: Typical lithology (buildable p=0.7410, carbonate p=0.1370)"
+}

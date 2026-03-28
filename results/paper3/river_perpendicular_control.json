@@ -1,0 +1,152 @@
+{
+  "analysis": "River-Perpendicular Control",
+  "radius_km": 25.0,
+  "total_crossings_near_gc": 48,
+  "steep_crossings_gt60": 17,
+  "unique_steep_crossings": 11,
+  "memphis_reference": {
+    "lat": 29.87,
+    "lon": 31.22,
+    "gc_dist_km": 6.293262814671834,
+    "intersection_angle": 81.3,
+    "monuments_within_25km": 48,
+    "density_per_km2": 0.024446199258915124
+  },
+  "crossings_with_more_than_memphis": 0,
+  "top_crossings": [
+    {
+      "name": "Nile",
+      "lat": 29.890798549763332,
+      "lon": 31.271145867337964,
+      "dist_from_gc_km": 4.426549199002693,
+      "river_bearing": 352.801999030958,
+      "gc_bearing": 84.92986301705264,
+      "intersection_angle": 87.87213601390533,
+      "n_segments": 1,
+      "monuments_within_25km": 48,
+      "monument_density_per_km2": 0.024446199258915124
+    },
+    {
+      "name": "Ayeyarwady",
+      "lat": 19.016035976778937,
+      "lon": 95.13773847834815,
+      "dist_from_gc_km": 4.481180811844752,
+      "river_bearing": 178.4591781366451,
+      "gc_bearing": 114.03327160648784,
+      "intersection_angle": 64.42590653015726,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Indus",
+      "lat": 27.54165253358761,
+      "lon": 68.30330407082627,
+      "dist_from_gc_km": 1.0820091318109917,
+      "river_bearing": 185.41313573103528,
+      "gc_bearing": 103.22500123652746,
+      "intersection_angle": 82.18813449450782,
+      "n_segments": 3,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Madeira",
+      "lat": -9.649539890153761,
+      "lon": -65.41779730904852,
+      "dist_from_gc_km": 6.970999997771287,
+      "river_bearing": 354.4252565628082,
+      "gc_bearing": 61.097257708601035,
+      "intersection_angle": 66.67200114579282,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Madeira",
+      "lat": -8.530822645698493,
+      "lon": -63.55459062325863,
+      "dist_from_gc_km": 2.429934484864134,
+      "river_bearing": 341.9936412195197,
+      "gc_bearing": 60.80361936671028,
+      "intersection_angle": 78.80997814719058,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Madre de Dios",
+      "lat": -12.370846652800736,
+      "lon": -70.7244888983939,
+      "dist_from_gc_km": 2.5251701141987724,
+      "river_bearing": 145.17409540190334,
+      "gc_bearing": 62.10968165872447,
+      "intersection_angle": 83.06441374317887,
+      "n_segments": 2,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Mekong",
+      "lat": 14.21254364637224,
+      "lon": 105.84804080613833,
+      "dist_from_gc_km": 7.821939280229344,
+      "river_bearing": 195.86238147231072,
+      "gc_bearing": 117.10357269638385,
+      "intersection_angle": 78.75880877592687,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Salween",
+      "lat": 17.88442546241521,
+      "lon": 97.7192604915785,
+      "dist_from_gc_km": 6.33866538606344,
+      "river_bearing": 201.15890468712766,
+      "gc_bearing": 114.8527289847325,
+      "intersection_angle": 86.30617570239517,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Shatt al-Arab",
+      "lat": 30.13473714880041,
+      "lon": 48.39309817863807,
+      "dist_from_gc_km": 0.60031893258747,
+      "river_bearing": 169.2248440816603,
+      "gc_bearing": 93.54669197892399,
+      "intersection_angle": 75.67815210273632,
+      "n_segments": 4,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Suez Canal",
+      "lat": 30.077738043775753,
+      "lon": 32.56326338075047,
+      "dist_from_gc_km": 5.988783739941937,
+      "river_bearing": 178.83979896685545,
+      "gc_bearing": 85.57549724858825,
+      "intersection_angle": 86.7356982817328,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    },
+    {
+      "name": "Xingu",
+      "lat": -2.1538733864475716,
+      "lon": -52.187196621276996,
+      "dist_from_gc_km": 8.197957418169608,
+      "river_bearing": 343.11458807438146,
+      "gc_bearing": 59.74604313822215,
+      "intersection_angle": 76.63145506384069,
+      "n_segments": 1,
+      "monuments_within_25km": 0,
+      "monument_density_per_km2": 0.0
+    }
+  ],
+  "memphis_is_unique": true,
+  "conclusion": "Memphis is the densest steep river-GC crossing"
+}

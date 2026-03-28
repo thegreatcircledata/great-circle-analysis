@@ -1,0 +1,391 @@
+{
+  "gc_bearing_memphis": {
+    "b1": 84.90434388453104,
+    "b2": 264.90434388453104
+  },
+  "ahramat_bearing": 346.25309469747555,
+  "angle_gc_ahramat": 81.3487508129445,
+  "pyramids": [
+    {
+      "name": "Layer Pyramid (Zawyet)",
+      "lat": 29.9336,
+      "lon": 31.1594,
+      "dynasty": "3rd",
+      "date_bce": -2630,
+      "dist_to_gc_km": 1.27
+    },
+    {
+      "name": "Unfinished Northern (Zawyet)",
+      "lat": 29.9353,
+      "lon": 31.1611,
+      "dynasty": "3rd/4th",
+      "date_bce": -2570,
+      "dist_to_gc_km": 1.44
+    },
+    {
+      "name": "Sahure (Abusir)",
+      "lat": 29.8975,
+      "lon": 31.2028,
+      "dynasty": "5th",
+      "date_bce": -2480,
+      "dist_to_gc_km": 3.1
+    },
+    {
+      "name": "Niuserre (Abusir)",
+      "lat": 29.8964,
+      "lon": 31.2008,
+      "dynasty": "5th",
+      "date_bce": -2440,
+      "dist_to_gc_km": 3.2
+    },
+    {
+      "name": "Neferirkare (Abusir)",
+      "lat": 29.895,
+      "lon": 31.2025,
+      "dynasty": "5th",
+      "date_bce": -2470,
+      "dist_to_gc_km": 3.37
+    },
+    {
+      "name": "Neferefre (Abusir)",
+      "lat": 29.8936,
+      "lon": 31.2036,
+      "dynasty": "5th",
+      "date_bce": -2460,
+      "dist_to_gc_km": 3.54
+    },
+    {
+      "name": "Raneferef (Abusir)",
+      "lat": 29.8936,
+      "lon": 31.2036,
+      "dynasty": "5th",
+      "date_bce": -2450,
+      "dist_to_gc_km": 3.54
+    },
+    {
+      "name": "Teti",
+      "lat": 29.8756,
+      "lon": 31.2217,
+      "dynasty": "6th",
+      "date_bce": -2340,
+      "dist_to_gc_km": 5.69
+    },
+    {
+      "name": "Queen Khamerernebty II (G3a)",
+      "lat": 29.9711,
+      "lon": 31.1272,
+      "dynasty": "4th",
+      "date_bce": -2510,
+      "dist_to_gc_km": 5.7
+    },
+    {
+      "name": "Menkaure",
+      "lat": 29.9725,
+      "lon": 31.1278,
+      "dynasty": "4th",
+      "date_bce": -2510,
+      "dist_to_gc_km": 5.85
+    },
+    {
+      "name": "Userkaf",
+      "lat": 29.8731,
+      "lon": 31.2183,
+      "dynasty": "5th",
+      "date_bce": -2490,
+      "dist_to_gc_km": 5.94
+    },
+    {
+      "name": "Step Pyramid (Djoser)",
+      "lat": 29.8714,
+      "lon": 31.2164,
+      "dynasty": "3rd",
+      "date_bce": -2650,
+      "dist_to_gc_km": 6.11
+    },
+    {
+      "name": "Khafre",
+      "lat": 29.9761,
+      "lon": 31.1306,
+      "dynasty": "4th",
+      "date_bce": -2530,
+      "dist_to_gc_km": 6.23
+    },
+    {
+      "name": "Sekhemkhet (Buried Pyramid)",
+      "lat": 29.8683,
+      "lon": 31.2142,
+      "dynasty": "3rd",
+      "date_bce": -2640,
+      "dist_to_gc_km": 6.43
+    },
+    {
+      "name": "Unas",
+      "lat": 29.8681,
+      "lon": 31.2181,
+      "dynasty": "5th",
+      "date_bce": -2360,
+      "dist_to_gc_km": 6.49
+    },
+    {
+      "name": "Great Pyramid (Khufu)",
+      "lat": 29.9792,
+      "lon": 31.1342,
+      "dynasty": "4th",
+      "date_bce": -2560,
+      "dist_to_gc_km": 6.54
+    },
+    {
+      "name": "Queen Henutsen (G1c)",
+      "lat": 29.9794,
+      "lon": 31.1342,
+      "dynasty": "4th",
+      "date_bce": -2560,
+      "dist_to_gc_km": 6.56
+    },
+    {
+      "name": "Queen Meritites I (G1b)",
+      "lat": 29.98,
+      "lon": 31.1331,
+      "dynasty": "4th",
+      "date_bce": -2560,
+      "dist_to_gc_km": 6.64
+    },
+    {
+      "name": "Queen Hetepheres I (G1a)",
+      "lat": 29.9806,
+      "lon": 31.1319,
+      "dynasty": "4th",
+      "date_bce": -2560,
+      "dist_to_gc_km": 6.71
+    },
+    {
+      "name": "Pepi I",
+      "lat": 29.8567,
+      "lon": 31.2172,
+      "dynasty": "6th",
+      "date_bce": -2320,
+      "dist_to_gc_km": 7.74
+    },
+    {
+      "name": "Merenre I",
+      "lat": 29.8544,
+      "lon": 31.2164,
+      "dynasty": "6th",
+      "date_bce": -2280,
+      "dist_to_gc_km": 7.99
+    },
+    {
+      "name": "Djedkare Isesi",
+      "lat": 29.8508,
+      "lon": 31.2156,
+      "dynasty": "5th",
+      "date_bce": -2380,
+      "dist_to_gc_km": 8.38
+    },
+    {
+      "name": "Ibi",
+      "lat": 29.8464,
+      "lon": 31.2153,
+      "dynasty": "8th",
+      "date_bce": -2170,
+      "dist_to_gc_km": 8.87
+    },
+    {
+      "name": "Pepi II",
+      "lat": 29.8453,
+      "lon": 31.2147,
+      "dynasty": "6th",
+      "date_bce": -2250,
+      "dist_to_gc_km": 8.98
+    },
+    {
+      "name": "Red Pyramid (Sneferu)",
+      "lat": 29.8092,
+      "lon": 31.2061,
+      "dynasty": "4th",
+      "date_bce": -2590,
+      "dist_to_gc_km": 12.91
+    },
+    {
+      "name": "Djedefre (Abu Rawash)",
+      "lat": 30.0322,
+      "lon": 31.075,
+      "dynasty": "4th",
+      "date_bce": -2560,
+      "dist_to_gc_km": 12.92
+    },
+    {
+      "name": "White Pyramid (Amenemhat II)",
+      "lat": 29.8053,
+      "lon": 31.2208,
+      "dynasty": "12th",
+      "date_bce": -1900,
+      "dist_to_gc_km": 13.47
+    },
+    {
+      "name": "Pyramid of Senusret III",
+      "lat": 29.8019,
+      "lon": 31.2222,
+      "dynasty": "12th",
+      "date_bce": -1870,
+      "dist_to_gc_km": 13.85
+    },
+    {
+      "name": "Black Pyramid (Amenemhat III)",
+      "lat": 29.8014,
+      "lon": 31.2264,
+      "dynasty": "12th",
+      "date_bce": -1850,
+      "dist_to_gc_km": 13.95
+    },
+    {
+      "name": "Pyramid of Khendjer",
+      "lat": 29.8019,
+      "lon": 31.2347,
+      "dynasty": "13th",
+      "date_bce": -1760,
+      "dist_to_gc_km": 13.96
+    },
+    {
+      "name": "Bent Pyramid (Sneferu)",
+      "lat": 29.7903,
+      "lon": 31.2094,
+      "dynasty": "4th",
+      "date_bce": -2600,
+      "dist_to_gc_km": 15.03
+    },
+    {
+      "name": "North Mazghuna",
+      "lat": 29.7753,
+      "lon": 31.2256,
+      "dynasty": "12th/13th",
+      "date_bce": -1800,
+      "dist_to_gc_km": 16.83
+    },
+    {
+      "name": "South Mazghuna",
+      "lat": 29.7722,
+      "lon": 31.2264,
+      "dynasty": "12th/13th",
+      "date_bce": -1800,
+      "dist_to_gc_km": 17.18
+    },
+    {
+      "name": "Amenemhat I (Lisht)",
+      "lat": 29.5756,
+      "lon": 31.225,
+      "dynasty": "12th",
+      "date_bce": -1970,
+      "dist_to_gc_km": 38.94
+    },
+    {
+      "name": "Senusret I (Lisht)",
+      "lat": 29.5647,
+      "lon": 31.2228,
+      "dynasty": "12th",
+      "date_bce": -1940,
+      "dist_to_gc_km": 40.13
+    },
+    {
+      "name": "Meidum Pyramid (Sneferu/Huni)",
+      "lat": 29.3883,
+      "lon": 31.1569,
+      "dynasty": "3rd/4th",
+      "date_bce": -2610,
+      "dist_to_gc_km": 59.1
+    }
+  ],
+  "within_10km": 24,
+  "within_25km": 33,
+  "within_50km": 35,
+  "counterfactual": [
+    {
+      "shift_km": -30.0,
+      "within_10": 25,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": -25.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": -20.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": -15.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": -10.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": -5.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 0.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 5.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 10.0,
+      "within_10": 24,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 15.0,
+      "within_10": 22,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 20.0,
+      "within_10": 21,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 25.0,
+      "within_10": 19,
+      "within_25": 33,
+      "within_50": 35
+    },
+    {
+      "shift_km": 30.0,
+      "within_10": 19,
+      "within_25": 33,
+      "within_50": 35
+    }
+  ],
+  "pre_42ka": {
+    "count": 27,
+    "mean_dist": 8.422404290554335,
+    "within_10": 23
+  },
+  "post_42ka": {
+    "count": 9,
+    "mean_dist": 19.686472206006027,
+    "within_10": 1
+  }
+}

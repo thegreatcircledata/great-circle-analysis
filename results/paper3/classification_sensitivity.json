@@ -1,0 +1,35 @@
+{
+  "analysis": "Classification Sensitivity",
+  "n_trials": 1000,
+  "site_counts": {
+    "clear_monuments": 4835,
+    "clear_settlements": 14624,
+    "ambiguous": 6411,
+    "ambiguous_fraction": 0.247816003092385,
+    "ambiguous_breakdown": {
+      "settlement": 3335,
+      "both": 529,
+      "neither": 2517,
+      "monument": 30
+    }
+  },
+  "baseline": {
+    "D_clear_only": 2.7005466095435073,
+    "D_with_ambiguous": 3.042419418766701
+  },
+  "reassignment_distribution": {
+    "mean": 2.003122803788028,
+    "median": 2.0033197414221777,
+    "std": 0.08605230365455907,
+    "min": 1.7507855459544384,
+    "max": 2.280265357580598,
+    "ci_95": [
+      1.8384494903234068,
+      2.17717261219458
+    ],
+    "cv": 0.04295907544551382,
+    "n_below_1": 0,
+    "fraction_below_1": 0.0
+  },
+  "conclusion": "Robust"
+}

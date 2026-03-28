@@ -1,0 +1,106 @@
+{
+  "analysis": "Exhaustive Pole Scan (Filtered)",
+  "filter": "\u226530 monuments AND \u226530 settlements in 50km corridor",
+  "total_poles": 64800,
+  "filtered_poles": 14248,
+  "filter_rate": 0.21987654320987654,
+  "alison": {
+    "D": 3.1823014494808093,
+    "mon": 100,
+    "set": 116,
+    "passes_filter": true,
+    "rank": 249,
+    "percentile": 98.2594048287479,
+    "n_ge_D": 248
+  },
+  "D_distribution": {
+    "mean": 1.0991772703841756,
+    "median": 0.9428656977824659,
+    "std": 0.6049373006969201,
+    "p95": 2.298462254455196,
+    "p99": 3.5055683305359824,
+    "max": 5.408432323908315
+  },
+  "top_10": [
+    {
+      "rank": 1,
+      "pole_lat": -63.5,
+      "pole_lon": 17.5,
+      "D": 5.408432323908315,
+      "mon": 126,
+      "set": 86
+    },
+    {
+      "rank": 2,
+      "pole_lat": 63.5,
+      "pole_lon": -162.5,
+      "D": 5.408432323908315,
+      "mon": 126,
+      "set": 86
+    },
+    {
+      "rank": 3,
+      "pole_lat": -62.5,
+      "pole_lon": -0.5,
+      "D": 5.168057553956834,
+      "mon": 42,
+      "set": 30
+    },
+    {
+      "rank": 4,
+      "pole_lat": -61.5,
+      "pole_lon": -9.5,
+      "D": 5.168057553956834,
+      "mon": 42,
+      "set": 30
+    },
+    {
+      "rank": 5,
+      "pole_lat": 61.5,
+      "pole_lon": 170.5,
+      "D": 5.168057553956834,
+      "mon": 42,
+      "set": 30
+    },
+    {
+      "rank": 6,
+      "pole_lat": 62.5,
+      "pole_lon": 179.5,
+      "D": 5.168057553956834,
+      "mon": 42,
+      "set": 30
+    },
+    {
+      "rank": 7,
+      "pole_lat": -63.5,
+      "pole_lon": 20.5,
+      "D": 5.141689913375422,
+      "mon": 117,
+      "set": 84
+    },
+    {
+      "rank": 8,
+      "pole_lat": 63.5,
+      "pole_lon": -159.5,
+      "D": 5.141689913375422,
+      "mon": 117,
+      "set": 84
+    },
+    {
+      "rank": 9,
+      "pole_lat": -61.5,
+      "pole_lon": -8.5,
+      "D": 5.12042568710009,
+      "mon": 43,
+      "set": 31
+    },
+    {
+      "rank": 10,
+      "pole_lat": 61.5,
+      "pole_lon": 171.5,
+      "D": 5.12042568710009,
+      "mon": 43,
+      "set": 31
+    }
+  ]
+}

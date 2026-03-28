@@ -1,0 +1,51 @@
+{
+  "total_rows": 17629,
+  "with_coordinates": 16979,
+  "without_coordinates": 650,
+  "ancient_samples": 13548,
+  "modern_samples": 3431,
+  "date_range_bp": [
+    60.0,
+    110450.0
+  ],
+  "top_countries": {
+    "Hungary": 1145,
+    "United Kingdom": 1116,
+    "Russia": 981,
+    "China": 903,
+    "Germany": 748,
+    "Italy": 731,
+    "Spain": 636,
+    "USA": 629,
+    "Sweden": 519,
+    "France": 485,
+    "Czechia": 458,
+    "Pakistan": 435,
+    "Poland": 430,
+    "Turkey": 412,
+    "Mexico": 315,
+    "Mongolia": 302,
+    "Denmark": 300,
+    "Croatia": 284,
+    "Israel": 242,
+    "Nigeria": 237,
+    "Kenya": 233,
+    "Kazakhstan": 231,
+    "Armenia": 216,
+    "Serbia": 210,
+    "Ukraine": 208,
+    "Greece": 185,
+    "Bulgaria": 181,
+    "Japan": 170,
+    "Peru": 168,
+    "Romania": 167
+  },
+  "date_breakdown": {
+    "lt1000BP": 1879,
+    "1000_5000BP": 8527,
+    "5000_10000BP": 2839,
+    "gt10000BP": 303
+  },
+  "file": "v62.0_1240k_public.anno",
+  "file_size_mb": 8.2
+}

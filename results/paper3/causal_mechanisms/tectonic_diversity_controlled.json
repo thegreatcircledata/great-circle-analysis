@@ -1,0 +1,19 @@
+{
+  "analysis": "Tectonic Diversity \u2014 Continent-Controlled",
+  "alison_boundaries": 28,
+  "alison_continents": 4,
+  "uncontrolled": {
+    "n_trials": 2000,
+    "p_value": 0.01,
+    "percentile": 99.3
+  },
+  "controlled": {
+    "n_circles_with_ge_continents": 993,
+    "p_value": 0.0111,
+    "percentile": 99.2,
+    "mc_mean": 15.0,
+    "mc_median": 14,
+    "mc_std": 4.4
+  },
+  "conclusion": "HOLDS after controlling for continents: p=0.0111 (among 993 circles crossing 4+ continents)"
+}

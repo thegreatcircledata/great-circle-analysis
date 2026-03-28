@@ -1,2 +1,36 @@
-# No external dependencies required — uses Python 3.7+ stdlib only.
-# (csv, json, math, random, xml.etree, gzip, urllib)
+# Great Circle Analysis Project — Python Dependencies
+# Generated 2026-03-28
+#
+# Core packages (required for all papers)
+numpy==2.4.3
+scipy==1.17.1
+pandas==3.0.1
+matplotlib==3.10.8
+geopandas==1.1.3
+shapely==2.1.2
+pyproj==3.7.2
+fiona==1.10.1
+
+# Geospatial data
+rasterio==1.5.0
+cartopy==0.25.0
+pyshp==3.0.3          # imported as 'shapefile'
+netCDF4==1.7.4
+
+# Statistics / ML (Paper 2 ML feature importance)
+scikit-learn==1.8.0
+statsmodels            # used in some temporal analyses
+shap                   # ML feature importance (Paper 2)
+xgboost                # ML feature importance (Paper 2)
+
+# Data I/O
+openpyxl==3.1.5
+xlrd==2.0.2
+requests               # for downloading remote datasets
+
+# Astronomy (Orion paper)
+skyfield==1.54
+astropy                # precession calculations
+
+# Geodesics
+geographiclib          # Vincenty/Karney geodesic calculations

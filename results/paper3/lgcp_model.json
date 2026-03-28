@@ -1,0 +1,56 @@
+{
+  "analysis": "Log-Gaussian Cox Process (LGCP)",
+  "monuments": {
+    "method": "LGCP clik2",
+    "converged": true,
+    "coefficients": {
+      "(Intercept)": -0.8864,
+      "im_ablat": 3.5222,
+      "im_lon": -2.3821,
+      "im_gc": -3.5815
+    },
+    "std_errors": {
+      "(Intercept)": 0.185,
+      "im_ablat": 0.5005,
+      "im_lon": 0.3005,
+      "im_gc": 0.5152
+    },
+    "gc_dist_beta": -3.5815,
+    "gc_dist_se": 0.5152,
+    "gc_dist_z": -6.9515,
+    "gc_dist_p": 3.6142e-12,
+    "gc_dist_significant": true
+  },
+  "settlements": {
+    "method": "LGCP clik2",
+    "converged": true,
+    "coefficients": {
+      "(Intercept)": 0.8856,
+      "im_ablat": 2.7218,
+      "im_lon": -1.7779,
+      "im_gc": -2.8138
+    },
+    "std_errors": {
+      "(Intercept)": 0.1321,
+      "im_ablat": 0.3963,
+      "im_lon": 0.2201,
+      "im_gc": 0.4137
+    },
+    "gc_dist_beta": -2.8138,
+    "gc_dist_se": 0.4137,
+    "gc_dist_z": -6.8019,
+    "gc_dist_p": 1.0327e-11,
+    "gc_dist_significant": true
+  },
+  "divergence": {
+    "mon_beta_gc": -3.5815,
+    "set_beta_gc": -2.8138,
+    "difference": -0.7677,
+    "se_diff": 0.6607,
+    "z_test": -1.1619,
+    "p_value": 0.2453,
+    "significant": false,
+    "cis_overlap": true
+  },
+  "conclusion": "Divergence does NOT persist under LGCP: z=-1.16, p=0.2453"
+}

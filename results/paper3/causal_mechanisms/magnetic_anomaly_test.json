@@ -1,0 +1,6 @@
+{
+  "analysis": "Magnetic Anomaly / Inclination Test",
+  "status": "FAILED — pyIGRF package broken on Python 3.14 (missing coefficient file)",
+  "conclusion": "NOT RUN: pyIGRF installation incompatible with Python 3.14. Test requires manual setup.",
+  "recommendation": "Install ppigrf or igrf13 alternative package, or downgrade to Python 3.12"
+}

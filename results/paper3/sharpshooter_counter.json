@@ -1,0 +1,338 @@
+{
+  "analysis": "Texas Sharpshooter Counter-Test",
+  "question": "Among random circles threading 4+ origins, do most also show the tectonic-circumscription pattern?",
+  "alison": {
+    "boundaries": 28,
+    "transitions": 29
+  },
+  "n_circles_4plus_origins": 45,
+  "n_trials": 100000,
+  "boundaries_ge_alison": 11,
+  "transitions_ge_alison": 12,
+  "both_ge_alison": 2,
+  "frac_boundaries": 0.244,
+  "frac_transitions": 0.267,
+  "frac_both": 0.044,
+  "mean_boundaries_4plus": 24.8,
+  "mean_transitions_4plus": 26.4,
+  "all_4plus_circles": [
+    {
+      "pole_lat": 59.47,
+      "pole_lon": -139.6,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 24
+    },
+    {
+      "pole_lat": -58.26,
+      "pole_lon": 39.66,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 21
+    },
+    {
+      "pole_lat": -60.15,
+      "pole_lon": 41.93,
+      "n_origins": 4,
+      "boundaries": 29,
+      "transitions": 26
+    },
+    {
+      "pole_lat": 59.61,
+      "pole_lon": -136.24,
+      "n_origins": 4,
+      "boundaries": 27,
+      "transitions": 15
+    },
+    {
+      "pole_lat": 59.6,
+      "pole_lon": -142.65,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 30
+    },
+    {
+      "pole_lat": -60.05,
+      "pole_lon": 39.52,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 28
+    },
+    {
+      "pole_lat": 58.64,
+      "pole_lon": -140.84,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 25
+    },
+    {
+      "pole_lat": -59.37,
+      "pole_lon": 43.68,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 24
+    },
+    {
+      "pole_lat": 59.4,
+      "pole_lon": -137.43,
+      "n_origins": 4,
+      "boundaries": 30,
+      "transitions": 34
+    },
+    {
+      "pole_lat": 59.38,
+      "pole_lon": -142.93,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 31
+    },
+    {
+      "pole_lat": 58.45,
+      "pole_lon": -141.05,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 22
+    },
+    {
+      "pole_lat": -58.26,
+      "pole_lon": 36.38,
+      "n_origins": 4,
+      "boundaries": 22,
+      "transitions": 24
+    },
+    {
+      "pole_lat": -60.0,
+      "pole_lon": 37.48,
+      "n_origins": 4,
+      "boundaries": 26,
+      "transitions": 35
+    },
+    {
+      "pole_lat": -58.06,
+      "pole_lon": 39.78,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 23
+    },
+    {
+      "pole_lat": 60.27,
+      "pole_lon": -140.85,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 25
+    },
+    {
+      "pole_lat": 60.46,
+      "pole_lon": -134.77,
+      "n_origins": 4,
+      "boundaries": 28,
+      "transitions": 22
+    },
+    {
+      "pole_lat": -58.22,
+      "pole_lon": 38.55,
+      "n_origins": 4,
+      "boundaries": 21,
+      "transitions": 25
+    },
+    {
+      "pole_lat": 59.34,
+      "pole_lon": -136.54,
+      "n_origins": 4,
+      "boundaries": 27,
+      "transitions": 27
+    },
+    {
+      "pole_lat": -59.11,
+      "pole_lon": 38.68,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 30
+    },
+    {
+      "pole_lat": 58.62,
+      "pole_lon": -137.03,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 27
+    },
+    {
+      "pole_lat": 60.19,
+      "pole_lon": -138.17,
+      "n_origins": 4,
+      "boundaries": 30,
+      "transitions": 27
+    },
+    {
+      "pole_lat": 59.82,
+      "pole_lon": -139.11,
+      "n_origins": 4,
+      "boundaries": 26,
+      "transitions": 30
+    },
+    {
+      "pole_lat": -60.01,
+      "pole_lon": 41.98,
+      "n_origins": 4,
+      "boundaries": 29,
+      "transitions": 24
+    },
+    {
+      "pole_lat": 59.36,
+      "pole_lon": -136.92,
+      "n_origins": 4,
+      "boundaries": 28,
+      "transitions": 32
+    },
+    {
+      "pole_lat": -58.38,
+      "pole_lon": 39.76,
+      "n_origins": 4,
+      "boundaries": 20,
+      "transitions": 22
+    },
+    {
+      "pole_lat": -59.51,
+      "pole_lon": 40.04,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 29
+    },
+    {
+      "pole_lat": -58.37,
+      "pole_lon": 37.2,
+      "n_origins": 4,
+      "boundaries": 23,
+      "transitions": 26
+    },
+    {
+      "pole_lat": 60.01,
+      "pole_lon": -140.69,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 32
+    },
+    {
+      "pole_lat": -59.2,
+      "pole_lon": 41.66,
+      "n_origins": 4,
+      "boundaries": 26,
+      "transitions": 23
+    },
+    {
+      "pole_lat": -58.25,
+      "pole_lon": 38.77,
+      "n_origins": 4,
+      "boundaries": 21,
+      "transitions": 24
+    },
+    {
+      "pole_lat": 59.01,
+      "pole_lon": -136.97,
+      "n_origins": 4,
+      "boundaries": 28,
+      "transitions": 27
+    },
+    {
+      "pole_lat": -60.35,
+      "pole_lon": 45.48,
+      "n_origins": 4,
+      "boundaries": 28,
+      "transitions": 21
+    },
+    {
+      "pole_lat": 59.75,
+      "pole_lon": -141.01,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 24
+    },
+    {
+      "pole_lat": 59.94,
+      "pole_lon": -135.32,
+      "n_origins": 4,
+      "boundaries": 27,
+      "transitions": 21
+    },
+    {
+      "pole_lat": 59.84,
+      "pole_lon": -141.94,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 28
+    },
+    {
+      "pole_lat": 58.78,
+      "pole_lon": -138.03,
+      "n_origins": 4,
+      "boundaries": 28,
+      "transitions": 26
+    },
+    {
+      "pole_lat": 58.57,
+      "pole_lon": -137.09,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 28
+    },
+    {
+      "pole_lat": 59.44,
+      "pole_lon": -143.07,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 31
+    },
+    {
+      "pole_lat": 59.57,
+      "pole_lon": -139.36,
+      "n_origins": 4,
+      "boundaries": 23,
+      "transitions": 32
+    },
+    {
+      "pole_lat": 58.83,
+      "pole_lon": -135.93,
+      "n_origins": 4,
+      "boundaries": 24,
+      "transitions": 27
+    },
+    {
+      "pole_lat": 59.88,
+      "pole_lon": -134.89,
+      "n_origins": 4,
+      "boundaries": 29,
+      "transitions": 25
+    },
+    {
+      "pole_lat": -60.12,
+      "pole_lon": 42.1,
+      "n_origins": 4,
+      "boundaries": 29,
+      "transitions": 28
+    },
+    {
+      "pole_lat": -59.76,
+      "pole_lon": 40.14,
+      "n_origins": 4,
+      "boundaries": 25,
+      "transitions": 27
+    },
+    {
+      "pole_lat": -59.37,
+      "pole_lon": 38.93,
+      "n_origins": 4,
+      "boundaries": 22,
+      "transitions": 31
+    },
+    {
+      "pole_lat": -59.14,
+      "pole_lon": 39.59,
+      "n_origins": 4,
+      "boundaries": 22,
+      "transitions": 26
+    }
+  ],
+  "boundary_verdict": "CIRCLE-SPECIFIC: Most 4-origin circles do NOT show high tectonic diversity",
+  "transition_verdict": "CIRCLE-SPECIFIC: Most 4-origin circles do NOT show high circumscription",
+  "conclusion": "MECHANISM IS CIRCLE-SPECIFIC: Only 11/45 4-origin circles match tectonic diversity and 12/45 match circumscription. The pattern is specific to Alison's circle, not a general property of 4-origin circles."
+}

@@ -1,0 +1,90 @@
+{
+  "7_standard": {
+    "label": "7_standard",
+    "n_origins": 7,
+    "alison_within": 4,
+    "hits": [
+      "Egypt",
+      "Mesopotamia",
+      "Indus",
+      "Andes"
+    ],
+    "distances": {
+      "Egypt": 6.3,
+      "Mesopotamia": 120.2,
+      "Indus": 26.6,
+      "China_Erlitou": 2122.5,
+      "Mesoamerica": 4558.2,
+      "Andes": 16.8,
+      "West_Africa": 1124.0
+    },
+    "p_value": 0.00045,
+    "n_random_ge": 45
+  },
+  "8_norte_chico": {
+    "label": "8_norte_chico",
+    "n_origins": 8,
+    "alison_within": 4,
+    "hits": [
+      "Egypt",
+      "Mesopotamia",
+      "Indus",
+      "Andes"
+    ],
+    "distances": {
+      "Egypt": 6.3,
+      "Mesopotamia": 120.2,
+      "Indus": 26.6,
+      "China_Erlitou": 2122.5,
+      "Mesoamerica": 4558.2,
+      "Andes": 16.8,
+      "West_Africa": 1124.0,
+      "Norte_Chico": 486.5
+    },
+    "p_value": 0.00061,
+    "n_random_ge": 61
+  },
+  "6_no_west_africa": {
+    "label": "6_no_west_africa",
+    "n_origins": 6,
+    "alison_within": 4,
+    "hits": [
+      "Egypt",
+      "Mesopotamia",
+      "Indus",
+      "Andes"
+    ],
+    "distances": {
+      "Egypt": 6.3,
+      "Mesopotamia": 120.2,
+      "Indus": 26.6,
+      "China_Erlitou": 2122.5,
+      "Mesoamerica": 4558.2,
+      "Andes": 16.8
+    },
+    "p_value": 0.00045,
+    "n_random_ge": 45
+  },
+  "7_anyang": {
+    "label": "7_anyang",
+    "n_origins": 7,
+    "alison_within": 4,
+    "hits": [
+      "Egypt",
+      "Mesopotamia",
+      "Indus",
+      "Andes"
+    ],
+    "distances": {
+      "Egypt": 6.3,
+      "Mesopotamia": 120.2,
+      "Indus": 26.6,
+      "Mesoamerica": 4558.2,
+      "Andes": 16.8,
+      "West_Africa": 1124.0,
+      "China_Anyang": 2549.8
+    },
+    "p_value": 0.00045,
+    "n_random_ge": 45
+  }
+}

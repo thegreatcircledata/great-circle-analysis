@@ -1,0 +1,111 @@
+{
+  "analysis": "Point Process Model Scoping — Covariate Inventory",
+  "template_paper": "Bilotti, Kempf, Oksanen, Scholtus & Nakoinz (2024) PLOS ONE 10.1371/journal.pone.0297931",
+  "template_method": {
+    "null_model": "CSR (homogeneous Poisson), then inhomogeneous Poisson with covariates",
+    "model_fitting": "ppm() in spatstat (R) — log-linear intensity as function of covariates",
+    "model_selection": "AIC stepwise via step()",
+    "clustering_tests": "K, L, PCF, G, F functions with 999 MC CSR envelopes",
+    "bandwidth": "bw.diggle(), averaged across site types",
+    "site_types": "Separate patterns for settlements vs funerary/ceremonial",
+    "resolution": "90m DEM (matches SRTM for reproducibility)"
+  },
+  "our_approach": {
+    "key_test": "Fit Model A (intensity ~ covariates) vs Model B (intensity ~ covariates + GC_distance). LRT/AIC for whether GC_distance improves monument fit but NOT settlement fit.",
+    "database": "Pleiades (34,470 sites with type classifications)",
+    "implementation": "Python (scipy, custom likelihood) or R (spatstat::ppm)",
+    "observation_window": "Global land surface (custom owin from Natural Earth coastlines)"
+  },
+  "covariate_inventory": {
+    "HAVE_READY": {
+      "elevation_m": {
+        "source": "ETOPO1 Ice Surface (NOAA NCEI)",
+        "file": "data/geophysical/etopo/ETOPO1_Ice_g_gmt4.grd",
+        "resolution": "1 arcminute (~1.8 km)",
+        "status": "READY — already used in ML feature importance analysis"
+      },
+      "dist_to_coast_km": {
+        "source": "Natural Earth 50m coastlines",
+        "file": "data/natural_earth/ne_50m_coastline.shp",
+        "status": "READY — already used in ML feature importance"
+      },
+      "dist_to_river_km": {
+        "source": "Natural Earth 50m rivers/lakes",
+        "file": "data/natural_earth/ne_50m_rivers_lake_centerlines.shp",
+        "status": "READY — already used in ML feature importance"
+      },
+      "abs_latitude": {
+        "source": "Computed from site coordinates",
+        "status": "READY — trivial to compute"
+      },
+      "longitude": {
+        "source": "Computed from site coordinates",
+        "status": "READY — trivial to compute"
+      },
+      "dist_to_gc_km": {
+        "source": "Computed from pole coordinates",
+        "status": "READY — core analysis function"
+      },
+      "seismic_pga": {
+        "source": "GEM Global Seismic Hazard Map",
+        "file": "data/ml_features/gem_seismic_hazard.tif (if present)",
+        "status": "AVAILABLE — used in ML feature importance, check if file still exists"
+      },
+      "cloud_cover": {
+        "source": "Mean annual cloud cover raster",
+        "file": "data/ml_features/cloud_mean_annual.tif (if present)",
+        "status": "AVAILABLE — used in ML feature importance, check if file still exists"
+      }
+    },
+    "NEED_TO_DOWNLOAD": {
+      "slope_degrees": {
+        "source": "Derivable from ETOPO1 or SRTM",
+        "status": "COMPUTE — can derive from existing ETOPO1 using numpy gradient",
+        "effort": "30 minutes"
+      },
+      "precipitation_mm": {
+        "source": "WorldClim v2.1 or CHELSA (mean annual precipitation)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "resolution": "30 arcsecond (~1 km) or 2.5 arcminute",
+        "status": "DOWNLOAD — ~100 MB for 2.5 arcminute global",
+        "effort": "1 hour"
+      },
+      "agricultural_suitability": {
+        "source": "GAEZ v4 (FAO/IIASA) or already have agricultural_suitability.npy",
+        "file": "data/geophysical/agricultural_suitability.npy",
+        "status": "CHECK — may already be computed, verify format"
+      }
+    },
+    "OPTIONAL_NICE_TO_HAVE": {
+      "soil_type": {
+        "source": "SoilGrids 250m (ISRIC)",
+        "status": "NOT NEEDED for first pass — Bilotti didn't use soil either"
+      },
+      "topographic_wetness_index": {
+        "source": "Derivable from DEM",
+        "status": "DEFER — only useful at regional scale, not global"
+      },
+      "distance_to_water_strahler": {
+        "source": "HydroSHEDS / EU-Hydro",
+        "status": "DEFER — Natural Earth rivers are adequate for global scale"
+      }
+    }
+  },
+  "minimum_viable_model": {
+    "covariates": ["elevation_m", "dist_to_coast_km", "dist_to_river_km", "abs_latitude", "dist_to_gc_km"],
+    "test": "LRT comparing Model A (without GC dist) vs Model B (with GC dist), separately for monuments and settlements",
+    "all_data_ready": true,
+    "estimated_effort": "2-3 days including implementation and diagnostics"
+  },
+  "full_model": {
+    "covariates": ["elevation_m", "slope_deg", "dist_to_coast_km", "dist_to_river_km", "precipitation_mm", "abs_latitude", "longitude", "dist_to_gc_km"],
+    "additional_data_needed": ["precipitation (WorldClim)", "slope (compute from ETOPO1)"],
+    "estimated_effort": "4-5 days"
+  },
+  "implementation_notes": {
+    "python_vs_R": "spatstat in R is the gold standard and what reviewers expect. But Python implementation via scipy.optimize (maximum likelihood) or pointpats package is also viable. Recommend R for the final paper figures, Python for prototyping.",
+    "observation_window": "For global analysis, use land polygons from Natural Earth as the observation window. For regional analysis, use continental bounding polygons.",
+    "edge_correction": "Use Ripley isotropic correction explicitly in Kest(). Define custom owin from land polygons.",
+    "key_diagnostic": "rhohat() plots showing monument intensity vs GC distance, separately for monuments and settlements. This is the money figure — if it shows a spike near 0 km for monuments but flat for settlements, the paper writes itself."
+  }
+}

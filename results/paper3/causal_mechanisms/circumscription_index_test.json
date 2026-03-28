@@ -1,0 +1,47 @@
+{
+  "analysis": "Circumscription Index (Proxy)",
+  "method": "Latitude-based subtropical arid belt proxy",
+  "note": "Full analysis requires CGIAR Global Aridity Index raster",
+  "alison": {
+    "subtropical_arid_fraction": 0.578,
+    "arid_humid_transition_fraction": 0.528,
+    "desert_river_interface_fraction": 0.372,
+    "circumscribed_sites_within_200km": 4
+  },
+  "mc": {
+    "n_trials": 1000,
+    "arid": {
+      "alison": 0.578,
+      "mc_mean": 0.243,
+      "p": 0.046,
+      "sig": true
+    },
+    "transition": {
+      "alison": 0.528,
+      "mc_mean": 0.229,
+      "p": 0.037,
+      "sig": true
+    },
+    "desert_river": {
+      "alison": 0.372,
+      "mc_mean": 0.109,
+      "p": 0.014,
+      "sig": true
+    }
+  },
+  "circumscribed_sites": {
+    "Nile Valley": {
+      "dist_km": 8.3
+    },
+    "Mesopotamia": {
+      "dist_km": 116.8
+    },
+    "Indus Valley": {
+      "dist_km": 29.7
+    },
+    "Coastal Peru": {
+      "dist_km": 9.8
+    }
+  },
+  "conclusion": "SIGNIFICANT: Alison circle passes through more of the circumscription-prone latitude belt than typical (arid p=0.0460, transition p=0.0370). All 4 known circumscribed civilization sites fall within 200 km."
+}

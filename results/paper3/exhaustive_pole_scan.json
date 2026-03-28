@@ -1,0 +1,114 @@
+{
+  "analysis": "Exhaustive Pole Search",
+  "grid_resolution_deg": 1.0,
+  "total_poles": 64800,
+  "valid_poles": 56596,
+  "corridor_km": 50.0,
+  "alison": {
+    "pole_lat": 59.682122,
+    "pole_lon": -138.646087,
+    "D": 3.1823014494808093,
+    "mon_in_corridor": 100,
+    "set_in_corridor": 116,
+    "mon_fraction": 0.020554984583761562,
+    "set_fraction": 0.0064591569686508156,
+    "rank": 1937,
+    "percentile": 96.57572973355008,
+    "n_poles_ge_D": 1938
+  },
+  "top_10_poles": [
+    {
+      "rank": 1,
+      "pole_lat": -8.5,
+      "pole_lon": 69.5,
+      "D": 44.29763617677287,
+      "mon_in_corridor": 12,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 2,
+      "pole_lat": 8.5,
+      "pole_lon": -110.5,
+      "D": 44.29763617677287,
+      "mon_in_corridor": 12,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 3,
+      "pole_lat": 27.5,
+      "pole_lon": -146.5,
+      "D": 36.914696813977386,
+      "mon_in_corridor": 10,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 4,
+      "pole_lat": -27.5,
+      "pole_lon": 33.5,
+      "D": 36.914696813977386,
+      "mon_in_corridor": 10,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 5,
+      "pole_lat": -9.5,
+      "pole_lon": 67.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 6,
+      "pole_lat": -26.5,
+      "pole_lon": 34.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 7,
+      "pole_lat": 25.5,
+      "pole_lon": -148.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 8,
+      "pole_lat": 26.5,
+      "pole_lon": -146.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 9,
+      "pole_lat": 9.5,
+      "pole_lon": -111.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    },
+    {
+      "rank": 10,
+      "pole_lat": -25.5,
+      "pole_lon": 31.5,
+      "D": 33.22322713257965,
+      "mon_in_corridor": 9,
+      "set_in_corridor": 1
+    }
+  ],
+  "computation_time_sec": 31.375240325927734,
+  "D_distribution": {
+    "mean": 1.1729939214042977,
+    "median": 1.0,
+    "std": 1.4991837453736612,
+    "min": 0.04147718743143527,
+    "max": 44.29763617677287,
+    "p5": 0.3355881528543399,
+    "p25": 0.8072013703323057,
+    "p75": 1.0,
+    "p95": 2.394839836757609,
+    "p99": 7.382939362795478
+  }
+}

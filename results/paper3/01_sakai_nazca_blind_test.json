@@ -1,0 +1,31 @@
+{
+  "analysis": "Sakai Nazca Blind Test (Study Area Level)",
+  "paper": "Sakai et al. (2024) PNAS 121(40) e2407652121",
+  "data_status": "Individual coordinates restricted by Peruvian Ministry of Culture",
+  "contact": "Masato Sakai, sakai@human.kj.yamagata-u.ac.jp",
+  "nazca_center": {
+    "lat": -14.72,
+    "lon": -75.13
+  },
+  "center_dist_km": 10.326710579469363,
+  "study_area_km2": 629,
+  "study_area_max_dist_km": 29.539149765176262,
+  "all_in_50km_corridor": true,
+  "all_in_25km_corridor": false,
+  "n_ai_discovered": 303,
+  "n_previously_known": 430,
+  "n_total_figurative": 733,
+  "mc_test": {
+    "n_trials": 10000,
+    "p_value": 0.0017,
+    "expected_dist": 3114.9505852654756,
+    "fraction_through_area": 0.0049
+  },
+  "known_geoglyph_dists": {
+    "mean": 8.727519549723597,
+    "min": 1.1924259188435826,
+    "max": 14.827606748891412
+  },
+  "gc_bearing_at_nazca": 63.13922965741108,
+  "action_needed": "Contact Sakai for coordinates to enable fine-grained test"
+}
