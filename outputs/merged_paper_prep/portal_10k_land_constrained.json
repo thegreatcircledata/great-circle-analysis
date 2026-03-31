@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "database": "Megalithic Portal",
+  "n_sites": 61913,
+  "threshold_km": 50,
+  "observed_within_threshold": 319,
+  "n_trials": 10000,
+  "sigma_deg": 2.0,
+  "max_jitter_attempts": 50,
+  "method": "Distribution-matched MC, Gaussian jitter sigma=2deg, rasterized land mask (0.1deg NE 1:10M), land-constrained only",
+  "land_constrained": {
+    "observed": 319,
+    "mc_mean": 197.04,
+    "mc_std": 13.9,
+    "z_score": 8.77,
+    "enrichment": 1.619,
+    "p_value": 0.0
+  },
+  "fallback_rate": 0.002308,
+  "time_s": 1783.8,
+  "note": "Definitive N=10,000 run matching Pleiades coastal correction methodology"
+}

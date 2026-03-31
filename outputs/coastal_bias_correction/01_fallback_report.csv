@@ -1,0 +1,4 @@
+category,name,lat,lon,fallback_count,fallback_rate
+monumental,Clickimin broch,60.1491793009,-1.16565466361,3,0.003
+monumental_ancient,Clickimin broch,60.1491793009,-1.16565466361,1,0.001
+settlement,Monte Finocchito,36.9098747,14.9988753,1,0.001

@@ -1,0 +1,73 @@
+{
+  "description": "Land-constrained divergence (D = Z_monument - Z_settlement) for Portal, p3k14c, DARE",
+  "method": "land_constrained_mc",
+  "sigma_deg": 2.0,
+  "threshold_km": 50,
+  "max_attempts": 50,
+  "n_trials": 1000,
+  "results": {
+    "portal_non_eu": {
+      "monument": {
+        "n_sites": 4798,
+        "observed": 239,
+        "mc_mean": 143.352,
+        "mc_std": 10.560758761832675,
+        "z_score": 9.057,
+        "enrichment": 1.667
+      },
+      "settlement": {
+        "n_sites": 1134,
+        "observed": 80,
+        "mc_mean": 51.065,
+        "mc_std": 6.4291608401959515,
+        "z_score": 4.501,
+        "enrichment": 1.567
+      },
+      "divergence_D": 4.556,
+      "n_trials": 1000,
+      "correction": "land_constrained"
+    },
+    "p3k14c": {
+      "monument": {
+        "n_sites": 299,
+        "observed": 0,
+        "mc_mean": 0.0,
+        "mc_std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0
+      },
+      "settlement": {
+        "n_sites": 901,
+        "observed": 0,
+        "mc_mean": 0.0,
+        "mc_std": 0.0,
+        "z_score": 0.0,
+        "enrichment": 0.0
+      },
+      "divergence_D": 0.0,
+      "n_trials": 1000,
+      "correction": "land_constrained"
+    },
+    "dare": {
+      "monument": {
+        "n_sites": 921,
+        "observed": 1,
+        "mc_mean": 10.687,
+        "mc_std": 2.951905273674063,
+        "z_score": -3.282,
+        "enrichment": 0.094
+      },
+      "settlement": {
+        "n_sites": 18255,
+        "observed": 90,
+        "mc_mean": 215.758,
+        "mc_std": 13.635958909272768,
+        "z_score": -9.223,
+        "enrichment": 0.417
+      },
+      "divergence_D": 5.941,
+      "n_trials": 1000,
+      "correction": "land_constrained"
+    }
+  }
+}

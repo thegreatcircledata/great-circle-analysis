@@ -1,0 +1,114 @@
+{
+  "monumental_ancient": {
+    "n_sites": 406,
+    "observed": 40,
+    "tests": {
+      "full": {
+        "n_sites": 406,
+        "excluded": 0,
+        "observed": 40,
+        "mc_mean": 15.76,
+        "mc_std": 3.42,
+        "z_score": 7.08,
+        "enrichment": 2.54,
+        "p_value": 0.0
+      },
+      "no_easter_island": {
+        "n_sites": 406,
+        "excluded": 0,
+        "observed": 40,
+        "mc_mean": 15.76,
+        "mc_std": 3.42,
+        "z_score": 7.08,
+        "enrichment": 2.54,
+        "p_value": 0.0
+      },
+      "no_small_islands": {
+        "n_sites": 290,
+        "excluded": 116,
+        "observed": 40,
+        "mc_mean": 15.42,
+        "mc_std": 3.56,
+        "z_score": 6.91,
+        "enrichment": 2.59,
+        "p_value": 0.0
+      },
+      "no_coastal_egypt": {
+        "n_sites": 387,
+        "excluded": 19,
+        "observed": 24,
+        "mc_mean": 11.39,
+        "mc_std": 3.17,
+        "z_score": 3.98,
+        "enrichment": 2.11,
+        "p_value": 0.001
+      },
+      "no_all_coastal": {
+        "n_sites": 271,
+        "excluded": 135,
+        "observed": 24,
+        "mc_mean": 11.14,
+        "mc_std": 3.1,
+        "z_score": 4.15,
+        "enrichment": 2.15,
+        "p_value": 0.0
+      }
+    }
+  },
+  "settlement_ancient": {
+    "n_sites": 557,
+    "observed": 14,
+    "tests": {
+      "full": {
+        "n_sites": 557,
+        "excluded": 0,
+        "observed": 14,
+        "mc_mean": 27.7,
+        "mc_std": 4.93,
+        "z_score": -2.78,
+        "enrichment": 0.51,
+        "p_value": 0.998
+      },
+      "no_easter_island": {
+        "n_sites": 557,
+        "excluded": 0,
+        "observed": 14,
+        "mc_mean": 27.7,
+        "mc_std": 4.93,
+        "z_score": -2.78,
+        "enrichment": 0.51,
+        "p_value": 0.998
+      },
+      "no_small_islands": {
+        "n_sites": 512,
+        "excluded": 45,
+        "observed": 14,
+        "mc_mean": 27.7,
+        "mc_std": 4.91,
+        "z_score": -2.79,
+        "enrichment": 0.51,
+        "p_value": 1.0
+      },
+      "no_coastal_egypt": {
+        "n_sites": 525,
+        "excluded": 32,
+        "observed": 11,
+        "mc_mean": 20.97,
+        "mc_std": 4.12,
+        "z_score": -2.42,
+        "enrichment": 0.52,
+        "p_value": 0.998
+      },
+      "no_all_coastal": {
+        "n_sites": 480,
+        "excluded": 77,
+        "observed": 11,
+        "mc_mean": 20.5,
+        "mc_std": 4.31,
+        "z_score": -2.2,
+        "enrichment": 0.54,
+        "p_value": 0.993
+      }
+    }
+  }
+}

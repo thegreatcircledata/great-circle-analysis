@@ -1,0 +1,107 @@
+{
+  "_metadata": {
+    "generated": "2026-03-30",
+    "purpose": "Complete database inventory for Papers 1 and 2 with raw and deduplicated counts",
+    "source": "merged_paper_verified_numbers.json, results/*.json, paper text"
+  },
+
+  "databases": {
+    "megalithic_portal": {
+      "paper": 1,
+      "raw_entries": 61870,
+      "supplement_sites": 43,
+      "deduplicated_sites": 61913,
+      "note": "61,870 Portal + 43 supplementary sites = 61,913 total",
+      "raw_equals_dedup": true
+    },
+    "pleiades": {
+      "paper": 1,
+      "raw_entries": 34470,
+      "deduplicated_sites": 34470,
+      "note": "No deduplication needed; each entry is a unique place",
+      "raw_equals_dedup": true
+    },
+    "p3k14c": {
+      "paper": 1,
+      "raw_entries": 173946,
+      "raw_entries_note": "173,946 radiocarbon dates from Bird et al. 2022 (180,070 total; 173,946 after cleaning)",
+      "dates_after_coord_filter": 170150,
+      "dates_after_coord_filter_note": "170,150 retained after filtering for valid coordinates",
+      "deduplicated_sites_by_SiteID": 36693,
+      "deduplicated_sites_in_z_computation": 25557,
+      "deduplicated_sites_note": "36,693 unique SiteID-deduplicated sites; 25,557 in the upgraded Z computation (different dedup method)",
+      "raw_equals_dedup": false
+    },
+    "xronos": {
+      "paper": 2,
+      "raw_entries": 305400,
+      "deduplicated_sites": 28127,
+      "country_count": 125,
+      "note": "305,400 radiocarbon records from 28,127 unique sites",
+      "raw_equals_dedup": false
+    },
+    "dare": {
+      "paper": 2,
+      "raw_entries": 29760,
+      "deduplicated_sites": 29760,
+      "note": "Digital Atlas of the Roman Empire; each entry is a unique place",
+      "raw_equals_dedup": true
+    },
+    "peru_ministry": {
+      "paper": 2,
+      "raw_entries": 17465,
+      "deduplicated_sites": 17465,
+      "note": "Peru Ministry of Culture geoportal; georeferenced archaeological sites",
+      "raw_equals_dedup": true
+    },
+    "saaid": {
+      "paper": 2,
+      "raw_entries": 2429,
+      "deduplicated_sites": 2429,
+      "note": "South American Archaeological Isotopic Database v2.0; unique sites",
+      "raw_equals_dedup": true
+    },
+    "cnsa_iphan": {
+      "paper": 2,
+      "raw_entries": 27582,
+      "geocoded_sites": 27190,
+      "deduplicated_sites": 27582,
+      "note": "27,582 total sites; 27,190 successfully geocoded (392 failures)",
+      "raw_equals_dedup": true
+    },
+    "historic_england": {
+      "paper": 2,
+      "raw_entries": 20026,
+      "deduplicated_sites": 20026,
+      "note": "Negative control database; circle does not pass within 50 km of UK",
+      "raw_equals_dedup": true
+    },
+    "luwian_site_atlas": {
+      "paper": 2,
+      "raw_entries": 483,
+      "deduplicated_sites": 483,
+      "note": "Bronze Age western Anatolia (2000-1200 BCE); null result (0/483 within 500 km)",
+      "raw_equals_dedup": true
+    }
+  },
+
+  "totals": {
+    "total_A_deduplicated_unique_sites": {
+      "value": 258948,
+      "breakdown": "61913 + 34470 + 36693 + 28127 + 29760 + 17465 + 2429 + 27582 + 20026 + 483",
+      "note": "Sum of deduplicated unique sites across all 10 databases (using 36,693 for p3k14c SiteID dedup)"
+    },
+    "total_B_raw_entries_for_radiocarbon_dbs": {
+      "value": 605489,
+      "breakdown": "61913 + 34470 + 173946 + 305400 + 29760",
+      "note": "Treating p3k14c as 173,946 raw dates and XRONOS as 305,400 raw records; first 5 databases only",
+      "all_10_with_raw": 637461,
+      "all_10_breakdown": "61913 + 34470 + 173946 + 305400 + 29760 + 17465 + 2429 + 27582 + 20026 + 483"
+    },
+    "which_supports_550k_claim": {
+      "answer": "Total B (raw entries)",
+      "explanation": "The '550,000 entries' claim in Paper 2 counts raw database entries/dates, not deduplicated sites. The 5-database raw sum is 605,489, making 550K an undercount. The deduplicated site total is only ~259K, which does not support the 550K figure.",
+      "recommendation": "Say 'over 550,000 database entries' or '~259,000 unique archaeological sites'. Never say '550,000 sites'."
+    }
+  }
+}

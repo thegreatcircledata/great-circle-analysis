@@ -1,0 +1,35 @@
+{
+  "task": "Task 5: LGM Connectivity Z-Scores",
+  "date": "2026-03-30",
+  "status": "VERIFIED",
+  "source": "outputs/hemisphere_decomposition/lgm_connectivity_test.json",
+  "lgm_connected": {
+    "description": "Megalithic Portal sites in LGM land-connected regions (Egypt, Iran, Indus, SE Asia)",
+    "n_sites": 1337,
+    "observed_within_50km": 229,
+    "expected": 108.06,
+    "std": 9.63,
+    "z_score": 12.56,
+    "enrichment": 2.119,
+    "mc_trials": 200,
+    "threshold_km": 50
+  },
+  "ocean_separated": {
+    "description": "Megalithic Portal sites separated by ocean (Peru, Easter Island, etc.)",
+    "n_sites": 340,
+    "observed_within_50km": 89,
+    "expected": 24.82,
+    "std": 5.1,
+    "z_score": 12.58,
+    "enrichment": 3.586,
+    "mc_trials": 200,
+    "threshold_km": 50
+  },
+  "comparison": {
+    "lgm_z": 12.56,
+    "ocean_z": 12.58,
+    "z_difference": -0.02,
+    "interpretation": "Near-identical Z-scores. Signal is NOT confined to LGM-connected landmasses."
+  },
+  "note": "Both Z-scores use 200 MC trials (unconstrained). Not corrected for coastal bias."
+}

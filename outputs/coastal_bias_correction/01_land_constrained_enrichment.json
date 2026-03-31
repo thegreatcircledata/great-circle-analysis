@@ -1,0 +1,118 @@
+{
+  "monumental_ancient": {
+    "n_sites": 406,
+    "observed": 40,
+    "unconstrained_1k": {
+      "observed": 40,
+      "mc_mean": 8.14,
+      "mc_std": 2.86,
+      "z_score": 11.14,
+      "enrichment": 4.91,
+      "p_value": 0.0
+    },
+    "land_constrained_1k": {
+      "observed": 40,
+      "mc_mean": 15.76,
+      "mc_std": 3.42,
+      "z_score": 7.08,
+      "enrichment": 2.54,
+      "p_value": 0.0
+    },
+    "land_constrained_10k": {
+      "observed": 40,
+      "mc_mean": 15.9,
+      "mc_std": 3.58,
+      "z_score": 6.74,
+      "enrichment": 2.52,
+      "p_value": 0.0
+    },
+    "fallback_rate": 2e-06
+  },
+  "settlement_ancient": {
+    "n_sites": 557,
+    "observed": 14,
+    "unconstrained_1k": {
+      "observed": 14,
+      "mc_mean": 18.8,
+      "mc_std": 4.28,
+      "z_score": -1.12,
+      "enrichment": 0.74,
+      "p_value": 0.895
+    },
+    "land_constrained_1k": {
+      "observed": 14,
+      "mc_mean": 27.7,
+      "mc_std": 4.93,
+      "z_score": -2.78,
+      "enrichment": 0.51,
+      "p_value": 0.998
+    },
+    "land_constrained_10k": {
+      "observed": 14,
+      "mc_mean": 28.01,
+      "mc_std": 4.81,
+      "z_score": -2.91,
+      "enrichment": 0.5,
+      "p_value": 0.9996
+    },
+    "fallback_rate": 0.0
+  },
+  "monumental": {
+    "n_sites": 4598,
+    "observed": 83,
+    "unconstrained_1k": {
+      "observed": 83,
+      "mc_mean": 46.59,
+      "mc_std": 6.94,
+      "z_score": 5.25,
+      "enrichment": 1.78,
+      "p_value": 0.0
+    },
+    "land_constrained_1k": {
+      "observed": 83,
+      "mc_mean": 78.03,
+      "mc_std": 7.95,
+      "z_score": 0.63,
+      "enrichment": 1.06,
+      "p_value": 0.293
+    },
+    "land_constrained_10k": {
+      "observed": 83,
+      "mc_mean": 78.03,
+      "mc_std": 7.95,
+      "z_score": 0.63,
+      "enrichment": 1.06,
+      "p_value": 0.293
+    },
+    "fallback_rate": 1e-06
+  },
+  "settlement": {
+    "n_sites": 18037,
+    "observed": 118,
+    "unconstrained_1k": {
+      "observed": 118,
+      "mc_mean": 144.72,
+      "mc_std": 11.89,
+      "z_score": -2.25,
+      "enrichment": 0.82,
+      "p_value": 0.991
+    },
+    "land_constrained_1k": {
+      "observed": 118,
+      "mc_mean": 266.44,
+      "mc_std": 14.89,
+      "z_score": -9.97,
+      "enrichment": 0.44,
+      "p_value": 1.0
+    },
+    "land_constrained_10k": {
+      "observed": 118,
+      "mc_mean": 266.44,
+      "mc_std": 14.89,
+      "z_score": -9.97,
+      "enrichment": 0.44,
+      "p_value": 1.0
+    },
+    "fallback_rate": 0.0
+  }
+}

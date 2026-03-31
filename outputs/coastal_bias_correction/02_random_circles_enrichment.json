@@ -1,0 +1,50 @@
+{
+  "monumental": {
+    "n_sites": 4598,
+    "observed": 83,
+    "random_circles_10k": {
+      "observed": 83,
+      "mc_mean": 36.98,
+      "mc_std": 84.37,
+      "z_score": 0.55,
+      "enrichment": 2.24,
+      "p_value": 0.1546
+    }
+  },
+  "settlement": {
+    "n_sites": 18037,
+    "observed": 118,
+    "random_circles_10k": {
+      "observed": 118,
+      "mc_mean": 144.97,
+      "mc_std": 262.28,
+      "z_score": -0.1,
+      "enrichment": 0.81,
+      "p_value": 0.2981
+    }
+  },
+  "monumental_ancient": {
+    "n_sites": 406,
+    "observed": 40,
+    "random_circles_10k": {
+      "observed": 40,
+      "mc_mean": 3.31,
+      "mc_std": 10.63,
+      "z_score": 3.45,
+      "enrichment": 12.1,
+      "p_value": 0.0203
+    }
+  },
+  "settlement_ancient": {
+    "n_sites": 557,
+    "observed": 14,
+    "random_circles_10k": {
+      "observed": 14,
+      "mc_mean": 4.57,
+      "mc_std": 10.5,
+      "z_score": 0.9,
+      "enrichment": 3.06,
+      "p_value": 0.1094
+    }
+  }
+}

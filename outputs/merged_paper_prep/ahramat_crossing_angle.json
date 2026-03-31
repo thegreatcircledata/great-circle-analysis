@@ -1,0 +1,24 @@
+{
+  "task": "Task 9: Ahramat Branch Crossing Angle",
+  "date": "2026-03-30",
+  "status": "CLARIFIED — ~107° is not exact at any computed scale",
+  "source": "The Great Circle/outputs/ahramat_intersection/intersection_geometry.json",
+  "angles_by_scale": {
+    "note": "The analysis script computes the ACUTE angle between the Great Circle bearing and the Ahramat Branch bearing at each scale. Values below are the acute angles.",
+    "2km": {"acute_angle": 54.21, "obtuse_supplement": 125.79, "branch_bearing": 139.07, "gc_bearing": 84.87},
+    "5km": {"acute_angle": 54.21, "obtuse_supplement": 125.79},
+    "10km": {"acute_angle": 59.27, "obtuse_supplement": 120.73},
+    "20km": {"acute_angle": 70.07, "obtuse_supplement": 109.93},
+    "50km": {"acute_angle": 81.30, "obtuse_supplement": 98.70},
+    "full_branch": {"acute_angle": 86.12, "obtuse_supplement": 93.88}
+  },
+  "closest_to_107": {
+    "scale": "20 km",
+    "obtuse_angle": 109.93,
+    "delta_from_107": 2.93
+  },
+  "recommendation": {
+    "for_merged_paper": "Report as: 'The Great Circle crosses the Ahramat Branch at approximately 70° (acute) or 110° (obtuse) measured at the 20 km scale.' If the paper prefers to cite ~107°, note that this falls between the 20 km (110°) and 50 km (99°) scales and is approximate. Specify the convention (acute vs obtuse) and scale explicitly.",
+    "alternative": "Use the 50 km scale acute angle of 81.3° for a more conservative 'approximately perpendicular' framing."
+  }
+}

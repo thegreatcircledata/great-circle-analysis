@@ -1,0 +1,54 @@
+{
+  "task": "Task 10: Benjamini-Hochberg correction for paleoclimate correlations",
+  "source_data": "results/paleoclimate_correlation.json",
+  "date": "2026-03-30",
+
+  "raw_p_values": {
+    "note": "Paper reports Soreq Cave δ18O at 500-year lag: r=-0.77, p=0.025. This is p3k14c × Soreq.",
+    "p3k14c_soreq_lag0":   {"r": -0.356,  "p": 0.386693, "n": 8},
+    "p3k14c_soreq_lag250": {"r": -0.655,  "p": 0.077944, "n": 8},
+    "p3k14c_soreq_lag500": {"r": -0.7698, "p": 0.025462, "n": 8}
+  },
+
+  "bh_correction_3_tests": {
+    "note": "Correcting across k=3 lags for p3k14c × Soreq only",
+    "k": 3,
+    "q": 0.05,
+    "sorted_p": [0.025462, 0.077944, 0.386693],
+    "bh_thresholds": [0.01667, 0.03333, 0.05000],
+    "adjusted_p_values": {
+      "lag500_p_adj": 0.07639,
+      "lag250_p_adj": 0.11692,
+      "lag0_p_adj": 0.38669
+    },
+    "any_significant_at_q005": false,
+    "note2": "Paper's claim of 'adjusted p ≈ 0.075' matches: 0.025462 × 3 = 0.07639 ≈ 0.076"
+  },
+
+  "bh_correction_12_tests": {
+    "note": "Correcting across ALL 12 tests (2 databases × 2 proxies × 3 lags)",
+    "k": 12,
+    "raw_p_values_sorted": [
+      {"test": "p3k14c_soreq_lag500", "p": 0.025462},
+      {"test": "p3k14c_soreq_spearman_lag500", "p": 0.044623},
+      {"test": "pleiades_soreq_lag250", "p": 0.049107},
+      {"test": "pleiades_soreq_lag0", "p": 0.080166},
+      {"test": "pleiades_gisp2_lag250", "p": 0.082723},
+      {"test": "p3k14c_gisp2_lag500", "p": 0.083775},
+      {"test": "p3k14c_soreq_lag250", "p": 0.077944},
+      {"test": "pleiades_gisp2_lag500", "p": 0.112700},
+      {"test": "pleiades_soreq_lag500", "p": 0.198648},
+      {"test": "pleiades_gisp2_lag0", "p": 0.202635},
+      {"test": "p3k14c_gisp2_lag250", "p": 0.230651},
+      {"test": "p3k14c_soreq_lag0", "p": 0.386693}
+    ],
+    "best_adjusted_p": 0.305,
+    "note2": "Under full 12-test correction: 0.025462 × 12 = 0.306. Nothing survives."
+  },
+
+  "recommendation": {
+    "paper_should_report": "BH-adjusted p = 0.076 (k=3 lags, p3k14c × Soreq). This is the most defensible correction family: 3 lags tested for the same proxy-database pair.",
+    "full_correction": "Under the full 12-test correction, adjusted p = 0.31. The correlation is suggestive but does not survive multiple testing.",
+    "paper_claim_verified": "The ~0.075 figure matches 0.076 (3-test BH). VERIFIED."
+  }
+}

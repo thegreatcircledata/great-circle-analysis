@@ -1,0 +1,30 @@
+{
+  "task": "Task 6: Egypt-Removed Z=4.51 Clarification",
+  "date": "2026-03-30",
+  "status": "VERIFIED — two different metrics",
+  "source": "outputs/peer_review_response/spatial_block_validation.json",
+  "egypt_removed_enrichment": {
+    "description": "Overall enrichment Z-score with Egypt-cluster sites removed (ALL site types combined)",
+    "cluster_removed": "egypt_levant (center: 30°N, 32°E, radius: 500 km)",
+    "sites_removed": 556,
+    "remaining_sites": 61357,
+    "dataset": "Megalithic Portal + Pleiades merged",
+    "z_score": 4.51,
+    "observed": 115,
+    "expected": 75.95,
+    "enrichment": 1.514,
+    "mc_trials": 1000,
+    "threshold_km": 50,
+    "empirical_p": 0.000999
+  },
+  "egypt_removed_divergence": {
+    "description": "Monument-settlement DIVERGENCE with Egypt removed (separate Z for each type)",
+    "monument_z": -1.31,
+    "settlement_z": -0.67,
+    "divergence_D": -0.64,
+    "note": "With Egypt removed, the monument-settlement divergence collapses to near zero. This is expected — Egypt drives the divergence signal."
+  },
+  "recommendation": {
+    "for_merged_paper": "Report BOTH metrics clearly: 'With Egypt removed, overall enrichment remains significant (Z=4.51, p<0.001) but monument-settlement divergence collapses (D=-0.64).' The first shows the circle signal exists beyond Egypt; the second shows the divergence is Egypt-driven."
+  }
+}

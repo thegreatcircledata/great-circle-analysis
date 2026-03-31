@@ -1,0 +1,91 @@
+{
+  "comparison_table": {
+    "monumental_ancient": {
+      "n_sites": 406,
+      "observed": 40,
+      "original_unconstrained": {
+        "observed": 40,
+        "mc_mean": 8.14,
+        "mc_std": 2.86,
+        "z_score": 11.14,
+        "enrichment": 4.91,
+        "p_value": 0.0
+      },
+      "land_constrained_1k": {
+        "observed": 40,
+        "mc_mean": 15.76,
+        "mc_std": 3.42,
+        "z_score": 7.08,
+        "enrichment": 2.54,
+        "p_value": 0.0
+      },
+      "land_constrained_10k": {
+        "observed": 40,
+        "mc_mean": 15.9,
+        "mc_std": 3.58,
+        "z_score": 6.74,
+        "enrichment": 2.52,
+        "p_value": 0.0
+      },
+      "random_circles_10k": {
+        "observed": 40,
+        "mc_mean": 3.31,
+        "mc_std": 10.63,
+        "z_score": 3.45,
+        "enrichment": 12.1,
+        "p_value": 0.0203
+      },
+      "fallback_rate": 2e-06
+    },
+    "settlement_ancient": {
+      "n_sites": 557,
+      "observed": 14,
+      "original_unconstrained": {
+        "observed": 14,
+        "mc_mean": 18.8,
+        "mc_std": 4.28,
+        "z_score": -1.12,
+        "enrichment": 0.74,
+        "p_value": 0.895
+      },
+      "land_constrained_1k": {
+        "observed": 14,
+        "mc_mean": 27.7,
+        "mc_std": 4.93,
+        "z_score": -2.78,
+        "enrichment": 0.51,
+        "p_value": 0.998
+      },
+      "land_constrained_10k": {
+        "observed": 14,
+        "mc_mean": 28.01,
+        "mc_std": 4.81,
+        "z_score": -2.91,
+        "enrichment": 0.5,
+        "p_value": 0.9996
+      },
+      "random_circles_10k": {
+        "observed": 14,
+        "mc_mean": 4.57,
+        "mc_std": 10.5,
+        "z_score": 0.9,
+        "enrichment": 3.06,
+        "p_value": 0.1094
+      },
+      "fallback_rate": 0.0
+    }
+  },
+  "key_findings": [
+    "Monument Z-score drops from 11.14 (unconstrained) to 6.74 (land-constrained, N=10k): 39.5% reduction",
+    "Random circles (Approach B) Z-score: 3.45",
+    "Fallback rate: 0.00%",
+    "Settlement Z-score (land-constrained): -2.91",
+    "Monument-settlement divergence persists: 9.65 (land-constrained 10k)"
+  ],
+  "divergences": {
+    "original_unconstrained": 12.26,
+    "land_constrained_1k": 9.86,
+    "land_constrained_10k": 9.65,
+    "random_circles_10k": 2.55
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-30",
+  "method": "Distribution-matched MC, Gaussian jitter \u03c3=2\u00b0, rasterized land mask (0.1\u00b0 NE 1:10M)",
+  "threshold_km": 50,
+  "sigma_deg": 2.0,
+  "max_jitter_attempts": 50,
+  "xronos": {
+    "database": "XRONOS",
+    "n_sites": 28127,
+    "threshold_km": 50,
+    "observed_within_threshold": 316,
+    "n_trials": 1000,
+    "unconstrained": {
+      "observed": 316,
+      "mc_mean": 160.91,
+      "mc_std": 12.5,
+      "z_score": 12.4,
+      "enrichment": 1.964,
+      "p_value": 0.0
+    },
+    "land_constrained": {
+      "observed": 316,
+      "mc_mean": 225.8,
+      "mc_std": 15.26,
+      "z_score": 5.91,
+      "enrichment": 1.399,
+      "p_value": 0.0
+    },
+    "fallback_rate": 0.001751,
+    "z_reduction_pct": 52.3,
+    "time_unconstrained_s": 28.6,
+    "time_land_constrained_s": 68.5
+  },
+  "p3k14c": {
+    "database": "p3k14c",
+    "n_sites": 36693,
+    "threshold_km": 50,
+    "observed_within_threshold": 187,
+    "n_trials": 1000,
+    "unconstrained": {
+      "observed": 187,
+      "mc_mean": 106.36,
+      "mc_std": 10.37,
+      "z_score": 7.77,
+      "enrichment": 1.758,
+      "p_value": 0.0
+    },
+    "land_constrained": {
+      "observed": 187,
+      "mc_mean": 160.6,
+      "mc_std": 12.63,
+      "z_score": 2.09,
+      "enrichment": 1.164,
+      "p_value": 0.02
+    },
+    "fallback_rate": 0.001301,
+    "z_reduction_pct": 73.1,
+    "time_unconstrained_s": 39.4,
+    "time_land_constrained_s": 84.4
+  },
+  "megalithic_portal": {
+    "database": "Megalithic Portal",
+    "n_sites": 61913,
+    "threshold_km": 50,
+    "observed_within_threshold": 319,
+    "n_trials": 200,
+    "unconstrained": {
+      "observed": 319,
+      "mc_mean": 149.26,
+      "mc_std": 12.86,
+      "z_score": 13.2,
+      "enrichment": 2.137,
+      "p_value": 0.0
+    },
+    "land_constrained": {
+      "observed": 319,
+      "mc_mean": 197.15,
+      "mc_std": 13.49,
+      "z_score": 9.04,
+      "enrichment": 1.618,
+      "p_value": 0.0
+    },
+    "fallback_rate": 0.002311,
+    "z_reduction_pct": 31.5,
+    "time_unconstrained_s": 12.5,
+    "time_land_constrained_s": 35.0,
+    "definitive_10k": {
+      "n_trials": 10000,
+      "land_constrained": {
+        "observed": 319,
+        "mc_mean": 197.04,
+        "mc_std": 13.9,
+        "z_score": 8.77,
+        "enrichment": 1.619,
+        "p_value": 0.0
+      },
+      "fallback_rate": 0.002308,
+      "z_reduction_pct": 33.6,
+      "time_s": 1783.8,
+      "note": "Definitive run — USE THIS for paper. N=200 gave 9.04; N=10,000 gives 8.77 (3% convergence drop as expected).",
+      "source": "portal_10k_land_constrained.json"
+    }
+  }
+}

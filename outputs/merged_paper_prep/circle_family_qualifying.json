@@ -1,0 +1,18 @@
+{
+  "task": "Task 4: Circle Family (66 of 100,000)",
+  "date": "2026-03-30",
+  "status": "PARTIALLY VERIFIED — raw output not found but close match exists",
+  "finding": {
+    "paper_claim": "66 of 100,000 random great circles pass within 200 km of Giza+Nazca+Easter Island (1 in 1,515)",
+    "closest_output": {
+      "file": "results/qualifying_circles_divergence.json",
+      "n_qualifying_circles": 60,
+      "method": "1-degree grid scan (not random sampling)",
+      "anchor_threshold_km": 200,
+      "anchors": ["Giza", "Nazca", "Easter Island"]
+    },
+    "discrepancy": "The qualifying_circles_divergence.json finds 60 qualifying poles on a 1-degree grid. The paper claims 66 from 100,000 random poles. These are different methods: grid search vs random sampling. The 66/100,000 random figure has no JSON output.",
+    "note": "100,000 random poles and 60 grid poles yielding similar counts (~60-66) is expected — both sample the same geometric constraint."
+  },
+  "action_required": "Either locate the script that produced the 66/100,000 figure, or rerun with 100,000 random poles and save the output. For the merged paper, consider reporting the grid-based figure (60 qualifying poles on a 1-degree grid) since it has a traceable JSON source."
+}

@@ -1,0 +1,27 @@
+{
+  "task": "p3k14c site count decision",
+  "date": "2026-03-30",
+  "status": "RESOLVED",
+  "finding": "Both datasets yield identical observed count (187 within 50km). The extra ~11K sites in 36,693 dataset contribute nothing near the circle.",
+  "dataset_a": {
+    "n_sites": 25557,
+    "source": "archive/great-circle-analysis (Paper 1 processed dataset)",
+    "observed_50km": 187,
+    "z_unconstrained": 7.86,
+    "z_land_constrained": "NOT COMPUTED",
+    "notes": "Used in Papers 1 and 2 as originally published. Different deduplication: lat/lon-based rather than SiteID-based."
+  },
+  "dataset_b": {
+    "n_sites": 36693,
+    "source": "data/p3k14c/p3k14c_data.csv, SiteID-deduplicated",
+    "observed_50km": 187,
+    "z_unconstrained": 7.77,
+    "z_land_constrained": 2.09,
+    "enrichment_land_constrained": 1.164,
+    "p_value_land_constrained": 0.02,
+    "notes": "More complete dataset; used in land-constrained MC (Task 1). Same 187 observed because additional sites are all >50km from circle."
+  },
+  "recommendation": "Use dataset_b (36,693 sites) for merged paper because: (1) it is the version that has a land-constrained Z-score computed; (2) it is more complete; (3) the observed count is identical so results are directly comparable. Report Z=7.77 (unconstrained) and Z=2.09 (land-constrained). Note that Paper 1 used 25,557 sites (different processing).",
+  "key_point": "The land-constrained Z=2.09 is the figure to use in the merged paper. p=0.02 is marginal — explicitly note this. The unconstrained Z=7.77 is inflated by coastal jitter bias.",
+  "implication": "p3k14c shows only marginal enrichment after land-constraint correction (Z=2.09, p=0.02). This is an important methodological finding and should be reported honestly."
+}

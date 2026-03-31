@@ -1,0 +1,11 @@
+category,mc_trials,observed,mc_mean,mc_std,z_score,enrichment,p_value
+monumental_ancient,200,40,16.13,3.44,6.93,2.48,0.0
+monumental_ancient,500,40,15.9,3.39,7.11,2.52,0.0
+monumental_ancient,1000,40,15.76,3.42,7.08,2.54,0.0
+monumental_ancient,5000,40,15.84,3.54,6.83,2.52,0.0
+monumental_ancient,10000,40,15.9,3.58,6.74,2.52,0.0
+settlement_ancient,200,14,27.71,4.66,-2.95,0.51,1.0
+settlement_ancient,500,14,27.88,4.9,-2.83,0.5,0.998
+settlement_ancient,1000,14,27.7,4.93,-2.78,0.51,0.998
+settlement_ancient,5000,14,27.96,4.82,-2.9,0.5,0.9994
+settlement_ancient,10000,14,28.01,4.81,-2.91,0.5,0.9996

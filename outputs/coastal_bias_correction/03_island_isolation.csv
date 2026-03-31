@@ -1,0 +1,11 @@
+category,exclusion_group,n_sites,excluded,observed,mc_mean,z_score,enrichment,p_value
+monumental_ancient,full,406,0,40,15.76,7.08,2.54,0.0
+monumental_ancient,no_easter_island,406,0,40,15.76,7.08,2.54,0.0
+monumental_ancient,no_small_islands,290,116,40,15.42,6.91,2.59,0.0
+monumental_ancient,no_coastal_egypt,387,19,24,11.39,3.98,2.11,0.001
+monumental_ancient,no_all_coastal,271,135,24,11.14,4.15,2.15,0.0
+settlement_ancient,full,557,0,14,27.7,-2.78,0.51,0.998
+settlement_ancient,no_easter_island,557,0,14,27.7,-2.78,0.51,0.998
+settlement_ancient,no_small_islands,512,45,14,27.7,-2.79,0.51,1.0
+settlement_ancient,no_coastal_egypt,525,32,11,20.97,-2.42,0.52,0.998
+settlement_ancient,no_all_coastal,480,77,11,20.5,-2.2,0.54,0.993

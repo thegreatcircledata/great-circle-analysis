@@ -1,0 +1,307 @@
+{
+  "parameters": {
+    "pole_lat_deg": 59.682122,
+    "pole_lon_deg": -138.646087,
+    "min_date_filter": -2000,
+    "band_width_km": 5,
+    "max_distance_km": 100,
+    "monumental_types": [
+      "acropolis",
+      "amphitheatre",
+      "aqueduct",
+      "arch",
+      "architecturalcomplex",
+      "basilica",
+      "church",
+      "church-2",
+      "dam",
+      "hippodrome",
+      "lighthouse",
+      "monument",
+      "nuraghe",
+      "pyramid",
+      "sanctuary",
+      "shrine",
+      "temple",
+      "temple-2",
+      "theatre",
+      "tomb",
+      "tumulus"
+    ],
+    "settlement_types": [
+      "bath",
+      "bridge",
+      "cistern",
+      "farmstead",
+      "findspot",
+      "fortified-settlement",
+      "mine",
+      "mine-2",
+      "port",
+      "production",
+      "quarry",
+      "settlement",
+      "settlement-modern",
+      "station",
+      "townhouse",
+      "villa",
+      "village"
+    ],
+    "classification": "dual-classified sites counted in both categories"
+  },
+  "global_profile": [
+    {
+      "band_km": "0-5",
+      "monuments": 4,
+      "settlements": 4,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "5-10",
+      "monuments": 22,
+      "settlements": 3,
+      "ratio": 7.3333
+    },
+    {
+      "band_km": "10-15",
+      "monuments": 7,
+      "settlements": 2,
+      "ratio": 3.5
+    },
+    {
+      "band_km": "15-20",
+      "monuments": 2,
+      "settlements": 2,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "20-25",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "25-30",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "30-35",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "35-40",
+      "monuments": 1,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "40-45",
+      "monuments": 2,
+      "settlements": 1,
+      "ratio": 2.0
+    },
+    {
+      "band_km": "45-50",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "50-55",
+      "monuments": 0,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "55-60",
+      "monuments": 2,
+      "settlements": 1,
+      "ratio": 2.0
+    },
+    {
+      "band_km": "60-65",
+      "monuments": 0,
+      "settlements": 4,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "65-70",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "70-75",
+      "monuments": 2,
+      "settlements": 3,
+      "ratio": 0.6667
+    },
+    {
+      "band_km": "75-80",
+      "monuments": 1,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "80-85",
+      "monuments": 4,
+      "settlements": 3,
+      "ratio": 1.3333
+    },
+    {
+      "band_km": "85-90",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "90-95",
+      "monuments": 0,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "95-100",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    }
+  ],
+  "egypt_iran_corridor_profile": [
+    {
+      "band_km": "0-5",
+      "monuments": 4,
+      "settlements": 4,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "5-10",
+      "monuments": 22,
+      "settlements": 3,
+      "ratio": 7.3333
+    },
+    {
+      "band_km": "10-15",
+      "monuments": 7,
+      "settlements": 2,
+      "ratio": 3.5
+    },
+    {
+      "band_km": "15-20",
+      "monuments": 2,
+      "settlements": 2,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "20-25",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "25-30",
+      "monuments": 0,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "30-35",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "35-40",
+      "monuments": 1,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "40-45",
+      "monuments": 2,
+      "settlements": 1,
+      "ratio": 2.0
+    },
+    {
+      "band_km": "45-50",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "50-55",
+      "monuments": 0,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "55-60",
+      "monuments": 2,
+      "settlements": 1,
+      "ratio": 2.0
+    },
+    {
+      "band_km": "60-65",
+      "monuments": 0,
+      "settlements": 4,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "65-70",
+      "monuments": 1,
+      "settlements": 1,
+      "ratio": 1.0
+    },
+    {
+      "band_km": "70-75",
+      "monuments": 2,
+      "settlements": 3,
+      "ratio": 0.6667
+    },
+    {
+      "band_km": "75-80",
+      "monuments": 1,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "80-85",
+      "monuments": 4,
+      "settlements": 3,
+      "ratio": 1.3333
+    },
+    {
+      "band_km": "85-90",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    },
+    {
+      "band_km": "90-95",
+      "monuments": 0,
+      "settlements": 0,
+      "ratio": null
+    },
+    {
+      "band_km": "95-100",
+      "monuments": 0,
+      "settlements": 1,
+      "ratio": 0.0
+    }
+  ],
+  "corridor_bounds": {
+    "lat_range": [
+      20,
+      38
+    ],
+    "lon_range": [
+      25,
+      60
+    ]
+  },
+  "ratio_143_finding": "Neither profile produces a 1.43 ratio at ~10 km."
+}

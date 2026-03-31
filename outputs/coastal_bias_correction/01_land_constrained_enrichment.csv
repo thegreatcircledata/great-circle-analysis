@@ -1,0 +1,5 @@
+category,n_sites,observed,mc_mean_original,z_original,enrichment_original,mc_mean_corrected_1k,z_corrected_1k,enrichment_corrected_1k,mc_mean_corrected_10k,z_corrected_10k,enrichment_corrected_10k,fallback_rate
+monumental_ancient,406,40,8.14,11.14,4.91,15.76,7.08,2.54,15.9,6.74,2.52,2e-06
+settlement_ancient,557,14,18.8,-1.12,0.74,27.7,-2.78,0.51,28.01,-2.91,0.5,0.0
+monumental,4598,83,46.59,5.25,1.78,78.03,0.63,1.06,78.03,0.63,1.06,1e-06
+settlement,18037,118,144.72,-2.25,0.82,266.44,-9.97,0.44,266.44,-9.97,0.44,0.0

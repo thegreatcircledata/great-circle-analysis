@@ -1,0 +1,38 @@
+{
+  "task": "Task 11: Circle Family Divergence Consistency",
+  "date": "2026-03-30",
+  "status": "CLARIFIED — two different MC runs produce different D values",
+  "analysis_1": {
+    "file": "results/triplet_divergence_comparison.json",
+    "alison_D": 8.644,
+    "monument_z": 2.824,
+    "settlement_z": -5.820,
+    "mc_trials": 200,
+    "method": "Targeted Alison circle analysis with 200 MC trials",
+    "dataset": "Pleiades (4,598 monuments, 18,037 settlements)",
+    "threshold_km": 50,
+    "note": "This is the standalone Alison divergence computation"
+  },
+  "analysis_2": {
+    "file": "results/qualifying_circles_divergence.json",
+    "alison_D": 8.264,
+    "monument_z": 2.878,
+    "settlement_z": -5.386,
+    "rank": 5,
+    "of": 60,
+    "percentile": 93.2,
+    "mc_trials": 200,
+    "method": "1-degree grid scan of 60 qualifying circles, each with 200 MC trials",
+    "dataset": "Pleiades (4,598 monuments, 18,037 settlements)",
+    "threshold_km": 50,
+    "note": "Rank/percentile computed across all 60 qualifying circles"
+  },
+  "delta_D": 0.380,
+  "explanation": "Both use 200 MC trials on the same Pleiades data at 50 km. The difference (0.38) is MC sampling variability — different random seeds produce slightly different null distributions, leading to different Z-scores and thus different D.",
+  "recommendation": {
+    "option_A": "Use D=8.64 from triplet comparison AND rerun the qualifying circles analysis with the same seed to get a consistent rank. This gives the highest-fidelity D for Alison.",
+    "option_B": "Use D=8.26 from qualifying circles analysis, which provides a self-consistent D+rank+percentile triple. This is the safer choice.",
+    "preferred": "Option B (D=8.26, rank 5/60, 93.2nd percentile) because all three numbers come from the same analysis run.",
+    "note": "Do NOT mix D=8.64 from analysis 1 with rank 5/60 from analysis 2 in the same sentence."
+  }
+}

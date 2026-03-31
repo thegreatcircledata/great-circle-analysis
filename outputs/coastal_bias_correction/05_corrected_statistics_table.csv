@@ -1,0 +1,7 @@
+Statistic,"Original (Paper 1, N=200)",Unconstrained (N=1000),Land-Constrained (N=1000),Land-Constrained (N=10000),Random Circles (N=10000)
+Monument (ancient) Z-score,11.83,11.14,7.08,6.74,3.45
+Monument (ancient) enrichment,5.05,4.91,2.54,2.52,12.1
+Settlement (ancient) Z-score,-0.95,-1.12,-2.78,-2.91,0.9
+Settlement (ancient) enrichment,0.78,0.74,0.51,0.5,3.06
+
+Mon-Set Z divergence,12.78,12.26,9.86,9.65,2.55

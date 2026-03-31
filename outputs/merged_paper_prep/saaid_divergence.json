@@ -1,0 +1,15 @@
+{
+  "task": "Task 2: SAAID Divergence Analysis",
+  "date": "2026-03-30",
+  "status": "CANNOT COMPUTE — DATA NOT FOUND",
+  "finding": "No SAAID data file exists anywhere in ~/megalith_site_research/. No analysis script references SAAID. The D=0.19 figure and the classification breakdown (209 monumental, 530 settlement, 180 cemetery) appear ONLY in paper prose across multiple draft versions.",
+  "search_performed": [
+    "find ~/megalith_site_research/ -iname '*saaid*'",
+    "find ~/megalith_site_research/ -iname '*south_american_archaeological_isotopic*'",
+    "grep -r 'saaid\\|SAAID' ~/megalith_site_research/ --include='*.py'",
+    "grep -r '2429\\|2,429' ~/megalith_site_research/analysis/ --include='*.json'",
+    "grep -r '209.*monumental\\|530.*settlement' ~/megalith_site_research/"
+  ],
+  "paper_attribution": "Paper 2 credits SAAID as 'Pandora/PACHAMAMA' isotopic database",
+  "action_required": "Download SAAID data from its source, save to data/saaid/, write analysis script, compute monument-settlement divergence at 1000 MC trials/50 km. Until then, D=0.19 is UNVERIFIED and should not be cited in the merged paper."
+}

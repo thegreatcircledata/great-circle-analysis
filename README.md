@@ -1,3 +1,19 @@
+## Paper Submitted
+
+**"Testing a proposed transcontinental great circle alignment: Land-constrained Monte Carlo baselines, geographic explanations, and localized monument divergence at the Memphis necropolis"**
+
+Submitted to Journal of Archaeological Science: Reports, March 2026.
+
+Preprint: [doi.org/10.5281/zenodo.19343291](https://doi.org/10.5281/zenodo.19343291)
+
+Companion study: Allan (under review). Preprint: [doi.org/10.5281/zenodo.19240285](https://doi.org/10.5281/zenodo.19240285)
+
+All verification outputs for reported statistics are in `outputs/merged_paper_prep/`.
+
+**Note:** Files in `archive/` are earlier draft versions and may contain uncorrected statistics from prior analysis stages. The authoritative manuscript is in `submission/`.
+
+---
+
 # The Great Circle: Statistical Analysis of Ancient Monumental Site Distribution
 
 **Papers:** [Paper 1 (Zenodo)](https://doi.org/10.5281/zenodo.19212669) | [Paper 2 (Zenodo)](https://doi.org/10.5281/zenodo.19212889) | [Paper 3 (Zenodo)](https://doi.org/10.5281/zenodo.19240285)
@@ -31,13 +47,14 @@ Applies point process models (PPM, LGCP, Thomas cluster process) to test monumen
 
 | Finding | Result |
 |---------|--------|
-| Megalithic Portal enrichment (50 km) | Z = 25.85 — **significant** |
-| Monument-settlement divergence (Pleiades) | Z = 9.98 — **significant** |
+| Megalithic Portal enrichment (50 km) | Z = 8.77 (land-constrained, N = 10,000) — **significant** |
+| Monument-settlement divergence (Pleiades, pre-2000 BCE) | D = 9.65 (land-constrained); monument Z = 6.74, settlement Z = −2.91 — **significant** |
+| Monument enrichment at divergence peak | 2.52× (land-constrained) |
+| XRONOS enrichment | Z = 5.91 (land-constrained, N = 1,000) — **significant** |
+| p3k14c enrichment | Z = 2.09 (land-constrained, p = 0.02) — marginal |
 | Civilization collinearity (4/7 within 200 km) | p = 0.00042 — **significant** |
 | GLiM arid-fertile transitions | 29 vs 4.5 expected — **significant** |
 | Tectonic plate boundaries crossed | 28 vs 13.9 expected (p = 0.007) |
-| PPM monument-settlement divergence | z = -7.34 (p = 2.16e-13) |
-| LGCP divergence (spatial autocorrelation control) | z = -1.16 (p = 0.245) — **not significant** |
 | Sakai Nazca blind test | p = 0.0017 — **significant** |
 | Exhaustive pole scan (filtered) | 98.3rd percentile |
 | Negative control (Historic England) | Z = 0.0 — **null confirmed** |
@@ -45,16 +62,18 @@ Applies point process models (PPM, LGCP, Thomas cluster process) to test monumen
 
 ## Database Z-Scores
 
-| Database | Sites | Z-Score (50 km) | Role |
-|----------|-------|-----------------|------|
-| Megalithic Portal | 61,913 | 25.85 | Primary |
-| Pleiades Gazetteer | 34,470 | 14.33 | Validation |
-| p3k14c Radiocarbon | 180,000+ | 12.47 | Temporal replication |
-| XRONOS | 350,000+ | 11.82 | Independent replication |
-| OSM Archaeological | 28,400+ | 9.71 | Community-sourced replication |
-| Wikidata | 15,200+ | 7.44 | Community-sourced replication |
-| DARE Roman Atlas | 29,760 | 6.15 | Classical-period validation |
+| Database | Sites | Z-Score (50 km, land-constrained) | Role |
+|----------|-------|-----------------------------------|------|
+| Megalithic Portal | 61,913 | 8.77 (N = 10,000) | Primary |
+| Pleiades Gazetteer | 34,470 | 6.74 (N = 10,000); monument/settlement divergence D = 9.65 | Divergence analysis |
+| p3k14c Radiocarbon | 36,693 | 2.09 (N = 1,000; p = 0.02) | Temporal replication |
+| XRONOS | 350,000+ | 5.91 (N = 1,000) | Independent replication |
+| OSM Archaeological | 28,400+ | excluded (circularity risk) | — |
+| Wikidata | 15,200+ | excluded (Pleiades dependency) | — |
+| DARE Roman Atlas | 29,760 | divergence D(LC) = 5.94 | Classification replication |
 | Historic England | 20,026 | 0.0 | Negative control (UK only) |
+
+*Statistics updated March 2026 to reflect land-constrained Monte Carlo baselines correcting for coastal jitter bias. See `submission/merged_paper_v5.md` for full methodology.*
 
 ## Repository Structure
 

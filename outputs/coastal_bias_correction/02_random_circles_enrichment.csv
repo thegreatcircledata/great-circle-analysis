@@ -1,0 +1,5 @@
+category,n_sites,observed,mc_mean,mc_std,z_score,enrichment,p_value
+monumental,4598,83,36.98,84.37,0.55,2.24,0.1546
+settlement,18037,118,144.97,262.28,-0.1,0.81,0.2981
+monumental_ancient,406,40,3.31,10.63,3.45,12.1,0.0203
+settlement_ancient,557,14,4.57,10.5,0.9,3.06,0.1094
