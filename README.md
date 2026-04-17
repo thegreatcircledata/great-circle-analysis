@@ -1,105 +1,79 @@
-## Paper Submitted
+# Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology
 
-**"Testing a proposed transcontinental great circle alignment: Land-constrained Monte Carlo baselines, geographic explanations, and localized monument divergence at the Memphis necropolis"**
+**Institute:** [Deep Time Research Institute](https://deeptime-research.org)
+**Author:** Elliot Allan — elliot@deeptime-research.org — ORCID [0009-0008-8541-0944](https://orcid.org/0009-0008-8541-0944)
+**Interactive globe:** [thegreatcircle.earth](https://thegreatcircle.earth) | **Article series:** [Substack](https://thegreatcircle.substack.com)
 
-Submitted to Journal of Archaeological Science: Reports, March 2026.
+> ⚠️ This repository is under active revision. The analysis described here corresponds to the manuscript currently under review. Some statistics may differ from earlier preprint versions. Files in `archive/` retain pre-correction numbers and are kept as historical record only.
 
-Preprint: [doi.org/10.5281/zenodo.19343291](https://doi.org/10.5281/zenodo.19343291)
+## Current Status
 
-Companion study: Allan (under review). Preprint: [doi.org/10.5281/zenodo.19240285](https://doi.org/10.5281/zenodo.19240285)
+| Paper | Title | Target | Status | Preprint |
+|---|---|---|---|---|
+| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | PLOS ONE | Under review | [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669) |
+| Collinearity | Collinearity of independently originated civilizations along a single great circle | Geoarchaeology (Wiley) | Under review | [zenodo.19240285](https://doi.org/10.5281/zenodo.19240285) |
 
-All verification outputs for reported statistics are in `outputs/merged_paper_prep/`.
-
-**Note:** Files in `archive/` are earlier draft versions and may contain uncorrected statistics from prior analysis stages. The authoritative manuscript is in `submission/`.
-
----
-
-# The Great Circle: Statistical Analysis of Ancient Monumental Site Distribution
-
-**Papers:** [Paper 1 (Zenodo)](https://doi.org/10.5281/zenodo.19212669) | [Paper 2 (Zenodo)](https://doi.org/10.5281/zenodo.19212889) | [Paper 3 (Zenodo)](https://doi.org/10.5281/zenodo.19240285)
-**Interactive Globe:** [thegreatcircle.earth](https://thegreatcircle.earth) | **Article Series:** [Substack](https://thegreatcircle.substack.com)
+Last updated: 2026-04-17.
 
 ## Summary
 
-A great circle defined by its pole at 59.682°N, 138.646°W has been proposed as a locus of anomalous clustering among ancient monumental sites (Alison, c. 2001). We tested this claim using eight archaeological databases totaling over 550,000 sites across three peer-reviewed papers covering empirical enrichment, temporal decomposition, and civilization collinearity.
+A great circle defined by its pole at 59.682122°N, 138.646087°W has been proposed as a locus of anomalous clustering among ancient monumental sites (Alison, c. 2001). This repository contains the code and data supporting a land-constrained Monte Carlo framework that corrects coastal jitter bias in corridor enrichment tests and applies it across eight independently compiled archaeological databases (~259,000 unique sites) to evaluate the alignment claim, together with a companion collinearity analysis of independent civilization origins along the same circle.
 
-## Paper Status
+After land-constrained correction, aggregate site enrichment is fully explained by the circle's path through habitable low-latitude terrain (78.5th percentile of habitability-matched circles; not significant). The residual finding is a monument-settlement divergence — monuments cluster while contemporaneous settlements are depleted — that localises to a single 250-year construction window at the Memphis necropolis during the Egyptian Old Kingdom. South American, Anatolian, astronomical, and pre-Younger Dryas alternative hypotheses are explicitly falsified.
 
-| Paper | Target | Status |
-|-------|--------|--------|
-| **Paper 1:** Empirical Enrichment Across Eight Databases | PLOS ONE | Under review |
-| **Paper 2:** Temporal Decomposition and Bias Controls | PLOS ONE | Under review |
-| **Paper 3:** Civilization Collinearity and Tectonic Mechanism | JAMT | Under review |
-
-### Paper 1 — Empirical Enrichment
-
-Tests whether monumental archaeological sites cluster near the great circle beyond chance expectation, using eight independent databases. Core finding: monument enrichment is statistically significant and replicates across all databases with monumental coverage, while the Historic England negative control returns null as expected. Validated via split-sample blinding, 100k random circle comparison, KDE-adjusted null models, and bandwidth sensitivity sweeps.
-
-### Paper 2 — Temporal Decomposition and Bias Controls
-
-Decomposes the enrichment signal by time period, monument type, and geography. The signal peaks at 2750-2500 BCE, is driven specifically by Egyptian Old Kingdom mortuary architecture, and survives preservation bias simulations, publication bias controls, fieldwork intensity corrections, and predictive validation on post-2001 discoveries. Includes 41 tests with Benjamini-Hochberg correction (22/23 positive findings survive at FDR=0.05).
-
-### Paper 3 — Civilization Collinearity and Tectonic Mechanism
-
-Applies point process models (PPM, LGCP, Thomas cluster process) to test monument-settlement divergence. Tests whether 4 of 7 independent civilization origins falling within 200 km is significant (p=0.00042) and evaluates tectonic plate boundary diversity and environmental circumscription as causal mechanisms. Includes the Sakai Nazca blind test, exhaustive pole scan, and cross-paper multiple testing correction.
+All headline statistics here are drawn from the verified numbers summary at `outputs/merged_paper_prep/SUMMARY.md` (2026-03-30, FINAL).
 
 ## Key Results
 
-| Finding | Result |
-|---------|--------|
-| Megalithic Portal enrichment (50 km) | Z = 8.77 (land-constrained, N = 10,000) — **significant** |
-| Monument-settlement divergence (Pleiades, pre-2000 BCE) | D = 9.65 (land-constrained); monument Z = 6.74, settlement Z = −2.91 — **significant** |
-| Monument enrichment at divergence peak | 2.52× (land-constrained) |
-| XRONOS enrichment | Z = 5.91 (land-constrained, N = 1,000) — **significant** |
-| p3k14c enrichment | Z = 2.09 (land-constrained, p = 0.02) — marginal |
-| Civilization collinearity (4/7 within 200 km) | p = 0.00042 — **significant** |
-| GLiM arid-fertile transitions | 29 vs 4.5 expected — **significant** |
-| Tectonic plate boundaries crossed | 28 vs 13.9 expected (p = 0.007) |
-| Sakai Nazca blind test | p = 0.0017 — **significant** |
-| Exhaustive pole scan (filtered) | 98.3rd percentile |
-| Negative control (Historic England) | Z = 0.0 — **null confirmed** |
-| Cross-paper BH correction (35 tests) | 26/35 survive at q = 0.05 |
+| Finding | Result | Source |
+|---|---|---|
+| Megalithic Portal enrichment (50 km, land-constrained) | Z = 8.77 (N = 10,000); 1.62× enrichment | `outputs/merged_paper_prep/portal_10k_land_constrained.json` |
+| Pleiades ancient monument enrichment (50 km, LC) | Z = 6.74; 2.52× enrichment | `outputs/merged_paper_prep/land_constrained_all_databases.json` |
+| Monument–settlement divergence (Pleiades, LC) | D = 9.65; monument Z = 6.74, settlement Z = −2.91 | `outputs/merged_paper_prep/SUMMARY.md` |
+| Random-pole baseline | 0 / 10,000 random great circles exceed the observed divergence; max random D = 0.90 | `outputs/merged_paper_prep/SUMMARY.md` |
+| Habitability-adjusted divergence | D = 10.44, 99.63rd percentile of 4,323 habitability-matched circles | `outputs/merged_paper_prep/SUMMARY.md` |
+| XRONOS enrichment (LC) | Z = 5.91 (N = 1,000); 1.40× | `outputs/merged_paper_prep/land_constrained_all_databases.json` |
+| p3k14c enrichment (LC) | Z = 2.09 (p = 0.02; marginal); 1.16× | `outputs/merged_paper_prep/land_constrained_all_databases.json` |
+| Civilization collinearity (Paper 3) | 4 of 7 independent origins within 200 km; p = 0.00042 | `analysis/paper3/` |
+| Historic England negative control | Z = 0.0; null as geometry predicts | `results/historic_england_negative_control.json` |
+| 108° pair hypothesis | Z = −8.01 — falsified | `outputs/merged_paper_prep/SUMMARY.md` |
+| Cross-paper BH correction (35 tests, q = 0.05) | 26 / 35 survive | Merged paper §4 |
 
-## Database Z-Scores
+## Database Inventory
 
-| Database | Sites | Z-Score (50 km, land-constrained) | Role |
-|----------|-------|-----------------------------------|------|
-| Megalithic Portal | 61,913 | 8.77 (N = 10,000) | Primary |
-| Pleiades Gazetteer | 34,470 | 6.74 (N = 10,000); monument/settlement divergence D = 9.65 | Divergence analysis |
-| p3k14c Radiocarbon | 36,693 | 2.09 (N = 1,000; p = 0.02) | Temporal replication |
-| XRONOS | 350,000+ | 5.91 (N = 1,000) | Independent replication |
-| OSM Archaeological | 28,400+ | excluded (circularity risk) | — |
-| Wikidata | 15,200+ | excluded (Pleiades dependency) | — |
-| DARE Roman Atlas | 29,760 | divergence D(LC) = 5.94 | Classification replication |
-| Historic England | 20,026 | 0.0 | Negative control (UK only) |
+| Database | Sites | Role | LC Z (50 km) |
+|---|---|---|---|
+| Megalithic Portal | 61,913 | Primary | 8.77 (N = 10,000) |
+| Pleiades Gazetteer | 34,470 total; 406 ancient monuments pre-2000 BCE | Divergence analysis | 6.74 (monuments); divergence D = 9.65 |
+| p3k14c Radiocarbon | 36,693 sites from 173,946 dates | Temporal replication | 2.09 (N = 1,000; p = 0.02) |
+| XRONOS | 28,127 sites from 305,400 records | Independent replication | 5.91 (N = 1,000) |
+| DARE Roman Atlas | 29,760 | Classification replication | Divergence D(LC) = 5.94 |
+| Peru Ministry of Culture | 17,465 | South American null test | — |
+| LuwianSiteAtlas | 483 | Anatolian null (0/500 km) | — |
+| Historic England | 20,026 | Negative control (UK only) | 0.0 |
+| OpenStreetMap archaeological | 28,400+ | Excluded (post-2001 contamination risk) | — |
+| Wikidata | 15,200+ | Excluded (Pleiades cross-linkage) | — |
 
-*Statistics updated March 2026 to reflect land-constrained Monte Carlo baselines correcting for coastal jitter bias. See `submission/merged_paper_v5.md` for full methodology.*
+Land-constrained Monte Carlo baselines reduce observed Z-scores by 34–73% versus standard coastal-jittered baselines across the four databases where the correction was computed. See `submission/` and `outputs/merged_paper_prep/SUMMARY.md` for full methodology.
 
 ## Repository Structure
 
 ```
 analysis/             Python analysis scripts
-  core/                 Great circle enrichment, settlement baseline (Paper 1)
-  validation/           Split-sample, divergence 10K, cross-validation (Paper 1)
-  decomposition/        Hemisphere, continental, habitability (Papers 1-2)
-  robustness/           Data quality, KDE, stratified Monte Carlo (Paper 1)
-  databases/            DARE, Historic England, OSM, XRONOS tests (Papers 1-2)
-  statistical/          BH correction, multi-scale enrichment (Paper 2)
-  paper2/               All Paper 2 analyses (temporal, bias, hardening, etc.)
-  paper3/               All Paper 3 analyses (PPM, collinearity, tectonic, etc.)
-data/                 Processed datasets
-  megalithic_portal/    KML site files
-  pleiades/             Pleiades gazetteer CSV
-  p3k14c/               Radiocarbon dates
-  dare/                 DARE GeoJSON
-  historic_england/     Scheduled monuments
-  paper2/               Paper 2 specific data (paleoclimate, etc.)
-  paper3/               Paper 3 specific data (civilization coordinates, etc.)
+  core/                 Great circle enrichment, settlement baseline
+  validation/           Split-sample, divergence 10K, cross-validation
+  decomposition/        Hemisphere, continental, habitability
+  robustness/           Data quality, KDE, stratified Monte Carlo
+  databases/            DARE, Historic England, OSM, XRONOS tests
+  statistical/          BH correction, multi-scale enrichment
+  paper3/               Collinearity paper (PPM, LGCP, Thomas cluster)
+data/                 Processed datasets (see download_data.sh for large files)
+outputs/              Computed JSON outputs
+  merged_paper_prep/    Verified headline-number source of truth (SUMMARY.md)
 results/              Analysis outputs (JSON)
-  paper2/               Paper 2 result directories
-  paper3/               Paper 3 result JSONs
 figures/              Publication-ready figures
-paper/                Paper 1 manuscript
+submission/           Prior submission package (JAS:Reports v5) — historical; current submission at PLOS ONE
+archive/              Earlier draft versions — contain pre-correction numbers; kept for record only
 docs/                 Supplementary documentation
 ```
 
@@ -109,35 +83,30 @@ docs/                 Supplementary documentation
 # Install dependencies
 pip install -r requirements.txt
 
-# Paper 1 — Core analysis
+# Download large data files not included in repo
+bash download_data.sh
+
+# Core analysis (merged paper)
 python analysis/great_circle_test.py
 python analysis/settlement_baseline_test.py
 python analysis/directive1_split_sample.py
 
-# Paper 2 — Temporal decomposition
-python analysis/paper2/temporal_decomposition.py
-python analysis/paper2/next_wave/s4_monument_type_decomposition.py
-python analysis/paper2/bh_correction.py
-
-# Paper 3 — Point process models
+# Collinearity paper
 python analysis/paper3/03_point_process_model.py
 python analysis/paper3/12_independent_origins_test.py
 python analysis/paper3/15_tectonic_diversity_test.py
 Rscript analysis/paper3/13_kppm_cluster_process.R
 Rscript analysis/paper3/19_lgcp_model.R
-
-# Download large data files not included in repo
-bash download_data.sh
 ```
 
-The Great Circle pole is defined at: **59.682122°N, -138.646087°W**.
+The Great Circle pole is defined at **59.682122°N, −138.646087°W**. This pole definition was not optimised or adjusted against any database in this study.
 
 All analysis scripts read from `data/` and write to `results/` or `outputs/`.
 
 ## Data Sources
 
 | Database | Source | License |
-|----------|--------|---------|
+|---|---|---|
 | Megalithic Portal | megalithic.co.uk | Used with permission |
 | Pleiades Gazetteer | pleiades.stoa.org | CC-BY 3.0 |
 | p3k14c | Bird et al. (2022) | CC-BY 4.0 |
@@ -151,12 +120,16 @@ All analysis scripts read from `data/` and write to `results/` or `outputs/`.
 
 ## Citation
 
-**Paper 1:** Allan, E. (2026). Statistical Analysis of Ancient Monumental Site Distribution Along a Proposed Great Circle. Zenodo. https://doi.org/10.5281/zenodo.19212669
+**Merged GC paper:**
+Allan, E. (2026). *Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment.* Deep Time Research Institute. Zenodo. https://doi.org/10.5281/zenodo.19212669
 
-**Paper 2:** Allan, E. (2026). Temporal Decomposition of Great Circle Monument Enrichment. Zenodo. https://doi.org/10.5281/zenodo.19212889
+**Collinearity paper:**
+Allan, E. (2026). *Collinearity of independently originated civilizations along a single great circle.* Deep Time Research Institute. Zenodo. https://doi.org/10.5281/zenodo.19240285
 
-**Paper 3:** Allan, E. (2026). Civilization Collinearity and Tectonic Mechanism Along a Proposed Great Circle. Zenodo. https://doi.org/10.5281/zenodo.19240285
+## AI disclosure
+
+Claude (Anthropic) was used as a computational research assistant for code generation, Monte Carlo simulation design, and manuscript drafting. All analyses were conceived, directed, and verified by the author, who takes full responsibility for the content.
 
 ## License
 
-MIT (code) | CC-BY 4.0 (data, where original licenses permit)
+MIT (code) | CC-BY 4.0 (data, where original licenses permit). The corresponding author is affiliated with the Deep Time Research Institute, a registered 501(c)(3) nonprofit research organisation.

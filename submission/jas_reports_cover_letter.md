@@ -1,3 +1,5 @@
+> **Historical record — superseded submission (JAS:Reports v5).** This file is the cover letter for a prior submission to Journal of Archaeological Science: Reports. The manuscript has since been revised and resubmitted to PLOS ONE (v8, 2026-04-17; preprint [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669)). Retained as historical record.
+
 Dear Editor,
 
 I am submitting the enclosed manuscript, "Testing a proposed transcontinental great circle alignment: Land-constrained Monte Carlo baselines, geographic explanations, and localized monument divergence at the Memphis necropolis," for consideration as a Research Article in the Journal of Archaeological Science: Reports.
@@ -21,7 +23,7 @@ Thank you for your consideration.
 Sincerely,
 
 Elliot Allan
-Independent Researcher
-New York, United States
-ellallan@proton.me
+Deep Time Research Institute
+New York, NY, USA
+elliot@deeptime-research.org
 ORCID: 0009-0008-8541-0944

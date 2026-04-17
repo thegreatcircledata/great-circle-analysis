@@ -1,5 +1,12 @@
-PLOS ONE COMPLIANT WORD DOCUMENT - SUBMISSION PACKAGE
-=====================================================
+PLOS ONE COMPLIANT WORD DOCUMENT - SUBMISSION PACKAGE (HISTORICAL RECORD)
+=========================================================================
+
+NOTE (2026-04-17): This file documents an EARLIER submission package for the
+now-superseded "Paper 2" manuscript (submitted March 2026, withdrawn by author
+after manuscript splitting feedback). Papers 1 and 2 have since been merged and
+resubmitted to PLOS ONE as a single manuscript (v8, 2026-04-17; preprint
+zenodo.19212669). This file is retained as historical record of the prior
+submission only; numbers and claims here may have been refined.
 
 Created: 2026-03-24
 Source: paper2_draft_v2.md (469 lines)
@@ -35,8 +42,8 @@ MANUSCRIPT STRUCTURE
 1. TITLE PAGE
    - Full title: "From Migration to Monumentality: The Alison Great Circle as a 60,000-Year Human Corridor"
    - Author: Elliot Allan
-   - Affiliation: Independent Researcher, New York, United States
-   - Corresponding Author: ellallan@proton.me
+   - Affiliation: Deep Time Research Institute, New York, NY, USA
+   - Corresponding Author: elliot@deeptime-research.org
    - ORCID: [Placeholder] - user should add actual ORCID
    - Short Title: "The Great Circle as a 60,000-Year Corridor"
 
@@ -108,7 +115,7 @@ MISSING ELEMENTS (USER MUST ADD)
 
 3. ORCID: Placeholder [Placeholder] should be replaced with actual ORCID
 
-4. CORRESPONDING AUTHOR CONFIRMATION: Verify ellallan@proton.me is correct
+4. CORRESPONDING AUTHOR CONFIRMATION: Verify elliot@deeptime-research.org is correct
 
 REFERENCE VALIDATION
 ====================
@@ -163,4 +170,4 @@ CONTACT
 All data, code, and analysis available at:
 github.com/thegreatcircledata/great-circle-analysis
 
-Corresponding Author: ellallan@proton.me
+Corresponding Author: elliot@deeptime-research.org

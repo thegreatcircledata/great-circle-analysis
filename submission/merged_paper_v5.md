@@ -1,7 +1,10 @@
 # Testing a proposed transcontinental great circle alignment: Land-constrained Monte Carlo baselines, geographic explanations, and localized monument divergence at the Memphis necropolis
 
-**Author:** Elliot Allan
-**Correspondence:** ellallan@proton.me
+> **Historical record — v5 (JAS:Reports, superseded).** This manuscript was the prior Journal of Archaeological Science: Reports submission. It has since been revised and resubmitted to PLOS ONE (v8, 2026-04-17; preprint [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669)). Numbers in this file may have been refined in v8; retained as historical record only.
+
+**Author:** Elliot Allan, Deep Time Research Institute
+**Correspondence:** elliot@deeptime-research.org
+**ORCID:** 0009-0008-8541-0944
 **Preprints:** Earlier versions of this work were deposited as preprints: v1–v4 at doi.org/10.5281/zenodo.19212669. Companion study: Allan (under review), preprint at doi.org/10.5281/zenodo.19240285.
 **Data and code:** github.com/thegreatcircledata/great-circle-analysis
 
