@@ -10,10 +10,10 @@
 
 | Paper | Title | Target | Status | Preprint |
 |---|---|---|---|---|
-| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | PLOS ONE | Under review | [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669) |
+| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | Scientific Reports | Under review | [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669) |
 | Collinearity | Collinearity of independently originated civilizations along a single great circle | Geoarchaeology (Wiley) | Under review | [zenodo.19240285](https://doi.org/10.5281/zenodo.19240285) |
 
-Last updated: 2026-04-17.
+Last updated: 2026-05-13.
 
 ## Summary
 
@@ -35,9 +35,9 @@ All headline statistics here are drawn from the verified numbers summary at `out
 | XRONOS enrichment (LC) | Z = 5.91 (N = 1,000); 1.40× | `outputs/merged_paper_prep/land_constrained_all_databases.json` |
 | p3k14c enrichment (LC) | Z = 2.09 (p = 0.02; marginal); 1.16× | `outputs/merged_paper_prep/land_constrained_all_databases.json` |
 | Civilization collinearity (Paper 3) | 4 of 7 independent origins within 200 km; p = 0.00042 | `analysis/paper3/` |
-| Historic England negative control | Z = 0.0; null as geometry predicts | `results/historic_england_negative_control.json` |
+| Historic England negative control | D = 0.0; null as geometry predicts | `results/historic_england_negative_control.json` |
 | 108° pair hypothesis | Z = −8.01 — falsified | `outputs/merged_paper_prep/SUMMARY.md` |
-| Cross-paper BH correction (35 tests, q = 0.05) | 26 / 35 survive | Merged paper §4 |
+| Cross-paper BH correction (q = 0.05) | [needs verification — pre-LC BH table awaiting re-run] | Merged paper §4 |
 
 ## Database Inventory
 
@@ -121,7 +121,7 @@ All analysis scripts read from `data/` and write to `results/` or `outputs/`.
 ## Citation
 
 **Merged GC paper:**
-Allan, E. (2026). *Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment.* Deep Time Research Institute. Zenodo. https://doi.org/10.5281/zenodo.19212669
+Allan, E. (2026). *Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment.* Zenodo (v9.3, concept DOI). https://doi.org/10.5281/zenodo.19046175
 
 **Collinearity paper:**
 Allan, E. (2026). *Collinearity of independently originated civilizations along a single great circle.* Deep Time Research Institute. Zenodo. https://doi.org/10.5281/zenodo.19240285
