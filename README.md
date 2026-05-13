@@ -1,4 +1,4 @@
-# Land-constrained Monte Carlo baselines for corridor enrichment analysis in archaeology
+# Land-constrained Monte Carlo baselines for corridor enrichment analysis
 
 **Institute:** [Deep Time Research Institute](https://deeptime-research.org)
 **Author:** Elliot Allan — elliot@deeptime-research.org — ORCID [0009-0008-8541-0944](https://orcid.org/0009-0008-8541-0944)
@@ -10,8 +10,8 @@
 
 | Paper | Title | Target | Status | Preprint |
 |---|---|---|---|---|
-| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | Scientific Reports | Under review | [zenodo.19212669](https://doi.org/10.5281/zenodo.19212669) |
-| Collinearity | Collinearity of independently originated civilizations along a single great circle | Geoarchaeology (Wiley) | Under review | [zenodo.19240285](https://doi.org/10.5281/zenodo.19240285) |
+| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | Scientific Reports | Under review | [zenodo.19046175](https://doi.org/10.5281/zenodo.19046175) |
+| Quantifying TCC | Quantifying tectonic–climatic circumscription: a reproducible spatial-statistical test at primary-state locations | Humanities and Social Sciences Communications | Under review | [zenodo.19240284](https://doi.org/10.5281/zenodo.19240284) |
 
 Last updated: 2026-05-13.
 
@@ -72,7 +72,7 @@ outputs/              Computed JSON outputs
   merged_paper_prep/    Verified headline-number source of truth (SUMMARY.md)
 results/              Analysis outputs (JSON)
 figures/              Publication-ready figures
-submission/           Prior submission package (JAS:Reports v5) — historical; current submission at PLOS ONE
+submission/           Prior submission packages — historical; current submission at Scientific Reports
 archive/              Earlier draft versions — contain pre-correction numbers; kept for record only
 docs/                 Supplementary documentation
 ```
@@ -123,8 +123,8 @@ All analysis scripts read from `data/` and write to `results/` or `outputs/`.
 **Merged GC paper:**
 Allan, E. (2026). *Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment.* Zenodo (v9.3, concept DOI). https://doi.org/10.5281/zenodo.19046175
 
-**Collinearity paper:**
-Allan, E. (2026). *Collinearity of independently originated civilizations along a single great circle.* Deep Time Research Institute. Zenodo. https://doi.org/10.5281/zenodo.19240285
+**Paper 3 (Quantifying TCC):**
+Allan, E. (2026). *Quantifying tectonic–climatic circumscription: a reproducible spatial-statistical test at primary-state locations.* Deep Time Research Institute. Zenodo (concept DOI). https://doi.org/10.5281/zenodo.19240284
 
 ## AI disclosure
 
