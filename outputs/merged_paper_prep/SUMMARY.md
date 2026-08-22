@@ -114,8 +114,9 @@ Sources: `land_constrained_all_databases.json`, `portal_10k_land_constrained.jso
 - Nulls: agricultural 0.57, lithology 0.74, groundwater 0.37
 
 ### Aggregate
-- ~259,000 unique sites across 10 databases
-- ~637,000 raw entries/dates (use "entries" not "sites"; "550,000" in paper was an undercount)
+- 228,937 site records across the 8 primary databases (sum of per-database counts after within-database deduplication — NOT a cross-database union; no cross-database dedup was performed)
+- 643,420 raw entries/dates across those 8; state as "over 640,000" (use "entries" not "sites"; "550,000" in the paper was an undercount)
+- Note: the 258,948 / ~637,000 totals in `database_inventory.json` cover TEN databases, including SAAID (2,429, excluded by the paper) and CNSA/IPHAN (27,582, never a primary database). That file is correct for what it measures; do not join it to the paper's eight-database framing.
 
 ---
 
@@ -129,7 +130,7 @@ Sources: `land_constrained_all_databases.json`, `portal_10k_land_constrained.jso
 6. **p3k14c Z = 2.09** (land-constrained, N=1000) replaces Z = 7.86; p=0.02 (marginal)
 7. **Enrichment 2.52×** (Pleiades ancient monuments) replaces 5.05×
 8. **D = 9.65** (land-constrained) replaces D = 12.78/9.98
-9. **637,000 is entries/dates** (not unique sites ~259K; "550K" in paper was undercount)
+9. **640,000+ is entries/dates** (not site records; the 8-database record count is 228,937, not ~259K — that total was the ten-database inventory; "550K" in paper was undercount)
 10. **SAAID D = 0.19 is UNVERIFIED** — data file not found anywhere
 
 ---

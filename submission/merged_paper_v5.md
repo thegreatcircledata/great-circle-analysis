@@ -12,7 +12,7 @@
 
 ## Abstract
 
-We test whether ancient archaeological sites cluster along the great circle of Alison (c. 2001), with pole at 59.682122°N, 138.646087°W, across eight independent databases comprising approximately 259,000 unique sites. Land-constrained Monte Carlo baselines correct for coastal jitter bias absent from prior great circle enrichment tests.
+We test whether ancient archaeological sites cluster along the great circle of Alison (c. 2001), with pole at 59.682122°N, 138.646087°W, across eight independently compiled databases comprising 228,937 site records. Land-constrained Monte Carlo baselines correct for coastal jitter bias absent from prior great circle enrichment tests.
 
 Overall enrichment is significant on three of four corrected databases (Megalithic Portal Z = 8.77, Pleiades Z = 6.74, XRONOS Z = 5.91) and marginal on a fourth (p3k14c Z = 2.09). After habitability adjustment, enrichment falls to the 78.5th percentile of matched circles: the circle's path through the Nile Valley, Mesopotamia, the Levant, and the Indus floodplain accounts for the site-count signal.
 
@@ -504,7 +504,7 @@ Primary threshold 50 km. LC trials = number of Monte Carlo iterations under land
 | Historic England | 20,026 | 0 | 0.0 | 0.0 | — | — | No | Negative control; circle does not pass through England; zero sites within 500 km |
 | LuwianSiteAtlas | 483 | 0 | — | — | — | — | No | Bronze Age western Anatolia 2000–1200 BCE; complete null |
 
-**Notes on site counts:** ~259,000 unique sites total across all 8 databases; over 550,000 raw entries, dates, and records (550,000 = entries/records, NOT unique sites). Paper 1 (Allan 2026a) used 25,557 p3k14c sites (lat/lon dedup); this study uses 36,693 (SiteID dedup, more complete); same 187 on-corridor sites in both.
+**Notes on site counts:** 228,937 site records total across all 8 databases — a sum of per-database counts after within-database deduplication, not a cross-database union; over 640,000 raw entries, dates, and records (640,000 = entries/records, NOT site records). Paper 1 (Allan 2026a) used 25,557 p3k14c sites (lat/lon dedup); this study uses 36,693 (SiteID dedup, more complete); same 187 on-corridor sites in both.
 
 **Habitability-adjusted result:** 78.5th percentile of 4,323 habitability-matched circles. Overall site-count enrichment is not significant after habitability adjustment.
 

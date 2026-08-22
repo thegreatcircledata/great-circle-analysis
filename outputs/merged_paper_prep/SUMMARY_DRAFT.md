@@ -171,8 +171,9 @@
 ---
 
 ## Aggregate
-- 10 databases, ~259,000 unique sites, ~550,000+ raw entries/dates
-- "550,000" refers to entries/dates, NOT unique sites
+- 8 primary databases, 228,937 site records, over 640,000 raw entries/dates
+- "640,000" refers to entries/dates, NOT site records
+- 228,937 is a sum of per-database counts after within-database deduplication, not a cross-database union. The ~259,000 figure was the TEN-database inventory total (258,948), which includes SAAID and CNSA/IPHAN — neither is in the paper's corpus.
 
 ---
 

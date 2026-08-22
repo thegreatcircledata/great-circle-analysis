@@ -6,7 +6,7 @@
 
 There's a claim that has circulated in alternative-history writing for two decades: many of the world's most famous ancient sites — the Great Pyramids at Giza, Nazca, Angkor Wat, Easter Island, Persepolis, Mohenjo-daro — lie suspiciously close to a single great circle around the Earth. A great circle is the intersection of Earth's surface with any plane through its centre; this one is tilted roughly 30° from the equator and passes through North Africa, South Asia, the Pacific, and South America.
 
-The claim was proposed by Jim Alison in 2001. Informal demonstrations typically cite a handful of famous sites. Until recently, no formal statistical test had been published. We tested it with eight independent archaeological databases comprising approximately 259,000 unique sites.
+The claim was proposed by Jim Alison in 2001. Informal demonstrations typically cite a handful of famous sites. Until recently, no formal statistical test had been published. We tested it with eight independently compiled archaeological databases comprising 228,937 site records.
 
 ## The Test
 

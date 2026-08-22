@@ -17,7 +17,7 @@ Last updated: 2026-05-13.
 
 ## Summary
 
-A great circle defined by its pole at 59.682122°N, 138.646087°W has been proposed as a locus of anomalous clustering among ancient monumental sites (Alison, c. 2001). This repository contains the code and data supporting a land-constrained Monte Carlo framework that corrects coastal jitter bias in corridor enrichment tests and applies it across eight independently compiled archaeological databases (~259,000 unique sites) to evaluate the alignment claim, together with a companion collinearity analysis of independent civilization origins along the same circle.
+A great circle defined by its pole at 59.682122°N, 138.646087°W has been proposed as a locus of anomalous clustering among ancient monumental sites (Alison, c. 2001). This repository contains the code and data supporting a land-constrained Monte Carlo framework that corrects coastal jitter bias in corridor enrichment tests and applies it across eight independently compiled archaeological databases (228,937 site records, from over 640,000 raw entries) to evaluate the alignment claim, together with a companion collinearity analysis of independent civilization origins along the same circle.
 
 After land-constrained correction, aggregate site enrichment is fully explained by the circle's path through habitable low-latitude terrain (78.5th percentile of habitability-matched circles; not significant). The residual finding is a monument-settlement divergence — monuments cluster while contemporaneous settlements are depleted — that localises to a single 250-year construction window at the Memphis necropolis during the Egyptian Old Kingdom. South American, Anatolian, astronomical, and pre-Younger Dryas alternative hypotheses are explicitly falsified.
 
