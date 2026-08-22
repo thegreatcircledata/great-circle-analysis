@@ -86,7 +86,7 @@ The great circle is defined by the pole at 59.682122°N, 138.646087°W, first do
 
 ### 2.12 Aggregate statistics
 
-Across all eight primary databases, the study encompasses approximately 259,000 unique sites and over 550,000 database entries. The distinction between entries and sites matters: the 550,000 figure refers to dated records and raw database entries; the approximately 259,000 figure is the deduplicated site count used in spatial analyses.
+Across all eight primary databases, the study encompasses 228,937 site records and over 640,000 database entries. The distinction between entries and records matters: the 640,000 figure refers to dated records and raw database entries; the 228,937 figure is the sum of per-database site counts after within-database deduplication. No cross-database deduplication was performed, so this figure is a sum and not a union — the number of distinct sites is lower by an unquantified margin.
 
 ---
 
