@@ -2,6 +2,19 @@
 
 **Date:** 2026-03-22
 
+> **Note added 2026-08-29.** The figures in this file are the output of the runs of
+> 2026-03-22. Some of them were carried into Allan, E., 2026, *A comprehensive statistical
+> evaluation of the Orion–Giza correlation*, Journal of Astronomical History and Heritage
+> 29(2), 367–378, doi:10.3724/SP.J.1440-2807.2026.02.06, and are superseded by a correction
+> in process at the journal. The figures affected are:
+>
+> - the count of 122 stars brighter than magnitude 3.0 (line 79);
+> - the total of 295,240 bright triplets (line 81);
+> - the 51,330 collinear triplets, and the 1/51,330 prior derived from it (lines 82, 86, 141).
+>
+> The accompanying `results.json` records the same run and is unchanged.
+> The values above are left as the runs produced them.
+
 ## Phase 1: Cross-Cultural Orion Belt References
 
 **20 independent cultures** document Orion's Belt as a named asterism.

@@ -1,5 +1,16 @@
 # O5 Information-Theoretic Framing
 
+> **Note added 2026-08-29.** The figures in this file are the output of the runs of
+> 2026-03-22. Some of them were carried into Allan, E., 2026, *A comprehensive statistical
+> evaluation of the Orion–Giza correlation*, Journal of Astronomical History and Heritage
+> 29(2), 367–378, doi:10.3724/SP.J.1440-2807.2026.02.06, and are superseded by a correction
+> in process at the journal. The figures affected are:
+>
+> - the total of 695,520 triplets and the catalogue size of 162 stars (line 28).
+>
+> The accompanying `results.json` records the same run and is unchanged.
+> The values above are left as the runs produced them.
+
 ## Phase 1: Degrees of Freedom Analysis
 
 Three points in 2D = 6 coordinates. Procrustes alignment removes 4 DOF

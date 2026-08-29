@@ -1,4 +1,18 @@
 # O7: Why Not Better — Analysis Results
+
+> **Note added 2026-08-29.** The figures in this file are the output of the runs of
+> 2026-03-22. Some of them were carried into Allan, E., 2026, *A comprehensive statistical
+> evaluation of the Orion–Giza correlation*, Journal of Astronomical History and Heritage
+> 29(2), 367–378, doi:10.3724/SP.J.1440-2807.2026.02.06, and are superseded by a correction
+> in process at the journal. The figures affected are:
+>
+> - Orion's Belt at rank 1,717, and the total of 695,520 triplets (lines 60, 92, 93);
+> - the Procrustes disparity of 0.000342 (lines 61, 92, 93);
+> - the count of 1,716 triplets with a better match (line 62);
+> - the identities of the rank-1 and rank-2 triplets (lines 70, 71).
+>
+> The accompanying `results.json` records the same run and is unchanged.
+> The values above are left as the runs produced them.
 ## Phase 1: Procrustes Residual Characterization
 **Optimal Procrustes disparity:** 0.000347
 **Matching:** Khufu <-> Mintaka | Khafre <-> Alnilam | Menkaure <-> Alnitak
