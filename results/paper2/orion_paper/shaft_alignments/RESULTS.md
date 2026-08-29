@@ -1,5 +1,21 @@
 # O3: Great Pyramid Shaft Alignment Test
 
+> **Note added 2026-08-29.** The figures in this file are the output of the runs of
+> 2026-03-22. Some of them were carried into Allan, E., 2026, *A comprehensive statistical
+> evaluation of the Orion–Giza correlation*, Journal of Astronomical History and Heritage
+> 29(2), 367–378, doi:10.3724/SP.J.1440-2807.2026.02.06, and are superseded by a correction
+> in process at the journal. The figures affected are:
+>
+> - the catalogue size of 162 stars, in the N column of the Phase 4 table (lines 88–91).
+>
+> For this study the corrected figure is not simply the value used elsewhere in the paper.
+> The correction record notes that the shaft study ran on a different star count from the
+> rest of the analysis, one more than the catalogue size used elsewhere, both before and
+> after the correction. See the DOI above.
+>
+> The accompanying `results.json` records the same run and is unchanged.
+> The values above are left as the runs produced them.
+
 ## Overview
 
 Tests whether the four Great Pyramid internal shafts align to specific
