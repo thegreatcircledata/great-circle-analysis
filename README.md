@@ -4,16 +4,16 @@
 **Author:** Elliot Allan — elliot@deeptime-research.org — ORCID [0009-0008-8541-0944](https://orcid.org/0009-0008-8541-0944)
 **Interactive globe:** [thegreatcircle.earth](https://thegreatcircle.earth) | **Article series:** [Substack](https://thegreatcircle.substack.com)
 
-> ⚠️ This repository is under active revision. The analysis described here corresponds to the manuscript currently under review. Some statistics may differ from earlier preprint versions. Files in `archive/` retain pre-correction numbers and are kept as historical record only.
+> ⚠️ This repository is under active revision, and the manuscript it supports was **withdrawn from peer review on 2026-08-21**. Some statistics differ from earlier preprint versions; where they do, the earlier value is the wrong one. An `archive/` directory of superseded drafts was **removed from this repository on 2026-08-23** — it carried pre-correction figures including an unconstrained monument enrichment of 5.05× (the land-constrained value is 2.52×), a raw Z of 25.85, and a six-cluster framing the project no longer uses. Those drafts remain in git history and can be recovered from it if needed. Files in `archive/` retain pre-correction numbers and are kept as historical record only.
 
 ## Current Status
 
 | Paper | Title | Target | Status | Preprint |
 |---|---|---|---|---|
-| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | Scientific Reports | Under review | [zenodo.19046175](https://doi.org/10.5281/zenodo.19046175) |
+| Merged GC | Land-constrained Monte Carlo baselines for corridor enrichment analysis: correcting coastal jitter bias and testing a proposed transcontinental great circle alignment | None — withdrawn 2026-08-21 | Withdrawn from peer review | [zenodo.19046175](https://doi.org/10.5281/zenodo.19046175) |
 | Quantifying TCC | Quantifying tectonic–climatic circumscription: a reproducible spatial-statistical test at primary-state locations | Humanities and Social Sciences Communications | Under review | [zenodo.19240284](https://doi.org/10.5281/zenodo.19240284) |
 
-Last updated: 2026-05-13.
+Last updated: 2026-08-23.
 
 ## Summary
 
@@ -72,8 +72,7 @@ outputs/              Computed JSON outputs
   merged_paper_prep/    Verified headline-number source of truth (SUMMARY.md)
 results/              Analysis outputs (JSON)
 figures/              Publication-ready figures
-submission/           Prior submission packages — historical; current submission at Scientific Reports
-archive/              Earlier draft versions — contain pre-correction numbers; kept for record only
+submission/           Prior submission packages — historical
 docs/                 Supplementary documentation
 ```
 
