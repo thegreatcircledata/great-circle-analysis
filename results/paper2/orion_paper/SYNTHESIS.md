@@ -4,6 +4,20 @@
 **Studies:** O1–O7 (all complete)
 **Repository:** megalith_site_research/outputs/orion_paper/
 
+> **Note added 2026-08-29.** The figures in this file are the output of the runs of
+> 2026-03-22. Some of them were carried into Allan, E., 2026, *A comprehensive statistical
+> evaluation of the Orion–Giza correlation*, Journal of Astronomical History and Heritage
+> 29(2), 367–378, doi:10.3724/SP.J.1440-2807.2026.02.06, and are superseded by a correction
+> in process at the journal. The figures affected are:
+>
+> - the catalogue size of 162 stars (line 80);
+> - the count of 122 brightest stars and the 51,330 collinear triplets among them (line 113);
+> - the count of 1,716 better-matching triplets (line 183);
+> - the identities of the rank-1 and rank-2 triplets (line 184);
+> - Orion's Belt at rank 1,717 (lines 186 and 188).
+>
+> The values above are left as the runs produced them.
+
 ---
 
 ## Core Findings (from prior work)
